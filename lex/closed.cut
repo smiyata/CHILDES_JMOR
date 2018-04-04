@@ -71,7 +71,7 @@ gokko	{[scat vnsfx]} =game= %
 goto	{[scat nsfx]} =each=
 hime	{[scat nsfx]} =princess=
 %joo	{[scat nsfx]} ==
-%juu	{[scat nsfx]} =throughout=
+juu	{[scat nsfx]} =throughout=
 %ka	{[scat nsfx]} ==
 %kko	{[scat nsfx]} ==
 kun	{[scat nsfx]} =MASC_FAM=
@@ -141,6 +141,7 @@ yuki	{[scat npropsfx]} =bound_for=
 % adjective suffixes	########
 %%%% tense %%%%%%
 i	{[scat atense] [tense pres]} "PRES"
+q	{[scat atense] [tense pres]} "PRES"
 katta	{[scat atense] [tense past]} "PAST"
 karoo	{[scat atense] [tense past]} "HORT"
 ku	{[scat atense] [tense inf] [infl -]} "ADV"

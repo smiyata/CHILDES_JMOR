@@ -1,5 +1,5 @@
 @UTF8
-%%% VERBAL NOUNS %%
+xf%%% VERBAL NOUNS %%
 	ai	{[scat n:vn]} =love=
 	aichaku	{[scat n:vn]} =attachment=	%【愛着】
 	aisatsu	{[scat n:vn]} =greeting=	%【あいさつ】(〈挨拶〉)
@@ -333,6 +333,7 @@
 	imi	{[scat n:vn] [sn +] [ncf imi]} =meaning=	%【意味】-
 	inchiki	{[scat n:vn]} =fake=	%
 	inekari	{[scat n:vn]} =rice_harvesting=	%【稲刈り】
+	inori	{[scat n:vn]} =praying=	%【祈り】
 	inochibiroi	{[scat n:vn]} =narrow_escape=	%【命拾い】
 	insatsu	{[scat n:vn]} =printing=	%【印刷】
 	inshu	{[scat n:vn]} =alc_drinking=	%【飲酒】

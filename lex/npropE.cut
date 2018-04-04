@@ -82,6 +82,7 @@ Beteriikokooshaku	{[scat n:prop]} =Prince_Beteriiko= "Beteriiko-kooshaku"
 Birii	{[scat n:prop]} =Billy=
 booro	{[scat n:prop]} =Booro_sweets=
 bunchan	{[scat n:prop]} =Bun_FAM= "Bun-chan"
+Bunchan	{[scat n:prop]} =Bun_FAM= "Bun-chan"
 Bigguee	{[scat n:prop]} "Biggu_ee" =B_supermarket=
 Biikuru	{[scat n:prop]} =Biikuru_car=
 Bobu	{[scat n:prop]} =Bob=
@@ -310,9 +311,10 @@ Kinkikizzu	{[scat n:prop]} =KinKiKids_pop_duo=
 Kinuta	{[scat n:prop]} =Kinuta=
 kinuta	{[scat n:prop]} =Kinuta= "Kinuta"
 Kiriko	{[scat n:prop]} =Kiriko=
-Kitii	{[scat n:prop]} =Kitty= "Kittii"
-Kittii	{[scat n:prop]} =Kitty=
-kittii	{[scat n:prop]} =Kitty= "Kittii"
+Kiti	{[scat n:prop]} =Kitty=
+Kitii	{[scat n:prop]} =Kitty= "Kiti"
+Kittii	{[scat n:prop]} =Kitty= "Kiti"
+kittii	{[scat n:prop]} =Kitty= "Kiti"
 Kiyomi	{[scat n:prop]} =Kiyomi=
 kodomo_no_kuni	{[scat n:prop]} =Kids_kingdom=
 Kojima	{[scat n:prop]} =Kojima=
@@ -466,6 +468,7 @@ Nobu	{[scat n:prop]} =Nobu=
 Nogo	{[scat n:prop]} =Nogo= 
 Noi	{[scat n:prop]} =Noi=
 nokochan	{[scat n:prop]} =Noko_FAM= "Noko-chan"
+Nokochan	{[scat n:prop]} =Noko_FAM= "Noko-chan"
 Non	{[scat n:prop]} =Non= 
 Nonnon	{[scat n:prop]} =Nonnon= 
 nonnon	{[scat n:prop]} =Nonnon= "Nonnon"
@@ -613,6 +616,8 @@ santa	{[scat n:prop]} =Santa= "Santa"
 Santa_kuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
 santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
 Santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
+santorii	{[scat n:prop]} =Suntory_brewing_company= "Santorii"
+Santorii	{[scat n:prop]} =Suntory_brewing_company= 
 Sasano	{[scat n:prop]} =Sasano=
 Sato	{[scat n:prop]} =Sato=
 Satoshi	{[scat n:prop]} =Satoshi=

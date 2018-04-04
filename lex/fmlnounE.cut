@@ -47,6 +47,7 @@ tokoro	{[scat n:fml]} =when=
 dokoro	{[scat n:fml]} =when= 
 toori	{[scat n:fml]} =way=
 totan	{[scat n:fml]} =soon=	% とたん/途端 
+tsudo	{[scat n:fml]} =every_time=
 tsuide	{[scat n:fml]} =by_the_way=
 tsumori	{[scat n:fml]} =intention=
 uchi	{[scat n:fml]} =while=

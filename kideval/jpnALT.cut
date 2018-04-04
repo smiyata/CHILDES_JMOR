@@ -1,5 +1,6 @@
 @UTF8
-dss +ddssrulesjp.cut +lj +e
+%dss +ddssrulesjp.cut +lj +e
+dss +lj +djpn.cut +t*CHI +c100 +e *.cha
 % Lines preceded by % are comments
 % Lines preceded by # are not displayed in the output
 

@@ -187,12 +187,6 @@ LEXCAT = [scat OR v:ir v:ir:sub]
 ALLO:
 ALLOSURF = ari
 ALLOCAT = LEXCAT, ADD [allo vCi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = ari
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = ar-GER
-%%%
 ALLO:
 ALLOSURF = oari
 ALLOCAT = LEXCAT, ADD [tense inf]
@@ -213,56 +207,7 @@ ALLO:
 ALLOSURF = nashi
 ALLOCAT = LEXCAT, ADD [tense pres], ADD [gen GER]
 ALLOSTEM = ar&NEG-GER
-%%%rausKKK
-%ALLO:
-%ALLOSURF = nai
-%%ALLOCAT = LEXCAT, ADD [tense pres]
-%ALLOSTEM = ar&NEG-PRES
-%ALLO:
-%ALLOSURF = nakatta
-%ALLOCAT = LEXCAT, ADD [tense past]
-%ALLOSTEM = ar&NEG-PAST
-%ALLO:
-%ALLOSURF = nakute
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ar&NEG-CONN
-%ALLO:
-%ALLOSURF = nakattari
-%ALLOCAT = LEXCAT, ADD [tense past]
-%ALLOSTEM = ar&NEG-ALT
-%ALLO:
-%ALLOSURF = nakutatte
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ar&NEG-CONC
-%ALLO:
-%ALLOSURF = nakereba
-%ALLOCAT = LEXCAT, ADD [tense pres]
-%ALLOSTEM = ar&NEG-COND:ba
-%ALLO:
-%ALLOSURF = naide
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ar&NEG-CONN:de
-%ALLO:
-%ALLOSURF = naide
-%ALLOCAT = LEXCAT, ADD [tense imp]
-%ALLOSTEM = ar&NEG-IMP:de
-%ALLO:
-%ALLOSURF = nakattatte
-%ALLOCAT = LEXCAT, ADD [tense imp]
-%ALLOSTEM = ar&NEG-PAST-CONC
-%ALLO:
-%ALLOSURF = nakattara
-%ALLOCAT = LEXCAT, ADD [tense past]
-%ALLOSTEM = ar&NEG-COND:tara
-%ALLO:
-%ALLOSURF = nakucha
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ar&NEG-CONN&wa
-%ALLO:
-%ALLOSURF = nakya
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ar&NEG-CONN&wa
-%%%
+
 
 %%%				  iku
 LEX-ENTRY:
@@ -271,12 +216,6 @@ LEXCAT = [scat OR v:c v:c:sub]
 ALLO:
 ALLOSURF = iki
 ALLOCAT = LEXCAT, ADD [allo vCi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = iki
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = ik-GER
-%%%%
 ALLO:
 ALLOSURF = ika
 ALLOCAT = LEXCAT, ADD [allo vCa]
@@ -300,12 +239,6 @@ LEXCAT = [scat OR v:ir v:ir:sub]
 ALLO:
 ALLOSURF = shi
 ALLOCAT = LEXCAT, ADD [allo vTSi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = shi
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = su&GER
-%%%newKKK
 ALLO:
 ALLOSURF = sh
 ALLOCAT = LEXCAT, ADD [allo vBSu]
@@ -337,16 +270,9 @@ ALLO:
 ALLOSURF = ki
 ALLOCAT = LEXCAT, ADD [allo vTKi]
 ALLOSTEM = ku
-%%%rausKKK
-%ALLO:
-%ALLOSURF = ki
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = ku&GER
-%%%newKKK
 ALLO:
 ALLOSURF = k
 ALLOCAT = LEXCAT, ADD [allo vBKu]
-%%%
 ALLO:
 ALLOSURF = koi
 ALLOCAT = LEXCAT, ADD [tense imp]
@@ -376,12 +302,6 @@ ALLOCAT = LEXCAT, ADD [allo vNNr]
 ALLO:
 ALLOSURF = $Xri
 ALLOCAT = LEXCAT, ADD [allo vCi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xri
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xr-GER
-%%%
 ALLO:
 ALLOSURF = $Xrare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -410,13 +330,6 @@ ALLOSURF = $Xt
 ALLOCAT = LEXCAT, ADD [allo vTTw]
 ALLO:
 ALLOSURF = $Xi
-ALLOSTEM = $Xw
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xi
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xw-GER
-%%%
 ALLO:
 ALLOSURF = $Xware
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -457,17 +370,10 @@ ALLOCAT = LEXCAT, ADD [allo vCa]
 ALLO:
 ALLOSURF = $Xtare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xchi
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xt-GER
-%%%newKKK
 ALLO:
 ALLOSURF = $Xch
 ALLOCAT = LEXCAT, ADD [allo vC]
 ALLOSTEM = $Xt
-%%%
 ALLO:
 ALLOSURF = o$Xchi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -490,17 +396,10 @@ ALLOCAT = LEXCAT, ADD [allo vTNn]
 ALLO:
 ALLOSURF = $X$Ni
 ALLOCAT = LEXCAT, ADD [allo vCi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $X$Ni
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $X$N-GER
-%%%newKKK
 ALLO:
 ALLOSURF = $X$Ni
 ALLOCAT = LEXCAT, ADD [allo vTNn]
 ALLOSTEM = $X$N
-%%%
 ALLO:
 ALLOSURF = $X$Nare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -530,17 +429,10 @@ ALLOCAT = LEXCAT, ADD [allo vTIk]
 ALLO:
 ALLOSURF = $Xki
 ALLOCAT = LEXCAT, ADD [allo vCi]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xki
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xk-GER
-%%%newKKK
 ALLO:
 ALLOSURF = $Xki
 ALLOCAT = LEXCAT
 ALLOSTEM = $Xk
-%%%
 ALLO:
 ALLOSURF = $Xkare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -572,17 +464,10 @@ ALLOCAT = LEXCAT, ADD [allo vCi]
 ALLO:
 ALLOSURF = $Xga
 ALLOCAT = LEXCAT, ADD [allo vCa]  
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xgi
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xg-GER
-%%%newKKK
 ALLO:
 ALLOSURF = $Xgi
 ALLOCAT = LEXCAT
 ALLOSTEM = $Xg
-%%%
 ALLO:
 ALLOSURF = $Xgare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -608,17 +493,10 @@ ALLOCAT = LEXCAT, ADD [allo vCa]
 ALLO:
 ALLOSURF = $Xshi
 ALLOCAT = LEXCAT, ADD [allo vAIs]
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xshi
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xs-GER
-%%%newKKK
 ALLO:
 ALLOSURF = $Xsh
 ALLOCAT = LEXCAT, ADD [allo vC]
 ALLOSTEM = $Xs
-%%%
 ALLO:
 ALLOSURF = $Xsare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]

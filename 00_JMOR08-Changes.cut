@@ -2,6 +2,31 @@
 **JMOR08 *************************************Susanne Miyata**2018feb19
 ********************************************************************* 
 
+******** CHANGES in JMOR08 ********2018mar11
+1) new ptl:foc
+dokoroka	ptl:foc|dokoro_ka=not_at_all
+niatatte	ptl:foc|ni_atatte=concerning
+niatari		ptl:foc|ni_atari=concerning
+niatarimashite	ptl:foc|ni_atarimashite&POL=concerning
+nioite		ptl:foc|ni_oite=concerning
+niokimashite		ptl:foc|ni_okimashite&POL=concerning
+nimokakawarazu	ptl:foc|ni_mo_kakawarazu=regardless
+nikakawarazu	ptl:foc|ni_kakawarazu=regardless
+nikanshi	ptl:foc|ni_kanshi=concerning
+nikanshimashite		ptl:foc|ni_kanshimashite&POL=concerning
+nishiro		ptl:foc|ni_shiro=be_it
+niseyo		ptl:foc|ni_seyo=be_it
+nitsuki		ptl:foc|ni_tsuki=about
+nitsukimashite	ptl:foc|ni_tsukimashite&POL=about
+nitsurete	ptl:foc|ni_tsurete=as_then
+niyori		ptl:foc|ni_yori=according_to
+niyorimashite	ptl:foc|ni_yorimashite&POL=according_to
+totomoni	ptl:foc|to_tomo_ni=along_with
+towaie		ptl:foc|to_wa_ie=though
+
+2) new ptl:post
+nite		ptl:post|nite=at
+
 ******** CHANGES in JMOR08 ********2018feb19
 1) Compound verbs regrouped
 syntactic compound verbs as v+v , lexial compounds as v (stem v_v)
@@ -51,7 +76,7 @@ j) new: (sub) eru  v:v:sub|e-PRES=get
 	v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
 
 k) new: (infl) -e(ru)  POT:e / POT:u
-zaru o enai   =>>    NEG:zaru   v:v:sub|e-NEG   
+zaru o enai   =>>    NEG:zaru ptl:case|o=ACC v:v:sub|e-NEG   
 narieru  ==> POT:e
 nariuru  ==> POT:u
 %%%%%% cr.cut doesn't work yet for this; rulename v-pot-vv2 
@@ -70,7 +95,7 @@ m) change: (smod) bakari
 %%%%%%%
 
 ******** CHANGES in JMOR07.2 ********2017nov22
-1) 複合動詞
+1) 複合動詞    (bei Okubo nicht gemacht)
 
 統語的複合動詞 (syntactic compound verbs; Kido, 2016; http://vvlexicon.ninjal.ac.jp/) added to clo.cut:   
 -sugiru -tsuzukeru -dasu -kakeru -hajimeru -owaru -naosu -nokosu -wasureru

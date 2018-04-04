@@ -85,6 +85,7 @@
 	bandana	{[scat n]} =bandana=
 	bando	{[scat n]} =band=
 	bandoeedo	{[scat n]} =bandaid=
+	banettoraion	{[scat n]} =lion_vanette_toothbrush=
 	bangaroo	{[scat n]} =bungalow=
 	banira	{[scat n]} =vanilla=
 	baransu	{[scat n]} =balance=
@@ -540,6 +541,7 @@
 	juusu	{[scat n]} =juice=
 	kaa	{[scat n]} =car=
 	kaabu	{[scat n]} =curve=
+	kaadegan	{[scat n]} =cardigan= "kaadigan"
 	kaadigan	{[scat n]} =cardigan=
 	kaado	{[scat n]} =card=
 	kaago	{[scat n]} =cargo=

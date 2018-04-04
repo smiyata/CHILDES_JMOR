@@ -9,10 +9,13 @@ shisoo	{[scat n:an]} =likely_doing=  "su-soo"
 see	{[scat v:ir][tense imp]} =do= "su&IMP"
 shai	{[scat v:ir:sub]} =do= "su&IMP:shai"
 
-%							short Kanji + "suru"
-%kansu	{[scat v:ir]} =concern=  %関する  => adn|kansuru   ptl:foc|kanshite
-seesu	{[scat v:ir]} =suppress=  %制する
+%						short Kanji + "suru"
+%kansu	{[scat v:ir]} =concern=  
+	%関する  => adn|kansuru   ptl:foc|kanshite
+seesu	{[scat v:ir]} =suppress= 
+	%制する
 %taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
+hansu	{[scat v:ir]} =oppose=
 
 %								"kuru" "aru" "ik"
 ku	{[scat v:ir]} =come=	
@@ -125,4 +128,5 @@ osoo	{[scat adj][tense inf]} =late= "oso-ADV:oo"
 itoo	{[scat adj][tense inf]} =aching= "ita-ADV:oo"
 attakoo	{[scat adj][tense inf]} =warm= "attaka-ADV:oo"
 chiisoo	{[scat adj][tense inf]} =small= "chiisa-ADV:oo"
+
 
