@@ -1,10 +1,10 @@
 @UTF8
 %%%% sentence modalizer
-bakari	{[scat smod]} =nothing_but=
-bakkari	{[scat smod]} =nothing_but= "bakari"
 beki	{[scat smod]} =ought_to_do=
 beshi	{[scat smod]} =ought_to_do=
 chau	{[scat smod]} =isnt_it=
+nichigainai	{[scat smod]} =no_doubt_that= "ni_chigai_nai"
+
 daro	{[scat smod]} =dont_you_think= "daroo"
 daroo	{[scat smod]} =dont_you_think=
 desho	{[scat smod]} =dont_you_think= "deshoo&POL"
@@ -12,25 +12,27 @@ deshoo	{[scat smod]} =dont_you_think= "deshoo&POL"
 desu	{[scat smod]} =POL=
 jan	{[scat smod]} =isnt_it=
 janai	{[scat smod]} =isnt_it=
-kamo	{[scat smod]} =perhaps=
-kamoshinnai	{[scat smod]} =perhaps= "kamoshirenai"
-kamoshiremasen	{[scat smod]} =perhaps= "kamoshiremasen&POL"
-kamoshiren	{[scat smod]} =perhaps= "kamoshirenai"
-kamoshirenai	{[scat smod]} =perhaps=
-kashira	{[scat smod]} =perhaps=
-mai	{[scat smod]} =probably_not=
-mitai	{[scat smod]} =looks_like=
-nichigainai	{[scat smod]} =no_doubt_that= "ni_chigai_nai"
-ppoi	{[scat smod]} =looks_like= "ppo-PRES"
-ppoku	{[scat smod]} =looks_like= "ppo-ADV"
-ppokunai	{[scat smod]} =looks_like= "ppo-NEG-PRES"
-rashii	{[scat smod]} =hearsay=
-soo	{[scat smod]} =hearsay=
-tsutsu	{[scat smod]} =in_course_of=
-tsutsuaru	{[scat smod]} =in_course_of= "tsutsu_aru"
 yan	{[scat smod]} =isnt_it=
 yanai	{[scat smod]} =isnt_it=
 yaro	{[scat smod]} =isnt_it=
 jaro	{[scat smod]} =isnt_it=
 jaroo	{[scat smod]} =isnt_it=
+
+kamo	{[scat smod]} =perhaps=
+kamoshinnai	{[scat smod]} =perhaps= "kamoshirenai"
+kamoshiremasen	{[scat smod]} =perhaps= "kamoshiremasen&POL"
+kamoshiren	{[scat smod]} =perhaps= "kamoshirenai"
+kamoshirenai	{[scat smod]} =perhaps=
+kashiran	{[scat smod]} =perhaps=
+kashira	{[scat smod]} =perhaps=
+
+mai	{[scat smod]} =probably_not=
+mitai	{[scat smod]} =looks_like=
+ppoi	{[scat smod]} =looks_like= "ppo-PRES"
+ppoku	{[scat smod]} =looks_like= "ppo-ADV"
+ppokunai	{[scat smod]} =looks_like= "ppo-NEG-PRES"
+rashii	{[scat smod]} =hearsay= "rashi-PRES"
+rashiku	{[scat smod]} =hearsay= "rashi-ADV"
+rashikute	{[scat smod]} =hearsay= "rashi-CONN"
+soo	{[scat smod]} =hearsay=
 yoo	{[scat smod]} =apparently=

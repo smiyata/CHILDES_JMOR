@@ -15,7 +15,7 @@ jaro	{[scat v:cop] [tense inf]} =be= "de&wa-HORT"
 jaroo	{[scat v:cop] [tense inf]} =be= "de&wa-HORT"
 jatta	{[scat v:cop] [tense past]} =be= "de&wa-PAST"	
 jattara	{[scat v:cop] [tense past]} =be= "de&wa-COND:tara"	
-%% jan	{[scat v:cop] [tense pres]} =be= "de&wa-NEG:n&PRES"	%%only smod
+jan	{[scat v:cop] [tense pres]} =be= "de&wa-NEG:n&PRES"
 janai	{[scat v:cop] [tense inf]} =be= "de&wa-NEG-PRES"
 jaarimasen	{[scat v:cop] [tense inf]} =be= "de&wa-ar-POL-NEG:n&PRES"
 janakya	{[scat v:cop] [tense inf]} =be= "de&wa-NEG&OBL"

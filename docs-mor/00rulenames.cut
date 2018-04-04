@@ -4,16 +4,15 @@
 %%%%%%%%%%%%%%%%%%%
 
 for Vowel Verbs
-	{v-tear, v-caus-vv, v-pot-vv, v-pass-vv, v-complet, v-tense, v-imp, neg, asp, v-adj, v-comp}
+	{v-caus-vv, v-pot-vv, v-pass-vv, v-complet, v-tense, v-imp, neg, asp, v-adj, v-comp, v-aux}
 
 for Cons Verbs
 
-stem infl
-	{v-caus, v-pot-vv, v-pass-cv, v-tense, v-imp}
+stem infl {v-caus, v-pot-vv, v-pass-cv, v-tense, v-imp}    %%%%v-pot-vv??cv??  oder pass-cv falsch?
 
 assim infl	{v-complet v-tense, v-imp, v-adj, asp}
 
-i-infl	{v-comp, v-pol, v-adj, v-tense, v-noun}
+i-infl	{v-comp, v-aux, v-pol, v-adj, v-tense, v-noun}
 
 a-infl	{neg, v-tense}
 
@@ -28,6 +27,7 @@ RULENAME: vsub-start
 RULENAME: v-start
 RULENAME: pfx-v
 v-comp	on i
+v-aux  on i
 v-pol	on i
 v-adj	on i on assim
 v-noun	on i

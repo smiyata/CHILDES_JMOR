@@ -19,7 +19,7 @@ kahen			 	vBKu for {v-tense}
 				vBKo  for {v-caus, v-pot-vv, v-pass-vv, v-tense, v-imp}
 sahen			    vBSu
 
-assimilated stem inflection    for {v-complet, v-tense, v-imp, v-adj, asp}
+assimilated stem inflection    for {v-complet, v-tense, v-imp, v-adj, asp_i, asp_or}
       t type  / d type
 vowel verbs		vV
 cons verbs on w		vTTw

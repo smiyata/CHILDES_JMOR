@@ -1,0 +1,1091 @@
+@UTF8
+%%****************
+%% NOUN-ALLO 
+%%****************
+RULENAME: noun-nonstandard
+% variables
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n n:deic:dem n:mot v:mot], [bound +]
+ALLO:
+ALLOSURF = -$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n n:deic:dem n:mot], ![ncomp +]
+ALLO:
+ALLOSURF = +$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n n:deic:dem n:mot], [ncomp +]
+ALLO:
+ALLOSURF = +$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n n:deic:dem n:mot], [bound +]
+ALLO:
+ALLOSURF = +$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT%, ADD [allo n]
+
+%%****************
+%% VERBAL NOUN ALLO
+%%****************
+
+RULENAME: verbal-noun
+% variables
+X = .* %anything
+%Y = .* %anything
+%%%
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n:vn n:vn:mot n:vn:onoma], [n OR + ++]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = DEL [scat], ADD [scat n], ADD [vn 1]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n:vn n:vn:mot n:vn:onoma], ![n OR + ++]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+
+%%****************
+% ADJECTIVAL NOUN ALLO 
+%%****************
+
+RULENAME: nan-allo
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n:an n:an:mot], [n +]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = DEL [scat OR n:an n:an:mot], ADD [scat n] 
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR n:an n:an:mot]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+
+%%****************
+%% VERB-ALLO        
+%%****************
+
+RULENAME: v-allo
+% variables
+X = .* %anything
+N = [mbn]
+
+
+%%% 				vowel verbs "e" 
+LEX-ENTRY:
+LEXSURF = $Xe
+LEXCAT = [scat OR v:v v:v:sub]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vV]
+%%%KKK null morpheme wie??
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xe
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xe&GER
+%%%newKKK   DOESNT WORK   %%%% HOW: IF NOTHING then &GER
+%ALLO:
+%ALLOSURF = $Xe
+%ALLOCAT = LEXCAT, ADD [allo vV]
+%%%newKKK  current 
+ALLO:
+ALLOSURF: = $Xe
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xe-GER
+%%%
+ALLO:
+ALLOSURF = $Xerare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xe-PASS&GER
+ALLO:
+ALLOSURF = o$Xe
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xe&GER
+ALLO:
+ALLOSURF = oo$Xe
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xe&GER
+ALLO:
+ALLOSURF = do$Xe
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = do#$Xe&GER
+
+
+%%% 				vowel verbs "i" 
+LEX-ENTRY:
+LEXSURF = $Xi
+LEXCAT = [scat OR v:v v:v:sub]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vV]
+%%%wieKKK null morpheme
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = $Xi-GER
+%%%
+ALLO:
+ALLOSURF = $Xirare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xi-PASS&GER
+ALLO:
+ALLOSURF = o$Xi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xi&GER
+ALLO:
+ALLOSURF = oo$Xi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xi&GER
+ALLO:
+ALLOSURF = do$Xi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = do#$Xi&GER
+ 
+
+
+%%%				  existence verb aru
+LEX-ENTRY:
+LEXSURF = ar
+LEXCAT = [scat OR v:ir v:ir:sub]
+ALLO:
+ALLOSURF = ari
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ari
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = ar-GER
+%%%
+%ALLO:
+%ALLOSURF = oari
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = o#ar-GER
+ALLO:
+ALLOSURF = at
+ALLOCAT = LEXCAT, ADD [allo vTTr]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLO:
+ALLOSURF = nai
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = ar&NEG-PRES
+ALLO:
+ALLOSURF = nashi
+ALLOCAT = LEXCAT, ADD [tense pres], ADD [gen GER]
+ALLOSTEM = ar&NEG-GER
+ALLO:
+ALLOSURF = nakatta
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-PAST
+ALLO:
+ALLOSURF = nakute
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN
+ALLO:
+ALLOSURF = nakattari
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-ALT
+ALLO:
+ALLOSURF = nakutatte
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONC
+ALLO:
+ALLOSURF = nakereba
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = ar&NEG-COND:ba
+ALLO:
+ALLOSURF = naide
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN:de
+ALLO:
+ALLOSURF = naide
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ar&NEG-IMP:de
+ALLO:
+ALLOSURF = nakattatte
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ar&NEG-PAST-CONC
+ALLO:
+ALLOSURF = nakattara
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-COND:tara
+ALLO:
+ALLOSURF = nakucha
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN&wa
+ALLO:
+ALLOSURF = nakya
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN&wa
+
+
+%%%				  iku
+LEX-ENTRY:
+LEXSURF = ik
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = iki
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = iki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = ik-GER
+%%%%
+ALLO:
+ALLOSURF = ika
+ALLOCAT = LEXCAT, ADD [allo vCa]
+ALLO:
+ALLOSURF = it
+ALLOCAT = LEXCAT, ADD [vform ik], ADD [allo vTIk]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLO:
+ALLOSURF = yuk
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLO:
+ALLOSURF = yuki
+ALLOCAT = LEXCAT, ADD [allo vCi]
+
+%%%				  sahen
+LEX-ENTRY:
+LEXSURF = su
+LEXCAT = [scat OR v:ir v:ir:sub]
+ALLO:
+ALLOSURF = shi
+ALLOCAT = LEXCAT, ADD [allo vTSi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = shi
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = su&GER
+%%%newKKK
+ALLO:
+ALLOSURF = sh
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+%%%
+ALLO:
+ALLOSURF = shisoo
+ALLOCAT = LEXCAT, ADD [scat n:an]
+ALLOSTEM = su-soo
+ALLO:
+ALLOSURF = sun
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = su-PRES
+ALLO:
+ALLOSURF = su
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+ALLO:
+ALLOSURF = se
+ALLOCAT = LEXCAT, ADD [allo vTSe]
+
+%%%				  kahen 
+LEX-ENTRY:
+LEXSURF = ku
+LEXCAT = [scat OR v:ir v:ir:sub]
+ALLO:
+ALLOSURF = ko
+ALLOCAT = LEXCAT, ADD [allo vBKo]
+ALLOSTEM = ku
+ALLO:
+ALLOSURF = ki
+ALLOCAT = LEXCAT, ADD [allo vTKi]
+ALLOSTEM = ku
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ki
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ku&GER
+%%%newKKK
+ALLO:
+ALLOSURF = k
+ALLOCAT = LEXCAT, ADD [allo vBKu]
+%%%
+ALLO:
+ALLOSURF = koi
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ku&IMP
+ALLO:
+ALLOSURF = koya
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ku-IMP:ya
+ALLO:
+ALLOSURF = ku
+ALLOCAT = LEXCAT, ADD [allo vBKu]
+
+
+%%%			 verbs that end with "r"
+LEX-ENTRY:
+LEXSURF = $Xr
+LEXCAT = [scat OR v:ir v:c v:ir:sub v:c:sub]
+ALLO:
+ALLOSURF = $Xt
+ALLOCAT = LEXCAT, ADD [allo vTTr]
+ALLO:
+ALLOSURF = $Xra
+ALLOCAT = LEXCAT, ADD [allo vCa]
+ALLO:
+ALLOSURF = $Xn
+ALLOCAT = LEXCAT, ADD [allo vNNr]
+ALLO:
+ALLOSURF = $Xri
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%ALLO:
+%ALLOSURF = $Xri
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xr-GER
+ALLO:
+ALLOSURF = $Xrare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$Xri
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xr-GER
+ALLO:
+ALLOSURF = oo$Xri
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xr-GER
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+
+%%%			 verbs that end with "w"
+LEX-ENTRY:
+LEXSURF = $Xw
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $X
+ALLOCAT =LEXCAT, ADD [allo vRw]
+ALLO:
+ALLOSURF = $Xt
+ALLOCAT = LEXCAT, ADD [allo vTTw]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vPIw]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xw-GER
+%%%
+ALLO:
+ALLOSURF = $Xware
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$Xi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xw-GER
+ALLO:
+ALLOSURF = oo$Xi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xw-GER
+ALLO:
+ALLOSURF = $Xwa
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vRww]
+%%% allo for "iu" 言う 
+ALLO:
+ALLOSURF = $Xii
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xiw-GER
+
+
+%%%			 verbs that end with "t"
+LEX-ENTRY:
+LEXSURF = $Xt
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $Xt
+ALLOCAT = LEXCAT, ADD [allo vTTr]
+ALLO:
+ALLOSURF = $Xts
+ALLOCAT = LEXCAT, ADD [allo vBTts]
+ALLO:
+ALLOSURF = $Xchi
+ALLOCAT = LEXCAT, ADD [allo vAIt]
+ALLO:
+ALLOSURF = $Xta
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = $Xtare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xchi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xt-GER
+%%%newKKK
+ALLO:
+ALLOSURF = $Xch
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLOSTEM = $Xt
+%%%
+ALLO:
+ALLOSURF = o$Xchi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xt-GER
+ALLO:
+ALLOSURF = oo$Xchi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xt-GER
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+%%%			 verbs that end with "mbn" =N
+LEX-ENTRY:
+LEXSURF = $X$N
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $Xn
+ALLOCAT = LEXCAT, ADD [allo vTNn]
+ALLO:
+ALLOSURF = $X$Ni
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $X$Ni
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $X$N-GER
+%%%newKKK
+ALLO:
+ALLOSURF = $X$Ni
+ALLOCAT = LEXCAT, ADD [allo vTNn]
+ALLOSTEM = $X$N
+%%%
+ALLO:
+ALLOSURF = $X$Nare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$X$Ni
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$X$N-GER
+ALLO:
+ALLOSURF = oo$X$Ni
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$X$N-GER
+ALLO:
+ALLOSURF = $X$Na
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+
+%%%			 verbs that end with "k"
+LEX-ENTRY:
+LEXSURF = $Xk
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vTIk]
+ALLO:
+ALLOSURF = $Xki
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xk-GER
+%%%newKKK
+ALLO:
+ALLOSURF = $Xki
+ALLOCAT = LEXCAT
+ALLOSTEM = $Xk
+%%%
+ALLO:
+ALLOSURF = $Xkare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$Xki
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xk-GER
+ALLO:
+ALLOSURF = oo$Xki
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xk-GER
+ALLO:
+ALLOSURF = $Xka
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+%%%			 verbs that end with "g"
+LEX-ENTRY:
+LEXSURF = $Xg
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vTIg]
+ALLO:
+ALLOSURF = $Xgi
+ALLOCAT = LEXCAT, ADD [allo vCi]
+ALLO:
+ALLOSURF = $Xga
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xgi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xg-GER
+%%%newKKK
+ALLO:
+ALLOSURF = $Xgi
+ALLOCAT = LEXCAT
+ALLOSTEM = $Xg
+%%%
+ALLO:
+ALLOSURF = $Xgare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$Xgi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xg-GER
+ALLO:
+ALLOSURF = oo$Xgi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xg-GER
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+%%%			 verbs end with "s"
+LEX-ENTRY:
+LEXSURF = $Xs
+LEXCAT = [scat OR v:c v:c:sub]
+ALLO:
+ALLOSURF = $Xsa
+ALLOCAT = LEXCAT, ADD [allo vCa]   
+ALLO:
+ALLOSURF = $Xshi
+ALLOCAT = LEXCAT, ADD [allo vAIs]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xshi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xs-GER
+%%%newKKK
+ALLO:
+ALLOSURF = $Xsh
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLOSTEM = $Xs
+%%%
+ALLO:
+ALLOSURF = $Xsare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLO:
+ALLOSURF = o$Xshi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = o#$Xs-GER
+ALLO:
+ALLOSURF = oo$Xshi
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOSTEM = oo#$Xs-GER
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]  
+
+
+%%****************
+%% SUBSIDIARY-VERB-ALLO        
+%%****************
+
+RULENAME: vsub-allo
+% variables
+X = .* %anything
+N = [mbn]
+
+%%% 				subverb  vowel verbs "e" 
+LEX-ENTRY:
+LEXSURF = $Xe
+LEXCAT = [scat v:v:sub]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vV]
+ALLO:
+ALLOSURF = $Xe
+ALLOCAT = LEXCAT, ADD [tense inf] %%%KKKraus, ADD [gen GER]
+
+
+%%% 				subverb  vowel verbs "i" 
+LEX-ENTRY:
+LEXSURF = $Xi
+LEXCAT = [scat v:v:sub]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vV]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf] %%%KKKraus, ADD [gen GER]
+
+
+%%%				  subverb  existence verb aru
+LEX-ENTRY:
+LEXSURF = ar
+LEXCAT = [scat v:ir:sub]
+ALLO:
+ALLOSURF = ari
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ari
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = ar-GER
+%%%ALLO:
+ALLO:
+ALLOSURF = at
+ALLOCAT = LEXCAT, ADD [allo vTTr]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLO:
+ALLOSURF = nai
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = ar&NEG-PRES
+ALLO:
+ALLOSURF = nakatta
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-PAST
+ALLO:
+ALLOSURF = nakute
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN
+ALLO:
+ALLOSURF = nakattari
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-ALT
+ALLO:
+ALLOSURF = nakutatte
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONC
+ALLO:
+ALLOSURF = nakereba
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = ar&NEG-COND:ba
+ALLO:
+ALLOSURF = naide
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN:de
+ALLO:
+ALLOSURF = naide
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ar&NEG-IMP:de
+ALLO:
+ALLOSURF = nakattatte
+ALLOCAT = LEXCAT, ADD [tense imp]
+ALLOSTEM = ar&NEG-PAST-CONC
+ALLO:
+ALLOSURF = nakattara
+ALLOCAT = LEXCAT, ADD [tense past]
+ALLOSTEM = ar&NEG-COND:tara
+ALLO:
+ALLOSURF = nakucha
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN&wa
+ALLO:
+ALLOSURF = nakya
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = ar&NEG-CONN&wa
+
+
+%%%				subverb  iku
+LEX-ENTRY:
+LEXSURF = ik
+LEXCAT = [scat v:c:sub]
+ALLO:
+ALLOSURF = iki
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = iki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = ik-GER
+%%%
+ALLO:
+ALLOSURF = ika
+ALLOCAT = LEXCAT, ADD [allo vCa]
+ALLO:
+ALLOSURF = it
+ALLOCAT = LEXCAT, ADD [vform ik], ADD [allo vTIk]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+
+
+%%%				 subverb   kahen 
+LEX-ENTRY:
+LEXSURF = ku
+LEXCAT = [scat v:ir:sub]
+ALLO:
+ALLOSURF = ko
+ALLOCAT = LEXCAT, ADD [allo vBKo]
+ALLOSTEM = ku
+ALLO:
+ALLOSURF = ki
+ALLOCAT = LEXCAT, ADD [allo vTKi]
+ALLOSTEM = ku
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ki
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ku&GER
+%%%newKKK
+ALLO:
+ALLOSURF = k
+ALLOCAT = LEXCAT, ADD [allo vBKu]
+%%%
+ALLO:
+ALLOSURF = ku
+ALLOCAT = LEXCAT, ADD [allo vBKu]
+
+
+%%%				subverbs that end with "r"
+LEX-ENTRY:
+LEXSURF = $Xr
+LEXCAT = [scat v:c:sub]
+ALLO:
+ALLOSURF = $Xn
+ALLOCAT = LEXCAT, ADD [allo vNNr]
+ALLO:
+ALLOSURF = $Xt
+ALLOCAT = LEXCAT, ADD [allo vTTr]
+ALLO:
+ALLOSURF = $Xra
+ALLOCAT = LEXCAT, ADD [allo vCa]
+ALLO:
+ALLOSURF = $Xri
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xri
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xr-GER
+%%%
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+
+%%%			 	subverbs that end with "w"
+LEX-ENTRY:
+LEXSURF = $Xw
+LEXCAT = [scat v:c:sub]
+ALLO:
+ALLOSURF = $X
+ALLOCAT =LEXCAT, ADD [allo vRw]
+ALLO:
+ALLOSURF = $Xt
+ALLOCAT = LEXCAT, ADD [allo vTTw]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vPIw]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%%%newKKK nicht gebraucht
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [allo vRw]
+%ALLOSTEM = $Xw
+%%%
+ALLO:
+ALLOSURF = $Xwa
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vRww]
+
+
+
+%%%			 	subverbs that end with "k"
+LEX-ENTRY:
+LEXSURF = $Xk
+LEXCAT = [scat v:c:sub]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vTIk]
+ALLO:
+ALLOSURF = $Xki
+ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xk-GER
+%%%
+ALLO:
+ALLOSURF = $Xka
+ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vC]
+
+
+%%****************
+% ADJECTIVE-ALLO 
+%%****************
+
+RULENAME: adj-allo
+% variables
+X = .* #anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR adj adj:mot], ![tense pres], ![ir +]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [test 1]
+
+%			for irregular ii/yoi
+LEX-ENTRY:
+LEXSURF = i
+LEXCAT = [scat OR adj adj:mot], [ir +]
+ALLO:
+ALLOSURF = ii
+ALLOCAT = LEXCAT, ADD [tense pres]
+ALLOSTEM = i-PRES
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR adj adj:mot], [tense pres]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+
+%%****************
+%% CO-ALLO 
+%%****************
+
+RULENAME: co-allo
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR co:i co:g], [vn +]
+ALLO:
+ALLOSURF = $XQ
+ALLOCAT = LEXCAT, ADD [allo co3], DEL [vn]
+ALLO:
+ALLOSURF = $X$X
+ALLOSTEM = $X+$X
+ALLOCAT = ADD [scat n:vn n:vn:onoma], ADD [allo vn]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOSTEM = $X
+ALLOCAT = LEXCAT, ADD [allo co2], DEL [vn]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = ADD [scat n:vn], ADD [allo vn]
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR co:i co:g], ![vn +]
+ALLO:
+ALLOSURF = $XQ
+ALLOCAT = LEXCAT, ADD [allo co6]
+ALLOSTEM = $XQ
+ALLO:
+ALLOSURF = +$X
+ALLOSTEM = +$X
+ALLOCAT = LEXCAT, ADD [allo co5]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo co5]
+
+%%****************
+%%  ADVERB    *
+%%****************
+
+RULENAME: adv-generation
+% variables
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR adv adv:onoma], [to +]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT
+
+%%****************
+%% ONOMATOP  
+%%****************
+
+RULENAME: onoma-generation
+% variables
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat onoma]
+ALLO:
+ALLOSURF = $XQ
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+%##############################################
+
+%%****************
+%% Suffix     
+%%****************
+
+RULENAME: sfx-Q
+%%****************
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR vtense atense vtense2 asfx nasfx]
+ALLO:
+ALLOSURF = $XQ
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+RULENAME: npfx-extension
+%%****************
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat pfx]
+ALLO:
+ALLOSURF = $X#
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+
+
+RULENAME: nsfx-extension
+%%****************
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = y$X
+LEXCAT = [scat nsfx]
+ALLO:
+ALLOSURF = -y$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR nsfx npropsfx numsfx]
+ALLO:
+ALLOSURF = -$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+RULENAME: sfx-extension
+%%****************
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR asfx nasfx vnsfx]
+ALLO:
+ALLOSURF = -$X
+ALLOCAT = LEXCAT
+ALLOSTEM = $X
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+RULENAME: num-extension
+%%****************
+X = .* %anything
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR num n:deic:wh]
+ALLO:
+ALLOSURF = +$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+%RULENAME: dem-nani
+%%****************
+%LEX-ENTRY:
+%LEXCAT = [scat n:deic:wh]
+%ALLO:
+%ALLOSURF = LEXSURF
+%ALLOCAT = LEXCAT, ADD [dem-bound +]
+
+RULENAME: default1
+%%****************
+LEX-ENTRY:
+LEXCAT = [scat OR adv adv:onoma conj num adn pfx \
+        numsfx vnsfx ptl:case ptl:post ptl:attr ptl:foc ptl:fina ptl:conj \
+        ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
+	n n:fml n:let n:prop n:an n:an:mot v:mot neg \
+	n:deic:dem n:deic:wh \
+	adn:deic:dem adn:deic:wh \
+	adv:deic:dem adv:deic:wh \
+	n:deic:prs n:deic:indef adv:deic:indef \
+	vsfx vsfx2 vimp \
+	tag bq eq bq2 eq2 meta]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+RULENAME: special_form
+LEX-ENTRY:
+LEXCAT = [scat OR bab chi fam neo phon sl sas sing test uni wplay unk eng meta]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+%default rule- copy input to output
+RULENAME: default
+LEX-ENTRY:
+ALLO:
+

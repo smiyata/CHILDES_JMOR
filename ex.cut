@@ -1,6 +1,9 @@
 @UTF8
 @Color words:	SUS 1 61423 7967 7453 
- v:ir:sub|choodai&IMP-ADV=give "chooku"
+v:c|sas-GER=do "sashi"
+num|yon-i=four_rank "yomi"
+n|i-mi=good_taste "yomi"
+v:ir:sub|choodai&IMP-ADV=give "chooku"
 o#v:v:sub|i&GER=ASP "oi"
 o#v:v|i&GER=exist "oi"
 v:c|ow-GER=chase "oi"
@@ -328,7 +331,6 @@ n|chuu-chuu=middle_mid "chuuchuu"
 n:mot|buubuu-kun=car "buubuukun"
 dai#n|en=big_circle "daien"
 v:c|kag-COND:tara=smell "kaitara"
-v:c|iw-GER=say "ii"
 o#n|ree=example "oree"
 o#n|ree=ghost "oree"
 num|ni-juu-en=double_yen "nijuuen"

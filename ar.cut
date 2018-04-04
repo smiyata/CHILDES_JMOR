@@ -1,4 +1,5 @@
 @UTF8
+@Color words:	% 0 64634 467 1798 v-comp 0 4287 32886 16449 
 %%****************
 %% NOUN-ALLO 
 %%****************
@@ -113,10 +114,22 @@ LEXCAT = [scat OR v:v v:v:sub]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vV]
+%%%KKK null morpheme wie??
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xe
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xe&GER
+%%%newKKK   DOESNT WORK   %%%% HOW: IF NOTHING then &GER
+%ALLO:
+%ALLOSURF = $Xe
+%ALLOCAT = LEXCAT, ADD [allo vV]
+%%%newKKK  current 
 ALLO:
-ALLOSURF = $Xe
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xe&GER
+ALLOSURF: = $Xe
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xe-GER
+%%%
 ALLO:
 ALLOSURF = $Xerare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -134,380 +147,6 @@ ALLOSURF = do$Xe
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = do#$Xe&GER
 
-%%% JPN vowel verbs with last syllable in ar.cut    -e -ke -ge -se -te -ne -be -me -re + monosyllabic 出る 寝る 焦る 捻る 真似る
-%%% Problem with GER stems (not replaced to roomaji, but simply copied)
-%%%%% Vowel verbs  -e  JPN -e  
-LEX-ENTRY:
-LEXSURF = $Xえ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xえ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xe&GER
-ALLO:
-ALLOSURF = $Xえられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xe-PASS&GER
-ALLO:
-ALLOSURF = お$Xえ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xe&GER
-ALLO:
-ALLOSURF = 大$Xえ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xe&GER
-ALLO:
-ALLOSURF = ど$Xえ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xe&GER
-%%%%% Vowel verbs  -e  JPN -ke  
-LEX-ENTRY:
-LEXSURF = $Xけ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xけ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xke&GER
-ALLO:
-ALLOSURF = $Xけられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xke-PASS&GER
-ALLO:
-ALLOSURF = お$Xけ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xke&GER
-ALLO:
-ALLOSURF = 大$Xけ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xke&GER
-ALLO:
-ALLOSURF = ど$Xけ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xke&GER
-%%%%% Vowel verbs  -e  JPN -ge  
-LEX-ENTRY:
-LEXSURF = $Xげ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xげ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xge&GER
-ALLO:
-ALLOSURF = $Xげられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xge-PASS&GER
-ALLO:
-ALLOSURF = お$Xげ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xge&GER
-ALLO:
-ALLOSURF = 大$Xげ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xge&GER
-ALLO:
-ALLOSURF = ど$Xげ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xge&GER
-%%%%% Vowel verbs  -e  JPN -se  
-LEX-ENTRY:
-LEXSURF = $Xせ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xせ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xse&GER
-ALLO:
-ALLOSURF = $Xせられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xse-PASS&GER
-ALLO:
-ALLOSURF = お$Xせ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xse&GER
-ALLO:
-ALLOSURF = 大$Xせ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xse&GER
-ALLO:
-ALLOSURF = ど$Xせ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xse&GER
-%%%%% Vowel verbs  -e  JPN -te  
-LEX-ENTRY:
-LEXSURF = $Xて
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xて
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xte&GER
-ALLO:
-ALLOSURF = $Xてられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xte-PASS&GER
-ALLO:
-ALLOSURF = お$Xて
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xte&GER
-ALLO:
-ALLOSURF = 大$Xて
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xte&GER
-ALLO:
-ALLOSURF = ど$Xて
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xte&GER
-%%%%% Vowel verbs  -e  JPN -ne  
-LEX-ENTRY:
-LEXSURF = $Xね
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xね
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xne&GER
-ALLO:
-ALLOSURF = $Xねられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xne-PASS&GER
-ALLO:
-ALLOSURF = お$Xね
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xne&GER
-ALLO:
-ALLOSURF = 大$Xね
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xne&GER
-ALLO:
-ALLOSURF = ど$Xね
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xne&GER
-%%%%% Vowel verbs  -e  JPN -be  
-LEX-ENTRY:
-LEXSURF = $Xべ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xべ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xbe&GER
-ALLO:
-ALLOSURF = $Xべられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xbe-PASS&GER
-ALLO:
-ALLOSURF = お$Xべ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xbe&GER
-ALLO:
-ALLOSURF = 大$Xべ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xbe&GER
-ALLO:
-ALLOSURF = ど$Xべ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xbe&GER
-%%%%% Vowel verbs  -e  JPN -me  
-LEX-ENTRY:
-LEXSURF = $Xめ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xめ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xme&GER
-ALLO:
-ALLOSURF = $Xめられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xme-PASS&GER
-ALLO:
-ALLOSURF = お$Xめ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xme&GER
-ALLO:
-ALLOSURF = 大$Xめ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xme&GER
-ALLO:
-ALLOSURF = ど$Xめ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xme&GER
-%%%%% Vowel verbs  -e  JPN -re  
-LEX-ENTRY:
-LEXSURF = $Xれ
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xれ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xre&GER
-ALLO:
-ALLOSURF = $Xれられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xre-PASS&GER
-ALLO:
-ALLOSURF = お$Xれ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xre&GER
-ALLO:
-ALLOSURF = 大$Xれ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xre&GER
-ALLO:
-ALLOSURF = ど$Xれ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xre&GER
-%%%%% Vowel verbs  -e  JPN de  
-LEX-ENTRY:
-LEXSURF = $X出
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X出
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xde&GER
-ALLO:
-ALLOSURF = $X出られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xde-PASS&GER
-ALLO:
-ALLOSURF = お$X出
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xde&GER
-ALLO:
-ALLOSURF = 大$X出
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xde&GER
-ALLO:
-ALLOSURF = ど$X出
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xde&GER
-%%%%% Vowel verbs  -e  JPN ne  
-LEX-ENTRY:
-LEXSURF = $X寝
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X寝
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xne&GER
-ALLO:
-ALLOSURF = $X寝られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xne-PASS&GER
-ALLO:
-ALLOSURF = お$X寝
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xne&GER
-ALLO:
-ALLOSURF = 大$X寝
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xne&GER
-ALLO:
-ALLOSURF = ど$X寝
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xne&GER
-%%%%% Vowel verbs  -e  JPN hine  
-LEX-ENTRY:
-LEXSURF = $X捻
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X捻
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xhine&GER
-ALLO:
-ALLOSURF = $X捻られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xhine-PASS&GER
-ALLO:
-ALLOSURF = お$X捻
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xhine&GER
-ALLO:
-ALLOSURF = 大$X捻
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xhine&GER
-ALLO:
-ALLOSURF = ど$X捻
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xhine&GER
-%%%%% Vowel verbs  -e  JPN ase  
-LEX-ENTRY:
-LEXSURF = $X焦
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X焦
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xase&GER
-ALLO:
-ALLOSURF = $X焦られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xase-PASS&GER
-ALLO:
-ALLOSURF = お$X焦
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xase&GER
-ALLO:
-ALLOSURF = 大$X焦
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xase&GER
-ALLO:
-ALLOSURF = ど$X焦
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xase&GER
-%%%%% Vowel verbs  -e  JPN mane  
-LEX-ENTRY:
-LEXSURF = $X真似
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X真似
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xmane&GER
-ALLO:
-ALLOSURF = $X真似られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xmane-PASS&GER
-ALLO:
-ALLOSURF = お$X真似
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xmane&GER
-
-
 
 %%% 				vowel verbs "i" 
 LEX-ENTRY:
@@ -516,10 +155,12 @@ LEXCAT = [scat OR v:v v:v:sub]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xi&GER
+%%%wieKKK null morpheme
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = $Xi-GER
+%%%
 ALLO:
 ALLOSURF = $Xirare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -537,369 +178,7 @@ ALLOSURF = do$Xi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = do#$Xi&GER
  
-%%% JPN vowel verbs with last syllable in ar.cut   -ki -gi -shi -ji -chi -bi -mi -ri + monosyllabic 見る 着る 散る 似る 煮る 居る いる みる
 
-%%%%% Vowel verbs  -i  JPN -ki 
-LEX-ENTRY:
-LEXSURF = $Xき
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xき
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xki&GER
-ALLO:
-ALLOSURF = $Xきられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xki-PASS&GER
-ALLO:
-ALLOSURF = お$Xき
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xki&GER
-ALLO:
-ALLOSURF = 大$Xき
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xki&GER
-ALLO:
-ALLOSURF = ど$Xき
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xki&GER
- %%%%% Vowel verbs  -i  JPN -gi 
-LEX-ENTRY:
-LEXSURF = $Xぎ
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xぎ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xgi&GER
-ALLO:
-ALLOSURF = $Xぎられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xgi-PASS&GER
-ALLO:
-ALLOSURF = お$Xぎ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xgi&GER
-ALLO:
-ALLOSURF = 大$Xぎ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xgi&GER
-ALLO:
-LLOSURF = ど$Xぎ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xgi&GER
- %%%%% Vowel verbs  -i  JPN -shi 
-LEX-ENTRY:
-LEXSURF = $Xし
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xし
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xshi&GER
-ALLO:
-ALLOSURF = $Xしられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xshi-PASS&GER
-ALLO:
-ALLOSURF = お$Xし
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xshi&GER
-ALLO:
-ALLOSURF = 大$Xし
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xshi&GER
-ALLO:
-LLOSURF = ど$Xし
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xshi&GER
- %%%%% Vowel verbs  -i  JPN -ji 
-LEX-ENTRY:
-LEXSURF = $Xじ
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xじ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xji&GER
-ALLO:
-ALLOSURF = $Xじられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xji-PASS&GER
-ALLO:
-ALLOSURF = お$Xじ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xji&GER
-ALLO:
-ALLOSURF = 大$Xじ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xji&GER
-ALLO:
-ALLOSURF = ど$Xじ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xji&GER
- %%%%% Vowel verbs  -i  JPN -chi 
-LEX-ENTRY:
-LEXSURF = $Xち
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xち
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xchi&GER
-ALLO:
-ALLOSURF = $Xちられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xchi-PASS&GER
-ALLO:
-ALLOSURF = お$Xち
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xchi&GER
-ALLO:
-ALLOSURF = 大$Xち
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xchi&GER
-ALLO:
-ALLOSURF = ど$Xち
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xchi&GER
- %%%%% Vowel verbs  -i  JPN -bi 
-LEX-ENTRY:
-LEXSURF = $Xび
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xび
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xbi&GER
-ALLO:
-ALLOSURF = $Xびられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xbi-PASS&GER
-ALLO:
-ALLOSURF = お$Xび
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xbi&GER
-ALLO:
-ALLOSURF = 大$Xび
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xbi&GER
-ALLO:
-ALLOSURF = ど$Xび
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xbi&GER
- %%%%% Vowel verbs  -i  JPN -mi 
-LEX-ENTRY:
-LEXSURF = $Xみ
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xみ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xmi&GER
-ALLO:
-ALLOSURF = $Xみられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xmi-PASS&GER
-ALLO:
-ALLOSURF = お$Xみ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xmi&GER
-ALLO:
-ALLOSURF = 大$Xみ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xmi&GER
-ALLO:
-ALLOSURF = ど$Xみ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xmi&GER
- %%%%% Vowel verbs  -i  JPN -ri 
-LEX-ENTRY:
-LEXSURF = $Xり
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xり
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xri&GER
-ALLO:
-ALLOSURF = $Xりられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xri-PASS&GER
-ALLO:
-ALLOSURF = お$Xり
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xri&GER
-ALLO:
-ALLOSURF = 大$Xり
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo#$Xri&GER
-ALLO:
-ALLOSURF = ど$Xり
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do#$Xri&GER
- %%%%% Vowel verbs  -i  JPN mi 
-LEX-ENTRY:
-LEXSURF = $X見
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X見
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xmi&GER
-ALLO:
-ALLOSURF = $X見られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xmi-PASS&GER
-ALLO:
-ALLOSURF = お$X見
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xmi&GER
-%%%%% Vowel verbs  -i  JPN ki 
-LEX-ENTRY:
-LEXSURF = $X着
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X着
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xki&GER
-ALLO:
-ALLOSURF = $X着られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xki-PASS&GER
-ALLO:
-ALLOSURF = お$X着
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xki&GER
-%%%%% Vowel verbs  -i  JPN chi 
-LEX-ENTRY:
-LEXSURF = $X散
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X散
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xchi&GER
-ALLO:
-ALLOSURF = $X散られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xchi-PASS&GER
-ALLO:
-ALLOSURF = お$X散
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xchi&GER
-%%%%% Vowel verbs  -i  JPN ni 
-LEX-ENTRY:
-LEXSURF = $X煮
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X煮
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xni&GER
-ALLO:
-ALLOSURF = $X煮られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xni-PASS&GER
-ALLO:
-ALLOSURF = お$X煮
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xni&GER
-%%%%% Vowel verbs  -i  JPN ni 
-LEX-ENTRY:
-LEXSURF = $X似
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X似
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xni&GER
-ALLO:
-ALLOSURF = $X似られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xni-PASS&GER
-ALLO:
-ALLOSURF = お$X似
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xni&GER
- %%%%% Vowel verbs  -i  JPN i 
-LEX-ENTRY:
-LEXSURF = $X居
-LEXCAT = [scat v:v]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $X居
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xi&GER
-ALLO:
-ALLOSURF = $X居られ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xi-PASS&GER
-ALLO:
-ALLOSURF = お$X居
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xi&GER
- %%%%% Vowel verbs  -i  JPN i 
-LEX-ENTRY:
-LEXSURF = $Xい
-LEXCAT = [scat OR v:v v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xい
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xi&GER
-ALLO:
-ALLOSURF = $Xいられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xi-PASS&GER
- %%%%% Vowel verbs  -i  JPN mi 
-LEX-ENTRY:
-LEXSURF = $Xみ
-LEXCAT = [scat v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xみ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xmi&GER
-ALLO:
-ALLOSURF = $Xみられ
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xmi-PASS&GER
- 
 
 %%%				  existence verb aru
 LEX-ENTRY:
@@ -908,13 +187,15 @@ LEXCAT = [scat OR v:ir v:ir:sub]
 ALLO:
 ALLOSURF = ari
 ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = ari
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ari
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 %ALLOSTEM = ar-GER
+%%%
 ALLO:
 ALLOSURF = oari
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+ALLOCAT = LEXCAT, ADD [tense inf]
 ALLOSTEM = o#ar-GER
 ALLO:
 ALLOSURF = at
@@ -922,59 +203,66 @@ ALLOCAT = LEXCAT, ADD [allo vTTr]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
+%%%newKKK
 ALLO:
-ALLOSURF = nai
-ALLOCAT = LEXCAT, ADD [tense pres]
-ALLOSTEM = ar&NEG-PRES
+ALLOSURF = na
+ALLOCAT = LEXCAT, ADD [allo v-adj]
+ALLOSTEM = ar&NEG
+%%%
 ALLO:
 ALLOSURF = nashi
 ALLOCAT = LEXCAT, ADD [tense pres], ADD [gen GER]
 ALLOSTEM = ar&NEG-GER
-ALLO:
-ALLOSURF = nakatta
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-PAST
-ALLO:
-ALLOSURF = nakute
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN
-ALLO:
-ALLOSURF = nakattari
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-ALT
-ALLO:
-ALLOSURF = nakutatte
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONC
-ALLO:
-ALLOSURF = nakereba
-ALLOCAT = LEXCAT, ADD [tense pres]
-ALLOSTEM = ar&NEG-COND:ba
-ALLO:
-ALLOSURF = naide
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN:de
-ALLO:
-ALLOSURF = naide
-ALLOCAT = LEXCAT, ADD [tense imp]
-ALLOSTEM = ar&NEG-IMP:de
-ALLO:
-ALLOSURF = nakattatte
-ALLOCAT = LEXCAT, ADD [tense imp]
-ALLOSTEM = ar&NEG-PAST-CONC
-ALLO:
-ALLOSURF = nakattara
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-COND:tara
-ALLO:
-ALLOSURF = nakucha
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN&wa
-ALLO:
-ALLOSURF = nakya
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN&wa
-
+%%%rausKKK
+%ALLO:
+%ALLOSURF = nai
+%%ALLOCAT = LEXCAT, ADD [tense pres]
+%ALLOSTEM = ar&NEG-PRES
+%ALLO:
+%ALLOSURF = nakatta
+%ALLOCAT = LEXCAT, ADD [tense past]
+%ALLOSTEM = ar&NEG-PAST
+%ALLO:
+%ALLOSURF = nakute
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ar&NEG-CONN
+%ALLO:
+%ALLOSURF = nakattari
+%ALLOCAT = LEXCAT, ADD [tense past]
+%ALLOSTEM = ar&NEG-ALT
+%ALLO:
+%ALLOSURF = nakutatte
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ar&NEG-CONC
+%ALLO:
+%ALLOSURF = nakereba
+%ALLOCAT = LEXCAT, ADD [tense pres]
+%ALLOSTEM = ar&NEG-COND:ba
+%ALLO:
+%ALLOSURF = naide
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ar&NEG-CONN:de
+%ALLO:
+%ALLOSURF = naide
+%ALLOCAT = LEXCAT, ADD [tense imp]
+%ALLOSTEM = ar&NEG-IMP:de
+%ALLO:
+%ALLOSURF = nakattatte
+%ALLOCAT = LEXCAT, ADD [tense imp]
+%ALLOSTEM = ar&NEG-PAST-CONC
+%ALLO:
+%ALLOSURF = nakattara
+%ALLOCAT = LEXCAT, ADD [tense past]
+%ALLOSTEM = ar&NEG-COND:tara
+%ALLO:
+%ALLOSURF = nakucha
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ar&NEG-CONN&wa
+%ALLO:
+%ALLOSURF = nakya
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ar&NEG-CONN&wa
+%%%
 
 %%%				  iku
 LEX-ENTRY:
@@ -983,10 +271,12 @@ LEXCAT = [scat OR v:c v:c:sub]
 ALLO:
 ALLOSURF = iki
 ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = iki
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = ik-GER
+%%%rausKKK
+%ALLO:
+%ALLOSURF = iki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = ik-GER
+%%%%
 ALLO:
 ALLOSURF = ika
 ALLOCAT = LEXCAT, ADD [allo vCa]
@@ -1010,10 +300,16 @@ LEXCAT = [scat OR v:ir v:ir:sub]
 ALLO:
 ALLOSURF = shi
 ALLOCAT = LEXCAT, ADD [allo vTSi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = shi
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = su&GER
+%%%newKKK
 ALLO:
-ALLOSURF = shi
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = su&GER
+ALLOSURF = sh
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+%%%
 ALLO:
 ALLOSURF = shisoo
 ALLOCAT = LEXCAT, ADD [scat n:an]
@@ -1041,10 +337,16 @@ ALLO:
 ALLOSURF = ki
 ALLOCAT = LEXCAT, ADD [allo vTKi]
 ALLOSTEM = ku
+%%%rausKKK
+%ALLO:
+%ALLOSURF = ki
+%ALLOCAT = LEXCAT, ADD [tense inf]
+%ALLOSTEM = ku&GER
+%%%newKKK
 ALLO:
-ALLOSURF = ki
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ku&GER
+ALLOSURF = k
+ALLOCAT = LEXCAT, ADD [allo vBKu]
+%%%
 ALLO:
 ALLOSURF = koi
 ALLOCAT = LEXCAT, ADD [tense imp]
@@ -1074,10 +376,12 @@ ALLOCAT = LEXCAT, ADD [allo vNNr]
 ALLO:
 ALLOSURF = $Xri
 ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = $Xri
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xr-GER
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xri
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xr-GER
+%%%
 ALLO:
 ALLOSURF = $Xrare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1106,11 +410,13 @@ ALLOSURF = $Xt
 ALLOCAT = LEXCAT, ADD [allo vTTw]
 ALLO:
 ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [allo vPIw]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xw-GER
+ALLOSTEM = $Xw
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xw-GER
+%%%
 ALLO:
 ALLOSURF = $Xware
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1131,12 +437,6 @@ ALLOCAT = LEXCAT, ADD [allo vC]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vRww]
-%%% allo for "iu" 言う 
-ALLO:
-ALLOSURF = $Xii
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = $Xiw-GER
-
 
 %%%			 verbs that end with "t"
 LEX-ENTRY:
@@ -1157,10 +457,17 @@ ALLOCAT = LEXCAT, ADD [allo vCa]
 ALLO:
 ALLOSURF = $Xtare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xchi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xt-GER
+%%%newKKK
 ALLO:
-ALLOSURF = $Xchi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xt-GER
+ALLOSURF = $Xch
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLOSTEM = $Xt
+%%%
 ALLO:
 ALLOSURF = o$Xchi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -1183,10 +490,17 @@ ALLOCAT = LEXCAT, ADD [allo vTNn]
 ALLO:
 ALLOSURF = $X$Ni
 ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $X$Ni
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $X$N-GER
+%%%newKKK
 ALLO:
 ALLOSURF = $X$Ni
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $X$N-GER
+ALLOCAT = LEXCAT, ADD [allo vTNn]
+ALLOSTEM = $X$N
+%%%
 ALLO:
 ALLOSURF = $X$Nare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1216,10 +530,17 @@ ALLOCAT = LEXCAT, ADD [allo vTIk]
 ALLO:
 ALLOSURF = $Xki
 ALLOCAT = LEXCAT, ADD [allo vCi]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xki
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xk-GER
+%%%newKKK
 ALLO:
 ALLOSURF = $Xki
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xk-GER
+ALLOCAT = LEXCAT
+ALLOSTEM = $Xk
+%%%
 ALLO:
 ALLOSURF = $Xkare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1251,10 +572,17 @@ ALLOCAT = LEXCAT, ADD [allo vCi]
 ALLO:
 ALLOSURF = $Xga
 ALLOCAT = LEXCAT, ADD [allo vCa]  
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xgi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xg-GER
+%%%newKKK
 ALLO:
 ALLOSURF = $Xgi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xg-GER
+ALLOCAT = LEXCAT
+ALLOSTEM = $Xg
+%%%
 ALLO:
 ALLOSURF = $Xgare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1280,10 +608,17 @@ ALLOCAT = LEXCAT, ADD [allo vCa]
 ALLO:
 ALLOSURF = $Xshi
 ALLOCAT = LEXCAT, ADD [allo vAIs]
+%%%rausKKK
+%ALLO:
+%ALLOSURF = $Xshi
+%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
+%ALLOSTEM = $Xs-GER
+%%%newKKK
 ALLO:
-ALLOSURF = $Xshi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xs-GER
+ALLOSURF = $Xsh
+ALLOCAT = LEXCAT, ADD [allo vC]
+ALLOSTEM = $Xs
+%%%
 ALLO:
 ALLOSURF = $Xsare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -1299,221 +634,6 @@ ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]  
 
-
-%%****************
-%% SUBSIDIARY-VERB-ALLO        
-%%****************
-
-RULENAME: vsub-allo
-% variables
-X = .* %anything
-N = [mbn]
-
-%%% 				subverb  vowel verbs "e" 
-LEX-ENTRY:
-LEXSURF = $Xe
-LEXCAT = [scat v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xe
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-
-
-%%% 				subverb  vowel verbs "i" 
-LEX-ENTRY:
-LEXSURF = $Xi
-LEXCAT = [scat v:v:sub]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vV]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-
-
-%%%				  subverb  existence verb aru
-LEX-ENTRY:
-LEXSURF = ar
-LEXCAT = [scat v:ir:sub]
-ALLO:
-ALLOSURF = ari
-ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = ari
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = ar-GER
-ALLO:
-ALLOSURF = at
-ALLOCAT = LEXCAT, ADD [allo vTTr]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vC]
-ALLO:
-ALLOSURF = nai
-ALLOCAT = LEXCAT, ADD [tense pres]
-ALLOSTEM = ar&NEG-PRES
-ALLO:
-ALLOSURF = nakatta
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-PAST
-ALLO:
-ALLOSURF = nakute
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN
-ALLO:
-ALLOSURF = nakattari
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-ALT
-ALLO:
-ALLOSURF = nakutatte
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONC
-ALLO:
-ALLOSURF = nakereba
-ALLOCAT = LEXCAT, ADD [tense pres]
-ALLOSTEM = ar&NEG-COND:ba
-ALLO:
-ALLOSURF = naide
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN:de
-ALLO:
-ALLOSURF = naide
-ALLOCAT = LEXCAT, ADD [tense imp]
-ALLOSTEM = ar&NEG-IMP:de
-ALLO:
-ALLOSURF = nakattatte
-ALLOCAT = LEXCAT, ADD [tense imp]
-ALLOSTEM = ar&NEG-PAST-CONC
-ALLO:
-ALLOSURF = nakattara
-ALLOCAT = LEXCAT, ADD [tense past]
-ALLOSTEM = ar&NEG-COND:tara
-ALLO:
-ALLOSURF = nakucha
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN&wa
-ALLO:
-ALLOSURF = nakya
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ar&NEG-CONN&wa
-
-
-%%%				subverb  iku
-LEX-ENTRY:
-LEXSURF = ik
-LEXCAT = [scat v:c:sub]
-ALLO:
-ALLOSURF = iki
-ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = iki
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xk-GER
-ALLO:
-ALLOSURF = ika
-ALLOCAT = LEXCAT, ADD [allo vCa]
-ALLO:
-ALLOSURF = it
-ALLOCAT = LEXCAT, ADD [vform ik], ADD [allo vTIk]
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vC]
-
-
-
-%%%				 subverb   kahen 
-LEX-ENTRY:
-LEXSURF = ku
-LEXCAT = [scat v:ir:sub]
-ALLO:
-ALLOSURF = ko
-ALLOCAT = LEXCAT, ADD [allo vBKo]
-ALLOSTEM = ku
-ALLO:
-ALLOSURF = ki
-ALLOCAT = LEXCAT, ADD [allo vTKi]
-ALLOSTEM = ku
-ALLO:
-ALLOSURF = ki
-ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = ku&GER
-ALLO:
-ALLOSURF = ku
-ALLOCAT = LEXCAT, ADD [allo vBKu]
-
-
-%%%				subverbs that end with "r"
-LEX-ENTRY:
-LEXSURF = $Xr
-LEXCAT = [scat v:c:sub]
-ALLO:
-ALLOSURF = $Xn
-ALLOCAT = LEXCAT, ADD [allo vNNr]
-ALLO:
-ALLOSURF = $Xt
-ALLOCAT = LEXCAT, ADD [allo vTTr]
-ALLO:
-ALLOSURF = $Xra
-ALLOCAT = LEXCAT, ADD [allo vCa]
-ALLO:
-ALLOSURF = $Xri
-ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = $Xri
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xr-GER
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vC]
-
-
-%%%			 	subverbs that end with "w"
-LEX-ENTRY:
-LEXSURF = $Xw
-LEXCAT = [scat v:c:sub]
-ALLO:
-ALLOSURF = $X
-ALLOCAT =LEXCAT, ADD [allo vRw]
-ALLO:
-ALLOSURF = $Xt
-ALLOCAT = LEXCAT, ADD [allo vTTw]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [allo vPIw]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLO:
-ALLOSURF = $Xwa
-ALLOCAT = LEXCAT, ADD [allo vCa]  
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vRww]
-
-
-
-%%%			 	subverbs that end with "k"
-LEX-ENTRY:
-LEXSURF = $Xk
-LEXCAT = [scat v:c:sub]
-ALLO:
-ALLOSURF = $Xi
-ALLOCAT = LEXCAT, ADD [allo vTIk]
-ALLO:
-ALLOSURF = $Xki
-ALLOCAT = LEXCAT, ADD [allo vCi]
-ALLO:
-ALLOSURF = $Xki
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = $Xk-GER
-ALLO:
-ALLOSURF = $Xka
-ALLOCAT = LEXCAT, ADD [allo vCa]  
-ALLO:
-ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vC]
 
 
 %%****************

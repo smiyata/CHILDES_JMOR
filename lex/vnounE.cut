@@ -333,7 +333,6 @@
 	imi	{[scat n:vn] [sn +] [ncf imi]} =meaning=	%【意味】-
 	inchiki	{[scat n:vn]} =fake=	%
 	inekari	{[scat n:vn]} =rice_harvesting=	%【稲刈り】
-	inori	{[scat n:vn]} =praying=	%【祈り】
 	inochibiroi	{[scat n:vn]} =narrow_escape=	%【命拾い】
 	insatsu	{[scat n:vn]} =printing=	%【印刷】
 	inshu	{[scat n:vn]} =alc_drinking=	%【飲酒】
