@@ -1,5 +1,6 @@
 @UTF8
 %%%% ADJ + N
+%%%% ADJ + ADJ
 %%%% NA + N
 %%%% ADJ + V
 %%%% ONOMA + V
@@ -33,6 +34,14 @@ iikochan	{[scat n][comp adj+n]} =good_child= "ii+ko-chan"
 iikochanguruupu	{[scat n][comp adj+n+n]} =good_child_group= "ii+ko&chan+guruupu"
 
 hanashiasobiehonshiriizu	{[scat n][comp n:vn+v:c+n+n+n]} =story_playing_picturebook_series= "hanashi+asob&GER+e+hon+shiriizu"
+
+
+%%ADJ+ADJ%%%
+hosonaga	{[scat adj][comp adj+adj]} =thin_and_long= "hoso+naga"		
+nagaboso	{[scat adj][comp adj+adj]} =long_and_thin= "naga+hoso"		
+usugura	{[scat adj][comp adj+adj]} =gloomy= "usu+kura"		
+
+
 %%%% NA + N
 tokuiwaza	{[scat n][comp n:an+n]} =special_skill= "tokui+waza"	
 %%%% ADJ + V

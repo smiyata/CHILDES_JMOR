@@ -446,6 +446,7 @@ kongetsu	{[scat n]} =this_month=
 	fukushinzuke	{[scat n]} =soy_sauce_pickles= 	"fukujinzuke" % 
 	fukusoo	{[scat n]} =clothes=	% 服装 
 	fuman	{[scat n]} =discontent=	% 不満
+	fumikiri	{[scat n]} =railroad_crossing=	% 踏切
 	fun	{[scat n]} =excrement=	% ふん  糞 
 	fun	{[scat n]} =minute=	% 分 
 	funa	{[scat n]} =crucian_carp= 	% フナ 

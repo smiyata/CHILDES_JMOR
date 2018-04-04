@@ -103,24 +103,25 @@ kitta	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "PO
 % present		########
 raa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:raa"
 ai	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "PRES:rai"
-rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai"
+rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai"  % overproductive
 % conditional	########
 yaa	{[scat vtense] [tense pres] [allo OR vC]} "COND:contr"
 ryaa	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
 りゃあ	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
 
 
-% prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen )
-iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
-ikan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
-akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
-ikankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
-akankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
+% prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen -> moved to closed.cut)
+%iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
+%ikan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
+%akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
+%ikankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
+%akankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
 いけん	{[scat v:c] [tense inf] [allo OR vC]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
 いかん	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
 あかん	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
 いかんかった	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"  
 あかんかった	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH" 
+
 % middle inflections	########
 
 

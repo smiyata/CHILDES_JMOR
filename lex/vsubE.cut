@@ -4,12 +4,17 @@
 %%%%%%%%%%%%%%%%%%%
 age	{[scat v:v:sub]} =give= 
 ar	{[scat v:ir:sub]} =be= 
-i	{[scat v:v:sub] [vform i]} =ASP=
-ik	{[scat v:c:sub] [vform ik]} =go= 
+e	{[scat v:v:sub]} =get=
+i	{[scat v:v:sub]} =ASP=
+ik	{[scat v:c:sub]} =go= 
+ik	{[scat v:c:sub]} =PRH=  %(yatte wa ikemasen; wake ni wa ikanai etc)
+ik	{[scat v:c]} =PRH=  %(kore wa ikemasen)
 har	{[scat v:c:sub]} =be= 
 itadak	{[scat v:c:sub]} =get_POL= 
 ku	{[scat v:ir:sub]} =come= 
 kaer	{[scat v:c:sub]} =return=
+kimatte	{[scat v:c:sub] [tense inf]} =be_decided= "kimar-CONN"		%ni kimatte iru
+kimatteru	{[scat v:c:sub] [tense pres]} =be_decided= "kimar-ASP-PRES"
 kure	{[scat v:v:sub]} =give= 
 mair	{[scat v:c:sub]} =come_POL=
 mi	{[scat v:v:sub]} =try=

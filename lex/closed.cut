@@ -241,7 +241,8 @@ dore	{[scat vtense] [tense imp] [allo OR vTNn vTIg]} "ASP:or-IMP"
 
 % negative		######## 
 na	{[scat neg] [allo OR vV vCa vBKo vTSi vNNr]} "NEG"  
-zu	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&GER" 
+zu	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&GER" 
+zaru	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zaru" 
 nu	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:nu&PRES"  
 naide	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&CONN:de"
 naide	{[scat vtense] [tense imp] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&IMP:de"
@@ -281,19 +282,20 @@ da	{[scat vtense] [tense past] [allo OR vTNn vTIg]} "PAST"
 % connective	########
 te	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "CONN"
 de	{[scat vtense] [tense pres] [allo OR vTNn vTIg cRda]} "CONN"
-て	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "CONN"
 cha	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "CONN&wa"
 ja	{[scat vtense] [tense inf] [allo OR vTNn vTIg]} "CONN&wa"
-ちゃ	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "CONN&wa"
+
+
+% iterative	########
+tsutsu	{[scat vtense] [tense inf][allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "CONN:tsutsu" 
+
+
 % imperative	########
 e	{[scat vtense] [tense imp] [allo OR vC vRw]} "IMP"
 ro	{[scat vtense] [tense imp] [allo OR vV vTSi]} "IMP"
 ri	{[scat vtense] [tense imp] [allo OR vV vTSi]} "IMP:ri"
-ろ	{[scat vtense] [tense imp] [allo OR vV vTSi]} "IMP"
 tamae	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:tamae"
-たまえ	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:tamae"
 na	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG&CONN:na" 
-な	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG&CONN:na" 
 nasai	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai"
 nchai	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai"
 nasaimase	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai-POL-IMP"
@@ -338,35 +340,19 @@ i	{[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]} "GER"
 %%%
 
 
-% prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen )
-iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=
-
-
-
-
-
 
 % prohibition"
 %% naranai=PRH in verb.cut ; only ikemasen hard-wired 
-ikan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH" 							 %for some reason double output
-akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  							%for some reason double output
+
+ikan 	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"
+akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"
 ikankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
 akankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
-ikenai	{[scat v:c] [tense inf]} "ik-POT-NEG-PRES=PRH"
-ikenaku	{[scat v:c] [tense inf]} "ik-POT-NEG-ADV=PRH"
-ikenakatta	{[scat v:c] [tense past]} "ik-POT-NEG-PAST=PRH"
-ikemasen	{[scat v:c] [tense inf]} "ik-POT-POL-NEG:n&PRES=PRH" 			   %for some reason double output
 
 ikan	{[scat v:c:sub] [tense inf]} "ik-NEG:n&PRES=PRH"  		%for some reason double output
-akan	{[scat v:c:sub] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
+akan	{[scat v:c:sub] [tense inf]} "ik-NEG:n&PRES=PRH"  	%for some reason double output
 ikankatta	{[scat v:c:sub] [tense inf]} "ik-NEG:n-PAST=PRH"
 akankatta	{[scat v:c:sub] [tense inf]} "ik-NEG:n-PAST=PRH"
-ikenai	{[scat v:c:sub] [tense inf]} "ik-POT-NEG-PRES=PRH"
-ikenaku	{[scat v:c:sub] [tense inf]} "ik-POT-NEG-ADV=PRH"
-ikenakatta	{[scat v:c:sub] [tense past]} "ik-POT-NEG-PAST=PRH"
-ikemasen	{[scat v:c:sub] [tense inf]} "ik-POT-POL-NEG:n&PRES=PRH"  %for some reason double output
-
- 
 
 % middle inflections	########
 % aspect
@@ -380,12 +366,13 @@ rare	{[scat vsfx] [allo OR vV vBKo] [cp vV]} "PASS"
 are	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vV]} "PASS"
 
 % potential	########
-rare	{[scat vsfx] [allo vV]  [cp vV]} "POT"
+rare	{[scat vsfx] [allo vV]  [cp vV]} "POT"   
 %e	{[scat vsfx] [allo OR vC vBPp vBNn vBRr vBTt vBSs vRw] [cp vV] [int +]} "POT" 
-e	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]} "POT"
-re	{[scat vsfx] [allo vV][cp vV]} "POT:contr"
-re	{[scat vsfx] [allo vBKo] [cp vV]} "POT"
+e	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]} "POT"    %nomeru
+re	{[scat vsfx] [allo vV][cp vV]} "POT:contr"   
+re	{[scat vsfx] [allo vBKo] [cp vV]} "POT"  
 
+e	{[scat vsfx]  [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]} "POT:e"     %arieru
 % causative	########
 sase	{[scat vsfx] [allo OR vV vBKo] [cp vV]} "CAUS"
 sas	{[scat vsfx] [allo OR vV vBKo] [cp vC]} "CAUS:contr"
@@ -410,37 +397,8 @@ jat	{[scat vsfx] [allo OR vTNn vTIg] [cp vTTw]} "COMPL"
 jawa	{[scat vsfx] [allo OR vTNn vTIg] [cp vCa]} "COMPL"
 jai	{[scat vsfx] [allo OR vTNn vTIg] [cp vPIw]} "COMPL"
 
-% syntactic compound verbs  	########
-
-%%  doesnt work after Vs- stems for some reason 
-
-sugi	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =too_much=
-hajime	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =begin=
-tsuzuke	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =continue=
-kake	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =start=
-wasure	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =forget=
-%e	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vV]} =can=  %overproductive
 
 
-das	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vC]} =start=
-dashi	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vAIs]} "das" =start=
-dasa	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vCa]} "das" =start=
-naos	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vC]} =once_more=
-naoshi	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vAIs]} "naos" =once_more=
-naosa	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vCa]} "naos" =once_more=
-nokos	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vC]} =leave=
-nokoshi	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vAIs]} "nokos" =leave=
-nokosa	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vCa]} "nokos" =leave=  
- 
-owar	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vC]} =end=
-owari	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vCi]} "owar" =finish=
-owara	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vCa]} "owar" =finish=
-owat	{[scat vcomp] [allo OR vV vCi vPIw V vAIt vAIs vTKi vTSi][cp vTTr]} "owar" =finish=
- 
-
-
-
- 
 % numeral suffixes	########
 % 								 倍 
 bai	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =double=

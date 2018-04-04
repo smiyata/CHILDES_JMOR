@@ -1,0 +1,37 @@
+@UTF8
+%%%%%%%%%%%%%%%%%%%, v-pot-vv2
+%% potential
+%%%%%%%%%%%%%%%%%%%
+RULENAME: v-pot-vv2
+CTYPE: -
+%%% 	 					vV for eru/uru
+if
+STARTCAT = [allo OR vV vBKo], ![int -]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, neg}
+RULENAME: v-pot-cv2
+CTYPE: -
+%%% (1) 					vV for consonant verbs
+if
+STARTSURF = !ir
+STARTCAT = [allo vCi], ![int -]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, neg}
+%%%  						for verbs on "w"
+if
+STARTSURF = !ir
+STARTCAT = [allo OR vPIw vAIt vTKi vTSi vAIs]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, neg}

@@ -20,6 +20,7 @@ kawari	{[scat n:fml]} =instead_of=
  gawari	{[scat n:fml]} =instead_of= "kawari"
 kekka	{[scat n:fml]} =result=
 koto	{[scat n:fml]} =fact=
+koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
 gurai	{[scat n:fml]} =grade= "kurai"
 kuse	{[scat n:fml]} =inspite_of=
@@ -28,6 +29,7 @@ mae	{[scat n]} =before=
 mama	{[scat n:fml]} =state=	% まま  侭 
 mono	{[scat n:fml]} =fact=
 mon	{[scat n:fml]} =fact= "mono"
+no	{[scat n:fml]} =RLV= 
 nochi	{[scat n:fml]} =after= 
 okage	{[scat n:fml]} =thanks_to=
 ori	{[scat n:fml]} =just_then=

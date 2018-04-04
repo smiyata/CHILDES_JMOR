@@ -14,7 +14,6 @@ kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV
 %%%%%%%%%
 	abuna	{[scat adj]} =dangerous=	% 危ない
 	abunakkashi	{[scat adj]} =dangerous=	% 危なっかしい 
-	ahorashi	{[scat adj]} =stupid=	% あほらしい  阿呆らしい 
 	ajikena	{[scat adj]} =dull=	% 味気ない 
 	aka	{[scat adj]} =red=	% 赤い 
 	akaru	{[scat adj]} =well_lighted=	% 明るい 
@@ -39,7 +38,6 @@ kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV
 	ayashi	{[scat adj]} =suspicious=	% 怪しい 
 	ayau	{[scat adj]} =dangerous=	% 危うい 
 	bakabakashi	{[scat adj]} =stupid=	% ばかばかしい  馬鹿馬鹿しい 
-	bakarashi	{[scat adj]} =stupid=	% ばからしい  馬鹿らしい 
 	boro	{[scat adj]} =crumbling=	%
 	buatsu	{[scat adj]} =thick=	% 分厚い/部厚い 
 	chairo	{[scat adj]} =brown=
@@ -223,17 +221,14 @@ kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV
 	omoro	{[scat adj]} =interesting=	% おもしろい  面白い 
 	omoshiro	{[scat adj]} =interesting=	% おもしろい  面白い 
 	omota	{[scat adj]} =heavy=	% 重たい 
-	onnarashi	{[scat adj]} =woman_like=	% 女らしい 
 	oo	{[scat adj]} =many=	% 多い 
 	ooki	{[scat adj]} =big=	% 大きい 
 	osana	{[scat adj]} =infantile=	% 幼い 
 	oshi	{[scat adj]} =regrettable=	% 惜しい 
 	oso	{[scat adj]} =late=	% 遅い 
 	osoroshi	{[scat adj]} =terrifying=	% 恐ろしい 
-	otokorashi	{[scat adj]} =manly=	% 男らしい 
 	otonagena	{[scat adj]} =immature=	% おとなげない/大人気ない 
 	otonashi	{[scat adj]} =obedient=	% おとなしい  大人しい 
-	rashi	{[scat adj]} =seeming=	% らしい 
 	rikutsuppo	{[scat adj]} "rikutsu-ppo" =argumentative=	% 理屈っぽい 
 	sabishi	{[scat adj]} =feeling_lonely=	% 寂しい  淋しい 
 	samishi	{[scat adj]} =feeling_lonely= "sabishi"	% さみしい  寂しい/ 淋しい 

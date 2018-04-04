@@ -2,6 +2,7 @@
 %%		Copula plain "da"
 da	{[scat v:cop] [tense pres]} =be= "da&PRES"
 na	{[scat v:cop] [tense pres]} =be= "da&PRES:na"
+no	{[scat v:cop] [tense inf]} =be= "da&PRES:no"  %inu no omawarisan
 ja	{[scat v:cop] [tense inf]} =be= "de&CONN&wa"	
 jagena	{[scat v:cop] [tense pres]} =be= "de&wa&PRES:gena"	
 dattari	{[scat v:cop] [tense past]} =be= "da-ALT"	

@@ -365,6 +365,31 @@ then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
 RULEPACKAGE = {v-tense, v-complet, neg, asp_i, asp_or, v-adj, v-anoun}
 
+RULENAME: v-pot-vv2
+CTYPE: -
+%%% 	 					2nd Rule vV for eru/uru
+if
+STARTCAT = [allo OR vV vBKu vBSu], ![int -]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, neg}
+
+RULENAME: v-pot-cv2
+CTYPE: -
+%%% (1) 					vV for consonant verbs
+if
+STARTSURF = !ir
+STARTCAT = [allo OR vCi vPIw vAIt vTKi vTSi vAIs], ![int -]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, neg}
+
 %%%%%%%%%%%%%%%%%%%
 %% passive
 %%%%%%%%%%%%%%%%%%%
@@ -593,7 +618,7 @@ NEXTCAT = [scat asp_or], [cp vTTr]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTr] 
-RULEPACKAGE = {v-tense, v-complet, v-imp}
+RULEPACKAGE = {v-tense, v-complet}
 %%%%
 
 
