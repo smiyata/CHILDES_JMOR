@@ -114,22 +114,10 @@ LEXCAT = [scat OR v:v v:v:sub]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vV]
-%%%KKK null morpheme wie??
-%%%rausKKK
-%ALLO:
-%ALLOSURF = $Xe
-%ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-%ALLOSTEM = $Xe&GER
-%%%newKKK   DOESNT WORK   %%%% HOW: IF NOTHING then &GER
-%ALLO:
-%ALLOSURF = $Xe
-%ALLOCAT = LEXCAT, ADD [allo vV]
-%%%newKKK  current 
 ALLO:
 ALLOSURF: = $Xe
 ALLOCAT = LEXCAT, ADD [tense inf]
-ALLOSTEM = $Xe-GER
-%%%
+ALLOSTEM = $Xe&GER
 ALLO:
 ALLOSURF = $Xerare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -155,12 +143,10 @@ LEXCAT = [scat OR v:v v:v:sub]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vV]
-%%%wieKKK null morpheme
-%ALLO:
-%ALLOSURF = $Xi
-%ALLOCAT = LEXCAT, ADD [tense inf]
-%ALLOSTEM = $Xi-GER
-%%%
+ALLO:
+ALLOSURF: = $Xi
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xi&GER
 ALLO:
 ALLOSURF = $Xirare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -305,6 +291,7 @@ ALLOCAT = LEXCAT, ADD [allo vCi]
 ALLO:
 ALLOSURF = $Xrare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xr-PASS&GER
 ALLO:
 ALLOSURF = o$Xri
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -333,6 +320,7 @@ ALLOSURF = $Xi
 ALLO:
 ALLOSURF = $Xware
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xw-PASS&GER
 ALLO:
 ALLOSURF = o$Xi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -370,6 +358,7 @@ ALLOCAT = LEXCAT, ADD [allo vCa]
 ALLO:
 ALLOSURF = $Xtare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xt-PASS&GER
 ALLO:
 ALLOSURF = $Xch
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -403,6 +392,7 @@ ALLOSTEM = $X$N
 ALLO:
 ALLOSURF = $X$Nare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $XN-PASS&GER
 ALLO:
 ALLOSURF = o$X$Ni
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -436,6 +426,7 @@ ALLOSTEM = $Xk
 ALLO:
 ALLOSURF = $Xkare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xk-PASS&GER
 ALLO:
 ALLOSURF = o$Xki
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -471,6 +462,7 @@ ALLOSTEM = $Xg
 ALLO:
 ALLOSURF = $Xgare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xg-PASS&GER
 ALLO:
 ALLOSURF = o$Xgi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
@@ -500,6 +492,7 @@ ALLOSTEM = $Xs
 ALLO:
 ALLOSURF = $Xsare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xs-PASS&GER
 ALLO:
 ALLOSURF = o$Xshi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]

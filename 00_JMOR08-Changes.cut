@@ -75,17 +75,11 @@ j) new: (sub) eru  v:v:sub|e-PRES=get
 	tabezaru o enai  
 	v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
 
-k) new: (infl) -e(ru)  POT:e / POT:u
-zaru o enai   =>>    NEG:zaru ptl:case|o=ACC v:v:sub|e-NEG   
-narieru  ==> POT:e
-nariuru  ==> POT:u
-%%%%%% cr.cut doesn't work yet for this; rulename v-pot-vv2 
-
 l) change: (smod) tsutsu	
    OLD smod|tsutsu=in_course_of
    	   smod|tsutsu_aru=in_course_of
    NEW  -CONN:tsutsu  
-   ikitsutsu aru v:c|ik-CONN:tsutsu=go v:ir:sub|ar-PRES=be
+            ikitsutsu aru v:c|ik-CONN:tsutsu=go v:ir:sub|ar-PRES=be
 
 m) change: (smod) bakari
    OLD smod|bakari=nothing_but		
@@ -95,7 +89,7 @@ m) change: (smod) bakari
 %%%%%%%
 
 ******** CHANGES in JMOR07.2 ********2017nov22
-1) 複合動詞    (bei Okubo nicht gemacht)
+1) 複合動詞   
 
 統語的複合動詞 (syntactic compound verbs; Kido, 2016; http://vvlexicon.ninjal.ac.jp/) added to clo.cut:   
 -sugiru -tsuzukeru -dasu -kakeru -hajimeru -owaru -naosu -nokosu -wasureru

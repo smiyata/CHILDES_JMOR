@@ -1,6 +1,13 @@
 @UTF8
 changed from 07 to 08 
 
+
+EI.TMNBKGR ok  nur vPIw vAIs   geht nichtharaisoomodoshisoo
+-gachi, Yasui  geht auch nicht
+
+
+
+********ab hier ok
 1) Compound verbs regrouped
 syntactic compound verbs as v+v , lexial compounds as v (stem v_v)
 following 影山太郎 (2013） NINJAL複合動詞レキシコン <vvlexicon.ninjal.ac.jp>
@@ -9,10 +16,14 @@ listed in verb.cut
 syntactic: tabehajimeru v:v|+v:v|tabe+v:v|hajime-PRES=start_to_eat
 lexical: tabekobos v:c|tabe_kobos-PRES=spill_food
 
-n|+v:c|fum+v:c|kir-GER=railroad_crossing -> n|fumikiri=railroad_crossing
 
-2) new: (v:cop) no v:cop|da&ADN:no=be
-	inu no omawarisan v:cop|no&ADN=be
+@OK freq +d1  +t%mor +s"v:v|+v*-%=*" +s"v:c|+v*-%=*" +u @   n , vn auch OK
+Ok A-sugiru -> A+sugi
+OK-sugi, OKhajime, OKtsuzuke, OKkake, OKwasure
+OK-das, OK naos, OK nokos, OK owar, 
+
+OK2) new: (v:cop) no v:cop|da&ADN:no=be
+	inu no omawarisan v:cop|no&ADN=be   (= toiu, =dearu)
 	 (compare: inu no shippo ptl:attr|no=GEN)
 	kugatsu kara (yori) no kyuuka   -> kugatsu kara da
     kugatsu made no kyuuka
@@ -21,14 +32,20 @@ n|+v:c|fum+v:c|kir-GER=railroad_crossing -> n|fumikiri=railroad_crossing
     ni kanshite no
     x mite no kansoo
 
-3) Modal expressions revised
-a) new: (v:sub) naranai v:c:sub|nar-NEG-PRES=PRH  (nakute wa naranai , nakereba naranai)
-b) new: (v:sub) ikemasen v:c:sub|ik-POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
-c) new: (v:sub) ni kimatteru v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided) only CONN and ASP-PRES
-d) new: (smod) nichigainai smod|ni_chigai_nai=no_doubt_that
+OK3) Modal expressions revised
+OK a) new: (v:sub) naranai v:c:sub|nar-NEG-PRES=PRH  (nakute wa naranai , nakereba naranai)
+   nomanakya naranai   
+
+
+OKb) new: (v:sub) ikemasen v:c:sub|ik-POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
+   	ikenai 
+	iken	v:c:sub|ik-POT-NEG:n&PRES=PRH
+	ikan	v:c:sub|ik-NEG:n&PRES=PRH
+OKc) new: (v:sub) ni kimatteru v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided) only CONN and ASP-PRES
+OKd) new: (smod) nichigainai smod|ni_chigai_nai=no_doubt_that
      nichigainakatta smod|ni_chigai_nakatta=no_doubt_that
      nichigaiarimasen smod|ni_chigai_arimasen=no_doubt_that
-e) change: (smod) rashii
+OKe) change: (smod) rashii
 	OLD smod|rashii=hearsay  -> NEW smod|rashi-PRES
 	iku rashii       smod|rashi-PRES
 	iku rashikute    smod|rashi-CONN    
@@ -36,56 +53,43 @@ e) change: (smod) rashii
    cut:  rashii adj|rashi-PRES=seeming  
 	(compare: harurashii  haru-rashi-PRES, -PAST NEG-PRES etc)
 	
-f) new: (fml) no (da)  n:fml|no=RLV
+OKf) new: (fml) no (da)  n:fml|no=RLV
 	OLD ptl:snr|no=SNR v:cop|da&PRES=be
 	NEW n:fml|no=RLV v:cop|da&PRES=be
 	(compare: iku no ga ii  ptl:snr|no=SNR )
 
-h) new: (fml) koto n:fml|koto=IMP
+OKh) new: (fml) koto n:fml|koto=IMP
 	te arau koto! -> n:fml|koto=IMP
 	(compare: iku koto ga ooi  n:fml|koto=fact )
 
-i) new: (infl) -zaru NEG:zaru
+OKi) new: (infl) -zaru NEG:zaru
 
-j) new: (sub) eru  v:v:sub|e-PRES=get
+OKj) new: (sub) eru  v:v:sub|e-PRES=get
 	tabezaru o enai  
 	v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
 
-k) new: (infl) -e(ru)  POT:e
-%%%%%%cr.cut laeuft noch nicht v-pot-vv2  (und infl fuer i-infl muss auch rein)
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-zaru o enai   =>>    NEG:zaru   v:v:sub|e-NEG   
-narieru  ==> POT:e
-nariuru  ==> POT:u
 
-l) change: (smod) tsutsu	
+OK k) change: (smod) tsutsu	
    OLD smod|tsutsu=in_course_of
    	   smod|tsutsu_aru=in_course_of
    NEW  -CONN:tsutsu  
    ikitsutsu aru v:c|ik-CONN:tsutsu=go v:ir:sub|ar-PRES=be
 
-m) change: (smod) bakari
+OK m) change: (smod) bakari
    OLD smod|bakari=nothing_but		
    NEW ptl:foc|bakari=nothing_but
    (compare: n:fml|bakari=nothing_but)
 
-%%%%%%%%%%%bishier
-*v:cop|da-CONC=be for datte XXXfix bug
 
 
+****
+OK 1) new ptl:focdokoroka	ptl:foc|dokoro_ka=not_at_allniatatte	ptl:foc|ni_atatte=concerningniatari		ptl:foc|ni_atari=concerningniatarimashite	ptl:foc|ni_atarimashite&POL=concerningnioite		ptl:foc|ni_oite=concerningniokimashite		ptl:foc|ni_okimashite&POL=concerningnimokakawarazu	ptl:foc|ni_mo_kakawarazu=regardlessnikakawarazu	ptl:foc|ni_kakawarazu=regardlessnikanshi	ptl:foc|ni_kanshi=concerningnikanshimashite		ptl:foc|ni_kanshimashite&POL=concerningnishiro		ptl:foc|ni_shiro=be_itniseyo		ptl:foc|ni_seyo=be_itnitsuki		ptl:foc|ni_tsuki=aboutnitsukimashite	ptl:foc|ni_tsukimashite&POL=aboutnitsurete	ptl:foc|ni_tsurete=as_thenniyori		ptl:foc|ni_yori=according_toniyorimashite	ptl:foc|ni_yorimashite&POL=according_tototomoni	ptl:foc|to_tomo_ni=along_withtowaie		ptl:foc|to_wa_ie=thoughOK2) new ptl:postnite		ptl:post|nite=at
 
 
-2)
-	ALLOSURF = $Xirare
-	ALLOSTEM = $Xi-PASS&GER
-
-	prefix o#tabe  wie im clo.cut?
-ALLOSURF = o$Xe
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = o#$Xe&GER
-	affix shisoo etc
 
 3)
 jan Problem: jan auch als v:cop;  
 checken nach n & n:an & n:vn (jetzt nur v:cop) alle mit NEG:n-PRES, NEG-PRES und HORT
+
+
 

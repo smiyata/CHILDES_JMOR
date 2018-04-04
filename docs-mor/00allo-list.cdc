@@ -34,7 +34,7 @@ cons verbs on b		vTNn
 kahen				vTKi
 sahen			    vTSi
 
-a-inflection		for  {neg, v-tense}
+a-inflection		for  {v-tense}
       t type  / d type
 vowel verbs		vV
 cons verbs on w		vCa

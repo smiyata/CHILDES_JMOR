@@ -4,17 +4,17 @@
 %%%%%%%%%%%%%%%%%%%
 
 for Vowel Verbs
-	{v-caus-vv, v-pot-vv, v-pass-vv, v-complet, v-tense, v-imp, neg, asp, v-adj, v-comp, v-aux}
+	{v-caus-vv, v-pot-vv, v-pot-vv-eu, v-pass-vv, v-complet, v-tense, v-imp, asp, v-adj, v-comp, v-aux}
 
 for Cons Verbs
 
-stem infl {v-caus, v-pot-vv, v-pass-cv, v-tense, v-imp}    %%%%v-pot-vv??cv??  oder pass-cv falsch?
+stem infl {v-caus, v-pot-cv, v-pot-cv-eu, v-pass-cv, v-tense, v-imp}    %%%%v-pot-vv??cv??  oder pass-cv falsch?
 
 assim infl	{v-complet v-tense, v-imp, v-adj, asp}
 
 i-infl	{v-comp, v-aux, v-pol, v-adj, v-tense, v-noun}
 
-a-infl	{neg, v-tense}
+a-infl	{v-tense}
 
 
 %%%%%%%%%%%%%%%%%%%
@@ -32,13 +32,14 @@ v-pol	on i
 v-adj	on i on assim
 v-noun	on i
 v-pol	on i
+v-pot-eu  on i
 v-caus 	on stem
 v-pass	on stem
 v-pot	on stem
 v-imp 	on stem
 v-complet on assim
 asp on assim
-neg  	on a
+
 
 RULENAME: adj-start
 pfx-adj

@@ -1,2618 +1,377 @@
 @UTF8
 
 enter analyze_word
-word: esuerusan
+word: nokoshiyasui
 cat: 
 parse: 
-rest: esuerusan
-e
+rest: nokoshiyasui
+n
 
 applying c rules
- word: esuerusan
- rest: esuerusan
+ word: nokoshiyasui
+ rest: nokoshiyasui
  start: 
  start cat: 
  current parse: 
- next: e
- next cat: {[scat v:v:sub] [allo vV]}
- next stem: e
+ next: n
+ next cat: {[scat co:i] [allo co5]}
+ next stem: n
 
 trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
   condition failed
 
 trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
   condition failed
 
 trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
   condition is met
-  condition = CHECK NEXTCAT {[allo vV]}
+  condition = CHECK NEXTCAT {[cc +]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
   condition is met
   operation = COPY NEXTCAT
    current result cat = 
-v-start succeeded!
- result cat: {[scat v:v:sub] [allo vV]}
- current parse: e
+co-start succeeded!
+ result cat: {[scat co:i] [allo co5]}
+ current parse: n
 
 enter analyze_word
-word: esuerusan
-cat: {[scat v:v:sub] [allo vV]}
-parse: e
-rest: suerusan
-  s
-   u
+word: nokoshiyasui
+cat: {[scat co:i] [allo co5]}
+parse: n
+rest: okoshiyasui
+  o
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: su
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
  next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
+ next stem: ow
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat v:c]}
+ next stem: o
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat v:v]}
+ next stem: o
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-    e
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat v:ir]}
+ next stem: o
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat n]}
+ next stem: o
 
 applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [allo vV]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat adj]}
+ next stem: o
 
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat n:an]}
+ next stem: o
 
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat pfx] [pcat n:vn]}
+ next stem: o
 
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: o
+ next cat: {[scat ptl:case]}
+ next stem: o
+   k
 
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: ok
+ next cat: {[scat v:c:sub] [allo vC]}
+ next stem: ok
 
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: ok
+ next cat: {[scat v:c] [allo vC]}
+ next stem: ok
+    o
+     s
 
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: okos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+      h
 
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: okosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+       i
 
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: okoshi
+ next cat: {[scat v:c] [tense inf] [gen GER]}
+ next stem: o#kos-GER
 
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: okoshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: okos
 
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v:sub] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition failed
-     r
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat co:i] [allo co5]}
+ current parse: n
+ next: okoshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: o#kos-GER
 
 trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
   condition failed
@@ -2624,6578 +383,340 @@ trying rule dem-start ...
   condition failed
 
 trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
   condition failed
 
 trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [allo vV]}
-        next stem: e
+        next: n
+        next cat: {[scat co:i] [allo co5]}
+        next stem: n
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat n:let]}
   condition failed
 
 applying c rules
- word: esuerusan
- rest: esuerusan
+ word: nokoshiyasui
+ rest: nokoshiyasui
  start: 
  start cat: 
  current parse: 
- next: e
- next cat: {[scat v:v:sub] [tense inf]}
- next stem: e-GER
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[allo vV]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[tense OR pres past inf imp]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-v-start succeeded!
- result cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
-
-enter analyze_word
-word: esuerusan
-cat: {[scat v:v:sub] [tense inf]}
-parse: e-GER
-rest: suerusan
-  s
-   u
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-    e
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v:sub] [tense inf]}
- current parse: e-GER
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
-     r
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v:sub] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat v:v] [allo vV]}
- next stem: e
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[allo vV]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-v-start succeeded!
- result cat: {[scat v:v] [allo vV]}
- current parse: e
-
-enter analyze_word
-word: esuerusan
-cat: {[scat v:v] [allo vV]}
-parse: e
-rest: suerusan
-  s
-   u
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-    e
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [allo vV]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
-
-trying rule v-complet ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {cha}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chawa}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chai}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {chat}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
-  condition failed
-
-trying rule v-caus ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sase}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sas}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK NEXTSURF {sashi}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK STARTCAT {[allo vC]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK STARTCAT {[allo vRww]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pot-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo OR vV vBKo]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {re}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-pass-vv ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[allo vV]}
-  condition is met
-  condition = CHECK STARTCAT NOT {[int -]}
-  condition is met
-  condition = CHECK NEXTSURF {rare}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[allo vBKo]}
-  condition failed
-
-trying rule v-tense ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vtense]}
-  condition failed
-
-trying rule neg ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT NOT {[tense OR pres inf]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat neg]}
-  condition failed
-
-trying rule asp_i ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_i]}
-  condition failed
-
-trying rule asp_or ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asp_or]}
-  condition failed
-
-trying rule v-adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {na}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {ta}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat asfx]}
-  condition failed
-
-trying rule v2adj ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {zura}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {gata}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {niku}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTSURF {yasu}
-  condition failed
-
-trying rule v-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat vcomp]}
-  condition failed
-
-trying rule v-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-
-trying rule v-anoun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat v:v] [allo vV]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vsfx]}
-  condition failed
-     r
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [allo vV]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat v:v] [tense inf]}
- next stem: e-GER
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[allo vV]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[allo OR vCa vTKo vTSi vTSe]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition is met
-  condition = CHECK NEXTCAT {[tense OR pres past inf imp]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-v-start succeeded!
- result cat: {[scat v:v] [tense inf]}
- current parse: e-GER
-
-enter analyze_word
-word: esuerusan
-cat: {[scat v:v] [tense inf]}
-parse: e-GER
-rest: suerusan
-  s
-   u
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-    e
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat v:v] [tense inf]}
- current parse: e-GER
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
-     r
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat v:v] [tense inf]}
-        next stem: e-GER
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
- next stem: IMP
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
-        next stem: IMP
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
- next stem: POT
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
-        next stem: POT
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
- next stem: POT:e
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
-        next stem: POT:e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat n]}
- next stem: e
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  condition = CHECK NEXTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  condition = CHECK NEXTCAT {[nc ++]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-  operation = ADD {[ns 4]}
-   current result cat = {[scat n]}
-n-start succeeded!
- result cat: {[scat n] [ns 4]}
- current parse: e
-
-enter analyze_word
-word: esuerusan
-cat: {[scat n] [ns 4]}
-parse: e
-rest: suerusan
-  s
-   u
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir:sub] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: su
- next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:c] [allo vRw]}
-        next stem: suw
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition is met
-  condition = CHECK NEXTCAT {[rendaku +]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat n]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition is met
-  condition = CHECK NEXTCAT {[rendaku +]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: su
-        next cat: {[scat v:ir] [allo vBSu]}
-        next stem: su
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-    e
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [allo vV]}
-        next stem: sue
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat n] [ns 4]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: suerusan
-        start: e
-        start cat: {[scat n] [ns 4]}
-        current parse: e
-        next: sue
-        next cat: {[scat v:v] [tense inf]}
-        next stem: sue-GER
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-     r
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat n]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: e
- next cat: {[scat ptl:post]}
- next stem: e
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-misc-start succeeded!
- result cat: {[scat ptl:post]}
- current parse: e
-
-enter analyze_word
-word: esuerusan
-cat: {[scat ptl:post]}
-parse: e
-rest: suerusan
-  s
-   u
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: su
- next cat: {[scat v:ir:sub] [allo vBSu]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: su
- next cat: {[scat v:c] [allo vRw]}
- next stem: suw
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: su
- next cat: {[scat n]}
- next stem: su
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: su
- next cat: {[scat v:ir] [allo vBSu]}
- next stem: su
-    e
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [allo vV]}
- next stem: sue
-
-applying c rules
- word: esuerusan
- rest: suerusan
- start: e
- start cat: {[scat ptl:post]}
- current parse: e
- next: sue
- next cat: {[scat v:v] [tense inf]}
- next stem: sue-GER
-     r
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: e
-        next cat: {[scat ptl:post]}
-        next stem: e
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition failed
- s
-  u
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: esu
- next cat: {[scat n:let]}
- next stem: esu
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-misc-start succeeded!
- result cat: {[scat n:let]}
- current parse: esu
-
-enter analyze_word
-word: esuerusan
-cat: {[scat n:let]}
-parse: esu
-rest: erusan
-    e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v:sub] [allo vV]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v:sub] [tense inf]}
- next stem: e-GER
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v] [allo vV]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v] [tense inf]}
- next stem: e-GER
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
- next stem: IMP
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
- next stem: POT
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
- next stem: POT:e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat n]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat ptl:post]}
- next stem: e
-     r
-      u
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: eru
- next cat: {[scat n:let]}
- next stem: eru
-       s
-        a
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
-  condition failed
-
-trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:wh]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat num]}
-  condition failed
-
-trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
-  condition failed
-
-trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
-  condition failed
-
-trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
-  condition failed
-
-trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esu
-        next cat: {[scat n:let]}
-        next stem: esu
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat n:let]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-let-start succeeded!
- result cat: {[scat n:let]}
- current parse: esu
-
-enter analyze_word
-word: esuerusan
-cat: {[scat n:let]}
-parse: esu
-rest: erusan
-    e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v:sub] [allo vV]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v:sub] [tense inf]}
- next stem: e-GER
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v] [allo vV]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat v:v] [tense inf]}
- next stem: e-GER
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vtense] [tense imp] [allo OR vC vRw]}
- next stem: IMP
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRw] [cp vV]}
- next stem: POT
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat vsfx] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp vV]}
- next stem: POT:e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat n]}
- next stem: e
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: e
- next cat: {[scat ptl:post]}
- next stem: e
-     r
-      u
-
-applying c rules
- word: esuerusan
- rest: erusan
- start: esu
- start cat: {[scat n:let]}
- current parse: esu
- next: eru
- next cat: {[scat n:let]}
- next stem: eru
-       s
-        a
-   e
-    r
-     u
-
-applying c rules
- word: esuerusan
- rest: esuerusan
- start: 
- start cat: 
- current parse: 
- next: esueru
- next cat: {[scat n] [comp n:let+n:let]}
- next stem: esu+eru
-
-trying rule misc-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
-  condition failed
-
-trying rule sf-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
-  condition failed
-
-trying rule v-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 6
-  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
-  condition failed
- trying clause/ if-then 7
-  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
-  condition failed
- trying clause/ if-then 8
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 9
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 10
-  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
-  condition failed
- trying clause/ if-then 11
-  condition = CHECK NEXTCAT {[scat v:cop]}
-  condition failed
- trying clause/ if-then 12
-  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
-  condition failed
-
-trying rule adj-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
-  condition failed
-
-trying rule n-start ... 
-        word: esuerusan
-        rest: esuerusan
-        start: 
-        start cat: 
-        current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
- trying clause/ if-then 1
-  condition = CHECK NEXTCAT {[scat pfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  condition = CHECK NEXTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  condition = CHECK NEXTCAT {[nc ++]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT NOT {[bound +]}
-  condition is met
-  operation = COPY NEXTCAT
-   current result cat = 
-  operation = ADD {[ns 4]}
-   current result cat = {[scat n] [comp n:let+n:let]}
-n-start succeeded!
- result cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
-
-enter analyze_word
-word: esuerusan
-cat: {[scat n] [comp n:let+n:let] [ns 4]}
-parse: esu+eru
-rest: san
-       s
-        a
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: sa
- next cat: {[scat asfx] [sfxcat n]}
- next stem: sa
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat asfx] [sfxcat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat asfx] [sfxcat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat asfx] [sfxcat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat asfx] [sfxcat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: sa
- next cat: {[scat n]}
- next stem: sa
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat n]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition is met
-  condition = CHECK NEXTCAT {[rendaku +]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: sa
+ next: n
  next cat: {[scat ptl:fina]}
- next stem: sa
+ next stem: no
 
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat ptl:fina]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat ptl:fina]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat ptl:fina]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: sa
-        next cat: {[scat ptl:fina]}
-        next stem: sa
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-         n
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: san
- next cat: {[scat num] [allo numBFa] [numcform san]}
- next stem: san
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat num] [allo numBFa] [numcform san]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat num] [allo numBFa] [numcform san]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat num] [allo numBFa] [numcform san]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat num] [allo numBFa] [numcform san]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: san
- next cat: {[scat v:c] [allo vNNr]}
- next stem: sar
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat v:c] [allo vNNr]}
-        next stem: sar
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat v:c] [allo vNNr]}
-        next stem: sar
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat v:c] [allo vNNr]}
-        next stem: sar
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat v:c] [allo vNNr]}
-        next stem: sar
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: san
- next cat: {[scat nsfx]}
- next stem: san
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat nsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition is met
-  operation = COPY STARTCAT
-   current result cat = 
-sfx-noun succeeded!
- result cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru-san
-
-enter analyze_word
-word: esuerusan
-cat: {[scat n] [comp n:let+n:let] [ns 4]}
-parse: esu+eru-san
-rest: 
-
-applying end rules
- surf: esuerusan
- cat: {[scat n] [comp n:let+n:let] [ns 4]}
- parse: esu+eru-san
-
-trying rule v-endrule ... 
- trying clause/ if-then 1
-  condition = CHECK STARTCAT
-  condition failed
-
-trying rule adj-endrule ... 
- trying clause/ if-then 1
-  condition = CHECK STARTCAT
-  condition failed
-
-trying rule n-endrule ... 
- trying clause/ if-then 1
-  condition = CHECK STARTCAT
-  condition is met
-  condition = CHECK STARTCAT NOT
-  condition is met
-  condition = CHECK STARTCAT NOT
-  condition is met
-  operation = COPY STARTCAT
-   current result cat = 
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat nsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat nsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat nsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: san
- next cat: {[scat npropsfx]}
- next stem: san
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat npropsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat npropsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat npropsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat npropsfx]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-applying c rules
- word: esuerusan
- rest: san
- start: esueru
- start cat: {[scat n] [comp n:let+n:let] [ns 4]}
- current parse: esu+eru
- next: san
- next cat: {[scat numsfx] [allo numA]}
- next stem: san
-
-trying rule sfx-noun ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat numsfx] [allo numA]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nsfx]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat n:prop]}
-  condition failed
- trying clause/ if-then 3
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat vnsfx]}
-  condition failed
- trying clause/ if-then 4
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat nasfx]}
-  condition failed
- trying clause/ if-then 5
-  condition = CHECK STARTCAT {[scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat adj]}
-  condition failed
-
-trying rule n-comp ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat numsfx] [allo numA]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc +]}
-  condition failed
- trying clause/ if-then 2
-  condition = CHECK STARTCAT {[scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nc ++]}
-  condition failed
-
-trying rule n-bound ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat numsfx] [allo numA]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:vn n:deic:dem n:deic:wh]}
-  condition is met
-  condition = CHECK STARTCAT {[nb +]}
-  condition failed
-
-trying rule n-rendaku ... 
-        word: esuerusan
-        rest: san
-        start: esueru
-        start cat: {[scat n] [comp n:let+n:let] [ns 4]}
-        current parse: esu+eru
-        next: san
-        next cat: {[scat numsfx] [allo numA]}
-        next stem: san
- trying clause/ if-then 1
-  condition = CHECK STARTCAT {[scat OR n n:an n:prop n:deic:wh n:vn]}
-  condition is met
-  condition = CHECK NEXTCAT {[scat OR n n:an n:vn n:prop]}
-  condition failed
-
-trying rule vn-start ... 
-        word: esuerusan
-        rest: esuerusan
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:fina]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:fina]}
+parse: no
+rest: okoshiyasui
+  o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat v:c] [allo vRw]}
+ next stem: ow
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:c]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:v]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:ir]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat adj]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n:an]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n:vn]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: o
+ next cat: {[scat ptl:case]}
+ next stem: o
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ok
+ next cat: {[scat v:c:sub] [allo vC]}
+ next stem: ok
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ok
+ next cat: {[scat v:c] [allo vC]}
+ next stem: ok
+    o
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: okos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: okosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [tense inf] [gen GER]}
+ next stem: o#kos-GER
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: okos
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: o#kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
   condition failed
@@ -9204,14 +725,14 @@ trying rule vn-start ...
   condition failed
 
 trying rule num-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat pfx]}
   condition failed
@@ -9226,14 +747,14 @@ trying rule num-start ...
   condition failed
 
 trying rule co-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR co:i co:g]}
   condition failed
@@ -9242,14 +763,14 @@ trying rule co-start ...
   condition failed
 
 trying rule dem-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
   condition failed
@@ -9261,34 +782,9241 @@ trying rule dem-start ...
   condition failed
 
 trying rule deic:dem-start2 ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
   condition failed
 
 trying rule let-start ... 
-        word: esuerusan
-        rest: esuerusan
+        word: nokoshiyasui
+        rest: nokoshiyasui
         start: 
         start cat: 
         current parse: 
-        next: esueru
-        next cat: {[scat n] [comp n:let+n:let]}
-        next stem: esu+eru
+        next: n
+        next cat: {[scat ptl:fina]}
+        next stem: no
  trying clause/ if-then 1
   condition = CHECK NEXTCAT {[scat n:let]}
   condition failed
-parse 1:
-	lex info: {[scat n] [comp n:let+n:let] [ns 4]}
-	morphemes (surface/stem): esu+eru-san
-	compound: 
-	translation: sl_train_HON
 
-Result: n|+n:let|esu+n:let|eru-san=sl_train_HON
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: n
+ next cat: {[scat ptl:snr]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:snr]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:snr]}
+parse: no
+rest: okoshiyasui
+  o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat v:c] [allo vRw]}
+ next stem: ow
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:c]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:v]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat v:ir]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat adj]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n:an]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat pfx] [pcat n:vn]}
+ next stem: o
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: o
+ next cat: {[scat ptl:case]}
+ next stem: o
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ok
+ next cat: {[scat v:c:sub] [allo vC]}
+ next stem: ok
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ok
+ next cat: {[scat v:c] [allo vC]}
+ next stem: ok
+    o
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: okos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: okosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: okos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [tense inf] [gen GER]}
+ next stem: o#kos-GER
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: okos
+
+applying c rules
+ word: nokoshiyasui
+ rest: okoshiyasui
+ start: n
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: okoshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: o#kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: n
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+ o
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat v:cop] [tense inf]}
+ next stem: da&PRES:no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition failed
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition is met
+  condition = CHECK NEXTCAT NOT {[tense OR pres past inf imp]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[tense OR pres past inf imp]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+v-start succeeded!
+ result cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:cop] [tense inf]}
+parse: da&PRES:no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat v:cop] [tense inf]}
+ current parse: da&PRES:no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat v:cop] [tense inf]}
+        next stem: da&PRES:no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat n:fml]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat n:fml]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat n:fml]}
+parse: no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat n:fml]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat n:fml]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat ptl:case]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:case]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:case]}
+parse: no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:case]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:case]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat ptl:attr]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:attr]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:attr]}
+parse: no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:attr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:attr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat ptl:fina]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:fina]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:fina]}
+parse: no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:fina]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:fina]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: no
+ next cat: {[scat ptl:snr]}
+ next stem: no
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+misc-start succeeded!
+ result cat: {[scat ptl:snr]}
+ current parse: no
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat ptl:snr]}
+parse: no
+rest: koshiyasui
+   k
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir:sub] [allo vBKu]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: k
+ next cat: {[scat v:ir] [allo vBKu]}
+ next stem: ku
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir:sub] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ko
+ next cat: {[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ko
+ next cat: {[scat n]}
+ next stem: ko
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ko
+ next cat: {[scat v:ir] [allo vBKo]}
+ next stem: ku
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: ko
+ next cat: {[scat adj] [test 1]}
+ next stem: ko
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: kos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: kosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: kos
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: kos
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat n]}
+ next stem: koshi
+
+applying c rules
+ word: nokoshiyasui
+ rest: koshiyasui
+ start: no
+ start cat: {[scat ptl:snr]}
+ current parse: no
+ next: koshi
+ next cat: {[scat v:c] [tense inf]}
+ next stem: kos-GER
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK NEXTCAT {[scat OR v:v v:c v:ir v:c:sub v:ir:sub]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK NEXTCAT {[scat OR v:ir v:ir:sub]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK NEXTCAT {[scat v:cop]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK NEXTCAT {[scat OR v:cop v:v v:c v:v:sub v:c:sub]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: no
+        next cat: {[scat ptl:snr]}
+        next stem: no
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+  k
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: nok
+ next cat: {[scat v:c] [allo vC]}
+ next stem: nok
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition failed
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[allo OR vC vRw vRww vBTts vBSu]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+v-start succeeded!
+ result cat: {[scat v:c] [allo vC]}
+ current parse: nok
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:c] [allo vC]}
+parse: nok
+rest: oshiyasui
+    o
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat v:c] [allo vRw]}
+ next stem: ow
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: ow
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: ow
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: ow
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: ow
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: ow
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat v:c]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:c]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:c]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:c]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:c]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:c]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat v:v]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:v]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:v]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:v]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:v]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:v]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat v:ir]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:ir]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:ir]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:ir]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:ir]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat v:ir]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat n]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat adj]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat adj]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat adj]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat adj]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat adj]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat adj]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat n:an]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:an]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:an]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:an]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:an]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:an]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat pfx] [pcat n:vn]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:vn]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:vn]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:vn]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:vn]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat pfx] [pcat n:vn]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: o
+ next cat: {[scat ptl:case]}
+ next stem: o
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat ptl:case]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat ptl:case]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat ptl:case]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat ptl:case]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: o
+        next cat: {[scat ptl:case]}
+        next stem: o
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+     s
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: os
+ next cat: {[scat v:c] [allo vC]}
+ next stem: os
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: os
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: os
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: os
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: os
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: os
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+      h
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: osh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: os
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: osh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: osh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: osh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: osh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: osh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: oshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: os
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: os
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: oshiyasui
+ start: nok
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nok
+ next: oshi
+ next cat: {[scat adj] [test 1]}
+ next stem: oshi
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat adj] [test 1]}
+        next stem: oshi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat adj] [test 1]}
+        next stem: oshi
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat adj] [test 1]}
+        next stem: oshi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat adj] [test 1]}
+        next stem: oshi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: oshiyasui
+        start: nok
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nok
+        next: oshi
+        next cat: {[scat adj] [test 1]}
+        next stem: oshi
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nok
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nok
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+   o
+    s
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: nokos
+ next cat: {[scat v:c] [allo vC]}
+ next stem: nokos
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition failed
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[allo OR vC vRw vRww vBTts vBSu]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+v-start succeeded!
+ result cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:c] [allo vC]}
+parse: nokos
+rest: hiyasui
+      h
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: hiyasui
+ start: nokos
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: hi
+ next cat: {[scat n]}
+ next stem: hi
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: hiyasui
+ start: nokos
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: hi
+ next cat: {[scat n]}
+ next stem: hi
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: hiyasui
+ start: nokos
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: hi
+ next cat: {[scat n]}
+ next stem: hi
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hi
+        next cat: {[scat n]}
+        next stem: hi
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+        y
+         a
+          s
+
+applying c rules
+ word: nokoshiyasui
+ rest: hiyasui
+ start: nokos
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: hiyas
+ next cat: {[scat v:c] [allo vC]}
+ next stem: hiyas
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hiyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: hiyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hiyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: hiyas
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hiyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: hiyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hiyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: hiyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: hiyasui
+        start: nokos
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: hiyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: hiyas
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokos
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+     h
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: nokosh
+ next cat: {[scat v:c] [allo vC]}
+ next stem: nokos
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition failed
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[allo OR vC vRw vRww vBTts vBSu]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+v-start succeeded!
+ result cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:c] [allo vC]}
+parse: nokos
+rest: iyasui
+       i
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat v:v:sub] [allo vV]}
+ next stem: i
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat v:v:sub] [tense inf]}
+ next stem: i&GER
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v:sub] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat v:c] [allo vRw]}
+ next stem: iw
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: iw
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: iw
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: iw
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: iw
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:c] [allo vRw]}
+        next stem: iw
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat v:v] [allo vV]}
+ next stem: i
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [allo vV]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat v:v] [tense inf]}
+ next stem: i&GER
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat v:v] [tense inf]}
+        next stem: i&GER
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat atense] [tense pres]}
+ next stem: PRES
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat atense] [tense pres]}
+        next stem: PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat atense] [tense pres]}
+        next stem: PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat atense] [tense pres]}
+        next stem: PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat atense] [tense pres]}
+        next stem: PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat atense] [tense pres]}
+        next stem: PRES
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+ next stem: GER
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+        next stem: GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+        next stem: GER
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+        next stem: GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+        next stem: GER
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]}
+        next stem: GER
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition is met
+  condition = MATCHCAT {[allo }
+  condition is met
+  operation = COPY STARTCAT
+   current result cat = 
+  operation = ADD NEXTCAT {[tense }
+   current result cat = {[scat v:c] [allo vC]}
+  operation = DEL {[allo }
+   current result cat = {[scat v:c] [allo vC] [tense inf]}
+v-tense succeeded!
+ result cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:c] [tense inf]}
+parse: nokos-GER
+rest: yasui
+         y
+          a
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat v:cop] [tense pres]}
+ next stem: ya&PRES
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat nsfx]}
+ next stem: ya
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat nsfx] [sfxcat n]}
+ next stem: ya
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat co:i] [allo co5]}
+ next stem: iya
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat ptl:fina]}
+ next stem: ya
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: ya
+ next cat: {[scat ptl:coo]}
+ next stem: ya
+           s
+            u
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: yasu
+ next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+ next stem: yasu
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [tense inf]}
+ current parse: nokos-GER
+ next: yasu
+ next cat: {[scat adj] [test 1]}
+ next stem: yasu
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: i
+ next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+ next stem: i
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: i
+        next cat: {[scat numsfx] [allo OR numBFa numCFa numCFn]}
+        next stem: i
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+        y
+         a
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: iya
+ next cat: {[scat n:an]}
+ next stem: iya
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iya
+        next cat: {[scat n:an]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iya
+        next cat: {[scat n:an]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iya
+        next cat: {[scat n:an]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iya
+        next cat: {[scat n:an]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iya
+        next cat: {[scat n:an]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+          s
+
+applying c rules
+ word: nokoshiyasui
+ rest: iyasui
+ start: nokosh
+ start cat: {[scat v:c] [allo vC]}
+ current parse: nokos
+ next: iyas
+ next cat: {[scat v:c] [allo vC]}
+ next stem: iyas
+
+trying rule v-caus ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: iyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ase}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {as}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK NEXTSURF {ashi}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo vRww]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo vBKo]}
+  condition failed
+
+trying rule v-pot-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: iyas
+ trying clause/ if-then 1
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vC]}
+  condition is met
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {e}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTSURF NOT {ir}
+  condition is met
+  condition = CHECK STARTCAT {[allo vRw]}
+  condition failed
+
+trying rule v-pass-cv ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: iyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT NOT {[int -]}
+  condition is met
+  condition = CHECK NEXTSURF {are}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: iyas
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: iyasui
+        start: nokosh
+        start cat: {[scat v:c] [allo vC]}
+        current parse: nokos
+        next: iyas
+        next cat: {[scat v:c] [allo vC]}
+        next stem: iyas
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokosh
+        next cat: {[scat v:c] [allo vC]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+      i
+
+applying c rules
+ word: nokoshiyasui
+ rest: nokoshiyasui
+ start: 
+ start cat: 
+ current parse: 
+ next: nokoshi
+ next cat: {[scat v:c] [allo vAIs]}
+ next stem: nokos
+
+trying rule misc-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]}
+  condition failed
+
+trying rule sf-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]}
+  condition failed
+
+trying rule v-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR v:v v:v:sub]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR v:c v:ir v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[allo OR vC vRw vRww vBTts vBSu]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR v:c v:c:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[allo OR vC vTTw vTTr vAIs vTIk vTIg vTNn]}
+  condition is met
+  operation = COPY NEXTCAT
+   current result cat = 
+v-start succeeded!
+ result cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+
+enter analyze_word
+word: nokoshiyasui
+cat: {[scat v:c] [allo vAIs]}
+parse: nokos
+rest: yasui
+        y
+         a
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat v:cop] [tense pres]}
+ next stem: ya&PRES
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat v:cop] [tense pres]}
+        next stem: ya&PRES
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat v:cop] [tense pres]}
+        next stem: ya&PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat v:cop] [tense pres]}
+        next stem: ya&PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat v:cop] [tense pres]}
+        next stem: ya&PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat v:cop] [tense pres]}
+        next stem: ya&PRES
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat nsfx]}
+ next stem: ya
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat nsfx] [sfxcat n]}
+ next stem: ya
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx] [sfxcat n]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx] [sfxcat n]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx] [sfxcat n]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx] [sfxcat n]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat nsfx] [sfxcat n]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat co:i] [allo co5]}
+ next stem: iya
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat co:i] [allo co5]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat co:i] [allo co5]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat co:i] [allo co5]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat co:i] [allo co5]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat co:i] [allo co5]}
+        next stem: iya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat ptl:fina]}
+ next stem: ya
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:fina]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:fina]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:fina]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:fina]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:fina]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: ya
+ next cat: {[scat ptl:coo]}
+ next stem: ya
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:coo]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:coo]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:coo]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:coo]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: ya
+        next cat: {[scat ptl:coo]}
+        next stem: ya
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+          s
+           u
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: yasu
+ next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+ next stem: yasu
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+applying c rules
+ word: nokoshiyasui
+ rest: yasui
+ start: nokoshi
+ start cat: {[scat v:c] [allo vAIs]}
+ current parse: nokos
+ next: yasu
+ next cat: {[scat adj] [test 1]}
+ next stem: yasu
+
+trying rule v-tense ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat adj] [test 1]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat vtense]}
+  condition failed
+
+trying rule v-complet ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat adj] [test 1]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[allo vV]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {cha}
+  condition failed
+ trying clause/ if-then 6
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chawa}
+  condition failed
+ trying clause/ if-then 7
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chai}
+  condition failed
+ trying clause/ if-then 8
+  condition = CHECK STARTCAT {[allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]}
+  condition is met
+  condition = CHECK NEXTSURF {chat}
+  condition failed
+ trying clause/ if-then 9
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 10
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 11
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+ trying clause/ if-then 12
+  condition = CHECK STARTCAT {[allo OR vTNn vTIg]}
+  condition failed
+
+trying rule v-adj ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat adj] [test 1]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {na}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTSURF {ta}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asfx]}
+  condition failed
+
+trying rule asp_i ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat adj] [test 1]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_i]}
+  condition failed
+
+trying rule asp_or ... 
+        word: nokoshiyasui
+        rest: yasui
+        start: nokoshi
+        start cat: {[scat v:c] [allo vAIs]}
+        current parse: nokos
+        next: yasu
+        next cat: {[scat adj] [test 1]}
+        next stem: yasu
+ trying clause/ if-then 1
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK STARTCAT {[scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]}
+  condition is met
+  condition = CHECK NEXTCAT {[scat asp_or]}
+  condition failed
+
+trying rule adj-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adj adj:mot]}
+  condition failed
+
+trying rule n-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+ trying clause/ if-then 5
+  condition = CHECK NEXTCAT {[scat OR n n:an n:prop n:an:mot n:mot n:deic:prs]}
+  condition failed
+
+trying rule vn-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR n:vn n:vn:mot n:vn:onoma]}
+  condition failed
+
+trying rule num-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat pfx]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:wh]}
+  condition failed
+ trying clause/ if-then 4
+  condition = CHECK NEXTCAT {[scat num]}
+  condition failed
+
+trying rule co-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR co:i co:g]}
+  condition failed
+
+trying rule dem-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR n:deic:dem n:deic:wh]}
+  condition failed
+ trying clause/ if-then 2
+  condition = CHECK NEXTCAT {[scat OR adn:deic:dem adn:deic:wh]}
+  condition failed
+ trying clause/ if-then 3
+  condition = CHECK NEXTCAT {[scat n:deic:dem:wh]}
+  condition failed
+
+trying rule deic:dem-start2 ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]}
+  condition failed
+
+trying rule let-start ... 
+        word: nokoshiyasui
+        rest: nokoshiyasui
+        start: 
+        start cat: 
+        current parse: 
+        next: nokoshi
+        next cat: {[scat v:c] [allo vAIs]}
+        next stem: nokos
+ trying clause/ if-then 1
+  condition = CHECK NEXTCAT {[scat n:let]}
+  condition failed
+
+Result: ?|nokoshiyasui
