@@ -1,0 +1,47 @@
+@UTF8
+eebiishii	{[scat n:let]} =abc=
+aiueo	{[scat n:let]} =hiragana=
+doremifasorashido	{[scat n:let]} =musical_note= "do_re_mi_fa_so_ra_shi_do"
+eebiishiijun	{[scat n]} =abc_order= "eebiishii-jun"
+aiueojun	{[scat n]} =aiueo_order=  "aiueo-jun"
+kakikukeko	{[scat n:let]} =hiragana=
+doremi	{[scat n:let]} =musical_note= "do_re_mi"
+do	{[scat n:let]} =musical_note=
+re	{[scat n:let]} =musical_note=
+mi	{[scat n:let]} =musical_note=
+fa	{[scat n:let]} =musical_note=
+so	{[scat n:let]} =musical_note=
+ra	{[scat n:let]} =musical_note=
+%shi	{[scat n:let]} =musical_note=
+ee	{[scat n:let]} =a=
+bii	{[scat n:let]} =b=
+shii	{[scat n:let]} =c=
+dii	{[scat n:let]} =d=
+ii	{[scat n:let]} =e=
+efu	{[scat n:let]} =f=
+jii	{[scat n:let]} =g=
+eechi	{[scat n:let]} =h= "eichi"
+eichi	{[scat n:let]} =h=
+etchi	{[scat n:let]} =h= "eichi"
+ai	{[scat n:let]} =i=
+jee	{[scat n:let]} =j=
+jei	{[scat n:let]} =j= "jee"
+kee	{[scat n:let]} =k=
+kei	{[scat n:let]} =k= "kee"
+erur	{[scat n:let]} =l= "eru"
+eru	{[scat n:let]} =l=
+emu	{[scat n:let]} =m=
+enu	{[scat n:let]} =n=
+oo	{[scat n:let]} =o=
+pii	{[scat n:let]} =p=
+kyuu	{[scat n:let]} =q=
+aaru	{[scat n:let]} =r=
+esu	{[scat n:let]} =s=
+tii	{[scat n:let]} =t=
+yuu	{[scat n:let]} =u=
+bui	{[scat n:let]} =v=
+buii	{[scat n:let]} =v=  "bui"
+daburuyuu	{[scat n:let]} =w=
+ekkusu	{[scat n:let]} =x=
+wai	{[scat n:let]} =y=
+zetto	{[scat n:let]} =z=

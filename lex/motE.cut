@@ -1,0 +1,557 @@
+@UTF8
+
+% motherese expressions
+onikai	{[scat num]} "o#ni-kai" =two_floor=
+%%%%%%%%%%%%
+%%% NOUNS %%%
+%%%%%%%%%%%%
+hanchan	{[scat n:mot]} =much=
+akko	{[scat n:mot]} =over_there=
+kakko	{[scat n:mot]} =shoe=
+abuchan	{[scat n:mot]} =saliva=
+abuku	{[scat n:mot]} =saliva=
+abunaiabunai	{[scat n:mot]} =dangerous=
+achichi	{[scat n:mot]} "atchichi" =hot=
+aiai	{[scat n:mot]} =monkey=
+aiai	{[scat n:mot]} =monkey=
+aiaiai	{[scat n:mot]} =monkey=
+akaiakai	{[scat n:mot]} =red=
+akaruiakarui	{[scat n:mot]} =bright=
+amaiamai	{[scat n:mot]} =sweet=
+amekonkon	{[scat n:mot]} =rain=
+amekonko	{[scat n:mot]} =rain= "amekonkon"
+ameame	{[scat n:mot]} =candy=
+amekko  {[scat n:mot]} =candy_DIM=
+amiami	{[scat n:mot]} =net= 	% 網 
+an'yo	{[scat n:mot]} =foot=
+anyo	{[scat n:mot]} =foot=
+appu	{[scat n:mot]} =nice_dress=
+arinko	{[scat n:mot]} =ant_DIM=
+atatakaiatatakai	{[scat n:mot]} =warm=
+atchichi	{[scat n:mot]} =hot=
+atchiiatchii	{[scat n:mot]} =hot=
+atchitchi	{[scat n:mot]} "atchichi" =hot=
+atsuiatsui	{[scat n:mot]} =hot=
+attakaiattakai	{[scat n:mot]} =warm=
+attakaattaka	{[scat n:mot]} =warm=
+atta	{[scat adj:mot]} =warm=
+awaawa	{[scat n:mot]} =foam=
+awatemboo	{[scat n:mot]} =hurry_too_much=
+baaba	{[scat n:mot]} =grandma=
+ban	{[scat n:mot]} =pistol=
+batabata	{[scat n:mot]} =cycle_car=
+batanko	{[scat n:mot]} =cycle_car_DIM=
+batambatan	{[scat n:mot]} =seesaw=
+batchichi	{[scat n:mot]} =dirty=
+bibi	{[scat n:mot]} =bottle=
+bebe	{[scat n:mot]} =clothes=
+bebeso	{[scat n:mot]} =navel=
+bero	{[scat n:mot]} =tongue=
+beshanko	{[scat n:mot]} =soak_wet_DIM=
+bochabocha	{[scat n:mot]} =bath=
+bubbuu	{[scat n:mot]}	"buubu" =car=
+bumbu	{[scat n:mot]}	=water=
+bumbun	{[scat n:mot]} =bee=
+butsubutsu	{[scat n:mot]} =pimple=
+buu	{[scat n:mot]}	=tea=
+buubu	{[scat n:mot]}	=car=
+buubuu	{[scat n:mot]}	=car= "buubu"
+buubuu	{[scat n:mot]}	=pig=
+buuchan	{[scat n:mot]}	"buu-chan" =pig=
+buun	{[scat n:mot]} =plane=
+buuwa	{[scat n:mot]} =light=
+chacha	{[scat n:mot]}	=tea=
+chichi	{[scat n:mot]} =milk=
+chinchin	{[scat n:mot]} =penis=
+chimboo	{[scat n:mot]} =penis=
+chinchin	{[scat n:mot]} =train=
+chinchin	{[scat n:mot]} =vehicle=
+chinchimbuu	{[scat n:mot]} =train=
+chinchin	{[scat n:mot]} =sukeeto=
+chinchin	{[scat n:mot]} =bicycle=
+chinko	{[scat n:mot]} =pussy_DIM=
+choko	{[scat n:mot]} =pussy=
+chirin	{[scat n:mot]} =bell=
+chirinchirin	{[scat n:mot]} =bike=
+chitchi	{[scat n:mot]}	=breast=
+chitchii	{[scat n:mot]}	=pee=
+chokichoki	{[scat n:mot]} =scissors=
+chunchu	{[scat n:mot]} =bird= "chunchun"
+chunchun	{[scat n:mot]} =bird=
+churuchuru	{[scat n:mot]}	=noodle=
+churuchuru	{[scat n:mot]}	=slide=
+chutchu	{[scat n:mot]}	=pacifier=
+chutchu	{[scat n:vn:mot]}	=suck=
+chuuchuu	{[scat n:mot]}	=mouse=
+daiji	{[scat n:mot]} =important_thing=
+daijidaiji	{[scat n:mot]} =important_thing=
+daijimono	{[scat n:mot][comp n:mot+n]} "daiji+mono" =important_thing=
+dorodoro	{[scat n:mot]} =mud=
+ekieki	{[scat n:mot]} =station=
+gaagaa	{[scat n:mot]}	=duck=
+gaagaa	{[scat n:mot]}	=vacuum_cleaner=
+gaaga	{[scat n:mot]}	=duck= "gaagaa"
+gaga	{[scat n:mot]}	=fish_bone=
+gaoo	{[scat n:mot]}	=lion=
+garagara	{[scat n:mot]}	=rattle=
+geko	{[scat n:mot]}	=frog=
+gekogeko	{[scat n:mot]}	=frog=
+giigiichan	{[scat n:mot]} =squeaker=
+goki	{[scat n:mot]} =cockroach=
+googoo	{[scat n:mot]} =gogo=
+gurampa	{[scat n:mot]} =grandpa=
+gurampapa	{[scat n:mot]} "gurampa" =grandpa=
+haaha	{[scat n:mot]}	=tooth=
+hadakappe	{[scat n:mot]} "hadakamboo" =nudie= % 裸 
+hadakappon	{[scat n:mot]} "hadakamboo" =nudie= % 裸 
+hadakambo	{[scat n:mot]} "hadakamboo" =nudie= % 裸 
+hadakamboo	{[scat n:mot]} =nudie= 
+hadakambotchi	{[scat n:mot]} =nudie= % 裸 
+hadakambotchin	{[scat n:mot]} =nudie= % 裸 
+haha	{[scat n:mot]} =tooth=
+hetappii	{[scat n:mot]} =clumsy=
+hoppeta	{[scat n:mot]} =cheek=
+itaiitai 	{[scat n:mot]} =aching=
+itaitai 	{[scat n:mot]}	"itaiitai" =aching=
+itaita 	{[scat n:mot]}	"itaiitai" =aching=
+iyaiya 	{[scat n:mot]} =dislike=
+iyashimboo	{[scat n:mot]} =mean_person=
+jiiji 	{[scat n:mot]} =grandpa=
+jijii 	{[scat n:mot]} =grandpa= "jiiji"
+jiji	{[scat n:mot]} =letter=
+jumbanjumban	{[scat n:mot]} =in_order=
+kaakaa	{[scat n:mot]} =crow=
+kaikai	{[scat n:mot]} =itchy=
+kakka	{[scat n:mot]} =mom=
+kanabumbun	{[scat n:mot]} =drone_beetle= 	%
+kankan	{[scat n:mot]}	=can=
+kankan	{[scat n:mot]}	=hair=
+kankankan	{[scat n:mot]} "kankan"	=railwaygate=
+kankan	{[scat n:mot]}	=railwaygate=
+kankan=hair	{[scat n:mot]} =hair=
+karaikarai	{[scat n:mot]} =spicy=
+karakara	{[scat n:mot]} "garagara" =rattle=
+katakata	{[scat n:mot]} =pushcart=
+kero	{[scat n:mot]} =frog=
+kinkin	{[scat n:mot]} =gold=
+kinkonkankon	{[scat n:mot]} =dingdong=
+kokekokko	{[scat n:mot]} =cock=
+krrh	{[scat n:mot]} =lion=
+koikoi	{[scat n:mot]} =carp=
+kokekokkoo	{[scat n:mot]} =rooster=
+kokkeko	{[scat n:mot]} "kokekokkoo" =rooster=
+kokko	{[scat n:mot]} =poo=
+kokko	{[scat n:mot]} =hen=
+kowaikowai	{[scat n:mot]} =scary=
+kukku	{[scat n:mot]}	=shoe=
+kuraikurai	{[scat n:mot]} =dark=
+kurokuro	{[scat n:mot]} =black=
+kusaikusai	{[scat n:mot]} =stinky=
+kusaikusai	{[scat n:mot]}	=poo=
+makka	{[scat n:an:mot]} =garish_red=
+makkaka	{[scat n:an:mot]} =garish_red=
+makkiikii	{[scat n:mot]} "makkikki" =acidic_yellow=
+makkikii	{[scat n:mot]} =acidic_yellow=
+mamma	{[scat n:mot]} =food=
+umamma	{[scat n:mot]} =food= "mamma"
+mamman	{[scat n:mot]} =buddha=
+mammaru {[scat n:mot]} =perfect_circle=
+marumaru	{[scat n:mot]} =circle=
+meemee	{[scat n:mot]} =sheep=
+meme	{[scat n:mot]} =eye=
+memme	{[scat n:mot]} =forbidden=
+memmen	{[scat n:mot]} =noodles=
+mimmin	{[scat n:mot]} =cicada=
+moochan	{[scat n:mot]} "moo-chan" =cow=
+moomoo	{[scat n:mot]} =cow=
+namunamu	{[scat n:mot]} =buddha=
+namusan	{[scat n:mot]} =buddha=
+nazonazo	{[scat n:mot]} =quiz=
+neene	{[scat n:mot]} =elder_sister=
+nemu	{[scat n:mot]} =sleepy=
+nemuinemui	{[scat n:mot]} =sleepy=
+nemutainemutai	{[scat n:mot]} =sleepy=
+nennen	{[scat co:g]} =sleeping=
+nennen	{[scat n:mot]} =sleeping_song=
+nennengororin	{[scat n:mot]} "nennen_korori" =sleeping_song=
+nennen_korori	{[scat n:mot]} =sleeping_song=
+korori_yo	{[scat n]} =sleeping_song=
+nennenkorori	{[scat n:mot]} "nennen_korori" =sleeping_song=
+nennenkoro	{[scat n:mot]} "nennen_korori" =sleeping_song=
+nennenya	{[scat n:mot]} =sleeping_song=
+niganiga	{[scat n:mot]} =bitter=
+niinii	{[scat n:mot]} =elder_brother=
+nono	{[scat n:mot]} =buddha=
+nopperaboo	{[scat n:mot]} =flat=
+nyaachan	{[scat n:mot]} "nyaa-chan" =cat=
+nyaanya	{[scat n:mot]} =cat=
+nyaanyaa	{[scat n:mot]} "nyaanya" =cat=
+nyanko	{[scat n:mot]}  =cat_DIM=
+nyannyan	{[scat n:mot]} "nyaanya"  =cat=
+obebe	{[scat n:mot]}	=clothes=
+oishiioishii	{[scat n:mot]} =tasty=
+oishioishi	{[scat n:mot]} =tasty=
+okorimboo	{[scat n:mot]} =grumpy=
+okorimboosan	{[scat n:mot]} =grumpy=
+okku	{[scat n:mot]} =medicine=
+omma	{[scat n:mot]} =horse=
+ommo	{[scat n:mot]} =outside=
+ooshu	{[scat n:mot]} =juice=
+oppai	{[scat n:mot]} =breast=
+okorimbo	{[scat n:mot]} =hothead=
+orikoo	{[scat n:mot]} =good_child=
+paipai	{[scat n:mot]}	=breast=
+pakapaka	{[scat n:mot]} =horse=
+pakapaka	{[scat n:vn:mot]} =horse_riding=
+pakkopakko	{[scat n:vn:mot]} "pakapaka" =horse_riding=
+pappaka	{[scat n:mot]} =horse=
+pampan	{[scat n:mot]} =bread=
+pampan	{[scat n:mot]} =pants=
+pappa	{[scat n:mot]} =tobacco=
+patapata	{[scat n:mot]} =duster=
+patchin	{[scat n:mot]} =patchin_game=
+peppe	{[scat n:mot]} =dirty=
+peropero	{[scat n:mot]} =lollypop=
+pii	{[scat n:mot]} =whistle=
+piipii	{[scat n:mot]} =car=
+piipoo	{[scat n:mot]} =fireengine=
+piipoopiipoo	{[scat n:mot]} "piipopiipo" =fireengine=
+piipopiipo	{[scat n:mot]} =fireengine=
+piyo	{[scat n:mot]} =bird=
+piyoko	{[scat n:mot]} =bird_DIM=
+piyopiyo	{[scat n:mot]} =bird=
+pochipochi	{[scat n:mot]}	=dots=
+pompokopon	{[scat n:mot]}	=full_stomach=
+pompokorin	{[scat n:mot]}	=full_stomach=
+pompon	{[scat n:mot]}	=belly=
+pompon	{[scat n:mot]}	=poo=
+pomponsen	{[scat n:mot]}	=motor_sailer=
+poppo	{[scat n:mot]}	=pigeon=
+poppo	{[scat n:mot]}	=train=
+poppopoppo	{[scat n:mot]}	=train=
+popposen	{[scat n:mot]}	=ship=
+poppo=pigeon	{[scat n:mot]}	=pigeon=
+poppo=train	{[scat n:mot]}	=train=
+poripori	{[scat n:mot]}	=breast=
+potchi	{[scat n:mot]}	=nubble=
+purampuran	{[scat n:mot]} =swing=
+raaji	{[scat n:mot]} =radio=
+rinrin	{[scat n:mot]} =skates=
+rinrin	{[scat n:mot]} =bicycle=
+sakippo	{[scat n:mot]} "saki-ppo" =tip=
+samuisamui	{[scat n:mot]} =cold=
+shikko	{[scat n:mot]} =pee=
+shii	{[scat n:mot]} =pee=
+shiishii	{[scat n:mot]} =pee=
+shiishi	{[scat n:mot]} "shiishii" =pee=
+shisshi	{[scat n:mot]} "shiishii" =pee=
+shiishi	{[scat n:mot]} "shiishii" =diapers=
+shiishii	{[scat n:mot]} "shiishii" =diapers=
+shisshi	{[scat n:mot]} "shiishii" =diapers=
+shimashima	{[scat n:mot]} =striped=
+shimeshime	{[scat n:vn:mot]} =shutting=
+shindoishindoi {[scat n:mot]} =exhausting=
+shuppoppo	{[scat n:mot]} =locomotive=
+shupoppo	{[scat n:mot]} =locomotive= "shuppoppo"
+shupoppoo	{[scat n:mot]} =locomotive= "shuppoppo"
+shuppopo	{[scat n:mot]} =locomotive= "shuppoppo"
+shusshu {[scat n:mot]} =locomotive=
+shusshuppoo {[scat n:mot]} =locomotive=
+shuushuu {[scat n:mot]} =spray=
+suisui {[scat n:mot]} =fish=
+suppaisuppai	{[scat n:mot]} =sour=
+suppompon	{[scat n:mot]} =naked=
+suushisuushi {[scat n:mot]} =cool=
+taata	{[scat n:mot]} =shoe=
+taitai	{[scat n:mot]} =fish=
+tama	{[scat n:mot]} =egg=
+tamatama	{[scat n:mot]} =egg=
+tantan	{[scat n:mot]} =bath=
+tente	{[scat n:mot]} =towel=
+tenten	{[scat n:mot]} =dots=
+tenten	{[scat n:mot]} =ball=
+tentemmari	{[scat n:mot]} =ball= "tententemari"
+tententemari	{[scat n:mot]} =ball=
+tentenko	{[scat n:mot]} =dots_DIM= "tenten-ko"
+tete	{[scat n:mot]} =hand=
+tonton	{[scat n:mot]} =hammer=
+tonton	{[scat n:mot]} =cooking_tools=
+tonton	{[scat n:vn:mot]} =cooking=
+tonton	{[scat n:vn:mot]} =hammering=
+totto	{[scat n:mot]}	=bird=
+totto	{[scat n:mot]}	=father=
+totto	{[scat n:mot]}	=fish=
+tsumetaitsumetai	{[scat n:mot]} =cool=
+tsuutsu	{[scat n:mot]}	=soup=
+tsuttsu	{[scat n:mot]}	=soup= "tsuutsu"
+umamma	{[scat n:mot]} "mamma" =food=
+umauma	{[scat n:mot]} "mamma" =food=
+unchi	{[scat n:mot]} =poo=
+unchitchi	{[scat n:mot]} =poo=
+unko	{[scat n:mot]} =poo=	
+untan	{[scat n:mot]} =poo=
+unun	{[scat n:mot]} =poo=
+uunuun	{[scat n:mot]} =poo=
+usa	{[scat n:mot]} =rabbit=
+wan	{[scat n:mot]} =dog=
+wanwan	{[scat n:mot]} =dog=	
+yoruyoru	{[scat n:mot]} =night=	
+
+%%%%%%%%%%%%%%%%%%%
+%%% VERBAL NOUNS %%%
+%%%%%%%%%%%%%%%%%%%
+aa	{[scat n:vn:mot]} "aan" =opening_mouth=
+aan	{[scat n:vn:mot]} "aan" =opening_mouth=
+abiabi	{[scat n:vn:mot]} =bathing=
+akambee	{[scat n:vn:mot]} =sticking_out_tongue=
+akkambee	{[scat n:vn:mot]} "akambee" =sticking_out_tongue=
+akushuakushu	{[scat n:vn:mot]} =shaking_hands=
+anga	{[scat n:vn:mot]} =get_up=
+anyoanyo	{[scat n:vn:mot]} =walk=
+araiarai	{[scat n:vn:mot]} =wash=
+awaawa	{[scat n:vn:mot]} =dishwashing=
+baa	{[scat n:vn:mot]} =peekaboo=
+bachabacha	{[scat n:vn:mot]} =splashing=
+pachapacha	{[scat n:vn:mot]} =splashing=
+biribiri	{[scat n:vn:mot]} =tear=
+bukobuko	{[scat n:vn:mot]} =seesaw=
+buttsukanko	{[scat n:vn:mot]} "buttsukan-ko" =bumping_DIM=
+buuranbuuran	{[scat n:vn:mot]} =swinging=
+chai	{[scat n:vn:mot]}	=hitting=
+chai	{[scat n:vn:mot]} =getting_down=
+chan	{[scat n:vn:mot]} =sit_down=
+chanchan	{[scat n:vn:mot]} =sit_down=
+chanko	{[scat n:vn:mot]} =sit_down_DIM=
+chichimpuipui	{[scat n:vn:mot]} =spelling_and_poof=
+chin	{[scat n:vn:mot]} =microwaving=
+chinton	{[scat n:vn:mot]} =sit_down=
+chokichoki	{[scat n:vn:mot]} =cutting=
+chokichokisan	{[scat n:vn:mot]} "chokichoki-san" =cutting=
+chokinchokin	{[scat n:vn:mot]} =cutting=
+chokkinchokkin	{[scat n:vn:mot]} =cutting=
+churuchuru	{[scat n:vn:mot]}	=noodle=
+chuu	{[scat n:vn:mot]} =kissing=
+chuuchuu	{[scat n:vn:mot]}	=sucking=
+daisukidaisuki	{[scat n:vn:mot]}	=stroke=
+dakko	{[scat n:vn:mot]} =embracing=
+dakkodakko	{[scat n:vn:mot]} =embracing=
+dekopin	{[scat n:vn:mot]} =poking_in_forehead=
+eeee	{[scat n:vn:mot]}	=cleaning=
+fukifuki	{[scat n:vn:mot]} =swiping=
+furifuri	{[scat n:vn:mot]} =shaking=
+fuu	{[scat n:vn:mot]}	=blowing=
+fuufuu	{[scat n:vn:mot]}	=blowing=
+garagarapeq	{[scat n:vn:mot]}	=gurgling=
+gee	{[scat n:vn:mot]}	=vomiting=
+gikombatan	{[scat n:vn:mot]} "gikkombattan" =seesaw=
+gikkombattan	{[scat n:vn:mot]} =seesaw=
+gittambakkon	{[scat n:vn:mot]} "gikkombattan" =seesaw=
+gittambattan	{[scat n:vn:mot]} "gikkombattan" =seesaw=
+gittonbattan	{[scat n:vn:mot]} "gikkombattan" =seesaw=
+gochisoosama	{[scat n:vn:mot]} =greeting_after_meal=
+gongon	{[scat n:vn:mot]} =banging=
+gohongohon	{[scat n:vn:mot]} =coughing=
+kohonkohon	{[scat n:vn:mot]} =coughing=
+gokkun	{[scat n:vn:mot]} =swallow=
+goron	{[scat n:vn:mot]} =lying_down=
+goshigoshi	{[scat n:vn:mot]} =scrubbing=
+gotsun	{[scat n:vn:mot]} "gottsun" =bumping_into=
+gottsun	{[scat n:vn:mot]} =bumping_into=
+gottsunko	{[scat n:vn:mot]} "gottsun-ko" =bumping_into_DIM=
+gujupe	{[scat n:vn:mot]} =mouth_rinsing=
+guruguru	{[scat n:vn:mot]} =circling=
+hai	{[scat n:vn:mot]} =handing_over=
+doozo	{[scat n:vn:mot]} =handing_over=
+konnichiwa	{[scat n:vn:mot]} =greeting=
+haihai 	{[scat n:vn:mot]} =crawling=
+hakobaregokko	{[scat n:vn:mot]} "hakob-PASS-GER-gokko" =being_carried_game=
+hakushon 	{[scat n:vn:mot]} =sneezing=
+hambunko	{[scat n:vn:mot]} "hambun-ko" =sharing_DIM=
+hambunhambun	{[scat n:vn:mot]} =sharing=
+hamehame 	{[scat n:vn:mot]} =fitting_in=
+hiyashihiyashi 	{[scat n:vn:mot]} =cooling=
+horihori 	{[scat n:vn:mot]} =digging=
+hoshihoshi 	{[scat n:vn:mot]} =drying=
+iikoiiko	{[scat n:vn:mot]} =stroking=
+inaiinaibaa	{[scat n:vn:mot]} =peekaboo=
+inainaibaa	{[scat n:vn:mot]} "inaiinaibaa"	=peekaboo=
+irasshaimase	{[scat n:vn:mot]} =welcome=
+itadakimasu	{[scat n:vn:mot]} =bon_appetit=
+jaa	{[scat n:vn:mot]} =pouring=
+jabujabu	{[scat n:vn:mot]} =splashing=
+chabuchabu	{[scat n:vn:mot]} =splashing= "jabujabu"
+chapuchapu	{[scat n:vn:mot]} =splashing= "jabujabu"
+jampujampu	{[scat n:vn:mot]} =jumping=
+joozujoozu	{[scat n:vn:mot]} =clapping_hands=
+jorijori	{[scat n:vn:mot]} =cutting=
+jumbanko	{[scat n:vn:mot]} "jumban-ko" =in_order_DIM=
+juujuu	{[scat n:vn:mot]}	=frying=
+kaikai	{[scat n:vn:mot]} =scratching=	
+kakekake	{[scat n:vn:mot]} =putting_on=	
+kakikaki	{[scat n:vn:mot]} =writing=	
+kamikami	{[scat n:vn:mot]} =chewing=
+kawaiikawaii	{[scat n:vn:mot]} =stroking=
+kawaikawai	{[scat n:vn:mot]} "kawaiikawaii" =stroking=
+kikkukikku	{[scat n:vn:mot]} "kikkukikku" =kicking=
+kirakira	{[scat n:vn:mot]} =sparkling=
+kireekiree	{[scat n:vn:mot]} =cleaning=
+kirekire	{[scat n:vn:mot]} "kireekiree" =cleaning=
+kochokocho	{[scat n:vn:mot]} =tickling=	
+kuchukuchu	{[scat n:vn:mot]} =tickling=	
+konekone	{[scat n:vn:mot]} =kneading=
+konkon	{[scat n:vn:mot]} =coughing=	
+kookanko	{[scat n:vn:mot]} "kookan-ko" =exchanging_DIM=
+maimai	{[scat n:vn:mot]} =rolling_up=
+maimai	{[scat n:vn:mot]} =turn=
+makimaki	{[scat n:vn:mot]} =turning_around=
+mamagoto {[scat n:vn:mot]} =play_housekeeping=
+mamagoto {[scat n:mot]} =play_housekeeping_set=
+mamagotogokko {[scat n:vn:mot]} "mamagoto-gokko" =housekeeping_game=
+mazemaze	{[scat n:vn:mot]} =mixing=
+menkomenko	{[scat n:vn:mot]} =stroking=
+mogumogu	{[scat n:vn:mot]} =chewing=
+moguritcho	{[scat n:vn:mot]} =diving=
+momimomi	{[scat n:vn:mot]} =rubbing=
+mooiikai	{[scat n:vn:mot]} =hide_and_seek=
+mukimuki	{[scat n:vn:mot]} =peeling=
+muimui	{[scat n:vn:mot]} =peeling=
+nadenade	{[scat n:vn:mot]} =stroking=
+nainai	{[scat n:vn:mot]} =allgone=
+namename	{[scat n:vn:mot]} =licking=
+nanna	{[scat n:vn:mot]} =strolling=
+nenne	{[scat n:vn:mot]} =sleeping=
+nennen	{[scat n:vn:mot]} =sleeping=
+nokenoke	{[scat n:vn:mot]} =moving=
+nosenose	{[scat n:vn:mot]} =placing_on=
+niinii	{[scat n:vn:mot]} =cooking=
+ninni	{[scat n:vn:mot]} =cooking=
+nobinobi	{[scat n:vn:mot]} =stretching=
+nonno	{[scat n:vn:mot]} =get_on=
+nonnon	{[scat n:vn:mot]} =get_on=
+nonnon	{[scat n:vn:mot]} =lie_on_back=
+nukunuku 	{[scat n:vn:mot]} =lukewarm=
+nuginugi 	{[scat n:vn:mot]} =taking_off=
+nurinuri 	{[scat n:vn:mot]} =smearing=
+nurunuru 	{[scat n:vn:mot]} =slimy=
+okioki	{[scat n:vn:mot]} =putting=
+okki	{[scat n:vn:mot]} =getting_up=
+ombu	{[scat n:vn:mot]} =piggyback=	
+onesho	{[scat n:vn:mot]} =wetting_the_bed=
+onri	{[scat n:vn:mot]} =getting_down=
+rii	{[scat n:vn:mot]} =getting_down=
+oshikuramanjuu	{[scat n:mot]} "oshikura_manjuu" =back_to_back_circle_game=
+otchin	{[scat n:vn:mot]} =sit_down=
+otchinton	{[scat n:vn:mot]} =sit_down=
+pachin	{[scat n:vn:mot]} =clicking=
+pachipachi	{[scat n:vn:mot]} =clapping_hands=
+paan	{[scat n:vn:mot]} =splitting=
+pampan	{[scat n:vn:mot]} =hitting=
+pee	{[scat n:vn:mot]} =spitting=
+pempen	{[scat n:vn:mot]} =hitting=
+pen	{[scat n:vn:mot]} =hitting=
+peq	{[scat n:vn:mot]} =spitting=
+peropero	{[scat n:vn:mot]} =licking=
+pettampettan	{[scat n:vn:mot]} =sticking=
+pai	{[scat n:vn:mot]} =throwing_away= "poi"
+poi	{[scat n:vn:mot]} =throwing_away=
+poipoi	{[scat n:vn:mot]} =throwing_away=
+pokin	{[scat n:vn:mot]} =breaking=
+pon	{[scat n:mot]} =ball=
+pon	{[scat n:vn:mot]}	=throwing_ball=
+puchin 	{[scat n:vn:mot]} =snapping=
+puu 	{[scat n:vn:mot]}	=passing_wind=
+buu 	{[scat n:vn:mot]} "puu"	=passing_wind=
+pyompyon 	{[scat n:vn:mot]}	=hopping=
+shii	{[scat n:vn:mot]} =pee=
+shisshi	{[scat n:vn:mot]} "shiishii" =pee=
+shiishi	{[scat n:vn:mot]} "shiishii" =pee=
+shiishii	{[scat n:vn:mot]} =pee=
+shikko	{[scat n:vn:mot]}	=pee=
+shimajima	{[scat n:vn:mot]} =striped=
+shun	{[scat n:vn:mot]}	=blowing_nose=
+shurushuru	{[scat n:vn:mot]}	=slurping=
+sukisuki	{[scat n:vn:mot]}	=stroke=
+surusuru	{[scat n:vn:mot]}	=slurping=
+tabetabe	{[scat n:vn:mot]} =eat=
+tachi	{[scat n:vn:mot]} =standing=
+tachitachi	{[scat n:vn:mot]} =standing=
+takaitakai	{[scat n:vn:mot]} =hold_over_head=
+takitaki	{[scat n:vn:mot]} =cook=
+tappotappo	{[scat n:vn:mot]} =dripping=
+tatakaigokko	{[scat n:vn:mot]} "tatakaw-GER-gokko" =fighting_game=
+tatchi	{[scat n:vn:mot]} "tachi" =standing=
+tatta	{[scat n:vn:mot]} =standing=
+togetoge	{[scat n:vn:mot]} =sharp=
+ten	{[scat n:vn:mot]} =hit=
+toon	{[scat n:vn:mot]} =fall=
+toosemboo	{[scat n:vn:mot]} =baring_the_way=
+unchi	{[scat n:vn:mot]} =poo=
+unko	{[scat n:vn:mot]} =poo=
+untan	{[scat n:vn:mot]} =poo=
+uunuun	{[scat n:vn:mot]}	=poo=
+wakewake	{[scat n:vn:mot]}	=share=
+yakiyaki 	{[scat n:vn:mot]} =fry=
+yoshiyoshi 	{[scat n:vn:mot]}	=stroke=
+yoishoyoisho 	{[scat n:vn:mot]}	=do_best=
+yubikitta 	{[scat n:vn:mot]}	"yubi_kitta" =promissing_with_hooked_fingers=
+zuru	{[scat n:vn:mot]} =mean=
+
+%%%%%%%% -kko type %%%%%%%%%
+chibikko	{[scat n:mot]} "chibi-kko" =small_child_DIM=
+hipparikko	{[scat n:vn:mot]} "hippari-kko" =pulling_DIM=
+ijiwarukko	{[scat n:vn:mot]} "ijiwaru-kko" =bullying_DIM=
+ijimekko	{[scat n:vn:mot]} "ijime-kko" =bullying_DIM=
+itazurakko	{[scat n:vn:mot]} "itazura-kko" =doing_mischief_DIM=
+kadokko	{[scat n:mot]} =corner_DIM= "kado-kko"
+kaekko	{[scat n:vn:mot]} "kae-kko" =changing_DIM=
+kakekko	{[scat n:vn:mot]} "kake-kko"  =chasing_DIM=
+manekko	{[scat n:vn:mot]} "mane-kko"  =imitating_DIM=
+mazemazekko	{[scat n:vn:mot]} =mixing_DIM= "mazemaze-kko"
+mogurikko	{[scat n:vn:mot]} "mogur-kko"  =going_under_DIM=
+niramekko	{[scat n:vn:mot]} "nirame-kko" =looking_into_each_other_eyes_DIM=
+oikakekko	{[scat n:vn:mot]} "oikake-kko" =chasing_DIM=
+sumikko	{[scat n:mot]} "sumi-kko" =corner_DIM= 	% 隅っこ 
+toriaikko	{[scat n:vn:mot]} "toriai-kko" =scramble_for_DIM=
+torikaekko	{[scat n:vn:mot]} "torikae-kko" =taking_away_from_each_other_DIM=
+tokkaekko	{[scat n:vn:mot]} "torikae-kko" =tak_DIMing_away_from_each_other_DIM=
+wakekko	{[scat n:vn:mot]}	"wake-kko"  =sharing=
+zurukko	{[scat n:vn:mot]} "zuru-kko" =being_mean_DIM=
+
+%%%%%%%%%%%%%%%%%%%
+%%% ADJECTIVES %%%
+%%%%%%%%%%%%%%%%%%%
+appu	{[scat adj:mot]} =beautiful=
+atchi	{[scat adj:mot]} =hot=
+achichi	{[scat adj:mot]} "atchichi" =hot=
+atchichi	{[scat adj:mot]} =hot=
+atchitchi	{[scat adj:mot]} "atchichi" =hot=
+attakaattaka	{[scat n:mot]} =warm=
+batchi	{[scat adj:mot]} =dirty=
+babachi	{[scat adj:mot]} =dirty=
+babatchi	{[scat adj:mot]} =dirty=
+batchichi	{[scat adj:mot]}  =dirty=
+batchi	{[scat adj:mot]}  =dirty=
+batchibatchi	{[scat adj:mot]}  =dirty=
+chitcha	{[scat adj:mot]} =small=
+chibitcha	{[scat adj:mot]} =small=
+chibicha	{[scat adj:mot]} "chibitcha" =small=
+chiicha	{[scat adj:mot]} "chitcha" =small=
+kutcha {[scat adj:mot]} =smelly=
+mammaru	{[scat adj:mot]} =round=
+sui {[scat adj:mot]} =sour=
+okki {[scat adj:mot]} =big=
+ookiooki {[scat adj:mot][tense pres]} =big=
+kataikatai {[scat adj:mot][tense pres]} =hard=
+babatchi {[scat adj:mot][tense pres]} =dirty=
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ADJECTIVAL NOUNS %%%	changed to nouns!
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%% 
+%%% COMP with Onoma %%%	 see noun+noun.cut
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+mikke	{[scat v:mot]} =found_it=
+

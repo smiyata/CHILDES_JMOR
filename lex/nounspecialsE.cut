@@ -1,0 +1,499 @@
+@UTF8
+%%%seal
+%%%booktitle
+%%%manga
+%%%anime
+%%%TV
+%%%song
+%%%train
+%%%car
+
+ki_o_tsuke	{[scat n:vn][comp n+ptl:case+v:v]} =stand_to_attention= "ki+o+tsuke&GER"
+
+%%%seal
+
+dare_shiiru	{[scat n] [comp n:deic:wh+n]} =who_seal= "dare+shiiru"
+@@
+dekimashita_yo_shiiru	{[scat n][comp v:v+ptl:fina+n]} =completed_seal= "deki&POL&PAST+yo+shiiru"
+dekimashitashiiru	{[scat n][comp v:v+n]} =completed_seal= "deki&POL&PAST+shiiru"
+dekimashita_shiiru	{[scat n][comp v:v+n]} =completed_seal= "deki&POL&PAST+shiiru"
+dekita_dekita_shiiru	{[scat n][comp v:v+v:v+n]} =completed_seal= "deki&PAST+deki&PAST+shiiru"
+dekita_ne_shiiru	{[scat n][comp v:v+ptl:fina+n]} =completed_seal= "deki&PAST+ne+shiiru"
+dekitashiiru	{[scat n][comp v:v+n]} =completed_seal= "deki&PAST+shiiru"
+dekita_shiiru	{[scat n][comp v:v+n]} =completed_seal= "deki&PAST+shiiru"
+dekitayoshiiru	{[scat n][comp v:v+ptl:fina+n]} =completed_seal= "deki&PAST+yo+shiiru"
+dekita_yo_shiiru	{[scat n][comp v:v+ptl:fina+n]} =completed_seal= "deki&PAST+yo+shiiru"
+dekiteru_shiiru	{[scat n][comp v:v+n]} =completed_seal= "deki&ASP&PRES+shiiru"
+mitsuketa_yo	{[scat n][comp v:v+ptl:fina]} =found_seal= "mitsuke&PAST+yo"
+mitsuketa_yo_shiiru	{[scat n][comp v:v+ptl:fina+n]} =found_seal= "mitsuke&PAST+yo+shiiru"
+mushinihenshinshiroppu	{[scat n][comp n+v:cop+n:vn+n]} =metamorphosis_to_beetle_syrup=	"+mushi+ni&ADV+henshin+shiroppu"
+yatta_ne_shiiru	{[scat n][comp v:c+ptl:fina+n]} =did_it_seal= "yar&PAST+ne+shiiru"
+yokudekimashitashiiru	{[scat n][comp adj+v:v+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+shiiru"
+yoku_dekimashita_shiiru	{[scat n][comp adj+v:v+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+shiiru"
+yoku_dekimashita_yo_shiiru	{[scat n][comp adj+v:v+ptl:fina+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+yo+shiiru"
+
+
+%%%booktitle
+
+akai_kutsu	{[scat n]} =red_shoes_booktitle=
+anata_wa_daare	{[scat n]} =who_are_you_booktitle=
+atsui_hi	{[scat n]} =hot_day_booktitle=
+Bumbukuchagama	{[scat n]} =b_booktitle=
+chibikuro_sambo	{[scat n]} =little_black_Sambo_booktitle=
+choo_no_isshoo	{[scat n]} =day_in_life_of_butterfly_booktitle=
+doraemon_kuizu_taikai	{[scat n]} =doraemon_quiz_booktitle=
+fuusen_neko	{[scat n]} =balloon_cat_booktitle=
+gakkoo_e_iku	{[scat n]} =lets_go_to_school_booktitle=
+Genki		{[scat n]} =genki_child_journal=
+gunyangunyon	{[scat n]} =g_booktitle=
+Guri_to_Gura	{[scat n]} =guri_and_gura_booktitle=
+hakuchoo_no_mizuumi	{[scat n]} =swan_lake_booktitle=
+Hanasakajiisan	{[scat n]} =grandpa_h_booktitle=
+hashire_hikarigoo	{[scat n]} =run_hikari_train_booktitle=
+hataraku_hitotachi	{[scat n]} =working_people_booktitle=
+henshin_doobutsuen	{[scat n]} =metamorphosis_zoo_booktitle=
+hitori_de_unchi_dekiru_kanaa	{[scat n]} =toilet_alone_booktitle=
+Ikkyuusan	{[scat n]} =little_monk_Ikkyu_booktitle=
+inaba_no_shirousagi	{[scat n]} =white_hare_of_Inaba_booktitle=
+inu_no_omawarisan	{[scat n]} =officer_dog_booktitle=
+isogashii_omawarisan	{[scat n]} =busy_policemen_booktitle=
+Isoppu_monogatari	{[scat n]} =aesops_fables_booktitle=
+Isoppu_monogatari_tsuu	{[scat n]} =aesops_fables_two_booktitle=
+Jakku_to_mame_no_ki	{[scat n]} =jack_and_the_beanstalk_booktitle=
+Kachikachiyama	{[scat n]} =k_booktitle=
+Kaguyahime	{[scat n]} =princess_k_booktitle=
+kasajizoo	{[scat n]} =straw_hat_for_Jizo_booktitle=
+kaji_da_kaji_da	{[scat n]} =fire_alarm_booktitle=
+kiree_na_hako	{[scat n]} =beautiful_box_booktitle=
+kobito_no_kutsuya	{[scat n]} =elves_and_shoemaker_booktitle=
+kobito_to_kutsuya	{[scat n]} =elves_and_shoemaker_booktitle=
+Kobutorijiisan	{[scat n]} =fat_granpa_booktitle=
+kodomo_no_tomo	{[scat n]} =childrens_friend_booktitle=
+konnichiwa_ookami	{[scat n]} =goodday_wolf_booktitle=
+kuchakucha_orusuban	{[scat n]} =messy_home_sitting_booktitle=
+kumasan_no_itadakimasu	{[scat n]} =bears_bon_appetit_booktitle=
+Itadakimasu	{[scat n]} =bon_appetit_booktitle=
+kumon	{[scat n]} =kumon_child_journal=
+kurumiwari_ningyoo	{[scat n]} =nutcracker_booktitle=
+kuroneko_doraneko	{[scat n]} =black_cat_street_cat_booktitle=
+Maboroshitenka	{[scat n]} =phantom_world_booktitle=
+maboroshi_no_pengingusa	{[scat n]} =dreamlike_penguin_herb_booktitle=
+mamii	{[scat n]} =mamii_child_journal=
+Mamii	{[scat n]} =mamii_child_journal=
+maru_sankaku_shikaku	{[scat n]} =circle_triangle_square_booktitle=
+mebae	{[scat n]} =mebae_child_journal=
+Miichan_no_otsukai	{[scat n]} =miichans_first_errand_booktitle=
+minikui_ahiru_no_ko	{[scat n]} =ugly_duckling_booktitle=
+mitsubachi_Maaya	{[scat n]} =maya_the_bee_booktitle=
+moshamosha	{[scat n]} =mussy_booktitle=
+mukashi_mukashi	{[scat  n]} =once_upon_a_time_booktitle=
+mummun_atsui_hi	{[scat  n]} =hot_day_booktitle=
+mushiba_no_Kenchan	{[scat  n]} =bad_teeth_Kenchan_booktitle=
+nadiranda	{[scat n]} =n_booktitle=
+nemureru_mori_no_bijo	{[scat n]} =sleeping_beauty_booktitle=
+nenai_ko_dare_da	{[scat n]} =who_is_it_that_cant_sleep_booktitle=
+ningyohime	{[scat n]} "ningyo_hime" =little_mermaid_booktitle=
+nintama	{[scat n]} =little_ninjas_booktitle=
+obake_da_zo	{[scat n]} =there_a_ghost_booktitle=
+obakechan_no_ennichi	{[scat n]} =little_ghosts_festival_booktitle=
+ohayoo_puusan	{[scat n]} =good_morning_Pooh_booktitle=
+omake_no_omake_no_kishapoppo	{[scat n]} =freebie_train_booktitle=
+omocha_ga_ippai	{[scat n]} =plenty_of_toys_booktitle=
+Omusubikororin	{[scat n]} =rolling_riceball_booktitle=
+Paashi_no_kenka	{[scat n]} =percys_quarrel_booktitle=
+Piitaa_to_ookami	{[scat n]} =Peter_and_the_wolf_booktitle=
+Puusan_no_shibafu	{[scat n]} =winnie_the_poohs_lawn_booktitle=
+sambiki_no_kobuta	{[scat n]} =three_little_pig_booktitle=
+sarukanibanashi	{[scat n]} =story_of_monkey_and_crab_booktitle=
+sayoonara_tsutomukun	{[scat n]} =byebye_Tsutomu_booktitle=
+shatsu_wa_doko	{[scat n]} =where_is_the_shirt_booktitle=
+shichihiki_no_koyagi	{[scat n]} =wolf_and_seven_young_kids_booktitle=
+shirayuki_hime	{[scat n]} =snow_white_booktitle=
+shitakiri_suzume	{[scat n]} =the_tongue_cut_sparrow_booktitle=
+shittenkorori	{[scat n:vn:mot]} =suttenkororin_booktitle=	
+Songokuu	{[scat n]} =monkey_king_booktitle=
+tanoshii_yoochien	{[scat n]} =happy_kindergarten_booktitle=
+Taroo_no_odekake	{[scat n]} =taroos_walk_booktitle=
+tsuru_no_ongaeshi	{[scat n]} =the_cranes_repay_booktitle=
+ukiuki_kurisumasu	{[scat n]} =cheerful_christmas_booktitle=
+wagaya_no_anshin_gaidobukku	{[scat n]} =safety_for_my_home_guidebook_booktitle=
+wakuwaku_hasami_taiken_pakku	{[scat n]} =exciting_scissors_experience_set_booktitle=
+yoi_ko_no_dooyoo	{[scat n]} =nursery_songs_for_good_children_booktitle=
+yoi_ko_no_uta	{[scat n]} =nursery_songs_for_good_children_booktitle=
+yoochien_ni_iku_yada_yada	{[scat n]} =i_dont_want_to_go_to_the_kindergarten_booktitle=
+yumichan_no_ohikkoshi	{[scat n]} =yumis_move_booktitle=
+zoosan_tte_ii_na	{[scat n]} =elephants_are_well_off_booktitle=
+yoi_ko	{[scat n]} =good_child_booktitle=
+anderusen	{[scat n]} =andersen_stories_booktitle=
+anderusen_monogatari	{[scat n]} =andersen_stories_booktitle=
+yumichan_no_ohikkoshi	{[scat n]} =Yumi_moves_booktitle=
+
+%%%manga
+
+puromaido	{[scat n]} =pura_maid_manga=
+
+%%%anime
+
+sora_tobu_yuureebune	{[scat n]} =ghostship_in_the_sky_anime=
+yuureebune	{[scat n]} =ghostship_anime=
+ijiwaru_baasan	{[scat n]} =malicious_grandma_anime=
+inakappe_taishoo	{[scat n]} =funny_judo_champion_anime=
+tetsujin_nijuuhachigoo	{[scat n]} =ironman28_anime=
+himitsu_no_akkochan	{[scat n]} =akkochan_of_secrets_anime=
+eitoman	{[scat n]} =eight_man_anime=
+obakyuu	{[scat n]} =ObaQ_anime=
+ragon	{[scat n]} =ragon_anime=
+urutorafaito	{[scat n]} =ultra_fight_anime=
+urutorasebun	{[scat n]} =ultra_seven_anime=
+mooretsu_ataroo	{[scat n]} =extraordinary_Ataro_anime=
+suupaajettaa	{[scat n]} =super_jetter_anime=
+akaki_chi_no_irebun	{[scat n]} =akaki_chi_no_eleven_anime=
+juudoo_itchokusen	{[scat n]} =juudoo_straight_anime=
+umeboshidenka	{[scat n]} =umeboshidenka_anime=
+supekutoruman	{[scat n]} =spectreman_anime=
+oogombatto	{[scat n]} =ogon_bat_anime=
+yuke_yuke_tobiooma	{[scat n]} =go_go_jumper_horse_anime=
+reo	{[scat n]} =onward_Leo_anime=
+susume_reo	{[scat n]} =onward_Leo_anime=
+uchuu_enjin_gori	{[scat n]} =sky_rocket_Gori_anime=
+faito_da_Byuuta	{[scat n]} =fight_Byuuta_anime=
+Kurenaisanshiro	{[scat n]} =Kurenai_Sanshiro_anime=
+
+%%%TV
+atsumare_wanwanwandaroo	{[scat n]} =together_wandaroo_TV=
+otete_burabura	{[scat n]} =hands_swinging_TV=
+pimpompan	{[scat n]} =pimpompan_TV=
+okaasan_to_issho	{[scat n]} =together_with_mummy_TV=
+minna_no_uta	{[scat n]} =our_songs_TV=
+ooi_atsumare	{[scat n]} =hey_come_together_TV=
+sesami	{[scat n]} =sesame_street_TV=
+sansuu_daisuki	{[scat n]} =we_love_maths_TV=
+ohayoo_kodomo_shoo	{[scat n]} =goodmorning_children_show_TV=
+Gegege_no_onitaroo	{[scat n]} =Gegege_no_onitaroo_TV=
+Zenigata_Heeji	{[scat n]} =Zenigata_Heeji_historical_play_TV=
+kiihantaa	{[scat n]} =keyhunter_TV=
+kimi_dare	{[scat n]} =who_are_you_TV=
+monoshiri_daigaku	{[scat n]} =know_it_all_university_TV=
+yoku_miyoo	{[scat n]} =lets_watch_TV=
+otogi_no_heya	{[scat n]} =room_of_fairytales_TV=
+afutanuun	{[scat n]} =afternoon_TV=
+Tonchin_koboozu	{[scat n]} =little_monk_Tonchin_TV=
+te_o_tsunago	{[scat n]} =lets_hold_hands_TV=
+Nobuko_to_obaachan	{[scat n]} =Nobuko_and_her_Granma_TV=
+kimi_no_na_wa	{[scat n]} =what_is_your_name_Radio=
+
+%%%toys
+pitagorasu	{[scat n]} =pytagoras_geometric_blocks=
+
+%%%song
+
+aabuku_tatta	{[scat n]} =bubbling_boiling_song=
+amari_isoide	{[scat n]} =hurrying_too_much_song=
+ame_ame_fure_fure	{[scat n]} =rain_falling_song=
+ammari_isoide	{[scat n]} =hurrying_too_much_songsong=
+bara_ga_saita	{[scat n]} =roses_blossoming_song=
+bokura_o_nosete	{[scat n]} =take_us_on_board_song=
+bokura_no_rokomooshon	{[scat n]} =our_locomotive_song=
+choocho_choocho	{[scat n]} =butterfly_song=
+dendemmushi_mushi	{[scat n]} =snail_song=
+donguri_korokoro	{[scat n]} =acorn_rolling_around_song=
+kaibutsukun	{[scat n]} =dear_monster_song=
+korori	{[scat n]} =acorn_rolling_around_song=
+korori_yo	{[scat n]} =acorn_rolling_around_song=
+donguri_ko	{[scat n]} =acorn_rolling_around_song=
+gonimbayashi	{[scat n]} =five_musicians_song=
+hachi_ga_tobunbun	{[scat n]} =fly_bee_fly_song=
+happii_baasudee_tuu_yuu	{[scat n]} =happy_birthday_song=
+happiibaasudeetuuyuu	{[scat n]} =happy_birthday_song=
+ii_yu_da_naa	{[scat n]} =good_bath_song=
+ippombashi_kochokocho	{[scat n]} =one_bridge_tickle_song=
+kaeru_no_uta_ga	{[scat n]} =frogs_are_singing_song=
+kagome_kagome	{[scat n]} =basket_eye_song=
+kirakira_hikaru	{[scat n]} =twinkling_stars_song=
+kisha_kisha	{[scat n]} =locomotive_choochoo_song=
+kisha_kisha_poppo_poppo	{[scat n]} =locomotive_choochoo_song=
+kisha_kisha_shuppo_shuppo	{[scat n]} =locomotive_choochoo_song=
+kishakisha_poppopoppo	{[scat n]} =locomotive_choochoo_song=
+kishakisha_shupposhuppo	{[scat n]} =locomotive_choochoo_song=
+kono_yubi_otoosan	{[scat n]} =this_finger_is_father_song=
+maigo_no_nekosan	{[scat n]} =lost_kitten_song=
+matsubokkuri_momiji	{[scat n]} =pinecone_maple_song=
+me_mimi_hana_kuchi	{[scat n]} =eye_ear_nose_mouth_song=
+minatomachi_buruusu	{[scat n]} =harbour_city_blues_song=
+musunde_hiraite	{[scat n]} =join_hands_song=
+mori_no_kajiya	{[scat n]} =blacksmith_in_the_woods_song=
+moshimoshi_kame_yo	{[scat n]} =hello_turtle_song=
+namae_namae	{[scat n]} =your_name_song=
+oi_oi_kabakun	{[scat n]} =hey_rhino_song=
+omocha_no_chachacha	{[scat n]} =toys_chacha_song=
+omochanochachacha	{[scat n]} "toys_chacha_song" =song=
+ooi_ooi_kabakun	{[scat n]} =hey_rhino_song=
+ookii_te_chiisai_te	{[scat n]} =big_hand_little_hand_song=
+ookina_kuri	{[scat n]} =big_chestnut_song=
+otsume_o_kirimasho	{[scat n]} =lets_cut_nails_song=
+panda_usagi_koara	{[scat n]} =panda_rabbit_koala_song=
+rairairai	{[scat n]} =rairairai_song=
+saita_saita	{[scat n]} =blooming_tulips_song=
+senro_wa_tsuzuku_yo	{[scat n]} =the_rails_go_on_song=
+takoyaki_tabeta	{[scat n]} =octopus_dumplings_song=
+tententemari	{[scat n]} =ball_playing_song=
+tententemmari	{[scat n]} =ball_playing_song= "tententemari"
+tentemmari	{[scat n]} =ball_playing_song= "tententemari"
+tekkyoo_da_tekkyoo_da	{[scat n]} =over_railroad_bridge_song=
+tonneru_da_tonneru_da	{[scat n]} =through_the_tunnel_song=
+tooryanse	{[scat n]} =let_me_pass_song=
+toraitoraitorai	{[scat n]} =try_try_try_song=
+torai_torai_torai	{[scat n]} =try_try_try_song=
+yuki_ya_konkon	{[scat n]} =snow_is_falling_song=
+yudono_ni_iku_nara	{[scat n]} =if_you_go_to_the_bath_song=
+yuuyake_koyake	{[scat n]} =sunset_song=
+zoosan_zoosan	{[scat n]} =elephant_song=
+
+%%%train
+Biggusuniikaa	{[scat n]} =big_sneaker_train=
+biggusuniikaa	{[scat n]} =big_sneaker_train=
+Nyuutoramu	{[scat n]} =Nutram_train=
+nyuutoramu	{[scat n]} =Nutram_train=
+hausutembosu	{[scat n]} =hausutembosu_train=
+Hausutembosu	{[scat n]} =hausutembosu_train=
+hayabusa	{[scat n]} =hayabusa_shinkansen_train=
+Midori	{[scat n]} =green_train=
+yufuuin_no_mori	{[scat n]}	=yufuuin_no_mori_train=
+Kamome	{[scat n]} =gull_train=
+kamome	{[scat n]} =gull_train=
+nichirin	{[scat n]} =sun_train=
+kooya	{[scat n]} =kooya_train=
+aabanrainaa	{[scat n]} =urban_liner_train=
+Aabanrainaa	{[scat n]} "aabanrainaa" =urban_liner_train=
+buruurainaa	{[scat n]} "buruu_rainaa" =blue_liner_train=
+arufarizooto	{[scat n]} "arufa_rizooto" =alpha_resort_train=
+akitakomachi	{[scat n]} "akitakomachi" =akita_komachi_train=
+aomori	{[scat n]} "aomori" =aomori_train=
+Aomori	{[scat n]} "aomori" =aomori_train=
+ariake	{[scat n]} =ariake_train=
+asagiri	{[scat n]} =asagiri_train=
+aso	{[scat n]} =aso_train=
+dokutaaieroo	{[scat n]} =dokutaaieroo_train=
+ehime	{[scat n]} =ehime_train=
+Ehime	{[scat n]} "ehime" =ehime_train=
+ekusupuresu	{[scat n]} "ekisupuresu" =express_train=
+Furano_ekusupuresu	{[scat n][comp n:prop+n]} "Furano+ekisupuresu" =Furano_express_train=
+Hanakaze	{[scat n]} =Hanakaze_train=
+haruka	{[scat n]} =haruka_train=
+hikari	{[scat n]} =hikari_shinkansen_train=
+hikarian	{[scat n]} =hikarian_train=
+Hikarian	{[scat n]} "hikarian" =hikarian_train=
+hokusee	{[scat n]} "hokusee" =hokusee_train=
+Hokusee	{[scat n]} "hokusee" =hokusee_train=
+Iisokaze	{[scat n]} =iisokaze_train=
+kaisoku	{[scat n]} =semi_express_train=
+Keehintoohoku	{[scat n]} "keehintoohoku" =saitama_yokohama_train=
+keehintoohoku	{[scat n]} "keehintoohoku" =saitama_yokohama_train=
+Keehintoohokusen	{[scat n]} "keehintoohoku-sen" =saitama_yokohama_line_train=
+keehintoohokusen	{[scat n]} "keehintoohoku-sen" =saitama_yokohama_line_train=
+Kintetsu	{[scat n]} =kintetsu_train=
+Kintetsu_rubisutaa	{[scat n][comp n:prop+n]} "kintetsu+rubisutaa" =kintetsu_rubystar_train=
+kirishima	{[scat n]} =kirishima_train=
+kamome	{[scat n]} =kamome_train=
+kodama	{[scat n]} =kodama_shinkansen_train=
+koedo	{[scat n]} =koedo_train=
+Kokutetsu	{[scat n]} =national_railway=
+kokutetsu	{[scat n]} =national_railway=
+komachi	{[scat n]} =komachi_train=
+Kunibiki	{[scat n]} =Kunibiki_train=
+kyuukoo	{[scat n]} =express_train=
+makkusu	{[scat n]} =max_train=
+meetetsu_panoramasuupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
+Meetetsu_Panoramasuupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
+nozomi	{[scat n]} =nozomi_shinkansen_train=
+nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
+Nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
+nozomishinkansen	{[scat n][comp n+n]} =nozomi_shinkansen_train= "nozomi+shinkansen"
+Nyuureddoaroo	{[scat n]} "nyuureddoaroo" =new_red_arrow_train=
+odakyuu	{[scat n]} =odakyu_train=
+rapiito	{[scat n]} =rapiito_train=
+Rapiito	{[scat n]} "rapiito" =rapiito_train=
+reddoaroo	{[scat n]} =red_arrow_train=
+Reddoaroo	{[scat n]} "reddoaroo" =red_arrow_train=
+reorainaa	{[scat n]} =leo_liner_train=
+romansukaa	{[scat n]} =romance_car_train=
+haiesuiiromansukaa	{[scat n]} =hi_s_e_romance_car_train=
+sanyoo	{[scat n]} =sanyoo_shinkansen_train=
+sandaabaado	{[scat n]} =thunderbird_train=
+sukairainaa	{[scat n]} =skyliner_train=
+suupaatokachi	{[scat n]}  =super_tokachi_train=
+Suupaatokachi	{[scat n]}  =super_tokachi_train=
+Tomamu_sahoro_ekusupuresu	{[scat n][comp n:prop+n:prop+n]} "Tomamu+Sahoro+ekisupuresu" =Tomamu_Sahoro_express_train=
+toozaisen	{[scat n]} =toozai_train= "toozai-sen"
+tsubame	{[scat n]} =swallow_train=
+tsubasa	{[scat n]} =wings_train=
+Tsubasa	{[scat n]} =wings_train=
+yamabiko	{[scat n]} =yamabiko_train=
+yufuinnomori	{[scat n]} =yufuin_woods_train=
+
+
+byuusazanami	{[scat n][comp n+n]} "byuu+sazanami" =view_wavelets_train=
+chichibutetsudoo	{[scat n][comp n:prop+n]} "Chichibu+tetsudoo" =Chichibu_railroad=
+Chichibutetsudoo	{[scat n][comp n:prop+n]} "Chichibu+tetsudoo" =Chichibu_railroad= 
+furesshuhitachi	{[scat n][comp n+n]} "furesshu+hitachi" =fresh_hitachi_train=
+hiroshimadentetsu	{[scat n][comp n:prop+n]} "Hiroshima+dentetsu" =hiroshima_electric_railroad_train=
+iseshimarainaa	{[scat n][comp n:prop+n]} "Iseshima+rainaa" =iseshima_liner_train=
+koorusaishuu	{[scat n][comp n+n]} "kooru+saishuu" =koorusaishuu_train=
+boosoobyuuekisupuresu	{[scat n][comp n:prop+n+n]} "Boosoo+byuu+ekisupuresu" =Boso_view_express_train=
+koosoobyuuekisupuresu	{[scat n][comp n+n]} "koosoobyuu+ekisupuresu" =double_deck_view_express_train=
+koosoobyuuekusupuresu	{[scat n][comp n+n]} "koosoobyuu+ekisupuresu" =double_deck_view_express_train=
+makkusuyamabiko	{[scat n][comp n+n]} "makkusu+yamabiko" =max_yamabiko_train=
+Meetetsudensha	{[scat n][comp n:prop+n]} =Nagoya_railway= "Meetetsu+densha"
+meetetsudensha	{[scat n][comp n:prop+n]} =Nagoya_railway= "Meetetsu+densha"
+naritaekusupuresu	{[scat n][comp n:prop+n]} "Narita+ekisupuresu" =narita_express_train=
+Naritaekusupuresu	{[scat n][comp n:prop+n]} "Narita+ekisupuresu" =narita_express_train=
+naritaekisupuresu	{[scat n][comp n:prop+n]} "Narita+ekisupuresu" =narita_express_train=
+panoramaderakkusu	{[scat n][comp n+n]} "panorama+derakkusu" =panorama_deluxe_train=
+panoramasuupaa	{[scat n][comp n+n]} "panorama+suupaa" =panorama_super_train=
+Panoramasuupaa	{[scat n][comp n+n]} =panorama_super_train= "panorama+suupaa"
+suupaaaozora	{[scat n][comp n+n]} "suupaa+aozora" =super_aozora_train=
+suupaaazusa	{[scat n][comp n+n]} "suupaa+azusa" =super_azusa_train=
+suupaabyuutorippu	{[scat n][comp n+n]} "suupaa+byuutorippu" =super_viewtrip_train=
+suupaahatsuki	{[scat n][comp n+n]} "suupaa+hatsuki" =super_hatsuki_train=
+suupaahitachi	{[scat n][comp n+n]} "suupaa+hitachi" =super_hitachi_train=
+suupaahowaitoaroo	{[scat n][comp n+n*n]} "suupaa+howaito+aroo" =super_white_arrow_train=
+suupaatokachi	{[scat n][comp n+n]} "suupaa+tokachi" =super_tokachi_train=
+tangoekisupurooraa	{[scat n][comp n+n]} "tango+ekusupurooraa" =tango_explorer_train=
+towairaitoekusupuresu	{[scat n][comp n+n]} "towairaito+ekusupuresu" =twilight_express_train=
+uesutohikari	{[scat n][comp n+n]} "uesuto+hikari" =west_hikari_train=
+yamanotesenhikarian	{[scat n][comp n+n]} "yamanote&sen+hikarian" =yamanote_hikarian_train=
+
+erutokkyuu	{[scat n][comp n:let+n]} "eru+tokkyuu" =l_express_train=
+esueru	{[scat n][comp n:let+n:let]} "esu+eru" =sl_train=
+gohyakkee	{[scat n][comp num+num]} "go+hyaku-kee" =fivehundred_type_train=
+gohyakukee	{[scat n][comp num+num]} "go+hyaku-kee" =fivehundred_type_train=
+hassenkee	{[scat n][comp num+num]} "hachi+sen-kee" =eighthundred_type_train=
+nanahyakkee	{[scat n][comp num+num]} "nana+hyaku-kee" =sevenhundred_type_train_train=
+sambyakkee	{[scat n][comp num+num]} "san+hyaku-kee" =threehundred_type_train=
+sambyakuekkusu	{[scat n][comp num+num*n:let]} "san+hyaku+ekkusu" =threehundred_x_train=
+tiihyaku	{[scat n][comp n:let+num]} "tii+hyaku"  =t_hundred_train=
+
+sebuntsuusebun	{[scat n][comp num+num+num]} "sebun+tsuu+sebun"  =Boeing_727_airplane=
+
+arakawasen	{[scat n]} "arakawa-sen" =arakawa_train=
+Arakawasen	{[scat n]} "arakawa-sen" =arakawa_train=
+chuubusen	{[scat n]} "chuubu-sen" =chubu_train=
+Chuubusen	{[scat n]} "chuubu-sen" =chubu_train=
+chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
+Chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
+chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
+Chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
+inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
+Inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
+saikyoosen	{[scat n]} "saikyoo-sen"  =saitama_tokyo_train=
+Saikyoosen	{[scat n]} "saikyoo-sen"  =saitama_tokyo_train=
+seebusen	{[scat n]} "seebu-sen"  =seibu_train=
+Seebusen	{[scat n]} "seebu-sen"  =seibu_train=
+soobusen	{[scat n]} "soobu-sen"  =soobu_train=
+Soobusen	{[scat n]} "soobu-sen"  =soobu_train=
+tooyokosen	{[scat n]} "tooyoko-sen"  =tooyoko_train=
+Tooyokosen	{[scat n]} "tooyoko-sen"  =tooyoko_train=
+tookaidoosen	{[scat n]} "tookaidoo-sen"  =tookaido_train=
+Tookaidoosen	{[scat n]} "tookaidoo-sen"  =tookaido_train=
+Tookaidoohonsen	{[scat n]} "tookaidoo-honsen" =tookaido_main_train=
+tookaidoohonsen	{[scat n]} "tookaidoo-honsen" =tookaido_main_train=
+tookaidoohonsendensha	{[scat n][comp n:prop+n]} "tookaidoo&honsen+densha" =tookaido_main_train=
+Tookaidoohonsendensha	{[scat n][comp n:prop+n]} "tookaidoo&honsen+densha" =tookaido_main_train=
+toohokushinkansen {[scat n][comp n:prop+n]} =Tohoku_shinkansen_train= "Toohoku+shinkansen"
+Toohokushinkansen {[scat n][comp n:prop+n]} =Tohoku_shinkansen_train= "Toohoku+shinkansen"
+Tookaidooshinkansen	{[scat n][comp n:prop+n]} =Tookaido_shinkansen_train= "Tookaidoo+shinkansen"
+tookaidooshinkansen	{[scat n][comp n:prop+n]} =Tookaido_shinkansen_train= "Tookaidoo+shinkansen"
+Yamanotesen	{[scat n]} "yamanote-sen" =yamanote_train=
+yamanotesen	{[scat n]} "yamanote-sen" =yamanote_train=
+Ooikawatetsudoo	{[scat n][comp n:prop+n]} "ooikawa+tetsudoo" =ooikawa_railway=
+ooikawatetsudoo	{[scat n][comp n:prop+n]} "ooikawa+tetsudoo" =ooikawa_railway=
+
+aporo	{[scat n]} =apollo_rocket=
+
+%%%car
+
+	aishisu	{[scat n]} =isis_car=
+	akoodo	{[scat n]} =accord_car=
+	bentsu	{[scat n]} =benz_car=
+	beretto	{[scat n]} =bellet_car=
+	biiemu	{[scat n]} =bmw_car=
+	biiemudaburuyuu	{[scat n]} =bmw_car=
+	bittsu	{[scat n]} =vitz_car=
+	borubo	{[scat n]} =volvo_car=
+	bugatti	{[scat n]} =bugatti_car=
+	buruubaado	{[scat n]} =blue_bird_car=
+	chorokyuu	{[scat n]} =choro_q_car=
+	dafu	{[scat n]} =daf_car=
+	dyussembaagu	{[scat n]} =duesenberg_car= "dyuusembaagu"
+	erupiiyonhyaku	{[scat n]} =lp_fourhundred_car=
+	esutima	{[scat n]} =estima_car=
+	esutimaesu	{[scat n][comp n+n:let]} =estima_s_car= "esutima+esu"
+	feraari	{[scat n]} =ferari_car=
+	foodo	{[scat n]} =ford_car=
+	forukusuwaagen	{[scat n]} =volkswagen_car=
+	googoofaibu	{[scat n]} =gogofive_car=
+	gorufu	{[scat n]} =golf_car=
+	gyaran	{[scat n]} =galan_car=
+	honda	{[scat n]} =honda_car=
+	isuzu	{[scat n]} =isuzu_car=
+	jagaa	{[scat n]} =jaguar_car=
+	jiru	{[scat n]} =zil_car=
+	kapera	{[scat n]} =capella_car=
+	karoora	{[scat n]} =corolla_car=
+	kauntakku	{[scat n]} =countach_car=
+	kee	{[scat n]} =light_vehicle_car=	% 軽自動車 
+	keetora	{[scat n]} =light_van_car=	% 軽自動車 
+	konchinentaru	{[scat n]} =continental_car=
+	kooki	{[scat n]} =koki_car=
+	korona	{[scat n]} =corona_car=
+	kosumo	{[scat n]} =cosmo_car=
+	kuraun	{[scat n]} =crown_car=
+	kyaderakku	{[scat n]} =cadillac_car=
+	maakufoo	{[scat n]} =markfour_car=
+	merusedesu	{[scat n]} =mercedes_car=
+	mosukobitchi	{[scat n]} =moskovitch_car=
+	musutangu	{[scat n]} =mustang_car=
+	nissan	{[scat n]} =nissan_car=
+	operu	{[scat n]} =opel_car=
+	pajero	{[scat n]} =pajero_car=
+	piasuaroo	{[scat n]} =pierce_arrow_car=
+	porushe	{[scat n]} =porsche_car=
+	purejizento	{[scat n]} =president_car=
+	purimeera	{[scat n]} =primera_car=
+	perikambin	{[scat n]} =pelican_delivery_car=
+	rabufoo	{[scat n]} =ravfour_car=
+	ramborugiini	{[scat n]} =lamborghini_car=
+	ranka	{[scat n]} =lanca_car=
+	regashii	{[scat n]} =legacy_car=
+	rekkusu	{[scat n]} =rex_car=
+	reoone	{[scat n]} =leone_car=
+	reezoosha	{[scat n]} =refrigerator_car=
+	rinkaan	{[scat n]} =lincoln_car=
+	rinkaankonchinentaru	{[scat n]} =lincoln_continental_car=
+	roiyaru	{[scat n]} =royal_car=
+	rooreru	{[scat n]} =laurel_car=
+	roorusuroisu	{[scat n]} =rollsroyce_car=
+	ruuche	{[scat n]} =luce_car=
+	saabu	{[scat n]} =saab_car=
+	sabanna	{[scat n]} =savanna_car=
+	sandobagii	{[scat n]} =sand_buggy_car=
+	sanii	{[scat n]} =sunny_car=
+	sedorikku	{[scat n]} =cedric_car=
+	senchurii	{[scat n]} =century_car=
+	seresute	{[scat n]} =celeste_car=
+	serika	{[scat n]} =celica_car=
+	shibikku	{[scat n]} =civic_car=
+	shirubia	{[scat n]} =silvia_car=
+	shitoroen	{[scat n]} =citroen_car=
+	soara	{[scat n]} =soarer_car=
+	soburin	{[scat n]} =sovereign_car=
+	subaru	{[scat n]} =subaru_car=
+	sukairain	{[scat n]} =skyline_car=
+	sumaato	{[scat n]} =smart_car=
+	suupura	{[scat n]} =supra_car=
+	suteejia	{[scat n]} =stagea_car=
+	toyota	{[scat n]} =toyota_car=
+	waagen	{[scat n]} =volkswagen_car=
+
+
+	dashippanashi	{[scat n]} "das-ppanashi" =take_out_abandoning=

@@ -1,0 +1,72 @@
+@UTF8
+sassa   adv|sassa=promptly   -> onoma|sassa   ptl:quot|
+	sassato  onoma|sassato&QUOT   ->  adv|sassato&QUOT=promptly  ???
+
+文法語  ひらがな
+	助詞  が  は  の
+	代名詞  かれ  かのじょ  わたし  われわれ
+	指示詞  これ  こちら
+	疑問詞  どこ  だれ  なに/なん
+	数字  いち  さんびゃく  さんぜん
+	  助数詞  漢字    さんびゃく円  よん匹
+挨拶  ひらがな	こんにちは,ごめんください,おだいじに
+間投詞	ひらがな	あ  あっ  うん  ええと  あのう  ん?
+活用  ひらがな
+	語尾    た  たら  ない  なかった
+   	接頭辞  お,ご,	ご本人,お店
+名詞  漢字    本,ご飯
+	動物,植物,野菜  カタカナ      キリン  イヌ  ウマ  スミレ  ウメ  ナッパ    ジャガイモ
+	外来語  カタカナ    スケート
+幼児語  カタカナ      ワンワン  ネンネ      汽車ポッポ  船ポー
+オノマトペ    カタカナ	  トントン  ガタンガタン
+動詞  漢字(default の場合)    食べる  変える    帰る      する  やる  ある/ない
+形容詞  漢字or ひらがな      かたい/固い    おいしい/美味しい
+個人名  カタカナ    ノジ  スミハレ
+	(語尾はひらがなor漢字:  スミハレちゃん  ノジ先生  セイジ君)
+地名  漢字    東京  大須
+
+elongation延ばし“:”  	 おいしい:  なが:い  (×おいしいぃ,×なが〜い)
+単語の間はスペース      これ  は  おいしい  リンゴ  です  ね.  (全角スペースが半角に変換される)
+DRAN:  vowel verbs  ar.cut  und verbs liste ; num   出る寝る 焦るあせる
+
+	JMORの原則
+1. =wordは翻訳の目的ではなく,単語のcoreを意味を表す.語源を意識しながら,現在の使用法で決める.
+2.同音異義語はわけるが,多義語は品詞が変わらない限りわけない
+3.他の単語がどう分類されているかということと一貫性をもたせる.
+4. disambiguationをはっきり定義し,なるべく自動的にできるようにする.
+5. 話し言葉(会話に出る単語)に限る.そのなかでさらに親子会話で出現するもの優先的に扱う.
+6. 特殊なデータ(方言,L2,医療)は支障が無ければ含む.しかし方言等としてマークはしない.
+  必要に応じて別レキシコン(例 aphasiaLex.cut)にして,普段含まないことにする
+7. 同音異義語は8個以下にする(MORの技術的な処理制限)
+
+
+	gakusee nagara (conj?) vs  tabenagara (CONT?)
+	compound?
+konagona
+mitsubachi
+
+tsuriageru
+miataru
+furiotosu
+furikaeru
+haidasu
+mimamoru
+	kakeyoru
+	neshizumaru
+	yorikakaru
+	toorikakaru
+	shigamitsuku
+	sashidasu
+	oikabusaru
+	oiharau
+	yojinoboru
+	dekakeru?
+	shikakeru
+	noridasu
+	hoetateru
+	maiagaru
+	kaketsukeru
+
+
+
+

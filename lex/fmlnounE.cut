@@ -1,0 +1,52 @@
+@UTF8
+%%%% formal nouns
+aida	{[scat n:fml]} =meanwhile=
+amari	{[scat n:fml]} =more_than=
+ato	{[scat n:fml]} =after=
+baai	{[scat n:fml]} =case=
+bakari	{[scat n:fml]} "bakari" =nothing_but=
+bakka	{[scat n:fml]} "bakari" =nothing_but=
+bakkari	{[scat n:fml]} "bakari" =nothing_but=
+dake	{[scat n:fml]} =only=
+fuu	{[scat n:fml]} =manner=
+hammen	{[scat n:fml]} =reverse=
+hazu	{[scat n:fml]} =supposed_to=
+hoka	{[scat n:fml]} =other_than=
+hoo	{[scat n:fml]} =side=
+ijoo	{[scat n:fml]} =more_than=
+ippoo	{[scat n:fml]} =on_the_one_hand=
+kagiri	{[scat n:fml]} =as_long_as=
+kawari	{[scat n:fml]} =instead_of=
+ gawari	{[scat n:fml]} =instead_of= "kawari"
+kekka	{[scat n:fml]} =result=
+koto	{[scat n:fml]} =fact=
+kurai	{[scat n:fml]} =grade=
+gurai	{[scat n:fml]} =grade= "kurai"
+kuse	{[scat n:fml]} =inspite_of=
+mae	{[scat n]} =before=
+%mae	{[scat n:fml]} =before=
+mama	{[scat n:fml]} =state=	% まま  侭 
+mono	{[scat n:fml]} =fact=
+mon	{[scat n:fml]} =fact= "mono"
+nochi	{[scat n:fml]} =after= 
+okage	{[scat n:fml]} =thanks_to=
+ori	{[scat n:fml]} =just_then=
+sai	{[scat n:fml]} =on_the_occasion=
+shina	{[scat n:fml]} =on_the_occasion=
+saichuu	{[scat n:fml]} =in_the_middle_of=
+see	{[scat n:fml]} =on_account_of=
+shidai	{[scat n:fml]} =order=
+tabi	{[scat n:fml]} =each_time=
+tambi	{[scat n:fml]} =each_time= "tabi"
+tame	{[scat n:fml]} =purpose=
+%	toki	{[scat n:fml]} =time=  %ONLNY as noun
+toko	{[scat n:fml]} =when= "tokoro"
+tokoro	{[scat n:fml]} =when=
+dokoro	{[scat n:fml]} =when= 
+toori	{[scat n:fml]} =way=
+totan	{[scat n:fml]} =soon=	% とたん/途端 
+tsuide	{[scat n:fml]} =by_the_way=
+tsumori	{[scat n:fml]} =intention=
+uchi	{[scat n:fml]} =while=
+wake	{[scat n:fml]} =reason=
+

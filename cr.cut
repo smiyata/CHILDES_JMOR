@@ -1,0 +1,1222 @@
+@UTF8
+%%%%%%%%%%%%%%%%%%%
+%% MISC Start 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: misc-start
+CTYPE: START
+if
+NEXTCAT = [scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc \
+           ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%
+%% SPECIAL FORM Start
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: sf-start
+CTYPE: START
+if
+NEXTCAT = [scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing tag bq eq bq2 eq2 meta]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% VERB START *
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-start
+CTYPE: START
+
+%% 				for vowel verb all inflections
+if
+NEXTCAT = [scat OR v:v v:v:sub], [allo vV]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv, \
+       v-tense, neg, asp, v-adj, v2adj, v-comp, v-noun, v-anoun}
+
+%%	 for consonant verb  	 	  		stem infl
+if
+NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vC vRw vRww vBTts vBSu]  
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-caus, v-pot-cv, v-pass-cv, v-complet, v-tense}
+
+%%	 for consonant verb	 		 	assim infl
+if
+NEXTCAT = [scat OR v:c v:c:sub], [allo OR vC vTTw vTTr vAIs vTIk vTIg vTNn]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-tense, v-complet, v-adj, asp}
+if
+NEXTCAT = [scat OR v:ir v:ir:sub], [allo OR vTTr vTTik vTKi vTSi]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-tense, v-complet, v-adj, neg, asp, v-comp}
+
+%%	 for consonant verb  	  			i-infl
+if
+NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vCi vPIw vAIt vAIs vTKi vTSi] 
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-comp, v-complet, v-adj, v2adj, v-tense, v-noun, v-anoun}
+
+%% 	 for consonant verb 				a-infl
+if
+NEXTCAT = [scat OR v:v v:c v:ir v:c:sub v:ir:sub], [allo OR vCa vTKo vTSi vTSe] 
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {neg, v-tense, v-caus}
+
+%%	for consonant verb on "r" (assimilated a-infl)  "yannai"
+if
+NEXTCAT = [scat OR v:c v:c:sub], [allo vNNr]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {neg, v-tense}
+
+%%		 					for "kahen"
+if
+NEXTCAT = [scat OR v:ir v:ir:sub], [allo vBKo]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-caus, v-pot-vv, v-pass-vv, v-tense, neg}
+if
+NEXTCAT = [scat OR v:ir v:ir:sub], [allo vBKu]  
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-tense}
+
+
+%%% 							 for nai 
+if
+NEXTCAT = [scat OR v:ir v:ir:sub]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {a-tense}
+
+%%% 							 for copula   
+if
+NEXTCAT = [scat v:cop], ![tense OR pres past inf imp], ![adj +]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {v-tense, v-caus, v-pot-cv, v-tense, neg, v-adj, \
+	v-comp, v-anoun}
+
+%%% 
+if
+NEXTCAT = [scat OR v:cop v:v v:c v:v:sub v:c:sub], [tense OR pres past inf imp]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%% VERB COMPOUND RULE
+%%%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-comp
+CTYPE: -
+%%		for compound verbs with vowel stem
+
+%% 				all infl: age e hajime kake sugi tsuzuke wasure
+if
+NEXTCAT = [scat vcomp],  [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV], DEL [scat], ADD [scat v:v]
+RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv, \
+	v-tense, neg, v-adj, v2adj, v-comp, v-anoun}
+
+%%		for compound verbs with consonant stem 
+
+%% 				stem infl: agar kir owar tsukus das naos tsuzuk nokos (tagar)
+if
+NEXTCAT = [scat vcomp], [cp vC]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC], DEL [scat], ADD [scat v:c]
+RULEPACKAGE = {v-caus, v-pot-cv, v-pass-cv, v-tense}
+
+%% 				a-infl: agar kir tsukus tsuzuk (tagar)
+if
+NEXTCAT = [scat vcomp], [cp vCa]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa], DEL [scat], ADD [scat v:c]
+RULEPACKAGE = {neg, v-tense}
+
+%% 				i-infl : agar kir owar tsuzuk (tagar)
+if
+NEXTCAT = [scat vcomp], [cp vCi]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCi], DEL [scat], ADD [scat v:c]
+RULEPACKAGE = {v-comp, v-adj, v2adj, v-tense, v-noun, neg, v-anoun}
+
+%% 				assim stem & i-infl: naos nokos
+if
+NEXTCAT = [scat vcomp], [cp vAIs]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vAIs], DEL [scat], ADD [scat v:c]
+RULEPACKAGE ={v-tense, v-complet, v-adj, v2adj, neg, v-comp, v-tense, v-noun, v-anoun}
+
+%%				assim stem : agar kir (tagar)
+if
+NEXTCAT = [scat vcomp], [cp vTTr]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTr], DEL [scat], ADD [scat v:c]
+RULEPACKAGE = {v-tense, v-complet, v-adj, neg}
+
+%%				assim stem : tsuzuk   
+if
+NEXTCAT = [scat vcomp], [cp vTIk]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTIk], DEL [scat], ADD [scat v:c]
+RULEPACKAGE = {v-tense, v-complet, v-adj, neg}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% VERB CONTINUATION RULES
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%
+%% causative
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-caus
+CTYPE: -
+%%% (1)
+if
+STARTCAT = [allo vV]
+NEXTSURF = sase
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+if
+STARTCAT = [allo vV]
+NEXTSURF = させ
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+if
+STARTCAT = [allo vC]
+NEXTSURF = ase
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+if
+STARTCAT = [allo vRww]
+NEXTSURF = ase
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+if
+STARTCAT = [allo vBKo]
+NEXTSURF = sase
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+
+%% 		for the contracted causative
+%		on vowel verbs
+if
+STARTCAT = [allo vV]
+NEXTSURF = sas
+NEXTCAT = [scat vsfx], [cp vC]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+if
+STARTCAT = [allo vV]
+NEXTSURF = sashi
+NEXTCAT = [scat vsfx], [cp vAIs]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
+RULEPACKAGE = {v-tense, asp}
+
+%		on consonant verbs
+if
+STARTCAT = [allo vC]
+NEXTSURF = as
+NEXTCAT = [scat vsfx], [cp vC]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+if
+STARTCAT = [allo vC]
+NEXTSURF = ashi
+NEXTCAT = [scat vsfx], [cp vAIs]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vAIs]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+
+
+%		on consonant verbs ending in "w"
+if
+STARTCAT = [allo vRww]
+NEXTSURF = as
+NEXTCAT = [scat vsfx], [cp vC]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense}
+if
+STARTCAT = [allo vRww]
+NEXTSURF = ashi
+NEXTCAT = [scat vsfx], [cp vAIs]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp v-adj, v2adj}
+
+%		on kahen
+if
+STARTCAT = [allo vBKo]
+NEXTSURF = sas
+NEXTCAT = [scat vsfx], [cp vC]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense}
+if
+STARTCAT = [allo vBKo]
+NEXTSURF = sashi
+NEXTCAT = [scat vsfx], [cp vAIs]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% potential
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-pot-vv
+CTYPE: -
+%%% 	 					vV for rare
+if
+STARTCAT = [allo OR vV vBKo], ![int -]
+NEXTSURF = rare
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-anoun} 
+if
+STARTCAT = [allo OR vV vBKo], ![int -]
+NEXTSURF = られ
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-anoun} 
+%%%   	 					vV for re
+if
+STARTCAT = [allo vV], ![int -]
+NEXTSURF = re
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-anoun}
+if
+STARTCAT = [allo vV], ![int -]
+NEXTSURF = れ
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-anoun}
+%%% 						for Kahen
+if
+STARTCAT = [allo vBKo], ![int -]
+NEXTSURF = re
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v-anoun}
+
+RULENAME: v-pot-cv
+CTYPE: -
+%%% (1) 					vV for e
+if
+STARTSURF = !ir
+STARTCAT = [allo vC], ![int -]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v-anoun}
+
+%%%  						for verbs on "w" 
+if
+STARTSURF = !ir
+STARTCAT = [allo vRw]
+NEXTSURF = e
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v-anoun}
+
+%%%%%%%%%%%%%%%%%%%
+%% passive
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-pass-vv
+CTYPE: -
+%%% (1) vV for rare
+if
+STARTCAT = [allo vV], ![int -]
+NEXTSURF = rare
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+if
+STARTCAT = [allo vV], ![int -]
+NEXTSURF = られ
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+%%% (1) vV for kahen
+if
+STARTCAT = [allo vBKo], ![int -]
+NEXTSURF = rare
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+
+RULENAME: v-pass-cv
+CTYPE: -
+%%% (1) vV for are
+if
+STARTCAT = ![int -]
+NEXTSURF = are
+NEXTCAT = [scat vsfx], [cp vV]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV], ADD [vpass1 cv1]
+RULEPACKAGE = {v-tense, v-complet, neg, asp, v-adj, v2adj, v-anoun}
+
+%%%%%%%%%%%%%%%%%%%%%
+%% completive				"-chaw"
+%%%%%%%%%%%%%%%%%%%%%
+RULENAME: v-complet
+CTYPE: -
+%					after vowel verb
+%% 				stem infl: cha
+if
+STARTCAT = [allo vV]
+NEXTSURF = cha
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
+RULEPACKAGE = {v-tense}
+if
+STARTCAT = [allo vV]
+NEXTSURF = ちゃ
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
+RULEPACKAGE = {v-tense}
+%% 				a-infl: chawa
+if
+STARTCAT = [allo vV]
+NEXTSURF = chawa
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
+RULEPACKAGE = {v-tense, neg}
+if
+STARTCAT = [allo vV]
+NEXTSURF = ちゃわ
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
+RULEPACKAGE = {v-tense, neg}
+%% 				i-infl : chai
+if
+STARTCAT = [allo vV]
+NEXTSURF = chai
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vPIw] 
+RULEPACKAGE = {v-adj, v2adj, v-tense, v-noun, neg, v-anoun}
+if
+STARTCAT = [allo vV]
+NEXTSURF = ちゃい
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vPIw] 
+RULEPACKAGE = {v-adj, v2adj, v-tense, v-noun, neg, v-anoun}
+%%				assim stem : chat
+if
+STARTCAT = [allo vV]
+NEXTSURF = chat
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTw] 
+RULEPACKAGE = {v-tense, v-adj, v2adj, asp}
+if
+STARTCAT = [allo vV]
+NEXTSURF = ちゃっ
+NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTw] 
+RULEPACKAGE = {v-tense, v-adj, v2adj, asp}
+
+
+
+%					after consonant verb
+%% 				stem infl: cha
+if
+STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
+NEXTSURF = cha
+NEXTCAT = [scat vsfx], [cp vRw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
+RULEPACKAGE = {v-tense}
+%% 				a-infl: chawa
+if
+STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
+NEXTSURF = chawa
+NEXTCAT = [scat vsfx], [cp vCa]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
+RULEPACKAGE = {neg, v-tense}
+%% 				i-infl : chai
+if
+STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
+NEXTSURF = chai
+NEXTCAT = [scat vsfx], [cp vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vPIw] 
+RULEPACKAGE = {v-adj, v2adj, v-tense, v-noun, neg, v-anoun}
+%%				assim stem : chat
+if
+STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
+NEXTSURF = chat
+NEXTCAT = [scat vsfx], [cp vTTw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTw] 
+RULEPACKAGE = {v-tense, v-adj, v2adj, asp}
+
+
+%					after consonant verb "mnb" "g"
+%% 				stem infl: ja
+if
+STARTCAT = [allo OR vTNn vTIg]
+NEXTSURF = ja
+NEXTCAT = [scat vsfx], [cp vRw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
+RULEPACKAGE = {v-tense}
+%% 				a-infl: jawa
+if
+STARTCAT = [allo OR vTNn vTIg]
+NEXTSURF = jawa
+NEXTCAT = [scat vsfx], [cp vCa]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
+RULEPACKAGE = {neg, v-tense}
+%% 				i-infl : jai
+if
+STARTCAT = [allo OR vTNn vTIg]
+NEXTSURF = jai
+NEXTCAT = [scat vsfx], [cp vPIw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vPIw] 
+RULEPACKAGE = {v-adj, v-tense, v-noun, neg, v-anoun}
+%%				assim stem : jat
+if
+STARTCAT = [allo OR vTNn vTIg]
+NEXTSURF = jat
+NEXTCAT = [scat vsfx], [cp vTTw]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTw] 
+RULEPACKAGE = {v-tense, v-adj, asp}
+
+
+%%%%%%%%%%%%%%%%%%%
+%%  NEGATION 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: neg
+CTYPE: -
+if
+STARTCAT = ![tense OR pres inf]
+NEXTCAT = [scat neg]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {a-tense, v-tense}
+
+%%%%%%%%%%%%%%%%%%%
+%%  ASPECT 
+%%%%%%%%%%%%%%%%%%%
+%%                        V-teru, V-deru
+RULENAME: asp
+CTYPE: -
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTCAT = [scat asp]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
+RULEPACKAGE = {v-tense, neg}
+
+
+
+%%%%%%%%%%%%%%%%%%%
+%%  V-TENSE   
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-tense
+CTYPE: -
+
+%% VTENSE %%%%%%
+if
+NEXTCAT = [scat vtense] %, ![vform ik]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, NEXTCAT [tense], DEL [allo]
+RULEPACKAGE = {}
+
+
+RULENAME: v-adj
+CTYPE: -
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = na
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RULEPACKAGE = {a-tense, neg, adj-v}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = な
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RULEPACKAGE = {a-tense, neg, adj-v}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = ta
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RULEPACKAGE = {a-tense, neg, adj-v}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = た
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RULEPACKAGE = {a-tense, neg, adj-v}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTCAT = [scat asfx], [sfxcat n:an], [sfxcat adj], [tense pres]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [an 1], NEXTCAT [tense]
+RULEPACKAGE = {}
+
+RULENAME: v2adj   %fuer tabe-zurai, -gatai, -nikui, 
+CTYPE: -
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = zura
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = づら
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = gata
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = がた
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = niku
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = にく
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = yasu
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+if
+STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+NEXTSURF = やす
+NEXTCAT = [scat vsfx], [sfxcat adj]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat adj], DEL [allo]
+RULEPACKAGE = {a-tense, neg}
+
+RULENAME: v-noun
+CTYPE: -
+if
+STARTCAT = [scat OR v:v v:c v:ir]
+NEXTCAT = [scat vsfx], [sfxcat n]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat n], DEL [allo]
+RULEPACKAGE = {}
+
+
+RULENAME: v-anoun
+CTYPE: -
+if
+STARTCAT = [scat OR v:v v:c v:ir]
+NEXTCAT = [scat vsfx], [sfxcat n:an]
+MATCHCAT [allo]
+then
+RESULTCAT = DEL [scat], ADD [scat n:an], DEL [allo]
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%
+%% ADJECTIVE STARTS 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: adj-start
+CTYPE: START
+if
+NEXTCAT = [scat pfx], [pcat adj]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {pfx-adj} 
+if
+NEXTCAT = [scat OR adj adj:mot]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {a-tense, neg, adj-v, adj-n, adj-an}
+
+%%%%%%%%%%%%%%%%%%
+RULENAME: pfx-adj
+CTYPE: #
+if
+STARTCAT = [scat pfx], [pcat adj]
+NEXTCAT = [scat adj]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {a-tense}
+
+%%%%%%%%%%%%%%%%%%
+RULENAME: a-tense
+CTYPE: -
+if
+STARTCAT = ![tense OR pres past inf]
+NEXTCAT = [scat atense]
+then
+RESULTCAT = STARTCAT, NEXTCAT [tense]
+RULEPACKAGE = {neg}
+
+%%%%%%%%%%%%%%%%%%  deadjectival verbalizers (Agaru, Asugiru)
+RULENAME: adj-v
+CTYPE: -
+if
+NEXTCAT = [scat asfx], [sfxcat v], [cp vV]
+then
+RESULTCAT = DEL [scat], ADD [scat v:v], DEL [allo], ADD [allo vV]
+RULEPACKAGE = {neg, v-tense}
+if
+NEXTCAT = [scat asfx], [sfxcat v], [cp vC]
+then
+RESULTCAT = DEL [scat], ADD [scat v:c], DEL [allo], ADD [allo vC]
+RULEPACKAGE = {neg, v-tense}
+if
+NEXTCAT = [scat asfx], [sfxcat v], [cp vTTr]
+then
+RESULTCAT = DEL [scat], ADD [scat v:c], DEL [allo], ADD [allo vTTr]
+RULEPACKAGE = {neg, v-tense}
+if
+NEXTCAT = [scat asfx], [sfxcat v], [cp vCi]
+then
+RESULTCAT = DEL [scat], ADD [scat v:c], DEL [allo], ADD [allo vCi]
+RULEPACKAGE = {neg, v-tense}
+
+%%%%%%%%%%%%%%%%%%  deadjectival nominalizers   (Asa, Ake)
+RULENAME: adj-n
+CTYPE: -
+if
+NEXTCAT = [scat asfx], [sfxcat n]
+then
+RESULTCAT = DEL [scat], ADD [scat n]
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%  				(Asoo) 
+RULENAME: adj-an
+CTYPE: -
+if
+NEXTCAT = [scat asfx], [sfxcat n:an]
+then
+RESULTCAT = DEL [scat], ADD [scat n:an]
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%
+%% NOUN STARTS 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: n-start
+CTYPE: START
+$X = .*
+
+if
+NEXTCAT = [scat pfx], [pcat n]
+then
+RESULTCAT = NEXTCAT, ADD [ns 1]
+RULEPACKAGE = {pfx-noun}
+
+if
+NEXTCAT = [scat OR n n:an n:an:mot n:prop n:mot n:mot n:deic:prs], ![bound +], [nc +]
+then
+RESULTCAT = NEXTCAT, ADD [ns 2]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound, n-rendaku}
+
+if
+NEXTCAT = [scat OR n n:an n:prop n:an:mot n:mot n:deic:prs], ![bound +], [nc ++]
+then
+RESULTCAT = NEXTCAT, ADD [ns 3]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound, n-rendaku}
+
+if
+NEXTCAT = [scat OR n n:an n:prop n:an:mot n:mot n:deic:prs], ![bound +]
+then
+RESULTCAT = NEXTCAT, ADD [ns 4]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound, n-rendaku}
+
+if
+NEXTCAT = [scat OR n n:an n:prop n:an:mot n:mot n:deic:prs], [bound +]
+then
+RESULTCAT = NEXTCAT, ADD [ns 5]
+RULEPACKAGE = {n-bound}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: pfx-noun
+CTYPE: #
+if
+STARTCAT = [pcat n]
+NEXTCAT = [scat OR n n:an n:vn n:mot n:vn:mot]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {sfx-noun, n-comp, n-bound, n-rendaku}
+
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: n-comp
+CTYPE: +
+X = .* %anything
+if
+STARTCAT = [scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh], [nc +]
+NEXTCAT = [scat OR n n:an n:vn n:prop]
+then
+RESULTCAT = NEXTCAT, ADD [ncomp 1]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound}
+if
+STARTCAT = [scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh], [nc ++]
+NEXTCAT = [scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop], [nc ++]
+then
+RESULTCAT = NEXTCAT, ADD [ncomp 1]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: n-rendaku
+CTYPE: +
+if
+STARTCAT = [scat OR n n:an n:prop n:deic:wh n:vn]
+NEXTCAT = [scat OR n n:an n:vn n:prop], [rendaku +]
+MATCHCAT [ndf]
+then
+RESULTCAT = NEXTCAT, DEL [rendaku], ADD [rend 1]
+RULEPACKAGE = {sfx-noun, n-comp, n-bound}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: n-bound
+CTYPE: -
+if
+STARTCAT = [scat OR n n:an n:vn n:deic:dem n:deic:wh], [nb +]
+NEXTCAT = [scat n], [bound +]
+MATCHCAT [nbf]
+then
+RESULTCAT = NEXTCAT, DEL [bound], ADD [nb 1]
+RULEPACKAGE = {sfx-noun, n-comp}
+
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: sfx-noun
+CTYPE: -
+%%		for simple nominal suffixes
+if
+STARTCAT = [scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]
+NEXTCAT = [scat nsfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {sfx-noun, n-comp, n-bound}
+
+%%		for proper noun suffixes
+if
+STARTCAT = [scat n:prop]
+NEXTCAT = [scat npropsfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {sfx-noun, n-comp, n-bound}
+
+%%	for gokko  denominative verbal noun makers
+if
+STARTCAT = [scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs ]
+NEXTCAT = [scat vnsfx]
+then
+RESULTCAT = DEL [scat], ADD [scat n:vn]
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, n-bound, n-rendaku}
+
+%%	for rashii ppoi denominative adjectivalizers
+if
+STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
+NEXTCAT = [scat nasfx]
+then
+RESULTCAT = DEL [scat], ADD [scat adj]
+RULEPACKAGE = {a-tense}
+
+if
+STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
+NEXTCAT = [scat adj], [sfxcat adj]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {a-tense}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% VERBAL NOUN STARTS 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: vn-start
+CTYPE: START
+$X = .*
+if
+NEXTCAT = [scat OR n:vn n:vn:mot n:vn:onoma], [nc +]
+then
+RESULTCAT = NEXTCAT, ADD [rule vn]
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, n-bound, vn-suffix}
+if
+NEXTCAT = [scat OR n:vn n:vn:mot n:vn:onoma]
+then
+RESULTCAT = NEXTCAT, ADD [rule vn]
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, n-bound, n-rendaku}
+
+RULENAME: vn-suffix
+CTYPE: -
+if
+STARTCAT = [scat n:vn]
+NEXTCAT = [scat vnsfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%
+%% COMPOUND NUMBERS START
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: num-start
+CTYPE: START
+if
+NEXTCAT = [scat pfx], [pcat num]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {pfx-num}
+if
+NEXTCAT = [scat num]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {num-suffix}
+if
+NEXTCAT = [scat n:deic:wh]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {num-suffix}
+if
+NEXTCAT = [scat num]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {num-suffix}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: pfx-num
+CTYPE: #
+X = .* %anything
+if
+NEXTCAT = [scat num]
+MATCHCAT [numpf]
+then
+RESULTCAT = NEXTCAT, NEXTCAT [allo], ADD [numpfx +]
+RULEPACKAGE = {num-suffix}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: num-suffix
+CTYPE: -
+if
+STARTCAT = [scat OR num n:deic:wh]
+NEXTCAT = [scat numsfx]
+then
+RESULTCAT = STARTCAT, DEL [numpfx], DEL [allo], ADD [nums 1]
+RULEPACKAGE = {}
+if
+STARTCAT = [scat num]
+NEXTCAT = [scat numsfx]
+then
+RESULTCAT = STARTCAT, DEL [numpfx], DEL [allo], ADD [nums 2]
+RULEPACKAGE = {}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% CO-COMPOUND START
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: co-start
+CTYPE: START
+if
+NEXTCAT = [scat OR co:i co:g], [cc +]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {co-compound}
+if
+NEXTCAT = [scat OR co:i co:g]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {}
+
+RULENAME: co-compound
+CTYPE: +
+X = .* %anything
+%%% (1)
+if
+STARTCAT = [scat OR co:i co:g]
+NEXTCAT = [scat OR co:i co:g]
+MATCHCAT [ccf]
+then
+RESULTCAT = NEXTCAT, ADD [ccr 1]
+RULEPACKAGE = {co-compound}
+
+%%%%%%%%%%%%%%%%%%%
+%%   DEM START    
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: dem-start
+CTYPE: START
+if
+NEXTCAT = [scat OR n:deic:dem n:deic:wh]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {sfx-noun, n-bound}
+if
+NEXTCAT = [scat OR adn:deic:dem \
+	adn:deic:wh]
+then
+RESULTCAT = NEXTCAT, ADD [dem 1]
+RULEPACKAGE = {}
+if
+NEXTCAT = [scat n:deic:dem:wh]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {sfx-noun, n-comp, num-suffix, n-bound}
+
+%%%%%%%%%%%%%%%%%%%
+RULENAME: deic:dem-start2
+CTYPE: START
+if
+NEXTCAT = [scat OR adv:deic:dem \
+	adv:deic:wh adv:deic:indef n:deic:indef]
+then
+RESULTCAT = NEXTCAT, ADD [dem 2]
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%
+%% LETTER START 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: let-start
+CTYPE: START
+if
+NEXTCAT = [scat n:let]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% END RULES  
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: v-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR v v:v v:c v:cop v:ir v:v:sub v:c:sub v:ir:sub], [tense OR pres past inf imp]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: adj-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR adj adj:mot], [tense OR pres past inf imp]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: n-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR n n:mot n:an n:an:mot n:deic:dem n:deic:wh n:deic:prs], ![bound +], ![rendaku +]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: vn-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR n:vn n:vn:mot n:vn:onoma]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: num-endrule
+CTYPE: END
+if
+STARTCAT = [scat num], ![numbound +], ![numpfx +], ![allo OR numBBk \
+           numBBp numBBs numBBt]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: dem-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR n:deic:dem n:deic:wh n:deic:prs\
+	adn:deic:dem adn:deic:wh adv:deic:dem adv:deic:wh]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: dem-endrule2
+CTYPE: END
+if
+STARTCAT = [scat OR adv:deic:dem  adv:deic:wh adv:deic:indef n:deic:indef]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: sf-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR bab chi fam neo phon sl sas test uni wplay unk L2 L2eng sing meta]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: misc-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR adn adv adv:onoma co:g co:i conj n:let n:fml n:prop ptl:case ptl:post ptl:attr \
+            ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+

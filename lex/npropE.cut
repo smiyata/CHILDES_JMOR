@@ -1,0 +1,790 @@
+@UTF8
+%personal & local names; names of characters
+N	{[scat n:prop]} =N=  %for anonymization
+A	{[scat n:prop]} =A=  %for anonymization
+B	{[scat n:prop]} =B=  %for anonymization
+C	{[scat n:prop]} =C=  %for anonymization
+N_A	{[scat n:prop]} =N_A=  %for anonymization
+N_B	{[scat n:prop]} =N_B=  %for anonymization
+N_C	{[scat n:prop]} =N_C=  %for anonymization
+N_N	{[scat n:prop]} =N_N=  %for anonymization
+Nn	{[scat n:prop]} =Nn=  %for anonymization
+Nko	{[scat n:prop]} =Nko= %for anonymization
+Nchoo	{[scat n:prop]} "N-choo" =N_village=  %for anonymization
+Nshi	{[scat n:prop]} "N-shi" =N_city= %for anonymization
+
+Aabo 	{[scat n:prop]} =Aabo=
+Aanii 	{[scat n:prop]} =Ernie=
+Abu 	{[scat n:prop]} =Abu=
+Adamu	{[scat n:prop]} =Adam=
+Afu	{[scat n:prop]} =Afu=
+Afure	{[scat n:prop]} =Afure=
+Ai	{[scat n:prop]} =Ai=
+Aichi	{[scat n:prop]} =Aichi_prefecture=
+Aika	{[scat n:prop]} =Aiko=
+Aiko	{[scat n:prop]} =Aiko=
+Akachanman	{[scat n:prop]} =Baby_man= "Akachan-man"
+Akachamman	{[scat n:prop]} =Baby_man= "Akachan-man"
+akachamman	{[scat n:prop]} =Baby_man= "Akachan-man"
+Akakage	{[scat n:prop]} =Akakage=
+Akane	{[scat n:prop]} =Akane=
+Akazukin	{[scat n:prop]} =Little_red_cap=
+Aki	{[scat n:prop]} =Aki=
+Akio	{[scat n:prop]} =Aki=
+Akko	{[scat n:prop]} =Akko=
+ampamman	{[scat n:prop]} =Beanjam_bun_man= "Ampan-man"
+Ampamman	{[scat n:prop]} =Beanjam_bun_man= "Ampan-man"
+ampammangoo	{[scat n:prop]} =Beanjam_bun_man_train= "Ampan-man-goo"
+Ampammangoo	{[scat n:prop]} =Beanjam_bun_man_train= "Ampan-man-goo"
+Ampamman_kodomo_myuujiamu	{[scat n:prop][comp n:prop+n+n]} =Beanjam_bun_man_childrens_museum= "Ampan&man+kodomo+myuujiamu"
+Ampanman	{[scat n:prop]} =beanjam_bun_man= "Ampan-man"
+Andii	{[scat n:prop]} =Andy=
+Anii	{[scat n:prop]} =Annie=
+Ao 	{[scat n:prop]} =Ao=
+Aomori 	{[scat n:prop]} =Aomori=
+Aobo 	{[scat n:prop]} =Aobo=
+Aran	{[scat n:prop]} =Alain=
+Arare 	{[scat n:prop]} =Arare=
+Aribaasan	{[scat n:prop]} =Ari_grandma= "Ari-baasan"
+Arichama	{[scat n:prop]} =Ari_HON= "Ari-chama"
+Arichan	{[scat n:prop]} =Ari_FAM=
+Arichangoo	{[scat n:prop]} =Ari_FAM_train= "Ari-chan-goo"
+Arika	{[scat n:prop]} =Arika=
+Asarutobekutaa	{[scat n:prop]} =Assault_vector=
+Asato	{[scat n:prop]} =Asato=
+Ashimoto	{[scat n:prop]} =Ashimoto=
+Asuka	{[scat n:prop]} =A_dept_store=
+Asuka	{[scat n:prop]} =Asuka=
+Atomu 	{[scat n:prop]} =Atom=
+Atsumi 	{[scat n:prop]} =Atsumi=
+Attaka 	{[scat n:prop]} =Attaka=
+Aya	{[scat n:prop]} =Aya=
+Ayaka	{[scat n:prop]} =Ayaka=
+Baabii 	{[scat n:prop]} =Barbie=
+Baachan	{[scat n:prop]} =Granma_FAM=
+Baba 	{[scat n:prop]} =Granma=
+Baaba 	{[scat n:prop]} =Granma=
+Babaa 	{[scat n:prop]} =Granma=
+Baba 	{[scat n:prop]} =Baba=
+Babu 	{[scat n:prop]} =Babu=
+baikimman	{[scat n:prop]} =Bacteria_man= "Baikin-man"
+Baikimman	{[scat n:prop]} =Bacteria_man= "Baikin-man"
+Baikin	{[scat n:prop]} =Bacteria_man=
+Baikinman	{[scat n:prop]} =Bacteria_man= "Baikin-man"
+Batako	{[scat n:prop]} =Batako= 
+Baroo	{[scat n:prop]} =Baroo_supermarket=
+Beeta	{[scat n:prop]} =Beta=
+Beetaaarufaa	{[scat n:prop]} =Beta_Alpha=
+Bekutaa	{[scat n:prop]} =Vector=
+beniirando	{[scat n:prop]} =Benyland= "Beniirando"
+Ben	{[scat n:prop]} =Ben=
+Beteriikokooshaku	{[scat n:prop]} =Prince_Beteriiko= "Beteriiko-kooshaku"
+Birii	{[scat n:prop]} =Billy=
+booro	{[scat n:prop]} =Booro_sweets=
+bunchan	{[scat n:prop]} =Bun_FAM= "Bun-chan"
+Bigguee	{[scat n:prop]} "Biggu_ee" =B_supermarket=
+Biikuru	{[scat n:prop]} =Biikuru_car=
+Bobu	{[scat n:prop]} =Bob=
+Burajja	{[scat n:prop]} =Burajja=
+Buu	{[scat n:prop]} =Buu=
+Buuko	{[scat n:prop]} =Buuko=
+Cheri	{[scat n:prop]} =Cheri=
+Chie	{[scat n:prop]} =Chie=
+Chii	{[scat n:prop]} =Chii=
+Chimmaru	{[scat n:prop]} =Chimmaru=
+Chitchi	{[scat n:prop]} =Chitchi=
+Choko	{[scat n:prop]} =Choko=
+Chokoreetoman	{[scat n:prop]} =Chocolate_man= "Chokoreeto-man"
+chuubuyakuhin	{[scat n:prop]} =Chubu_drugstore= "Chuubu_yakuhin"
+daarin 	{[scat n:prop]} =darling=
+Daburubekutaa 	{[scat n:prop]} =Double_vector=
+Dai	{[scat n:prop]} =Dai=
+Daikichi	{[scat n:prop]} =Daikichi=
+Dainarobo	{[scat n:prop]} =Dynarobo=
+dairenjaa	{[scat n:prop]} =Big_ranger= "Dairenjaa"
+Dakko	{[scat n:prop]} =Dakko=
+dakkochan	{[scat n:prop]} =Dakko_FAM= "Dakko-chan"
+dambo	{[scat n:prop]} =Dambo= "Dambo"
+Dangosankyoodai	{[scat n:prop]} =Three_dumpling_brothers= "Dango_san_kyoodai"
+Datto		{[scat n:prop]} =white_rabbit_Datto= 
+Pyonko		{[scat n:prop]} =white_rabbit_Pyonko= 
+Diibuidifendaa		{[scat n:prop]} =D_V_fender= 
+Diibuifaiyaazudifendaa		{[scat n:prop]} =D_V_fires_fender= 
+doitsu	{[scat n:prop]} =Germany=
+Doitsu	{[scat n:prop]} =Germany=
+doitsugo	{[scat n:prop]} "Doitsu-go" =German_language=
+Doitsugo	{[scat n:prop]} "Doitsu-go" =German_language=
+Dokin	{[scat n:prop]} =Dokin=
+dokin	{[scat n:prop]} =Dokin= "Dokin"
+Donarudo	{[scat n:prop]} =Donald=
+Doonatsuman	{[scat n:prop]} =Donuts_man= "Doonatsu-man"
+Doraemon	{[scat n:prop]} =Doraemon= 
+doraemon	{[scat n:prop]} =Doraemon= "Doraemon"
+Doragon	{[scat n:prop]} =Dragon= 
+Doragonhoomu	{[scat n:prop]} =Dragon_form= 
+Dorami	{[scat n:prop]} =Dorami= 
+dorami	{[scat n:prop]} =Dorami= "Dorami"
+Doremi	{[scat n:prop]} =Doremi=
+Edii	{[scat n:prop]} =Edii=
+Eebiishiishii	{[scat n:prop]} =Atomic_Bomb_Casualty_Commission=
+Eeko	{[scat n:prop]} =Eeko=
+Ekka	{[scat n:prop]} =Ekka=
+Emma	{[scat n:prop]} =Yama_god_of_death= "Emma"
+Emma	{[scat n:prop]} =Emma= "Emma"
+Enueichikei	{[scat n:prop]} =NHK_broadcasting= 
+Enueetchikee	{[scat n:prop]} =NHK_broadcasting= "Enueichikee"
+Erikku	{[scat n:prop]} =Eric=
+erikku	{[scat n:prop]} =Eric=
+Erika	{[scat n:prop]} =Erika=
+Eriko	{[scat n:prop]} =Eriko=
+Fado	{[scat n:prop]} =Fado=
+Fendaa	{[scat n:prop]} =Fender=
+Fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
+fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
+Firippu	{[scat n:prop]} =Philip=
+Firumaa	{[scat n:prop]} =Fillmore=
+furansu	{[scat n:prop]} =France=
+Furansu	{[scat n:prop]} =France=
+Furansowa	{[scat n:prop]} =Francois=
+Furasshuman	{[scat n:prop]} =Flash_man= "Furasshu-man"
+Fuuchan	{[scat n:prop]} =Fuu_FAM=
+fuusemman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
+Fuusenman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
+Fuusemman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
+fuusenman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
+tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
+Tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
+Fuufu	{[scat n:prop]} =Fuufu=
+Fuuta	{[scat n:prop]} =Fuuta=
+Fuyumi	{[scat n:prop]} =Fuyumi=
+Fuyuo	{[scat n:prop]} =Fuyuo=
+Fuyuyo	{[scat n:prop]} =Fuyuyo=
+Gaako	{[scat n:prop]} =Gaako=
+gachapin	{[scat n:prop]} =Gachapin= "Gachapin"
+Gachapin	{[scat n:prop]} =Gachapin= "Gachapin"
+Gamu	{[scat n:prop]} =Gamu=
+Gamman	{[scat n:prop]} =Gun_man= "Gan-man"
+Ganko	{[scat n:prop]} =Ganko=
+Gasuto	{[scat n:prop]} =Gust=
+Gen	{[scat n:prop]} =Gen=
+Gifu	{[scat n:prop]} =Gifu=
+Gingaaman	{[scat n:prop]} =Gingaa_man= "Gingaa-man"
+gochagochago	{[scat n]} "gochagocha-go" =chaos_language=
+Gomachan	{[scat n:prop]} =Goma_FAM= "Goma-chan"
+gomachan	{[scat n:prop]} =Goma_FAM= "Goma-chan"
+Gonta	{[scat n:prop]} =Gonta=
+Goodon	{[scat n:prop]} =Gordon=
+Gotoo	{[scat n:prop]} =Gotoo=
+Gujjo	{[scat n:prop]} =Goodjob= 
+guroria	{[scat n:prop]} =Gloria= "Guroria"
+Hai	{[scat n:prop]} =Hai=
+haiji	{[scat n:prop]} =Heidi= "Haiji"
+Haiji	{[scat n:prop]} =Heidi= "Haiji"
+Hainaa	{[scat n:prop]} =Heiner=
+Hakata	{[scat n:prop]} =Hakata=
+Hama 	{[scat n:prop]} =Hama=
+hamigakiman	{[scat n:prop]} =Toothbrush_man= "Hamigaki-man"
+Hamigakiman	{[scat n:prop]} =Toothbrush_man= "Hamigaki-man"
+Hana 	{[scat n:prop]} =Hana=
+Hanamaru 	{[scat n:prop]} =Hanamaru=
+Hankyuu	{[scat n:prop]} =Hankyuu_dept_store=
+Hanshin	{[scat n:prop]} =Osaka_Kobe=
+Harii	{[scat n:prop]} =Harry=
+Haroo	{[scat n:prop]} =Haroo=
+Haru	{[scat n:prop]} =Haru=
+Haruna 	{[scat n:prop]} =Haruna=
+Hattori 	{[scat n:prop]} =Hattori=
+Hayashi 	{[scat n:prop]} =Hayashi=
+Hazuki 	{[scat n:prop]} =Hazuki=
+Hemuren	{[scat n:prop]} =Hamlin=
+henrii	{[scat n:prop]} =Henry= "Henrii"
+Hidetoshi	{[scat n:prop]} =Hidetoshi=
+Hii	{[scat n:prop]} =Hii=
+Himawari	{[scat n:prop]} =Himawari=
+Hina	{[scat n:prop]} =Hina=
+Hirai	{[scat n:prop]} =Hirai=
+Hiro	{[scat n:prop]} =Hiro=
+Hiroki	{[scat n:prop]} =Hiroki=
+Hiroshi	{[scat n:prop]} =Hiroshi=
+Hiroshima	{[scat n:prop]} =Hiroshima=
+Hiroya	{[scat n:prop]} =Hiroya=
+Hitodeman	{[scat n:prop]} =Seastar_man= "Hitode-man"
+Hitomi	{[scat n:prop]} =Hitomi=
+Hitoshi	{[scat n:prop]} =Hitoshi=
+Hokkaidoo	{[scat n:prop]} =Hokkaidoo=
+Hono	{[scat n:prop]} =Hono=
+Honochangoo	{[scat n:prop]} =Hono_FAM_train= "Hono-chan-goo"
+Honoka	{[scat n:prop]} =Honoka=
+Honoya	{[scat n:prop]} =Honoya=
+Honyuubin	{[scat n:prop]} =Feeding_bottle=
+Honyuuman	{[scat n:prop]} =Feeding_bottle_man=
+Hyon	{[scat n:prop]} =Hyon=
+Ichiroo	{[scat n:prop]} =Ichiroo=
+Ieroo	{[scat n:prop]} =Yellow=
+Igurisu	{[scat n:prop]} =England=
+igurisu	{[scat n:prop]} =England=
+Iida	{[scat n:prop]} =Iida=
+Iku	{[scat n:prop]} =Iku=
+Ikuta	{[scat n:prop]} =Iku=
+Indo	{[scat n:prop]} =India=
+Inuyasha	{[scat n:prop]} =Inuyasha_manga=
+Ion	{[scat n:prop]} =Eon=
+Ionmooru	{[scat n:prop]} =Eon_mall=
+Ishimoto	{[scat n:prop]} =Ishimoto=
+Isshi	{[scat n:prop]} =Isshi=
+itaria	{[scat n:prop]} =Italy=
+Itaria	{[scat n:prop]} =Italy=
+Izumi 	{[scat n:prop]} =Izumi=
+jajamaru	{[scat n:prop]} =Jajamaru= "Jajamaru"
+Jakku	{[scat n:prop]} =Jack=
+Jamu	{[scat n:prop]} =Jam=
+Jaretto	{[scat n:prop]} =Jarrett=
+Jeeaaru	{[scat n:prop]} =Japan_Railways=
+Jeemusu	{[scat n:prop]} =James=
+Jejamaru	{[scat n:prop]} =Jejamaru=
+Jerii	{[scat n:prop]} =Jerry=
+Jettokyooryuu	{[scat n:prop]} =Jet_dinosaur=
+Jettokikyooryuu	{[scat n:prop]} =Jet_plane_dinosaur=
+Jiichan	{[scat n:prop]} =Granpa_FAM=
+Jiji	{[scat n:prop]} =Granpa= "Jiiji"
+Jiiji	{[scat n:prop]} =Granpa=
+Jijii	{[scat n:prop]} =Granpa=
+jiijo	{[scat n:prop]} =Jiijo= "Jiijo"
+Jiijo	{[scat n:prop]} =Jiijo=
+Jimii	{[scat n:prop]} =Jimmy=
+Joan	{[scat n:prop]} =Joan=
+Jon	{[scat n:prop]} =John=
+Jun	{[scat n:prop]} =Jun=
+Junta	{[scat n:prop]} =Junta=
+Juri 	{[scat n:prop]} =Juri=
+Kachigawa	{[scat n:prop]} =Kachigawa=
+Kaede	{[scat n:prop]} =Kaede=
+Kakka	{[scat n:prop]} =Mum=
+Kako	{[scat n:prop]} =Kako=
+kakurenjaa	{[scat n:prop]} =Hidden_ranger= "Kakurenjaa"
+Kamenraidaa	{[scat n:prop]} =Mask_rider=
+kamenraidaa	{[scat n:prop]} =Mask_rider= "Kamenraidaa"
+kaminoge	{[scat n:prop]} =Kaminoge= "Kaminoge"
+Kaminoge	{[scat n:prop]} =Kaminoge=
+Kamiyachoo	{[scat n:prop]} =Kamiyachoo=
+Kashinoki	{[scat n:prop]} =Oak_tree=
+Kana	{[scat n:prop]} =Kana=
+Kamomejiroo	{[scat n:prop]} =Kamomejiroo=
+Kanako	{[scat n:prop]} =Kanako=
+Kanta	{[scat n:prop]} =Kanta=
+Kaori	{[scat n:prop]} =Kaori=
+kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
+Kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
+Karen 	{[scat n:prop]} =Karen=
+Kasumi	{[scat n:prop]} =Kasumi=
+Kata 	{[scat n:prop]} =Kata=
+Katoriinu 	{[scat n:prop]} =Catherine=
+Katsudomman	{[scat n:prop]} =Cutlet_rice_man= "Katsudon-man"
+Katsudonman	{[scat n:prop]} =Cutlet_rice_man= "Katsudon-man"
+Kayama	{[scat n:prop]} =Kayama=
+Kazu	{[scat n:prop]} =Kazu=
+Kazuki	{[scat n:prop]} =Kazuki=
+Kazuma	{[scat n:prop]} =Kazuma=
+Kazumi	{[scat n:prop]} =Kazumi=
+Kee	{[scat n:prop]} =Kee=
+Keekiman	{[scat n:prop]} =Cake_man= "Keeki-man"
+Keeta	{[scat n:prop]} =Keeta=
+Ken	{[scat n:prop]} =Ken=
+Kenichi	{[scat n:prop]} =Kenichi=
+Kenta	{[scat n:prop]} =Kenta=
+Kentaroo	{[scat n:prop]} =Kentaroo=
+Kento	{[scat n:prop]} =Kento=
+Kero	{[scat n:prop]} =Kero=
+Keroriniwa	{[scat n:prop]} =Kerorin_rock= "Kerorin_iwa"
+Keroppi	{[scat n:prop]} =Keroppi=
+keroppi	{[scat n:prop]} =Keroppi= "Keroppi"
+keroyon	{[scat n:prop]} =Keroyon=
+Kida	{[scat n:prop]} =Kida=
+Kii	{[scat n:prop]} =Kii=
+kiirenjaa	{[scat n:prop]} =Yellow_ranger= "Kiirenjaa"
+Kikii	{[scat n:prop]} =Kikii=
+Kiko	{[scat n:prop]} =Kiko=
+Kimura	{[scat n:prop]} =Kimura=
+Kin	{[scat n:prop]} =Kin=
+Kinkikizzu	{[scat n:prop]} =KinKiKids_pop_duo=
+Kinuta	{[scat n:prop]} =Kinuta=
+kinuta	{[scat n:prop]} =Kinuta= "Kinuta"
+Kiriko	{[scat n:prop]} =Kiriko=
+Kitii	{[scat n:prop]} =Kitty= "Kittii"
+Kittii	{[scat n:prop]} =Kitty=
+kittii	{[scat n:prop]} =Kitty= "Kittii"
+Kiyomi	{[scat n:prop]} =Kiyomi=
+kodomo_no_kuni	{[scat n:prop]} =Kids_kingdom=
+Kojima	{[scat n:prop]} =Kojima=
+Koko	{[scat n:prop]} =Koko=
+Kon	{[scat n:prop]} =Kon=
+Konan	{[scat n:prop]} =Konan=
+Konii	{[scat n:prop]} =Conny=
+Kono	{[scat n:prop]} =Kono=
+Konta	{[scat n:prop]} =Konta=
+Koobe	{[scat n:prop]} =Koobe=
+Koohee	{[scat n:prop]} =Koohee=
+Kooji	{[scat n:prop]} =Kooji=
+Koosuke	{[scat n:prop]} =Koosuke=
+Koota	{[scat n:prop]} =Koota=
+Koro	{[scat n:prop]} =Koro=
+Koto	{[scat n:prop]} =Koto=
+Kubo	{[scat n:prop]} =Kubo=
+Kuuga	{[scat n:prop]} =Kuuga=
+Kureyonshin	{[scat n:prop]} =Crayon_shin=
+Kuriki	{[scat n:prop]} =Kuriki=
+Kutchi	{[scat n:prop]} =Kutchi=
+Kyoohee	{[scat n:prop]} =Kyoohee=
+Kyuupii	{[scat n:prop]} =QP=
+kyuupii	{[scat n:prop]} =QP= "Kyuupii"
+kyuushuu	{[scat n:prop]} =Kyuushuu= "Kyuushuu"
+Maafii	{[scat n:prop]} =Murphy=
+Maasa	{[scat n:prop]} =Martha=
+Machamacha	{[scat n:prop]} =Machamacha=
+Maeno	{[scat n:prop]} =Maeno=
+Maguma	{[scat n:prop]} =Magma=
+Maho 	{[scat n:prop]} =Maho=
+Mai	{[scat n:prop]} =Mai=
+Maikeru	{[scat n:prop]} =Michael=
+Maiko	{[scat n:prop]} =Maiko=
+Maiku	{[scat n:prop]} =Mike=
+maimerodii	{[scat n:prop]} =My_melody= "Maimerodii"
+Maimerodii	{[scat n:prop]} =My_melody= 
+Maitii	{[scat n:prop]} =Mighty=
+Majamaja	{[scat n:prop]} =Majamaja=
+Maaketto	{[scat n:prop]} =Market_supermarket=
+makku	{[scat n:prop]} =Macdonalds_foodchain= "Makku"
+makkudonarudo	{[scat n:prop]} =Macdonalds_foodchain= "Makkudonarudo"
+Mako 	{[scat n:prop]} =Mako=
+Mama	{[scat n:prop]} =Mum=
+Mammosu	{[scat n:prop]} =Mammoth_supermarket=
+Manami	{[scat n:prop]} =Manami=
+Mariko	{[scat n:prop]} =Mariko=
+Marina 	{[scat n:prop]} =Marina=
+Mario	{[scat n:prop]} =Mario=
+Maru	{[scat n:prop]} =Maru=
+Maruko	{[scat n:prop]} =Maruko=
+Marumaru	{[scat n:prop]} =Marumaru=
+Marumi	{[scat n:prop]} =Marumi=
+Masako	{[scat n:prop]} =Masako=
+Masamichi 	{[scat n:prop]} =Masamichi=
+Masao	{[scat n:prop]} =Masao=
+masao	{[scat n:prop]} =Masao= "Masao"
+Masaru	{[scat n:prop]} =Masaru=
+Masaki	{[scat n:prop]} =Masaki=
+Maseki	{[scat n:prop]} =Maseki=
+Masuki 	{[scat n:prop]} =Masuki=
+Matsuo	{[scat n:prop]} =Matsuo=
+Mee	{[scat n:prop]} =Mee=
+Meetetsu	{[scat n:prop]} =Nagoya_railways=
+Megumi	{[scat n:prop]} =Megumi=
+Meeyaa	{[scat n:prop]} =Mayer=
+Merompanna	{[scat n:prop]} =Melon_bread= 
+merompanna	{[scat n:prop]} =Melon_bread= "Merompanna"
+meronpanna	{[scat n:prop]} =Melon_bread= "Merompanna"
+Meronpanna	{[scat n:prop]} =Melon_bread= "Merompanna"
+Metoro	{[scat n:prop]} =Metoro= 
+Mido	{[scat n:prop]} =Mido=
+Midori	{[scat n:prop]} =Midori=
+midorirenjaa	{[scat n:prop]} =Green_ranger= "Midorirenjaa"
+miffii	{[scat n:prop]} =Miffy= "Miffii"
+Miffii	{[scat n:prop]} =Miffy=
+Miho	{[scat n:prop]} =Miho=
+Mika	{[scat n:prop]} =Mika=
+Miki	{[scat n:prop]} =Miki=
+Mikkii	{[scat n:prop]} =Mickey=
+mikkii	{[scat n:prop]} =Mickey= "Mikkii"
+mikkiimausu	{[scat n:prop]} =Mickeymouse= "Mikkiimausu"
+mikkimausu	{[scat n:prop]} =Mickeymouse= "Mikkiimausu"
+Miko	{[scat n:prop]} =Miko=
+Miku	{[scat n:prop]} =Miku=
+Mimi	{[scat n:prop]} =Mimi=
+Mimirin	{[scat n:prop]} =Mimirin=
+Minii	{[scat n:prop]} =Minnie= "Minnii"
+Minnii	{[scat n:prop]} =Minnie=
+minnii	{[scat n:prop]} =Minnie= "Minnii"
+minniimausu	{[scat n:prop]} =Minniemouse= "Minniimausu"
+Mino	{[scat n:prop]} =Mino=
+Minoru	{[scat n:prop]} =Minoru=
+Mirai	{[scat n:prop]} =Mirai=
+Miruku	{[scat n:prop]} =Milk=
+Mitsui	{[scat n:prop]} =Mitsui=
+Mitsukoshi	{[scat n:prop]} =Mitsukoshi_dept_store=
+Misutaadoonatsu	{[scat n:prop]} =Misterdonuts_foodchain= "Misutaa_doonatsu"
+Mitsuru	{[scat n:prop]} =Mitsuru=
+Miya	{[scat n:prop]} =Miya=
+Miyata	{[scat n:prop]} =Miyata=
+Miyoko	{[scat n:prop]} =Miyoko=
+Mizu	{[scat n:prop]} =Mizu=
+Mizuho	{[scat n:prop]} =Mizuho=
+Mizuki	{[scat n:prop]} =Mizuki=
+Mizumi	{[scat n:prop]} =Mizumi=
+Mochitsukiman	{[scat n:prop]} =Rice_cake_man= "Mochitsuki-man"
+Moe	{[scat n:prop]} =Moe=
+Momo	{[scat n:prop]} =Momo=
+Momotaroo	{[scat n:prop]} =Momotaroo=
+Mononoke	{[scat n:prop]} =Mononoke=
+mononoke	{[scat n:prop]} =Mononoke= "Mononoke"
+monshirochoo	{[scat n:prop]} =Monshirochoo=
+Monta	{[scat n:prop]} =Monta=
+Moo	{[scat n:prop]} =Moo=
+mosubaagaa	{[scat n:prop]} =Mosburger_foodchain= "Mosubaagaa"
+Motoki	{[scat n:prop]} =Motoki=
+Motomachi	{[scat n:prop]} =Motomachi=
+Muchimura	{[scat n:prop]} =Muchimura=
+mukku	{[scat n:prop]} =Mukku= "Mukku"
+Murakawa	{[scat n:prop]} =Murakawa=
+Mushamushapoo	{[scat n:prop]} =Mushamushapoo=
+Muu	{[scat n:prop]} =Muu=
+Muumin	{[scat n:prop]} =Muumin=
+muumin	{[scat n:prop]} =Muumin= "Muumin"
+Nagano	{[scat n:prop]} =Nagano=
+Nagoya	{[scat n:prop]} =Nagoya=
+Nagoyaben	{[scat n:prop]} =Nagoya_accent= "Nagoya-ben"
+Nanami	{[scat n:prop]} =Nanami=
+Nagashima	{[scat n:prop]} =Nagashima=
+Naoto	{[scat n:prop]} =Naoto=
+Nara 	{[scat n:prop]} =Nara=
+Naraken 	{[scat n:prop]} =Nara_prefecture= "Nara-ken"
+Naru 	{[scat n:prop]} =Naru=
+Natchan	{[scat n:prop]} =Natchan=
+Natsuki	{[scat n:prop]} =Natsuki=
+Natsumi	{[scat n:prop]} =Natsumi=
+Nezumi	{[scat n:prop]} =Mouse=
+Neechan	{[scat n:prop]} =Older_Sister_FAM=
+Niida	{[scat n:prop]} =Niida=
+Nihon	{[scat n:prop]} =Japan=
+Nippon	{[scat n:prop]} =Japan_FML=
+nihongo	{[scat n:prop]} "Nihon-go" =Japanese_language=
+Nihongo	{[scat n:prop]} "Nihon-go" =Japanese_language=
+Nikoniko	{[scat n:prop]} =Nikoniko=
+Ninomiya	{[scat n:prop]} =Ninomiya=
+Nishimura	{[scat n:prop]} =Nishimura=
+Nishiyama	{[scat n:prop]} =Nishiyama=
+Nobita	{[scat n:prop]} =Nobita=
+Nobu	{[scat n:prop]} =Nobu=
+Nogo	{[scat n:prop]} =Nogo= 
+Noi	{[scat n:prop]} =Noi=
+nokochan	{[scat n:prop]} =Noko_FAM= "Noko-chan"
+Non	{[scat n:prop]} =Non= 
+Nonnon	{[scat n:prop]} =Nonnon= 
+nonnon	{[scat n:prop]} =Nonnon= "Nonnon"
+Nono	{[scat n:prop]} =Nono= 
+Nookazuki 	{[scat n:prop]} =Nookazuki=
+Nooto 	{[scat n:prop]} =Nooto=
+karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	%  
+nopperaboo	{[scat n:prop]} =ghost_flat_Nopperaboo=	% のっぺらぼう 
+rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	%  
+choochinobake	{[scat n:prop]} =ghost_lantern_Choochinnobake=	%  
+Nori	{[scat n:prop]} =Nori= 
+Noriko 	{[scat n:prop]} =Noriko=
+Oguchi 	{[scat n:prop]} =Oguchi=
+Mamaremon 	{[scat n:prop]} =detergent=
+Oho 	{[scat n:prop]} =Oho=
+Ojiichan 	{[scat n:prop]} =HON_Granpa_FAM=
+Obaachan 	{[scat n:prop]} =HON_Granma_FAM=
+Ojisan 	{[scat n:prop]} =Uncle_HON=
+Ojamajodoremi 	{[scat n:prop]} =Ojamajodoremi= "Ojamajo_doremi"
+Okaachan 	{[scat n:prop]} =HON_Mother_FAM=
+Okaasan 	{[scat n:prop]} =HON_Mother_HON=
+Kaachan 	{[scat n:prop]} =Mother_FAM=
+Ompu 	{[scat n:prop]} =Musical_note=
+Omuraisu	{[scat n:prop]} =Omelet_rice= 
+Omusubiman	{[scat n:prop]} =Riceball_man= "Omusubi-man"
+Omutsuman	{[scat n:prop]} =Diaper_man= "Omutsu-man"
+Oneesan 	{[scat n:prop]} =HON_Older_Sister_HON=
+Oneechan 	{[scat n:prop]} =HON_Older_Sister_FAM=
+onigiriman 	{[scat n:prop]} =Riceball_man= "Onigiri-man"
+On	{[scat n:prop]} =On=
+Ono	{[scat n:prop]} =Ono=
+Ooda	{[scat n:prop]} =Ooda=
+Oojiroo	{[scat n:prop]} =Oojiroo= 
+Ooki	{[scat n:prop]} =Ooki=
+Ookido	{[scat n:prop]} =Ookido=
+Oonakku	{[scat n:prop]} =Oonakku=
+Oorora	{[scat n:prop]} =Aurora= 
+Oosaka	{[scat n:prop]} =Osaka=
+Oosakaben	{[scat n:prop]} =Osaka_accent= "Oosakaben"
+Orenjimaaketto	{[scat n:prop]} "Orenji_maaketto" =O_supermarket=
+Osembeeman	{[scat n:prop]} =Rice_cookie_man= "Osembee-man"
+Osumookuma 	{[scat n:prop]} =HON_Sumo_bear= "Osumoo_kuma"
+Otoochan 	{[scat n:prop]} =HON_Father_FAM=
+Otoosan 	{[scat n:prop]} =HON_Father_HON=
+Toosan 	{[scat n:prop]} =Father_HON=
+Oozu 	{[scat n:prop]} =Ooozu=
+Ooozu 	{[scat n:prop]} =Ooozu=
+Toochan 	{[scat n:prop]} =Father_FAM=
+Toochin 	{[scat n:prop]} =Father_FAM=
+Oyayubi 	{[scat n:prop]} =Thumb=
+Paaman	{[scat n:prop]} =Perman=
+paashi	{[scat n:prop]} =Percy= "Paashii"
+Paashi	{[scat n:prop]} =Percy= "Paashii"
+Paashii	{[scat n:prop]} =Percy=
+paashii	{[scat n:prop]} =Percy= "Paashii"
+Pachipachiakachan	{[scat n:prop]} =Clasping_baby= "Pachipachi_akachan"
+Papa	{[scat n:prop]} =Dad=
+Pari	{[scat n:prop]} =Paris=
+Paru	{[scat n:prop]} =Pal_supermarket=
+patokaaman 	{[scat n:prop]} =Patrolcar_man= "Patokaa-man"
+pawaarenjaa	{[scat n:prop]} =Power_ranger= "Pawaarenjaa"
+Pegasasu	{[scat n:prop]} =Pegasus=
+PegasasuPegasasuboogan	{[scat n:prop]} =Pegasus_bowgun=
+Peko	{[scat n:prop]} =Peko=
+Pieeru	{[scat n:prop]} =Pierre=
+piichan	{[scat n:prop]} =Pii_FAM= "Pii-chan"
+Piichan	{[scat n:prop]} =Pii_FAM= "Pii-chan"
+Pikachuu	{[scat n:prop]} =Pikachuu=
+pikachuu	{[scat n:prop]} =Pikachuu=
+pikapikaman 	{[scat n:prop]} =Sparkling_man= "Pikapika-man"
+Pikkoro	{[scat n:prop]} =Pikkoro=
+pimpompan	{[scat n:prop]} =Dingdong_man= "Pimpom-pan"
+Pin	{[scat n:prop]} =Pin= 
+Pippi	{[scat n:prop]} =Pippi=
+pippi	{[scat n:prop]} =Pippi= "Pippi"
+Pochi	{[scat n:prop]} =Pochi=
+okemon	{[scat n:prop]} =Pokemon=
+pokemon	{[scat n:prop]} =Pokemon= "Pokemon"
+pokettomonsutaa	{[scat n:prop]} =Pokemon= 
+Pokemonrando	{[scat n:prop]} =Pokemon_land= "Pokemon-rando"
+Poko	{[scat n:prop]} =Poko=
+Pokoppon	{[scat n:prop]} =Pokoppon=
+Pon 	{[scat n:prop]} =Pon=
+Ponkichi	{[scat n:prop]} =Ponkichi=
+ponkikki	{[scat n:prop]} =Ponkikki= "Ponkikki"
+Poo	{[scat n:prop]} =Poo=
+Popai	{[scat n:prop]} =Popeye=
+Popo	{[scat n:prop]} =Popo=
+Poppo	{[scat n:prop]} =Poppo=
+Porori	{[scat n:prop]} =Porori=
+Puu	{[scat n:prop]} =Pooh=
+puu	{[scat n:prop]} =Pooh= "Puu"
+Purikyua	{[scat n:prop]} =Precure=
+Purinsesu_Purikyua	{[scat n:prop]} =Princess_Precure=
+Puuku	{[scat n:prop]} =Puuku=
+Pyonta	{[scat n:prop]} =Pyonta=
+Pyuu	{[scat n:prop]} =Pyuu=
+Raamemman	{[scat n:prop]} =ramen_noodle_man= "Raamen-man"
+Raamenman	{[scat n:prop]} =ramen_noodle_man= "Raamen-man"
+Raibuman	{[scat n:prop]} =Live_man=
+Raiburobo	{[scat n:prop]} =Live_robot=
+Raidaman	{[scat n:prop]} =Rider_man=
+Raijingu	{[scat n:prop]} =Riding=
+Raijingudoragon	{[scat n:prop]} =Riding_dragon=
+Raijingupegasasu	{[scat n:prop]} =Riding_pegasus=
+Raijingutaitan	{[scat n:prop]} =Riding_titan=
+Rainarobo	{[scat n:prop]} =Liner_robo=
+Ree	{[scat n:prop]} =Ree=
+Reeko	{[scat n:prop]} =Reeko=
+Reena	{[scat n:prop]} =Reena=
+Resshii	{[scat n:prop]} =Resshii=
+Ribon_no_kishi	{[scat n:prop]} =Princess_Knight=
+Rie	{[scat n:prop]} =Rie=
+Riechanoniichan	{[scat n:prop]} =Sister_Rie_FAM= "Rie-chan-oniichan"
+Rika	{[scat n:prop]} =Rika=
+Rikkii	{[scat n:prop]} =Rickey=
+Rimu	{[scat n:prop]} =Rimu=
+Rina	{[scat n:prop]} =Rina=
+Risa	{[scat n:prop]} =Risa=
+Risako 	{[scat n:prop]} =Risako=
+Risuko 	{[scat n:prop]} =Risuko=
+robokon	{[scat n:prop]} =Robokon= "Robokon"
+Rokomo	{[scat n:prop]} =Locomo= 
+Roorupanna	{[scat n:prop]} =Roll_pan=
+roorupanda	{[scat n:prop]} =Roll_pan=
+roorupanna	{[scat n:prop]} =Roll_pan=
+Rooson	{[scat n:prop]} =Lawson_supermarket=
+Rui	{[scat n:prop]} =Louis=
+Ruka	{[scat n:prop]} =Ruka=
+Ruru	{[scat n:prop]} =Lulu=
+Ryoo	{[scat n:prop]} =Ryoo=
+Ryooji	{[scat n:prop]} =Ryooji=
+Ryoota	{[scat n:prop]} =Ryoota=
+Ryooto 	{[scat n:prop]} =Ryooto=
+Ryuuma	{[scat n:prop]} =Ryuuma=
+Ryuunosuke	{[scat n:prop]} =Ryuunosuke=
+Sae	{[scat n:prop]} =Sae=
+Sai	{[scat n:prop]} =Sai=
+Saijoo	{[scat n:prop]} =Saijoo=
+Sakura	{[scat n:prop]} =Sakura=
+Sankaku	{[scat n:prop]} =Triangle=
+Sannomiya	{[scat n:prop]} =Sannomiya=
+Santa	{[scat n:prop]} =Santa=
+santa	{[scat n:prop]} =Santa= "Santa"
+Santa_kuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
+santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
+Santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
+Sasano	{[scat n:prop]} =Sasano=
+Sato	{[scat n:prop]} =Sato=
+Satoshi	{[scat n:prop]} =Satoshi=
+Sayaka	{[scat n:prop]} =Sayaki=
+Sayu	{[scat n:prop]} =Sayu=
+Sayumi	{[scat n:prop]} =Sayumi=
+Sazae	{[scat n:prop]} =Sazae=
+Seebu	{[scat n:prop]} =Seibu_dept_store=
+Sebunirebun	{[scat n:prop]} =Seven_eleven_supermarket=
+Seeji	{[scat n:prop]} =Seeji=
+seekyoo	{[scat n:prop]} =Coop_store= "Seekyoo"
+seeraamuun	{[scat n:prop]} =Sailor_moon= "Seeraamuun"
+Shadooarufaa	{[scat n:prop]} =Shadow_alpha= 
+shadooarufaa	{[scat n:prop]} =Shadow_alpha= "Shadooarufaa"
+Shadoobeeta	{[scat n:prop]} =Shadoo_beta= 
+Shigeo	{[scat n:prop]} =Shigeo=
+Shiiwaarudo	{[scat n:prop]} =Seaworld_aquarium=
+Shima	{[scat n:prop]} =Shima=
+Shimajiroo	{[scat n:prop]} =Shimajiroo=
+shimajiroo	{[scat n:prop]} =Shimajiroo= "Shimajiroo"
+Shimako	{[scat n:prop]} =Shimako=
+Shimano	{[scat n:prop]} =Shimano=
+Shimaro	{[scat n:prop]} =Shimaro=
+Shin	{[scat n:prop]} =Shim=
+Shinderera	{[scat n:prop]} =Cinderella=
+Shingo	{[scat n:prop]} =Shingo=
+Shino	{[scat n:prop]} =Shino=
+Shirayuki	{[scat n:prop]} =Snowwhite=
+Shizuka	{[scat n:prop]} =Shizuka=
+shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
+Shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
+Shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
+Shokupanman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
+Shoo	{[scat n:prop]} =Shoo=
+Shooma	{[scat n:prop]} =Shooma=
+Shoota	{[scat n:prop]} =Shoota=
+Shun	{[scat n:prop]} =Shun=
+Shunsuke	{[scat n:prop]} =Shunsuke=
+Shunto	{[scat n:prop]} =Shunto=
+Shuu	{[scat n:prop]} =Shuu=
+Shuukuriimu	{[scat n:prop]} =Chou_cream=
+Soka	{[scat n:prop]} =Soka=
+Sorao	{[scat n:prop]} =Sorao=
+sorao	{[scat n:prop]} =Sorao= "Sorao"
+Sorari	{[scat n:prop]} =Sorari=
+sukaikeeburu	{[scat n:prop]} =Skycable_cablecar=
+sukaitsurii	{[scat n:prop]} =Skytree_building=
+Sumappu	{[scat n:prop]} =Smap_pop_band=
+Sumida	{[scat n:prop]} =Sumida=
+Sumire	{[scat n:prop]} =Sumire=
+Suneo	{[scat n:prop]} =Suneo=
+suneo	{[scat n:prop]} =Suneo= "Suneo"
+Sunuupii	{[scat n:prop]} =Snoopy=
+sunuupii	{[scat n:prop]} =Snoopy=
+supekutoruman	{[scat n:prop]} =Spector_man= "Supekutoru-man"
+Supuraito	{[scat n:prop]} =Sprite=
+Suriiwai	{[scat n:prop]} =YYY_toy_shop=
+Suzuka	{[scat n:prop]} =Suzuka=
+sebunirebun	{[scat n:prop]} =Seven_eleven_conv_store=
+Sebunirebun	{[scat n:prop]} =Seven_eleven_conv_store=
+Suu	{[scat n:prop]} =Sue=
+Suutaroo	{[scat n:prop]} =Suutaroo=
+Suuze	{[scat n:prop]} =Suse=
+Suzuya	{[scat n:prop]} =S_supermarket=
+Taa	{[scat n:prop]} =Taa=
+Taazan	{[scat n:prop]} =Tarzan=
+Tae	{[scat n:prop]} =Tae=
+Tai	{[scat n:prop]} =Tai=
+taimuretto	{[scat n:prop]} =Timelet= "Taimuretto"
+Taimuarufa	{[scat n:prop]} =Time_alpha=
+Taimuguree	{[scat n:prop]} =Time_grey=
+Taimuguriin	{[scat n:prop]} =Time_green=
+Taimuieroo	{[scat n:prop]} =Time_yellow=
+Taimujetto	{[scat n:prop]} =Time_jet=
+Taimurobo	{[scat n:prop]} =Time_robot=
+Taimuroboarufa	{[scat n:prop]} =Time_robot_alpha=
+Taimuroboshadooarufa	{[scat n:prop]} =Time_robot_shadow_alpha=
+Taimuroboshadoobeeta	{[scat n:prop]} =Time_robot_shadow_beta=
+Taimushadoo	{[scat n:prop]} =Time_shadow=
+Taishoo	{[scat n:prop]} =Taishoo=
+Taishoochin	{[scat n:prop]} =Taishoo_FAM=
+Taishoogoo	{[scat n:prop]} =Taishoo_train= "Taishoo-goo"
+Taisooman	{[scat n:prop]} =Exercise_man= "Taisoo-man"
+Taisoouuman	{[scat n:prop]} =Exercise_woman= "Taisoo-uuman"
+Taitan	{[scat n:prop]} =Titan=
+Taitansoodo	{[scat n:prop]} =Titan_sword=
+Taka	{[scat n:prop]} =Taka=
+Takako	{[scat n:prop]} =Takako=
+Takuma	{[scat n:prop]} =Takuma=
+Takumi	{[scat n:prop]} =Takumi=
+Tama	{[scat n:prop]} =Tama=
+Tamago	{[scat n:prop]} =Egg=
+Tanao	{[scat n:prop]} =Tanao=
+Tappa	{[scat n:prop]} =Tappa=
+Tara	{[scat n:prop]} =Tara=
+Taroo	{[scat n:prop]} =Taroo=
+Teeko	{[scat n:prop]} =Teeko=
+Teruki	{[scat n:prop]} =Teruki=
+Tekkanomaki	{[scat n:prop]} =Tuna_roll= "Tekka_no_maki"
+Temmaya	{[scat n:prop]} =Temmaya_dept_store=
+Tennoo	{[scat n:prop]} =Tenno=
+Tennooheeka	{[scat n:prop]} =His_majiesty_the_Tenno= "Tennoo_heeka"
+Tenjin	{[scat n:prop]} =heavenly_gods=
+Tenrishi 	{[scat n:prop]} =Tenri_city= "Tenri-shi"
+Tenrioonomikoto	{[scat n:prop]} =Tenri_O_no_Mikoto=
+Tetsuaaru	{[scat n:prop]} =Iron_R=
+tetsujin_nijuuhachigoo	{[scat n:prop]} =iron_man_number28= "Tetsujin_nijuuhachigoo"
+tetsujinnijuuhachigoo	{[scat n:prop]} =iron_man_number28= "Tetsujin_nijuuhachigoo"
+toizarasukizzu 	{[scat n:prop]} =Toyzrus_kids= "Toizarasu_kizzu"
+Tokio	{[scat n:prop]} =Tokio_music_band=
+Tomi 	{[scat n:prop]} =Tomi=
+Tomii	{[scat n:prop]} =Tommy=
+Tomito 	{[scat n:prop]} =Tomito=
+Tomo 	{[scat n:prop]} =Tomo=
+Tomu 	{[scat n:prop]} =Tom=
+Toobee	{[scat n:prop]} =Toobee=
+Tookyoo	{[scat n:prop]} =Tokyo=
+Toomasu	{[scat n:prop]} =Thomas= 
+toomasu	{[scat n:prop]} =Thomas= "Toomasu"
+Tootoo	{[scat n:prop]} =Hamamoto= 
+Torejaa	{[scat n:prop]} =Treasure=
+Torawaka	{[scat n:prop]} =Torawaka=
+torepan 	{[scat n:prop]} =Torepan= "Torepan"
+Torippii 	{[scat n:prop]} =Trippiece=
+Totchan	{[scat n:prop]} =Tot_FAM=
+Toto	{[scat n:prop]} =Toto=
+Totto	{[scat n:prop]} =Dad=
+Tottoro	{[scat n:prop]} =Totoro=
+Totoro	{[scat n:prop]} =Totoro=
+tottoro	{[scat n:prop]} =Totoro=
+totoro	{[scat n:prop]} =Totoro=
+Tsuma	{[scat n:prop]} =Tsuma=
+Tsuchiyama	{[scat n:prop]} =Tsuchiyama=
+Uchimura	{[scat n:prop]} =Uchimura=
+Uemuromo	{[scat n:prop]} =Uemuromo=
+Uno	{[scat n:prop]} =Uno=
+Uonuma	{[scat n:prop]} =Uonuma=
+Urashimataroo	{[scat n:prop]} =Urashimataroo=
+urotoraman	{[scat n:prop]} =Ultra_man= "Urutoraman"
+urutoraman	{[scat n:prop]} =Ultra_man= "Urutoraman"
+Usa	{[scat n:prop]} =Bunny=
+usako	{[scat n:prop]} =Bunny= "Usako"
+Usako	{[scat n:prop]} =Bunny=
+Uu	{[scat n:prop]} =Uu=
+Wakuwaku	{[scat n:prop]} =Wakuwaku=
+Wan	{[scat n:prop]} =Wan=
+wanwanwandaarando	{[scat n:prop]} =Woof_Wonderland_TV=
+Yadamon	{[scat n:prop]} =Hate_it=
+Yakisobapanman	{[scat n:prop]} =Buckwheat_noodle_man= "Yakisobapan-man"
+Yakuruto	{[scat n:prop]} =Yakuruto_yoghurt=
+yakuruto	{[scat n:prop]} =Yakuruto_yoghurt= "Yakuruto"
+Yamato	{[scat n:prop]} =Yamato=
+Yan	{[scat n:prop]} =Yan=
+Yasuko	{[scat n:prop]} =Yasuko=
+Yattaman	{[scat n:prop]} =Success_man= "Yatta-man"
+Yokohamakoo	{[scat n:prop]} =Yokohama_harbor= "Yokohama-koo"
+Yokogawa	{[scat n:prop]} =Yokogawa= 
+Yooko	{[scat n:prop]} =Yooko=
+Yoshimi	{[scat n:prop]} =Yoshimi=
+Yosshin	{[scat n:prop]} =Yosshin=
+Yukari	{[scat n:prop]} =Yukari=
+Yuki	{[scat n:prop]} =Yuki=
+Yuri	{[scat n:prop]} =Yuri=
+Yuu	{[scat n:prop]} =Yuu=
+Yuuki	{[scat n:prop]} =Yuuki=
+Yuusuke	{[scat n:prop]} =Yuusuke=
+Yuuta	{[scat n:prop]} =Yuuta=
+Mokusee	{[scat n:prop]} =Jupiter=
+Tennoosee	{[scat n:prop]} =Uranus=
+Dosee	{[scat n:prop]} =Saturn=
+Meeoosee	{[scat n:prop]} =Pluto=
+Kaioosee	{[scat n:prop]} =Neptun=
+Suisee	{[scat n:prop]} =Mercury=
+Kasee	{[scat n:prop]} =Mars=
+Kinsee	{[scat n:prop]} =Venus=

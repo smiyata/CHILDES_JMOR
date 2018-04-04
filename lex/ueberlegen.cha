@@ -1,0 +1,44 @@
+@UTF8
+
+	JMORの原則
+1. =wordは翻訳の目的ではなく,単語のcoreを意味を表す.語源を意識しながら,現在の使用法で決める.
+2.同音異義語はわけるが,多義語は品詞が変わらない限りわけない
+3.他の単語がどう分類されているかということと一貫性をもたせる.
+4. disambiguationをはっきり定義し,なるべく自動的にできるようにする.
+5. 話し言葉(会話に出る単語)に限る.そのなかでさらに親子会話で出現するもの優先的に扱う.
+6. 特殊なデータ(方言,L2,医療)は支障が無ければ含む.しかし方言等としてマークはしない.
+  必要に応じて別レキシコン(例 aphasiaLex.cut)にして,普段含まないことにする
+7. 同音異義語は8個以下にする(MORの技術的な処理制限)
+
+	ooawate
+
+	gakusee nagara (conj?) vs  tabenagara (CONT?)
+	compound?
+konagona
+mitsubachi
+
+tsuriageru
+miataru
+furiotosu
+furikaeru
+haidasu
+mimamoru
+	kakeyoru
+	neshizumaru
+	yorikakaru
+	toorikakaru
+	shigamitsuku
+	sashidasu
+	oikabusaru
+	oiharau
+	yojinoboru
+	dekakeru?
+	shikakeru
+	noridasu
+	hoetateru
+	maiagaru
+	kaketsukeru
+
+
+
+

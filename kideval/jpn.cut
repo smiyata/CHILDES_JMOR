@@ -1,0 +1,54 @@
+@UTF8
+dss +ddssrulesjp.cut +lj +e
+% Lines preceded by % are comments
+% Lines preceded by # are not displayed in the output
+
+1	"Total Utts"
+2	"MLU Utts"
+3	"MLU Words"
+4	"MLU Morphemes"
+5	"MLU100 Utts"
+6	"MLU100 Words"
+7	"MLU100 Morphemes"
+8	"types"
+9	"tokens"
+10	"TTR"
+11	"Clause/Utt"
+12	"Dur Words"
+13	"Dur Utts"
+14	"Dur Time (secs)"
+15	"Words/Time"
+16	"Utts/Time"
+17	"Word Errors"
+18	"Utt Errors"
+19	"retracing[//]"
+20	"repetition[/]"
+21	"DSS"
+22	"VOCD D_optimum_average"
+
+% Each search string starts with '+' for including or '-' for excluding
+% Each label for the columns in the output is surrounded by either " or '
+% Rules can be specified in long form "+|n +|n:*" or short form "+|n,|n:*"
+% These markers specify the nature of the following string
+% # prefix marker
+% | part-of-speech marker
+% r stem of the word marker
+% - suffix marker
+% & nonconcatenated morpheme marker
+% = English translation for the stem marker
+% @ replacement word preceding [: ...] code marker
+% * error code inside [* ...] code marker
+% o all other elements not specified by user
+% followed by - or + and/or the following
+%	*		find any match
+%	%		erase any match
+%	string		find "string"
+% , the comma separates alternative elements 
+% Exception:
+%   ~ postclitic OR $ preclitic
+% followed by
+%     Morpho-elements 	find words with preclitic OR postclitic Morpho elements
+%     % 		if preclitic OR postclitic is present, then erase it
+
+
+

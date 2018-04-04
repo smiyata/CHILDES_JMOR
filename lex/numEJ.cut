@@ -1,0 +1,275 @@
+@UTF8
+
+%%% JAPANESE BASED 					【日本語ベース】
+
+hito	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =one=
+futa	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =two=
+futsu	{[scat num] [allo numJpnKA]} =two=
+mi	{[scat num] [allo numJpn]} =three=
+mit	{[scat num] [allo OR numJpnTSU numJpnTSUKI]} =three= "mi"
+mik	{[scat num] [allo numJpnKA]} =three= "mi"
+yo	{[scat num] [allo numBBd]} =four= "yon"
+yot	{[scat num] [allo numJpnTSU]} =four= "yo"
+yok	{[scat num] [allo numJpnKA]} =four= "yo"
+itsu	{[scat num] [allo OR numJpnTSU numJpnKA]} =five=
+mu	{[scat num] [allo numJpnTSU]} =six= 
+mut	{[scat num] [allo numJpnTSU]} =six= "mu"
+mui	{[scat num] [allo numJpnKA]} =six= "mu"
+nano	{[scat num] [allo numJpnKA]} =seven=
+yat	{[scat num] [allo numJpnTSU]} =eight= "ya"
+yoo	{[scat num] [allo numJpnKA]} =eight=
+kokono	{[scat num] [allo OR numJpnTSU numJpnKA]} =nine=
+too	{[scat num] [allo numJpnKA]} =ten= 
+hatsu	{[scat num] [allo numJpnKA]} =twenty= 
+hatachi	{[scat num]} =twenty_years_old=
+misoji	{[scat num]} =thirty_years_old=
+
+ohitori	{[scat num]} =HON_one_person= "o#hito-ri"	% お一人
+ofutari	{[scat num]} =HON_two_persons= "o#futa-ri"	% お二人
+ohitotsu	{[scat num]} =HON_one_piece= "o#hito-tsu"	% お一つ
+
+ひと	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =one= "hito"
+ふた	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =two= "futa"
+ふつ	{[scat num] [allo numJpnKA]} =two=  "futa"
+み	{[scat num] [allo numJpn]} =three= "mi"
+みっ	{[scat num] [allo OR numJpnTSU numJpnTSUKI numJpnKA]} =three= "mi"
+よ	{[scat num] [allo numBBd]} =four= "yon"
+よっ	{[scat num] [allo numJpnTSU numJpnKA]} =four= "yo"
+いつ	{[scat num] [allo OR numJpnTSU numJpnKA]} =five= "itsu"
+む	{[scat num] [allo numJpnTSU]} =six=  "mu"
+むっ	{[scat num] [allo numJpnTSU]} =six= "mu"
+むい	{[scat num] [allo numJpnKA]} =six= "mu"
+なの	{[scat num] [allo numJpnKA]} =seven= "nano"
+やっ	{[scat num] [allo numJpnTSU]} =eight= "ya"
+よっ	{[scat num] [allo numJpnKA]} =eight= "yo"
+ここの	{[scat num] [allo OR numJpnTSU numJpnKA]} =nine= "kokono"
+とう	{[scat num] [allo numJpnKA]} =ten=  "too"
+はつ	{[scat num] [allo numJpnKA]} =twenty= "hatsu" 
+はたち	{[scat num]} =twenty_years_old= "hatachi"
+みそじ	{[scat num]} =thirty_years_old= "misoji"
+
+おひとり	{[scat num]} =HON_one_person= "o#hito-ri"	% お一人
+おふたり	{[scat num]} =HON_two_persons= "o#futa-ri"	% お二人
+
+
+%%% CHINESE BASED 					【漢語ベース】
+
+%								【1】
+ichi	{[scat num] [allo numBFa] [numcform ichi]} =one=
+ik	{[scat num] [allo numBBk] [numcform ik]} =one=	"ichi"
+ip	{[scat num] [allo numBBp] [numcform ip]} =one=	"ichi"
+it	{[scat num] [allo numBBt] [numcform it]} =one=	"ichi"
+is	{[scat num] [allo numBBs] [numcform is]} =one=	"ichi"
+いち	{[scat num] [allo numBFa] [numcform ichi]} =one= "ichi"
+一	{[scat num] [allo numBFa] [numcform ichi]} =one= "ichi"
+いっ	{[scat num] [allo numBBk] [numcform ik]} =one=	"ichi"
+いっ	{[scat num] [allo numBBp] [numcform ip]} =one=	"ichi"
+いっ	{[scat num] [allo numBBt] [numcform it]} =one=	"ichi"
+いっ	{[scat num] [allo numBBs] [numcform is]} =one=	"ichi"
+%								【2】 
+ni	{[scat num] [allo numBFa] [numcform ni] [nunpform o] [mnum -]} =two=
+ni=two	{[scat num] [allo numBFa] [numcform ni] [nunpform o] [mnum -]} "ni" =two=
+に	{[scat num] [allo numBFa] [numcform ni] [nunpform o] [mnum -]} "ni" =two=
+二	{[scat num] [allo numBFa] [numcform ni] [nunpform o] [mnum -]} "ni" =two=
+%								【3】 
+san	{[scat num] [allo numBFa] [numcform san]} =three=
+sam	{[scat num] [allo numBFb] [numcform san]} =three= "san"
+nisan	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+nisam	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+sankun	{[scat num]} "san-kun" =three_MASC_FAM=
+さん	{[scat num] [allo numBFa] [numcform san]} =three= "san"
+三	{[scat num] [allo numBFa] [numcform san]} =three= "san"
+さん	{[scat num] [allo numBFb] [numcform san]} =three= "san"
+にさん	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+にさん	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+二三	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+さんくん	{[scat num]} "san-kun" =three_MASC_FAM=
+さん君	{[scat num]} "san-kun" =three_MASC_FAM=
+三君	{[scat num]} "san-kun" =three_MASC_FAM=
+
+%	
+suu	{[scat num] [allo numBFa] [numcform suu] [nunpform o] [mnum -]} =several=
+数	{[scat num] [allo numBFa] [numcform suu] [nunpform o] [mnum -]} =several= "suu"
+すう	{[scat num] [allo numBFa] [numcform suu] [nunpform o] [mnum -]} =several= "suu"
+
+%							【4】 
+shi	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
+shi=four	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
+yo	{[scat num] [allo numBBd]} =four= "yon"
+yon	{[scat num] [allo numBFa] [numcform yon]} =four=
+yom	{[scat num] [allo numBFb]} =four= "yon"
+
+し	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
+四	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
+四	{[scat num] [allo numBBd]} =four= "yon"
+よ	{[scat num] [allo numBBd]} =four= "yon"
+よん	{[scat num] [allo numBFa] [numcform yon]} =four= "yon"
+よん	{[scat num] [allo numBFb]} =four= "yon"
+%								【5】 
+go	{[scat num] [allo numBFa]} =five=
+ご	{[scat num] [allo numBFa]} =five= "go"
+五	{[scat num] [allo numBFa]} =five= "go"
+%								【6】 
+roku	{[scat num] [allo numBFa] [numcform roku] [mnum -]} =six=
+rok	{[scat num] [allo numBBk] [nbform kakkee]} =six=	"roku"
+rop	{[scat num] [allo numBBp] [numcform rop]} =six=	"roku"
+ろく	{[scat num] [allo numBFa] [numcform roku] [mnum -]} =six= "roku"
+六	{[scat num] [allo numBFa] [numcform roku] [mnum -]} =six= "roku"
+ろっ	{[scat num] [allo numBBk] [nbform kakkee]} =six=	"roku"
+ろっ	{[scat num] [allo numBBp] [numcform rop]} =six=	"roku"
+%								【7】 
+nana	{[scat num] [allo numBFa] [numcform nana]} =seven=
+shichi	{[scat num] [allo numFc] [numcform shichi] [mnum -]} =seven=
+hichi	{[scat num] [allo numFc] [numform shichi]} =seven= "shichi"
+なな	{[scat num] [allo numBFa] [numcform nana]} =seven= "nana"
+七	{[scat num] [allo numBFa] [numcform nana]} =seven= "nana"
+しち	{[scat num] [allo numFc] [numcform shichi] [mnum -]} =seven= "shichi"
+七	{[scat num] [allo numFc] [numcform shichi] [mnum -]} =seven= "shichi"
+ひち	{[scat num] [allo numFc] [numform shichi]} =seven= "shichi"
+%								【8】 
+hachi	{[scat num] [allo numBFa] [numcform hachi]} =eight=
+hak	{[scat num] [allo numBBk]} =eight= "hachi"
+hap	{[scat num] [allo numBBp] [numcform hap]} =eight= "hachi"
+has	{[scat num] [allo numBBs] [numcform has]} =eight= "hachi"
+hat	{[scat num] [allo numBBt] [numcform hat]} =eight= "hachi"
+はち	{[scat num] [allo numBFa] [numcform hachi]} =eight= "hachi"
+八	{[scat num] [allo numBFa] [numcform hachi]} =eight= "hachi"
+はっ	{[scat num] [allo numBBk]} =eight= "hachi"
+はっ	{[scat num] [allo numBBp] [numcform hap]} =eight= "hachi"
+はっ	{[scat num] [allo numBBs] [numcform has]} =eight= "hachi"
+はっ	{[scat num] [allo numBBt] [numcform hat]} =eight= "hachi"
+%								【9】 
+ku	{[scat num] [allo numFc] [numform ku]} =nine=
+kuu	{[scat num] [allo numFc] [numform kuu]} =nine= "ku"
+kyuu	{[scat num] [allo numBFa] [numcform kyuu]} =nine=
+く	{[scat num] [allo numFc] [numform ku]} =nine= "ku"
+くう	{[scat num] [allo numFc] [numform kuu]} =nine= "ku"
+きゅう	{[scat num] [allo numBFa] [numcform kyuu]} =nine= "kyuu"
+九	{[scat num] [allo numBFa] [numcform kyuu]} =nine= "kyuu"
+%								【10】 
+juu	{[scat num] [allo numCFa] [numcform OR ni san yon go roku nana shichi hachi kyuu nan]} =ten=
+juk	{[scat num] [allo numBBk] [numcform OR ni san yon go roku nana hachi kyuu nan]} =ten=	"juu"
+jup	{[scat num] [allo numBBp] [numcform OR ni san yon go roku nana hachi kyuu nan]} =ten=	"juu"
+jip	{[scat num] [allo numBBp] [numcform OR ni san yon go roku nana hachi kyuu nan]} =ten=	"juu"
+jus	{[scat num] [allo numBBs] [numcform OR ni san yon go roku nana hachi kyuu nan]} =ten=	"juu"
+jut	{[scat num] [allo numBBt] [numcform OR ni san yon go roku nana hachi kyuu nan]} =ten=	"juu"
+%								【100】 
+hyaku	{[scat num] [allo numCFa] [numcform OR ni yon go nana kyuu]} =hundred=
+hyak	{[scat num] [allo numBBk] [numcform OR ni yon go nana kyuu]} =hundred= "hyaku"
+%								【1,000】 
+sen	{[scat num] [allo numCFn] [numcform OR is ni yon go roku nana has kyuu]} =thousand=
+sem	{[scat num] [allo numBFb] [numcform sen]} =thousand= "sen"
+%								【10,000】 
+man	{[scat num] [allo numCBn1] [numsfx -] [numcform OR ichi ni san yon go roku nana hachi kyuu nan]} =tenthousand=
+%								【100,000,000】 
+oku	{[scat num] [allo numCBa] [unit B] [numsfx -] [numcform OR ichi ni san yon go roku nana hachi kyuu nan]} =hundredmillion=
+%								【100,000,000,000】
+choo	{[scat num] [allo numCBa] [numsfx -] [numcform OR it ni san yon go roku nana hat kyuu nan]} =hundredbillion=
+jutchoo	{[scat num] [allo numCFa] [numf -] [numcform OR ni san yon go roku nana hachi kyuu nan]} =trillion= "juu-choo"
+hyakuchoo	{[scat num] [allo numCFa] [numf -] [numcform OR ni yon go roku nana kyuu]} =tentrillion= "hyaku-choo"
+byakuchoo	{[scat num] [allo numCBb] [numf -] [numcform OR san nan]} =tentrillion= "hyaku-choo"
+pyakuchoo	{[scat num] [allo numCBb] [numf -] [numcform OR rop hap]} =tentrillion= "hyaku-choo"
+senchoo	{[scat num] [allo numCBa] [numf -] [numcform OR is ni yon go roku nana has kyuu]} =hundredtrillion= "sen-choo"
+zenchoo	{[scat num] [allo numCFa] [numf -] [numcform OR san nan]} =hundredtrillion= "sen-choo"
+
+
+nijuu	{[scat num]} =double= "ni-juu"	
+ichinenjuu	{[scat num]} =throughout_the_year= "ichi-nen-juu"			
+ichinichijuu	{[scat num]} =throughout_the_day= "ichi-nichi-juu"			
+ichigoo	{[scat num]} =carriage_one= "ichi-goo"			
+ippin	{[scat num]} =one_item= "ichi-hin"			
+isshu	{[scat num]} =one_kind= "ichi-shu"			
+isshuukamburi	{[scat num]} =one_week_ago= "ichi-shuukan-furi"			
+ichibansan	{[scat num]} =first= "ichi-ban-san"			
+onikai	{[scat num]} "o#ni-kai" =two_floor=
+
+ichigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "ichi-gatsu" =january=
+ichigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "ichi-gatsu-chuu" =january_mid=
+ichigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "ichi-gatsu-goo" =january_issue=
+nigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "ni-gatsu" =february=
+nigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "ni-gatsu-chuu" =february_mid=
+nigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "ni-gatsu-goo" =february_issue=
+sangatsu	{[scat num] [allo OR numCFa numBFa numFc]} "san-gatsu" =march=
+sangatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "san-gatsu-chuu" =march_mid=
+sangatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "san-gatsu-goo" =march_issue=
+shigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "shi-gatsu" =april=
+shigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "shi-gatsu-chuu" =april_mid=
+shigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "shi-gatsu-goo" =april_issue=
+gogatsu	{[scat num] [allo OR numCFa numBFa numFc]} "go-gatsu" =may=
+gogatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "go-gatsu-chuu" =may_mid=
+gogatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "go-gatsu-goo" =may_issue=
+rokugatsu	{[scat num] [allo OR numCFa numBFa numFc]} "roku-gatsu" =june=
+rokugatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "roku-gatsu-chuu" =june_mid=
+rokugatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "roku-gatsu-goo" =june_issue=
+shichigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "shichi-gatsu" =july=
+shichigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "shichi-gatsu-chuu" =july_mid=
+shichigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "shichi-gatsu-goo" =july_issue=
+hachigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "hachi-gatsu" =august=
+hachigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "hachi-gatsu-chuu" =august_mid=
+hachigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "hachi-gatsu-goo" =august_issue=
+kugatsu	{[scat num] [allo OR numCFa numBFa numFc]} "ku-gatsu" =september=
+kugatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "ku-gatsu-chuu" =september_mid=
+kugatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "ku-gatsu-goo" =september_issue=
+juugatsu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-gatsu" =october=
+juugatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-gatsu-chuu" =october_mid=
+juugatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "juu-gatsu-goo" =october_issue=
+juuichigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-gatsu" =november=
+juuichigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ichi-gatsu-chuu" =november_mid=
+juuichigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ichi-gatsu-goo" =november_issue=
+juunigatsu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ni-gatsu" =december=
+juunigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ni-gatsu-chuu" =december_mid=
+juunigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ni-gatsu-goo" =december_issue=
+juunanagatsu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-nana-gatsu" =seventeenth_month=
+nangatsu	{[scat n:deic:wh] [allo OR numCFa numBFa numFc]} "nan-gatsu" =which_month=
+
+daiichi	{[scat num]} "dai#ichi" =first=
+daini	{[scat num]} "dai#ni" =second=
+daisan	{[scat num]} "dai#san" =third=
+
+%%% ENGLISH BASED
+%							【英語ベース】
+zero	{[scat num] [allo numA]} =zero=
+one	{[scat num] [allo numA]} =one=
+wan	{[scat num] [allo numA]} =one= "wan"
+two	{[scat num] [allo numA]} =two=
+tuu	{[scat num] [allo numA]} =two= "tsuu"
+tsuu	{[scat num] [allo numA]} =two= "tsuu"
+three	{[scat num] [allo numA]} =three=
+surii	{[scat num] [allo numA]} =three= "surii"
+four	{[scat num] [allo numA]} =four=
+foo	{[scat num] [allo numA]} =four= "foa"
+foa	{[scat num] [allo numA]} =four= "foa"
+five	{[scat num] [allo numA]} =five=
+faibu	{[scat num] [allo numA]} =five= "faibu"
+six	{[scat num] [allo numA]} =six=
+shikkusu	{[scat num] [allo numA]} =six= "shikkusu"
+seven	{[scat num] [allo numA]} =seven=
+sebun	{[scat num] [allo numA]} =seven= "sebun"
+eight	{[scat num] [allo numA]} =eight=
+eito	{[scat num] [allo numA]} =eight= "eito"
+nine	{[scat num] [allo numA]} =nine=
+nain	{[scat num] [allo numA]} =nine= "nain"
+ten	{[scat num] [allo numA ]} =ten=
+
+@sl@sl	{[scat num] [allo numA]} =zero= "zero"
+one@sl	{[scat num] [allo numA]} =one= "one"
+wan@sl	{[scat num] [allo numA]} =one= "wan"
+two@sl	{[scat num] [allo numA]} =two= "two"
+tuu@sl	{[scat num] [allo numA]} =two= "tsuu"
+tsuu@sl	{[scat num] [allo numA]} =two= "tsuu"
+three@sl	{[scat num] [allo numA]} =three= "three"
+surii@sl	{[scat num] [allo numA]} =three= "surii"
+four@sl	{[scat num] [allo numA]} =four= "four"
+foo@sl	{[scat num] [allo numA]} =four= "foa"
+foa@sl	{[scat num] [allo numA]} =four= "foa"
+five@sl	{[scat num] [allo numA]} =five= "five"
+faibu@sl	{[scat num] [allo numA]} =five= "faibu"
+six@sl	{[scat num] [allo numA]} =six= "six"
+shikkusu@sl	{[scat num] [allo numA]} =six= "shikkusu"
+seven@sl	{[scat num] [allo numA]} =seven= "seven"
+sebun@sl	{[scat num] [allo numA]} =seven= "sebun"
+eight@sl	{[scat num] [allo numA]} =eight= "eight"
+eito@sl	{[scat num] [allo numA]} =eight= "eito"
+nine@sl	{[scat num] [allo numA]} =nine= "nine"
+nain@sl	{[scat num] [allo numA]} =nine= "nain=nine"
+ten@sl	{[scat num] [allo numA ]} =ten= "ten"

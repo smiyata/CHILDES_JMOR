@@ -1,0 +1,341 @@
+@UTF8
+%%%%%%%%%%%%%%%%%%%%%
+%  verbal adjectives	
+%%%%%%%%%%%%%%%%%%%%%
+
+%%*方言*
+	sukunoo	{[scat adj][tense inf]} =be_few= "sukuna-ADV:uu" % すくない  少ない 
+	otonashuu	{[scat adj][tense inf]} =obedient= "otonashi-ADV:uu" % おとなしい  大人しい 
+	yoroshuu	{[scat adj][tense inf]} =very_well= "yoroshi-ADV:uu" % よろしい  宜しい   
+	monosugoo	{[scat adj][tense inf]} =terrible= "monosugo-ADV:uu" % ものすごい   
+	nagoo	{[scat adj][tense inf]} =long= "naga-ADV:uu" % 長い   
+	ooki	{[scat adj][tense inf]} =big= "ooki&ADV:i" % 大きい   
+kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV:uu"
+%%%%%%%%%
+	abuna	{[scat adj]} =dangerous=	% 危ない
+	abunakkashi	{[scat adj]} =dangerous=	% 危なっかしい 
+	ahorashi	{[scat adj]} =stupid=	% あほらしい  阿呆らしい 
+	ajikena	{[scat adj]} =dull=	% 味気ない 
+	aka	{[scat adj]} =red=	% 赤い 
+	akaru	{[scat adj]} =well_lighted=	% 明るい 
+	akippo	{[scat adj]} =easily_fed_up=	% 飽きっぽい 
+	akkena	{[scat adj]} =not_enough=	% あっけない  呆気ない 
+	ama	{[scat adj]} =sweet=	% 甘い 
+	amattaru	{[scat adj]} =too_sweet=	% 甘ったるい 
+	amazuppa	{[scat adj]} =sweet_sour=	% 甘酸っぱい 
+	ao	{[scat adj]} =blue=	% 青い 
+	ara	{[scat adj]} =rough=	% 荒い 
+	arigata	{[scat adj]} =appreciated=	% ありがたい  有り難い 
+	asa	{[scat adj]} =shallow=	% 浅い 
+	atarashi	{[scat adj]} =new=	% 新しい 
+	atataka	{[scat adj]} =warm=	% 暖かい 
+	atsu	{[scat adj]} =hot=	% 暑い 
+%	atsu	{[scat adj]} =thick=	% 厚い 
+	atsubotta	{[scat adj]} =thick=	% 厚ぼったい 
+	atsukamashi	{[scat adj]} =nervy=	% 厚かましい 
+	atsukurushi	{[scat adj]} =too_hot=	% 暑苦しい 
+	attaka	{[scat adj]} =warm=	% あったかい  暖かい/ 温かい 
+	awatadashi	{[scat adj]} =hectic=	% 慌ただしい 
+	ayashi	{[scat adj]} =suspicious=	% 怪しい 
+	ayau	{[scat adj]} =dangerous=	% 危うい 
+	bakabakashi	{[scat adj]} =stupid=	% ばかばかしい  馬鹿馬鹿しい 
+	bakarashi	{[scat adj]} =stupid=	% ばからしい  馬鹿らしい 
+	boro	{[scat adj]} =crumbling=	%
+	buatsu	{[scat adj]} =thick=	% 分厚い/部厚い 
+	chairo	{[scat adj]} =brown=
+	chiisa	{[scat adj]} =small=	% 小さい 
+	chika	{[scat adj]} =near=	% 近い 
+	chikko	{[scat adj]} =small=
+	chibikko	{[scat adj]} =small=
+	choro	{[scat adj]} =lax=	%
+	choroko	{[scat adj]} =lax=	%
+	darashina	{[scat adj]} =slovenly=	%
+	daru	{[scat adj]} =feel_weary=	% だるい  怠い/ 懈い 
+	dasa	{[scat adj]} =unsophisticated=	% だるい  怠い/ 懈い 
+	debu	{[scat adj]} =fat=	%
+	deka	{[scat adj]} =big=	%
+	dekka	{[scat adj]} =big= "deka"	%
+	dekkee	{[scat adj] [tense pres]} =big=
+	dorokusa	{[scat adj]} =muddy_smelling=	% 泥くさい/泥臭い 
+	era	{[scat adj]} =eminent=	% 偉い 
+	era	{[scat adj]} =hard=	% 偉い 
+	fuka	{[scat adj]} =deep=	% 深い 
+	furu	{[scat adj]} =old=	% 古い 
+	futo	{[scat adj]} =thick=	% 太い 
+	gamanzuyo	{[scat adj]} =very_patient=	% 我慢強い 
+	gametsu	{[scat adj]} =greedy=	%
+	gikochina	{[scat adj]} =clumsy=	%
+	gotsu	{[scat adj]} =tough=	%
+	habahiro	{[scat adj]} =broad=	% 幅広い 
+	hadasamu	{[scat adj]} =cold=	% 肌寒い 
+	hagayu	{[scat adj]} =irritating=	% 歯がゆい  歯 痒い 
+	hageshi	{[scat adj]} =wild=	% 激しい  烈しい 
+	harebotta	{[scat adj]} =puffy=	% はれぼったい  腫れぼったい 
+	hashitana	{[scat adj]} =shameless=	%
+	haya	{[scat adj]} =fast=	% 早い 速い 
+	hazukashi	{[scat adj]} =ashamed=	% 恥ずかしい 
+	hazukashigariya	{[scat n]} =person_easily_feeling_ashamed= "hazukashi+OBJVZ-ya"	% 恥ずかしい 
+	hido	{[scat adj]} =awful=	% ひどい  酷い 
+	hiku	{[scat adj]} =low=	% 低い 
+	hirabetta	{[scat adj]} =flat=	% 平たい 
+	hirapetta	{[scat adj]} =flat=	% 平たい 
+	hirata	{[scat adj]} =flat=	% 平たい 
+	hiro	{[scat adj]} =broad=	% 広い 
+	hitonatsukko	{[scat adj]} =amiable=	% 人懐 っ こい 
+	hitonatsuko	{[scat adj]} =amiable=	% 人懐 っ こい 
+	hoshi	{[scat adj]} =desired=	% 欲しい [1]
+	hoso	{[scat adj]} =thin=	% 細い 
+	hyoronaga	{[scat adj]} =long_and_narrow=	% ひょろ長い 
+	i	{[scat adj] [ir +]} =good=	% いい  好い/ 善い/ 良い [1]
+	igarappo	{[scat adj]} =feeling_harsh=	%
+	ijikitana	{[scat adj]} =greedy=	% 意地汚い 
+	ijimoshi	{[scat adj]} =feeling_bad=	% 意地もしい 
+	ikigurushi	{[scat adj]} =suffocating=	% 息苦しい 
+	ikujina	{[scat adj]} =cowardly=	% いくじない/意気地ない 
+	isamashi	{[scat adj]} =courageous=	% 勇ましい 
+	isogashi	{[scat adj]} =busy=	% 忙しい 
+	ita	{[scat adj]} =aching=	% 痛い 
+	iyarashi	{[scat adj]} =disgusting=	%
+	iyashi	{[scat adj]} =mean=	% 卑しい  賎しい 
+	jijikusa	{[scat adj]} =frumpish=	% じじむさい  爺むさい 
+	jiretta	{[scat adj]} =irritating=	%
+	kabikusa	{[scat adj]} =musty=	% かび臭い  黴臭い 
+	kagirina	{[scat adj]} =unlimited=	% 限りない 
+	kakkoi	{[scat adj]} =stylish=
+	kakkowaru	{[scat adj]} =unattractive=
+	kakkoyo	{[scat adj]} =stylish=
+	kanashi	{[scat adj]} =sad=	% 悲しい  哀しい 
+	kara	{[scat adj]} =spicy=	% 辛い 
+	karu	{[scat adj]} =light=	% 軽い 
+	kashiko	{[scat adj]} =clever=	% 賢い 
+	kata	{[scat adj]} =hard=	% 堅い 
+	katagurushi	{[scat adj]} =stiff_mannered=	% 堅苦しい 
+	katakurushi	{[scat adj]} =stiff_mannered=	% 堅苦しい 
+	kattaru	{[scat adj]} =sluggish=	%
+	kawai	{[scat adj] [ir +]} =cute=	% かわいい  可愛い 
+	kawairashi	{[scat adj]} =cute=	% かわいらしい  可愛らしい 
+	kayu	{[scat adj]} =itchy=	% かゆい  痒い 
+	kebuka	{[scat adj]} =hairy=	% 毛深い 
+	kemu	{[scat adj]} =smoky=	% 煙い 
+	kemuta	{[scat adj]} =smoky=	% 煙たい 
+	kewashi	{[scat adj]} =dangerous=	% 険しい 
+	kibishi	{[scat adj]} =strict=	% 厳しい 
+	kimiwaru	{[scat adj]} =creepy=	% 気味悪い 
+%	kimochi	{[scat adj]} % ->compound
+%	kimochiwaru	{[scat adj]}
+	kimo	{[scat adj]} =feeling_bad=
+	kitana	{[scat adj]} =dirty=	% 汚い  穢い 
+	kitanarashi	{[scat adj]} =dirty=	% 汚らしい  穢らしい 
+	kitsu	{[scat adj]} =tough=	%
+	ko	{[scat adj]} =dark=	% 濃い 
+	kogitana	{[scat adj]} =dirty=	% 小汚い 
+	koishi	{[scat adj]} =dearest=	% 恋しい 
+	kokochiyo	{[scat adj]} =comfortable=	% ここちよい/心地よい 
+	kokoroboso	{[scat adj]} =disheartening=	% 心細い 
+	kokoroyo	{[scat adj]} =agreeable=	% 快い 
+	kokorozuyo	{[scat adj]} =encouraging=	% 心強い 
+	komaka	{[scat adj]} =fine=	% 細かい 
+	konikurashi	{[scat adj]} =provoking=	% 小憎らしい 
+	koobashi	{[scat adj]} =fragrant=	% こうばしい/香ばしい 
+	kosoba	{[scat adj]} "kosobayu" =ticklish=	%
+	kosobai	{[scat adj]} "kosobayu" =ticklish=	%
+	kosobayu	{[scat adj]} =ticklish=	%
+	kowa	{[scat adj]} =frightening=	% 怖い  恐い 
+	kuchiurusa	{[scat adj]} =nagging=	% 口うるさい 
+	kudarana	{[scat adj]} =worthless=	%
+	kudo	{[scat adj]} =importunate=	%
+	kura	{[scat adj]} =dark=	% 暗い 
+	kuro	{[scat adj]} =black=	% 黒い 
+	kuroppo	{[scat adj]} =blackish=	% 黒っぽい 
+	kurushi	{[scat adj]} =painful=	% 苦しい 
+	kusa	{[scat adj]} =smelly=	% 臭い 
+	kusugutta	{[scat adj]} =ticklish=	% くすぐったい  擽ったい 
+	kuwashi	{[scat adj]} =detailed=	% 詳しい  委しい 
+	kuyashi	{[scat adj]} =vexing=	% 悔しい  口惜しい 
+	mabushi	{[scat adj]} =dazzling=	% まぶしい  眩しい 
+	machidooshi	{[scat adj]} =impatiently_awaited=	% 待ち遠しい 
+	magirawashi	{[scat adj]} =misleading=	% 紛らわしい 
+	makkuro	{[scat adj]} =pitchblack=	% 真っ黒い 
+	mammaru	{[scat adj]} =perfectly_round=	% まん丸い/真ん丸い 
+	maru	{[scat adj]} =round=	% 丸い 
+	marukko	{[scat adj]} =round=	% 丸っこい 
+	masshiro	{[scat adj]} =pure_white=	% 真っ白い 
+	mazu	{[scat adj]} =bad_tasting=	%
+	mazushi	{[scat adj]} =poor=	% 貧しい 
+	meboshi	{[scat adj]} =conspicuous=	%
+	medeta	{[scat adj]} =auspicious=	% めでたい  目出度い･:芽出度い 
+	membokuna	{[scat adj]} =shamefully=	% 面目ない 
+	mendokusa	{[scat adj]} =bothersome= "mendoo-kusa"	% めんどうくさい  面倒=臭い 
+	mezurashi	{[scat adj]} =rare=	% 珍しい 
+	mijika	{[scat adj]} =short=	% 短い 
+	miniku	{[scat adj]} =ugly=	% 醜い 
+	misuborashi	{[scat adj]} =shabby=	% みすぼらしい  見 窄らしい 
+	mittomona	{[scat adj]} =ignoble=	%
+	monosugo	{[scat adj]} =terrible=	% ものすごい  物 凄い 
+	monomezurashi	{[scat adj]} =rare=	
+	monotarina	{[scat adj]} =insufficient=	% もの足りない/物足りない 
+	mooshiwakena	{[scat adj]} =inexcusable=	% 申しわけない/申し訳ない 
+	moro	{[scat adj]} =brittle=	% もろい  脆い 
+	mottaina	{[scat adj]} =wasteful=	%
+	mukko	{[scat adj]} =difficult= % =難しい
+	munashi	{[scat adj]} =futile=	% むなしい  空しい/ 虚しい 
+	musakurushi	{[scat adj]} =scruffy=	% むさ苦しい
+	mushiatsu	{[scat adj]} =humid=	% 蒸し暑い 
+	mutsukashi	{[scat adj]} =difficult= "muzukashi"	% 難しい 
+	muzu	{[scat adj]} =difficult=	% 難しい 
+	muzukashi	{[scat adj]} =difficult=	% 難しい 
+	naga	{[scat adj]} =long=	% 長い 
+	nagorioshi	{[scat adj]} =regretting=	% 名残惜しい
+	nagatarashi	{[scat adj]} =lengthy=	% 長たらしい 
+	namaatataka	{[scat adj]} =warm=	% なま暖かい 
+	namagusa	{[scat adj]} =fishy=	% 生臭い  腥い 
+	namanamashi	{[scat adj]} =vivid=	% 生生しい 
+	namanuru	{[scat adj]} =lukewarm=	% なまぬるい/生ぬるい  生 温い 
+	nanigena	{[scat adj]} =nonchalant=	% 何げない 
+	narenareshi	{[scat adj]} =over_familiar=	% なれなれしい  馴れ 馴れしい 
+	nasakena	{[scat adj]} =miserable=	% 情けない 
+	natsukashi	{[scat adj]} =fondly_remembered=	% 懐かしい 
+	nebakko	{[scat adj]} =persistent=	% 粘っこい 
+	nechikko	{[scat adj]} =persistent=	%
+	nechiko	{[scat adj]} =persistent= "nechikko"	%
+	negurushi	{[scat adj]} =sleep_badly=	% 寝苦しい 
+	nemu	{[scat adj]} =sleepy=	% 眠い 
+	nemuta	{[scat adj]} =sleepy=	% 眠たい 
+	netsuppo	{[scat adj]} =fevery=	% 熱っぽい 
+	nibu	{[scat adj]} =blunt=	% 鈍い 
+	niekirana	{[scat adj]} =half_hearted=	% 煮え切らない 
+	niga	{[scat adj]} =bitter=	% 苦い 
+	niku	{[scat adj]} =hateful=	% 憎い 
+	nikurashi	{[scat adj]} =hateful=	% 憎らしい 
+	nikutarashi	{[scat adj]} =obnoxious=	% 憎たらしい 
+	nokorisukuna	{[scat adj]} =scarce=	% 残り少ない 
+	noro	{[scat adj]} =dull=	% のろい  鈍い 
+	nozomashi	{[scat adj]} =desirable=	% 望ましい 
+	nuku	{[scat adj]} =lukewarm=	% ぬくい  温い 
+	nuru	{[scat adj]} =lukewarm=	% ぬるい  温い 
+	oishi	{[scat adj]} =tasty=	% おいしい  美味しい 
+	okashi	{[scat adj]} =strange=	% おかしい  奇怪しい 
+	okkana	{[scat adj]} =scary=	%
+	okki	{[scat adj:mot]} =big=	% 大きい 
+	omedeta	{[scat adj]} =auspicious=	% おめでたい  お:目出度い/お:芽出度い 
+	omo	{[scat adj]} =heavy=	% 重い 
+	omoigakena	{[scat adj]} =by_chance=	% 思いがけない/思い掛けない 
+	omoro	{[scat adj]} =interesting=	% おもしろい  面白い 
+	omoshiro	{[scat adj]} =interesting=	% おもしろい  面白い 
+	omota	{[scat adj]} =heavy=	% 重たい 
+	onnarashi	{[scat adj]} =woman_like=	% 女らしい 
+	oo	{[scat adj]} =many=	% 多い 
+	ooki	{[scat adj]} =big=	% 大きい 
+	osana	{[scat adj]} =infantile=	% 幼い 
+	oshi	{[scat adj]} =regrettable=	% 惜しい 
+	oso	{[scat adj]} =late=	% 遅い 
+	osoroshi	{[scat adj]} =terrifying=	% 恐ろしい 
+	otokorashi	{[scat adj]} =manly=	% 男らしい 
+	otonagena	{[scat adj]} =immature=	% おとなげない/大人気ない 
+	otonashi	{[scat adj]} =obedient=	% おとなしい  大人しい 
+	rashi	{[scat adj]} =seeming=	% らしい 
+	rikutsuppo	{[scat adj]} "rikutsu-ppo" =argumentative=	% 理屈っぽい 
+	sabishi	{[scat adj]} =feeling_lonely=	% 寂しい  淋しい 
+	samishi	{[scat adj]} =feeling_lonely= "sabishi"	% さみしい  寂しい/ 淋しい 
+	samu	{[scat adj]} =cold=	% 寒い 
+	sarigena	{[scat adj]} =nonchalant=	% さりげない  然り気無い 
+	sawagashi	{[scat adj]} =turbulent=	% 騒がしい 
+	sema	{[scat adj]} =narrow=	% 狭い 
+	semakurushi	{[scat adj]} =cramped=	% 狭苦しい 
+	sewashi	{[scat adj]} =busy=	% せわしい  忙しい 
+	sewashina	{[scat adj]} =restless=	% せわしない  忙しない 
+	shibu	{[scat adj]} =bitter=	% 渋い 
+	shibuto	{[scat adj]} =stubborn=	%
+	shigana	{[scat adj]} =poor=	%
+	shikaku	{[scat adj]} =square=	% 四角い 
+	shikatana	{[scat adj]} =inevitable=	% しかたない  仕方無い 
+	shikatanasasoo	{[scat n:an]} =looks_inevitable= "shikatana-soo"
+	shimboozuyo	{[scat adj]} =patient=	% 辛抱強い 
+	shimeppo	{[scat adj]} =wet=	% 湿っぽい 
+	shindo	{[scat adj]} =exhausting=	%
+	shiokara	{[scat adj]} =salty=	% 塩辛い 
+	shirajirashi	{[scat adj]} =shamelessly=	% しらじらしい/白白しい 
+	shiro	{[scat adj]} =white=	% 白い 
+	shitashi	{[scat adj]} =familiar=	% 親しい 
+	shitsuko	{[scat adj]} =persistent=	%
+	shoogana	{[scat adj]} =inevitable=
+	shoppa	{[scat adj]} =salty=	%
+	shuunembuka	{[scat adj]} =persistent=	% 執念深い 
+	soozooshi	{[scat adj]} =clamorous=	% 騒騒しい 
+	sosokkashi	{[scat adj]} =scatterbrained=	%
+	subarashi	{[scat adj]} =marvelous=	% すばらしい  素晴らしい 
+	subashikko	{[scat adj]} =alert=	%
+	subashiko	{[scat adj]} =alert=	%
+	subaya	{[scat adj]} =swiftly=	% 素早い 
+	sugasugashi	{[scat adj]} =crisp=	% すがすがしい  清清》しい 
+	sugo	{[scat adj]} =terrific=	% すごい  凄い 
+	sukuna	{[scat adj]} =be_few=	% 少ない 
+	suppa	{[scat adj]} =sour=	% 酸っぱい 
+	surudo	{[scat adj]} =clever=	% 鋭い 
+	suzushi	{[scat adj]} =fresh=	% 涼しい 
+	taaina	{[scat adj]} =child_like=	%
+	tadashi	{[scat adj]} =correct=	% 正しい 
+	taigi	{[scat adj]} =annoying=	% たいぎい  大儀い 
+	taka	{[scat adj]} =high=	% 高い 
+	takumashi	{[scat adj]} =robust=	% たくましい  逞しい 
+	tanomoshi	{[scat adj]} =reliable=	% 頼もしい 
+	tanoshi	{[scat adj]} =delightful=	% 楽しい 
+	tawaina	{[scat adj]} =silly=	%
+	tayasu	{[scat adj]} =easily=	% たやすい  容易い 
+	tayorina	{[scat adj]} =unreliable=	% 頼りない 
+	teara	{[scat adj]} =violent=	% 手荒い 
+	tegowa	{[scat adj]} =stubborn=	% 手ごわい  手 強い 
+	tenuru	{[scat adj]} =lenient=	% 手ぬるい  手 緩い 
+	terekusa	{[scat adj]} =embarrassed=	% 照れくさい/照れ臭い 
+	tettoribaya	{[scat adj]} =quickly=	% 手っ取り早い 
+	tohoomona	{[scat adj]} =absurd=	% 途方もない
+	tondemona	{[scat adj]} =unbelievable=	%
+	too	{[scat adj]} =distant=	% 遠い 
+	tooto	{[scat adj]} =noble=	% 尊い 
+	toro	{[scat adj]} =stupid=	% とろい 
+	tsumanna	{[scat adj]} =boring=	"tsumarana"
+	tsumarana	{[scat adj]} =boring=	%
+	tsumeta	{[scat adj]} =cold=	% 冷たい 
+	tsura	{[scat adj]} =hard_experience=	% つらい  辛い 
+	tsuyo	{[scat adj]} =strong=	% 強い 
+	uma	{[scat adj]} =tasty=	% うまい 
+	uma	{[scat adj]} =skilled=	% うまい 
+	urameshi	{[scat adj]} =reproachful=	% 恨めしい  怨めしい 
+	urayamashi	{[scat adj]} =enviable=	% うらやましい  羨ましい 
+	ureshi	{[scat adj]} =glad=	% うれしい  嬉しい 
+	urusa	{[scat adj]} =noisy=	% うるさい  五月蝿い 
+	ushirometa	{[scat adj]} =feeling_guilty=	% 後ろめたい 
+	usu	{[scat adj]} =thin=	% 薄い 
+	usugitana	{[scat adj]} =dirty=	% 薄汚い 
+	usugura	{[scat adj]} =gloomy=	% 薄暗い 
+	usukimiwaru	{[scat adj]} =eerie=	% 薄気味悪い 
+	utagaibuka	{[scat adj]} =suspicious=	% 疑い深い 
+	utagawashi	{[scat adj]} =doubtful=	% 疑わしい 
+	utsukushi	{[scat adj]} =beautiful=	% 美しい 
+	uttooshi	{[scat adj]} =oppressive=	% うっとうしい  鬱陶しい 
+	waka	{[scat adj]} =young=	% 若い 
+	wakawakashi	{[scat adj]} =youthful=	% 若若しい 
+	wakena	{[scat adj]} =easy=	% わけない  訳無い 
+	waru	{[scat adj]} =bad=	% 悪い 
+	warugashiko	{[scat adj]} =sly=	% 悪賢い 
+	wasureppo	{[scat adj]} =forgetful=	% 忘れっぽい 
+	wazatorashi	{[scat adj]} =affected=	% わざとらしい  態とらしい 
+	yaba	{[scat adj]} =dangerous=	%
+	yakamashi	{[scat adj]} =noisy=	% やかましい  喧しい 
+	yamashi	{[scat adj]} =feel_guilty=	% やましい  疚しい 
+	yarikirena	{[scat adj]} =unbearable=	% やりきれない  遣り切れない 
+	yasashi	{[scat adj]} =easy=	% 易しい  優しい 
+	yasu	{[scat adj]} =cheap=	% 安い 
+	yawaraka	{[scat adj]} =soft=	% 柔らかい 
+	yayakoshi	{[scat adj]} =complicated=	%
+	yo	{[scat adj]} =good= "i"	% よい/良い  好い [1]
+	yoojimbuka	{[scat adj]} =watchful=	% 用心深い 
+	yoroshi	{[scat adj]} =very_well=	% よろしい  宜しい 
+	yosoyososhi	{[scat adj]} =treat_cool=	% よそよそしい  余 所余 所しい 
+	yowa	{[scat adj]} =weak=	% 弱い 
+	yuru	{[scat adj]} =loose=	% 緩い 
+	zuru	{[scat adj]} =mean=	% ずるい  狡い 
+	zuuzuushi	{[scat adj]} =impudent=	% ずうずうしい  図図》しい 
+
+%%% special
+kiree	{[scat adj]} =beautiful=

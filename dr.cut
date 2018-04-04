@@ -1,0 +1,300 @@
+@UTF8
+RULENAME: amari %****************
+choose
+CURSURF = amari
+CURCAT = [scat adv]
+when
+NEXTCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub adj]
+
+RULENAME: are %****************
+choose
+CURSURF = are
+CURCAT = [scat n:deic:dem]
+when
+NEXTCAT = [scat OR ptl:top ptl:case ptl:foc ptl:post ptl:attr  ]
+
+RULENAME: hoo ga %****************
+choose
+CURSURF = hoo
+CURCAT = [scat n:fml]
+when
+PREVCAT= [scat ptl:case]
+NEXTCAT = [scat ptl:case]
+
+RULENAME: ato-n %****************
+choose
+CURSURF = ato
+CURCAT = [scat n]
+when
+NEXTCAT = [scat v:cop]
+NEXTSURF = de
+
+
+RULENAME: da-v:cop %****************
+choose
+CURSURF = da
+CURCAT = [scat v:cop]
+when
+PREVCAT = [scat OR n n:deic:prs n:deic:dem]
+
+RULENAME: issho ni %****************
+choose
+CURSURF = issho
+CURCAT = [scat n]
+when
+PREVCAT = [scat v:cop]
+
+%RULENAME: de-copula %****************
+%choose
+%CURSURF = de
+%CURCAT = [scat ptl:case]
+%when
+%PREVCAT = [scat OR n n:mot n:deic:dem n:deic:wh]
+%NEXTCAT = [scat v]
+
+RULENAME: doko2 %****************
+choose
+CURSURF = doko
+CURCAT = [scat n:deic:wh]
+when
+%PREVCAT = [scat OR n n:mot n:deic:dem]
+NEXTCAT = [scat OR v:c v:v v:ir  ptl:case  ptl:post ptl:attr]
+
+RULENAME: doko1 %****************
+choose
+CURSURF = doko
+CURCAT = [scat n:deic:wh]
+when
+PREVCAT = [scat OR n n:mot n:deic:dem num]
+%NEXTCAT = [scat v]
+
+RULENAME: ga-ptl:case %************
+choose
+CURSURF = ga
+CURCAT = [scat ptl:case]
+when
+PREVCAT = [scat OR n n:mot n:deic:dem n:deic:wh n:deic:wh n:prop]
+%NEXTCAT = [scat ptl:case]
+
+RULENAME: ga-ptl:conj %************
+choose
+CURSURF = ga
+CURCAT = [scat ptl:conj]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop adj]
+
+RULENAME: mo-ptl:conj %************
+choose
+CURSURF = mo
+CURCAT = [scat ptl:conj]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop adj]
+
+RULENAME: suru-lightverb %************light verb suru after vn
+choose
+CURSURF = su
+CURCAT = [scat v:ir:sub]
+when
+PREVCAT = [scat OR n:vn n:vn:mot n:vn:onoma]
+
+RULENAME: suru-lightverb %************light verb suru (passive) after vn
+choose
+CURSURF = sare
+CURCAT = [scat v:v:sub]
+when
+PREVCAT = [scat OR n:vn n:vn:mot n:vn:onoma]
+
+RULENAME: ii-clean %************
+choose
+CURSURF = ii
+CURCAT = [scat adj]
+when
+%NEXTCAT = [scat OR co:i]
+
+RULENAME: iru %****************
+choose
+CURSURF = iru
+CURCAT = [scat OR v:v], [vform i]
+when
+PREVCAT = [scat ptl:post]
+PREVSURF = ni
+%NEXTCAT = [scat v]
+
+RULENAME: itta %****************
+choose
+CURSURF = itta
+CURCAT = [scat OR v:c], [vform ik]
+when
+PREVCAT = [scat OR n:deic:wh n:deic:dem ptl:case ptl:post ptl:coo ptl:foc]
+%NEXTCAT = [scat v]
+
+RULENAME: ka-ptl-fina %****************
+choose
+CURSURF = ka
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat OR n v:ir v:c v:v v:cop v:v:sub v:c:sub v:ir:sub]
+%NEXTCAT = [scat v]
+
+RULENAME: kara-ptl-case %****************
+choose
+CURSURF = kara
+CURCAT = [scat ptl:post]
+when
+PREVCAT = [scat OR n n:mot n:deic:dem n:deic:wh]
+
+RULENAME: kara-ptl-conj %****************
+choose
+CURSURF = kara
+CURCAT = [scat ptl:conj]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop adj]
+
+RULENAME: mata-adv %****************
+choose
+CURSURF = mata
+CURCAT = [scat adv]
+when
+NEXTCAT = [scat OR v adj n]
+
+RULENAME: mo-ptl:conj %****************
+choose
+CURSURF = mo
+CURCAT = [scat ptl:conj]
+when
+PREVCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+
+RULENAME: mo-ptl:foc %****************
+choose
+CURSURF = mo
+CURCAT = [scat ptl:foc]
+when
+PREVCAT = [scat OR n n:vn n:prop n:deic:prs n:deic:dem n:deic:wh]
+
+RULENAME: mon-ptl-fina %****************
+choose
+CURSURF = mon
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat v:cop v¥]
+%NEXTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
+
+RULENAME: moo-adv %****************
+choose
+CURSURF = moo
+CURCAT = [scat adv]
+when
+NEXTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub adj n:an num n]
+
+RULENAME: ne-ptl-fina %****************
+choose
+CURSURF = ne%|nee
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop n n:mot n:prop n:an adj num ptl:foc ptl:top ptl:case  ptl:post ptl:attr ptl:fina ptl:conj n:deic:dem onoma]
+
+RULENAME: ni-num %****************
+choose
+CURSURF = ni
+CURCAT = [scat num]
+when
+PREVCAT = [scat num]
+NEXTCAT = [scat num]
+
+RULENAME: no-ptl:fina %****************
+choose
+CURSURF = no
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub adj]
+
+RULENAME: no-ptl-case %*********
+choose
+CURSURF = no
+CURCAT = [scat ptl:attr]
+when
+PREVCAT = [scat OR n n:mot n:prop n:deic:prs n:deic:dem n:deic:wh n:vn onoma]
+NEXTCAT = [scat OR n n:mot]
+
+RULENAME: o-ptl-case %****************
+choose
+CURSURF = o
+CURCAT = [scat ptl:case]
+when
+PREVCAT = [scat OR n n:mot n:deic:prs n:prop n:deic:wh n:deic:dem]
+NEXTCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub n:deic:prs]
+
+RULENAME: shi-num-misc %****************
+choose
+CURSURF = shi
+CURCAT = [scat num]
+when
+PREVCAT = [scat num]
+%PREVSURF = num|ni
+%NEXTCAT = [scat n]
+
+RULENAME: shika-ptl:foc %****************
+choose
+CURSURF = shika
+CURCAT = [scat ptl:foc]
+when
+PREVCAT = [scat num]
+%NEXTCAT = [scat num]
+
+RULENAME: shita-n %************
+choose
+CURSURF = shita
+CURCAT = [scat n]
+when
+NEXTCAT = [scat OR ptl:case  ptl:post ptl:attr v:cop]
+
+RULENAME: soo2 %************
+choose
+CURSURF = soo
+CURCAT = [scat adv:deic:dem]
+when
+NEXTCAT = [scat v:cop]
+
+RULENAME: takusan-adv %************
+choose
+CURSURF = takusan
+CURCAT = [scat adv]
+when
+NEXTCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop adj]
+
+RULENAME: to-ptl-coo %****************
+choose
+CURSURF = to
+CURCAT = [scat ptl:coo]
+when
+PREVCAT = [scat OR n n:mot n:deic:dem n:prop]
+NEXTCAT = [scat OR n n:mot n:deic:dem n:prop]
+
+RULENAME: to-ptl-conj %****************
+choose
+CURSURF = to
+CURCAT = [scat ptl:conj]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub adj]
+
+RULENAME: wa-ptl-top %****************
+choose
+CURSURF = wa
+CURCAT = [scat ptl:top]
+when
+PREVCAT = [scat OR n n:mot n:deic:dem n:deic:dem n:deic:dem n:prop  ptl:post ptl:attr onoma]
+
+RULENAME: wa-ptl-fina %****************
+choose
+CURSURF = wa
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:c:sub v:v:sub v:ir:sub v:cop adj]
+
+RULENAME: yo-ptl:fina %****************
+choose
+CURSURF = yo
+CURCAT = [scat ptl:fina]
+when
+PREVCAT = [scat OR v:c v:v v:ir v:cop adj n n:mot n:vn n:vn:mot n:vn:onoma ptl:fina]
+

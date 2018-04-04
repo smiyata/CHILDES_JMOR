@@ -1,0 +1,273 @@
+@UTF8
+%%%% focus particle
+bakari	{[scat ptl:foc]} =almost=
+bakkari	{[scat ptl:foc]} "bakari" =almost=
+bakkashi	{[scat ptl:foc]} "bakari" =almost=
+bakashi	{[scat ptl:foc]} "bakari" =almost=
+bakka	{[scat ptl:foc]} "bakari" =almost=
+dake	{[scat ptl:foc]} =only=
+datte	{[scat ptl:foc]} =even=
+hodo	{[scat ptl:foc]} =about=
+gurai	{[scat ptl:foc]} "kurai" =about=
+kkiri	{[scat ptl:foc]} =only=
+koso	{[scat ptl:foc]} =just=
+kurai	{[scat ptl:foc]} =about=
+made	{[scat ptl:foc]} =until=
+mo	{[scat ptl:foc]} =too=
+nado	{[scat ptl:foc]} =etc=
+nanka	{[scat ptl:foc]} =even=
+nante	{[scat ptl:foc]} =even=
+nikanshite	{[scat ptl:foc]} =concerning= "ni_kanshite"
+nitaishite	{[scat ptl:foc]} =regarding= "ni_taishite"
+nitotte	{[scat ptl:foc]} =for= "ni_totte"
+nitsuite	{[scat ptl:foc]} =about= "ni_tsuite"
+niyotte	{[scat ptl:foc]} =according_to= "ni_yotte"
+toyuu	{[scat ptl:foc]} =called= "to_yuu"
+toiu	{[scat ptl:foc]} =called= "to_yuu"
+nomi	{[scat ptl:foc]} =only=
+sae	{[scat ptl:foc]} =even=
+shika	{[scat ptl:foc]} =only=
+sura	{[scat ptl:foc]} =even=
+toka	{[scat ptl:foc]} =or=
+tomo	{[scat ptl:foc]} =also=
+toshite	{[scat ptl:foc]} =as=
+wa	{[scat ptl:foc]} =as_for=
+yara	{[scat ptl:foc]} =or=
+zutsu	{[scat ptl:foc]} =one_by_one=
+ばかり	{[scat ptl:foc]} =almost= "bakari"
+ばっかり	{[scat ptl:foc]} "bakari" =almost=
+ばっかし	{[scat ptl:foc]} "bakari" =almost=
+ばかし	{[scat ptl:foc]} "bakari" =almost=
+ばっか	{[scat ptl:foc]} "bakari" =almost=
+だけ	{[scat ptl:foc]} =only= "dake"
+だって	{[scat ptl:foc]} =even= "datte"
+ほど	{[scat ptl:foc]} =about= "hodo"
+ぐらい	{[scat ptl:foc]} "kurai" =about=
+に対して	{[scat ptl:foc]} =regarding= "ni_taishite"
+にたいして	{[scat ptl:foc]} =regarding= "ni_taishite"
+について	{[scat ptl:foc]} =about= "ni_tsuite"
+にかんして	{[scat ptl:foc]} =concerning= "ni_kanshite"
+に関して	{[scat ptl:foc]} =concerning= "ni_kanshite"
+にとって	{[scat ptl:foc]} =for= "ni_totte"
+によって	{[scat ptl:foc]} =according_to= "ni_yotte"
+っきり	{[scat ptl:foc]} =only= "kkiri"
+こそ	{[scat ptl:foc]} =just= "koso"
+くらい	{[scat ptl:foc]} =about= "kurai"
+まで	{[scat ptl:foc]} =until= "made"
+も	{[scat ptl:foc]} =too= "mo"
+など	{[scat ptl:foc]} =etc= "nado"
+なんか	{[scat ptl:foc]} =even= "nanka"
+なんて	{[scat ptl:foc]} =even= "nante"
+のみ	{[scat ptl:foc]} =only= "nomi"
+さえ	{[scat ptl:foc]} =even= "sae"
+しか	{[scat ptl:foc]} =only= "shika"
+すら	{[scat ptl:foc]} =even= "sura"
+とか	{[scat ptl:foc]} =or= "toka"
+とも	{[scat ptl:foc]} =also= "tomo"
+として	{[scat ptl:foc]} =as= "toshite"
+は	{[scat ptl:foc]} =as_for= "wa"
+やら	{[scat ptl:foc]} =or= "yara"
+ずつ	{[scat ptl:foc]} =one_by_one= "zutsu"
+
+%%%% case particle
+ga	{[scat ptl:case]} =NOM=
+o	{[scat ptl:case]} =ACC=
+no	{[scat ptl:case]} =NOM=   %の/がconversion
+が	{[scat ptl:case]} =NOM=
+を	{[scat ptl:case]} =ACC=
+の	{[scat ptl:case]} =NOM=
+
+%%%% postposition particle
+de	{[scat ptl:post]} =POST=
+e	{[scat ptl:post]} =to=
+kara	{[scat ptl:post]} =from=
+made	{[scat ptl:post]} =until=
+ni	{[scat ptl:post]} =POST= 
+to	{[scat ptl:post]} =with= 
+yori	{[scat ptl:post]} =from= 
+yori	{[scat ptl:post]} =COMPARE= 
+で	{[scat ptl:post]} =POST= "de"
+へ	{[scat ptl:post]} =to= "e"
+から	{[scat ptl:post]} =from= "kara"
+まで	{[scat ptl:post]} =until= "made"
+に	{[scat ptl:post]} =POST=  "ni"
+と	{[scat ptl:post]} =with=  "to"
+より	{[scat ptl:post]} =from=  "yori"
+
+
+%%%% attributive particle 
+no	{[scat ptl:attr]} =GEN=
+の	{[scat ptl:attr]} =GEN= "no"
+%n	{[scat ptl:attr]} "no" =GEN=
+
+%%%% final particle
+jagena	{[scat ptl:fina]} =APPARENTLY=
+noo	{[scat ptl:fina]} =ASSERT=
+be	{[scat ptl:fina]} =ASSERT=
+dai	{[scat ptl:fina]} =ASSERT= 
+ttai	{[scat ptl:fina]} =ASSERT=
+de	{[scat ptl:fina]} =ASSERT=
+do	{[scat ptl:fina]} =ASSERT=
+gana	{[scat ptl:fina]} =TAG=
+gane	{[scat ptl:fina]} =TAG=
+ka	{[scat ptl:fina]} =Q=
+kka	{[scat ptl:fina]} =Q= "ka"
+kai	{[scat ptl:fina]} =Q=
+kana	{[scat ptl:fina]} =DOUBT= "kanaa"
+kanaa	{[scat ptl:fina]} =DOUBT=
+kke	{[scat ptl:fina]} =WONDER=
+mon	{[scat ptl:fina]} =ASSERT=
+mono	{[scat ptl:fina]} =ASSERT=
+n	{[scat ptl:fina]} =FINA= "no"  
+naa	{[scat ptl:fina]} =TAG=
+ne	{[scat ptl:fina]} =TAG=
+nee	{[scat ptl:fina]} =TAG= "ne"
+nen	{[scat ptl:fina]} =ASSERT=
+no	{[scat ptl:fina]} =FINA= 
+sa	{[scat ptl:fina]} =FINA= 
+saq	{[scat ptl:fina]} =FINA= "sa"
+saa	{[scat ptl:fina]} =FINA= "sa" 
+tomo	{[scat ptl:fina]} =ASSERT=
+ttara	{[scat ptl:fina]} =i_tell_you=
+tteba	{[scat ptl:fina]} =i_tell_you=
+wa	{[scat ptl:fina]} =FINA=
+wai	{[scat ptl:fina]} =FINA=
+wee	{[scat ptl:fina]} =FINA=
+ya	{[scat ptl:fina]} =ASSERT=
+yo	{[scat ptl:fina]} =ASSERT=
+ze	{[scat ptl:fina]} =ASSERT= 
+zo	{[scat ptl:fina]} =ASSERT=
+じゃげな	{[scat ptl:fina]} =APPARENTLY= "jagena"
+のう	{[scat ptl:fina]} =ASSERT= "noo"
+べ	{[scat ptl:fina]} =ASSERT= "be"
+だい	{[scat ptl:fina]} =ASSERT=  "dai"
+か	{[scat ptl:fina]} =Q= "ka"
+っか	{[scat ptl:fina]} =Q= "ka"
+かい	{[scat ptl:fina]} =Q= "kai"
+かな	{[scat ptl:fina]} =DOUBT= "kanaa"
+かなあ	{[scat ptl:fina]} =DOUBT= "kanaa"
+っけ	{[scat ptl:fina]} =WONDER= "kke"
+もん	{[scat ptl:fina]} =ASSERT= "mon"
+もの	{[scat ptl:fina]} =ASSERT= "mono"
+ん	{[scat ptl:fina]} =FINA= "no"  
+なあ	{[scat ptl:fina]} =TAG= "naa"
+ね	{[scat ptl:fina]} =TAG= "ne"
+ねえ	{[scat ptl:fina]} =TAG= "ne"
+ねん	{[scat ptl:fina]} =ASSERT= "nen"
+の	{[scat ptl:fina]} =FINA=  "no"
+さ	{[scat ptl:fina]} =FINA=  "sa"
+さっ	{[scat ptl:fina]} =FINA= "sa"
+さあ	{[scat ptl:fina]} =FINA= "sa" 
+とも	{[scat ptl:fina]} =ASSERT= "tomo"
+ったら	{[scat ptl:fina]} =i_tell_you= "ttara"
+ってば	{[scat ptl:fina]} =i_tell_you= "tteba"
+わ	{[scat ptl:fina]} =FINA= "wa"
+や	{[scat ptl:fina]} =ASSERT= "ya"
+よ	{[scat ptl:fina]} =ASSERT= "yo"
+ぜ	{[scat ptl:fina]} =ASSERT=  "ze"
+ぞ	{[scat ptl:fina]} =ASSERT= "zo"
+
+%%%%%%%%%%%%conjunctive particle
+%de	{[scat ptl:conj]} =because=  % only in complete fukubun structure; otherwise ptl:fina
+ga	{[scat ptl:conj]} =but=
+ka	{[scat ptl:conj]} =whether=
+kara	{[scat ptl:conj]} =because=
+kara	{[scat ptl:conj]} =after=
+ken	{[scat ptl:conj]} =because=
+kedo	{[scat ptl:conj]} =although=
+keredo	{[scat ptl:conj]} "keredomo" =although=
+kedomo	{[scat ptl:conj]} "keredomo" =although=
+keredomo	{[scat ptl:conj]} =although=
+kiri	{[scat ptl:conj]} =just= "kkiri"
+kkiri	{[scat ptl:conj]} =just=
+made	{[scat ptl:conj]} =until=
+mo	{[scat ptl:conj]} =even_if=
+nagara	{[scat ptl:conj]} =while=
+nara	{[scat ptl:conj]} =if=
+nari	{[scat ptl:conj]} =and=
+node	{[scat ptl:conj]} =because=
+nde	{[scat ptl:conj]} =because= "node"
+noni	{[scat ptl:conj]} =in_spite_of=
+sakai	{[scat ptl:conj]} =because=
+shi	{[scat ptl:conj]} =also=
+shika	{[scat ptl:conj]} =only=  % only before "ar-NEG" (no other v possible)
+ttara	{[scat ptl:conj]} =when= 
+to	{[scat ptl:conj]} =when=
+toka	{[scat ptl:conj]} =or=
+toiuka	{[scat ptl:conj]} =or_rather=
+tteiuka	{[scat ptl:conj]} =or_rather=
+%toshitara	{[scat ptl:conj]} =if=   CHANGED TO  to shitara  ptl:quot v:ir|su
+yori	{[scat ptl:conj]} =more=
+で	{[scat ptl:conj]} =because= "de"  % only after PRES or PAST (dialect); otherwise v:cop|de&CONN
+が	{[scat ptl:conj]} =but= "ga"
+か	{[scat ptl:conj]} =whether= "ka"
+から	{[scat ptl:conj]} =because= "kara"
+から	{[scat ptl:conj]} =after= "kara"
+けん	{[scat ptl:conj]} =because= "ken"
+けど	{[scat ptl:conj]} =although= "kedo"
+けれど	{[scat ptl:conj]} "keredomo" =although=
+けども	{[scat ptl:conj]} "keredomo" =although=
+けれども	{[scat ptl:conj]} =although= "keredomo"
+っきり	{[scat ptl:conj]} =just= "kkiri"
+まで	{[scat ptl:conj]} =until= "made"
+も	{[scat ptl:conj]} =even_if= "mo"
+ながら	{[scat ptl:conj]} =while= "nagara"
+なり	{[scat ptl:conj]} =and= "nari"
+のに	{[scat ptl:conj]} =in_spite_of= "noni"
+さかい	{[scat ptl:conj]} =because= "sakai"
+し	{[scat ptl:conj]} =also= "shi"
+しか	{[scat ptl:conj]} =only= "shika"  % only before "ar-NEG" (no other v possible)
+ったら	{[scat ptl:conj]} =when=  "ttara"
+と	{[scat ptl:conj]} =when= "to"
+としたら	{[scat ptl:conj]} =if= "toshitara"
+より	{[scat ptl:conj]} =more= "yori"
+%%%%%%%%%%%% coordinating particle
+ka	{[scat ptl:coo]} =or=
+mo	{[scat ptl:coo]} =also=
+nari	{[scat ptl:coo]} =and=
+ni	{[scat ptl:coo]} =plus=
+to	{[scat ptl:coo]} =and=
+toka	{[scat ptl:coo]} =or=
+ya	{[scat ptl:coo]} =or=
+%soshite	{[scat ptl:coo]} =and_also=
+%sorekara	{[scat ptl:coo]} =and_also=
+か	{[scat ptl:coo]} =or= "ka"
+も	{[scat ptl:coo]} =also= "mo"
+なり	{[scat ptl:coo]} =and= "nari"
+と	{[scat ptl:coo]} =and= "to" 
+とか	{[scat ptl:coo]} =or= "toka"
+や	{[scat ptl:coo]} =or= "ya"
+
+%%%%% sentence nominalizing particle
+no	{[scat ptl:snr]} =SNR=
+n	{[scat ptl:snr]} =SNR= "no"
+の	{[scat ptl:snr]} =SNR= "no"
+ん	{[scat ptl:snr]} =SNR= "no"
+
+%%%%% topic particle
+tte	{[scat ptl:top]} =TOP=
+ttara	{[scat ptl:top]} =TOP=
+wa	{[scat ptl:top]} =TOP=
+って	{[scat ptl:top]} =TOP= "tte"
+ったら	{[scat ptl:top]} =TOP= "ttara"
+は	{[scat ptl:top]} =TOP= "wa"
+
+%%%%% quotation particle
+chuu	{[scat ptl:quot]} "to&iu" =QUOT=
+tchuu	{[scat ptl:quot]} "to&iu" =QUOT=
+tchatte	{[scat ptl:quot]} "to&yutte" =QUOT=
+ttsutta	{[scat ptl:quot]} "to&yutta" =QUOT= 
+ttsutte	{[scat ptl:quot]} "to&yutte" =QUOT= 
+ttara	{[scat ptl:quot]} =QUOT=
+tte	{[scat ptl:quot]} =QUOT=
+tto	{[scat ptl:quot]} "to" =QUOT= 
+to	{[scat ptl:quot]} =QUOT=
+ちゅう	{[scat ptl:quot]} "to&iu" =QUOT=
+っちゅう	{[scat ptl:quot]} "to&iu" =QUOT=
+っつった	{[scat ptl:quot]} "to&yutta" =QUOT= 
+っつって	{[scat ptl:quot]} "to&yutte" =QUOT= 
+ったら	{[scat ptl:quot]} =QUOT= "ttara"
+って	{[scat ptl:quot]} =QUOT= "tte"
+っと	{[scat ptl:quot]} "to" =QUOT= 
+と	{[scat ptl:quot]} =QUOT= "to"
+

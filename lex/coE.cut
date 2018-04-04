@@ -1,0 +1,464 @@
+@UTF8
+a	{[scat co:i]} =ah= "aq" %FILLER
+aq	{[scat co:i]} =ah=  %FILLER
+aa	{[scat co:i]} =ah= %FILLER
+aaa	{[scat co:i]} =ah= "aa" %FILLER
+aaq	{[scat co:i]} =ah= "aa" %FILLER
+aaaa	{[scat co:i]} =ah= "aa" %FILLER
+aan	{[scat co:i]} =OPEN_MOUTH=
+aaqa	{[scat co:i]} =FAILURE=
+ai	{[scat co:i]} =yes= "hai"
+aikodesho	{[scat co:g]} =we_are_quits= 
+aikoodeshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
+aikoo_deshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
+aitaq	{[scat co:i]} =ouch=
+akambe	{[scat co:g]} =STICK_OUT_TONGUE= "akkambee"
+akambee	{[scat co:g]} =STICK_OUT_TONGUE= "akkambee"
+akemashite_omedetoo	{[scat co:g]} =Happy_New_Year=
+akemashiteomedetoo	{[scat co:g]} =Happy_New_Year= "akemashite_omedetoo"
+akkambee	{[scat co:g]} =STICK_OUT_TONGUE=
+anoo	{[scat co:i]} =errr= 
+anone	{[scat co:i]} =errr=  "anoo_ne"
+anosa	{[scat co:i]} =errr= "anoo_sa" 
+anosaa	{[scat co:i]} =errr= "anoo_sa"
+ara	{[scat co:i]} =oh_dear=
+aara	{[scat co:i]} =oh_dear= "ara"
+aramaa	{[scat co:i]} =oh_dear=
+araa	{[scat co:i]} =oh_dear= "ara"
+araq	{[scat co:i]} =oh_dear= "ara"
+arara	{[scat co:i]} =oh_dear=
+araryaa	{[scat co:i]} =oh_dear=
+ararara	{[scat co:i]} =oh_dear= "arara"
+arararara	{[scat co:i]} =oh_dear= "arara"
+areq	{[scat co:i]} =AMAZED=
+aree	{[scat co:i]} =AMAZED= "areq"
+arere	{[scat co:i]} =AMAZED= "areq"
+arerere	{[scat co:i]} =AMAZED= "areq"
+arigato	{[scat co:g]} =thank_you= "arigatoo"
+arigatosan	{[scat co:g]} =thank_you= "arigatoo-san"
+arigatoo	{[scat co:g]} =thank_you=
+chuu_chuu_tako_kai_naa	{[scat co:g]} =two_four_six_eight_ten=
+tako_kai_naa	{[scat co:g]} =two_four_six_eight_ten= "chuu_chuu_tako_kai_naa"
+doomoarigatoo	{[scat co:g]} =thank_you= "doomo_arigatoo"
+doomoarigatoogozaimashita	{[scat co:g]} =thank_you= "doomo_arigatoo_gozaimashita"
+doomoarigatoogozaimasu	{[scat co:g]} =thank_you= "doomo_arigatoo_gozaimasu"
+arigatoogozaimasu	{[scat co:g]} =thank_you= "arigatoo_gozaimasu"
+arigatogozaimasu	{[scat co:g]} =thank_you= "arigatoo_gozaimasu"
+arigatoogozaimashita	{[scat co:g]} =thank_you= "arigatoo_gozaimashita"
+arigatogozaimashita	{[scat co:g]} =thank_you= "arigatoo_gozaimashita"
+arigatoo_gozaimashita	{[scat co:g]} =thank_you= "arigatoo_gozaimashita"
+arigatoogozansu	{[scat co:g]} =thank_you= "arigatoo_gozansu"
+arigatogozansu	{[scat co:g]} =thank_you= "arigatoo_gozansu"
+ariq	{[scat co:i]} =AMAZED= "areq"
+arooha	{[scat co:g]} =aloha=
+arya	{[scat co:i]} =AMAZED=
+aryaq	{[scat co:i]} =AMAZED= "arya"
+aryarya	{[scat co:i]} =AMAZED=
+aryaryarya	{[scat co:i]} =AMAZED= "aryarya"
+orya	{[scat co:i]} =AMAZED= "arya"
+assooka	{[scat co:i]} =is_that_so= "a_soo_ka"
+atode	{[scat co:g]} =see_you_later= "ato_de"
+atodene	{[scat co:g]} =see_you_later= "ato_de_ne"
+baa	{[scat co:g]} =boo=
+baq	{[scat co:g]} =boo=
+baai	{[scat co:g]} =byebye= "baibai"
+baibai	{[scat co:g]} =byebye=
+baibaikin	{[scat co:g]} =byebye= "baibai_kin"
+bakakuso	{[scat co:g]} =shit= "baka_kuso"
+banzai	{[scat co:g]} =banzai_cheers=
+battanko	{[scat co:g]} =joggling=
+bee	{[scat co:g]} =STICK_OUT_TONGUE=
+biki	{[scat co:g]} =fool=
+buu	{[scat co:i]} =boo=
+bukubukupee	{[scat co:g]} =rinse_and_spit=
+chaaran	{[scat co:g]} =boring= 
+che	{[scat co:g]} =oh_darn= "cheq"
+cheq	{[scat co:g]} =oh_darn=
+chikushoo	{[scat co:g]} =oh_darn=
+ehhempui	{[scat co:g]} =poof=
+chichimpui	{[scat co:g]} =poof=
+chichimpuipui	{[scat co:g]} =poof=
+choki	{[scat co:g]} =scissors_of_paper_stone_scissors=
+dokkoisho	{[scat co:i]} =yo_heave_ho=
+dooitashimashite	{[scat co:g]} =dont_mention= "doo_itashimashite"
+doo_itashimashite	{[scat co:g]} =dont_mention= "doo_itashimashite"
+doomo	{[scat co:g]} =thanks=
+doomoarigatoo	{[scat co:g]} =thank_you= "doomo_arigatoo"
+doozo	{[scat co:g]} =please=
+eq	{[scat co:i]} =heh=
+ee	{[scat co:i]} =heh=
+eeq	{[scat co:i]} =heh=
+eei	{[scat co:i]} =heh=
+een	{[scat co:i]} =boo_hoo=
+eeen	{[scat co:i]} =boo_hoo= "een"
+een'een	{[scat co:i]} =boo_hoo= "eeneen"
+eeneen	{[scat co:i]} =boo_hoo=
+ehehe	{[scat co:i]} =hehe=
+ei	{[scat co:i]} =hey= "eiq"
+eiq	{[scat co:i]} =hey=
+eieio	{[scat co:i]} =hey=
+eeto	{[scat co:i]} =errr=
+eto	{[scat co:i]} =errr= "eeto"
+etto	{[scat co:i]} =errr= "eeto"
+eetto	{[scat co:i]} =errr= "eeto"
+eetone	{[scat co:i]} =errr=  "eeto_ne"
+ettone	{[scat co:i]} =errr=  "eeto_ne"
+ntone	{[scat co:i]} =errr=  "eeto_ne"
+eetosa	{[scat co:i]} =errr= "eeto_sa" 
+eetosaa	{[scat co:i]} =errr= "eeto_sa"
+fuku_wa_uchi	{[scat co:g]} =in_with_fortune=
+fuun_da	{[scat co:g]} =SNIPPY=
+gee	{[scat co:i]} =keck=
+genki_o_dashite	{[scat co:g]} =cheer=
+genki_o_dashite	{[scat co:g]} =cheer= "genki_o_dashite"
+getchuu	{[scat co:g]} =get_you=
+gittanko	{[scat co:g]} =jumping_jack=
+gittanbattan	{[scat co:g]} =jumping_jack=
+gohon	{[scat co:i]} =COUGH=
+gokigen'yoo	{[scat co:g]} =good_bye= "gokigenyoo"
+gokigenyoo	{[scat co:g]} =good_bye=
+gomen	{[scat co:g]} =sorry=
+gomenkudasai	{[scat co:g]} =excuse_me= "gomen_kudasai"
+gomen_kudasai	{[scat co:g]} =excuse_me= "gomen_kudasai"
+gomennasai	{[scat co:g]} =sorry=
+gomenne	{[scat co:g]} =sorry= "gomen_ne"
+gomen_ne	{[scat co:g]} =sorry=
+gomensai	{[scat co:g]} =sorry= "gomennasai"
+gomenshai	{[scat co:g]} =sorry= "gomennasai"
+goo	{[scat co:g]} =go=
+gochisoosama	{[scat co:g]} =thank_you_for_the_meal=
+gochisoosamadeshita	{[scat co:g]} =thank_you_for_the_meal= "gochisoosama_deshita"
+gochisoosama_deshita	{[scat co:g]} =thank_you_for_the_meal= "gochisoosama_deshita"
+gochisoosan	{[scat co:g]} =thank_you_for_the_meal= "gochisoosama"
+gochisoosandeshita	{[scat co:g]} =thank_you_for_the_meal= "gochisoosama_deshita"
+gokigenyoo	{[scat co:g]} =good_bye=
+gubbai	{[scat co:g]} =good_bye=
+guu	{[scat co:g]} =stone_of_paper_stone_scissors=
+guwee	{[scat co:i]} =yipe=
+guwii	{[scat co:i]} =yipe=
+gyaa	{[scat co:i]} =yipe=
+haq	{[scat co:i]} =yes=
+haaq	{[scat co:i]} =yes= "haq"
+haa	{[scat co:i]} =yes=
+hai	{[scat co:i]} =yes=
+haiq	{[scat co:i]} =yes= "hai"
+haipoozu	{[scat co:g]} =pose_for_photo= "hai_poozu"
+hajimarihajimari	{[scat co:g]} =the_story_begins=
+hajimemashite	{[scat co:g]} =nice_to_meet_you=
+hakkyoi	{[scat co:g]} =heave_ho=
+happibaasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
+happiibaasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
+happii_baasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
+happibaasudeetuuyuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
+happiibaasudeetuuyuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
+happii_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday= 
+happi_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
+hasshashinkoo	{[scat co:g]} =start_alright= "hassha_shinkoo"
+hasshaoorai	{[scat co:g]} =start_alright= "hassha_oorai"
+hassha_oorai	{[scat co:g]} =start_alright= "hassha_oorai"
+heq	{[scat co:i]} =heh= "eq"
+hee	{[scat co:i]} =AMAZED=
+heeq	{[scat co:i]} =AMAZED= "hee"
+heen	{[scat co:i]} =AMAZED= "hee"
+hiee	{[scat co:i]} =gee=
+hihihi	{[scat co:i]} =SNIGGER=
+hi_no_yoojin	{[scat co:g]} =watch_out_for_fire= 
+hi_no_yoojin_shassharimase	{[scat co:g]} =watch_out_for_fire= 
+matchi_ippon	{[scat co:g]} =one_match_cause_of_fire= 
+matchi_ippon_kaji_no_moto	{[scat co:g]} =one_match_cause_of_fire= 
+hirakegoma	{[scat co:g]} =open_sesame= "hirake_goma"
+tojirogoma	{[scat co:g]} =close_sesame= "tojiro_goma"
+hirake_mado	{[scat co:g]} =open_window= "hirake_mado"
+ho	{[scat co:i]} =AMAZED= "hoq"
+hakushon	{[scat co:i]} =SNEEZE=
+hoi	{[scat co:i]} =hey=
+hoiq	{[scat co:i]} =hey= "hoi"
+hoq	{[scat co:i]} =hey=
+hora	{[scat co:i]} =look=
+horaq	{[scat co:i]} =look= "hora"
+hore	{[scat co:i]} =look=
+isseenose	{[scat co:g]} =ready_set_go=
+guddobai	{[scat co:g]} =good_bye=
+hyaa	{[scat co:i]} =eek= 
+fun	{[scat co:i]} =LISTENING=
+funfun	{[scat co:i]} =i_see= 
+fuun	{[scat co:i]} =AMAZED=
+iie	{[scat co:i]} =no=
+iiya	{[scat co:i]} =no_rather=
+inainai	{[scat co:g]} =peekaboo= "inaiinai"
+inaiinai	{[scat co:g]} =peekaboo= "inaiinai"
+inainaibaa	{[scat co:g]} =peekaboo= "inaiinai_baa"
+inaiinaibaa	{[scat co:g]} =peekaboo=
+inainainai	{[scat co:g]} =peekaboo= "inaiinai"
+irasshai	{[scat co:g]} =welcome=
+irasshaimase	{[scat co:g]} =welcome=
+issee_no_se	{[scat co:g]} =ready_set_go=
+itadakimasu	{[scat co:g]} =bon_appetit=
+itai_no_itai_no_tonde_ike	{[scat co:g]} =PAIN_RELIEF_SPELL=
+itterasshai	{[scat co:g]} =take_care=
+itterasshaimase	{[scat co:g]} =take_care=
+ittekimasu	{[scat co:g]} =i_am_off=
+ittemairimasu	{[scat co:g]} =i_am_off=
+yaq	{[scat co:i]} =well= "iya"
+iyaa	{[scat co:i]} =well= "iya"
+iyaan	{[scat co:i]} =well= "iya"
+jaane	{[scat co:g]} =bye= "jaa_ne"
+jaa_ne	{[scat co:g]} =bye= "jaa_ne"
+jane	{[scat co:g]} =bye= "jaa_ne"
+sorejaane	{[scat co:g]} =bye= "sore_jaa_ne"
+sorewasorewa	{[scat co:g]} =indeed= "sore_wa_sore_wa"
+janken	{[scat co:g]} =paper_stone_scissors= "jan_ken"
+jankempoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+jankenpoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+jankempa	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+jan_ken_poi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+jankempon	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+janjan	{[scat co:g]} =SIMPLY_FINISHED=
+jajaan	{[scat co:g]} =FANFARE= "janjajaan"
+janjajaan	{[scat co:g]} =FANFARE=
+jaan	{[scat co:g]} =FANFARE= "janjajaan"
+kagami_yo_kagami	{[scat co:g]} =mirror_mirror_on_the_wall=
+kampai	{[scat co:g]} =prosit=
+kampaai	{[scat co:g]} =prosit= "kampai"
+% katsu	{[scat co:g]} =SCOLD_hey=
+kenkempon	{[scat co:g]} =hopping=
+kohon	{[scat co:h]} =COUGH= "gohon"
+kombanwa	{[scat co:g]} =good_evening=
+konnichiwa	{[scat co:g]} =good_day=
+konnichiwaq	{[scat co:g]} =good_day= "konnichiwa"
+konchiwa	{[scat co:g]} =good_day= "konnichiwa"
+konnichiwaa	{[scat co:g]} =good_day= "konnichiwa"
+chiwaa	{[scat co:g]} =good_day= "konnichiwa"
+kora	{[scat co:i]} =SCOLD_hey=
+koraq	{[scat co:i]} =SCOLD_hey=
+koreq	{[scat co:i]} =SCOLD_hey= "kora"
+kuso	{[scat co:g]} =shit=
+kya	{[scat co:i]} =eek= "kyaa"
+kyaa	{[scat co:i]} =eek=
+maa	{[scat co:i]} =dear_me=
+maamaa	{[scat co:i]} =oh_come_now=
+maq	{[scat co:i]} =dear_me= "maa"
+maji	{[scat co:g]} =really=
+madadayo	{[scat co:g]} =hide_an_seek_wait= "mada_da_yo"
+maadadayo	{[scat co:g]} =hide_an_seek_wait= "mada_da_yo"
+maido	{[scat co:g]} =always_thank_you= 
+maidoari	{[scat co:g]} =always_thank_you=  "maido_ari"
+maidomaido	{[scat co:g]} =always_thank_you= "maido_maido"
+matane	{[scat co:g]} =see_you= "mata_ne"
+mataokoshikudasaimase	{[scat co:g]} =please_come_again= "mata_okoshi_kudasaimase"
+meq	{[scat co:i]} =stop_it= "dame"
+medetashi	{[scat co:g]} =auspicious= 
+meriikurisumasu	{[scat co:g]} =merry_christmas= "merii_kurisumasu"
+mirakuru	{[scat co:g]} =magic_spell=
+mooiikai	{[scat co:g]} =hide_an__seek_coming= "moo_ii_kai"
+mooiiyo	{[scat co:g]} =hide_an_seek__i_am_hidden= "moo_ii_yo"
+mooshiwakearimasen	{[scat co:g]} =it_is_inexcusable= "mooshiwake_arimasen"
+mooshiwakenai	{[scat co:g]} =it_is_inexcusable= "mooshiwake_nai"
+moshimoshi	{[scat co:g]} =hello_phone=
+mattaku	{[scat co:i]} =INTOLERABLE=
+moo	{[scat co:i]} =INTOLERABLE=
+mooq	{[scat co:i]} =INTOLERABLE= "moo"
+mu	{[scat co:i]} =OFFENDED= "muq"
+mukashi_mukashi	{[scat co:g]}	=once_upon_a_time=
+muq	{[scat co:i]} =OFFENDED=
+nammandabu	{[scat co:g]} =i_believe_in_Amitabha=
+namumyoohoorengekyoo	{[scat co:g]} =hail_lotus_sutra=
+naruhodo	{[scat co:g]} =i_see=
+naisu	{[scat co:g]} =nice=
+naisu_gooru	{[scat co:g]} =nice_goal=
+naisu_tuu_miichuu	{[scat co:g]} =nice_to_meet_you=
+ne	{[scat co:i]} =APPEAL=
+naa	{[scat co:i]} =APPEAL=
+nn	{[scat co:i]} =HESIT=
+nennenkorori	{[scat co:g]} =LULL_TO_SLEEP=
+korori	{[scat co:g]} =LULL_TO_SLEEP= "nennenkorori"
+nennekorori	{[scat co:g]} =LULL_TO_SLEEP= "nennenkorori"
+nennen	{[scat co:g]} =LULL_TO_SLEEP=
+nennenyo	{[scat co:g]} =LULL_TO_SLEEP=
+nto	{[scat co:i]} =errr= "eeto"
+ntto	{[scat co:i]} =errr= "eeto"
+nq	{[scat co:i]} =yes= "un"
+odaijini	{[scat co:g]} =take_care_of_yourself= "odaiji_ni"
+odaiji_ni	{[scat co:g]} =take_care_of_yourself= "odaiji_ni"
+oq	{[scat co:i]} =oh=  %FILLER
+ohayo	{[scat co:g]} =good_morning= "ohayoo"
+ohayoo	{[scat co:g]} =good_morning=
+ohayoogozaimasu	{[scat co:g]} =good_morning= "ohayoo_gozaimasu"
+ohayoosan	{[scat co:g]} =good_morning= "ohayoo-san"
+ohayoo_gozaimasu	{[scat co:g]} =good_morning= "ohayoo_gozaimasu"
+ohoho	{[scat co:i]} =hahaha=
+oi	{[scat co:i]} =hey=
+oiq	{[scat co:i]} =hey= "oi"
+ooi@i	{[scat co:i]} =hey= "oi"
+ojamashimasu	{[scat co:g]} =excuse_me_for_disturbing= "ojama_shimasu"
+okaennasai	{[scat co:g]} =welcome_home= "okaerinasai"
+okaeri	{[scat co:g]} =welcome_home=
+okairi	{[scat co:g]} =welcome_home= "okaeri"
+okaerinasai	{[scat co:g]} =welcome_home=
+okkoisho	{[scat co:i]} =heave-ho= "yokkoisho"
+okkei	{[scat co:g]} =ok= "okkee"
+oo	{[scat co:i]} =oh=    %FILLER
+oou@i	{[scat co:i]} =oh=    %FILLER
+okkee	{[scat co:g]} =ok=
+ookee	{[scat co:g]} =ok= "okkee"
+okorori	{[scat co:g]} =lull_to_sleep=
+omachidoo	{[scat co:g]} =thank_you_for_waiting=
+omachidoosama	{[scat co:g]} =thank_you_for_waiting=
+omachidoosama	{[scat co:g]} =thank_you_for_waiting=
+omachidoosan	{[scat co:g]} =thank_you_for_waiting= "omachidoosama"
+omatase	{[scat co:g]} =thank_you_for_waiting=
+omatase_shimashita	{[scat co:g]} =thank_you_for_waiting= "omatase_shimashita"
+omataseshimashita	{[scat co:g]} =thank_you_for_waiting= "omatase_shimashita"
+omedetashi	{[scat co:g]} =congratulations=
+omedetoo	{[scat co:g]} =congratulations= "omedetoo"
+omedetoogozaimashita	{[scat co:g]} =congratulations= "omedetoo_gozaimashita"
+omedetoo_gozaimashita	{[scat co:g]} =congratulations=
+omedetoo_gozaimasu	{[scat co:g]} =congratulations=
+omedetoogozaimasu	{[scat co:g]} =congratulations= "omedetoo_gozaimasu"
+omedeto	{[scat co:g]} =congratulations= "omedetoo"
+omedetoogozaimasu	{[scat co:g]} =congratulations= "omedetoo_gozaimasu"
+omedetoo_gozaimasu	{[scat co:g]} =congratulations= "omedetoo_gozaimasu"
+onegaishimasu	{[scat co:g]} =please= "onegai_shimasu"
+oni_wa_soto	{[scat co:g]} =demons_out=
+oorai	{[scat co:g]} =alright=
+bakkuoorai	{[scat co:g]} =back_alright= "bakku_oorai"
+bakku_oorai	{[scat co:g]} =back_alright=
+otsukaresama	{[scat co:g]} =much_appreciated= 
+otsukaresan	{[scat co:g]} =much_appreciated= "otsukaresama"
+otsukaresamadeshita	{[scat co:g]} =much_appreciated= "otsukaresama_deshita"
+otsukaresama_deshita	{[scat co:g]} =much_appreciated= "otsukaresama_deshita"
+ooi	{[scat co:i]} =hey=
+osakini	{[scat co:g]} =pardon_me_for_going_first= "osaki_ni"
+ossu	{[scat co:g]} =hi=
+ora	{[scat co:i]} =look=
+ototto	{[scat co:i]} =oops=
+otottotto	{[scat co:i]} =oops= "ottotto"
+otto	{[scat co:i]} =oops= "ottotto"
+otoq	{[scat co:i]} =oops= "ottotto"
+ottoq	{[scat co:i]} =oops= "ottotto"
+ottoto	{[scat co:i]} =oops= "ottotto"
+ottotto	{[scat co:i]} =oops=
+oyaq	{[scat co:i]} =oh_dear=
+oyaoya	{[scat co:i]} =oh_dear=
+oyasumi	{[scat co:g]} =good_night=
+oyasuminasai	{[scat co:g]} =good_night=
+paa	{[scat co:g]} =paper_of_paper_stone_scissors=
+pimpon	{[scat co:g]} =exact_answer=
+piisu 	{[scat co:g]} =peace_sign=
+rasshai	{[scat co:g]} =please_come= "irasshai"
+rettsugoo	{[scat co:g]} =let_s_go=
+saa	{[scat co:i]} =well=
+sayonara	{[scat co:g]} =goodbye= "sayoonara"
+sayoonara	{[scat co:g]} =goodbye=
+shii	{[scat co:i]} =hush=
+shimatta	{[scat co:g]} =how_stupid_of_me=
+shitsuree	{[scat co:g]} =excuse_me=
+shitsureeshimasu	{[scat co:g]} =excuse_me= "shitsuree_shimasu"
+shitsureeshimashita	{[scat co:g]} =excuse_me= "shitsuree_shimashita"
+shitsureeitashimashita	{[scat co:g]} =excuse_me= "shitsuree_itashimashita"
+shoi	{[scat co:i]} =shoo=
+sankyuu	{[scat co:g]} =thank_you=
+sankyuu_beri_matchi	{[scat co:g]} =thank_you=
+sate	{[scat co:i]} =well=
+sateto	{[scat co:i]} =well=
+seeno	{[scat co:g]} =ready_set=  "see_no"
+see_no	{[scat co:g]} =ready_set=
+sooka	{[scat co:i]} =is_that_so=  "soo_ka"
+soodesuka	{[scat co:i]} =is_that_so=  "soo_desu_ka"
+asooka	{[scat co:i]} =is_that_so=  "a_soo_ka"
+asoodesuka	{[scat co:i]} =is_that_so= "a_soo_desu_ka"
+soo	{[scat co:i]} =right=
+sooree	{[scat co:i]} =look_out= "sore"
+sooso	{[scat co:i]} =right= "soo"
+soosoo	{[scat co:i]} =right= "soo"
+soora	{[scat co:i]} =look_out= "sore"
+sorejaane	{[scat co:g]} =bye= "sore_jaa_ne"
+suimasen	{[scat co:g]} =excuse_me= "sumimasen"
+suman	{[scat co:g]} =excuse_me= "sumimasen"
+sumimasen	{[scat co:g]} =excuse_me=
+shuppatsushinkoo	{[scat co:g]} =departing= "shuppatsu_shinkoo"
+shuwatchi	{[scat co:i]} =splat=
+ss	{[scat co:i]} =HESITATE=
+swotto	{[scat co:g]} =splat=
+sutaato	{[scat co:g]} =start=
+soorii	{[scat co:g]} =sorry=
+soreq	{[scat co:i]} =look_out=
+tadaima	{[scat co:g]} =i_am_home=
+tsuntsunken	{[scat co:g]} =NUDGE=
+tarara	{[scat co:i]} =INTOLERABLE=
+tto	{[scat co:i]} =errr=
+u	{[scat co:i]} =errr= "uq"   %FILLER
+uq	{[scat co:i]} =errr=         %FILLER
+uan	{[scat co:i]} =wow= "uwaa"
+uee	{[scat co:i]} =boo_hoo= "ueen"
+uen	{[scat co:i]} =boo_hoo= "ueen"
+ueen	{[scat co:i]} =boo_hoo=
+uhaha	{[scat co:i]} =LAUGH= "hahaha"
+un	{[scat co:i]} =yes=
+n	{[scat co:i]} =yes=
+unto	{[scat co:i]} =errr= "eeto"
+uso	{[scat co:i]} =thats_not_true=
+usopyon	{[scat co:g]} =you_fell_for_it= "uso_pyon"
+usoq	{[scat co:i]} =thats_not_true= "uso"
+uu	{[scat co:i]} =errr= %FILLER
+uun	{[scat co:i]} =no= "uun_NEG"
+uunto	{[scat co:i]} =errr= "eeto"
+untokosho	{[scat co:i]} =yo_heave_ho=
+uwa	{[scat co:i]} =wow= "uwaa"
+uwai	{[scat co:i]} =whoopee= "wai"
+uwaaq	{[scat co:i]} =wow= "uwaa"
+uwaq	{[scat co:i]} =wow= "uwaa"
+uwaa	{[scat co:i]} =wow=
+uwan	{[scat co:i]} =wow= "uwaa"
+uwaan	{[scat co:i]} =wow= "uwaa"
+waaq	{[scat co:i]} =wow= "uwaa"
+waq	{[scat co:i]} =wow= "uwaa"
+waa	{[scat co:i]} =wow=
+waai	{[scat co:i]} =whoopee=
+waan	{[scat co:i]} =wow=
+wai	{[scat co:i]} =whoopee=
+waiq	{[scat co:i]} =whoopee= "wai"
+wan	{[scat co:i]} =wow= "waan"
+waoo	{[scat co:i]} =wow=
+wassho	{[scat co:i]} =heave_ho= "wasshoi"
+wasshoi	{[scat co:i]} =heave_ho=
+ween	{[scat co:i]} =boo_hoo=
+weenween	{[scat co:i]} =boo_hoo=
+yei	{[scat co:i]} =yay=
+iyei	{[scat co:i]} =yay= "yei"
+ya	{[scat co:i]} =well= "iya"
+yai	{[scat co:i]} =hey= 
+yaa	{[scat co:i]} =well= "iya"
+yaan	{[scat co:i]} =well= "iya"
+yahhoo	{[scat co:g]} =hi=
+yareyare	{[scat co:g]} =RELIEF=
+yatta	{[scat co:g]} =great=
+yoq	{[scat co:g]} =hi=
+yoidon	{[scat co:g]} =ready_set_go= "yooidon"
+yoikkosho	{[scat co:i]} =yo_heave_ho= "yokkoisho"
+yokkorasho	{[scat co:i]} =yo_heave_ho=
+yoikorashotto	{[scat co:i]} =yo_heave_ho= "yokkoisho"
+yoisho	{[scat co:i]} =oof=
+yoissho	{[scat co:i]} =oof= "yoisho"
+yoishotto	{[scat co:i]} =yo_heave_ho=
+yokkoisho	{[scat co:i]} =yo_heave_ho=
+yokkora	{[scat co:i]} =yo_heave_ho=
+yokkorasho	{[scat co:i]} =yo_heave_ho=
+yokkorase	{[scat co:i]} =yo_heave_ho=
+yokkorase_no_se	{[scat co:i]} =yo_heave_ho=
+yoo	{[scat co:g]} =hi=
+yooi	{[scat co:g]} =ready_set=
+yooidon	{[scat co:g]} =ready_set_go=
+yooi_sutaato	{[scat co:g]} =ready_set_go=
+yookoso	{[scat co:g]} =welcome=
+yoshi	{[scat co:g]} =all_right=
+yoroshiku	{[scat co:g]} =please_treat_favorably=
+yoroshikuonegaishimasu	{[scat co:g]} =please_treat_favorably= "yoroshiku_onegai_shimasu"
+yossha	{[scat co:i]} =heave_ho= 
+yosshoi	{[scat co:i]} =heave_ho= 
+saisho_wa_guu	{[scat co:g]} =paper_stone_scissors=
+
+ki_o_tsuke	{[scat co:g]} =stand_to_attention= 
+kiotsuke	{[scat co:g]} =stand_to_attention= "ki_o_tsuke"
+saoya_saodake	{[scat co:g]} =laundry_poles_to_sell=
+

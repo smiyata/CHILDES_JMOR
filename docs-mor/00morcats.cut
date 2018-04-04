@@ -1,0 +1,504 @@
+@UTF8
+****General List of Morphological Categories******
+1
+first person
+1P
+first person plural
+1PE
+1st Plural exclusive
+1PI
+1st Plural inclusive
+1S
+1st person singular
+2
+2nd person
+2P
+2nd person plural
+2S
+2nd person singular
+3
+3rd person
+3P
+3rd person plural
+3S
+3rd person singular
+ABESS
+abessive 'without x'
+ABL
+ablative 'from x'
+ABS
+absolutive
+ABST
+abstract
+ACC
+accusative
+ACH
+achieve 'manage-to'
+ACT
+active
+ADESS
+adessive 'toward x'
+ADJ
+adjective, adjectival*
+ADJR
+adjectivalizer
+ADP
+adposition*
+ADV
+adverb(ial)*
+ADVERS
+adversative
+ADVN
+adverbial noun*
+ADVR
+adverbializer
+AFF
+affirmative
+AFFECT
+affective
+AG
+agent
+AGR
+agreement
+AGTV
+agentive
+AL
+alienable
+ALL
+allative
+ALLOC
+allocutive
+ANA
+anaphoric
+ANI
+animate
+ANT
+antipassive
+AORIST
+aorist
+APP
+apposition
+APPL
+applicative
+ART
+article*
+ASP
+aspect
+ASS
+assertive
+AT
+attributor
+ATTEN
+attenuative
+AUG
+augmentative
+AUX
+auxiliary*
+BEN
+benefactive
+CARD
+cardinal number
+CAT
+catenative
+CAUS
+causative
+CESS
+cessive stop
+CGN
+conjugational marker
+CIRC
+circumstantial
+CLFR
+classifier
+CLIT
+clitic*
+CMN
+common
+CMPLR
+complementizer
+CMPLX
+complex (morphologically)
+COLL
+collective
+COM
+comitative 'together'
+COMP
+comparative
+COMPL
+completive
+CONC
+concessive
+COND
+conditional
+CONJ
+conjunction*
+CONN
+connective
+CONSEC
+consecutive
+CONT
+continuous, continuative
+COO
+coordinating
+COP
+copula*
+CORR
+correlative
+COU
+count
+CP
+comparative
+DAT
+dative
+DCLN
+declensional marker
+DECL
+declarative
+DEF
+definite
+DEICT
+deitic
+DEM
+demonstrative
+DESID
+desiderative
+DET
+determiner*
+DIM
+diminutive
+DIREC
+directional
+DIST
+distal
+DISTR
+distributive
+DO
+direct object
+DU
+dual
+DUB
+dubitative
+DUR
+durative
+DYN
+dynamic (nonstative)
+ELAT
+elative 'out of X'
+EMPH
+emphatic
+EMPTY
+empty
+EPIT
+epithet
+ERG
+ergative
+ESS
+essive 'as x'
+EV
+evidential
+EVE
+event
+EXCL
+exclusive
+EXIST
+existential
+FACT
+factive, factitive
+FEM
+feminine
+FIN
+finite
+FNL
+final (goal)
+FOC
+focus
+FREQ
+frequentative
+FUT
+future
+GEN
+genitive 'of x'
+GENER
+generic
+GER
+gerund
+HAB
+habitual
+HE
+head
+HON
+honorific
+HORT
+hortative
+HUM
+human
+ILL
+illative 'into x'
+IMM
+imminent
+IMP
+imperative
+IMPRS
+impersonal
+INAL
+inalienable
+INANI
+inanimate
+INCH
+inchoative
+INCL
+inclusive
+INCPT
+inceptive
+INDEF
+indefinite
+INESS
+inessive ('in X')
+INF
+infinitive*
+INFER
+inferential
+INJ
+injunctive
+INSTR
+instrumental
+INT
+interrogative
+INTENT
+intentive
+INTERJ
+interjection*
+INTNS
+intensifier
+INTRANS
+intransitive
+INVIS
+invisible
+IO
+indirect object
+IPFV
+imperfective
+IRR
+irrealis
+ITER
+iterative
+JUSS
+jussive
+LAT
+lative ('moving to')
+LOC
+locative
+MAIN
+main
+MAN
+manner
+MASC
+masculine
+MASS
+mass
+MDL
+modal
+MEAS
+measure
+MOD
+modifier
+MP
+mediopassive
+N
+noun*
+NARR
+narrative
+NEG
+negative
+NEUT
+neuter
+NEUTRAL
+neutral
+NH
+nonhuman
+NOM
+nominative
+NOML
+nominal
+NONPAST
+nonpast
+NONVIR
+nonvirile
+NR
+nominalizer
+NUM
+numeral, numeric
+OBJ
+object
+OBL
+oblique
+OBLIG
+obligatory
+OPT
+optative
+ORD
+ordinal numeral ('first')
+OTHER
+other
+PART
+participle*
+PARTIT
+partitive
+PASS
+passive
+PAST
+past
+PAT
+patient
+PEJ
+pejorative
+PERF
+perfect
+PERM
+permissive ('may')
+PFV
+perfective
+PL
+plural
+PLACE
+place
+PLPF
+pluperfect
+POL
+polite
+POSS
+possessive (X's)
+POST
+postposition*
+POT
+potential
+PP
+past participle
+PRDV
+predicative
+PRE
+prefix
+PREP
+preposition*
+PRES
+present
+PRESPT
+present participle
+PRESUM
+presumptive
+PRET
+preterite
+PRH
+prohibitive
+PRO
+pronoun*
+PROG
+progressive
+PROL
+prolative ('along X')
+PROP
+proper
+PROS
+prospective ('by tomorrow')
+PROT
+protracted ('keep on')
+PROX
+proximal
+PRS
+personal (pronoun)
+PSBL
+possible
+PTL
+particle*
+PURP
+purposive
+QUANT
+quantifier*
+QUE
+question
+QUOT
+quotative
+REAL
+realized, nonfuture
+RECENT
+recent
+RECIP
+reciprocal
+REFL
+reflexive
+REL
+relative*
+REM
+remote
+REPET
+repetition
+REPORT
+reportative
+RES
+resultative
+RETRO
+retrospective
+SEQ
+sequential
+SG
+singular
+SIMUL
+simultaneous
+SP
+superlative
+SPEC
+specific
+SS
+same subject
+STAT
+stative
+SUBJ
+subject
+SUBJV
+subjunctive
+SUBL
+sublative ('onto X')
+SUBOR
+subordinating
+SUFF
+suffix
+SUG
+suggestive
+SUPER
+superessive ('on X')
+TANG
+tangible
+TEMP
+temporal, time
+TERM
+terminative
+TNS
+tense
+TOP
+topic
+TRANS
+transitive
+TRANSL
+translative ('becoming X')
+TRY
+try or strive to achieve
+USIT
+usitative
+V
+verb*
+VAL
+validator
+VIR
+virile
+VIS
+visible
+VOC
+vocative
+VOL
+volitional
+VR
+verbalizer
+WH
+wh-question word
+YN
+yes-no question word

@@ -1,0 +1,109 @@
+@UTF8
+aruiwa	{[scat conj]} =or=
+moshi	{[scat conj]} =if=
+moshimo	{[scat conj]} =if=
+nao	{[scat conj]} =further=
+nazenara	{[scat conj]} =because=
+shikashi	{[scat conj]} =but=
+tokorode	{[scat conj]} =apropos=
+tokoroga	{[scat conj]} =however=
+dakara	{[scat conj]} =therefore=
+damonde	{[scat conj]} =therefore=
+dakedo	{[scat conj]} =but=
+dakedomo	{[scat conj]} =but=
+dakeredo	{[scat conj]} =but=
+dakeredomo	{[scat conj]} =but=
+dattara	{[scat conj]} =then=
+datte	{[scat conj]} =but=
+de	{[scat conj]} =and_then=
+demo	{[scat conj]} =but=
+desukara	{[scat conj]} =therefore=
+dewa	{[scat conj]} =well=
+ja	{[scat conj]} =well=
+monono	{[scat conj]} =although=
+nazenaraba	{[scat conj]} =because=
+sokode	{[scat conj]} =and_so=
+soosuruto	{[scat conj]} =in_that_case=
+hoide	{[scat conj]} =and_then= "sorede"
+hoija	{[scat conj]} =well= "soredewa"
+nja	{[scat conj]} =well= "soredewa"
+honde	{[scat conj]} =and_then= "sorede"
+nde	{[scat conj]} =and_then= "sorede"
+nara	{[scat conj]} =in_that_case=
+honja	{[scat conj]} =well= "soredewa"
+soide	{[scat conj]} =and_then= "sorede"
+soija	{[scat conj]} =well= "soredewa"
+soijaken	{[scat conj]} =therefore=
+sonja	{[scat conj]} =well= "soredewa"
+soreja	{[scat conj]} =well= "soredewa"
+sonde	{[scat conj]} =and_then= "sorede"
+sorede	{[scat conj]} =and_then=
+soredewa	{[scat conj]} =well=
+soreka	{[scat conj]} =or=
+sonnara	{[scat conj]} =in_that_case= "sorenara"
+sorenara	{[scat conj]} =in_that_case=
+soijattara	{[scat conj]} =in_that_case=
+hona	{[scat conj]} =in_that_case= "sorenara"
+honnara	{[scat conj]} =in_that_case= "sorenara"
+hondara	{[scat conj]} =in_that_case= "sorenara"
+shikamo	{[scat conj]} =moreover=
+sooshitara	{[scat conj]} =in_that_case= "soshitara"
+soshitara	{[scat conj]} =in_that_case=
+sorejaken	{[scat conj]} =therefore=
+sorekara	{[scat conj]} =after_that=
+soretomo	{[scat conj]} =or=
+soshite	{[scat conj]} =and_then=
+suruto	{[scat conj]} =and_then=
+soreto	{[scat conj]} =and_then=
+yoosuruni	{[scat conj]} =this_means=
+あるいは	{[scat conj]} =or= "aruiwa"
+もし	{[scat conj]} =if= "moshi"
+もしも	{[scat conj]} =if= "moshimo"
+なお	{[scat conj]} =further= "nao"
+なぜなら	{[scat conj]} =because= "nazenara"
+しかし	{[scat conj]} =but= "shikashi"
+ところで	{[scat conj]} =apropos= "tokorode"
+ところが	{[scat conj]} =however= "tokoroga"
+だから	{[scat conj]} =therefore= "dakara"
+だけど	{[scat conj]} =but= "dakedo"
+だけども	{[scat conj]} =but= "dakedomo"
+だけれど	{[scat conj]} =but= "dakeredo"
+だけれども	{[scat conj]} =but= "dakeredomo"
+だったら	{[scat conj]} =then= "dattara"
+だって	{[scat conj]} =but= "datte"
+で	{[scat conj]} =and_then= "de"
+でも	{[scat conj]} =but= "demo"
+ですから	{[scat conj]} =therefore= "desukara"
+では	{[scat conj]} =well= "dewa"
+じゃ	{[scat conj]} =well= "ja"
+なぜならば	{[scat conj]} =because= "nazenaraba"
+そこで	{[scat conj]} =and_so= "sokode"
+そうすると	{[scat conj]} =in_that_case= "soosuruto"
+ほいで	{[scat conj]} =and_then= "sorede"
+ほいじゃ	{[scat conj]} =well= "soredewa"
+んじゃ	{[scat conj]} =well= "soredewa"
+ほんで	{[scat conj]} =and_then= "sorede"
+んで	{[scat conj]} =and_then= "sorede"
+ほんじゃ	{[scat conj]} =well= "soredewa"
+そいで	{[scat conj]} =and_then= "sorede"
+そいじゃ	{[scat conj]} =well= "soredewa"
+そんじゃ	{[scat conj]} =well= "soredewa"
+それじゃ	{[scat conj]} =well= "soredewa"
+そんで	{[scat conj]} =and_then= "sorede"
+それで	{[scat conj]} =and_then= "sorede"
+それでは	{[scat conj]} =well= "soredewa"
+それか	{[scat conj]} =or= "soreka"
+そんなら	{[scat conj]} =in_that_case= "sorenara"
+それなら	{[scat conj]} =in_that_case= "sorenara"
+ほな	{[scat conj]} =in_that_case= "sorenara"
+ほんなら	{[scat conj]} =in_that_case= "sorenara"
+ほんだら	{[scat conj]} =in_that_case= "sorenara"
+しかも	{[scat conj]} =moreover= "shikamo"
+そうしたら	{[scat conj]} =in_that_case= "soshitara"
+そしたら	{[scat conj]} =in_that_case= "soshitara"
+それから	{[scat conj]} =after_that= "sorekara"
+それとも	{[scat conj]} =or= "soretomo"
+そして	{[scat conj]} =and_then= "soshite"
+すると	{[scat conj]} =and_then= "suruto"
+要するに	{[scat conj]} =this_means= "yoosuruni"
+ようするに	{[scat conj]} =this_means= "yoosuruni"
