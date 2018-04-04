@@ -31,6 +31,7 @@ kongetsu	{[scat n]} =this_month=
 	abekawa	{[scat n]} =kinako_rice_cakes=	% 安倍川
 	abu	{[scat n]} =horsefly=	% アブ  虻
 %	abura	{[scat n]} =fat=	% 脂  膏 
+	abuku	{[scat n]} =bubble= 	% 泡 +
 	abura	{[scat n]} =oil=	% 油 
 	aburaage	{[scat n]} "aburage" =deep_fried_tofu= 	% 油揚げ 
 	aburage	{[scat n]} =deep_fried_tofu= 	% あぶらげ  油 揚 
@@ -2783,6 +2784,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	zaseki	{[scat n]} =seat= 	% 座席 
 	zasshi	{[scat n]} =magazine= 	% 雑誌 
 %changed_to_quant	zembu	{[scat n]} =all= 	% 全部 
+	zemmai	{[scat n]} =spiral_spring= 	% 薇
 	zemmon	{[scat n]} =all_questions= 	% 全問
 	zempoo	{[scat n]} =forward= 	% 前方
 	zeneki	{[scat n]} =previous_station= 	% 前駅 

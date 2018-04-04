@@ -6,6 +6,7 @@ buruburu	{[scat adv:onoma]} =trembling=	%震える
 chikuchiku	{[scat adv:onoma]} =stinging=	%
 chokichoki	{[scat adv:onoma]} =cutting=	%
 furafura	{[scat adv:onoma]} =staggering=	%目まい
+hiihii	{[scat adv:onoma]} =complaining=	%ため息つく
 jirojiro	{[scat adv:onoma]} =staring=	%見る
 gehoq	{[scat adv:onoma]} =nauseous=	%笑う
 geragera	{[scat adv:onoma]} =horselaugh=	%笑う
@@ -282,4 +283,5 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	zutto	{[scat adv]} =constantly=	
 	zuutto	{[scat adv]} =constantly= "zutto"
 %	naruhodo	{[scat adv]} =indeed=	% なるほど  成る程 
+	attoiumani	{[scat adv]} =instantly= "aq_to_iu_ma_ni"	%
 

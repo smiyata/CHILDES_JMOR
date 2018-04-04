@@ -24,8 +24,7 @@ nakisakeb	{[scat v:c]} =cry_and_shout= "nak_sakeb"		%% lex. compound
 fukitob	{[scat v:c]} =be_blown_away= "fuk_tob"				%% lex. compound 
 hanetob	{[scat v:c]} =hop_around= "hane_tob"				%% lex. compound 
 keritobas	{[scat v:c]} =kick_hard= "ker_tob-CAUS:contr"		%% lex. compound 
-oshitobas	{[scat v:c]} =throw
-= "os_tob-CAUS:contr"		%% lex. compound 
+oshitobas	{[scat v:c]} =throw= "os_tob-CAUS:contr"		%% lex. compound 
 	tobas	{[scat v:c]} =fly=	"tob-CAUS:contr"
 	ukab	{[scat v:c]} =float=	%【浮かぶ】
 	yob	{[scat v:c]} =call=	%【呼ぶ】
@@ -442,7 +441,8 @@ omoiatar	{[scat v:c]} =bring_to_mind= "omow_atar"	%【思い当たる】
 tsukiatar	{[scat v:c]} =come_to_the_end= "tsuk_atar"	%【突き当たる】
 	atatamar	{[scat v:c]} =warm=	%【暖まる】
 	atsumar	{[scat v:c]} =gather=	%【集まる】
-	attamar	{[scat v:c]} =become_warm=	%【暖まる】
+	attamar	{[scat v:c]} =become_warm= "atatamar"	%【暖まる】
+	atatamar	{[scat v:c]} =become_warm=	%【暖まる】
 	awasar	{[scat v:c]} =join=	%【合わさる】
 	ayamar	{[scat v:c]} =apologize=	% 【謝る】
 %	ayamar	{[scat v:c]} =mistake=	% 【誤る】
@@ -1665,6 +1665,7 @@ hanashikake	{[scat v:v][comp v:c+v:v]} =talk_to= "hanas+kake"
 hanekake	{[scat v:v][comp v:v+v:v]} =splash= "hane+kake"
 hatarakikake	{[scat v:v][comp v:c+v:v]} =work_on_someone= "hatarak+kake"
 iikake	{[scat v:v][comp v:c+v:v]} =start_to_talk= "iw+kake"
+kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	%
 mikake	{[scat v:v][comp v:v+v:v]} =see= "mi+kake"	%【見かける/見掛ける】
 noborikake	{[scat v:v][comp v:c+v:v]} =start_climbing= "nobor+kake"
 ochikake	{[scat v:v][comp v:v+v:v]} =about_to_fall_down= "ochi+kake"

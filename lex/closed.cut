@@ -287,6 +287,7 @@ cha	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTi
 ja	{[scat vtense] [tense inf] [allo OR vTNn vTIg]} "CONN&wa"
 nakya	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi]} "NEG-CONN&ba"
 nakucha {[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi]} "NEG-CONN&wa"
+nya	{[scat vtense] [tense inf] [allo OR vV vCa vTSe]} "NEG-CONN&ba"
 
 
 % iterative	########
