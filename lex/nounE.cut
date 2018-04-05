@@ -1237,6 +1237,7 @@ kongetsu	{[scat n]} =this_month=
 	kin	{[scat n]} =gold=	% 金
 	kinako	{[scat n]} =soybean_flour= 	% きなこ  黄な粉 
 	kine	{[scat n]} =pestle= 	% きね  杵 
+	kingin	{[scat n]} =gold_and_silver= 	% 金銀 
 	kingyo	{[scat n]} =goldfish= 	% 金魚 
 	kingyosoo	{[scat n]} =snapdragon= 	% 金魚草  キンギョソウ
 	kiniiri	{[scat n]} =favorite= 	% 気に入り 
@@ -1749,6 +1750,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	nikuman	{[scat n]} =meat_dumpling= 	% 肉マン 
 	  kareeman	{[scat n]} =curry_dumpling= 	% カレーマン
 	nimotsu	{[scat n]} =baggage= 	% 荷物 
+	nimpoo	{[scat n]} =ninja_arts= 	% 忍法 
 	ningen	{[scat n]} =human= 	% 人間 
 %	ningyo	{[scat n]} =mermaid= 	% 人形 
 	ningyo	{[scat n]} "ningyoo" =doll=  	% 人形 
@@ -1769,6 +1771,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	nodo	{[scat n]} =throat= 	% のど  喉/ 咽 
 	nohara	{[scat n]} =field= 	% 野原 
 	noki	{[scat n]} =eaves= 	% 軒 
+	nokiba	{[scat n]} =eaves= 	% 軒端 
 	nokogiri	{[scat n]} =saw= 	% のこぎり  鋸 
 	nomi	{[scat n]} =flea=	% のみ  蚤 
 	nomichi	{[scat n]} =field_path= 	% 野道 

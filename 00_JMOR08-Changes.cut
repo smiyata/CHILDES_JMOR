@@ -1,28 +1,73 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018feb19
+**JMOR08 *************************************Susanne Miyata**2018apr5
 ********************************************************************* 
 
+******** CHANGES in JMOR08 ********2018apr5
+1) particles
+a) ka doo ka  -> kadooka 
+OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
+NEW ptl:foc|ka_doo_ka=whether
+
+b) ttara 
+only 2 types of ttara:  ptl:foc  and ptl:conj 
+ptl:top|ttara=TOP  -> ptl:foc|ttara=i_tell_you
+ptl:quot|ttara=i_tell_you  -> ptl:foc after N, ptl:conj after V
+ptl:fina|ttara=i_tell_you  ->  ptl:conj|ttara=i_tell_you (ptl:fina included in ptl:conj)
+
+c) datte 
+only if following tensed V or A  ptl:fina|datte=QUOT
+if following N or formal N : da tte   v:cop|da&PRES ptl:quot|tte
+	ex. nagai datte   adj|naga-PRES ptl:fina|datte=QUOT
+compare: 
+      nagai n da tte  adj|naga-PRES n:fml|no=RLV v:cop|da&PRES ptl:quot|tte
+      empitsu da tte  n|empitsu v:cop|da&PRES ptl:quot|tte
+      Ken datte  n:prop|Ken ptl:foc|datte=even 
+
+2) focus particles 
+Per definition, focus particles can appeared also after verbs.
+A division between ptl:foc and n:fml,  and ptl:foc and ptl:conj, resp., is not necessary
+
+	OLD:  v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
+	NEW: v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
+
+	OLD  v:c|owar-PRES ptl:conj|made=until 
+	NEW v:c|owar-PRES ptl:foc|made=until
+
+analog:  shika toka made nomi nante  
+
+3) shika nai
+"nai"/"arimasen" after "shika" is analyzed as light verb
+	OLD  ptl:conj|shika=only v:ir|ar&NEG-PRES
+ 	NEW ptl:foc|shika=only v:ir:sub|ar&NEG-PRES
+
+4) nagara
+ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc (after noun), resp.
+	OLD v:v|tabe&GER ptl:conj|nagara 
+	NEW  v:v|tabe-SIMUL  
+	OLD n|onna ptl:conj|nagara=while
+	NEW n|onna ptl:foc|nagara=being
+
 ******** CHANGES in JMOR08 ********2018mar11
-1) new ptl:foc
-dokoroka	ptl:foc|dokoro_ka=not_at_all
-niatatte	ptl:foc|ni_atatte=concerning
-niatari		ptl:foc|ni_atari=concerning
-niatarimashite	ptl:foc|ni_atarimashite&POL=concerning
-nioite		ptl:foc|ni_oite=concerning
-niokimashite		ptl:foc|ni_okimashite&POL=concerning
-nimokakawarazu	ptl:foc|ni_mo_kakawarazu=regardless
-nikakawarazu	ptl:foc|ni_kakawarazu=regardless
-nikanshi	ptl:foc|ni_kanshi=concerning
-nikanshimashite		ptl:foc|ni_kanshimashite&POL=concerning
-nishiro		ptl:foc|ni_shiro=be_it
-niseyo		ptl:foc|ni_seyo=be_it
-nitsuki		ptl:foc|ni_tsuki=about
-nitsukimashite	ptl:foc|ni_tsukimashite&POL=about
-nitsurete	ptl:foc|ni_tsurete=as_then
-niyori		ptl:foc|ni_yori=according_to
-niyorimashite	ptl:foc|ni_yorimashite&POL=according_to
-totomoni	ptl:foc|to_tomo_ni=along_with
-towaie		ptl:foc|to_wa_ie=though
+1) new ptl:post
+dokoroka	ptl:post|dokoro_ka=not_at_all
+niatatte	ptl:post|ni_atatte=concerning
+niatari		ptl:post|ni_atari=concerning
+niatarimashite	ptl:post|ni_atarimashite&POL=concerning
+nioite		ptl:post|ni_oite=concerning
+niokimashite		ptl:post|ni_okimashite&POL=concerning
+nimokakawarazu	ptl:post|ni_mo_kakawarazu=regardless
+nikakawarazu	ptl:post|ni_kakawarazu=regardless
+nikanshi	ptl:post|ni_kanshi=concerning
+nikanshimashite		ptl:post|ni_kanshimashite&POL=concerning
+nishiro		ptl:post|ni_shiro=be_it
+niseyo		ptl:post|ni_seyo=be_it
+nitsuki		ptl:post|ni_tsuki=about
+nitsukimashite	ptl:post|ni_tsukimashite&POL=about
+nitsurete	ptl:post|ni_tsurete=as_then
+niyori		ptl:post|ni_yori=according_to
+niyorimashite	ptl:post|ni_yorimashite&POL=according_to
+totomoni	ptl:post|to_tomo_ni=along_with
+towaie		ptl:post|to_wa_ie=though
 
 2) new ptl:post
 nite		ptl:post|nite=at

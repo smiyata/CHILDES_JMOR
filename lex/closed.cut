@@ -165,6 +165,7 @@ kunakya	{[scat atense] [tense pres]} "NEG-CONN&ba"
 kunakutatte	{[scat atense] [tense past]} "NEG-CONC"
 kunakucha	{[scat atense] [tense pres]} "NEG&OBL:wa"
 kunakya	{[scat atense] [tense pres]} "NEG&OBL:ba"
+nagara	{[scat atense] [tense inf] [infl -]} "SIMUL"
 
 ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo-PRES" =like=
 ppokunai	{[scat atense] [tense pres] [sfxcat adj]} "ppo-NEG-PRES" =like=
@@ -258,6 +259,7 @@ mashitara	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}
 mashitari	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-ALT"
 mashite	{[scat vtense] [tense inf] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-CONN"
 masen	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-NEG:n&PRES"
+masende	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-NEG:n-CONN:de"
 mase	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-IMP"
 
 %%% disdain		########
@@ -293,6 +295,9 @@ nya	{[scat vtense] [tense inf] [allo OR vV vCa vTSe]} "NEG-CONN&ba"
 % iterative	########
 tsutsu	{[scat vtense] [tense inf][allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "CONN:tsutsu" 
 
+
+% simultaneity	########
+nagara	{[scat vtense] [tense inf][allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "SIMUL" 
 
 % imperative	########
 e	{[scat vtense] [tense imp] [allo OR vC vRw]} "IMP"

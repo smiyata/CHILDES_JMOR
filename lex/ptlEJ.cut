@@ -10,6 +10,7 @@ datte	{[scat ptl:foc]} =even=
 dokoroka	{[scat ptl:foc]} "dokoro_ka" =not_at_all=
 hodo	{[scat ptl:foc]} =about=
 gurai	{[scat ptl:foc]} "kurai" =about=
+kadooka	{[scat ptl:foc]} =whether= "ka_doo_ka"
 kkiri	{[scat ptl:foc]} =only=
 koso	{[scat ptl:foc]} =just=
 kurai	{[scat ptl:foc]} =about=
@@ -18,27 +19,6 @@ mo	{[scat ptl:foc]} =too=
 nado	{[scat ptl:foc]} =etc=
 nanka	{[scat ptl:foc]} =even=
 nante	{[scat ptl:foc]} =even=
-niatari	{[scat ptl:foc]} =concerning= "ni_atari"
-niatatte	{[scat ptl:foc]} =concerning= "ni_atatte"
-niatarimashite	{[scat ptl:foc]} =concerning= "ni_atarimashite&POL"
-nikanshi	{[scat ptl:foc]} =concerning= "ni_kanshi"
-nikanshite	{[scat ptl:foc]} =concerning= "ni_kanshite"
-nikanshimashite	{[scat ptl:foc]} =concerning= "ni_kanshimashite&POL"
-nikakawarazu	{[scat ptl:foc]} =regardless= "ni_kakawarazu"
-nimokakawarazu	{[scat ptl:foc]} =regardless= "ni_mo_kakawarazu"
-nioite	{[scat ptl:foc]} =concerning= "ni_oite"
-niokimashite	{[scat ptl:foc]} =concerning= "ni_okimashite&POL"
-niseyo	{[scat ptl:foc]} =be_it= "ni_seyo"
-nishiro	{[scat ptl:foc]} =be_it= "ni_shiro"
-nitaishite	{[scat ptl:foc]} =regarding= "ni_taishite"
-nitotte	{[scat ptl:foc]} =for= "ni_totte"
-nitsuite	{[scat ptl:foc]} =about= "ni_tsuite"
-nitsuki	{[scat ptl:foc]} =about= "ni_tsuki"
-nitsukimashite	{[scat ptl:foc]} =about= "ni_tsukimashite&POL"
-nitsurete	{[scat ptl:foc]} =as_then= "ni_tsurete"
-niyotte	{[scat ptl:foc]} =according_to= "ni_yotte"
-niyori	{[scat ptl:foc]} =according_to= "ni_yori"
-niyorimashite	{[scat ptl:foc]} =according_to= "ni_yorimashite&POL"
 toyuu	{[scat ptl:foc]} =called= "to_yuu"
 toiu	{[scat ptl:foc]} =called= "to_yuu"
 nomi	{[scat ptl:foc]} =only=
@@ -70,19 +50,46 @@ yori	{[scat ptl:post]} =from=
 yori	{[scat ptl:post]} =COMPARE= 
 nite	{[scat ptl:post]} =at= 
 
+niatari	{[scat ptl:post]} =concerning= "ni_atari"
+niatatte	{[scat ptl:post]} =concerning= "ni_atatte"
+niatarimashite	{[scat ptl:post]} =concerning= "ni_atarimashite&POL"
+nikanshi	{[scat ptl:post]} =concerning= "ni_kanshi"
+nikanshite	{[scat ptl:post]} =concerning= "ni_kanshite"
+nikanshimashite	{[scat ptl:post]} =concerning= "ni_kanshimashite&POL"
+nikakawarazu	{[scat ptl:post]} =regardless= "ni_kakawarazu"
+nimokakawarazu	{[scat ptl:post]} =regardless= "ni_mo_kakawarazu"
+nioite	{[scat ptl:post]} =concerning= "ni_oite"
+niokaremashite	{[scat ptl:post]} =concerning= "ni_okaremashite&POL"
+niokimashite	{[scat ptl:post]} =concerning= "ni_okimashite&POL"
+niseyo	{[scat ptl:post]} =be_it= "ni_seyo"
+nishiro	{[scat ptl:post]} =be_it= "ni_shiro"
+nitaishite	{[scat ptl:post]} =regarding= "ni_taishite"
+nitotte	{[scat ptl:post]} =for= "ni_totte"
+nitsuite	{[scat ptl:post]} =about= "ni_tsuite"
+nitsuki	{[scat ptl:post]} =about= "ni_tsuki"
+nitsukimashite	{[scat ptl:post]} =about= "ni_tsukimashite&POL"
+nitsurete	{[scat ptl:post]} =as_then= "ni_tsurete"
+niyotte	{[scat ptl:post]} =according_to= "ni_yotte"
+niyori	{[scat ptl:post]} =according_to= "ni_yori"
+niyorimashite	{[scat ptl:post]} =according_to= "ni_yorimashite&POL"
+omotte	{[scat ptl:post]} =from= "o_motte"
+omochimashite	{[scat ptl:post]} =from= "o_mochimashite&POL"
 
 %%%% attributive particle 
 no	{[scat ptl:attr]} =GEN=
 %n	{[scat ptl:attr]} "no" =GEN=
 
 %%%% final particle
+be	{[scat ptl:fina]} =ASSERT=
 jagena	{[scat ptl:fina]} =APPARENTLY=
 noo	{[scat ptl:fina]} =ASSERT=
-be	{[scat ptl:fina]} =ASSERT=
 dai	{[scat ptl:fina]} =ASSERT= 
+dato	{[scat ptl:fina]} =ASSERT= 
 ttai	{[scat ptl:fina]} =ASSERT=
+datte	{[scat ptl:fina]} =QUOT=
 de	{[scat ptl:fina]} =ASSERT=
 do	{[scat ptl:fina]} =ASSERT=
+doo	{[scat ptl:fina]} =ASSERT=
 gana	{[scat ptl:fina]} =TAG=
 gane	{[scat ptl:fina]} =TAG=
 ka	{[scat ptl:fina]} =Q=
@@ -90,7 +97,6 @@ kka	{[scat ptl:fina]} =Q= "ka"
 kai	{[scat ptl:fina]} =Q=
 kana	{[scat ptl:fina]} =DOUBT= "kanaa"
 kanaa	{[scat ptl:fina]} =DOUBT=
-kke	{[scat ptl:fina]} =WONDER=
 mon	{[scat ptl:fina]} =ASSERT=
 mono	{[scat ptl:fina]} =ASSERT=
 n	{[scat ptl:fina]} =FINA= "no"  
@@ -99,11 +105,11 @@ ne	{[scat ptl:fina]} =TAG=
 nee	{[scat ptl:fina]} =TAG= "ne"
 nen	{[scat ptl:fina]} =ASSERT=
 no	{[scat ptl:fina]} =FINA= 
+pe	{[scat ptl:fina]} =ASSERT=
 sa	{[scat ptl:fina]} =FINA= 
 saq	{[scat ptl:fina]} =FINA= "sa"
 saa	{[scat ptl:fina]} =FINA= "sa" 
 tomo	{[scat ptl:fina]} =ASSERT=
-ttara	{[scat ptl:fina]} =i_tell_you=
 tteba	{[scat ptl:fina]} =i_tell_you=
 wa	{[scat ptl:fina]} =FINA=
 wai	{[scat ptl:fina]} =FINA=
@@ -134,6 +140,7 @@ kiri	{[scat ptl:conj]} =just= "kkiri"
 kkiri	{[scat ptl:conj]} =just=
 made	{[scat ptl:conj]} =until=
 mo	{[scat ptl:conj]} =even_if=
+monoo	{[scat ptl:conj]} =in_spite_of=
 nagara	{[scat ptl:conj]} =while=
 nara	{[scat ptl:conj]} =if=
 nari	{[scat ptl:conj]} =and=
@@ -142,13 +149,13 @@ nde	{[scat ptl:conj]} =because= "node"
 noni	{[scat ptl:conj]} =in_spite_of=
 sakai	{[scat ptl:conj]} =because=
 shi	{[scat ptl:conj]} =also=
-shika	{[scat ptl:conj]} =only=  % only before "ar-NEG" (no other v possible)
 ttara	{[scat ptl:conj]} =when= 
 to	{[scat ptl:conj]} =when=
 toka	{[scat ptl:conj]} =or=
 toiuka	{[scat ptl:conj]} =or_rather=
 tteiuka	{[scat ptl:conj]} =or_rather=
 %toshitara	{[scat ptl:conj]} =if=   CHANGED TO  to shitara  ptl:quot v:ir|su
+yainaya	{[scat ptl:conj]} =or= "ya_ina_ya"
 yori	{[scat ptl:conj]} =more=
 
 %%%%%%%%%%%% coordinating particle
@@ -169,7 +176,7 @@ n	{[scat ptl:snr]} =SNR= "no"
 
 %%%%% topic particle
 tte	{[scat ptl:top]} =TOP=
-ttara	{[scat ptl:top]} =TOP=
+ttara	{[scat ptl:foc]} =TOP=
 wa	{[scat ptl:top]} =TOP=
 
 %%%%% quotation particle
@@ -178,7 +185,6 @@ tchuu	{[scat ptl:quot]} "to&iu" =QUOT=
 tchatte	{[scat ptl:quot]} "to&yutte" =QUOT=
 ttsutta	{[scat ptl:quot]} "to&yutta" =QUOT= 
 ttsutte	{[scat ptl:quot]} "to&yutte" =QUOT= 
-ttara	{[scat ptl:quot]} =QUOT=
 tte	{[scat ptl:quot]} =QUOT=
 tto	{[scat ptl:quot]} "to" =QUOT= 
 to	{[scat ptl:quot]} =QUOT=

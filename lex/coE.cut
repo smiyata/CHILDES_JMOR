@@ -8,7 +8,7 @@ aaaa	{[scat co:i]} =ah= "aa" %FILLER
 aan	{[scat co:i]} =OPEN_MOUTH=
 aaqa	{[scat co:i]} =FAILURE=
 ai	{[scat co:i]} =yes= "hai"
-aikodesho	{[scat co:g]} =we_are_quits= 
+aikodesho	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aikoodeshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aikoo_deshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aitaq	{[scat co:i]} =ouch=
@@ -210,6 +210,7 @@ sorewasorewa	{[scat co:g]} =indeed= "sore_wa_sore_wa"
 janken	{[scat co:g]} =paper_stone_scissors= "jan_ken"
 jankempoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jankenpoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
+jankempon	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jankempa	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jan_ken_poi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jankempon	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
