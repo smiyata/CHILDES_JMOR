@@ -7,7 +7,6 @@ baai	{[scat n:fml]} =case=
 bakari	{[scat n:fml]} "bakari" =nothing_but=
 bakka	{[scat n:fml]} "bakari" =nothing_but=
 bakkari	{[scat n:fml]} "bakari" =nothing_but=
-dake	{[scat n:fml]} =only=
 fuu	{[scat n:fml]} =manner=
 hammen	{[scat n:fml]} =reverse=
 hazu	{[scat n:fml]} =supposed_to=
@@ -19,6 +18,7 @@ kagiri	{[scat n:fml]} =as_long_as=
 kawari	{[scat n:fml]} =instead_of=
  gawari	{[scat n:fml]} =instead_of= "kawari"
 kekka	{[scat n:fml]} =result=
+kkiri	{[scat n:fml]} =only=
 koto	{[scat n:fml]} =fact=
 koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
@@ -52,4 +52,4 @@ tsuide	{[scat n:fml]} =by_the_way=
 tsumori	{[scat n:fml]} =intention=
 uchi	{[scat n:fml]} =while=
 wake	{[scat n:fml]} =reason=
-
+yoo	{[scat n:fml]} =apparently=

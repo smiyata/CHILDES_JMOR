@@ -1080,6 +1080,7 @@ kongetsu	{[scat n]} =this_month=
 	kanja	{[scat n]} =patient= 	% 患者 
 	kanji	{[scat n]} =character=	% 漢字 
 	kanji	{[scat n]} =feeling=	% 感じ 
+	kanjo	{[scat n]} =courtlady=	%官女
 	kankaku	{[scat n]} =feeling=	% 感覚 
 	kankaku	{[scat n]} =space=	% 間隔 
 	tookankaku	{[scat n]} =regular_interval= "too#kankaku"	% 等間隔 
@@ -1387,6 +1388,8 @@ kongetsu	{[scat n]} =this_month=
 	kowashiya	{[scat n]} "kowas-GER-ya" =destroyer= 
 	koya	{[scat n]} =hut= 	% 小屋 
 	koyagi	{[scat n]} "ko#yagi" =kid= 
+	koyari	{[scat n]} "ko#yari" =little_spear= 
+	koyoi	{[scat n]} =tonight= 	% 今宵  
 	koyomi	{[scat n]} =calendar= 	% 暦 こよみ 
 	koyubi	{[scat n]} =little_finger= 	% 小指 
 	kozeni	{[scat n]} =coins= 	% 小銭
@@ -1423,6 +1426,7 @@ kongetsu	{[scat n]} =this_month=
 	kurumi	{[scat n]} =walnut= 	% くるみ  胡桃 
 	kusa	{[scat n]} =weed= 	% 草 
 	kusahara	{[scat n]} =grassy_plain= 	% 草原 
+	kusappara	{[scat n]} =grassy_plain= "kusahara"	% 草原 
 	kusari	{[scat n]} =chain=	% 鎖 
 	kushi	{[scat n]} =comb=	% くし  櫛 
 	kuso	{[scat n]} =shit= 	% くそ  糞 
@@ -1668,6 +1672,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	myaku	{[scat n]} =pulse= 	% 脈 
 	myooji	{[scat n]} =surname= 	% 名字  苗字 
 	na	{[scat n]} =name= 	% 名 
+%	na	{[scat n]} =vegetable= 	% 菜 
 	nabe	{[scat n]} =pan= 	% なべ  鍋 
 	nadare	{[scat n]} =avalanche= 	% なだれ/雪崩 
 	nae	{[scat n]} =seedling= 	% 苗 
@@ -1749,6 +1754,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	niku	{[scat n]} =meat= 	% 肉 
 	nikuman	{[scat n]} =meat_dumpling= 	% 肉マン 
 	  kareeman	{[scat n]} =curry_dumpling= 	% カレーマン
+	  amman	{[scat n]} =redbean_paste_dumpling= 	% あんマン
 	nimotsu	{[scat n]} =baggage= 	% 荷物 
 	nimpoo	{[scat n]} =ninja_arts= 	% 忍法 
 	ningen	{[scat n]} =human= 	% 人間 
@@ -1778,6 +1784,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	nomimono	{[scat n]} =drink= 	% 飲み物 
 	nomiya	{[scat n]} "nom-GER-ya" =pub= 	% 飲み屋 
 	nopperaboo	{[scat n]} =flat= 	% のっぺらぼう 
+	noppo	{[scat n]} =lanky= 	% のっぽ
 	nookyoo	{[scat n]} =agricultural_cooperative= 	% 農協 
 	noomiso	{[scat n]} =brain_matter= 	% 脳みそ  脳味噌 
 	nori	{[scat n]} =glue=	% のり  糊 
@@ -2507,6 +2514,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	toguro	{[scat n]} =coil= 	% とぐろ  蜷局
 	tokage	{[scat n]} =lizard= 	% とかげ  蜥蜴 
 	tokee	{[scat n]} =clock= 	% 時計 
+	kodokee	{[scat n]} =old_clock= "ko_tokee" 	% 古時計 
 	toki	{[scat n]} =time= 	% 時 
 	tokkyuu	{[scat n]} =limited_express= 	% 特急 
 	toko	{[scat n]} "tokoro" =place= 	% とこ  所 
@@ -2668,6 +2676,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	wani	{[scat n]} =crocodile= 	% わに  鰐 
 	wanryoku	{[scat n]} =phys_strength=	% 腕力 
 	wara	{[scat n]} =straw= 	% わら
+	waraimono	{[scat n]} =laughingstock= 	% 笑いもの
 	waraji	{[scat n]} =straw_sandals= 	% 草鞋
 	waribashi	{[scat n]} =half_split_chopsticks= 	% 割りばし  割り 箸 
 	wasabi	{[scat n]} =wasabi_horseradish= 	% わさび  山葵 
@@ -2698,6 +2707,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yamori	{[scat n]} =gecko= 	% やもり  守宮 
 	yane	{[scat n]} =roof= 	% 屋根 
 	yaoya	{[scat n]} =vegetable_store= 	% 八百屋 
+	yari	{[scat n]} =spear= 	% 槍
 	yaroo	{[scat n]} =fellow= 	% 野郎 
 	yasai	{[scat n]} =vegetable= 	% 野菜 
 	yasaishitsu	{[scat n]} "yasai-shitsu" =vegetable_space= 	% 野菜 
@@ -2758,7 +2768,6 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yunomi	{[scat n]} =teacup= 	% 湯のみ 
 	yuoo	{[scat n]} =sulfur= 	% 硫黄 
 	yuri	{[scat n]} =lily= 	% ゆり  百合 ユリ
-	yurikago	{[scat n]} =crib= 	% 揺籠  ゆりかご
 	yutampo	{[scat n]} =hot_water_bottle= 	% ゆたんぽ  湯たんぽ
 	yuube	{[scat n]} =last_night= 	% ゆうべ  昨夕 
 	yuubin	{[scat n]} =mail= 	% 郵便 

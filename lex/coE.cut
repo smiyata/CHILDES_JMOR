@@ -134,6 +134,7 @@ gochisoosandeshita	{[scat co:g]} =thank_you_for_the_meal= "gochisoosama_deshita"
 gokigenyoo	{[scat co:g]} =good_bye=
 gubbai	{[scat co:g]} =good_bye=
 guu	{[scat co:g]} =stone_of_paper_stone_scissors=
+guuchiipaa	{[scat co:g]} =stone_scissors_paper=
 guwee	{[scat co:i]} =yipe=
 guwii	{[scat co:i]} =yipe=
 gyaa	{[scat co:i]} =yipe=
@@ -160,6 +161,7 @@ heq	{[scat co:i]} =heh= "eq"
 hee	{[scat co:i]} =AMAZED=
 heeq	{[scat co:i]} =AMAZED= "hee"
 heen	{[scat co:i]} =AMAZED= "hee"
+hei	{[scat co:i]} =hei= "hey"
 hiee	{[scat co:i]} =gee=
 hihihi	{[scat co:i]} =SNIGGER=
 hi_no_yoojin	{[scat co:g]} =watch_out_for_fire= 

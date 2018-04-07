@@ -1338,6 +1338,7 @@ medat	{[scat v:c]} =stand_out= "me_tat"	%【目立つ】
 sakadat	{[scat v:c]} =stand_on_end= "saka_tat"	%【さか立つ】
 tabidat	{[scat v:c]} =depart= "tabi_tat"
 yakudat	{[scat v:c]} =be_useful= "yaku_tat"
+yakunitat	{[scat v:c]} =be_useful= "yaku_ni_tat"
 	tsuttat	{[scat v:c]} =stand_up=	%【突っ立つ】
 	ut	{[scat v:c]} =hit=	%【打つ】
 

@@ -33,6 +33,7 @@ janaide	{[scat v:cop] [tense inf]} =be= "de&wa-NEG-CONN:de"
 janaide	{[scat v:cop] [tense imp]} =be= "de&wa-NEG-IMP:de"
 ni	{[scat v:cop] [tense inf]} =be= "ni&ADV"
 de	{[scat v:cop] [tense imp]} =be= "de&CONN"
+dai	{[scat v:cop] [tense pres]} =be= "dai&PRES_ASSERT"
 
 %%		Copula plain "da" Dialect: ya
 ya	{[scat v:cop] [tense pres]} =be= "ya&PRES"

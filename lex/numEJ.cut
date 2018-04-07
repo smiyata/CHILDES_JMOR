@@ -226,6 +226,7 @@ daiichi	{[scat num]} "dai#ichi" =first=
 daini	{[scat num]} "dai#ni" =second=
 daisan	{[scat num]} "dai#san" =third=
 
+ichimanjaku	{[scat num]} "ichi-man-shaku" =ten_thousand_feet=
 %%% ENGLISH BASED
 %							【英語ベース】
 zero	{[scat num] [allo numA]} =zero=

@@ -782,6 +782,7 @@ xf%%% VERBAL NOUNS %%
 	takuhaisha	{[scat n]} =delivery_car=	%【宅配】
 	tanjoo	{[scat n:vn]} =birth=	%【誕生】
 	tanken	{[scat n:vn]} =exploration=	%【探検/探険】
+	tankentai	{[scat n]} =exploration_team=	%【探検隊/探険隊】
 	tanoshimi	{[scat n:vn]} =pleasure=	%【楽しみ】
 	tansoku	{[scat n:vn]} =probing=	%【探測】
 	taosemboo	{[scat n:vn]} =knock_down=	%【倒せん坊】

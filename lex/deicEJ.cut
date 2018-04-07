@@ -133,58 +133,27 @@ itsu	{[scat adv:deic:wh]} =when=
 いつ	{[scat adv:deic:wh]} =when= "itsu"
 何時	{[scat adv:deic:wh]} =when= "itsu"
 nande	{[scat adv:deic:wh]} =why=
-なんで	{[scat adv:deic:wh]} =why= "nande"
-何で	{[scat adv:deic:wh]} =why= "nande"
 nashite	{[scat adv:deic:wh]} =why=
-なして	{[scat adv:deic:wh]} =why= "nashite"
 nani	{[scat n:deic:wh]} =what=
-なに	{[scat n:deic:wh]} =what= "nani"
-何	{[scat n:deic:wh]} =what= "nani"
 naninani	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
-なになに	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
-何々	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
-何何	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
 nanisen	{[scat n:deic:wh]} =what_line= "nani-sen"
-何線	{[scat n:deic:wh]} =what_line= "nani-sen"
 nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"
-何カー	{[scat n:deic:wh]} =what_car= "nani-kaa"
 nanyoobi	{[scat n:deic:wh]} =what_weekday= "nani-yoobi"
-何曜日	{[scat n:deic:wh]} =what_weekday= "nani-yoobi"
 nan	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
-何	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
-なん	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
 nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
 naze	{[scat adv:deic:wh]} =why=
-なぜ	{[scat adv:deic:wh]} =why= "naze"
-何故	{[scat adv:deic:wh]} =why= "naze"
 dare	{[scat n:deic:wh]} =who=
-だれ	{[scat n:deic:wh]} =who= "dare"
-誰	{[scat n:deic:wh]} =who= "dare"
 daredare	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
-だれだれ	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
-誰々	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
-誰誰	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
 dochira	{[scat n:deic:wh]} =which_HON=
-どちら	{[scat n:deic:wh]} =which_HON= "dochira"
 doitsu	{[scat n:deic:wh]} =who=
-どいつ	{[scat n:deic:wh]} =who= "doitsu"
 doko	{[scat n:deic:wh]} =where=
-どこ	{[scat n:deic:wh]} =where= "doko"
-何処	{[scat n:deic:wh]} =where= "doko"
 dokodoko	{[scat n][comp n:deic:wh+n:deic:wh]} =where= "doko+doko"
-どこどこ	{[scat n][comp n:deic:wh+n:deic:wh]} =where= "doko+doko"
 dokora	{[scat adn:deic:wh]} =where=
-どこら	{[scat adn:deic:wh]} =where= "dokora"
 %dokorahen	{[scat n:deic:wh]} == %2 words
 donai	{[scat n:deic:wh]} =how=
-どない	{[scat n:deic:wh]} =how= "donai"
 donata	{[scat n:deic:wh]} =who_HON=
-どなた	{[scat n:deic:wh]} =who_HON= "donata"
-何方	{[scat n:deic:wh]} =who_HON= "donata"
 dore	{[scat n:deic:wh]} =which=
-どれ	{[scat n:deic:wh]} =which= "dore"
 dotchi	{[scat n:deic:wh]} =which=
-どっち	{[scat n:deic:wh]} =which= "dotchi"
 
 %%%%%%%%%%% Personal Nouns	
 	
@@ -212,35 +181,6 @@ watashi	{[scat n:deic:prs]} =i_FML=
 atashi	{[scat n:deic:prs]} =i_FAM= 
 yatsu	{[scat n:deic:prs]} =thing=
 
-あなた	{[scat n:deic:prs]} =you= "anata"
-あんた	{[scat n:deic:prs]} =you= "anta"
-ぼく	{[scat n:deic:prs]} =i_MASC= "boku"
-僕	{[scat n:deic:prs]} =i_MASC= "boku"
-ぼくちん	{[scat n:deic:prs]} =i_MASC= "bokuchin"
-じぶん	{[scat n:deic:prs]} =self= "jibun"
-自分	{[scat n:deic:prs]} =self= "jibun"
-かのじょ	{[scat n:deic:prs]} =she= "kanojo"
-彼女	{[scat n:deic:prs]} =she= "kanojo"
-かれ	{[scat n:deic:prs]} =he= "kare"
-彼	{[scat n:deic:prs]} =he= "kare"
-きみ	{[scat n:deic:prs]} =you= "kimi"
-みな	{[scat n:deic:prs]} =all= "mina"
-皆	{[scat n:deic:prs]} =all= "mina"
-みんな	{[scat n:deic:prs]} =all= "mina"
-むこう	{[scat n:deic:prs]} =they= "mukoo"
-おまえ	{[scat n:deic:prs]} =you= "omae"
-おれ	{[scat n:deic:prs]} =i_MASC= "ore"
-俺	{[scat n:deic:prs]} =i_MASC= "ore"
-おたく	{[scat n:deic:prs]} =you= "otaku"
-お宅	{[scat n:deic:prs]} =you= "otaku"
-うち	{[scat n:deic:prs]} =we= "uchi"
-われわれ	{[scat n:deic:prs]} =we= "wareware"
-我々	{[scat n:deic:prs]} =we= "wareware"
-わたくし	{[scat n:deic:prs]} =i= "watakushi"
-わたし	{[scat n:deic:prs]} =i_FML= "watashi"
-私	{[scat n:deic:prs]} =i_FML= "watashi"
-あたし	{[scat n:deic:prs]} =i_FAM= "atashi"
-やつ	{[scat n:deic:prs]} =thing= "yatsu"
 
 orera	{[scat n:deic:prs]} =we_PL= "ore-ra"
 yatsura	{[scat n:deic:prs]} =they_PL= "yatsu-ra"
@@ -251,30 +191,18 @@ bokura	{[scat n:deic:prs]} =we_PL= "boku-ra"
 uchira	{[scat n:deic:prs]} =we_PL= "uchi-ra"
 aitsura	{[scat n:deic:prs]} =they_PL= "aitsu-ra"
 koitsura	{[scat n:deic:prs]} =they_PL= "koitsu-ra"
-おれら	{[scat n:deic:prs]} =we_PL= "ore-ra"
-俺ら	{[scat n:deic:prs]} =we_PL= "ore-ra"
-やつら	{[scat n:deic:prs]} =they_PL= "yatsu-ra"
-おまえら	{[scat n:deic:prs]} =you_PL= "omae-ra"
-かれら	{[scat n:deic:prs]} =they_PL= "kare-ra"
-彼ら	{[scat n:deic:prs]} =they_PL= "kare-ra"
-きみら	{[scat n:deic:prs]} =you_PL= "kimi-ra"
-君ら	{[scat n:deic:prs]} =you_PL= "kimi-ra"
-ぼくら	{[scat n:deic:prs]} =we_PL= "boku-ra"
-僕ら	{[scat n:deic:prs]} =we_PL= "boku-ra"
-うちら	{[scat n:deic:prs]} =we_PL= "uchi-ra"
-あいつら	{[scat n:deic:prs]} =they_PL= "aitsu-ra"
-こいつら	{[scat n:deic:prs]} =they_PL= "koitsu-ra"
 
-	
 %%%%%%%%%%% Indefinites   
 
 dareka	{[scat n:deic:indef]} =somebody=
 darekasan	{[scat n:deic:indef]} =a_certain_person= "dareka-san"
 daremo	{[scat n:deic:indef]} =nobody=
+dareyara	{[scat n:deic:indef]} =somebody=
 dochiramo	{[scat n:deic:indef]} =none=
 dokoka	{[scat n:deic:indef]} =somewhere=
 dokka	{[scat n:deic:indef]} =somewhere= "dokoka"
 dokomo	{[scat n:deic:indef]} =nowhere=
+dokoyara	{[scat n:deic:indef]} =somewhere=
 dooka	{[scat adv:deic:indef]} =somehow=
 doose	{[scat adv:deic:indef]} =anyway=		
 doonika	{[scat adv:deic:indef]} =somehow=		
@@ -301,6 +229,7 @@ itsumo	{[scat n:deic:indef]} =always=
 itsumoitsumo	{[scat adv:deic:indef]} =always=
 itsunomani	{[scat adv:deic:indef]} =before_one_knows=	%  
 itsunomanika	{[scat adv:deic:indef]} =before_one_knows=	%  
+itsuyara	{[scat adv:deic:indef]} =someday=
 nandeka	{[scat adv:deic:indef]} =for_some_reason=
 nandemokandemo	{[scat n:deic:indef]} =everything=
 nanimo	{[scat n:deic:indef]} =nothing=
@@ -321,80 +250,10 @@ nantonaku	{[scat adv:deic:indef]} =somehow=	% なんとなく/何となく
 nanka	{[scat n:deic:indef]} =something= "nanika"
 nanika	{[scat n:deic:indef]} =something=
 nanka	{[scat adv:deic:indef]} =somehow=	% なんか/何か 
-naniyara	{[scat adv:deic:indef]} =what_so_ever=
-nanyara	{[scat adv:deic:indef]} =what_so_ever= "naniyara"
+naniyara	{[scat n:deic:indef]} =what_so_ever=
+nanyara	{[scat n:deic:indef]} =what_so_ever= "naniyara"
 nazeka	{[scat adv:deic:indef]} =for_some_reason=
 
-だれか	{[scat n:deic:indef]} =somebody= "dareka"
-誰か	{[scat n:deic:indef]} =somebody= "dareka"
-だれかさん	{[scat n:deic:indef]} =a_certain_person= "dareka-san"
-誰かさん	{[scat n:deic:indef]} =a_certain_person= "dareka-san"
-だれも	{[scat n:deic:indef]} =nobody= "daremo"
-誰も	{[scat n:deic:indef]} =nobody= "daremo"
-どちらも	{[scat n:deic:indef]} =none= "dochiramo"
-どこか	{[scat n:deic:indef]} =somewhere= "dokoka"
-どっか	{[scat n:deic:indef]} =somewhere= "dokoka"
-どこも	{[scat n:deic:indef]} =nowhere= "dokomo"
-どうか	{[scat adv:deic:indef]} =somehow= "dooka"
-どうせ	{[scat adv:deic:indef]} =anyway= "doose"	
-どうにか	{[scat adv:deic:indef]} =somehow=  "doonika"	
-どうやら	{[scat adv:deic:indef]} =somehow=  "dooyara"
-どうも	{[scat adv:deic:indef]} =somehow=  "dooyara"
-どうしてか	{[scat adv:deic:indef]} =for_some_reason=  "dooshiteka"
-どうしても	{[scat adv:deic:indef]} =at_any_cost= "dooshitemo"
-どれか	{[scat n:deic:indef]} =either= "doreka"
-どれも	{[scat n:deic:indef]} =none= "doremo"
-どちらか	{[scat n:deic:indef]} =which= "dochiraka"
-どなたか	{[scat n:deic:indef]} =somebody= "donataka"
-どなたも	{[scat n:deic:indef]} =nobody= "donatamo"
-どっちか	{[scat n:deic:indef]} =which= "dotchika"
-どっちも	{[scat n:deic:indef]} =none= "dotchimo"
-いかに	{[scat adv:deic:indef]} =how= "ikani"	%    
-如何に	{[scat adv:deic:indef]} =how= "ikani"	%   
-いかにも	{[scat adv:deic:indef]} =surely=  "ikanimo" %   如何にも 
-如何にも	{[scat adv:deic:indef]} =surely=  "ikanimo" %    
-いくらか	{[scat adv:deic:indef]} =how_much= "ikuraka"
-いくらも	{[scat adv:deic:indef]} =how_much= "ikuramo"
-いくつか	{[scat n:deic:indef]} =some= "ikutsuka"
-いくつも	{[scat n:deic:indef]} =some= "ikutsumo"
-いつか	{[scat adv:deic:indef]} =someday= "itsuka"
-いつも	{[scat adv:deic:indef]} =always= "itsumo"
-いつのまに	{[scat adv:deic:indef]} =before_one_knows=  "itsunomani"	%  
-いつのまにか	{[scat adv:deic:indef]} =before_one_knows= "itsunomanika"	%  
-いつの間に	{[scat adv:deic:indef]} =before_one_knows=  "itsunomani"	%  
-いつの間にか	{[scat adv:deic:indef]} =before_one_knows= "itsunomanika"	%  
-なんでか	{[scat adv:deic:indef]} =for_some_reason= "nandeka"
-なんでもかんでも	{[scat n:deic:indef]} =everything= "nandemokandemo"
-なにも	{[scat n:deic:indef]} =nothing= "nanimo"
-何も	{[scat n:deic:indef]} =nothing= "nanimo"
-なんにも	{[scat n:deic:indef]} =nothing= "nanimo"
-なんも	{[scat n:deic:indef]} =nothing= "nanimo"
-なにか用	{[scat n:deic:indef]} =for_something= "nanika-yoo"
-何か用	{[scat n:deic:indef]} =for_something= "nanika-yoo"
-なんだか	{[scat adv:deic:indef]} =somehow= "nandaka"	% 何だか 
-何だか	{[scat adv:deic:indef]} =somehow= "nandaka"	% 何だか 
-なんびきか	{[scat n:deic:indef]} =some_animals= "nambikika"
-なん匹か	{[scat n:deic:indef]} =some_animals= "nambikika"
-何匹か	{[scat n:deic:indef]} =some_animals= "nambikika"
-なんにんか	{[scat n:deic:indef]} =some_persons= "nanninka"
-何人か	{[scat n:deic:indef]} =some_persons= "nanninka"
-なにもかも	{[scat adv:deic:indef]} =everything= "nanimokamo"	%  
-何もかも	{[scat adv:deic:indef]} =everything= "nanimokamo"	%  
-% nante	{[scat adv:deic:indef]} == ""	% なんて/何て 
-なんとか	{[scat adv:deic:indef]} =somehow= "nantoka"	% なんとか/何とか 
-なんとかやさん	{[scat n:deic:indef]} =shop_for_something= "nantoka-ya-san"
-なんとか屋さん	{[scat n:deic:indef]} =shop_for_something= "nantoka-ya-san"
-何とか屋さん	{[scat n:deic:indef]} =shop_for_something= "nantoka-ya-san"
-なんとかかんとか	{[scat n:deic:indef]} == "nantoka_kantoka"
-なんとなく	{[scat adv:deic:indef]} =somehow= "nantonaku"	%  
-何となく	{[scat adv:deic:indef]} =somehow= "nantonaku"	% 
-なんか	{[scat n:deic:indef]} =something= "nanika"
-なにか	{[scat n:deic:indef]} =something= "nanika"
-何か	{[scat n:deic:indef]} =something= "nanika"
-なんか	{[scat adv:deic:indef]} =somehow= "nanka"	%  
-なんやら	{[scat n:deic:indef]} =what_so_ever= "naniyara"
-なにやら	{[scat adv:deic:indef]} =why_so_ever= "naniyara"
-なぜか	{[scat adv:deic:indef]} =for_some_reason= "nazeka"
 
 %%%%%stuff for KKK
 nandemo	{[scat n:deic:indef]} =everything=

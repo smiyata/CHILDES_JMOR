@@ -1,8 +1,8 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018apr5
+**JMOR08 *************************************Susanne Miyata**2018apr7
 ********************************************************************* 
 
-******** CHANGES in JMOR08 ********2018apr5
+******** CHANGES in JMOR08 ********2018apr7
 1) particles
 a) ka doo ka  -> kadooka 
 OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
@@ -24,16 +24,17 @@ compare:
       Ken datte  n:prop|Ken ptl:foc|datte=even 
 
 2) focus particles 
-Per definition, focus particles can appeared also after verbs.
+Per definition, focus particles can appear also after verbs.
 A division between ptl:foc and n:fml,  and ptl:foc and ptl:conj, resp., is not necessary
 
 	OLD:  v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
 	NEW: v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
+analog: bakari (bakkari bakka bakashi bakkashi), dake, kkiri
 
 	OLD  v:c|owar-PRES ptl:conj|made=until 
 	NEW v:c|owar-PRES ptl:foc|made=until
 
-analog:  shika toka made nomi nante  
+analog:  shika toka made nomi nante yara
 
 3) shika nai
 "nai"/"arimasen" after "shika" is analyzed as light verb
@@ -45,7 +46,28 @@ ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc 
 	OLD v:v|tabe&GER ptl:conj|nagara 
 	NEW  v:v|tabe-SIMUL  
 	OLD n|onna ptl:conj|nagara=while
-	NEW n|onna ptl:foc|nagara=being
+	NEW n|onna ptl:foc|nagara=SIMUL
+
+5) dai
+ptl:fina|dai=ASSERT has been changed to v:cop|dai&PRES=be_ASSERT
+
+6) kamoshirenai
+smod|kamoshirenai=perhaps (kashira kamoshiremasen kamo) have been changed to ptl:fina|kamoshirenai=perhaps
+
+7) koto
+n:fml|koto=IMP has been changed to ptl:fina|koto=IMP    (kaeru koto!)
+ptl:fina|koto=FINA  has been added  (ex. joozu da koto /  oishii koto / joozu na koto )
+
+8) ka ne  -> kanee
+ptl:fina|ka=Q ptl:fina|ne=TAG has been changed to ptl:fina|kanee=DOUBT 
+
+9) yara
+ptl:post|yara=or has been changed to ptl:foc|yara=or
+
+10) yoo
+smod|yoo=apparently  has been changed to n:fml|yoo=apparently
+
+
 
 ******** CHANGES in JMOR08 ********2018mar11
 1) new ptl:post

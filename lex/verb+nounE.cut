@@ -2,6 +2,7 @@
 %%%% ADJ + N
 %%%% ADJ + ADJ
 %%%% NA + N
+%%%% ADV + N
 %%%% ADJ + V
 %%%% ONOMA + V
 %%%% N + ADJ
@@ -44,7 +45,11 @@ usugura	{[scat adj][comp adj+adj]} =gloomy= "usu+kura"
 
 %%%% NA + N
 tokuiwaza	{[scat n][comp n:an+n]} =special_skill= "tokui+waza"	
-%%%% ADJ + V
+
+%%%% ADV + N
+yukkurikuma	{[scat n][comp adv+n]} =slow_bear= "yukkuri+kuma"	
+
+%%% ADJ + V
 hayaoki	{[scat n:vn][comp adj+v:v]} =getting_up_early= "haya+oki&GER"	
 
 %%%% ONOMA + V
