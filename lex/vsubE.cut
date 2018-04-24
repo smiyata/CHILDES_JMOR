@@ -7,8 +7,8 @@ ar	{[scat v:ir:sub]} =be=
 e	{[scat v:v:sub]} =get=
 i	{[scat v:v:sub]} =ASP=
 ik	{[scat v:c:sub]} =go= 
-ik	{[scat v:c:sub]} =PRH=  %(yatte wa ikemasen; wake ni wa ikanai etc)
-ik	{[scat v:c]} =PRH=  %(kore wa ikemasen)
+ike	{[scat v:v:sub]} =PRH= "ike&POT" %(yatte wa ikemasen; wake ni wa ikanai etc)
+ike	{[scat v:v]} =PRH= "ike&POT"  %(kore wa ikemasen)
 har	{[scat v:c:sub]} =be= 
 itadak	{[scat v:c:sub]} =get_POL= 
 ku	{[scat v:ir:sub]} =come= 

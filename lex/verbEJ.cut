@@ -242,6 +242,7 @@ yureugok	{[scat v:c]} =wave= "yure_ugok"	%【揺れ動く】  		%% lex. compound
 	am	{[scat v:c]} =knit=	%【編む】
 	asebam	{[scat v:c]} =sweat_slightly=	%【汗ばむ】
 	ayashim	{[scat v:c]} =doubt=	%【怪しむ】
+	ayum	{[scat v:c]} =walk=	%【歩む】
 	chijim	{[scat v:c]} =shrink=	%【縮む】
 	fukum	{[scat v:c]} =include=	%【含む】
 	fukuram	{[scat v:c]} =expand=	%【膨らむ】(《脹らむ)
@@ -400,7 +401,8 @@ oritatam	{[scat v:c]} =fold=	%【折り畳む】				%% lex. compound
 	urayam	{[scat v:c]} =grudge=	%【うらやむ】(〈羨む)
 	urum	{[scat v:c]} =become_wet=	%【潤む】
 	yam	{[scat v:c]} =stop=	%【やむ】(《止む)***
-nakiyam	{[scat v:c]} =finish_weeping= "nak_yam"					%% lex. compound 
+furiyam	{[scat v:c]} =finish_raining= "fur_yam"					%% lex. compound 
+nakiyam	{[scat v:c]} =finish_weeping= "nak_yam"					
 	yasum	{[scat v:c]} =rest=	%【休む】
 	yom	{[scat v:c]} =read=	%【読む】
 	yugam	{[scat v:c]} =warp=	%【ゆがむ】(〈歪む)
@@ -1009,6 +1011,7 @@ kakedas	{[scat v:c][comp v:v+v:c]} =rush_out= "kake+das"
 nakidas	{[scat v:c][comp v:c+v:c]} =begin_to_cry= "nak+das"
 noridas	{[scat v:c][comp v:c+v:c]} =lean= "nor+das"	%【乗り出す】***
 omoidas	{[scat v:c][comp v:c+v:c][vc +]} =remember= "omow+das"
+odoridas	{[scat v:c][comp v:c+v:c][vc +]} =start_to_dance= "odor+das"
 shidas	{[scat v:c][comp v:ir+v:c][vc +]} =begin_to_do= "omow+das"
 shidas	{[scat v:c:ir][comp v:ir+v:c][vc +]} =begin_to_do= "omow+das"
 tobidas	{[scat v:c][comp v:c+v:c]} =fly_out= "tob+das"

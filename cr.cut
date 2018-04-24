@@ -8,7 +8,7 @@ RULENAME: misc-start
 CTYPE: START
 if
 NEXTCAT = [scat OR adn adv adv:onoma n:let n:fml conj ptl:case ptl:post ptl:attr ptl:conj ptl:coo ptl:foc \
-           ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]
+           ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {}
@@ -1152,7 +1152,7 @@ RULENAME: misc-endrule
 CTYPE: END
 if
 STARTCAT = [scat OR adn adv adv:onoma co:g co:i conj n:let n:fml n:prop ptl:case ptl:post ptl:attr \
-            ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top quant smod onoma v:mot bq eq tag]
+            ptl:conj ptl:coo ptl:foc ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}

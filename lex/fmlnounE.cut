@@ -18,7 +18,6 @@ kagiri	{[scat n:fml]} =as_long_as=
 kawari	{[scat n:fml]} =instead_of=
  gawari	{[scat n:fml]} =instead_of= "kawari"
 kekka	{[scat n:fml]} =result=
-kkiri	{[scat n:fml]} =only=
 koto	{[scat n:fml]} =fact=
 koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
@@ -29,6 +28,7 @@ mae	{[scat n]} =before=
 mama	{[scat n:fml]} =state=	% まま  侭 
 mono	{[scat n:fml]} =fact=
 mon	{[scat n:fml]} =fact= "mono"
+n	{[scat n:fml]} =RLV= 
 no	{[scat n:fml]} =RLV= 
 nochi	{[scat n:fml]} =after= 
 okage	{[scat n:fml]} =thanks_to=

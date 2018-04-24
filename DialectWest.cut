@@ -107,7 +107,6 @@ rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai"  % overp
 % conditional	########
 yaa	{[scat vtense] [tense pres] [allo OR vC]} "COND:contr"
 ryaa	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
-りゃあ	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
 
 
 % prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen -> moved to closed.cut)
@@ -116,11 +115,6 @@ ryaa	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
 %akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
 %ikankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
 %akankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
-いけん	{[scat v:c] [tense inf] [allo OR vC]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
-いかん	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
-あかん	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
-いかんかった	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"  
-あかんかった	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH" 
 
 % middle inflections	########
 

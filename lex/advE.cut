@@ -62,6 +62,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	choo	{[scat adv]} =extremely=	% 超
 	choodo	{[scat adv]} =just=	% ちょうど  丁度/ 恰度 
 	choppiri	{[scat adv]} =a_tiny_bit=	
+	choito	{[scat adv]} =a_bit= "choito"	% ちょっと  一寸 
 	chotto	{[scat adv]} =a_bit=	% ちょっと  一寸 
 	chiito	{[scat adv]} =a_bit=	% ちいと  
 %changed_to_quant	daibu	{[scat adv]} =mostly=	% だいぶ/大分 
@@ -206,7 +207,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	shikirini	{[scat adv] [to +]} =incessantly=	% しきりに  
 	shikkari	{[scat adv] [to +]} =firmly=	% しっかり  確と 
 	shooshoo	{[scat adv]} =a_bit=	
-	shotchuu	{[scat adv]} =requently=	
+	shotchuu	{[scat adv]} =frequently=	
 	sokosoko	{[scat adv]} =only_about=	
 	sonogo	{[scat adv]} =afterwards=	
 	sootoo	{[scat adv]} =considerably=	

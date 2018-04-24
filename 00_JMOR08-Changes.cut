@@ -1,8 +1,9 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018apr7
+**JMOR08 *************************************Susanne Miyata**2018apr23
 ********************************************************************* 
+ pending   ?v:v:sub|ike&POT   ? not yet in database
 
-******** CHANGES in JMOR08 ********2018apr7
+******** CHANGES in JMOR08 ********2018apr23
 1) particles
 a) ka doo ka  -> kadooka 
 OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
@@ -29,7 +30,7 @@ A division between ptl:foc and n:fml,  and ptl:foc and ptl:conj, resp., is not n
 
 	OLD:  v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
 	NEW: v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
-analog: bakari (bakkari bakka bakashi bakkashi), dake, kkiri
+analog: bakari (bakkari bakka bakashi bakkashi), dake, kiri/kkiri, ttara
 
 	OLD  v:c|owar-PRES ptl:conj|made=until 
 	NEW v:c|owar-PRES ptl:foc|made=until
@@ -67,6 +68,21 @@ ptl:post|yara=or has been changed to ptl:foc|yara=or
 10) yoo
 smod|yoo=apparently  has been changed to n:fml|yoo=apparently
 
+11) goto
+n|word-goto has been changed to ptl:foc|goto=each (毎) and ptl:foc|goto=whole (共)
+	OLD gofungoto  num|go-fun-goto=five_minute_each
+	NEW gofun goto  num|go-fun=five_minute ptl:foc|goto=each
+
+	OLD saifugoto  n|saifu-goto=HON_wallet_each
+	NEW saifu goto  n|saifu=HON_wallet ptl:foc|goto=whole
+
+12) yorimo
+yori mo ptl:post|yori=COMPARE ptl:foc|mo=too    changed to   yorimo  ptl:post|yori_mo=rather_than
+
+13) V-yoo tto
+ptl:quot|to=QUOT after HORT changed to ptl:quot|tto=QUOT (double tt)
+OLD: tabeyoo t:o  v:v|tabe-HORT=eat ptl:quot|to=QUOT
+NEW: tabeyoo tto  v:v|tabe-HORT=eat ptl:quot|tto=QUOT
 
 
 ******** CHANGES in JMOR08 ********2018mar11
@@ -111,7 +127,7 @@ syntactic compound verbs as v+v , lexial compounds as v (stem v_v)
 3) Modal expressions revised
 a) new: (v:sub) naranai v:c:sub|nar-NEG-PRES=PRH  (nakute wa naranai , nakereba naranai)
 
-b) new: (v:sub) ikemasen v:c:sub|ik-POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
+b) new: (v:sub) ikemasen v:v:sub|ike&POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
 
 c) new: (v:sub) ni kimatteru v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided) only CONN and ASP-PRES
 

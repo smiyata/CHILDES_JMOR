@@ -770,6 +770,7 @@ kongetsu	{[scat n]} =this_month=
 	hookoo	{[scat n]} =direction= 	% 方向 
 	hoomen	{[scat n]} =direction= 	% 方面 
 	hoorensoo	{[scat n]} =spinach= 	% ほうれんそう  菠薐〉草 
+	hoosenka	{[scat n]} =touch_me_not= 	% ホウセンカ  鳳仙花
 	hoppe	{[scat n]} =cheek= 	% ほっぺ  頬っぺ 
 	hosen	{[scat n]} =track_maintenance= 	% 保線 
 	hoshi	{[scat n]} =star= 	% 星 
@@ -898,6 +899,7 @@ kongetsu	{[scat n]} =this_month=
 	jidooshi	{[scat n]} =intransitive_verb= 	% 自動詞 
 	jihanki	{[scat n]} =vending_machine= 	% 自販機 
 %	jii	{[scat n]  } =old_man= 	% じいさん  爺さん/:祖父さん 
+	jihoo	{[scat n]  } =time_anouncement= 	% 時報
 	jii	{[scat n]  } =grandfather= 	% じいさん  爺さん/:祖父さん 
 	jijitsu	{[scat n]} =fact= 	% 事実 [1]
 	jikan	{[scat n]  } =time= 	% 時間 
@@ -912,6 +914,7 @@ kongetsu	{[scat n]} =this_month=
 	jimu	{[scat n]} =work=	% 事務 
 	jimusho	{[scat n]} =office=	% 事務 
 	jinan	{[scat n]} =second_son= 	% 次男
+	jinan-boo	{[scat n]} =second_son= 	% 次男坊
 	jinchi	{[scat n]} =military_position= 	% 陣地 
 	jinchinai	{[scat n]} "jinchi-nai" =within_military_position=  	% 陣地 
 	jinja	{[scat n]} =shinto_shrine= 	% 神社 
@@ -1000,6 +1003,7 @@ kongetsu	{[scat n]} =this_month=
 	kagebooshi	{[scat n]} =shadow_silhouette= 	% 影ぼうし/影法師 
 	kagi	{[scat n]} =key= 	% かぎ  鍵 
 	kago	{[scat n]} =basket= 	% かご  篭 
+	kagome	{[scat n]} =woven_bamboo= 	% 籠目
 	kagu	{[scat n]} =furniture= 	% 家具 
 	kai	{[scat n]} =shell=	% 貝 
 	kaibutsu	{[scat n]} =monster= 	% 怪物 
@@ -1081,6 +1085,7 @@ kongetsu	{[scat n]} =this_month=
 	kanji	{[scat n]} =character=	% 漢字 
 	kanji	{[scat n]} =feeling=	% 感じ 
 	kanjo	{[scat n]} =courtlady=	%官女
+	kanka	{[scat n]} =inspiration=	% 感化 
 	kankaku	{[scat n]} =feeling=	% 感覚 
 	kankaku	{[scat n]} =space=	% 間隔 
 	tookankaku	{[scat n]} =regular_interval= "too#kankaku"	% 等間隔 
@@ -1296,6 +1301,7 @@ kongetsu	{[scat n]} =this_month=
 	koeda	{[scat n]} "ko#eda" =small_branch= 
 	kogaeru	{[scat n]} "ko#kaeru" =small_frog= 
 	kokaeru	{[scat n]} "ko#kaeru" =small_frog= 
+	kogai	{[scat n]} =small_shell= 	% 小貝 
 	kogata	{[scat n]} =small_version= 	% 小型 
 	koge	{[scat n]} =burnt= 	% 焦げ 
 	koguma	{[scat n]} "ko#kuma" =cub= 	% 小熊
@@ -1305,6 +1311,7 @@ kongetsu	{[scat n]} =this_month=
 	kodanuki	{[scat n]} "ko#tanuki" =raccoon_baby= 
 	kogoe	{[scat n]} "ko#koe" =small_voice= 
 	koinu	{[scat n]} "ko#inu" =puppy= 
+	koiwashi	{[scat n]} "ko#iwashi" =small_sardine= 
 	kojika	{[scat n]} "ko#shika" =fawn= 
 	kojiki	{[scat n]} =beggar=  %乞食
 	kojin	{[scat n]} =individual= 	% 個人 
@@ -1349,6 +1356,7 @@ kongetsu	{[scat n]} =this_month=
 	koobutsu	{[scat n]} =favorite_dish= 	%好物 
 	koocha	{[scat n]} =tea= 	% 紅茶 
 	koodoo	{[scat n]} =muncipal_road= 	% 公道 
+	kooee	{[scat n]} =honor= 	% 光栄 
 	kooen	{[scat n]} =park= 	% 公園 
 	koogo	{[scat n]} =alternate= 	% 交互 
 	koohai	{[scat n]} =waste=  % 荒廃
@@ -1406,6 +1414,7 @@ kongetsu	{[scat n]} =this_month=
 	kujaku	{[scat n]} =peacock= 	% くじゃく  孔 雀 
 	kuji	{[scat n]} =lot= 	% くじ  籖 
 	kujira	{[scat n]} =whale= 	% 鯨 
+	kukeboo	{[scat n]} =blind_stitching_aid= 	% くけ棒
 	kuku	{[scat n]} =multiplication_table= 	% 九九 
 	kuma	{[scat n]} =bear= 	% くま  熊 
 	kumasanfamirii	{[scat n]} "kuma-san-famirii" =bear_HON_family= 
@@ -1692,6 +1701,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	namae	{[scat n]} =name= 	% 名前 
 	namaji	{[scat n]} =halfway= 
 	namakemono	{[scat n]} =loafer= 	% 怠け者 
+	namako	{[scat n]} =sea_cucumber=	% ナマコ 
 	namari	{[scat n]} =accent=	% なまり  訛り 
 	namari	{[scat n]} =lead=	% 鉛 
 	namazu	{[scat n]} =catfish= 	% なまず  鯰 
@@ -1985,6 +1995,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	sai	{[scat n]} =rhino=	% さい  犀 
 	saifu	{[scat n]} =wallet= 	% 財布 
 	saigo	{[scat n]} =last=	% 最後 
+	saijoo	{[scat n]} =finest= %最上
 	saikin	{[scat n]} =recently= 	% 最近 
 	saikoo	{[scat n]} =highest= 	% 最高 [1]
 	saikoro	{[scat n]} =dice= 	% さいころ ((//)骰子 
@@ -2176,6 +2187,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	shin	{[scat n]} =core= 	% しん  芯 
 	shinamono	{[scat n]} =goods= 	% 品物 
 	shinchoo	{[scat n]} =height= 
+	shinchuugun	{[scat n]} =occupation_forces= %進駐軍
 	shindai	{[scat n]} =bedstead= 	% 寝台 
 	shindaisha	{[scat n]} =sleeping_car= 	% 寝台車 
 	shingata	{[scat n]} =new_style= 	% 新形 
@@ -2627,6 +2639,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	umi	{[scat n]} =sea=	% 海 
 	umibe	{[scat n]} =sea_side=	% 海辺
 	umidori	{[scat n]} =seabird= 
+	ummee	{[scat n]} =fate= 
 	umpansha	{[scat n]} =moving_van=   "umpan-sha"
 	unagi	{[scat n]} =eel= 	% うなぎ  鰻 
 	undookai	{[scat n]} "undoo-kai" =sports_meeting= % 運動会 
@@ -2787,6 +2800,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yuuree	{[scat n]} =ghost= 	% 幽霊 
 	yuushoku	{[scat n]} =evening_meal= 
 	yuuyake	{[scat n]} =sunset= 	% 夕焼け 
+	koyake	{[scat n]} =after_sunset= 	% 夕焼け 
 	yuzu	{[scat n]} =citron= 	% ゆず
 	zabuton	{[scat n]} =cushion= 	% 座布団 
 	zaimoku	{[scat n]} =timber= 	% 材木 

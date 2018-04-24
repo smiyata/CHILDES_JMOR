@@ -135,6 +135,7 @@ itsu	{[scat adv:deic:wh]} =when=
 nande	{[scat adv:deic:wh]} =why=
 nashite	{[scat adv:deic:wh]} =why=
 nani	{[scat n:deic:wh]} =what=
+nanigoto	{[scat n:deic:wh]} =what_matter=
 naninani	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
 nanisen	{[scat n:deic:wh]} =what_line= "nani-sen"
 nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"

@@ -580,6 +580,7 @@ xf%%% VERBAL NOUNS %%
 	make	{[scat n:vn]} =defeat=	%【負け】
 	make	{[scat n:vn]} =discount=	%【負け】
 	mane	{[scat n:vn]} =imitation=	%【まね】(:真似)
+	manegoto	{[scat n:vn]} =imitation=	%【まね】(:真似)
 	mankai	{[scat n:vn]} =fully_open=	%【満開】
 	manuke	{[scat n:vn]} =fool=	%【間抜け】
 	meechuu	{[scat n:vn]} =hit_the_mark=	%【命中】
