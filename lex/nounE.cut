@@ -437,6 +437,7 @@ kongetsu	{[scat n]} =this_month=
 	fujin	{[scat n]} =lady= 	% 婦人 
 	fukee	{[scat n]} =policewoman=	% 婦警 
 	fuki	{[scat n]} =butterbur= 	% ふき  蕗 
+	fukidemono	{[scat n]} =pimple= 	% 吹出物  吹き出物 
 	fukin	{[scat n]} =cloth=	% ふきん  布 巾 
 	fukin	{[scat n]} =near=	% 付近 
 %	fuku	{[scat n]} =wealth=	%  
@@ -2537,7 +2538,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	tokushuu	{[scat n]} =special_issue= 
 	tombo	{[scat n]} =dragonfly= 	% とんぼ  蜻蛉 トンボ
 	dooraa	{[scat n]} =dragonfly= 	% ドーラー  
-	tomo	{[scat n]} =accompany= 	% 供 
+%	tomo	{[scat n]} =accompany= 	% 供  changed to ptl:foc ; tomoni  ptl:cppost
 	tomo	{[scat n]} =friend= 	% 友 
 	tomodachi	{[scat n]} =friend= 	% 友だち/友達 
 	tonari	{[scat n]} =next_door= 	% 隣 
@@ -2772,6 +2773,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yuatsu	{[scat n]} =oil_pressure= 
 	yubi	{[scat n]} =finger= 	% 指 
 	yudoofu	{[scat n]} =boiled_tofu= 	% 湯豆腐 
+	yue	{[scat n]} =reason= 	% 故
 	yuge	{[scat n]} =steam= 	% 湯げ/湯気 
 	yuka	{[scat n]} =floor= 	% 床 
 	yukata	{[scat n]} =cotton_kimono= 	% ゆかた/浴衣 

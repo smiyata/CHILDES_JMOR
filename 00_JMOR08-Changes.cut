@@ -1,9 +1,36 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018apr23
+**JMOR08 *************************************Susanne Miyata**2018may27
 ********************************************************************* 
  pending   ?v:v:sub|ike&POT   ? not yet in database
 
-******** CHANGES in JMOR08 ********2018apr23
+msg for Alastair: 
+1) I have unified all morphological tiers to %mor (no %trn or %xtrn anymore).
+2) The policy for postcodes has been changed.  *CHI:   text . [+ bch]
+Now every utterance gets a %mor line.  
+This means that also utterances with xxx (unclear material) and [?] (questionable) are included. 
+
+
+
+
+******** CHANGES in JMOR08 ********2018may27
+1) post and compound post particles
+post particles have been devided into 
+postposition particles  ptl:post   (ni, de, e, to, kara, made, yori)
+compound postposition particles  ptl:cppost (yorimo, nite,
+
+2) ja
+in the case of hypothetic use ("nara"): compound postparticle
+ex.: kore ja dame   ->  ptl:cppost|ja=in_that_case  (mostly followed by negation or negative expressions like  "dame")
+in the case of copula use ("da") : v:cop
+ex.:  iya ja.   nan ja.   ->   v:cop|de&CONN&wa=be
+
+3) demo
+de mo (copula + conjunctive ptl) has been changed to demo (focus ptl)
+OLD: kore de mo ii .    v:cop|de&CONN=be ptl:conj|mo=even_if
+NEW: kore demo ii .   ptl:foc|de_mo=even
+
+
+******** CHANGES in JMOR08 ********2018apr21
 1) particles
 a) ka doo ka  -> kadooka 
 OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
@@ -83,8 +110,6 @@ yori mo ptl:post|yori=COMPARE ptl:foc|mo=too    changed to   yorimo  ptl:post|yo
 ptl:quot|to=QUOT after HORT changed to ptl:quot|tto=QUOT (double tt)
 OLD: tabeyoo t:o  v:v|tabe-HORT=eat ptl:quot|to=QUOT
 NEW: tabeyoo tto  v:v|tabe-HORT=eat ptl:quot|tto=QUOT
-
-
 ******** CHANGES in JMOR08 ********2018mar11
 1) new ptl:post
 dokoroka	ptl:post|dokoro_ka=not_at_all

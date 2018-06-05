@@ -240,7 +240,7 @@ dorankattara	{[scat vtense] [tense pres] [allo OR vTNn vTIg]} "ASP:or-NEG:n-COND
 dore	{[scat vtense] [tense imp] [allo OR vTNn vTIg]} "ASP:or-IMP"
 
 % negative		######## vsfx
-na	{[scat vsfx] [sfxcat adj] [allo OR vV vCa vBKo vTSi vNNr]} "NEG" 
+na	{[scat vsfx] [sfxcat adj] [allo OR vV vCa vBKo  vTSi vNNr]} "NEG" 
 zu	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&GER" 
 zaru	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zaru" 
 nu	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:nu&PRES"  
@@ -279,7 +279,6 @@ ru	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES"
 % past		########
 ta	{[scat vtense] [tense past] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "PAST"
 da	{[scat vtense] [tense past] [allo OR vTNn vTIg]} "PAST"  
-た	{[scat vtense] [tense past] [allo OR vV vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "PAST"
 
 
 % connective	########

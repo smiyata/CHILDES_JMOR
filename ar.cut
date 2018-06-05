@@ -703,7 +703,7 @@ RULENAME: default1
 %%****************
 LEX-ENTRY:
 LEXCAT = [scat OR adv adv:onoma conj num adn pfx \
-        numsfx vnsfx ptl:case ptl:post ptl:attr ptl:foc ptl:fina ptl:conj \
+        numsfx vnsfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:fina ptl:conj \
         ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
 	n n:fml n:let n:prop n:an n:an:mot v:mot neg \
 	n:deic:dem n:deic:wh \

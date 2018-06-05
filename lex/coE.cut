@@ -9,6 +9,7 @@ aan	{[scat co:i]} =OPEN_MOUTH=
 aaqa	{[scat co:i]} =FAILURE=
 ai	{[scat co:i]} =yes= "hai"
 aikodesho	{[scat co:g]} =we_are_quits= "aiko_deshoo"
+aikodeshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aikoodeshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aikoo_deshoo	{[scat co:g]} =we_are_quits= "aiko_deshoo"
 aitaq	{[scat co:i]} =ouch=
@@ -174,6 +175,7 @@ tojirogoma	{[scat co:g]} =close_sesame= "tojiro_goma"
 hirake_mado	{[scat co:g]} =open_window= "hirake_mado"
 ho	{[scat co:i]} =AMAZED= "hoq"
 hakushon	{[scat co:i]} =SNEEZE=
+kushon	{[scat co:i]} "hakushon" =SNEEZE=
 hoi	{[scat co:i]} =hey=
 hoiq	{[scat co:i]} =hey= "hoi"
 hoq	{[scat co:i]} =hey=
@@ -352,6 +354,7 @@ piisu 	{[scat co:g]} =peace_sign=
 rasshai	{[scat co:g]} =please_come= "irasshai"
 rettsugoo	{[scat co:g]} =let_s_go=
 saa	{[scat co:i]} =well=
+sa	{[scat co:i]} "saa" =well=
 sayonara	{[scat co:g]} =goodbye= "sayoonara"
 sayoonara	{[scat co:g]} =goodbye=
 shii	{[scat co:i]} =hush=
@@ -386,6 +389,7 @@ ss	{[scat co:i]} =HESITATE=
 swotto	{[scat co:g]} =splat=
 sutaato	{[scat co:g]} =start=
 soorii	{[scat co:g]} =sorry=
+sorqq	{[scat co:i]} =look_out=
 soreq	{[scat co:i]} =look_out=
 tadaima	{[scat co:g]} =i_am_home=
 tsuntsunken	{[scat co:g]} =NUDGE=
@@ -460,7 +464,8 @@ yoroshiku	{[scat co:g]} =please_treat_favorably=
 yoroshikuonegaishimasu	{[scat co:g]} =please_treat_favorably= "yoroshiku_onegai_shimasu"
 yossha	{[scat co:i]} =heave_ho= 
 yosshoi	{[scat co:i]} =heave_ho= 
-saisho_wa_guu	{[scat co:g]} =paper_stone_scissors=
+saisho_wa_guu	{[scat co:g]} "saisho_wa_guu" =paper_stone_scissors=
+saishowaguu	{[scat co:g]} "saisho_wa_guu" =paper_stone_scissors=
 
 ki_o_tsuke	{[scat co:g]} =stand_to_attention= 
 kiotsuke	{[scat co:g]} =stand_to_attention= "ki_o_tsuke"

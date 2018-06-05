@@ -227,6 +227,7 @@ dosuun	{[scat onoma]} "dosun"
 dotabata	{[scat onoma]}
 dotadota	{[scat onoma]} "dota"
 dotadotadota	{[scat onoma]} "dota"
+doten	{[scat onoma]}
 doyadoya	{[scat onoma]} "doya"
 doyadoyadoya	{[scat onoma]} "doya"
 fufuq	{[scat onoma]} "fu"
@@ -247,7 +248,7 @@ fuwafuwa	{[scat onoma]} "fuwa"
 fuwafuwafuwa	{[scat onoma]} "fuwa"
 gaa	{[scat onoma]}
 gaagaa	{[scat onoma]} "gaa"
-gaagaagaa	{[scat onoma]} "gaagaa" 
+gaagaagaa	{[scat onoma]} "gaa" 
 gaan	{[scat onoma]} "gaa"
 gabagaba	{[scat onoma]} "gaba"
 gaagabagabagaba	{[scat onoma]} "gaba"
@@ -332,6 +333,7 @@ gon	{[scat onoma]}
 gongon	{[scat onoma]} "gon"
 gongongon	{[scat onoma]} "gon"
 goo	{[scat onoma]} 
+googoo	{[scat onoma]} "goo"
 goon	{[scat onoma]} "gon"
 gori	{[scat onoma]}
 gorigori	{[scat onoma]} "gori"

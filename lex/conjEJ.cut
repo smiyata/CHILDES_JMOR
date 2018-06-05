@@ -7,6 +7,7 @@ nazenara	{[scat conj]} =because=
 shikashi	{[scat conj]} =but=
 tokorode	{[scat conj]} =apropos=
 tokoroga	{[scat conj]} =however=
+daga	{[scat conj]} =but=
 dakara	{[scat conj]} =therefore=
 damonde	{[scat conj]} =therefore=
 dakedo	{[scat conj]} =but=
@@ -22,6 +23,7 @@ dewa	{[scat conj]} =well=
 ja	{[scat conj]} =well=
 monono	{[scat conj]} =although=
 nazenaraba	{[scat conj]} =because=
+nanode	{[scat conj]} =and_then= "therefor"
 sokode	{[scat conj]} =and_so=
 soosuruto	{[scat conj]} =in_that_case=
 hoide	{[scat conj]} =and_then= "sorede"
@@ -55,55 +57,9 @@ soretomo	{[scat conj]} =or=
 soshite	{[scat conj]} =and_then=
 suruto	{[scat conj]} =and_then=
 soreto	{[scat conj]} =and_then=
+todoojini	{[scat conj]} "to_dooji_ni" =simultaneously=
+toiuka	{[scat conj]} "to_iu_ka" =or_rather=
+toiuyori	{[scat conj]} "to_iu_yori" =or_rather=
+tosuruto	{[scat conj]} "to_suru_to" =if_then=
 yoosuruni	{[scat conj]} =this_means=
-あるいは	{[scat conj]} =or= "aruiwa"
-もし	{[scat conj]} =if= "moshi"
-もしも	{[scat conj]} =if= "moshimo"
-なお	{[scat conj]} =further= "nao"
-なぜなら	{[scat conj]} =because= "nazenara"
-しかし	{[scat conj]} =but= "shikashi"
-ところで	{[scat conj]} =apropos= "tokorode"
-ところが	{[scat conj]} =however= "tokoroga"
-だから	{[scat conj]} =therefore= "dakara"
-だけど	{[scat conj]} =but= "dakedo"
-だけども	{[scat conj]} =but= "dakedomo"
-だけれど	{[scat conj]} =but= "dakeredo"
-だけれども	{[scat conj]} =but= "dakeredomo"
-だったら	{[scat conj]} =then= "dattara"
-だって	{[scat conj]} =but= "datte"
-で	{[scat conj]} =and_then= "de"
-でも	{[scat conj]} =but= "demo"
-ですから	{[scat conj]} =therefore= "desukara"
-では	{[scat conj]} =well= "dewa"
-じゃ	{[scat conj]} =well= "ja"
-なぜならば	{[scat conj]} =because= "nazenaraba"
-そこで	{[scat conj]} =and_so= "sokode"
-そうすると	{[scat conj]} =in_that_case= "soosuruto"
-ほいで	{[scat conj]} =and_then= "sorede"
-ほいじゃ	{[scat conj]} =well= "soredewa"
-んじゃ	{[scat conj]} =well= "soredewa"
-ほんで	{[scat conj]} =and_then= "sorede"
-んで	{[scat conj]} =and_then= "sorede"
-ほんじゃ	{[scat conj]} =well= "soredewa"
-そいで	{[scat conj]} =and_then= "sorede"
-そいじゃ	{[scat conj]} =well= "soredewa"
-そんじゃ	{[scat conj]} =well= "soredewa"
-それじゃ	{[scat conj]} =well= "soredewa"
-そんで	{[scat conj]} =and_then= "sorede"
-それで	{[scat conj]} =and_then= "sorede"
-それでは	{[scat conj]} =well= "soredewa"
-それか	{[scat conj]} =or= "soreka"
-そんなら	{[scat conj]} =in_that_case= "sorenara"
-それなら	{[scat conj]} =in_that_case= "sorenara"
-ほな	{[scat conj]} =in_that_case= "sorenara"
-ほんなら	{[scat conj]} =in_that_case= "sorenara"
-ほんだら	{[scat conj]} =in_that_case= "sorenara"
-しかも	{[scat conj]} =moreover= "shikamo"
-そうしたら	{[scat conj]} =in_that_case= "soshitara"
-そしたら	{[scat conj]} =in_that_case= "soshitara"
-それから	{[scat conj]} =after_that= "sorekara"
-それとも	{[scat conj]} =or= "soretomo"
-そして	{[scat conj]} =and_then= "soshite"
-すると	{[scat conj]} =and_then= "suruto"
-要するに	{[scat conj]} =this_means= "yoosuruni"
-ようするに	{[scat conj]} =this_means= "yoosuruni"
+

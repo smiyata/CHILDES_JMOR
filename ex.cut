@@ -1,5 +1,13 @@
 @UTF8
 @Color words:	SUS 1 61423 7967 7453 
+v:v|ni-POL-CONN=cook "nimashite"
+v:v|ni-POL-CONN=resemble "nimashite"
+num|ni-tsuki=two_month "nitsuki"
+v:v|nise-HORT=imitate "niseyo"
+go#n|toki=HON_time "gotoki"
+do#n|ten=extremely_heaven "doten" 
+do#n|ten=extremely_dot "doten"
+do#n:vn:mot|ten=extremely_hit "doten"
 o#n|ne=HON_root "one"
 o#v:v|ne&GER=lie_down "one"
 n:vn|sentaku-ya-san=choice_shop_HON "sentakuyasan"
