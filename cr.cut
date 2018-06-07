@@ -38,7 +38,7 @@ if
 NEXTCAT = [scat OR v:v v:v:sub], [allo vV]
 then
 RESULTCAT = NEXTCAT
-RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv, \
+RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv\
        v-tense, asp_i, asp_or, v-adj, v2adj, v-comp, v-noun, v-anoun}
 
 %%	 for consonant verb  	 	  		stem infl  
@@ -172,7 +172,7 @@ NEXTCAT = [scat vcomp], [cp vAIs]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vAIs], DEL [scat], ADD [scat v:c]
-RULEPACKAGE ={v-tense, v-complet, v-adj, v2adj, v-comp, v-tense, v-noun, v-anoun}
+RULEPACKAGE ={v-tense, v-complet, v-adj, v2adj, v-comp, v-noun, v-anoun}
 
 %%				assim stem: 2nd  verb ending on -k
 if
@@ -534,20 +534,6 @@ then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vTTw] 
 RULEPACKAGE = {v-tense, v-adj, asp_i, asp_or}
 
-%%%%%%%%%%%%%%%%%%%
-%%  NEGATION 
-%%%%%%%%%%%%%%%%%%%
-
-RULENAME: neg
-CTYPE: -
-if
-STARTCAT = ![tense OR pres inf]
-NEXTCAT = [scat neg]
-MATCHCAT [allo]
-then
-RESULTCAT = STARTCAT
-RULEPACKAGE = {a-tense, v-tense}
-
 
 
 %%%%%%%%%%%%%%%%%%%
@@ -562,7 +548,7 @@ NEXTCAT = [scat asp_i]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, v-adj, neg}
 
 RULENAME: asp_or
 CTYPE: -
@@ -593,7 +579,7 @@ RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa]
 RULEPACKAGE = {v-tense, v-anoun}
 
 
-%%%%KKKnew 				laeuft nicht  yattoru ok, yattotta x 
+%%%%
 %%	 		 	assim infl
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
@@ -604,6 +590,20 @@ RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
 RULEPACKAGE = {v-tense, v-complet}
 %%%%
 
+
+%%%%%%%%%%%%%%%%%%%
+%%  NEGATION 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: neg
+CTYPE: -
+if
+STARTCAT = ![tense OR pres inf]
+NEXTCAT = [scat neg]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {a-tense, v-tense}
 
 
 
