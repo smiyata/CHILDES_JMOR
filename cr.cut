@@ -38,7 +38,7 @@ if
 NEXTCAT = [scat OR v:v v:v:sub], [allo vV]
 then
 RESULTCAT = NEXTCAT
-RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv\
+RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv, \
        v-tense, asp_i, asp_or, v-adj, v2adj, v-comp, v-noun, v-anoun}
 
 %%	 for consonant verb  	 	  		stem infl  
@@ -548,7 +548,7 @@ NEXTCAT = [scat asp_i]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
-RULEPACKAGE = {v-tense, v-adj, neg}
+RULEPACKAGE = {v-tense, v-adj}
 
 RULENAME: asp_or
 CTYPE: -
