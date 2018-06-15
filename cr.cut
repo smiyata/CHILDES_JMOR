@@ -69,7 +69,7 @@ RULEPACKAGE = {v-comp, v-complet, v-adj, v2adj, v-tense, v-noun, v-anoun}
 
 %% 	 for consonant verb 				a-infl
 if
-NEXTCAT = [scat OR v:v v:c v:ir v:c:sub v:ir:sub], [allo OR vCa vTKo vTSi vTSe] 
+NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vCa vTKo vTSi vTSe] 
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-tense, v-caus, v-adj}
@@ -111,8 +111,7 @@ if
 NEXTCAT = [scat v:cop], ![tense OR pres past inf imp], ![adj +]
 then
 RESULTCAT = NEXTCAT
-RULEPACKAGE = {v-tense, v-caus, v-pot-cv, v-tense, v-adj, \
-	v-comp, v-anoun}
+RULEPACKAGE = {v-tense, v-caus, v-pot-cv, v-tense, v-adj, v-comp, v-anoun}
 
 %%% 
 if
@@ -246,7 +245,7 @@ NEXTCAT = [scat vsfx], [cp vC]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
-RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-adj, v2adj, v-pass-vv, v-pot-vv, v-comp}
+RULEPACKAGE = {v-tense, v-complet, v-adj, v2adj, v-pass-vv, v-pot-vv, v-comp}
 if
 STARTCAT = [allo vV]
 NEXTSURF = sashi
@@ -254,16 +253,24 @@ NEXTCAT = [scat vsfx], [cp vAIs]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
-RULEPACKAGE = {v-tense, asp_i, asp_or}
+RULEPACKAGE = {v-tense, v-adj, v2adj, asp_i, asp_or}
 
 %		on consonant verbs
 if
 STARTCAT = [allo vC]
 NEXTSURF = as
-NEXTCAT = [scat vsfx], [cp vC]
+NEXTCAT = [scat vsfx], [allo vC]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vC]
+RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-adj, v2adj, v-pass-cv, v-pot-cv, v-comp}
+if
+STARTCAT = [allo vC]
+NEXTSURF = asa
+NEXTCAT = [scat vsfx], [cp vCa]
+MATCHCAT [allo]
+then
+RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa]
 RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-adj, v2adj, v-pass-cv, v-pot-cv, v-comp}
 if
 STARTCAT = [allo vC]
@@ -335,7 +342,7 @@ NEXTCAT = [scat vsfx], [cp vV]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT
-RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-anoun}
+RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-adj, v-anoun}
 %%% 						for Kahen
 if
 STARTCAT = [allo vBKo], ![int -]
@@ -426,7 +433,7 @@ RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw]
 RULEPACKAGE = {v-tense}
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, v-pot-cv}
 %% 				a-infl: chawa
 if
 STARTCAT = [allo vV]
@@ -435,7 +442,7 @@ NEXTCAT = [scat vsfx], [cp OR vRw vRww vTTw vCa vPIw]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, v-adj}
 %% 				i-infl : chai
 if
 STARTCAT = [allo vV]
@@ -466,7 +473,7 @@ NEXTCAT = [scat vsfx], [cp vRw]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vRw] 
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, v-pot-cv}
 %% 				a-infl: chawa
 if
 STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
@@ -475,7 +482,7 @@ NEXTCAT = [scat vsfx], [cp vCa]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vCa] 
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, v-adj}
 %% 				i-infl : chai
 if
 STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
@@ -485,6 +492,7 @@ MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vPIw] 
 RULEPACKAGE = {v-adj, v2adj, v-tense, v-noun, v-anoun}
+%
 %%				assim stem : chat
 if
 STARTCAT = [allo OR vTTw vTTr vC vAIs vTIk vTKi vTSi]
@@ -694,7 +702,6 @@ then
 RESULTCAT = DEL [scat], ADD [scat n], DEL [allo]
 RULEPACKAGE = {}
 
-
 RULENAME: v-anoun
 CTYPE: -
 if
@@ -760,7 +767,7 @@ if
 NEXTCAT = [scat asfx], [sfxcat v], [cp vTTr]
 then
 RESULTCAT = DEL [scat], ADD [scat v:c], DEL [allo], ADD [allo vTTr]
-RULEPACKAGE = {v-tense}
+RULEPACKAGE = {v-tense, asp_i, asp_or}
 if
 NEXTCAT = [scat asfx], [sfxcat v], [cp vCi]
 then
@@ -909,14 +916,20 @@ then
 RESULTCAT = DEL [scat], ADD [scat adj]
 RULEPACKAGE = {a-tense}
 
+%if
+%STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
+%NEXTCAT = [scat adj], [sfxcat adj]
+%then
+%RESULTCAT = NEXTCAT
+%RULEPACKAGE = {a-tense}
+
+%%	for teki   noun -> adj noun
 if
 STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
-NEXTCAT = [scat adj], [sfxcat adj]
+NEXTCAT = [scat nasfx], [sfxcat n:an]
 then
-RESULTCAT = NEXTCAT
-RULEPACKAGE = {a-tense}
-
-
+RESULTCAT = DEL [scat], ADD [scat n:an]
+RULEPACKAGE = {}
 %%%%%%%%%%%%%%%%%%%
 %% VERBAL NOUN STARTS 
 %%%%%%%%%%%%%%%%%%%
@@ -942,6 +955,14 @@ STARTCAT = [scat n:vn]
 NEXTCAT = [scat vnsfx]
 then
 RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%	for teki   vnoun -> adj noun   %% laeuft nicht; scat nicht geaendert
+if
+STARTCAT = [scat n:vn]
+NEXTCAT = [scat vnsfx], [sfxcat n:an]
+then
+RESULTCAT = DEL [scat], ADD [scat n:an]
 RULEPACKAGE = {}
 
 %%%%%%%%%%%%%%%%%%%

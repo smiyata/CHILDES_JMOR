@@ -4,15 +4,15 @@
 %%%%%%%%%%%%%%%%%%%
 
 for Vowel Verbs
-	{v-caus-vv, v-pot-vv, v-pot-vv-eu, v-pass-vv, v-complet, v-tense, v-imp, asp, v-adj, v-comp, v-aux}
+	{v-caus-vv, v-pot-vv, v-pot-vv-eu, v-pass-vv, v-complet, v-tense, v-imp, asp, v2adj, v-comp, v-aux}
 
 for Cons Verbs
 
 stem infl {v-caus, v-pot-cv, v-pot-cv-eu, v-pass-cv, v-tense, v-imp}    %%%%v-pot-vv??cv??  oder pass-cv falsch?
 
-assim infl	{v-complet v-tense, v-imp, v-adj, asp}
+assim infl	{v-complet v-tense, v-imp, v2adj, asp}
 
-i-infl	{v-comp, v-aux, v-pol, v-adj, v-tense, v-noun}
+i-infl	{v-comp, v-aux, v-pol, v2adj, v-tense, v2noun}
 
 a-infl	{v-tense}
 
@@ -30,7 +30,7 @@ v-comp	on i
 v-aux  on i
 v-pol	on i
 v-adj	on i on assim
-v-noun	on i
+v2noun	on i
 v-pol	on i
 v-pot-eu  on i
 v-caus 	on stem
@@ -66,5 +66,5 @@ RULENAME: dem-start   n
 RULENAME: dem-start2  adv adj
 RULENAME: let-start
 RULENAME: n:let-comp
-v-noun
-v-anoun
+v2noun
+v2anoun

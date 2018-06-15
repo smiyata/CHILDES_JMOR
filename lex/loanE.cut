@@ -140,6 +140,7 @@
 	biifu	{[scat n]} =beef=
 	biifun	{[scat n]} =bihun_noodles=
 	biifusuteeki	{[scat n]} =beefsteak=
+	biikaa	{[scat n]} =beaker=
 	biimen	{[scat n]} =B_side=
 	biimu	{[scat n]} =beam=
 	biiru	{[scat n]} =beer=
@@ -236,6 +237,7 @@
 	chekku	{[scat n:vn]} =check=
 	chero	{[scat n]} =cello=
 	cherii	{[scat n]} =cherry=
+	chesu	{[scat n]} =chess=
 	chiimu	{[scat n]} =team=
 	chiita	{[scat n]} =cheetah= "chiitaa"
 	chiitaa	{[scat n]} =cheetah=
@@ -332,6 +334,7 @@
 	ekusupuresu	{[scat n]} =express=
 	emburemu	{[scat n]} =emblem=
 	emuburemu	{[scat n]} "emburemu" =emblem=
+	emuandoemuzu	{[scat n]} "emuandoemuzu" =MMs_choco=
 	endo	{[scat n]} =end=
 	enerugii	{[scat n]} =energy=
 	enerugisshu	{[scat n]} =energetic=
@@ -394,6 +397,7 @@
 	gareeji	{[scat n]} =garage=
 	garimimusu	{[scat n]} =gallimimus=
 	gasorin	{[scat n]} =gasolin=
+	gasorindai	{[scat n]} =gasolin_fee= "gasorin-dai"
 	gasu	{[scat n]} =gas=
 	gaun	{[scat n]} =gown=
 	geemu	{[scat n:vn]} =game=
@@ -418,8 +422,6 @@
 	gureepufuruutsu	{[scat n]} =grapefruits=
 	guriin	{[scat n]} =green=
 	guroobu	{[scat n]} =globe=
-	gurooria	{[scat n]} =gloria_car=
-	guroria	{[scat n]} =gloria_car=
 	guruupu	{[scat n]} =group=
 	guzzu	{[scat n]} =goods=
 	gyappu	{[scat n]} =gap=
@@ -583,8 +585,10 @@
 	kechappu	{[scat n]} =ketchup=
 	keeburu	{[scat n]} =cable=
 	keeki	{[scat n]} =cake=
+	keepaaaragejirisu	{[scat n]} =cape_ground_squirrel=
 	keesu	{[scat n]} =case=
 	kii	{[scat n]} =key=
+	kiiboodo	{[scat n]} =keyboard=
 	kiipu	{[scat n:vn]} =keep=
 	kiiwaado	{[scat n]} =keyword=
 	kikku	{[scat n:vn]} =kick=
@@ -639,6 +643,7 @@
 	kukkii	{[scat n]} =cookie=
 	kurabu	{[scat n]} =club=
 	kurakkaa	{[scat n]} =cracker=
+	kurasshaa	{[scat n]} =crusher=
 	kurakushon	{[scat n]} =klaxon=
 	kurarinetto	{[scat n]} =clarinet=
 	kurashikku	{[scat n]} =classic_music=
@@ -1019,6 +1024,7 @@
 	rooraa	{[scat n]} =roller=
 	rooraasukeeto	{[scat n]} =roller_skate=
 	rootarii	{[scat n]} =rotary=
+	rubii	{[scat n]} =ruby=
 	ryukku	{[scat n]} =knapsack=
 	ryukkusakku	{[scat n]} =knapsack=
 	ryukkuzakku	{[scat n]} =knapsack=
@@ -1053,6 +1059,7 @@
 	semitoreeraa	{[scat n]} =semi_trailer=
 	sensu	{[scat n]} =taste=
 	shepaado	{[scat n]} =German_shepherd=
+	serifu	{[scat n]} =speech_line=
 	serohan	{[scat n]} =cellophane=
 	serori	{[scat n]} =celery=
 	setto	{[scat n]} =set=
@@ -1245,7 +1252,7 @@
 	uokka	{[scat n]} =vodka=
 	video	{[scat n]} =video= "bideo"
 	waapu	{[scat n:vn]} =warp=
-	waapuro	{[scat n:vn]} =wordprocessor=
+	waapuro	{[scat n]} =wordprocessor=
 	wagon	{[scat n]} =wagon=
 	wagonsha	{[scat n]} =wagon=
 	waffuru	{[scat n]} =waffle=

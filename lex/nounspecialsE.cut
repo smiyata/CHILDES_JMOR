@@ -205,6 +205,7 @@ korori	{[scat n]} =acorn_rolling_around_song=
 korori_yo	{[scat n]} =acorn_rolling_around_song=
 donguri_ko	{[scat n]} =acorn_rolling_around_song=
 gonimbayashi	{[scat n]} =five_musicians_song=
+gokuroo_samba	{[scat n]} =HON_hardship_samba=
 hachi_ga_tobunbun	{[scat n]} =fly_bee_fly_song=
 happii_baasudee_tuu_yuu	{[scat n]} =happy_birthday_song=
 happiibaasudeetuuyuu	{[scat n]} =happy_birthday_song=
@@ -255,6 +256,7 @@ zoosan_zoosan	{[scat n]} =elephant_song=
 %%%train
 Biggusuniikaa	{[scat n]} =big_sneaker_train=
 biggusuniikaa	{[scat n]} =big_sneaker_train=
+boosoobyuuekusupuresu	{[scat n][comp n:prop+n+n]} "boosoo+byuu+ekusupuresu" =Boosoo_view_express=
 Nyuutoramu	{[scat n]} =Nutram_train=
 nyuutoramu	{[scat n]} =Nutram_train=
 hausutembosu	{[scat n]} =hausutembosu_train=
@@ -275,6 +277,7 @@ aomori	{[scat n]} "aomori" =aomori_train=
 Aomori	{[scat n]} "aomori" =aomori_train=
 ariake	{[scat n]} =ariake_train=
 asagiri	{[scat n]} =asagiri_train=
+asama	{[scat n]} =asama_train=
 aso	{[scat n]} =aso_train=
 dokutaaieroo	{[scat n]} =dokutaaieroo_train=
 ehime	{[scat n]} =ehime_train=
@@ -309,7 +312,7 @@ Kunibiki	{[scat n]} =Kunibiki_train=
 kyuukoo	{[scat n]} =express_train=
 makkusu	{[scat n]} =max_train=
 meetetsu_panoramasuupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
-Meetetsu_Panoramasuupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
+Meetetsu_Panorama_suupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
 nozomi	{[scat n]} =nozomi_shinkansen_train=
 nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
 Nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
@@ -327,6 +330,7 @@ sanyoo	{[scat n]} =sanyoo_shinkansen_train=
 sandaabaado	{[scat n]} =thunderbird_train=
 sukairainaa	{[scat n]} =skyliner_train=
 sakuragoo	{[scat n]} "sakura-goo" =sakura_train=
+sonikku	{[scat n]}  =sonic_train=
 suupaatokachi	{[scat n]}  =super_tokachi_train=
 Suupaatokachi	{[scat n]}  =super_tokachi_train=
 takaragoo	{[scat n]} "takara-goo" =takara_train=
@@ -391,6 +395,7 @@ chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
 Chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
 chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
 Chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
+chuuoohonsen	{[scat n]} "chuuoo-honsen"  =chuo_main_train=
 inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
 Inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
 saikyoosen	{[scat n]} "saikyoo-sen"  =saitama_tokyo_train=
@@ -424,7 +429,7 @@ aporo	{[scat n]} =apollo_rocket=
 	akoodo	{[scat n]} =accord_car=
 	banetto	{[scat n]} =vanetto_car=
 	bentsu	{[scat n]} =benz_car=
-	beretto	{[scat n]} =bellet_car=
+	beretto	{[scat n]} =bellett_car=
 	biiemu	{[scat n]} =bmw_car=
 	biiemudaburuyuu	{[scat n]} =bmw_car=
 	bittsu	{[scat n]} =vitz_car=
@@ -433,6 +438,7 @@ aporo	{[scat n]} =apollo_rocket=
 	buruubaado	{[scat n]} =blue_bird_car=
 	chorokyuu	{[scat n]} =choro_q_car=
 	dafu	{[scat n]} =daf_car=
+	deimuraa	{[scat n]} =daimler_car=
 	dyussembaagu	{[scat n]} =duesenberg_car= "dyuusembaagu"
 	erupiiyonhyaku	{[scat n]} =lp_fourhundred_car=
 	esutima	{[scat n]} =estima_car=
@@ -442,6 +448,7 @@ aporo	{[scat n]} =apollo_rocket=
 	forukusuwaagen	{[scat n]} =volkswagen_car=
 	googoofaibu	{[scat n]} =gogofive_car=
 	gorufu	{[scat n]} =golf_car=
+	guroria	{[scat n]} =gloria_car=
 	gyaran	{[scat n]} =galan_car=
 	honda	{[scat n]} =honda_car=
 	isuzu	{[scat n]} =isuzu_car=
@@ -453,7 +460,7 @@ aporo	{[scat n]} =apollo_rocket=
 	kee	{[scat n]} =light_vehicle_car=	% 軽自動車 
 	keetora	{[scat n]} =light_van_car=	% 軽自動車 
 	konchinentaru	{[scat n]} =continental_car=
-	kooki	{[scat n]} =koki_car=
+	kooki	{[scat n]} =hongqi_car=
 	korona	{[scat n]} =corona_car=
 	kosumo	{[scat n]} =cosmo_car=
 	kuraun	{[scat n]} =crown_car=

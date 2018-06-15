@@ -221,7 +221,7 @@ juunigatsuchuu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ni-gatsu-chuu" =d
 juunigatsugoo	{[scat num] [allo OR numCFa numBFa numFc]} "juu-ni-gatsu-goo" =december_issue=
 juunanagatsu	{[scat num] [allo OR numCFa numBFa numFc]} "juu-nana-gatsu" =seventeenth_month=
 nangatsu	{[scat n:deic:wh] [allo OR numCFa numBFa numFc]} "nan-gatsu" =which_month=
-
+nangatsugoo	{[scat n:deic:wh] [allo OR numCFa numBFa numFc]} "nan-gatsu-goo" =which_month_issue=
 daiichi	{[scat num]} "dai#ichi" =first=
 daini	{[scat num]} "dai#ni" =second=
 daisan	{[scat num]} "dai#san" =third=
@@ -244,6 +244,7 @@ five	{[scat num] [allo numA]} =five=
 faibu	{[scat num] [allo numA]} =five= "faibu"
 six	{[scat num] [allo numA]} =six=
 shikkusu	{[scat num] [allo numA]} =six= "shikkusu"
+sikkusu	{[scat num] [allo numA]} =six= "shikkusu"
 seven	{[scat num] [allo numA]} =seven=
 sebun	{[scat num] [allo numA]} =seven= "sebun"
 eight	{[scat num] [allo numA]} =eight=

@@ -60,6 +60,7 @@ irasshaimashitara	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-COND:tar
 %                     IMPERATIVE FOSSILES
 
 goran	{[scat v:ir:sub] [tense imp]} =try= "goran&IMP"
+gorannasai	{[scat v:ir:sub] [tense imp]} =try= "goran&IMP-nasai&IMP"
 oide	{[scat v:ir:sub] [tense imp]} =come= "oide&IMP"
 choodai	{[scat v:ir:sub] [tense imp]} =give= "choodai&IMP"
 choo	{[scat v:ir:sub][tense imp]} =give= "choodai&IMP"

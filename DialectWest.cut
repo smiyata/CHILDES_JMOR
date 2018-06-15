@@ -33,21 +33,6 @@ deharankatta	{[scat vtense] [tense pres] [allo OR vTNn vTIg]} "ASP:har-NEG:n-PAS
 deharankattara	{[scat vtense] [tense pres] [allo OR vTNn vTIg]} "ASP:har-NEG:n-COND:tara"
  
 % negative		######## 
-n	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n&PRES"  
-nkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-PAST"
-nkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-COND:tara"
-nku	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-ADV"
-nkute	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-CONN"
-nde	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-CONN:de"
-nde	{[scat vtense] [tense imp] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-IMP:de"
-hen	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen&PRES"
-hin	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin&PRES"
-henkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-PAST"
-henkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-COND:tara"
-hinkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-PAST"
-hinkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-COND:tara"
-henku	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-ADV"
-hinku	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-ADV"
 yasen	{[scat vtense] [tense pres] [allo OR vC vCi vBTts vRw vV vAIt vTKi vTSi vAIs]} "NEG:yasen&PRES"
 yasenkatta	{[scat vtense] [tense past] [allo OR vC vBTts vRw vV vAIt vTKi vTSi vAIs]} "NEG:yasen-PAST"
 %%% disdain		########
@@ -146,6 +131,8 @@ gena	{[scat smod]} =apparently=
 %%%%%%
 ken	{[scat ptl:conj]} =because=
 
+dade	{[scat conj]} "da_de" =therefore=
+
 to	{[scat ptl:fina]} =FINA=
 mo	{[scat ptl:fina]} =ASSERT=
 
@@ -161,4 +148,10 @@ mo	{[scat ptl:fina]} =ASSERT=
 
 %ikiyoran
 
+%%%%%%%%% NOUNS
+	mentsu	{[scat n]} =female= 
+	men	{[scat n]} =female= 
+	on	{[scat n]} =male= 	% 雄  牡 
+	ontaa	{[scat n]} =male= 	% 雄  牡 
+	ontsu	{[scat n]} =male= 	% 雄  牡 
 

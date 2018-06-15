@@ -61,6 +61,7 @@ yori	{[scat ptl:post]} =from=
 yori	{[scat ptl:post]} =COMPARE= 
 
 %%%% compound postposition particles   [here only ptls used in the child data; for more particles, see Adult_ptl.cut]
+ja	{[scat ptl:cppost]} =in_that_case= "de&wa"
 nikagirazu	{[scat ptl:cppost]} =not_only= "ni_kagirazu"
 nikanshite	{[scat ptl:cppost]} =concerning= "ni_kanshite"
 nikakawarazu	{[scat ptl:cppost]} =regardless= "ni_kakawarazu"
@@ -78,6 +79,7 @@ no	{[scat ptl:attr]} =GEN=
 nitaisuru	{[scat ptl:attr]} =regarding= "ni_taisuru"
 tchuu	{[scat ptl:attr]} =called= "to&iu"
 tteiu	{[scat ptl:attr]} =called= "tte_iu"
+tteyuu	{[scat ptl:attr]} =called= "tte_iu"
 toiu	{[scat ptl:attr]} =called= "to_iu"
 toyuu	{[scat ptl:attr]} =called= "to_yuu"
 
@@ -169,6 +171,7 @@ tosuruto	{[scat ptl:conj]} "to_suru_to" =if_then=
 tosuruto	{[scat conj]} "to_suru_to" =if_then=
 towaie	{[scat ptl:conj]} "to_wa_ie" =though=
 yori	{[scat ptl:conj]} =COMPARE=
+yorimo	{[scat ptl:conj]} "yori_mo" =rather_than=
 
 %%%%%%%%%%%% coordinating particle
 demo	{[scat ptl:coo]} "de_mo" =also=
@@ -178,7 +181,9 @@ ni	{[scat ptl:coo]} =plus=
 tai	{[scat ptl:coo]} =versus=
 to	{[scat ptl:coo]} =and=
 toka	{[scat ptl:coo]} =or=
-toiuka	{[scat ptl:coo]} =or=
+toiuka	{[scat ptl:coo]} =or_rather=
+tteiuka	{[scat ptl:coo]} =or_rather=
+tteyuuka	{[scat ptl:coo]} =or_rather=
 ya	{[scat ptl:coo]} =or=
 yara	{[scat ptl:coo]} =or=
 

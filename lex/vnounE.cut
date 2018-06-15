@@ -140,6 +140,8 @@ xf%%% VERBAL NOUNS %%
 	eegyoo	{[scat n:vn]} =business=	%【営業】
 	eekyoo	{[scat n:vn]} =impact=	%【影響】
 	enchoo	{[scat n:vn]} =prolongation=	%【延長】
+	engeki	{[scat n:vn]} =playing_theatre=	%
+	engekibu	{[scat n]} =theatre_club=	%
 	enko	{[scat n:vn]} =be_stranded=	%
 	enryo	{[scat n:vn]} =refraining=	%【遠慮】
 	ensoo	{[scat n:vn]} =play_music=	%【演奏】
@@ -194,6 +196,7 @@ xf%%% VERBAL NOUNS %%
 	gochagocha	{[scat n:vn:onoma]} =mess=	
 	gochisoo	{[scat n:vn]} =treat=	%【ごちそう】(ご〈馳走)
 	gokai	{[scat n:vn]} =misunderstanding=	%【誤解】
+	gokko	{[scat n:vn]} =game=	%【ごっこ】
 	gonta	{[scat n:vn]} =mischief=	%
 	gookaku	{[scat n:vn]} =pass_exam=	%【合格】
 	gookee	{[scat n:vn]} =sum=	%【合計】
@@ -281,6 +284,7 @@ xf%%% VERBAL NOUNS %%
 	hikizan	{[scat n:vn]} =subtraction=
 	hikkoshi	{[scat n:vn]} =moving=	%【引越】
 	hikoo	{[scat n:vn]} =flight=	%【飛行】
+	hikooseki	{[scat n]} =levitation_stone=	%【飛行席】
 	hikuhiku	{[scat n:vn:onoma]} =twitch=	
 	himochi	{[scat n:vn]} =keeping_for_long_time=	%【日もち】(日《保ち)
 	hinan	{[scat n:vn]} =blame=	%【非難】(批難)+
@@ -374,6 +378,7 @@ xf%%% VERBAL NOUNS %%
 	kaisatsu	{[scat n:vn]} =ticket_barrier=	%【改札】
 	kaishi	{[scat n:vn]} =start=	%【開始】
 	kaishuu	{[scat n:vn]} =collect=	%【回収】
+	kaisoo	{[scat n:vn]} =renovation=	%【改装】
 	kaiten	{[scat n:vn] [ncf ban]} =rotation=	%【回転】
 	kaitendai	{[scat n] [ncf ban]} =rotator=	%【回転】
 	kaiwa	{[scat n:vn]} =conversation=	%【会話】
@@ -452,7 +457,7 @@ xf%%% VERBAL NOUNS %%
 	keetai	{[scat n:vn]} =carry_on=	%【携帯】
 	keeyaku	{[scat n:vn]} =contract=	%【契約】
 	kega	{[scat n:vn]} =injury=	%【けが】(《怪我)
-	keganin	{[scat n:vn]} =injured_person= "kega-nin"	%【けが人】(《怪我人)
+	keganin	{[scat n]} =injured_person= "kega-nin"	%【けが人】(《怪我人)
 	kegirai	{[scat n:vn]} =antipathy=	%【毛嫌い】
 	kekka	{[scat n:vn]} =result=	%【結果】
 	kekkon	{[scat n:vn]} =marriage=	%【結婚】
@@ -518,6 +523,7 @@ xf%%% VERBAL NOUNS %%
 	kommake	{[scat n:vn]} =patience_exhausted=	%【根負け】
 	komori	{[scat n:vn]} =baby_sit=	%【子守】
 	konkurabe	{[scat n:vn]} =endurance_contest=	%【根比べ】(根《競べ)
+	konsen	{[scat n:vn]} =entangled=	%【混戦】
 	konran	{[scat n:vn]} =confusion=	%【混乱】
 	konzatsu	{[scat n:vn]} =crowdedness=	%【混雑】
 	koobi	{[scat n:vn]} =copulation=	%【交尾】
@@ -668,6 +674,7 @@ xf%%% VERBAL NOUNS %%
 	seekai	{[scat n:vn]} =correct_answer=	%【正解】
 	seekatsu	{[scat n:vn]} =life=	%【生活】
 	seekoo	{[scat n:vn]} =success=	%【成功】
+	daiseekoo	{[scat n:vn]} =big_success= "dai#seekoo"	%【成功】
 	seesho	{[scat n:vn]} =fair_copy=	% 清書
 	seeri	{[scat n:vn]} =reorganize=	%【整理】
 	seeton	{[scat n:vn]} =put_in_order=	% 整頓
@@ -685,6 +692,7 @@ xf%%% VERBAL NOUNS %%
 	sensha	{[scat n:vn]} =car_wash=	%【洗車】
 	sentaku	{[scat n:vn]} =launder=	%【洗濯】
 	sentaku	{[scat n:vn]} =choice=	%【選択】
+	senyuu	{[scat n:vn]} =monopolize=	%【占有】
 	sesshoku	{[scat n:vn]} =touch=	%【接触】
 	setchaku	{[scat n:vn]} =adhesion=	%【接着】
 	setsumee	{[scat n:vn]} =explanation=	%【説明】
@@ -696,6 +704,7 @@ xf%%% VERBAL NOUNS %%
 	shiai	{[scat n:vn]} =competition=	%【試合】
 	shigoto	{[scat n:vn] [npform o]} =work=	%【仕事】
 	shiken	{[scat n:vn]} =examination=	%【試験】
+	shimboo	{[scat n:vn]} =patience=	%【辛抱】
 	shimpai	{[scat n:vn]} =sorrow=	%【心配】
 	shimpaisoo	{[scat n:an]} =sorrow_seeming=	"shimpai-soo" %【心配】
 	shinka	{[scat n:vn]} =evolution=	%【進化】
@@ -719,6 +728,7 @@ xf%%% VERBAL NOUNS %%
 	shoobu	{[scat n:vn]} =competition=	%【勝負】
 	shooben	{[scat n:vn]} =urinate=	%【小便】
 	shomben	{[scat n:vn]} =urinate=	%【小便】
+	shomoo	{[scat n:vn]} =desire=	%【所望】
 	shoodoku	{[scat n:vn]} =desinfection=	%【消毒】
 	shoodokumen	{[scat n]} =desinfection_pad=	%【消毒】
 	shooen	{[scat n:vn]} =invitation_to_banquet=	%招宴
@@ -741,6 +751,7 @@ xf%%% VERBAL NOUNS %%
 	shuuchuu	{[scat n:vn]} =concentration=	%【集中】
 	shuuchuuryoku	{[scat n]} =power_of_concentration= "shuuchuu-ryoku"	%【集中】
 	shuufuku	{[scat n:vn]} =restoration=	%【修復】
+	shuugeki	{[scat n:vn]} =attack=	%【襲撃】[1]
 	shuugoo	{[scat n:vn]} =assembly=	%【集合】[1]
 	shuugyoo	{[scat n:vn]} =training=	%【修業】
 	shuukaku	{[scat n:vn]} =harvest=	%【収獲】
@@ -774,6 +785,7 @@ xf%%% VERBAL NOUNS %%
 	taiboo	{[scat n:vn]} =expectation=	%【待望】
 	taiho	{[scat n:vn]} =arrest=	%【逮捕】
 	taiin	{[scat n:vn]} =leaving_hospital=	%【退院】
+	taiji	{[scat n:vn]} =extermination= %【退治】
 	taiki	{[scat n:vn]} =waiting= %【待機】
 	taikyaku	{[scat n:vn]} =retreat=	%【退却】
 	taioo	{[scat n:vn]} =correspondance= 	%【対応】

@@ -3,9 +3,15 @@
 %             						   	"suru"
 su	{[scat v:ir]} =do=
 sase	{[scat v:v]} =do= "sase_CAUS"	
+sase	{[scat v:v:sub]} =do= "sase_CAUS"	
 sas	{[scat v:c]} =do= "sase_CAUS:contr"	
+sas	{[scat v:c:sub]} =do= "sase_CAUS:contr"	
 sare	{[scat v:v]} =do= "sare_PASS"	
-shisoo	{[scat n:an]} =likely_doing=  "su-soo"
+shisoo	{[scat n:an]} =do_seeming=  "su-soo"
+shigata	{[scat adj]} =do_hard=  "su-gata"
+shiniku	{[scat adj]} =do_difficult=  "su-niku"
+shiyasu	{[scat adj]} =do_easy=  "su-yasu"
+shizura	{[scat adj]} =do_easy=  "su-zura"
 see	{[scat v:ir][tense imp]} =do= "su&IMP"
 shai	{[scat v:ir:sub]} =do= "su&IMP:shai"
 

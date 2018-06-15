@@ -435,6 +435,7 @@ zuriagar	{[scat v:c]} =creep_up= "zur_agar"
 meshiagar	{[scat v:c]} =eat_POL= "meshi_agar"	%【召し上がる】  	%% lex. compound 
 	akur	{[scat v:c]} =next=
 	amar	{[scat v:c]} =left_over=	%【余る】
+	asar	{[scat v:c]} =scavange=	%【漁る】
 	aser	{[scat v:c]} =be_in_hurry=	%【焦る】
 	atar	{[scat v:c]} =hit_on=	%【当たる】***
 ikiatar	{[scat v:c]} =arrive_at= "ik_atar"	%【行き当たる】   			%% lex. compound 
@@ -622,6 +623,7 @@ kubarikir	{[scat v:c][comp v:c+v:c]} =distribute_everything= "kubar+kir"
 machikir	{[scat v:c][comp v:c+v:c]} =finish_waiting= "mat+kir"
 magarikir	{[scat v:c][comp v:c+v:c]} =turn_around_completely= "magar+kir"
 nigekir	{[scat v:c][comp v:v+v:c]} =make_ones_getaway= "nige+kir"
+noborikir	{[scat v:c][comp v:c+v:c]} =scale= "nobor+kir"
 norikir	{[scat v:c][comp v:c+v:c]} =overcome= "nor+kir"
 omoikir	{[scat v:c][comp v:c+v:c]} =take_the_plunge= "omow+kir"
 shimekir	{[scat v:c][comp v:c+v:c]} =close= "shime+kir"	%【締め切る】
@@ -945,8 +947,9 @@ tsukiyabur	{[scat v:c]} =pierce= "tsuk_yabur"	%【突き破る】
 	yar	{[scat v:c]} =do=	%【やる】(《遣る)
 omoiyar	{[scat v:c]} =sympathize_with= "omow_yar"	%【思いやる】(思い《遣る)   %% lex. compound 
 	yojir	{[scat v:c]} =twist=	%【よじる】(〈捩る)
+	yokogir	{[scat v:c]} =cross=	%【横切る】
 	yokotawar	{[scat v:c]} =lie=	%【横たわる】
-	yomigaer	{[scat v:v]} =be_revived= 
+	yomigaer	{[scat v:c]} =be_revived= 
 	yomigaerase	{[scat v:v]} =let_rephrase= "yomigaer-CAUS"
 	yor	{[scat v:c]} =approach=	%【寄る】
 kakeyor	{[scat v:c]} =run_up_to= "kake_yor"	%【駆け寄る】 		%% lex. compound 
@@ -988,6 +991,7 @@ iiarawas	{[scat v:c]} =express= "iw_arawas"		%chunk
 	charakas	{[scat v:c]} =frolic=	%【ちゃらかす】
 	chirabas	{[scat v:c]} =scatter=	%【散らばす】
 	chirakas	{[scat v:c]} =scatter=	%【散らかす】
+tabechirakas	{[scat v:c]} =spill_food= "tabe_chirakas"	%【食べ散らかす】
 	chiras	{[scat v:c]} =scatter=	%【散らす】
 atarichiras	{[scat v:c]} =vent= "atar_chiras"  %【当たり散らす】		%% lex. compound 
 kuichiras	{[scat v:c]} =eat_untidily= "kuw_chiras"	%【食い散らす】
@@ -1361,7 +1365,7 @@ mukaiaw	{[scat v:c][comp v:c+v:c]} =face_each_other= "mukaw+aw"
 mukiaw	{[scat v:c][comp v:c+v:c]} =face= "muk+aw"	%【向き合う】
 nageaw	{[scat v:c][comp v:v+v:c]} =bandy= "nage+aw"
 nageaikko	{[scat n:vn][comp v:v+v:c]} =bandy= "nage+aw-kko"
-niaw	{[scat v:c][comp v:v+v:c]} =suit= "ni+aw"	%【似合う】
+niaw	{[scat v:c][comp v:v+v:c]} =suit= "ni+aw"	%【似合う】	
 shiaw	{[scat v:c][comp v:v+v:c]} =do_mutually= "su+aw"	%【し合う】
 shiaw	{[scat v:c:sub][comp v:v+v:c]} =do_mutually= "su+aw"	%【し合う】
 toriaw	{[scat v:c][comp v:c+v:c]} =scramble_for= "tor+aw"
@@ -1413,6 +1417,7 @@ makizoeokuw	{[scat v:c]} =be_entangled= "makizoe_o_kuw"	%【巻き添えを食�
 minaraw	{[scat v:c]} =learn_by_observation= "mi_naraw"	%【見習う】		%% lex. compound 
 	negaw	{[scat v:c]} =wish=	%【願う】
 	neraw	{[scat v:c]} =aim=	%【ねらう】(〈狙う)
+	nigiwaw	{[scat v:c]} =flourish= "nigiwaw"	%【賑う】
 	niow	{[scat v:c]} =smell=	%【におう】(〈匂う)
 	nuw	{[scat v:c]} =sew=	%【縫う】
 	obuw	{[scat v:c]} =carry=	%【おぶう】(《負ぶう)
@@ -1477,7 +1482,7 @@ mooshiage	{[scat v:v]} =tell_POL= "moos_age"	%【申し上げる】
 noriage	{[scat v:v]} =be_stranded= "nori_age"
 sashiage	{[scat v:v]} =give_POL= "sas_age"	%【差し上げる】
 shiage	{[scat v:v][comp v:ir+v:v]} =finish_up= "su_age"
-	shiagemigaki	{[scat n:vn][comp v:ir+v:v+v:c]} =finish_up_polish= "su_age_migak"
+	shiagemigaki	{[scat n:vn][comp v:v+v:c]} =finish_up_polish= "su_age+migak"
 suiage	{[scat v:v]} =suck_up= "suw_age"
 tasukeage	{[scat v:v]} =rescue= "tasuke_age"
 toriage	{[scat v:v]} =take_up= "tor_age"
@@ -1943,6 +1948,7 @@ uketome	{[scat v:v]} =react_to= "uke_tome"
 	tsubome	{[scat v:v]} =shut=	%【つぼめる】(〈窄める)
 	tsubure	{[scat v:v]} =be_crushed=	%【つぶれる】(〈潰れる)
 	tsuge	{[scat v:v]} =tell=	%【告げる】
+	tsukkae	{[scat v:v]} =feel_blocked=	%【痞える】
 	tsukamae	{[scat v:v]} =catch=	%【つかまえる】(〈掴まえる)
 	tsukare	{[scat v:v]} =be_tired=	%【疲れる】
 tatakaitsukare	{[scat v:v]} =be_tired_from_fighting= "tatakaw_tsukare"  	%% lex. compound 
@@ -1961,6 +1967,7 @@ kikitsuke	{[scat v:v]} =catch_words= "kik_tsuke"
 kimetsuke	{[scat v:v]} =fix_upon=	%【決めつける/決め付ける】
 kukuritsuke	{[scat v:v]} =fix= "kukur_tsuke"	%【くくりつける】(《括り付ける)
 misetsuke	{[scat v:v]} =display= "mise_tsuke"	%【見せつける/見せ付ける】
+makitsuke	{[scat v:v]} =twine_around= "mak_tsuke"	%【巻きつける】
 mitsuke	{[scat v:v]} =find= "mi_tsuke"	%【見つける】
 moritsuke	{[scat v:v]} =arrange_food= "mor_tsuke"
 osaetsuke	{[scat v:v]} =press= "osae_tsuke"	%【押さえつける/押さえ付ける】
@@ -2112,6 +2119,7 @@ nomisugi	{[scat v:v][comp v:c+v:v]} =drink_too_much= "nom+sugi"
 noridashisugi	{[scat v:v][comp v:c+v:c+v:v]} =set_out= "nor+das+sugi"
 nurashisugi	{[scat v:v][comp v:c+v:v]} =soak_too_much= "nuras+sugi"
 nurisugi	{[scat v:v][comp v:c+v:v]} =paint_too_much= "nur+sugi"
+otoshisugi	{[scat v:v][comp v:c+v:v]} =drop_too_much= "otos+sugi"
 oshisugi	{[scat v:v][comp v:c+v:v]} =push_too_much= "os+sugi"
 shisugi	{[scat v:v][comp v:ir+v:v]} =do_too_much= "su+sugi"
 shisugi	{[scat v:v:sub][comp v:ir+v:v]} =do_too_much= "su+sugi"

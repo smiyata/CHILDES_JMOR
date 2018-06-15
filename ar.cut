@@ -228,11 +228,6 @@ ALLOCAT = LEXCAT, ADD [allo vTSi]
 ALLO:
 ALLOSURF = sh
 ALLOCAT = LEXCAT, ADD [allo vBSu]
-%%%
-ALLO:
-ALLOSURF = shisoo
-ALLOCAT = LEXCAT, ADD [scat n:an]
-ALLOSTEM = su-soo
 ALLO:
 ALLOSURF = sun
 ALLOCAT = LEXCAT, ADD [tense pres]

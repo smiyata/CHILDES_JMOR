@@ -75,6 +75,7 @@ nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"
 nanyoobi	{[scat n:deic:wh]} =what_weekday= "nani-yoobi"
 nan	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
 nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
+nande	{[scat adv:deic:wh]} =why=
 naze	{[scat adv:deic:wh]} =why=
 dare	{[scat n:deic:wh]} =who=
 daredare	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"

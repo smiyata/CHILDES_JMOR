@@ -24,8 +24,8 @@ kaku	{[scat pfx] [pcat n]} =each=	% 各
 %mu	{[scat pfx] [pcat n]} =not=		% 無 
 o	{[scat pfx] [pcat n]} =HON=	% お 
 oo	{[scat pfx] [pcat n]} =big=	% 大,多 
-ryoo	{[scat pfx] [pcat n]} =both=		% 両 
-mai	{[scat pfx] [pcat n]} =every=		% 毎 
+%ryoo	{[scat pfx] [pcat n]} =both=		% 両 to quant
+%mai	{[scat pfx] [pcat n]} =every=		% 毎 to quant
 %%%%
 
 % verb prefixes  => entered directly in ar.cut as verb stem allo
@@ -91,7 +91,7 @@ see	{[scat nsfx]} =student=
 see	{[scat nsfx]} =made_of=
 tachi	{[scat nsfx]} =PL=
 -tachi	{[scat nsfx]} "tachi" =PL=
-teki	{[scat nsfx] [sfxcat n:an]} =like=    %%sfxcat   bewirkt keine  scat Aenderung CHECK
+teki	{[scat nsfx]} =like=    %%sfxcat   bewirkt keine  scat Aenderung CHECK
 tsuki	{[scat nsfx]} =with=
 ya	{[scat nsfx]} =shop=
 ya	{[scat nsfx] [sfxcat n]} =shop= "ya"
@@ -201,6 +201,7 @@ ppanashi	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =aba
 % word class change to adj noun  "n:an|tabe-soo" ########
 gachi	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =liable=
 soo	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =seeming=
+
 % word class change to adj   "adj|tabe-yasu-PRES"  %%%%%%%%%%%%%%%%%%%%%%&%%%%%
 yasu	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =easy=
 niku	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =difficult= 
@@ -248,6 +249,21 @@ naide	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&CONN:de"
 naide	{[scat vtense] [tense imp] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&IMP:de"
 nde	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-CONN:de"
 nde	{[scat vtense] [tense imp] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-IMP:de"
+
+n	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n&PRES"  
+nkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-PAST"
+nkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-COND:tara"
+nku	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-ADV"
+nkute	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:n-CONN"
+
+hen	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen&PRES"
+hin	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin&PRES"
+henkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-PAST"
+henkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-COND:tara"
+hinkatta	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-PAST"
+hinkattara	{[scat vtense] [tense past] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-COND:tara"
+henku	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hen-ADV"
+hinku	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:hin-ADV"
 
 %%% politeness		########
 masu	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "POL-PRES"
@@ -383,11 +399,14 @@ re	{[scat vsfx] [allo vBKo] [cp vV]} "POT"
 
 % causative	########
 sase	{[scat vsfx] [allo OR vV vBKo] [cp vV]} "CAUS"
+sase	{[scat vtense] [tense inf] [allo OR vV vBKo]} "CAUS&GER" 
 sas	{[scat vsfx] [allo OR vV vBKo] [cp vC]} "CAUS:contr"
 sashi	{[scat vsfx] [allo OR vV vBKo] [cp vAIs]} "CAUS:contr"
 sas	{[scat vsfx] [allo OR vV vBKo] [cp vC]} "CAUS:contr"      %%%CHECK -s verb
 ase	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vV]} "CAUS"
+ase	{[scat vtense]  [tense inf] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vV]} "CAUS&GER" 
 as	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vC]} "CAUS:contr"
+asa	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vCa]} "CAUS:contr"
 ashi	{[scat vsfx] [allo OR vC vCa vBPp vBNn vBTt vBSs vBWw vRww] [cp vAIs]} "CAUS:contr"
 
 % completive  	########
@@ -396,9 +415,9 @@ chaw	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vRww]}
 chat	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vTTw]} "COMPL"
 chawa	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vCa]} "COMPL"
 chai	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vPIw]} "COMPL"
-chai	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vPIw]} "COMPL-GER"
-chaw	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vRww]} "COMPL"  %% CHECK -w verb
-chat	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vTTw]} "COMPL"  %% CHECK -w verb
+chai	{[scat vtense][tense inf] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi]} "COMPL-GER"
+chaw	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vRww]} "COMPL" 
+chat	{[scat vsfx] [allo OR vV vTTw vTTr vC vAIs vTIk vTTik vTKi vTSi] [cp vTTw]} "COMPL" 
 ja	{[scat vsfx] [allo OR vTNn vTIg] [cp vRw]} "COMPL"
 jaw	{[scat vsfx] [allo OR vTNn vTIg] [cp vRww]} "COMPL"
 jat	{[scat vsfx] [allo OR vTNn vTIg] [cp vTTw]} "COMPL"
@@ -432,6 +451,8 @@ choome	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb
 % 								 度 
 do	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =degree=
 do	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =times=
+% 								 エーカー  acre 
+eekaa	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =acre=
 % 								 円 
 en	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =yen=
 embun	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en-bun" =yen_portion=
@@ -445,8 +466,6 @@ fungoto	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun-goto" =minute
 pungoto	{[scat numsfx] [allo OR numBFa numBFb numBBp]} "fun-goto" =minute_each=
 % 								 月 
 %gatsu	{[scat numsfx] [allo OR numCFa numBFa numFc]} =month=
-%gatsuchuu	{[scat numsfx] [allo OR numCFa numBFa numFc]} "gatsu-chuu" =month_mid=
-%gatsugoo	{[scat numsfx] [allo OR numCFa numBFa numFc]} "gatsu-goo" =month_issue=
 % 								 グラム 
 guramu	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =gram=
 % 								 杯 
@@ -585,6 +604,8 @@ setai	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb 
 shaku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =centiliter=
 % 								 車線 
 shasen	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =line=
+% 								 色 
+shoku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =color=
 % 								 週,周,集 
 shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =week=
 shuukan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =week=

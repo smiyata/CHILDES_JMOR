@@ -65,6 +65,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	choito	{[scat adv]} =a_bit= "choito"	% ちょっと  一寸 
 	chotto	{[scat adv]} =a_bit=	% ちょっと  一寸 
 	chiito	{[scat adv]} =a_bit=	% ちいと  
+	daibu	{[scat adv]} =mostly=	% だいぶ/大分 before adj
 %changed_to_quant	daibu	{[scat adv]} =mostly=	% だいぶ/大分 
 %changed_to_quant	daitai	{[scat adv]} =generally=	% 大体 
 	dandan	{[scat adv] [rent +]} =more_and_more=	% 段々 
@@ -91,6 +92,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	hayo	{[scat adv]} =fast= 
 	hayoo	{[scat adv]} =fast=
 	hitasura	{[scat adv]} =solely= %ひたすら
+	honno	{[scat adv]} =only= %ほんの
 	honobono	{[scat adv]} =heartwarming=	% ほのぼの
 %changed_to_quant	hotondo	{[scat adv]} =mostly=	% ほとんど  殆ど 
 	hyottoshite	{[scat adv]} =perhaps=	
@@ -134,6 +136,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	kosotto	{[scat adv]} "kossoto" =secretly=	
 	kukkiri	{[scat adv] [to +] [vn +]} =distinctly=	
 	kyokuryoku	{[scat adv]} =to_the_utmost=	% 極力 
+	kuchiguchini	{[scat adv]} =unanimously=	% 口々に
 	maamaa	{[scat adv]} =passable=	
 	mada	{[scat adv]} =still=	% まだ  未だ 
 	maji	{[scat adv]} =seriously=	% まじ
@@ -154,6 +157,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	mechamecha	{[scat adv]} =extremely=
 	meippai	{[scat adv]} =to_the_full=	% 目いっぱい/目一杯 
 	metcha	{[scat adv]} =extremely=
+	mettani	{[scat adv]} =rarely=
 	mochiron	{[scat adv]} =of_course=	% もちろん  勿論 
 	mokkai	{[scat adv]} =once_more=	% もう一回 
 	moo	{[scat adv]} =already=	
@@ -216,6 +220,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	sorekkiri	{[scat adv]} =no_more_than_that=	
 	sorori	{[scat adv] [to +]} =slowly=	
 	sorootto	{[scat adv] [to +]} =slowly=	
+	somosomo	{[scat adv] [to +]} =to_begin_with=	
 	sorosoro	{[scat adv] [to +]} =by_and_by=	
 %changed_to_quant	subete	{[scat adv]} =all=	% 全て 
 	sudeni	{[scat adv]} =already=	% すでに  既に/ 已に 
@@ -276,6 +281,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	yooyaku	{[scat adv]} =finally=	% ようやく  漸く 
 	yoppodo	{[scat adv]} =considerably= "yohodo"	% よほど/余程 
 	yukkuri	{[scat adv]} =slowly=	
+	yuttari	{[scat adv]} =spacious=	
 	zatto	{[scat adv]} =sketchily=	
 	zehi	{[scat adv]} =inevitable=	% 是非 
 	zenzen	{[scat adv]} =not_at_all=	% 全然 

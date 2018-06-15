@@ -22,6 +22,14 @@
 	atsuraemuki	{[scat n:an]} =ready_made=	% あつらえ向き  誂え向き 
 	attaka	{[scat n:an]} =warm=	% あったか  暖か/ 温か 
 	attooteki	{[scat n:an]} =overwhelmingly=	"attoo-teki"	% 圧倒的 
+	 booryokuteki	{[scat n:an]} =aggressive=	"ooryoku-teki"	% 暴力的 
+	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku-teki"	% 本格的 
+	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki-teki"	% 画期的 
+	 kasooteki	{[scat n:an]} =disguise_like=	"kasoo-teki"	% 仮装的 
+	 kinooteki	{[scat n:an]} "kinoo-teki" =functional=	% 機能的 
+ 	 kisokuteki	{[scat n:an]} "kisoku-teki" =regular=	% 規則的 
+ 	 saishuuteki	{[scat n:an]} "saishuu-teki" =finally=	% 最終的 
+ 	 saizuteki	{[scat n:an]} "saizu-teki" =concerning_size=	% サイズ的 
 	aware	{[scat n:an]} =miserable=	% 哀れ
 	ayafuya	{[scat n:an]} =vague=	%
 	azayaka	{[scat n:an]} =vivid=	% 鮮やか 
@@ -67,6 +75,7 @@
 	bushoo	{[scat n:an]} =indolent=	% 無精/不精 
 	bussoo	{[scat n:an]} =ominous=	% 物騒 
 	buyoojin	{[scat n:an]} =careless=	% 無用心/不用心 
+	byoodoo	{[scat n:an]} =equally=	% 平等 
 	chokusetsu	{[scat n:an]} =direct=
 	choku	{[scat n]} =direct=
 	chuutohampa	{[scat n:an]} =half_finished=	% 中途はんぱ 
@@ -169,7 +178,6 @@
 	hisoka	{[scat n:an]} =secret=	% ひそか  密か/ 窃か 
 	hitsuyoo	{[scat n:an]} =necessary=	% 必要 
 	hitsuzen	{[scat n:an]} =inevitable=	% 必然的 
-	honkakuteki	{[scat n:an]} =in_earnest= "honkaku-teki"	% 本格的 
 	honki	{[scat n:an]} =serious=	% 本気 
 	iikagen	{[scat n:an]} =halfhearted=	% いいかげん  好い加減 
 	ijiwaru	{[scat n:an]} =malicious=	% 意地悪 
@@ -195,7 +203,6 @@
 	juubun	{[scat n:an]} =sufficient=	% 十分/充分 
 	kaichoo	{[scat n:an]} =in_good_shape=	% 快調 
 	kaikai	{[scat n:an]} =itchy=	
-	kakkiteki	{[scat n:an]} =epoch_making=	"kakki-teki"	% 画期的 
 	kakujitsu	{[scat n:an]} =for_certain=	% 確実 
 	kampeki	{[scat n:an]} =perfect=	% 完ぺき  完 璧 
 	kantan	{[scat n:an]} =simple=	% 簡単 
@@ -203,6 +210,7 @@
 	kantansoo	{[scat n:an]} =seeming_simple= "kantan-soo"	% 簡単 
 	kanzen	{[scat n:an]} =complete=	% 完全 
 	karappo	{[scat n:an]} =empty=	% 空っぽ 
+	kasuka	{[scat n:an]} =faint=	%  微か  かすか 
 	katoo	{[scat n:an]} =excessive=	%  過当 
 	katte	{[scat n:an]} =selfish=	%  勝手 
 	kawaisoo	{[scat n:an]} =pitiable=	% かわいそう  可哀=相 
@@ -216,7 +224,6 @@
 	kichoomensa	{[scat n]} == "kichoomen-sa"
 	kigakari	{[scat n:an]} =sorrow=	% 気がかり 
 	kiken	{[scat n:an]} =danger=	% 危険 
-	kinooteki	{[scat n:an]} "kinoo-teki" =functional=	% 機能的 
 	kinitsu	{[scat n:an]} =uniform=	% 均一 
 	kirai	{[scat n:an]} =detest=	% 嫌い 
 	kiree	{[scat n:an]} =beautiful=	% きれい  奇麗/ 綺麗 
@@ -228,6 +235,8 @@
 	kuishimbo	{[scat n:an]} =gourmand= "kuishimboo"	% 食いしん坊 
 	kuishimboo	{[scat n:an]} =gourmand=	% 食いしん坊 
 	kushakusha	{[scat n:an]} =messy=	
+	kyokutan	{[scat n:an]} =extreme=	%極端
+	kyooryoku	{[scat n:an]} =strong=	%強力
 	kyuu	{[scat n:an]} =sudden=	
 	kyuugeki	{[scat n:an]} =abrupt=
 	kyuukutsu	{[scat n:an]} =too_narrow=	% 窮屈 
@@ -294,6 +303,8 @@
 	sakasama	{[scat n:an]} =reverse=	% 逆さま  逆様 
 	seekaku	{[scat n:an]} =accurate=	% 正確 
 	seeketsu	{[scat n:an]} =clean=	% 清潔 
+	seetoo	{[scat n:an]} =orthodox=	% 正統 
+	seetooha	{[scat n]} "seetoo-ha" =orthodox_school=	% 正統派
 	shiawase	{[scat n:an]} =happy=	% 幸せ  仕合わせ 
 	shiawasesoo	{[scat n:an]} "shiawase-soo" =seeming_happy=	% 幸せ  仕合わせ 
 	shikyuu	{[scat n:an]} =urgently=	% 至急

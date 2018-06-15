@@ -146,6 +146,7 @@ kowaikowai	{[scat n:mot]} =scary=
 kukku	{[scat n:mot]}	=shoe=
 kuraikurai	{[scat n:mot]} =dark=
 kurokuro	{[scat n:mot]} =black=
+kurukuru	{[scat n:vn:mot]} =twirling=
 kusaikusai	{[scat n:mot]} =stinky=
 kusaikusai	{[scat n:mot]}	=poo=
 makka	{[scat n:an:mot]} =garish_red=
@@ -328,6 +329,7 @@ chinton	{[scat n:vn:mot]} =sit_down=
 chokichoki	{[scat n:vn:mot]} =cutting=
 chokichokisan	{[scat n:vn:mot]} "chokichoki-san" =cutting=
 chokinchokin	{[scat n:vn:mot]} =cutting=
+chokkin	{[scat n:vn:mot]} =cutting=
 chokkinchokkin	{[scat n:vn:mot]} =cutting=
 churuchuru	{[scat n:vn:mot]}	=noodle=
 chuu	{[scat n:vn:mot]} =kissing=
@@ -360,6 +362,7 @@ gottsun	{[scat n:vn:mot]} =bumping_into=
 gottsunko	{[scat n:vn:mot]} "gottsun-ko" =bumping_into_DIM=
 gujupe	{[scat n:vn:mot]} =mouth_rinsing=
 guruguru	{[scat n:vn:mot]} =circling=
+gyogyo	{[scat n:vn:mot]} =vomit=
 hai	{[scat n:vn:mot]} =handing_over=
 doozo	{[scat n:vn:mot]} =handing_over=
 konnichiwa	{[scat n:vn:mot]} =greeting=
@@ -439,7 +442,6 @@ ombu	{[scat n:vn:mot]} =piggyback=
 onesho	{[scat n:vn:mot]} =wetting_the_bed=
 onri	{[scat n:vn:mot]} =getting_down=
 rii	{[scat n:vn:mot]} =getting_down=
-oshikuramanjuu	{[scat n:mot]} "oshikura_manjuu" =back_to_back_circle_game=
 otchin	{[scat n:vn:mot]} =sit_down=
 otchinton	{[scat n:vn:mot]} =sit_down=
 pachin	{[scat n:vn:mot]} =clicking=
@@ -462,6 +464,7 @@ puchin 	{[scat n:vn:mot]} =snapping=
 puu 	{[scat n:vn:mot]}	=passing_wind=
 buu 	{[scat n:vn:mot]} "puu"	=passing_wind=
 pyompyon 	{[scat n:vn:mot]}	=hopping=
+shabonshabon	{[scat n:vn:mot]} =foam=
 shii	{[scat n:vn:mot]} =pee=
 shisshi	{[scat n:vn:mot]} "shiishii" =pee=
 shiishi	{[scat n:vn:mot]} "shiishii" =pee=

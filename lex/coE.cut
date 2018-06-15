@@ -107,7 +107,9 @@ eetone	{[scat co:i]} =errr=  "eeto_ne"
 ettone	{[scat co:i]} =errr=  "eeto_ne"
 ntone	{[scat co:i]} =errr=  "eeto_ne"
 eetosa	{[scat co:i]} =errr= "eeto_sa" 
+ntosa	{[scat co:i]} =errr= "eeto_sa" 
 eetosaa	{[scat co:i]} =errr= "eeto_sa"
+ntosaa	{[scat co:i]} =errr= "eeto_sa" 
 fuku_wa_uchi	{[scat co:g]} =in_with_fortune=
 fuun_da	{[scat co:g]} =SNIPPY=
 gee	{[scat co:i]} =keck=
@@ -159,6 +161,7 @@ happi_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
 hasshashinkoo	{[scat co:g]} =start_alright= "hassha_shinkoo"
 hasshaoorai	{[scat co:g]} =start_alright= "hassha_oorai"
 hassha_oorai	{[scat co:g]} =start_alright= "hassha_oorai"
+hate	{[scat co:g]} =dear_me= 
 heq	{[scat co:i]} =heh= "eq"
 hee	{[scat co:i]} =AMAZED=
 heeq	{[scat co:i]} =AMAZED= "hee"
@@ -302,6 +305,7 @@ okaeri	{[scat co:g]} =welcome_home=
 okairi	{[scat co:g]} =welcome_home= "okaeri"
 okaerinasai	{[scat co:g]} =welcome_home=
 okkoisho	{[scat co:i]} =heave-ho= "yokkoisho"
+dondokosho	{[scat co:i]} =heave-ho= 
 okkei	{[scat co:g]} =ok= "okkee"
 oo	{[scat co:i]} =oh=    %FILLER
 oou@i	{[scat co:i]} =oh=    %FILLER
@@ -446,6 +450,7 @@ yoidon	{[scat co:g]} =ready_set_go= "yooidon"
 yoikkosho	{[scat co:i]} =yo_heave_ho= "yokkoisho"
 yokkorasho	{[scat co:i]} =yo_heave_ho=
 yoikorashotto	{[scat co:i]} =yo_heave_ho= "yokkoisho"
+yoishoq	{[scat co:i]} =oof= "yoisho"
 yoisho	{[scat co:i]} =oof=
 yoissho	{[scat co:i]} =oof= "yoisho"
 yoishotto	{[scat co:i]} =yo_heave_ho=

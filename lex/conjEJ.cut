@@ -7,6 +7,7 @@ nazenara	{[scat conj]} =because=
 shikashi	{[scat conj]} =but=
 tokorode	{[scat conj]} =apropos=
 tokoroga	{[scat conj]} =however=
+dade	{[scat conj]} "da_de" =therefore=
 daga	{[scat conj]} =but=
 dakara	{[scat conj]} =therefore=
 damonde	{[scat conj]} =therefore=
@@ -57,8 +58,13 @@ soretomo	{[scat conj]} =or=
 soshite	{[scat conj]} =and_then=
 suruto	{[scat conj]} =and_then=
 soreto	{[scat conj]} =and_then=
+tada	{[scat conj]} =however=
+tadashi	{[scat conj]} =however=
 todoojini	{[scat conj]} "to_dooji_ni" =simultaneously=
 toiuka	{[scat conj]} "to_iu_ka" =or_rather=
+tteyuuka	{[scat conj]} "tte_iu_ka" =or_rather=
+tteiuka	{[scat conj]} "tte_iu_ka" =or_rather=
+tteyuunowa	{[scat conj]} "tte_iu_no_wa" =this_means_that=
 toiuyori	{[scat conj]} "to_iu_yori" =or_rather=
 tosuruto	{[scat conj]} "to_suru_to" =if_then=
 yoosuruni	{[scat conj]} =this_means=

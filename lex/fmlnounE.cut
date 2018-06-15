@@ -22,7 +22,7 @@ kuse	{[scat n:fml]} =inspite_of=
 mama	{[scat n:fml]} =state=	% まま  侭 
 mono	{[scat n:fml]} =fact=
 mon	{[scat n:fml]} =fact= "mono"
-n	{[scat n:fml]} =RLV= 
+n	{[scat n:fml]} =RLV= "no"
 no	{[scat n:fml]} =RLV= 
 nochi	{[scat n:fml]} =after= 
 okage	{[scat n:fml]} =thanks_to=
