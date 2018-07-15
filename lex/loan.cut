@@ -111,6 +111,7 @@
 	baumukuuhen	{[scat n]} =baumkuchen=
 	baundo	{[scat n:vn]} =bound=
 	bazaaru	{[scat n]} =bazaar=
+	bazuuka	{[scat n]} =bazooka=
 	bebii	{[scat n]} =baby=
 	beddo	{[scat n]} =bed=
 	beddokabaa	{[scat n]} =bedcover=
@@ -508,6 +509,7 @@
 	imbeedaa	{[scat n]} =space_invaders=
 	imeeji	{[scat n]} =image=
 	imiteeshon	{[scat n]} =imitation=
+	impara	{[scat n]} =impala=
 	imputto	{[scat n]} =input=
 	indian	{[scat n]} =indian=
 	infuruenza	{[scat n]} =influenza=
@@ -528,6 +530,7 @@
 	jambo	{[scat n]} =jumbo=
 	jampaa	{[scat n]} =jumper=
 	jampu	{[scat n:vn]} =jump=
+	jampujoo	{[scat n]} =jumping_place= "jampu-joo"
 	jamu	{[scat n]} =jam=
 	janguru	{[scat n]} =jungle=
 	jesuchaa	{[scat n]} =gesture=
@@ -549,6 +552,7 @@
 	kaado	{[scat n]} =card=
 	kaago	{[scat n]} =cargo=
 	kaaneeshon	{[scat n]} =carnation=
+	kaanibaru	{[scat n]} =carnival=
 	kaapetto	{[scat n]} =carpet=
 	kaapooto	{[scat n]} =carport=
 	kaaraa	{[scat n]} =curler=
@@ -791,6 +795,7 @@
 	oomu	{[scat n]} =parrot=
 	oonamento	{[scat n]} =ornament=
 	oopun	{[scat n:vn]} =open=	%【オープン】
+	oora	{[scat n]} =aura=
 	ooto	{[scat n]} =auto=
 	ootobai	{[scat n]} =motorbike=
 	oranuutan	{[scat n]} =orangutan=
@@ -961,6 +966,7 @@
 	rebaa	{[scat n]} =handle=
 	rebaa	{[scat n]} =liver=
 	reddo	{[scat n]} =red=
+	reemboo	{[scat n]} =rainbow=
 	reenkooto	{[scat n]} =raincoat=
 	reeru	{[scat n]} =rail=
 	reesaa	{[scat n]} =racer=
@@ -1044,6 +1050,7 @@
 	sando	{[scat n]} =sandwich=
 	sandoitchi	{[scat n]} =sandwich=
 	sangurasu	{[scat n]} =sunglasses=
+	sarabureddo	{[scat n]} =thoroughbred=
 	sarada	{[scat n]} =salad=
 	sarami	{[scat n]} =salami=
 	sarompasu	{[scat n]} =salonpas_pain_relief_patch=

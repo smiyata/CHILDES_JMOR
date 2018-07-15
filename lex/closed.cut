@@ -106,6 +106,7 @@ sama	{[scat npropsfx]} =HON=
 chan	{[scat npropsfx]} =FAM=
 kun	{[scat npropsfx]} =MASC_FAM=
 sensee	{[scat npropsfx]} =teacher=
+keeji	{[scat npropsfx]} =detective=
 baachan	{[scat npropsfx]} =grandma_FAM=
 obaachan	{[scat npropsfx]} =HON_grandma_FAM=
 baasan	{[scat npropsfx]} =grandma_HON=
@@ -545,6 +546,7 @@ meesama	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCB
 % 								 メーター 
 meetoru	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =metre=
 meetaa	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =metre=
+kiromeetoru	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =kilometre=
 % 								 面 
 men	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =side=
 % 								 ミリ 
@@ -559,6 +561,7 @@ monme	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb 
 % 								 年 
 nen	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =year=
 nemme	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-me" =year_ORD=
+nemburi	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-buri" =year_before=
 nenhan	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-han" =year_half=
 nenkan	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-kan" =year_span=
 % 								 年生 
@@ -618,6 +621,7 @@ shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb n
 shuunen	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu-nen" =anniversary=
 %                                                                束
 soku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bundle=
+sokubun	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bundle_portion= "soku-bun"
 % 								 点 
 ten	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =point=
 % 								 トン 

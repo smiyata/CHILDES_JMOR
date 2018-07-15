@@ -9,6 +9,7 @@ dake	{[scat ptl:foc]} =only=
 datte	{[scat ptl:foc]} =even=
 demo	{[scat ptl:foc]} "de_mo" =even=
 desae	{[scat ptl:foc]} "de_sae" =even=
+desura	{[scat ptl:foc]} "de_sura" =even=
 dokoroka	{[scat ptl:foc]} "dokoro_ka" =not_at_all=
 hodo	{[scat ptl:foc]} =about=
 gatera	{[scat ptl:foc]}  =along_with=
@@ -66,7 +67,6 @@ nikagirazu	{[scat ptl:cppost]} =not_only= "ni_kagirazu"
 nikanshite	{[scat ptl:cppost]} =concerning= "ni_kanshite"
 nikakawarazu	{[scat ptl:cppost]} =regardless= "ni_kakawarazu"
 nimokakawarazu	{[scat ptl:cppost]} =regardless= "ni_mo_kakawarazu"
-nishiro	{[scat ptl:cppost]} =be_it= "ni_shiro"
 nitaishite	{[scat ptl:cppost]} =regarding= "ni_taishite"
 niyotte	{[scat ptl:cppost]} =depending_on= "ni_yotte"
 toshite	{[scat ptl:cppost]} =as=  % hashi toshite tsukau
@@ -95,6 +95,7 @@ dato	{[scat ptl:fina]} =ASSERT=
 datte	{[scat ptl:fina]} =QUOT=   %  nai datte
 de	{[scat ptl:fina]} =ASSERT=
 do	{[scat ptl:fina]} =ASSERT=
+%ga	{[scat ptl:fina]} =FINA=   %disambiguation problem
 jan	{[scat ptl:fina]} =TAG= 
 janai	{[scat ptl:fina]} =TAG= 
 yan	{[scat ptl:fina]} =TAG= 
@@ -128,6 +129,9 @@ sa	{[scat ptl:fina]} =FINA=
 saq	{[scat ptl:fina]} =FINA= "sa"
 saa	{[scat ptl:fina]} =FINA= "sa" 
 tomo	{[scat ptl:fina]} =ASSERT=
+tchatte	{[scat ptl:fina]} "to&itchatte" =QUOT=
+tchu	{[scat ptl:fina]} "to&iu" =QUOT=  
+tchuu	{[scat ptl:fina]} "to&iu" =QUOT=  
 ttai	{[scat ptl:fina]} =ASSERT=
 tteba	{[scat ptl:fina]} =i_tell_you=
 tto	{[scat ptl:fina]} =QUOT= 
@@ -164,7 +168,6 @@ noni	{[scat ptl:conj]} =in_spite_of=
 shi	{[scat ptl:conj]} =also=
 to	{[scat ptl:conj]} =when=
 toka	{[scat ptl:conj]} =or=
-tokorode	{[scat ptl:conj]} =apropos=
 tokoroga	{[scat ptl:conj]} =however=
 toshite	{[scat ptl:conj]} =given_that= "to_shite"  
 tosuruto	{[scat ptl:conj]} "to_suru_to" =if_then=
@@ -181,9 +184,6 @@ ni	{[scat ptl:coo]} =plus=
 tai	{[scat ptl:coo]} =versus=
 to	{[scat ptl:coo]} =and=
 toka	{[scat ptl:coo]} =or=
-toiuka	{[scat ptl:coo]} =or_rather=
-tteiuka	{[scat ptl:coo]} =or_rather=
-tteyuuka	{[scat ptl:coo]} =or_rather=
 ya	{[scat ptl:coo]} =or=
 yara	{[scat ptl:coo]} =or=
 
@@ -198,10 +198,16 @@ wa	{[scat ptl:top]} =TOP=
 tte	{[scat ptl:quot]} =QUOT=
 to	{[scat ptl:quot]} =QUOT=
 toiu	{[scat ptl:quot]} "to_iu" =QUOT=
-ttsu	{[scat ptl:quot]} "to&iu" =so_called=
-ttsuu	{[scat ptl:quot]} "to&iu" =so_called=
-tchuu	{[scat ptl:quot]} "to&iu" =called=  %final ptl っぽいのが多い
+toii	{[scat ptl:quot]} "to_ii" =QUOT=
+ttsu	{[scat ptl:quot]} "to&iu" =QUOT=
+ttsuu	{[scat ptl:quot]} "to&iu" =QUOT=
+tchu	{[scat ptl:quot]} "to&iu" =QUOT= 
+tchuu	{[scat ptl:quot]} "to&iu" =QUOT= 
+tcha	{[scat ptl:quot]} "to&ieba" =QUOT=
 tchatte	{[scat ptl:quot]} "to&itchatte" =QUOT=
 toitte	{[scat ptl:quot]} "to_itte" =QUOT= 
-ttsutte	{[scat ptl:quot]} "to&yutte" =QUOT= 
+tteiu	{[scat ptl:quot]} =QUOT= "tte_iu"
+ttsutta	{[scat ptl:quot]} =QUOT= "to&yutta"
+ttsutte	{[scat ptl:quot]} =QUOT= "to&yutte"
+ttsutten	{[scat ptl:quot]} =QUOT= "to&yutten"
 

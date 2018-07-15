@@ -1,0 +1,14 @@
+@UTF8
+%%%% focus paricle
+a	{[scat ptl:foc]}  =FOC=
+dani	{[scat ptl:foc]}  "da_ni" ==
+oba	{[scat ptl:foc]}  =ACC= "o_ba"  %dialect
+%%%% case particle
+ba	{[scat ptl:case]}  =ACC= "ba"  %dialect
+oba	{[scat ptl:case]}  =ACC= "o_ba"  %dialect
+%%%% final particle
+a	{[scat ptl:fina]}  =FINA=
+dea	{[scat ptl:fina]} =FINA=
+nonanno	{[scat ptl:fina]} =FINA=
+%%%%% topic particle
+dea	{[scat ptl:top]} "de_a" =TOP=

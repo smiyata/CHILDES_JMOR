@@ -171,6 +171,7 @@ nanimo	{[scat n:deic:indef]} =nothing=
 nannimo	{[scat n:deic:indef]} =nothing= "nanimo"
 nammo	{[scat n:deic:indef]} =nothing= "nanimo"
 nanikayoo	{[scat n:deic:indef]} =for_something= "nanika-yoo"
+nanikashira	{[scat n:deic:indef]} =something= "nanikashira"
 nandaka	{[scat adv:deic:indef]} =somehow=	% なんだか/何だか 
 nambikika	{[scat n:deic:indef]} =some_animals=
 nanninka	{[scat n:deic:indef]} =some_persons=

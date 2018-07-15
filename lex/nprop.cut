@@ -172,6 +172,7 @@ Gasuto	{[scat n:prop]} =Gust=
 Gen	{[scat n:prop]} =Gen=
 Gifu	{[scat n:prop]} =Gifu=
 Gingaaman	{[scat n:prop]} =Gingaa_man= "Gingaa-man"
+Godai	{[scat n:prop]} =Godai=
 gochagochago	{[scat n]} "gochagocha-go" =chaos_language=
 Gomachan	{[scat n:prop]} =Goma_FAM= "Goma-chan"
 gomachan	{[scat n:prop]} =Goma_FAM= "Goma-chan"
@@ -206,6 +207,7 @@ Hidetoshi	{[scat n:prop]} =Hidetoshi=
 Hii	{[scat n:prop]} =Hii=
 Himawari	{[scat n:prop]} =Himawari=
 Hina	{[scat n:prop]} =Hina=
+Hinotamakozoo	{[scat n:prop]} "Hi_no_tama_kozoo" =Fireball_boy=
 Hirai	{[scat n:prop]} =Hirai=
 Hiro	{[scat n:prop]} =Hiro=
 Hiroki	{[scat n:prop]} =Hiroki=
@@ -223,6 +225,7 @@ Honoya	{[scat n:prop]} =Honoya=
 Honyuubin	{[scat n:prop]} =Feeding_bottle=
 Honyuuman	{[scat n:prop]} =Feeding_bottle_man=
 Hyon	{[scat n:prop]} =Hyon=
+Ichijoo	{[scat n:prop]} =Ichijoo=
 Ichiroo	{[scat n:prop]} =Ichiroo=
 Ieroo	{[scat n:prop]} =Yellow=
 Igurisu	{[scat n:prop]} =England=
@@ -262,6 +265,7 @@ Jun	{[scat n:prop]} =Jun=
 Junta	{[scat n:prop]} =Junta=
 Juri 	{[scat n:prop]} =Juri=
 Kachigawa	{[scat n:prop]} =Kachigawa=
+Kaadokyaputaasakura	{[scat n:prop]} =Card_Captor_Sakura= "Kaado_kyaputaa_sakura"
 Kaede	{[scat n:prop]} =Kaede=
 Kakka	{[scat n:prop]} =Mum=
 Kako	{[scat n:prop]} =Kako=
@@ -322,6 +326,7 @@ Kittii	{[scat n:prop]} =Kitty= "Kiti"
 kittii	{[scat n:prop]} =Kitty= "Kiti"
 Kiyomi	{[scat n:prop]} =Kiyomi=
 kodomo_no_kuni	{[scat n:prop]} =Kids_kingdom=
+Koeda	{[scat n:prop]} =Koeda=
 Koizumi	{[scat n:prop]} =Koizumi=
 Kojima	{[scat n:prop]} =Kojima=
 Koko	{[scat n:prop]} =Koko=
@@ -339,6 +344,7 @@ Koro	{[scat n:prop]} =Koro=
 Koto	{[scat n:prop]} =Koto=
 Kubo	{[scat n:prop]} =Kubo=
 Kuuga	{[scat n:prop]} =Kuuga=
+Kumatta	{[scat n:prop]} =Kumatta=
 Kureyonshin	{[scat n:prop]} =Crayon_shin=
 Kuriki	{[scat n:prop]} =Kuriki=
 Kutchi	{[scat n:prop]} =Kutchi=
@@ -384,6 +390,7 @@ Maseki	{[scat n:prop]} =Maseki=
 Masuki 	{[scat n:prop]} =Masuki=
 Matsuo	{[scat n:prop]} =Matsuo=
 Mee	{[scat n:prop]} =Mee=
+Meeri	{[scat n:prop]} =Mary=
 Meetetsu	{[scat n:prop]} =Nagoya_railways=
 Megumi	{[scat n:prop]} =Megumi=
 Meeyaa	{[scat n:prop]} =Mayer=
@@ -413,6 +420,7 @@ Minnii	{[scat n:prop]} =Minnie=
 minnii	{[scat n:prop]} =Minnie= "Minnii"
 minniimausu	{[scat n:prop]} =Minniemouse= "Minniimausu"
 Mino	{[scat n:prop]} =Mino=
+Minoo	{[scat n:prop]} =Minoo=  %箕面
 Minoru	{[scat n:prop]} =Minoru=
 Mirai	{[scat n:prop]} =Mirai=
 Miruku	{[scat n:prop]} =Milk=
@@ -481,6 +489,7 @@ nonnon	{[scat n:prop]} =Nonnon= "Nonnon"
 Nono	{[scat n:prop]} =Nono= 
 Nookazuki 	{[scat n:prop]} =Nookazuki=
 Nooto 	{[scat n:prop]} =Nooto=
+Nyandaakamen 	{[scat n:prop]} =mighty_cat_mask_Niyander=
 karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	%  
 nopperaboo	{[scat n:prop]} =ghost_flat_Nopperaboo=	% のっぺらぼう 
 rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	%  
@@ -695,10 +704,16 @@ Tae	{[scat n:prop]} =Tae=
 Tai	{[scat n:prop]} =Tai=
 taimuretto	{[scat n:prop]} =Timelet= "Taimuretto"
 Taimuarufa	{[scat n:prop]} =Time_alpha=
+Taimufaiaa	{[scat n:prop]} =Time_fire=
 Taimuguree	{[scat n:prop]} =Time_grey=
 Taimuguriin	{[scat n:prop]} =Time_green=
 Taimuieroo	{[scat n:prop]} =Time_yellow=
+Taimureddo	{[scat n:prop]} =Time_red=
+Taimupinku	{[scat n:prop]} =Time_pink=
+Taimufuraiaa	{[scat n:prop]} =Time_flyer=
 Taimujetto	{[scat n:prop]} =Time_jet=
+Taimujettogamma	{[scat n:prop]} =Time_jet_gamma=
+Taimurenjaa	{[scat n:prop]} =Time_ranger=
 Taimurobo	{[scat n:prop]} =Time_robot=
 Taimuroboarufa	{[scat n:prop]} =Time_robot_alpha=
 Taimuroboshadooarufa	{[scat n:prop]} =Time_robot_shadow_alpha=
@@ -757,6 +772,8 @@ Totoro	{[scat n:prop]} =Totoro=
 tottoro	{[scat n:prop]} =Totoro=
 totoro	{[scat n:prop]} =Totoro=
 Tsuma	{[scat n:prop]} =Tsuma=
+Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
+Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
 Tsuchiyama	{[scat n:prop]} =Tsuchiyama=
 Uchimura	{[scat n:prop]} =Uchimura=
 Uemuromo	{[scat n:prop]} =Uemuromo=
@@ -772,6 +789,7 @@ Uu	{[scat n:prop]} =Uu=
 Wakuwaku	{[scat n:prop]} =Wakuwaku=
 Wan	{[scat n:prop]} =Wan=
 wanwanwandaarando	{[scat n:prop]} =Woof_Wonderland_TV=
+Waseda	{[scat n:prop]} =Waseda=
 Yadamon	{[scat n:prop]} =Hate_it=
 Yakisobapanman	{[scat n:prop]} =Buckwheat_noodle_man= "Yakisobapan-man"
 Yakuruto	{[scat n:prop]} =Yakuruto_yoghurt=

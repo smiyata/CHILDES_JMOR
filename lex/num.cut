@@ -27,6 +27,7 @@ misoji	{[scat num]} =thirty_years_old=
 ohitori	{[scat num]} =HON_one_person= "o#hito-ri"	% お一人
 ofutari	{[scat num]} =HON_two_persons= "o#futa-ri"	% お二人
 ohitotsu	{[scat num]} =HON_one_piece= "o#hito-tsu"	% お一つ
+mapputatsu	{[scat num]} =in_two_equal_parts= "ma-futa-tsu"  %真っ二つ
 
 ひと	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =one= "hito"
 ふた	{[scat num] [allo OR numJpnTSU numJpnRI numJpnBAN numJpnTSUKI]} =two= "futa"
@@ -98,6 +99,7 @@ shi=four	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
 yo	{[scat num] [allo numBBd]} =four= "yon"
 yon	{[scat num] [allo numBFa] [numcform yon]} =four=
 yom	{[scat num] [allo numBFb]} =four= "yon"
+shigo	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four_five=
 
 し	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
 四	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=

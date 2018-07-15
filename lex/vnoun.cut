@@ -251,6 +251,8 @@ xf%%% VERBAL NOUNS %%
 	hassee	{[scat n:vn]} =outbreak=	%【発生】+
 	hassha	{[scat n:vn]} =departure=	%【発車】+
 	hasshin	{[scat n:vn]} =departure=	%【発進】
+%	hasshin	{[scat n:vn]} =sending=	%【発信】
+	hasshingen	{[scat n]} =signal_source=	%【発信源】
 	hassoo	{[scat n:vn]} =mail_out=
 	hatsuden	{[scat n:vn]} =electricity_generation=	%【発電】
 	hatsumee	{[scat n:vn]} =invention=	%【発明】
@@ -360,6 +362,7 @@ xf%%% VERBAL NOUNS %%
 	juken	{[scat n:vn]} =take_examination=	%【受験】
 	jumbi	{[scat n:vn]} =preparation=	%【準備】
 	juuden	{[scat n:vn]} =charge_battery=	%【充電】
+	 juudenka	{[scat n:vn]} "juuden-ka" =charge_battery_possible=	%【充電可】
 	juushi	{[scat n:vn]} =regard_as_important=	%【重視】
 	juushin	{[scat n:vn]} =center_of_gravity=
 	juushoo	{[scat n:vn]} =serious_injury=	%【重傷】
@@ -390,8 +393,8 @@ xf%%% VERBAL NOUNS %%
 	kakko	{[scat n:vn]} =brackets=	%【かっこ/括弧】
 	kakugo	{[scat n:vn]} =preparedness=	%【覚悟】
 	kakunin	{[scat n:vn]} =confirmation=	%【確認】
-	kakurembo	{[scat n:vn]} =hide_and_side= "kakuremboo"
-	kakuremboo	{[scat n:vn]} =hide_and_side=
+	kakurembo	{[scat n:vn]} =hide_and_seek= "kakuremboo"
+	kakuremboo	{[scat n:vn]} =hide_and_seek=
 	kakuritsu	{[scat n:vn]} =establish=	%【確立】
 	kamben	{[scat n:vn]} =pardon=	%【勘弁】
 	kambyoo	{[scat n:vn]} =nursing=	%【看病】
@@ -410,6 +413,7 @@ xf%%% VERBAL NOUNS %%
 	kankee	{[scat n:vn]} =relation=	%【関係】
 	kankoo	{[scat n:vn]} =tourism=	%【観光】
 	kannin	{[scat n:vn]} =patience=	%【堪忍】
+	kannyuu	{[scat n:vn]} =fitting=	%【嵌入】
 	kanoo	{[scat n:vn]} =suppuration=	%【化のう】(化〈膿)
 	kanran	{[scat n:vn]} =viewing=	%【観覧】
 	kanri	{[scat n:vn]} =administration=	%【管理】
@@ -538,6 +542,8 @@ xf%%% VERBAL NOUNS %%
 	koosa	{[scat n:vn]} =crossing=	%【交差】(交〈叉)
 	koosaku	{[scat n:vn]} =handicraft=	%【工作】+
 	koosan	{[scat n:vn]} =surrender=	%【降参】
+	koosee	{[scat n:vn]} =organisation=	%【構成】
+	kooseeryoku	{[scat n]} "koosee-ryoku" =organising_power=	%【構成力】
 	koosha	{[scat n:vn]} =getting_off_train=	%【降車】+
 	kooshin	{[scat n:vn]} =correspondence=	%【交信】+
 	kooshin	{[scat n:vn]} =parade=	%【行進】+
@@ -608,6 +614,7 @@ xf%%% VERBAL NOUNS %%
 	niyaniya	{[scat n:vn]} =smirking=	%
 	nombiri	{[scat n:vn]} =tranquil=	%
 	nyuuen	{[scat n:vn]} =enter_kindergarten=
+	nyuuenshiki	{[scat n]} "nyuuen-shiki" =enter_kindergarten_ceremony=
 	nyuuin	{[scat n:vn]} =enter_hospital=	%【入院】
 	odori	{[scat n:vn]} =dance=
 	oita	{[scat n:vn]} =mischief=
@@ -635,6 +642,7 @@ xf%%% VERBAL NOUNS %%
 	ramboo	{[scat n:vn]} =rude=	%【乱暴】
 	reetoo	{[scat n:vn]} =freeze=	%【冷凍】
 	renketsu	{[scat n:vn]} =connect=	%【連結】
+	 niryoorenketsu	{[scat n][comp num+n:vn]} "ni&ryoo+renketsu" =coupled_bus=
 	renketsuki	{[scat n]} =connector=	%【連結】
 	renraku	{[scat n:vn]} =contact=	%【連絡】(〈聯絡)
 	renshuu	{[scat n:vn]} =practice=	%【練習】
@@ -704,6 +712,7 @@ xf%%% VERBAL NOUNS %%
 	shiai	{[scat n:vn]} =competition=	%【試合】
 	shigoto	{[scat n:vn] [npform o]} =work=	%【仕事】
 	shiken	{[scat n:vn]} =examination=	%【試験】
+	shikkaku	{[scat n:vn]} =disqualification=	%【失格】
 	shimboo	{[scat n:vn]} =patience=	%【辛抱】
 	shimpai	{[scat n:vn]} =sorrow=	%【心配】
 	shimpaisoo	{[scat n:an]} =sorrow_seeming=	"shimpai-soo" %【心配】
@@ -804,6 +813,7 @@ xf%%% VERBAL NOUNS %%
 	teeden	{[scat n:vn]} =power_cut=	%【停電】
 	teeryuujo	{[scat n]} =bus_stop= "teeryuu-jo"	%【停留所】
 	teesha	{[scat n:vn]} =stop=	%【停車】
+	 kyuuteesha	{[scat n:vn]} =sudden_stop= "kyuu&teesha"	%【停車】
 	teeshi	{[scat n:vn]} =stop=	%【停止】
 	tejina	{[scat n:vn]} =magic_trick= 
 	tekipaki	{[scat n:vn]} =briskly=	
@@ -825,6 +835,7 @@ xf%%% VERBAL NOUNS %%
 	toojoo	{[scat n:vn]} =appearance=	%【登場】
 	tosshin	{[scat n:vn]} =dash=	%【突進】
 	mootosshin	{[scat n:vn]} "moo#tosshin" =dash=	%【猛突進】
+	tsuika	{[scat n:vn]} =addition=	%【追加】
 	tsuiraku	{[scat n:vn]} =plane_crash=	%【墜落】
 	tsuitotsu	{[scat n:vn]} =rear_end_collision=	%【追突】
 	tsukai	{[scat n:vn]} =errand= 	% 使い 

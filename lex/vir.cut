@@ -16,12 +16,13 @@ see	{[scat v:ir][tense imp]} =do= "su&IMP"
 shai	{[scat v:ir:sub]} =do= "su&IMP:shai"
 
 %						short Kanji + "suru"
-%kansu	{[scat v:ir]} =concern=  
+%kansu	{[scat v:ir]} =concern= "kan_su" 
 	%関する  => adn|kansuru   ptl:foc|kanshite
-seesu	{[scat v:ir]} =suppress= 
+seesu	{[scat v:ir]} =suppress= "see_su"
 	%制する
 %taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
-hansu	{[scat v:ir]} =oppose=
+aitaisu	{[scat v:ir]} =be/worth= "atai_su"
+hansu	{[scat v:ir]} =oppose= "han_su"
 
 %								"kuru" "aru" "ik"
 ku	{[scat v:ir]} =come=	

@@ -6,6 +6,7 @@ no	{[scat v:cop] [tense inf]} =be= "da&PRES:no"  %inu no omawarisan
 ja	{[scat v:cop] [tense inf]} =be= "de&CONN&wa"	
 jagena	{[scat v:cop] [tense pres]} =be= "de&wa&PRES:gena"	
 dattari	{[scat v:cop] [tense past]} =be= "da-ALT"	
+daro	{[scat v:cop] [tense inf]} =be= "da-HORT"
 daroo	{[scat v:cop] [tense inf]} =be= "da-HORT"
 datte	{[scat v:cop] [tense past]} =be= "da-CONC"	
 datta	{[scat v:cop] [tense past]} =be= "da-PAST"	

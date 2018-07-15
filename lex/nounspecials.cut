@@ -374,7 +374,7 @@ tangoekisupurooraa	{[scat n][comp n+n]} "tango+ekusupurooraa" =tango_explorer_tr
 towairaitoekusupuresu	{[scat n][comp n+n]} "towairaito+ekusupuresu" =twilight_express_train=
 uesutohikari	{[scat n][comp n+n]} "uesuto+hikari" =west_hikari_train=
 yamanotesenhikarian	{[scat n][comp n+n]} "yamanote&sen+hikarian" =yamanote_hikarian_train=
-
+yamanotedensha	{[scat n][comp n+n]} "yamanote+densha" =yamanote_train=
 erutokkyuu	{[scat n][comp n:let+n]} "eru+tokkyuu" =l_express_train=
 esueru	{[scat n][comp n:let+n:let]} "esu+eru" =sl_train=
 gohyakkee	{[scat n][comp num+num]} "go+hyaku-kee" =fivehundred_type_train=

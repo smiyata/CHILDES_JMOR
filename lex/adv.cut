@@ -28,6 +28,7 @@ piripiri	{[scat adv:onoma]} =spicy=	%辛い
 pyompyon	{[scat adv:onoma]} =hopping=	%跳ねる
 pimpin	{[scat adv:onoma]} =be_full_of_life=	%元気
 pokapoka	{[scat adv:onoma]} =warm=	%暖かい
+pokan	{[scat adv:onoma]} =blankly=	
 sarasara	{[scat adv:onoma]} =smooth=
 shombori	{[scat adv:onoma]} =downheartedly=
 subesube	{[scat adv:onoma]} =smooth=
@@ -48,6 +49,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	awaya	{[scat adv]} =in_an_instant= 	% あわや
 	batchiri	{[scat adv] [to +]} =uncomplicated=	
 	bochibochi	{[scat adv]} =little_by_little=	
+	bokeq	{[scat adv]} "stupified"
 	botsubotsu	{[scat adv]} =little_by_little=	
 	chakuchaku	{[scat adv] [to +] [vn +]} =step_by_step=	
 	chanto	{[scat adv]} =correctly=	
@@ -110,6 +112,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	isshun	{[scat adv]} =in_a_second=
 	ittai	{[scat adv]} =wh_on_earth=	% 一体 
 	ittan	{[scat adv]} =once=
+	iyoiyo	{[scat adv]} =finally=
 	jikani	{[scat adv]} =directly=	% 直に  じかに
 	jiki	{[scat adv]} =soon=	% 直 
 	jikkuri	{[scat adv]} =slowly=	% ジックリ 
@@ -226,6 +229,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	sudeni	{[scat adv]} =already=	% すでに  既に/ 已に 
 	sugee	{[scat adv]} =very= "sugoi"
 	sugoi	{[scat adv]} =very=
+	monosugoi	{[scat adv]} =very_very=	% ものすごい  物 凄い 
 	sugu	{[scat adv]} =soon=	% すぐ  直ぐ 
 	sukkari	{[scat adv]} =completely=	
 	sukkiri	{[scat adv]} =refreshed=	

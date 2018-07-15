@@ -16,6 +16,7 @@ ra	{[scat n:let]} =musical_note=
 ee	{[scat n:let]} =a=
 bii	{[scat n:let]} =b=
 shii	{[scat n:let]} =c=
+sii	{[scat n:let]} =c=
 dii	{[scat n:let]} =d=
 ii	{[scat n:let]} =e=
 efu	{[scat n:let]} =f=

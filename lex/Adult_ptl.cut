@@ -1,17 +1,17 @@
 @UTF8
 %%%% focus paricle
-a	{[scat ptl:foc]}  =FOC=
 dani	{[scat ptl:foc]}  "da_ni" ==
+datoka	{[scat ptl:foc]} =or=
 domo	{[scat ptl:foc]}  =even=
 kiri	{[scat ptl:foc]}  =only=
 nanzo	{[scat ptl:foc]}  =etc=
 naradewa	{[scat ptl:foc]} "nara_de_wa" =special_to=
-nioite	{[scat ptl:foc]} =concerning= "ni_oite"
 niseyo	{[scat ptl:foc]} =be_it= "ni_seyo"
 nishitekaraga	{[scat ptl:foc]} =judged_from= "ni_shite_kara_ga"
-nitsukimashite	{[scat ptl:foc]} =about= "ni_tsukimashite&POL"
 nka	{[scat ptl:foc]} "nanka" =even=
+mokamo	{[scat ptl:foc]} "mo_kamo" =as_if=
 ohajime	{[scat ptl:foc]} =to_start_with= "o_hajime"
+ohajimetoshite	{[scat ptl:foc]} =to_start_with= "o_hajime_to_shite"
 taritomo	{[scat ptl:foc]}  =even_only=
 taruya	{[scat ptl:foc]}  =speaking_of=
 toiuni	{[scat ptl:foc]} "to_iu_ni" =as_for=
@@ -27,8 +27,6 @@ toyara	{[scat ptl:foc]} "to_yara" =and_the_like=
 zo	{[scat ptl:foc]} =FOC=
 
 %%%% case particle
-ba	{[scat ptl:case]}  =ACC= "ba"  %dialect
-oba	{[scat ptl:case]}  =ACC= "o_ba"  %dialect
 
 %%%%  postposition particle
 kkara	{[scat ptl:post]} "kara" =from=
@@ -38,6 +36,7 @@ shite	{[scat ptl:post]} =as= "shite"    	%Disambiguation problematic
 emuke	{[scat ptl:cppost]} "e_muke" =directed_to=
 emukete	{[scat ptl:cppost]} "e_mukete" =directed_to=
 karashite	{[scat ptl:cppost]} "kara_shite" =based_on=
+karasureba	{[scat ptl:cppost]} "kara_sureba" =based_on=
 karasuruto	{[scat ptl:cppost]} "kara_suru_to" =based_on=
 nite	{[scat ptl:cppost]} =at= 
 niatari	{[scat ptl:cppost]} =concerning= "ni_atari"
@@ -115,7 +114,6 @@ omeguru	{[scat ptl:cppost]} =about= "o_meguru"
 ooite	{[scat ptl:cppost]} =ignoring= "o_oite" %を措いて
 ooshite	{[scat ptl:cppost]} == "o_oshite"
 demotte	{[scat ptl:cppost]} =from= "de_motte"
-omonotomosezu	{[scat ptl:cppost]} =despite= "o_mono_to_mo_sezu"    
 omotte	{[scat ptl:cppost]} =from= "o_motte"    %disambiguation
 omochimashite	{[scat ptl:cppost]} =from= "o_mochimashite&POL"
 ooshite	{[scat ptl:cppost]} == "o_oshite"
@@ -129,6 +127,7 @@ oyosoni	{[scat ptl:cppost]} == "o_yoso_ni"
 toawase	{[scat ptl:cppost]} == "to_awase"
 toitashimashite	{[scat ptl:cppost]} == "to_itashimashite&POL"
 tomoni	{[scat ptl:cppost]} "tomo_ni" =together=
+toshimashite	{[scat ptl:cppost]} =as=  % tokai toshimashite 
 
 %%%% attributive particle 
 n	{[scat ptl:attr]} "no" =GEN=
@@ -141,6 +140,7 @@ niokimasuru	{[scat ptl:attr]} =concerning= "ni_okimasuru"
 nitomonau	{[scat ptl:attr]} =associated_with= "ni_tomonau"
 nitsuki	{[scat ptl:attr]} =per= "ni_tsuki"
 
+% iu	{[scat ptl:attr]} =so_called= "iu&QUOT"   %% Disambiguation problematic
 chu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
 chuu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
 deiu	{[scat ptl:attr]} =so_called= "de_iu&QUOT"
@@ -148,23 +148,24 @@ nanteiu	{[scat ptl:attr]} =so_called= "nan_tte_iu&QUOT"
 nantoiu	{[scat ptl:attr]} =so_called= "nan_to_iu&QUOT"
 tchu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
 teiu	{[scat ptl:attr]} =so_called= "tte_iu&QUOT"
-tte	{[scat ptl:attr]} =QUOT= 
+tte	{[scat ptl:attr]} =QUOT= "tte&QUOT" 
 toitta	{[scat ptl:attr]} =something_like= "to_itta&QUOT"
 tokaiu	{[scat ptl:attr]} =something_like= "toka_iu&QUOT"
 tono	{[scat ptl:attr]} =QUOT= "to_no&QUOT"
 toyaraiu	{[scat ptl:attr]} =something_like= "to_yara_iu&QUOT"
-tsuu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
-ttsuu	{[scat ptl:attr]}  =so_called= "to&iu&QUOT"
-ttsutta	{[scat ptl:attr]} =so_called= "to&itta&QUOT"
+ttsu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
+ttsuu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
+ttsutta	{[scat ptl:attr]} =QUOT= "to&yutta&QUOT"
 
 
 %%%% vocative particle
 yo	{[scat ptl:voc]} =VOC=      	%Disambiguation problematic
 
 %%%% final particle
-a	{[scat ptl:fina]}  =FINA=
-dea	{[scat ptl:fina]} =FINA=
 dato	{[scat ptl:fina]} =QUOT=
+dewaarimasenka	{[scat ptl:fina]} =isnt_it&POL=
+dewanaika	{[scat ptl:fina]} =isnt_it=
+janaika	{[scat ptl:fina]} =isnt_it=
 doo	{[scat ptl:fina]} "do" =ASSERT=     %disambiguation?
 gana	{[scat ptl:fina]} =TAG=
 gane	{[scat ptl:fina]} =TAG=
@@ -195,9 +196,8 @@ bakarini	{[scat ptl:conj]} "bakari_ni" =simply_because=
 bakkarini	{[scat ptl:conj]} "bakari_ni" =simply_because=
 dakeatte	{[scat ptl:conj]} "dake_atte" =only=
 dakeni	{[scat ptl:conj]} "dake_ni" =only=
-daga	{[scat ptl:conj]} "da_ga" =or=
+daga	{[scat ptl:conj]} "da_ga" =but=
 dano	{[scat ptl:conj]} "da_no" =or=
-hodonaku	{[scat ptl:conj]} "hodo_naku" =soon=
 gahayaika	{[scat ptl:conj]} "ga_hayai_ka" =soon=
 gatameni	{[scat ptl:conj]} "ga_tame_ni" =as_reason=
 gayueni	{[scat ptl:conj]} "ga_yue_ni" =as_reason=
@@ -226,21 +226,17 @@ nitsuki	{[scat ptl:conj]} =regarding= "ni_tsuki"
 nitsure	{[scat ptl:conj]} =in_association_with= "ni_tsure"
 nitsurete	{[scat ptl:conj]} =in_association_with= "ni_tsurete"
 nodewa	{[scat ptl:conj]} =because= "no_de_wa"
-nomidewanaku	{[scat ptl:conj]} "nomi_dewanaku" =not_only=
-nominarazu	{[scat ptl:conj]} "nomi_narazu" =not_only=
-noueni	{[scat ptl:conj]} "no_ue_ni" =additionally=
 sakai	{[scat ptl:conj]} =because=
 toii	{[scat ptl:foc]} =so_called= "to&ii&QUOT"
 toisshoni	{[scat ptl:conj]} "to_issho_ni" =simultaneously=
 toittemo	{[scat ptl:conj]} "to_itte_mo" =even=
 toiuyori	{[scat ptl:conj]} "to_iu_yori" =or_rather=
 toiunoni	{[scat ptl:conj]} "to_iu_noni" =although=
-tokoroo	{[scat ptl:conj]} "tokoro_o" =although=
-tokoo	{[scat ptl:conj]} "tokoro_o" =although=
 todoojini	{[scat ptl:conj]} "to_dooji_ni" =simultaneously=
 todooyooni	{[scat ptl:conj]} "to_dooyoo_ni" =similarly=
 totomoni	{[scat ptl:conj]}  "to_tomo_ni" =along_with=
 tomo	{[scat ptl:conj]}  =no_matter=
+domo	{[scat ptl:conj]}  =the_more=
 toq	{[scat ptl:conj]} "to" =when=
 do	{[scat ptl:conj]} "to" =when= %dialect
 wa	{[scat ptl:conj]} "wa&FP" =let_alone=  %netsu wa deru wa, seki mo deru wa.
@@ -250,8 +246,9 @@ ya	{[scat ptl:conj]} =or=
 yara	{[scat ptl:conj]} =or=
 yainaya	{[scat ptl:conj]} =or= "ya_ina_ya"
 
-
-to		{[scat conj]} =and_then=    %disamibuation
+%%%%%%%%%%%% conjunction
+%to		{[scat conj]} =and_then=    %disamibuation
+moshikasuruto	{[scat conj]} "moshi_ka_suru_to" =maybe=
 
 %%%%%%%%%%%% coordinating particle
 nari	{[scat ptl:coo]} =and=
@@ -268,7 +265,6 @@ tomo	{[scat ptl:coo]}  =also=
 %%%%% sentence nominalizing particle
 
 %%%%% topic particle
-dea	{[scat ptl:top]} "de_a" =TOP=
 nara	{[scat ptl:top]}  =TOP=   % if replaceable with WA
 naraba	{[scat ptl:top]}  =TOP=   % if replaceable with WA
 toshimashite	{[scat ptl:top]} =TOP= "to_shimashite&POL"  

@@ -24,7 +24,8 @@ dewa	{[scat conj]} =well=
 ja	{[scat conj]} =well=
 monono	{[scat conj]} =although=
 nazenaraba	{[scat conj]} =because=
-nanode	{[scat conj]} =and_then= "therefor"
+nanode	{[scat conj]} =therefore= "na_no_de"
+nanoni	{[scat conj]} =despite_this= "na_noni"
 sokode	{[scat conj]} =and_so=
 soosuruto	{[scat conj]} =in_that_case=
 hoide	{[scat conj]} =and_then= "sorede"

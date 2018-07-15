@@ -27,6 +27,7 @@ warugi	{[scat n][comp adj+n]} =ill_will= "waru+ki"
 warumono	{[scat n][comp adj+n]} =bad_guy= "waru+mono"	
 yawarakapureematto	{[scat n][comp adj+n+n]} =soft_play_mat= "yawaraka+puree+matto"	
 yowabi	{[scat n][comp adj+n]} =low_flame= "yowa+hi"	
+yowamushi	{[scat n][comp adj+n]} =weakling= "yowa+mushi"	
 
 umaiboo	{[scat n][comp adj+n]} =yummy_stick= "umai+boo"	
 
@@ -42,9 +43,11 @@ hosonaga	{[scat adj][comp adj+adj]} =thin_and_long= "hoso+naga"
 nagaboso	{[scat adj][comp adj+adj]} =long_and_thin= "naga+hoso"		
 usugura	{[scat adj][comp adj+adj]} =gloomy= "usu+kura"		
 
+karugaru	{[scat n:an][comp adj+adj]} =light= "karu+karu"		
 
 %%%% NA + N
 tokuiwaza	{[scat n][comp n:an+n]} =special_skill= "tokui+waza"	
+tokuiwazataikai	{[scat n][comp n:an+n+n]} =special_skill_mass_meeting= "tokui+waza+taikai"	
 
 %%%% ADV + N
 yukkurikuma	{[scat n][comp adv+n]} =slow_bear= "yukkuri+kuma"	
@@ -67,6 +70,9 @@ nakayo	{[scat adj][comp n+adj]} =familiarly= "naka+yo"
 nakayoku	{[scat n:vn][comp n+adj]} =make_friends= "naka+yo-ADV"
 genkiyo	{[scat adj][comp n+adj]} =vigorously= "genki+yo"
 shiokara	{[scat adj][comp n+adj]} =salty= "shio+kara"
+tatenaga	{[scat n][comp n+adj]} =vertically_long= "tate+naga"
+
+kubinagakyooryuu	{[scat n][comp n+adj+n]} =long_necked_dinosaur= "kubi+naga+kyooryuu"
 
 kiiro	{[scat adj][comp n+n]} =yellow_colored= "ki+iro"
 
@@ -78,6 +84,7 @@ hitofudegaki	{[scat n:vn][comp num+v:c]} =writing_with_one_stroke= "hitofude+kak
 hitohashiri	{[scat n:vn][comp num+v:c]} =making_a_run= "hito+hashir-GER" 
 hitohineri	{[scat n:vn][comp num+v:c]} =making_a_twist= "hito+hiner-GER" 
 hitomawari	{[scat n:vn][comp num+v:c]} =making_a_round= "hito+mawar-GER"
+hitonemuri	{[scat n:vn][comp num+v:c]} =taking_a_nap= "hito+nemur-GER"
 hitoppashiri	{[scat n:vn][comp num+v:c]} =making_a_run= "hito+hashir-GER" 
 hitoridachi	{[scat n:vn][comp num+v:c]} =standing_on_own_feet= "hitori+tat-GER"
 hitorijime	{[scat n:vn][comp num+v:v]} =monopolizing= "hitori+shime&GER"
@@ -94,6 +101,7 @@ nihondori	{[scat n:vn][comp num+v:c]} =taking_two_sticks= "ni&hon+tor-GER"
 
 
 %%%% V+N
+akibako	{[scat n][comp v:c+n]} =empty_box= "ak&GER+hako"
 akibeya	{[scat n][comp v:c+n]} =empty_room= "ak&GER+heya"
 akibin	{[scat n][comp v:c+n]} =empty_can= "ak&GER+bin"
 akichuushajoo	{[scat n][comp v:c+n]} =empty_parking_lot= "ak&GER+chuushajoo"
@@ -119,6 +127,7 @@ kakeishi	{[scat n][comp v:v+n]} =marble= "kake&GER+ishi"
 kakesoba	{[scat n][comp v:v+n]} =buckwheat_noodles_in_soup= "kake&GER+soba"
 kangaegoto	{[scat n][comp v:v+n]} =concern= "kangae&GER+koto"
 kareeda	{[scat n][comp v:v+n]} =withered_branch= "kare&GER+eda"
+kareha	{[scat n][comp v:v+n]} =dead_leaf= "kare&GER+ha"
 kareki	{[scat n][comp v:v+n]} =dead_tree= "kare&GER+ki"
 katazukebukuro	{[scat n][comp v:v+n]} =tidy_up_bag= "katazuke&GER+fukuro"
 katazukeningyoo	{[scat n][comp v:v+n]} =tidy_up_doll= "katazuke&GER+ningyoo"
@@ -178,7 +187,7 @@ orisen	{[scat n][comp v:c+n]} =line_where_to_fold= "or&GER+sen"
 orizuru	{[scat n][comp v:c+n]} =origami_crane= "or&GER+tsuru"
 otoshiana	{[scat n][comp v:c+n]} =deadfall= "otos&GER+ana"
 otoshimono	{[scat n][comp v:c+n]} =lost_property= "otos&GER+mono"
-sagarime	{[scat n]} =downward_slanting_eyes= "sagar&GER+me" 	
+sagarime	{[scat n][comp v:c+n]} =downward_slanting_eyes= "sagar&GER+me" 	
 agarime		{[scat n][comp v:c+n]} =upward_slanting_eyes= "agar&GER+me"
 sashiashi	{[scat n][comp v:c+n]} =walking_on_tiptoe= "sas&GER+ashi"
 shaberiinko	{[scat n][comp v:c+n]} =talking_parrot= "shaber&GER+inko"
@@ -196,6 +205,8 @@ tetsudaikaado	{[scat n][comp v:c+n]} =help_card= "tetsudaw&GER+kaado"
 tetsudaisantasan	{[scat n][comp v:c+n:prop]} =helping_santa_claus= "tetsudaw&GER+Santa-san"
 tetsudaishiiru	{[scat n][comp v:c+n]} =help= "tetsudaw&GER+shiiru"
 tobibako	{[scat n][comp v:c+n]} =jack_in_the_box= "tob&GER+hako"
+tobinezumi	{[scat n][comp v:c+n]} =jerboa= "tob&GER+nezumi"
+ afurikatobinezumi	{[scat n][comp n:prop+v:c+n]} =African_jerboa= "Afurika+tob&GER+nezumi"
 todokemono	{[scat n:vn][comp v:v+n]} =delivery= "todoke&GER+mono"
 todokesaki	{[scat n][comp v:v+n]} =delivery_address= "todoke&GER+saki"
 toorimichi	{[scat n][comp v:c+n]} =route= "toor&GER+michi"
