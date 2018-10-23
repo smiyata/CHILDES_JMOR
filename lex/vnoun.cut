@@ -80,6 +80,7 @@ xf%%% VERBAL NOUNS %%
 	butchi	{[scat n:vn]} =cutting_off=	%
 	buyobuyo	{[scat n:vn:onoma]} =spongy=	
 	byooki	{[scat n:vn]} =sick=
+	byooki	{[scat n:an]} =sick=
 	chambara	{[scat n:vn]} =sword_play=
 	chakuchi	{[scat n:vn]} =landing=
 	chakuriku	{[scat n:vn]} =landing=	%【着陸】
@@ -124,6 +125,7 @@ xf%%% VERBAL NOUNS %%
 	dengon	{[scat n:vn]} =message=	%【伝言】
 	dengurigae	{[scat n:vn]} =somersault=	%
 	dengurigaeshi	{[scat n:vn]} =somersault=	%
+	dengurigaeri	{[scat n:vn]} =somersault=	%
 	denshin	{[scat n:vn]} =telegraphy= 	% 電信 
 	denwa	{[scat n:vn] [npform o]} =telephone=	%【電話】
 	deredere	{[scat n:vn]} =slovenly=	
@@ -167,6 +169,7 @@ xf%%% VERBAL NOUNS %%
 	futan	{[scat n:vn]} =burden=	%【負担】
 	futene	{[scat n:vn]} =sulking_in_bed=	%【ふて寝】
 	futtoo	{[scat n:vn]} =boil=	%【沸騰】
+	fuuin	{[scat n:vn]} =seal=	%【封印】
 	fuwafuwa	{[scat n:vn:onoma]} =spongy=	%[1]
 	gabunomi	{[scat n:vn]} =swig=	%【がぶ飲み】
 	gaishoku	{[scat n:vn]} =eat_out=	%【外食】
@@ -240,6 +243,7 @@ xf%%% VERBAL NOUNS %%
 	hansoku	{[scat n:vn]} =rule_violation=	%【反則】
 	hantai	{[scat n:vn]} =opposition=	%【反対】
 	happyoo	{[scat n:vn]} =publication=	%【発表】
+	 happyookai	{[scat n]} =presentation=	%【発表】
 	harahara	{[scat n:vn:onoma]} =nervous=	%
 	harebare	{[scat n:vn]} =cheerful=	%【晴れ晴れ】
 	haretsu	{[scat n:vn]} =explosion=	%【破裂】
@@ -354,6 +358,7 @@ xf%%% VERBAL NOUNS %%
 	jankenpon	{[scat n:vn]} =paper_stone_scissors= "jankempon"	%
 	jikken	{[scat n:vn]} =experiment=	%【実験】
 	jiman	{[scat n:vn]} =boasting=	%【自慢】
+	jinarashi	{[scat n:vn]} =leveling=	%【地均し】
 	joosha	{[scat n:vn]} =get_on_train=	%【乗車】
 	josetsu	{[scat n:vn]} =clear_snow=	%【除雪】
 	josetsusha	{[scat n]} =snow_plow=	%【除雪】
@@ -601,6 +606,7 @@ xf%%% VERBAL NOUNS %%
 	mitchaku	{[scat n:vn]} =glued_together=	%【密着】
 	miyamairi	{[scat n:vn] [npform o]} =shrine_visit=	%【宮参り】
 	monomorai	{[scat n:vn]} =begging=
+%	moomoo	{[scat n:vn:mot]} =burn=
 	muri	{[scat n:vn]} =overstrain=	%【無理】
 	mushi	{[scat n:vn]} =ignore=	%【無視】
 	nakimane	{[scat n:vn]} =fake_crying=	%
@@ -671,6 +677,7 @@ xf%%% VERBAL NOUNS %%
 	sanjoo	{[scat n:vn]} =visit=	%【参上】
 	sanka	{[scat n:vn]} =participation=	%【参加】
 	sankan	{[scat n:vn]} =inspection=	%【参観】
+	sankambi	{[scat n]} =parents_observation_day=	%【参観】
 	sanran	{[scat n:vn]} =scatter=	%【散乱】
 	sansee	{[scat n:vn]} =agree=	%【賛成】
 	sansui	{[scat n:vn]} =sprinkle=	%【散水】(〈撒水)
@@ -748,6 +755,7 @@ xf%%% VERBAL NOUNS %%
 	shoomee	{[scat n:vn]} =prove=	%【証明】
 	shooryaku	{[scat n:vn]} =abbreviation=	%【省略】
 	shootai	{[scat n:vn]} =invitation=	%【招待】
+	 shootaijoo	{[scat n]} =invitation_letter=	%【招待状】
 	shoototsu	{[scat n:vn]} =collision=	%【衝突】
 	shori	{[scat n:vn]} =treatment=	%【処理】
 	shugyoo	{[scat n:vn]} =ascetic_training=	%【修行】
@@ -833,6 +841,7 @@ xf%%% VERBAL NOUNS %%
 	toochoo	{[scat n:vn]} =wire_tapping=	%【盗聴】
 	tooembi	{[scat n:vn]} =kindergarten_day= "tooen-hi"	%【登園日】
 	toojoo	{[scat n:vn]} =appearance=	%【登場】
+	 hatsutoojoo	{[scat n]} =debut=	%【初登場】
 	tosshin	{[scat n:vn]} =dash=	%【突進】
 	mootosshin	{[scat n:vn]} "moo#tosshin" =dash=	%【猛突進】
 	tsuika	{[scat n:vn]} =addition=	%【追加】

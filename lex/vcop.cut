@@ -85,6 +85,7 @@ dewanai	{[scat v:cop] [tense pres]} =be= "de-wa-ar&NEG-PRES"
 dewanakatta	{[scat v:cop] [tense past]} =be= "de-wa-ar&NEG-PAST"
 dewaarimasen	{[scat v:cop] [tense pres]} =be= "de-wa-ar-POL-NEG:n&PRES"
 denai	{[scat v:cop] [tense pres]} =be= "de-ar&NEG-PRES"
+denaku	{[scat v:cop] [tense pres]} =be= "de-ar&NEG-ADV"
 
 dearimasu	{[scat v:cop] [tense pres]} =be= "de-ar-POL-PRES"
 dearimasen	{[scat v:cop] [tense pres]} =be= "de-ar-POL-NEG:n&PRES"

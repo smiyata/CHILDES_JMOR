@@ -41,6 +41,7 @@ esu	{[scat n:let]} =s=
 tii	{[scat n:let]} =t=
 yuu	{[scat n:let]} =u=
 bui	{[scat n:let]} =v=
+vii	{[scat n:let]} =v= "bui"
 buii	{[scat n:let]} =v=  "bui"
 daburuyuu	{[scat n:let]} =w=
 ekkusu	{[scat n:let]} =x=

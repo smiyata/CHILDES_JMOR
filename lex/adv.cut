@@ -25,10 +25,12 @@ pakupaku	{[scat adv:onoma]} =gobbling=	%食べる
 pikapika	{[scat adv:onoma]} =shiny=	%光る
 pekopeko	{[scat adv:onoma]} =hungry=
 piripiri	{[scat adv:onoma]} =spicy=	%辛い
+puripuri	{[scat adv:onoma]} =soft_and_juicy=	%食感
 pyompyon	{[scat adv:onoma]} =hopping=	%跳ねる
 pimpin	{[scat adv:onoma]} =be_full_of_life=	%元気
 pokapoka	{[scat adv:onoma]} =warm=	%暖かい
 pokan	{[scat adv:onoma]} =blankly=	
+pumpun	{[scat adv:onoma]} =fuming=	%匂い,怒り
 sarasara	{[scat adv:onoma]} =smooth=
 shombori	{[scat adv:onoma]} =downheartedly=
 subesube	{[scat adv:onoma]} =smooth=
@@ -178,6 +180,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	mushiro	{[scat adv]} =rather=	% むしろ  寧ろ 
 	mutsumajiku	{[scat adv]} =harmoniously=	% むつまじく 睦まじく   
 	naganaga	{[scat adv] [to +]} =lengthily=	% 長長 と  
+	nagaraku	{[scat adv]} =for_a_while=	%   長らく 
 	nakanaka	{[scat adv]} =fairly=	% なかなか  中中 
 	nante	{[scat adv]} =very=	% なんと 何と
 	nanto	{[scat adv]} =whatever=	% なんと 何と

@@ -18,6 +18,7 @@ kawari	{[scat n:fml]} =instead_of=
  gawari	{[scat n:fml]} =instead_of= "kawari"
 kekka	{[scat n:fml]} =result=
 koto	{[scat n:fml]} =fact=
+ oogoto	{[scat n]} =serious_matter= "oo#koto"
 koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
 gurai	{[scat n:fml]} =grade= "kurai"

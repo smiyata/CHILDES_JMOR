@@ -18,7 +18,13 @@ mettana	{[scat adn]} =rare=
 taishita	{[scat adn]} =great_deal=
 chantoshita	{[scat adn]} =proper=
 chottoshita	{[scat adn]} =little=
+sukashita	{[scat adn]} =nasty= %	スカした
 iwayuru	{[scat adn]} =so_called=
 onaji	{[scat adn]} =same=
 onnaji	{[scat adn]} =same= "onaji"
+%%%
+anzuru	{[scat adn]} =plan=
+enzuru	{[scat adn]} =perform=
+oozuru	{[scat adn]} =respond= %	応ずる
+shoozuru	{[scat adn]} =occur= %	生ずる  
 

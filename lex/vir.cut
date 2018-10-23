@@ -16,13 +16,39 @@ see	{[scat v:ir][tense imp]} =do= "su&IMP"
 shai	{[scat v:ir:sub]} =do= "su&IMP:shai"
 
 %						short Kanji + "suru"
-%kansu	{[scat v:ir]} =concern= "kan_su" 
-	%関する  => adn|kansuru   ptl:foc|kanshite
-seesu	{[scat v:ir]} =suppress= "see_su"
-	%制する
-%taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
+%%%%%%%%doesnt work yet (only v:ir|su) ; problem of overproduction)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 aitaisu	{[scat v:ir]} =be/worth= "atai_su"
-hansu	{[scat v:ir]} =oppose= "han_su"
+fukusu	{[scat v:ir]} "fuku_su" =submit= %	服する
+futasu	{[scat v:ir]} "futa_su" =put_lid_on= %	蓋する
+bossu	{[scat v:ir]} "bos_su" =perish= %	没する
+hansu	{[scat v:ir]} "han_su" =oppose= %	反する
+hassu	{[scat v:ir]} "has_su" =pass_off= %	発する
+hossu	{[scat v:ir]} "hos_su" =crave= %	欲する
+gaisu	{[scat v:ir]} "gai_su" =harm= %	害する
+%kansu	{[scat v:ir]} =concern= "kan_su" %関する  => adn|kansuru   ptl:foc|kanshite
+kessu	{[scat v:ir]} "kes_su" =decide= %	決する
+koisu	{[scat v:ir]} "koi_su" =fall_in_love= %	恋する
+kussu	{[scat v:ir]} "kus_su" =resign= %	屈する
+namidasu	{[scat v:ir]} "namida_su" =weep= %	涙する
+nessu	{[scat v:ir]} "nes_su" =heat_up= %	熱する
+ryakusu	{[scat v:ir]} "ryaku_su" =shorten= %	略する
+saiwaisu	{[scat v:ir]} "saiwai_su" =prove_fortunate= %	幸いする
+sassu	{[scat v:ir]} "sas_su" =perceive= %	察する
+seesu	{[scat v:ir]} "see_su" =control= %	制する
+sessu	{[scat v:ir]} "ses_su" =contact= %	接する
+shokusu	{[scat v:ir]} "shoku_su" =eclipse= %	食する
+dassu	{[scat v:ir]} "das_su" =escape= %	脱する
+%taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
+tassu	{[scat v:ir]} "tas_su" =reach= %	達する
+tekisu	{[scat v:ir]} "teki_su" =conform_to= %	適する
+tessu	{[scat v:ir]} "tes_su" =sink_in= %	徹する
+tokusu	{[scat v:ir]} "toku_su" =profit= %	得する
+yoosu	{[scat v:ir]} "yoo_su" =need= %	要する
+yuusu	{[scat v:ir]} "yuu_su" =have= %	有する
+zokusu	{[scat v:ir]} "zoku_su" =belong_to= %	属する
+
+
 
 %								"kuru" "aru" "ik"
 ku	{[scat v:ir]} =come=	
@@ -83,6 +109,14 @@ irasshaimashita	{[scat v:c][tense past]} =come_POL= "irasshar-POL-PAST"
 irasshaimashite	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-HORT"
 irasshaimashitara	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-COND:tara"
+%              	  			 AI-VERBS     	"ossharu"
+osshar	{[scat v:c]} =say_POL=	
+osshaimasu	{[scat v:c][tense pres]} =say_POL= "osshar-POL-PRES"
+osshaimasen	{[scat v:c][tense pres]} =say_POL= "osshar-POL-NEG:n&PRES"
+osshaimashita	{[scat v:c][tense past]} =say_POL= "osshar-POL-PAST"
+osshaimashite	{[scat v:c][tense inf]} =say_POL= "osshar-POL-CONN"
+osshaimashoo	{[scat v:c][tense inf]} =say_POL= "osshar-POL-HORT"
+osshaimashitara	{[scat v:c][tense inf]} =say_POL= "osshar-POL-COND:tara"
 %              	  			 AI-VERBS     	"kudasaru"
 kudasar	{[scat v:c]} =give_POL=	%
 kudasai	{[scat v:c][tense imp]} =give_POL= "kudasai&IMP" 
@@ -112,6 +146,10 @@ choodai	{[scat v:ir][tense imp]} =give= "choodai&IMP"
 %                     NEGATION FOSSIlES
 tamaranai	{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG-PRES"
 tamaran		{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG:n&PRES"
+arienai	{[scat v:v][tense pres]} =be_impossible= "ar_e-NEG-PRES"
+
+arieru	{[scat v:v][tense pres]} =be_possible= "ar_e-PRES"
+ariuru	{[scat v:v][tense pres]} =be_possible= "ar_u-PRES"
 
 %			GER IN PASSIVE (not included as rule)
 umare	{[scat v:c][tense inf]} =be_born= "um-PASS&GER"

@@ -17,6 +17,7 @@ akambe	{[scat co:g]} =STICK_OUT_TONGUE= "akkambee"
 akambee	{[scat co:g]} =STICK_OUT_TONGUE= "akkambee"
 akemashite_omedetoo	{[scat co:g]} =Happy_New_Year=
 akemashiteomedetoo	{[scat co:g]} =Happy_New_Year= "akemashite_omedetoo"
+akemashiteomedetoogozaimasu	{[scat co:g]} =Happy_New_Year= "akemashite_omedetoo_gozaimasu"
 akkambee	{[scat co:g]} =STICK_OUT_TONGUE=
 anoo	{[scat co:i]} =errr= 
 anone	{[scat co:i]} =errr=  "anoo_ne"
@@ -113,6 +114,7 @@ eetosaa	{[scat co:i]} =errr= "eeto_sa"
 ntosaa	{[scat co:i]} =errr= "eeto_sa" 
 fuku_wa_uchi	{[scat co:g]} =in_with_fortune=
 fuun_da	{[scat co:g]} =SNIPPY=
+gattenda	{[scat co:g]} =alright= "gatten_da"
 gee	{[scat co:i]} =keck=
 genki_o_dashite	{[scat co:g]} =cheer=
 genki_o_dashite	{[scat co:g]} =cheer= "genki_o_dashite"
@@ -155,10 +157,11 @@ hakkyoi	{[scat co:g]} =heave_ho=
 happibaasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
 happiibaasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
 happii_baasudee	{[scat co:g]} =happy_birthday= "happii_baasudee"
-happibaasudeetuuyuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
-happiibaasudeetuuyuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
-happii_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday= 
-happi_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday= "happii_baasudee_tuu_yuu"
+happibaasudeetuuyuu	{[scat co:g]} =happy_birthday_to_you= "happii_baasudee_tuu_yuu"
+happiibaasudeetuuyuu	{[scat co:g]} =happy_birthday_to_you= "happii_baasudee_tuu_yuu"
+happii_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday_to_you= 
+happi_baasudee_tuu_yuu	{[scat co:g]} =happy_birthday_to_you= "happii_baasudee_tuu_yuu"
+happii_baasudee_dia	{[scat co:g]} =happy_birthday_dear= 
 hasshashinkoo	{[scat co:g]} =start_alright= "hassha_shinkoo"
 hasshaoorai	{[scat co:g]} =start_alright= "hassha_oorai"
 hassha_oorai	{[scat co:g]} =start_alright= "hassha_oorai"
@@ -217,6 +220,8 @@ jane	{[scat co:g]} =bye= "jaa_ne"
 sorejaane	{[scat co:g]} =bye= "sore_jaa_ne"
 sorewasorewa	{[scat co:g]} =indeed= "sore_wa_sore_wa"
 janken	{[scat co:g]} =paper_stone_scissors= "jan_ken"
+ jankengeemu	{[scat n][comp co:g+n]} =paper_stone_scissors_game= "jan_ken+geemu"
+ robottojankengeemu	{[scat n][comp n+co:g+n]} =robot_paper_stone_scissors_game= "robotto+jan_ken+geemu"
 jankempoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jankenpoi	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
 jankempon	{[scat co:g]} =paper_stone_scissors= "jan_ken_poi"
@@ -305,8 +310,8 @@ okaennasai	{[scat co:g]} =welcome_home= "okaerinasai"
 okaeri	{[scat co:g]} =welcome_home=
 okairi	{[scat co:g]} =welcome_home= "okaeri"
 okaerinasai	{[scat co:g]} =welcome_home=
-okkoisho	{[scat co:i]} =heave-ho= "yokkoisho"
-dondokosho	{[scat co:i]} =heave-ho= 
+okkoisho	{[scat co:i]} =heave_ho= "yokkoisho"
+dondokosho	{[scat co:i]} =heave_ho= 
 okkei	{[scat co:g]} =ok= "okkee"
 oo	{[scat co:i]} =oh=    %FILLER
 oou@i	{[scat co:i]} =oh=    %FILLER
@@ -363,6 +368,7 @@ sa	{[scat co:i]} "saa" =well=
 sayonara	{[scat co:g]} =goodbye= "sayoonara"
 sayoonara	{[scat co:g]} =goodbye=
 shii	{[scat co:i]} =hush=
+shiiq	{[scat co:i]} "shii" =hush=
 shimatta	{[scat co:g]} =how_stupid_of_me=
 shitsuree	{[scat co:g]} =excuse_me=
 shitsureeshimasu	{[scat co:g]} =excuse_me= "shitsuree_shimasu"

@@ -93,6 +93,7 @@ kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV
 	isamashi	{[scat adj]} =courageous=	% 勇ましい 
 	isogashi	{[scat adj]} =busy=	% 忙しい 
 	ita	{[scat adj]} =aching=	% 痛い 
+	itoshi	{[scat adj]} =lovely=	% 愛しい 
 	iyarashi	{[scat adj]} =disgusting=	%
 	iyashi	{[scat adj]} =mean=	% 卑しい  賎しい 
 	jijikusa	{[scat adj]} =frumpish=	% じじむさい  爺むさい 
@@ -254,6 +255,7 @@ kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV
 	shitashi	{[scat adj]} =familiar=	% 親しい 
 	shitsuko	{[scat adj]} =persistent=	%
 	shoogana	{[scat adj]} =inevitable=
+	shooganee	{[scat adj][tense inf]} "shoogana-PRES" =inevitable=
 	shoppa	{[scat adj]} =salty=	%
 	shuunembuka	{[scat adj]} =persistent=	% 執念深い 
 	soozooshi	{[scat adj]} =clamorous=	% 騒騒しい 

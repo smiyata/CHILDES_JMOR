@@ -188,6 +188,7 @@
 	iroiro	{[scat n:an]} =various=	% いろいろ  色色  副[— と ]
 	isshokemmee	{[scat n:an]} =with_whole_heart= "isshookemmee" % 一所懸命 
 	isshookemmee	{[scat n:an]} =with_whole_heart=	% 一生懸命 
+	ittetsu	{[scat n:an]} =perverse=	% 一徹
 	iya	{[scat n:an]} =disgusting=	% いや/嫌  厭 
 	iyan	{[scat co:i]} =disgusting= "iya"	% いや/嫌  厭 
 	iyaq	{[scat n:an]} =disgusting= "iya"	% いや/嫌  厭 
@@ -226,6 +227,7 @@
 	kichoomensa	{[scat n]} == "kichoomen-sa"
 	kigakari	{[scat n:an]} =sorrow=	% 気がかり 
 	kiken	{[scat n:an]} =danger=	% 危険 
+	kimagure	{[scat n:an]} =capricious=	% 均一 
 	kinitsu	{[scat n:an]} =uniform=	% 均一 
 	kirai	{[scat n:an]} =detest=	% 嫌い 
 	kiree	{[scat n:an]} =beautiful=	% きれい  奇麗/ 綺麗 
@@ -237,6 +239,7 @@
 	kuishimbo	{[scat n:an]} =gourmand= "kuishimboo"	% 食いしん坊 
 	kuishimboo	{[scat n:an]} =gourmand=	% 食いしん坊 
 	kushakusha	{[scat n:an]} =messy=	
+	kyodai	{[scat n:an]} =giant=	%巨大
 	kyokutan	{[scat n:an]} =extreme=	%極端
 	kyooryoku	{[scat n:an]} =strong=	%強力
 	kyuu	{[scat n:an]} =sudden=	
@@ -303,6 +306,7 @@
 	rippa	{[scat n:an]} =splendid=	% りっぱ/立派 
 	saiaku	{[scat n:an]} =worst=	% 最悪 
 	sakasama	{[scat n:an]} =reverse=	% 逆さま  逆様 
+	samazama	{[scat n:an]} =diverse=	% 様々 
 	seekaku	{[scat n:an]} =accurate=	% 正確 
 	seeketsu	{[scat n:an]} =clean=	% 清潔 
 	seetoo	{[scat n:an]} =orthodox=	% 正統 

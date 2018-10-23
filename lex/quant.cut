@@ -48,6 +48,7 @@ yooke	{[scat quant]} =much=	%ようけ
 
 mainichi	{[scat quant]} "mai#nichi" =every_day= 	% 毎日  changed to quant
 	maitsuki	{[scat quant]} =every_month= 	% 毎月 
+	maiasa	{[scat quant]} =every_morning= 	% 毎朝
 	maiban	{[scat quant]} =every_evening= 	% 毎晩 
 	maikai	{[scat quant]} "mai#kai" =every_time= 	% 毎回
 	maishuu	{[scat quant]} "mai#shuu" =every_week= 	% 毎週

@@ -31,7 +31,7 @@ yatta_ne_shiiru	{[scat n][comp v:c+ptl:fina+n]} =did_it_seal= "yar&PAST+ne+shiir
 yokudekimashitashiiru	{[scat n][comp adj+v:v+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+shiiru"
 yoku_dekimashita_shiiru	{[scat n][comp adj+v:v+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+shiiru"
 yoku_dekimashita_yo_shiiru	{[scat n][comp adj+v:v+ptl:fina+n]} =well_completed_seal= "i&ADV+deki&POL&PAST+yo+shiiru"
-
+okaasan_no_otetsudai_shiiru	{[scat n][comp n+ptl:attr+n:vn+n]} =helping_mother_seal= "okaasan+no+HON&tetsudaw&GER+shiiru"
 
 %%%booktitle
 
@@ -41,6 +41,7 @@ atsui_hi	{[scat n]} =hot_day_booktitle=
 Bumbukuchagama	{[scat n]} =b_booktitle=
 chibikuro_sambo	{[scat n]} =little_black_Sambo_booktitle=
 choo_no_isshoo	{[scat n]} =day_in_life_of_butterfly_booktitle=
+daiku_to_oniroku	{[scat n]} =carpenter_and_Oniroku=
 doraemon_kuizu_taikai	{[scat n]} =doraemon_quiz_booktitle=
 fuusen_neko	{[scat n]} =balloon_cat_booktitle=
 gakkoo_e_iku	{[scat n]} =lets_go_to_school_booktitle=
@@ -48,7 +49,8 @@ Genki		{[scat n]} =genki_child_journal=
 gunyangunyon	{[scat n]} =g_booktitle=
 Guri_to_Gura	{[scat n]} =guri_and_gura_booktitle=
 hakuchoo_no_mizuumi	{[scat n]} =swan_lake_booktitle=
-Hanasakajiisan	{[scat n]} =grandpa_h_booktitle=
+Hanasakajiisan	{[scat n]} =old_man_making_flowers_bloom_booktitle= "hanasaka-jiisan"
+hanasakajiisan	{[scat n]} =old_man_making_flowers_bloom_booktitle= "hanasaka-jiisan"
 hashire_hikarigoo	{[scat n]} =run_hikari_train_booktitle=
 hataraku_hitotachi	{[scat n]} =working_people_booktitle=
 henshin_doobutsuen	{[scat n]} =metamorphosis_zoo_booktitle=
@@ -120,14 +122,13 @@ wagaya_no_anshin_gaidobukku	{[scat n]} =safety_for_my_home_guidebook_booktitle=
 wakuwaku_hasami_taiken_pakku	{[scat n]} =exciting_scissors_experience_set_booktitle=
 yoi_ko_no_dooyoo	{[scat n]} =nursery_songs_for_good_children_booktitle=
 yoi_ko_no_uta	{[scat n]} =nursery_songs_for_good_children_booktitle=
+yoi_ko	{[scat n]} =good_child_booktitle=
 yoochien_ni_iku_yada_yada	{[scat n]} =i_dont_want_to_go_to_the_kindergarten_booktitle=
 yooji_no_tesuto	{[scat n]} =infant_test_booktitle=
-yumichan_no_ohikkoshi	{[scat n]} =yumis_move_booktitle=
+yumichan_no_ohikkoshi	{[scat n]} =Yumi_moves_booktitle=
 zoosan_tte_ii_na	{[scat n]} =elephants_are_well_off_booktitle=
-yoi_ko	{[scat n]} =good_child_booktitle=
 anderusen	{[scat n]} =andersen_stories_booktitle=
 anderusen_monogatari	{[scat n]} =andersen_stories_booktitle=
-yumichan_no_ohikkoshi	{[scat n]} =Yumi_moves_booktitle=
 
 %%%manga
 
@@ -228,6 +229,7 @@ musunde_hiraite	{[scat n]} =join_hands_song=
 mori_no_kajiya	{[scat n]} =blacksmith_in_the_woods_song=
 moshimoshi_kame_yo	{[scat n]} =hello_turtle_song=
 namae_namae	{[scat n]} =your_name_song=
+obake_obake	{[scat n]} =ghost_song=
 oi_oi_kabakun	{[scat n]} =hey_rhino_song=
 omocha_no_chachacha	{[scat n]} =toys_chacha_song=
 omochanochachacha	{[scat n]} "toys_chacha_song" =song=
@@ -264,8 +266,6 @@ Hausutembosu	{[scat n]} =hausutembosu_train=
 hayabusa	{[scat n]} =hayabusa_shinkansen_train=
 Midori	{[scat n]} =green_train=
 yufuuin_no_mori	{[scat n]}	=yufuuin_no_mori_train=
-Kamome	{[scat n]} =gull_train=
-kamome	{[scat n]} =gull_train=
 nichirin	{[scat n]} =sun_train=
 kooya	{[scat n]} =kooya_train=
 aabanrainaa	{[scat n]} =urban_liner_train=
@@ -302,6 +302,7 @@ kinseegoo	{[scat n]} "kinsee-goo" =kinsee_train=
 Kintetsu	{[scat n]} =kintetsu_train=
 Kintetsu_rubisutaa	{[scat n][comp n:prop+n]} "kintetsu+rubisutaa" =kintetsu_rubystar_train=
 kirishima	{[scat n]} =kirishima_train=
+Kamome	{[scat n]} =kamome_train=
 kamome	{[scat n]} =kamome_train=
 kodama	{[scat n]} =kodama_shinkansen_train=
 koedo	{[scat n]} =koedo_train=
@@ -341,6 +342,7 @@ tsubame	{[scat n]} =swallow_train=
 tsubasa	{[scat n]} =wings_train=
 Tsubasa	{[scat n]} =wings_train=
 yamabiko	{[scat n]} =yamabiko_train=
+yamabikoshinkansen	{[scat n]} =yamabiko_bullet_train= "yamabiko_shinkansen"
 yufuinnomori	{[scat n]} =yufuin_woods_train=
 
 
@@ -427,6 +429,7 @@ aporo	{[scat n]} =apollo_rocket=
 
 	aishisu	{[scat n]} =isis_car=
 	akoodo	{[scat n]} =accord_car=
+	akua	{[scat n]} =aqua_car=
 	banetto	{[scat n]} =vanetto_car=
 	bentsu	{[scat n]} =benz_car=
 	beretto	{[scat n]} =bellett_car=
@@ -453,7 +456,10 @@ aporo	{[scat n]} =apollo_rocket=
 	honda	{[scat n]} =honda_car=
 	isuzu	{[scat n]} =isuzu_car=
 	jagaa	{[scat n]} =jaguar_car=
+	jemini	{[scat n]} =gemini_car=
 	jiru	{[scat n]} =zil_car=
+	kamaro	{[scat n]} =camaro_car=
+	 kamarosupootsu	{[scat n][comp n+n]} =camaro_sports_car=
 	kapera	{[scat n]} =capella_car=
 	karoora	{[scat n]} =corolla_car=
 	kauntakku	{[scat n]} =countach_car=
@@ -466,6 +472,7 @@ aporo	{[scat n]} =apollo_rocket=
 	kuraun	{[scat n]} =crown_car=
 	kyaderakku	{[scat n]} =cadillac_car=
 	maakufoo	{[scat n]} =markfour_car=
+	matsuda	{[scat n]} =mazuda_car=
 	merusedesu	{[scat n]} =mercedes_car=
 	mosukobitchi	{[scat n]} =moskovitch_car=
 	musutangu	{[scat n]} =mustang_car=
@@ -475,7 +482,9 @@ aporo	{[scat n]} =apollo_rocket=
 	piasuaroo	{[scat n]} =pierce_arrow_car=
 	porushe	{[scat n]} =porsche_car=
 	purejizento	{[scat n]} =president_car=
+	purejidento	{[scat n]} =president_car=
 	purimeera	{[scat n]} =primera_car=
+	puriusu	{[scat n]} =prius_car=
 	perikambin	{[scat n]} =pelican_delivery_car=
 	rabufoo	{[scat n]} =ravfour_car=
 	ramborugiini	{[scat n]} =lamborghini_car=
@@ -501,6 +510,9 @@ aporo	{[scat n]} =apollo_rocket=
 	shibikku	{[scat n]} =civic_car=
 	shirubia	{[scat n]} =silvia_car=
 	shitoroen	{[scat n]} =citroen_car=
+	shiboree	{[scat n]} =chevrolet_car=
+	kamaro	{[scat n]} =camaro_car=
+	kamarosupootsu	{[scat n][comp n+n]} =camaro_sports_car=
 	soara	{[scat n]} =soarer_car=
 	soburin	{[scat n]} =sovereign_car=
 	subaru	{[scat n]} =subaru_car=

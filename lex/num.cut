@@ -76,8 +76,10 @@ ni=two	{[scat num] [allo numBFa] [numcform ni] [nunpform o] [mnum -]} "ni" =two=
 san	{[scat num] [allo numBFa] [numcform san]} =three=
 sam	{[scat num] [allo numBFb] [numcform san]} =three= "san"
 nisan	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
-nisam	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =three= "ni+san"
+nisam	{[scat num] [comp num+num] [allo numBFb] [numcform san]} =two_or_three= "ni+san"
 sankun	{[scat num]} "san-kun" =three_MASC_FAM=
+sanyon	{[scat num] [comp num+num] [allo numBFa] [numcform yon]} =three_or_four= "san+yon"
+sanyom	{[scat num] [comp num+num] [allo numBFb] [numcform yon]} =three_or_four= "san+yon"
 さん	{[scat num] [allo numBFa] [numcform san]} =three= "san"
 三	{[scat num] [allo numBFa] [numcform san]} =three= "san"
 さん	{[scat num] [allo numBFb] [numcform san]} =three= "san"

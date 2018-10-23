@@ -1,16 +1,6 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018may27
+**JMOR08 *************************************Susanne Miyata**2018oct23
 ********************************************************************* 
- pending   ?v:v:sub|ike&POT   ? not yet in database
-
-msg for Alastair: 
-1) I have unified all morphological tiers to %mor (no %trn or %xtrn anymore).
-2) The policy for postcodes has been changed.  *CHI:   text . [+ bch]
-Now every utterance gets a %mor line.  
-This means that also utterances with xxx (unclear material) and [?] (questionable) are included. 
-
-
-
 
 ******** CHANGES in JMOR08 ********2018may27
 1) post and compound post particles

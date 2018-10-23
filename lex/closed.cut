@@ -617,7 +617,9 @@ shuukanhan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 nu
 shuukanoki	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuukan-oki" =week_each_other=
 shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =wrap=
 shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =round=
-% 								 周年 
+% 								 種類 
+shurui	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shurui" =sort=
+%                                                                束
 shuunen	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu-nen" =anniversary=
 %                                                                束
 soku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bundle=
