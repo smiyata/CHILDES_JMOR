@@ -123,7 +123,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	jojoni	{[scat adv]} =step_by_step=	% 徐徐に 
 	kaette	{[scat adv]} =on_the_contrary=	% かえって  却って 
 	kanarazu	{[scat adv]} =necessarily=	% 必ず 
-	kanarazushimo	{[scat adv]} =not_necessarily=	% 必ずしも 
+	kanarazushimo	{[scat adv]} =not_necessarily= "kanarazu_shimo"	% 必ずしも 
 %changed_to_quant	kanari	{[scat adv]} =considerably=	% 可成り 
 	karoojite	{[scat adv]} =narrowly=	% かろうじて/辛うじて 
 %changed_to_quant	kekkoo	{[scat adv]} =quite= % quant
@@ -144,6 +144,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	kuchiguchini	{[scat adv]} =unanimously=	% 口々に
 	maamaa	{[scat adv]} =passable=	
 	mada	{[scat adv]} =still=	% まだ  未だ 
+	madashimo	{[scat adv]} =rather= "rather"	% まだしも  未だしも   
 	maji	{[scat adv]} =seriously=	% まじ
 	mamonaku	{[scat adv]} =in_an_instant=	% まもなく/間もなく 
 	marude	{[scat adv]} =completely=	
@@ -190,6 +191,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	omoikkiri	{[scat adv]} =with_all_strength=	% 思いっ切り 
 	onajiku	{[scat adv]} =in_the_same_way=	% 同じく 
 %changed_to_quant	ookata	{[scat adv]} =mostly=	% 大方 おおかた
+	orishimo	{[scat adv]} =at_that_very_moment= "ori_shimo"	% 折しも 
 	osoraku	{[scat adv]} =probably=	% おそらく/恐らく 
 	patto	{[scat adv]} =in_a_flash=	
 	pishitto	{[scat adv]} =tightly=	

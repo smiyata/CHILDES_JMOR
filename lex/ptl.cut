@@ -21,7 +21,6 @@ kadooka	{[scat ptl:foc]} =whether= "ka_doo_ka"
 kkiri	{[scat ptl:foc]} =only= "kiri"
 koso	{[scat ptl:foc]} =just=
 kurai	{[scat ptl:foc]} =about=
-made	{[scat ptl:foc]} =until=
 mo	{[scat ptl:foc]} =too=
 nado	{[scat ptl:foc]} =etc=
 nagara	{[scat ptl:foc]} =SIMUL=
@@ -69,7 +68,7 @@ nikakawarazu	{[scat ptl:cppost]} =regardless= "ni_kakawarazu"
 nimokakawarazu	{[scat ptl:cppost]} =regardless= "ni_mo_kakawarazu"
 nitaishite	{[scat ptl:cppost]} =regarding= "ni_taishite"
 niyotte	{[scat ptl:cppost]} =depending_on= "ni_yotte"
-toshite	{[scat ptl:cppost]} =as=  % hashi toshite tsukau
+toshite	{[scat ptl:cppost]} =as= "to_shite"  % hashi toshite tsukau
 totomoni	{[scat ptl:cppost]} "to_tomo_ni" =along_with=
 yorimo	{[scat ptl:cppost]} "yori_mo" =rather_than= 
 

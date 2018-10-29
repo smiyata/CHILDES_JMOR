@@ -69,7 +69,6 @@ gata	{[scat nsfx]} "kata" =HON=
 gata	{[scat nsfx]} "kata" =shape=
 gokko	{[scat vnsfx]} =game= %  
 goto	{[scat nsfx]} =each=
-hime	{[scat nsfx]} =princess=
 %joo	{[scat nsfx]} ==
 juu	{[scat nsfx]} =throughout=
 %ka	{[scat nsfx]} ==
@@ -93,8 +92,7 @@ tachi	{[scat nsfx]} =PL=
 -tachi	{[scat nsfx]} "tachi" =PL=
 teki	{[scat nsfx]} =like=    %%sfxcat   bewirkt keine  scat Aenderung CHECK
 tsuki	{[scat nsfx]} =with=
-ya	{[scat nsfx]} =shop=
-ya	{[scat nsfx] [sfxcat n]} =shop= "ya"
+ya	{[scat nsfx] [sfxcat n]} "ya&SHOP"   %TEST  -> chatter 
 yagokko	{[scat nsfx] [sfxcat n:vn]} =shop_game= "ya-gokko"
 %yasan	{[scat nsfx]} "ya-san" ==
 yoo	{[scat nsfx]} =for=

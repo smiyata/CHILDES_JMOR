@@ -1,5 +1,6 @@
 @UTF8
 %%%% focus paricle
+daka	{[scat ptl:foc]} =or=
 dani	{[scat ptl:foc]}  "da_ni" ==
 datoka	{[scat ptl:foc]} =or=
 domo	{[scat ptl:foc]}  =even=
@@ -24,9 +25,8 @@ tonaku	{[scat ptl:foc]} "to_naku" =regardless=
 tote	{[scat ptl:foc]} =as_for=
 towa	{[scat ptl:foc]} "to_wa" =QUOT=
 toyara	{[scat ptl:foc]} "to_yara" =and_the_like=
-zo	{[scat ptl:foc]} =FOC=
-
-%%%% case particle
+zo	{[scat ptl:foc]} =just=
+¥%%%% case particle
 
 %%%%  postposition particle
 kkara	{[scat ptl:post]} "kara" =from=
@@ -127,6 +127,7 @@ oyosoni	{[scat ptl:cppost]} == "o_yoso_ni"
 toawase	{[scat ptl:cppost]} == "to_awase"
 toitashimashite	{[scat ptl:cppost]} == "to_itashimashite&POL"
 tomoni	{[scat ptl:cppost]} "tomo_ni" =together=
+totomoni	{[scat ptl:cppost]} "to_tomo_ni" =together=
 toshimashite	{[scat ptl:cppost]} =as=  % tokai toshimashite 
 
 %%%% attributive particle 
@@ -151,7 +152,6 @@ teiu	{[scat ptl:attr]} =so_called= "tte_iu&QUOT"
 tte	{[scat ptl:attr]} =QUOT= "tte&QUOT" 
 toitta	{[scat ptl:attr]} =something_like= "to_itta&QUOT"
 tokaiu	{[scat ptl:attr]} =something_like= "toka_iu&QUOT"
-tono	{[scat ptl:attr]} =QUOT= "to_no&QUOT"
 toyaraiu	{[scat ptl:attr]} =something_like= "to_yara_iu&QUOT"
 ttsu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
 ttsuu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
@@ -252,6 +252,7 @@ moshikasuruto	{[scat conj]} "moshi_ka_suru_to" =maybe=
 
 %%%%%%%%%%%% coordinating particle
 nari	{[scat ptl:coo]} =and=
+daka	{[scat ptl:coo]} =or=
 dano	{[scat ptl:coo]} =or=
 datoka	{[scat ptl:coo]} =or=
 datte	{[scat ptl:coo]} =also=
@@ -270,4 +271,6 @@ naraba	{[scat ptl:top]}  =TOP=   % if replaceable with WA
 toshimashite	{[scat ptl:top]} =TOP= "to_shimashite&POL"  
 
 %%%%% quotation particle
+nante	{[scat ptl:quot]} =such_as= "nan_tte"
+tono	{[scat ptl:quot]} =QUOT= "to_no&QUOT"
 

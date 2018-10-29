@@ -78,6 +78,7 @@ nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
 nande	{[scat adv:deic:wh]} =why=
 naze	{[scat adv:deic:wh]} =why=
 dare	{[scat n:deic:wh]} =who=
+dareshimo	{[scat n:deic:indef]} =anyone= "dare_shimo"
 daredare	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
 dochira	{[scat n:deic:wh]} =which_HON=
 doitsu	{[scat n:deic:wh]} =who=

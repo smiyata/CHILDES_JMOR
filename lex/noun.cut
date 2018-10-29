@@ -588,7 +588,6 @@ kongetsu	{[scat n]} =this_month=
 	hagoita	{[scat n]} =battledore= 	% 羽子板 
 	haguki	{[scat n]} =gums= 	% 歯茎 
 	haha	{[scat n]} =mother= 	% 母 
-	hahanohi	{[scat n]} =mothers_day=  "haha_no_hi"	% 母 
 	hahaoya	{[scat n]} =mother= 	% 母親 
 	hahen	{[scat n]} =splinter= 	% 破片 
 %	hai	{[scat n]} =ash= 	% 灰
@@ -1074,6 +1073,7 @@ kongetsu	{[scat n]} =this_month=
 	kama	{[scat n]} =pot= %釜
 	kama	{[scat n]} =oven= %窯
 	kamaboko	{[scat n]} =boiled_fish_paste= 	% かまぼこ  蒲鉾 
+	kamado	{[scat n]} =stove= 	% 竃  かまど 
 	kamakiri	{[scat n]} =mantis= 	% かまきり  蟷螂 
 	kamban	{[scat n]} =signboard= 	% 看板 
 	kame	{[scat n]} =turtle=	% かめ  亀 
@@ -1178,8 +1178,7 @@ kongetsu	{[scat n]} =this_month=
 	kawa	{[scat n]} =leather=	% 革 
 	kawa	{[scat n]} =peel=	% 皮 
 	kawa	{[scat n]} =river=	% 川/河 
-	kawagutsu	{[scat n]} =leather_shoes= 	% 革靴 
-	kawamukiki	{[scat n]} =peeler= 
+	kawagoto	{[scat n]} =with_skin_and_all=	% 皮ごと 
 	kawara	{[scat n]} =tile= 	% 瓦  かわら 
 	kawaribanko	{[scat n]} =alternately_DIM= 	% 代わり番こ 
 	kawashimo	{[scat n]} =downstream= 	% 川下 
@@ -1439,6 +1438,7 @@ kongetsu	{[scat n]} =this_month=
 	kozeni	{[scat n]} =coins= 	% 小銭
 	kozoo	{[scat n]} =boy= 	% 小僧 
 	kozue	{[scat n]} =treetop= 	% こずえ 梢 
+	kozukai	{[scat n]} =pocket_money= 	% 小遣い 
 	kozutsumi	{[scat n]} =parcel= 	% 小包 
 	kubi	{[scat n]} =neck= 	% 首 
 	kuchi	{[scat n]} =mouth= 	% 口 
@@ -1568,6 +1568,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	mari	{[scat n]} =ball= 	% まり  毬/ 鞠 
 	maru	{[scat n]} =circle= 	% 円 
 	marudashi	{[scat n]} =complete_exposition= "maru#das-GER" 	% 丸出し
+	marugoto	{[scat n]} =altogether= 	% 丸ごと
 	marutamboo	{[scat n]} =log= 	% 丸太ん棒 
 	masakari	{[scat n]} =felling_axe= 	% 鉞
 	mashita	{[scat n]} "ma#shita" =straight_below= 	% 真下 
@@ -1637,6 +1638,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	miken	{[scat n]} =forehead=	% 眉間
 	miki	{[scat n]} =tree_trunk=	% 幹 
 	mikoshi	{[scat n]} =portable_shrine= 	% みこし  御 輿/ 神 輿 
+	mikuji	{[scat n]} =fortune_slip= 	% みくじ  御籤
 	mimi	{[scat n]} =ear= 	% 耳 
 	mimiate	{[scat n]} =earflaps= 	% 耳当て 
 	mimikaki	{[scat n]} =earpick= 	% 耳かき  耳 掻き 
@@ -1789,7 +1791,6 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	nenchoo	{[scat n]} =seniority= 	% 年長 
 	nenchuu	{[scat n]} =four_year_olds_group= %幼稚園の年中さん
 	nendo	{[scat n]} =clay= 	% 粘土 
-	nendoban	{[scat n]} =clay_tablet= 	% 粘土板
 	nengajoo	{[scat n]} =seasonal_greetings= 	% 年賀状 
 	nenneko	{[scat n]} =piggyback_coat_DIM= 
 	nenrin	{[scat n]} =growth_ring= 
@@ -2320,7 +2321,6 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	shoogaibutsu	{[scat n]} =obstacle= 	% 障害物 
 	shoogakkoo	{[scat n]} =elementary_school= 	% 小学校 
 	shoogaku	{[scat n]} =elementary_school= 	% 小学 
-	shoogakusee	{[scat n]} =schoolchild= 	% 小学生 
 	shoogatsu	{[scat n]} =new_years_day= 	% 正月 
 	shoogi	{[scat n]} =Shoogi_game=	% 将棋 
 	shoohin	{[scat n]} =goods=	% 商品 
@@ -2338,6 +2338,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	shooya	{[scat n]} =village_headman= 	%  庄屋 
 	shooyu	{[scat n]} =soy_sauce= 	% しょうゆ  醤油 
 	shu	{[scat n]} =master= 	% 主
+	shufu	{[scat n]} =housewife= 	% 主婦
 	shujin	{[scat n]} =master= 	% 主人 
 	shukudai	{[scat n]} =homework= 	% 宿題 
 	shukujitsu	{[scat n]} =holiday= 	% 祝日 
@@ -2805,6 +2806,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yodare	{[scat n]} =saliva= 	% よだれ  涎 
 	yogore	{[scat n]} =stain= 	% 汚れ 
 	yofuke	{[scat n]} =late_at_night= 	% 夜更け 
+	yokan	{[scat n]} =premonition= 	% 予感
 	yoko	{[scat n]} =side= 	% 横 
 	yokojima	{[scat n]} =horizontal_stripes= 	% 横じま  横 縞 
 	yokuasa	{[scat n]} =next_morning= 	% 翌朝
