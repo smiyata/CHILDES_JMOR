@@ -21,7 +21,7 @@ kadooka	{[scat ptl:foc]} =whether= "ka_doo_ka"
 kkiri	{[scat ptl:foc]} =only= "kiri"
 koso	{[scat ptl:foc]} =just=
 kurai	{[scat ptl:foc]} =about=
-mo	{[scat ptl:foc]} =too=
+mo	{[scat ptl:foc]} =ADD=
 nado	{[scat ptl:foc]} =etc=
 nagara	{[scat ptl:foc]} =SIMUL=
 nanka	{[scat ptl:foc]} =even=
@@ -118,7 +118,6 @@ mon	{[scat ptl:fina]} =ASSERT=
 mono	{[scat ptl:fina]} =ASSERT=
 n	{[scat ptl:fina]} =FINA= "no"  
 naa	{[scat ptl:fina]} =TAG=
-nante	{[scat ptl:fina]} =EXCL=
 ne	{[scat ptl:fina]} =TAG=
 nee	{[scat ptl:fina]} =TAG= "ne"
 nen	{[scat ptl:fina]} =ASSERT=
@@ -209,4 +208,8 @@ tteiu	{[scat ptl:quot]} =QUOT= "tte_iu"
 ttsutta	{[scat ptl:quot]} =QUOT= "to&yutta"
 ttsutte	{[scat ptl:quot]} =QUOT= "to&yutte"
 ttsutten	{[scat ptl:quot]} =QUOT= "to&yutten"
+
+%%%%% indefinite particle
+demo	{[scat ptl:indef]} =every=
+kashira	{[scat ptl:indef]} =some=
 

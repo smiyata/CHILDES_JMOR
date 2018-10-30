@@ -1,0 +1,583 @@
+@UTF8
+**JMOR08 *************************************Susanne Miyata**2018oct23
+********************************************************************* 
+
+******** CHANGES in JMOR08 ********2018may27
+1) post and compound post particles
+post particles have been devided into 
+postposition particles  ptl:post   (ni, de, e, to, kara, made, yori)
+compound postposition particles  ptl:cppost (yorimo, nite,
+
+2) ja
+in the case of hypothetic use ("nara"): compound postparticle
+ex.: kore ja dame   ->  ptl:cppost|ja=in_that_case  (mostly followed by negation or negative expressions like  "dame")
+in the case of copula use ("da") : v:cop
+ex.:  iya ja.   nan ja.   ->   v:cop|de&CONN&wa=be
+
+3) demo
+de mo (copula + conjunctive ptl) has been changed to demo (focus ptl)
+OLD: kore de mo ii .    v:cop|de&CONN=be ptl:conj|mo=even_if
+NEW: kore demo ii .   ptl:foc|de_mo=even
+
+
+******** CHANGES in JMOR08 ********2018apr21
+1) particles
+a) ka doo ka  -> kadooka 
+OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
+NEW ptl:foc|ka_doo_ka=whether
+
+b) ttara 
+only 2 types of ttara:  ptl:foc  and ptl:conj 
+ptl:top|ttara=TOP  -> ptl:foc|ttara=i_tell_you
+ptl:quot|ttara=i_tell_you  -> ptl:foc after N, ptl:conj after V
+ptl:fina|ttara=i_tell_you  ->  ptl:conj|ttara=i_tell_you (ptl:fina included in ptl:conj)
+
+c) datte 
+only if following tensed V or A  ptl:fina|datte=QUOT
+if following N or formal N : da tte   v:cop|da&PRES ptl:quot|tte
+	ex. nagai datte   adj|naga-PRES ptl:fina|datte=QUOT
+compare: 
+      nagai n da tte  adj|naga-PRES n:fml|no=RLV v:cop|da&PRES ptl:quot|tte
+      empitsu da tte  n|empitsu v:cop|da&PRES ptl:quot|tte
+      Ken datte  n:prop|Ken ptl:foc|datte=even 
+
+2) focus particles 
+Per definition, focus particles can appear also after verbs.
+A division between ptl:foc and n:fml,  and ptl:foc and ptl:conj, resp., is not necessary
+
+	OLD:  v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
+	NEW: v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
+analog: bakari (bakkari bakka bakashi bakkashi), dake, kiri/kkiri, ttara
+
+	OLD  v:c|owar-PRES ptl:conj|made=until 
+	NEW v:c|owar-PRES ptl:foc|made=until
+
+analog:  shika toka made nomi nante yara
+
+3) shika nai
+"nai"/"arimasen" after "shika" is analyzed as light verb
+	OLD  ptl:conj|shika=only v:ir|ar&NEG-PRES
+ 	NEW ptl:foc|shika=only v:ir:sub|ar&NEG-PRES
+
+4) nagara
+ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc (after noun), resp.
+	OLD v:v|tabe&GER ptl:conj|nagara 
+	NEW  v:v|tabe-SIMUL  
+	OLD n|onna ptl:conj|nagara=while
+	NEW n|onna ptl:foc|nagara=SIMUL
+
+5) dai
+ptl:fina|dai=ASSERT has been changed to v:cop|dai&PRES=be_ASSERT
+
+6) kamoshirenai
+smod|kamoshirenai=perhaps (kashira kamoshiremasen kamo) have been changed to ptl:fina|kamoshirenai=perhaps
+
+7) koto
+n:fml|koto=IMP has been changed to ptl:fina|koto=IMP    (kaeru koto!)
+ptl:fina|koto=FINA  has been added  (ex. joozu da koto /  oishii koto / joozu na koto )
+
+8) ka ne  -> kanee
+ptl:fina|ka=Q ptl:fina|ne=TAG has been changed to ptl:fina|kanee=DOUBT 
+
+9) yara
+ptl:post|yara=or has been changed to ptl:foc|yara=or
+
+10) yoo
+smod|yoo=apparently  has been changed to n:fml|yoo=apparently
+
+11) goto
+n|word-goto has been changed to ptl:foc|goto=each (毎) and ptl:foc|goto=whole (共)
+	OLD gofungoto  num|go-fun-goto=five_minute_each
+	NEW gofun goto  num|go-fun=five_minute ptl:foc|goto=each
+
+	OLD saifugoto  n|saifu-goto=HON_wallet_each
+	NEW saifu goto  n|saifu=HON_wallet ptl:foc|goto=whole
+
+12) yorimo
+yori mo ptl:post|yori=COMPARE ptl:foc|mo=too    changed to   yorimo  ptl:post|yori_mo=rather_than
+
+13) V-yoo tto
+ptl:quot|to=QUOT after HORT changed to ptl:quot|tto=QUOT (double tt)
+OLD: tabeyoo t:o  v:v|tabe-HORT=eat ptl:quot|to=QUOT
+NEW: tabeyoo tto  v:v|tabe-HORT=eat ptl:quot|tto=QUOT
+******** CHANGES in JMOR08 ********2018mar11
+1) new ptl:post
+dokoroka	ptl:post|dokoro_ka=not_at_all
+niatatte	ptl:post|ni_atatte=concerning
+niatari		ptl:post|ni_atari=concerning
+niatarimashite	ptl:post|ni_atarimashite&POL=concerning
+nioite		ptl:post|ni_oite=concerning
+niokimashite		ptl:post|ni_okimashite&POL=concerning
+nimokakawarazu	ptl:post|ni_mo_kakawarazu=regardless
+nikakawarazu	ptl:post|ni_kakawarazu=regardless
+nikanshi	ptl:post|ni_kanshi=concerning
+nikanshimashite		ptl:post|ni_kanshimashite&POL=concerning
+nishiro		ptl:post|ni_shiro=be_it
+niseyo		ptl:post|ni_seyo=be_it
+nitsuki		ptl:post|ni_tsuki=about
+nitsukimashite	ptl:post|ni_tsukimashite&POL=about
+nitsurete	ptl:post|ni_tsurete=as_then
+niyori		ptl:post|ni_yori=according_to
+niyorimashite	ptl:post|ni_yorimashite&POL=according_to
+totomoni	ptl:post|to_tomo_ni=along_with
+towaie		ptl:post|to_wa_ie=though
+
+2) new ptl:post
+nite		ptl:post|nite=at
+
+******** CHANGES in JMOR08 ********2018feb19
+1) Compound verbs regrouped
+syntactic compound verbs as v+v , lexial compounds as v (stem v_v)
+	following 影山太郎 (2013)NINJAL複合動詞レキシコン <www.vvlexicon.ninjal.ac.jp> .
+	all verbs are listed in verb.cut	
+	syntactic:    tabehajimeru v:v|+v:v|tabe+v:v|hajime-PRES=start_to_eat
+	lexical: 	tabekobos v:c|tabe_kobos-PRES=spill_food
+
+2) new: (v:cop) no v:cop|da&ADN:no=be
+	inu no omawarisan v:cop|no&ADN=be
+	 (compare: inu no shippo ptl:attr|no=GEN)   omowarisan wa inu da vs *shippo wa inu da.
+	kugatsu kara (yori) no kyuuka   -> kugatsu kara da
+    	kugatsu made no kyuuka; iku made no aida; ni oite no; ni kanshite no; x mite no kansoo
+
+3) Modal expressions revised
+a) new: (v:sub) naranai v:c:sub|nar-NEG-PRES=PRH  (nakute wa naranai , nakereba naranai)
+
+b) new: (v:sub) ikemasen v:v:sub|ike&POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
+
+c) new: (v:sub) ni kimatteru v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided) only CONN and ASP-PRES
+
+d) new: (smod) nichigainai smod|ni_chigai_nai=no_doubt_that
+     nichigainakatta smod|ni_chigai_nakatta=no_doubt_that
+     nichigaiarimasen smod|ni_chigai_arimasen=no_doubt_that
+
+e) change: (smod) rashii
+	OLD smod|rashii=hearsay  -> NEW smod|rashi-PRES
+	iku rashii       smod|rashi-PRES
+	iku rashikute    smod|rashi-CONN    
+	iku rashiku      smod|rashi-ADV
+   cut:  rashii adj|rashi-PRES=seeming  
+	(compare: harurashii  haru-rashi-PRES, -PAST NEG-PRES etc)
+	
+f) new: (fml) no (da)  n:fml|no=RLV
+	OLD ptl:snr|no=SNR v:cop|da&PRES=be
+	NEW n:fml|no=RLV v:cop|da&PRES=be
+	(compare: iku no ga ii  ptl:snr|no=SNR )
+
+h) new: (fml) koto n:fml|koto=IMP
+	te arau koto! -> n:fml|koto=IMP
+	(compare: iku koto ga ooi  n:fml|koto=fact )
+
+i) new: (infl) -zaru NEG:zaru
+
+j) new: (sub) eru  v:v:sub|e-PRES=get
+	tabezaru o enai  
+	v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
+
+l) change: (smod) tsutsu	
+   OLD smod|tsutsu=in_course_of
+   	   smod|tsutsu_aru=in_course_of
+   NEW  -CONN:tsutsu  
+            ikitsutsu aru v:c|ik-CONN:tsutsu=go v:ir:sub|ar-PRES=be
+
+m) change: (smod) bakari
+   OLD smod|bakari=nothing_but		
+   NEW ptl:foc|bakari=nothing_but
+   (compare: n:fml|bakari=nothing_but)
+
+%%%%%%%
+
+******** CHANGES in JMOR07.2 ********2017nov22
+1) 複合動詞   
+
+統語的複合動詞 (syntactic compound verbs; Kido, 2016; http://vvlexicon.ninjal.ac.jp/) added to clo.cut:   
+-sugiru -tsuzukeru -dasu -kakeru -hajimeru -owaru -naosu -nokosu -wasureru
+例: v:v|tabe-hajime-PRES=eat_begin
+
+語彙的複合動詞(lexical compound verbs) listed in verb+verb.cut
+例: v:c|+v:c|fur+v:c|kom-PRES=transfer_money
+
+******** CHANGES in JMOR07.1 ********2016dec9
+
+1) boku watashi atashi ore 
+n:deic:prs|boku=i   => n:deic:prs|boku=i_MASC 
+n:deic:prs|watashi=i   => n:deic:prs|watashi=i_FML 
+n:deic:prs|atashi=i   => n:deic:prs|atashi=i_FAM 
+n:deic:prs|ore=i   => n:deic:prs|ore=i_MASC
+
+2) mae 前
+n:fml|mae=before   -> n|mae=before
+
+3) min(n)a 皆
+quant|mina=all   (“子どもが皆帰った”)
+n:deic:prs|mina=all (“皆が帰った”)   [??]
+
+******** CHANGES in JMOR07.0 ********2016jul1
+
+"ず" 否定形
+ -NEG:zu&GER  (changed code from -NEG:zu&PRES)
+ex. yarazu  
+
+OLD v:c|yar-NEG:zu&PRES=do
+NEW v:c|yar-NEG:zu&GER=do
+
+新規品詞カテゴリー"quantifier"  quant| 
+	amari hotondo zenin zentai zembu hitorihitori fukusuu hambun ippai
+	sorezore tashoo ooku oozee kazuooku iroiro subete kanari juubun 
+	takusan sukoshi  min(n)a など
+	ex: OLD adv|amari=not_quite => NEW quant|amari=not_quite
+           mai-  zen- ryoo-  
+	ex:  OLD mai#n|nichi=every_day  => NEW mai#quant|nichi=every_day
+        ex: OLD ryoo#n|hoo=both_direction => NEW ryoo#quant|hoo=both_direction
+"ので" (causative)
+OLD no de  ptl:snr|no=SNR v:cop|de&CONN=be
+NEW node / nde   ptl:conj|node=because 
+
+“というか”“っていうか”
+OLD to iu ka    ptl:quot|to=QUOT v:c|iw-PRES=say ptl:conj|ka=whether
+NEW  toiuka   conj|toiuka=or_rather   (sentence-initial 文頭)
+NEW  toiuka   ptl:conj|toiuka=or_rather   (文 toiuka 文) 
+
+OLD tte iu ka    ptl:quot|tte=QUOT v:c|iw-PRES=say ptl:conj|ka=whether
+NEW  tteiuka   conj|tteiuka=or_rather   (sentence-initial 文頭)
+NEW  tteiuka   ptl:conj|tteiuka=or_rather   (文 tteiuka 文) 
+
+“より”
+ptl:post|yori=from   
+ptl:conj|yori=more
+added:
+ptl:post|yori=COMPARE
+
+例: ichigo yori amai  =>  ptl:post|yori=COMPARE
+例:nibansen yori hassha;  tadaima yori joosha kaishi ->  ptl:post|yori=from
+例:sugu iku yori chotto matta hoo ga ii   -> ptl:conj|yori=more 
+
+******** CHANGES **2016Apr24
+オノマトペの“語幹”に統一
+オノマトペのバリエーションを3繰り返しまで登録してありますが,%morアウトプット
+を語幹に統一しました.
+例:becha, bechabecha, bechabechabecha, betchaq がonoma|bechaとして表記
+
+
+******** CHANGES **2015Jul23
+	指示詞  “こんだけ”
+OLD
+don [: dore] dake n:deic:wh|dore=which ptl:foc|dake=only 
+NEW
+dondake n:deic:wh|dondake=how_much
+kondake n:deic:dem|kondake=this_much
+sondake n:deic:dem|sondake=that_much
+andake n:deic:dem|andake=that_much
+
+	動詞活用
+(shi)nakya と (shi)nakuchaを次のように分けました.
+OLD 
+-nakya/-nakucha   NEG-CONN&wa^NEG&OBL
+NEW
+-nakya  NEG-CONN&ba^NEG&OBL:ba
+-nakucha  NEG-CONN&wa^NEG&OBL:wa
+
+	取り立て助詞
+ni totte, ni yotte, ni tsuite, ni taishite, ni kanshite  を1単語に変えた 
+-> nitotte, niyotte, nitsuite, nitaishite, nikanshite を登録
+*CHI:    kujira nitsuite .
+%mor:	n|kujira=whale ptl:foc|ni_tsuite=about .
+
+	間投詞
+anoo ne, eeto ne, anoo sa,  eeto sa を1単語に変えた 
+-> anone  anosa anosaa eetone eetosa eetosaa を登録
+*CHI:    anone .
+%mor:	co:i|anoo_ne=errr 
+
+	同音異義語
+同音異義語の繰り返し2単位(例:ペタペタ)に3単位(ペタペタペタ)の
+バージョンを加えた.  出力は2単位
+petapeta -> onoma|petapeta
+petapetapeta -> onoma|petapeta
+
+	方言活用
+方言 “やらんでいい”
+OLD:  Vn de (ii) , Vn de (yo!)   v:c|yar-NEG:n&PRES=do v:cop|de&CONN=be
+NEW: Vnde (ii) v:c|yar-NEG:n-CONN:de=do
+          Vnde (yo!)  v:c|yar-NEG:n-IMP:de=do 
+
+******** CHANGES in JMOR06.2 ********
+Adjectivalized verbs (V-yasui, -gatai, -zurai, -nikui) have been changed to adj|
+形容詞化した動詞の扱い:
+tabeyasui   adj|tabe-yasu-PRES=eat_easy
+なお,V-nai,V-taiは動詞活用として扱われる.
+tabenai  v:v|tabe-NEG-PRES=eat 
+tabetai  v:v|tabe-DESID-PRES=eat
+
+The treatment of nominalized verbs has been changed according to the following rules:
+名詞化した動詞の扱い:
+	1) suruのほかにo / ga / no / da とのコンビが可能ならn:vn|
+	2)原則として動作名詞 n:vn|にする.=wordは-ingや関連名詞を優先
+	3)明らかに物(または動作ではない事柄;suruが使えない)を表す単語はn|
+	4)それ以外のものはv|-GERのみ
+
+the following verb nominalizations were added (the V-GER form is listed on the right):
+動作名詞/名詞として認めるもの:
+n:vn|asobi=play	遊びが上手;いろんな遊びがある    v:c|asob-GER=play
+n:vn|make=defeat 勝ちと負け   ; v:v|make&GER=lose
+n:vn|make=discount    お負けする	 ; v:v|make&GER=discount
+n:vn|kachi=win 君の勝ち	; v:c|kat-GER=win
+n:vn|katazuke=tidying_up お片づけが速い	; v:v|katazuke&GER=tidy_up
+n:vn|dekake=going_out    お出かけの際	; v:v|dekake&GER=go_out
+n:vn|yasumi=resting  お休みの時間;; v:c|yasum-GER=rest
+n:vn|tanoshimi=pleasure  楽しみの番組,楽しみが多い	; v:c|tanoshim-GER=enjoy
+	n|owari=end   終わりまで見る ; v:c|owar-GER=end
+n:vn|negai=wish    お願いがある	; v:c|negaw-GER=wish
+n:vn|shaberi=talk   おしゃべりの時間  ; v:c|shaber-GER=talk
+n:vn|susume=recommendation  お勧めの商品	; v:v|susume&GER=recommend
+	(v:v|susume&GER=advance^v:c|susum-IMP=go もある)
+	n|hakari=measure	計りを使って	; v:c|hakar-GER=measure
+	n|muki=direction  向きをかえる	; v:c|muk-GER=turn (v:c|muk-GER=peelもある)
+	n|hage=bald_head    あの人はげだ	; v:v|hage&GER=go_off
+n:vn|kotae=answer    答えが速い	 ; v:v|kotae&GER=respond
+n:vn|kangae=thought  考えが違う	; v:v|kangae&GER=think
+	n|hajime=beginning  始めから	; v:v|hajime&GER=begin
+n:vn|hikkoshi=moving  引越が明日	; v:c|hikkos-GER=move_house
+n:vn|naoshi=mending    直しがきく	 ; v:c|naos-GER=cure
+n:vn|kaeri=return	帰りが遅い	; v:c|kaer-GER=return
+n:vn|tomari=stay	お泊まりの人 ; v:c|tomar-GER=stop
+	(v:c|=stayは親子会話で少ないので押さえている)
+n:vn|tsukai=errand	お使いに出る; v:c|tsukaw-GER=use
+	n|deppari=protrusion	出っ張りがある	; v:c|deppar-GER=protrude
+n:vn|utsuri=reflection	映りが悪い	; v:c|utsur-GER=reflect
+	(v:c|utsur-GER=moveもある)
+n:vn|tetsudai=help	お手伝が要る  ; v:c|tetsudaw-GER=help
+	n|tetsudai=maid	お手伝いさんを待つ
+n:vn|atari=hit   当たりが多い	; v:c|atar-GER=hit_on    
+	(n|atari=around	あの辺り  もある)
+	n|shimai=end	お仕舞いだ	; v:c|shimaw-PRES=put_away^v:c|shimaw-PRES=finish
+	(v:c:sub|shimaw-PRES=finish_COMPLもある)
+n:vn|hanashi=talk	話が長い,プーさんのお話,あの話が載ってる	; v:c|hanas-GER=speak
+	(v:c|hanas-GER=separate^v:c|hanas-GER=releaseもある)
+	=storyはcut
+
+	複合語
+n:vn|+v:c|mat+v:v|awase&GER=appointment 	待ち合わせの時間
+n:vn|+v:c|kir+v:v|kae&GER=switch	切り替えのレール
+	n|+v:c|ik+v:c|tomar-GER=dead_end_street	行き止まり
+	n|+v:c|fum+v:c|kir-GER=railroad_crossing	踏切
+
+******** CHANGES in JMOR06.1 ********
+OLD: v:c|yar-PRES=do/give v:c:sub|yar-PRES=give 
+NEW: v:c|yar-PRES=do v:c:sub|yar-PRES=do  
+
+******** CHANGES in JMOR06 ********
+a) Case particles devided into case, postposition, and attributive particles.
+
+%case particles
+ptl:case|ga=NOM
+ptl:case|o=ACC
+
+% postposition particle
+ptl:post|de	
+ptl:post|e=GOAL
+ptl:post|kara=SOURCE
+ptl:post|made=GOAL
+ptl:post|ni
+ptl:post|to=SYM
+ptl:post|yori
+
+% attributive particle 
+ptl:attr|no=GEN
+
+b) Aspect marked as ASP 
+	(1) iru  (main verb)
+	v:v|i-PRES=exist
+
+	(2) tabete iru  
+	OLD: v:v|tabe-CONN=eat  v:v:sub|i-PRES=be   
+	NEW: v:v|tabe-CONN=eat  v:v:sub|i-PRES=ASP
+
+	(3) tabeteru
+ 	NEW: v:v|tabe-ASP-PRES=eat  
+	dialect forms:
+	NEW: tabetoru   v:v|tabe-ASP:or-PRES=eat
+	NEW: tabeteharu   v:v|tabe-ASP:har-PRES=eat
+
+	but    tabete (i)rassharu , tabet(e) oku  etc. as two verbs.
+
+
+c) "nasai" as verb inflection
+	OLD:   tabe nasai   v:v|tabe&GER=eat v:c:sub|nasai&IMP=do
+	NEW:  tabenasai  v:v|tabe-IMP:nasai=eat
+
+	analog to other imperative forms
+	tabero v:v|tabe-IMP=eat
+	tabete v:v|tabe-IMP:te=eat
+	tabena v:v|tabe-IMP:na=eat  (dialect)
+	tabeya  v:v|tabe-IMP:ya=eat  (dialect)
+
+d) negative imperative "na" as verb inflection
+	OLD: taberu na !   v:v|tabe-PRES=eat v:ir:sub|na&NEG&IMP=dont
+	NEW: taberuna !   v:v|tabe-NEG&IMP:na=eat
+
+e) V-te shimau
+	OLD: tabete shimau v:v|tabe-CONN=eat v:c:sub|shimaw-PRES=finish
+	NEW: tabete shimau v:v|tabe-CONN=eat v:c:sub|shimaw-PRES=finish_COMPL
+	cf.  tabechau v:v|tabe-COMPL-PRES=eat
+
+
+********方言in JMOR05.1********
+ JMORのレキシコンで登録されている形 
+
+(*が付いているものは登録されていない;置き換えが必要)
+例1:	taben       v:v|tabe-NEG:n&PRES=eat
+例2:      *tabenee   ?|tabenee
+               => tabenee [: tabenai]       v:v|tabe-NEG-PRES=eat
+
+NEG  
+taben noman
+*tabenee *nomanee
+*tabenyaa *nomanyaa
+tabehen nomahen *nomihen 
+tabehin nomahin *nomihin 
+sen 
+sehen *seehen 
+sehin *seehin *seyahin
+
+consonant verb Vw-ta/te/tara
+*aroota => [: aratta]
+*shimoota *muta => [: shimatta]
+*iuta *yuuta    => [: yutta]
+
+IMP
+tabe mi [as GERund v:v|tabe&GER=eat  v:v|mi&GER=eat]  *tabee *mii 
+*tabeyo *miyo [=> mi yo] *myo
+tabe ya mi ya *tabeya *miya *tabeeya *miiya *tabeyaa *miyaa
+shi ya *shiya *shiiya *shiyaa *seya
+tabena mina 
+tabena yo   mina yo
+tabe nasaruna *tabenasanna 
+
+COMPL (-shimau)
+tabete *shimoota  [=> tabete shimatta]
+tabechatta
+*tabetematta   [=> tabechatta]
+
+V-haru -yoru 
+tabeharu nomiharu
+tabeyoru nomiyoru
+tabenaru nominaru
+
+COP
+ya yaroo *yatte  yatta yattara 
+
+SMOD
+daro yaro *dara *dambee desho
+dai
+jan 
+yan
+
+EXIST
+oru 
+*iteru [=> ite (i)ru]
+
+NG (=dame)
+akan ikan
+
+ADJ infl
+*nemunai  *oishinai     => oishinai [: oishikunai]
+*nemu naru   *oishi naru
+
+CAUSAL
+de 
+da de     ya de  
+mon de   ya mon de
+n de 
+*ni
+nen
+
+CONJ
+honnara hona 
+sonde soide nde
+honde  hoide  
+soija hoija honja nja	
+
+SFP assertion
+nen
+no ya    n ya    da ya
+*wai  => wa yo
+
+SFP assertive question
+ya naa     ya *na    
+da *gan ne  (=> da ga n:e) 
+kai  kai naa     kai ya
+kanaa *kana
+kke
+
+homma
+
+WH
+donai
+
+******** CHANGES in JMOR05.1 ********
+a) curly quotation marks added 
+OLD: 	< text > ["]  
+NEW:	“text”
+OLD:	word ["]
+NEW:	word@q
+
+b) Kansai dialect expressions added to the lexicon 
+
+******** CHANGES in JMOR05 ********
+a) English glosses have been added to all words and to most affixes (before glosses were used 
+only for disambiguation of homonyms).
+*MOT:	kore wa omoshiroi gohon desu ne .
+%mor:	n:deic:dem|kore=this ptl:top|wa adj|omoshiro-PRES=interesting go#n|hon=HON_book 
+		v:cop|da&POL-PRES=be ptl:fina|ne=TAG .
+
+b) Indefinite deictic words have been changed from deic:indef  to n:deic:indef  etc., 
+according to their respective wordclass. 
+OLD: deic:indef|daremo                      deic:indef|itsumo
+NEW n:deic:indef|daremo=nobody      adv:deic:indef|itsumo=always
+
+c) SGER (semi-gerund) has been changed to GER (gerund).
+e.g.:  yame ni shita  止めにした
+OLD:   v:v|yame&SGER v:cop|ni&ADV v:ir|su-PAST
+NEW:  v:v|yame&GER=stop v:cop|ni&ADV=be v:ir|su-PAST=do
+
+******** CHANGES in JMOR04.1 ********
+a) する "suru" occurring  after verbal nouns (勉強,ねんね) and verbs in gerund form (GER; お返し) has been 
+  changed from v:ir|su to v:ir:sub|su  (light verb suru)
+OLD   ねんねする n:vn:mot|nenne v:ir|su-PRES
+NEW    n:vn:mot|nenne v:ir:sub|su-PRES
+OLD   お返しする  o#v:c|kaes-GER v:ir|su-PRES
+NEW    o#v:c|kaes-GER v:ir:sub|su-PRES
+
+b) new category adv:onoma for onomatopoeias in adverbial function but without quotative particle.
+OLD  onoma|nikoniko v:c|waraw-PRES
+NEW adv:onoma|nikoniko v:c|waraw-PRES
+
+c) ‡ (vocative marker) and „ (dislocation marker) appear as tag|‡ and tag|„  on the %mor tier.
+OLD   Kakka , oishii .     n:prop|Kakka adj|oishi-PRES .
+NEW   Kakka ‡ oishii .     n:prop|Kakka tag|‡ adj|oishi-PRES .
+OLD   nani ,, kore ?       n:deic:wh|nani ,, n:deic:dem|kore ?
+NEW   nani „ kore ?       n:deic:wh|nani tag|„ n:deic:dem|kore ?
+Note that ,, (double comma) for dislocation has to be changed to „ (one symbol).
+
+
+******** CHANGES in JMOR04 ********
+
+a) INTENT (intentive) -> HORT (hortative)
+e.g.:  ikoo  v:c|ik-INTENT -> v:c|ik-HORT
+
+b) v:cop|ni&SGER -> v:cop|ni&ADV
+e.g.:  一緒に行く  issho ni iku   n|issho v:cop|ni&ADV v:c|ik-PRES
+e.g.:  赤になった  aka ni natta  n|aka=red v:cop|ni&ADV v:c|nar-PAST=become
+
+c) The two meanings of yaru (e.g.: もう一回やる=do vs. ご飯をやる=give) are not disambguated.
+OLD: v:c|yar-PRES=do  v:c|yar-PRES=give  
+NEW: v:c|yar-PRES=do/give
+The difference is difficult to grasp for POSTTRAIN; at the same time this verb is very frequent, mostly
+in the meaning of "do". 
+The same holds true for dekiru (e.g.: ジャンプできる=can and ビルができる=make).
+OLD: v:v|deki-PRES=can  v:v|deki-PRES=make 
+NEW: v:v|deki-PRES=can/make
+If you are interested in this difference, you may want to replace "=do/give" with "=do" or 
+"=give", resp., after running POST.
+******
+

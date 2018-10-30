@@ -58,7 +58,7 @@ CURSURF = doko
 CURCAT = [scat n:deic:wh]
 when
 %PREVCAT = [scat OR n n:mot n:deic:dem]
-NEXTCAT = [scat OR v:c v:v v:ir  ptl:case  ptl:post ptl:attr]
+NEXTCAT = [scat OR v:c v:v v:ir  ptl:case  ptl:post ptl:attr ptl:indef]
 
 RULENAME: doko1 %****************
 choose

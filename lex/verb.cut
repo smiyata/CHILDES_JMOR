@@ -1954,8 +1954,7 @@ toriatsukaw	{[scat v:c]} "tor_tsukaw" =handle= %	取り扱う
 	azawaraw	{[scat v:c]} =meet=	%【会う】
 	aw	{[scat v:c]} =meet=	%【会う】
 	aw	{[scat v:c]} =fit=	%【合う】
-deaw	{[scat v:c][comp v:v+v:c]} =meet= "de+aw"	%【出会う】			%% synt. compound  +aw ("each other")
-fureaw	{[scat v:c][comp v:v+v:c]} "fure+aw" =contact= %	触れ合う
+fureaw	{[scat v:c][comp v:v+v:c]} "fure+aw" =contact= %	触れ合う%% synt. compound  +aw ("each other")
 hariaw	{[scat v:c][comp v:c+v:c]} "har+aw" =rival= %	張り合う
 hanashiaw	{[scat v:c][comp v:c+v:c]} =discuss= "hanas+aw"	%【話し合う】
 iiaw	{[scat v:c][comp v:c+v:c]} =argue= "iw+aw"			
@@ -1987,6 +1986,7 @@ wakeaw	{[scat v:c][comp v:v+v:c]} =share_with= "wake+aw"
 yuzuriaw	{[scat v:c][comp v:c+v:c]} "yuzur+aw" =give_and_take=	%【譲り合う】
 tonariaw	{[scat v:c][comp n+v:c]} "tonari+aw" =be_neighbours=	
 maniaw	{[scat v:c]} =in_time= "ma_ni_aw"	%【間に合う】				%% lex. compound 
+deaw	{[scat v:c]} =meet= "de_aw"	%【出会う】			
 miaw	{[scat v:c]} "mi_aw" =fit= %	見合う
 oriaw	{[scat v:c]} "or_aw" =give_and_take= %	折り合う
 shiriaw	{[scat v:c]} "shir_aw" =make_acquaintance= %	知り合う

@@ -2,11 +2,12 @@
 %               irregular verbs
 %             						   	"suru"
 su	{[scat v:ir]} =do=
-sase	{[scat v:v]} =do= "sase_CAUS"	
-sase	{[scat v:v:sub]} =do= "sase_CAUS"	
-sas	{[scat v:c]} =do= "sase_CAUS:contr"	
-sas	{[scat v:c:sub]} =do= "sase_CAUS:contr"	
-sare	{[scat v:v]} =do= "sare_PASS"	
+sase	{[scat v:v]} =do= "su-CAUS"	
+sase	{[scat v:v:sub]} =do= "su-CAUS"	
+sas	{[scat v:c]} =do= "su-CAUS:contr"	
+sas	{[scat v:c:sub]} =do= "su-CAUS:contr"	
+sare	{[scat v:v]} =do= "su-PASS"	
+sare	{[scat v:v:sub]} =do= "su-PASS"	
 shisoo	{[scat n:an]} =do_seeming=  "su-soo"
 shigata	{[scat adj]} =do_hard=  "su-gata"
 shiniku	{[scat adj]} =do_difficult=  "su-niku"

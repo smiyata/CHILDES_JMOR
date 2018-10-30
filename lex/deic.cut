@@ -61,6 +61,7 @@ doo	{[scat adv:deic:wh]} =how=
 dooshite	{[scat adv:deic:wh]} =why=	
 doshite	{[scat adv:deic:wh]} =why= "dooshite"	
 ikaga	{[scat adv:deic:wh]} =how=	
+ikani	{[scat adv:deic:indef]} =how=	% いかに  如何に 
 ikura	{[scat adv:deic:wh]} =how_much=	
 oikura	{[scat adv:deic:wh]} =HON_how_much= "o#ikura"	
 ikutsu	{[scat adv:deic:wh]} =how_many=	
@@ -153,7 +154,6 @@ donataka	{[scat n:deic:indef]} =somebody=
 donatamo	{[scat n:deic:indef]} =nobody=
 dotchika	{[scat n:deic:indef]} =which=
 dotchimo	{[scat n:deic:indef]} =none=
-ikani	{[scat adv:deic:indef]} =how=	% いかに  如何に 
 ikanimo	{[scat adv:deic:indef]} =surely=	% いかにも  如何にも 
 ikuraka	{[scat adv:deic:indef]} =how_much=
 ikuramo	{[scat adv:deic:indef]} =how_much=
@@ -173,11 +173,7 @@ nanimo	{[scat n:deic:indef]} =nothing=
 nannimo	{[scat n:deic:indef]} =nothing= "nanimo"
 nammo	{[scat n:deic:indef]} =nothing= "nanimo"
 nanikayoo	{[scat n:deic:indef]} =for_something= "nanika-yoo"
-nanikashira	{[scat n:deic:indef]} =something= "nanikashira"
 nandaka	{[scat adv:deic:indef]} =somehow=	% なんだか/何だか 
-nambikika	{[scat n:deic:indef]} =some_animals=
-nanninka	{[scat n:deic:indef]} =some_persons=
-nankaika	{[scat n:deic:indef]} =several_times=
 nanimokamo	{[scat adv:deic:indef]} =everything=	% 何もかも 
 nantoka	{[scat adv:deic:indef]} =somehow=	% なんとか/何とか 
 nantokayasan	{[scat n:deic:indef]} =shop_for_something= "nantoka-ya-san"
@@ -195,15 +191,18 @@ nazeka	{[scat adv:deic:indef]} =for_some_reason=
 
 
 %%%%%stuff for KKK
-nandemo	{[scat n:deic:indef]} =everything=
-itsudemo	{[scat adv:deic:indef]} =always=
-daredemo	{[scat n:deic:indef]} =everyone=
-dochirademo	{[scat n:deic:indef]} =whichever=
-dotchidemo	{[scat n:deic:indef]} =whichever=
-doredemo	{[scat n:deic:indef]} =whichever=
-doodemo	{[scat adv:deic:indef]} =however=
-dokodemo	{[scat n:deic:indef]} =whereever=
-ikurademo	{[scat n:deic:indef]} =ever_so_much=
+%%%%%%%%%%%%%%%take out  (分ける)  ptl:indef  kashira/demo
+%%nanikashira	{[scat n:deic:indef]} =something= "nanikashira"
+
+%%nandemo	{[scat n:deic:indef]} =everything=
+%%itsudemo	{[scat adv:deic:indef]} =always=
+%%daredemo	{[scat n:deic:indef]} =everyone=
+%%dochirademo	{[scat n:deic:indef]} =whichever=
+%%dotchidemo	{[scat n:deic:indef]} =whichever=
+%%doredemo	{[scat n:deic:indef]} =whichever=
+%%doodemo	{[scat adv:deic:indef]} =however=
+%%dokodemo	{[scat n:deic:indef]} =whereever=
+%%ikurademo	{[scat n:deic:indef]} =ever_so_much=
 
 dooyatte	{[scat adv:deic:indef]} =how=
 

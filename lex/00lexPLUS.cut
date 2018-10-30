@@ -1,0 +1,29 @@
+@UTF8
+% Noun
+%	abura	{[scat n]} =oil=	% 油 
+
+% Proper Noun
+%	Donarudo	{[scat n:prop]} =Donald=
+
+% Adverb
+%	mada	{[scat adv]} =still=	% いまだ  未だ 	
+
+% Adnominal
+%	chottoshita	{[scat adn]} =little=
+
+% Adjective
+%	hiku	{[scat adj]} =low=	% 低い 
+
+% Adjectival Noun
+%	anzen	{[scat n:an]} =safe=	% 安全 
+
+% Verbal Noun
+%	anshin	{[scat n:vn]} =reassured=	% 安心
+
+% Verb    (vowel/consonant)
+% 	erab	{[scat v:c]} =select=	% 選ぶ
+%	home	{[scat v:v]} =praise=	% 褒める
+%% lex. compound 
+%	harikae	{[scat v:v]} =repaper= "har_kae"  % 張り替える
+%% synt. compound 
+%	kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	% 壊れかける

@@ -1,0 +1,56 @@
+@UTF8
+# These rules are ordered.  Once one fires, the ambiguity will not be
+# available for later rules
+
+# MAKE RULES FOR JP   
+#POT-IMP:te
+# karai mono taberete ..
+v:*|*-POT-IMP:te=*^v:*|*-POT-CONN=*  => v:*|*-POT-CONN=*
+
+#IMP:te CONN before v:sub
+#tabete iru  yatte iru   shite iru
+v:v|*-IMP:te=*^v:v|*-CONN=* v:c|ir-*^v:v|i-*^v:v:sub|i-*  =>    v:v|*-CONN=* v:v:sub|i-*
+v:v|*-IMP:te=*^v:v|*-CONN=* v:v|i-*^v:v:sub|i-*  =>    v:v|*-CONN=* v:v:sub|i-*
+v:c|*-IMP:te=*^v:c|*-CONN=* v:c|ir-*^v:v|i-*^v:v:sub|i-*  =>    v:c|*-CONN=* v:v:sub|i-*
+v:c|*-IMP:te=*^v:c|*-CONN=* v:v|i-*^v:v:sub|i-*  =>    v:c|*-CONN=* v:v:sub|i-*
+v:ir|*-IMP:te=*^v:ir|*-CONN=* v:c|ir-*^v:v|i-*^v:v:sub|i-*  =>    v:ir|*-CONN=* v:v:sub|i-*
+v:ir|*-IMP:te=*^v:ir|*-CONN=* v:v|i-*^v:v:sub|i-*  =>    v:ir|*-CONN=* v:v:sub|i-*
+#tabete ageru  yatte ageru shite ageru/kureru
+v:v|*-IMP:te=*^v:v|*-CONN=* v:v|*^v:v:sub|*  =>    v:v|*-CONN=* v:v:sub|*
+v:c|*-IMP:te=*^v:c|*-CONN=* v:v|*^v:v:sub|*  =>    v:c|*-CONN=* v:v:sub|*
+v:ir|*-IMP:te=*^v:ir|*-CONN=* v:v|*^v:v:sub|*  =>    v:ir|*-CONN=* v:v:sub|*
+#tabete morau  
+v:v|*-IMP:te=*^v:v|*-CONN=* v:c|*^v:c:sub|*  =>    v:v|*-CONN=* v:c:sub|*
+v:c|*-IMP:te=*^v:c|*-CONN=* v:c|*^v:c:sub|*  =>    v:c|*-CONN=* v:c:sub|*
+v:ir|*-IMP:te=*^v:ir|*-CONN=* v:c|*^v:c:sub|*  =>    v:ir|*-CONN=* v:c:sub|*
+ #tabete aru  
+v:v|*-IMP:te=*^v:v|*-CONN=* v:ir|*^v:ir:sub|*  =>    v:v|*-CONN=* v:ir:sub|*
+v:c|*-IMP:te=*^v:c|*-CONN=* v:ir|*^v:ir:sub|*  =>    v:c|*-CONN=* v:ir:sub|*
+v:ir|*-IMP:te=*^v:ir|*-CONN=* v:ir|*^v:ir:sub|*  =>    v:ir|*-CONN=* v:ir:sub|*
+ 
+
+## Below is English
+ 
+# AUX/COP => AUX 
+# the shoe is left on the stairs
+% aux|*^cop|* *^* !aux|*^cop|*  *^* part|*PASTP^* => aux|* *^* part|*PASTP
+# are only trying
+%aux|*^cop|* *^* !aux|*^cop|* *^* part|*-PRESP^* => aux|* *^* part|*-PRESP
+# her mother's going to the store
+%n|*~aux|*^* *^* part|*-PRESP^* => n|*~aux|* *^* part|*-PRESP
+# her mother's gone to the store
+%n|*~aux|*^* *^* part|*PASTP^* => n|*~aux|* *^* part|*PASTP
+# the rest
+%cop|*^aux|* => cop|*
+
+#  AUX/V => AUX   have, get
+# could have gone
+%mod|*^* v|have^aux|have part|*PASTP^* => mod|* aux|have part|*PASTP
+# have/had already landed
+%aux|have*^* adv|* part|*-PASTP^* => aux|have* adv|* part|*-PASTP
+# all he has is
+%v|have*^* cop|*^* => v|have* cop|*
+# get going, get invited
+%aux|get*^v|get* part|*^* => aux|get* part|*
+
+

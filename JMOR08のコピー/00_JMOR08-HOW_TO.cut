@@ -1,0 +1,107 @@
+@UTF8
+**JMOR08 *************************************Susanne Miyata**2018jun25
+**English below******************************************************************** 
+
+****************JMOR08の使い方******************************************
+
+1) %mor行を付けるのに
+1) データファイルにCHECKを行う. (esc-L) (escを押して,放してからLキーを押す)
+2) データのファイルのバックアップを作る.
+3)コマンドボックスのworkingボタンを押し,workingディレクトリを自分のデータに設定する.
+mor libボタンでJMOR07のフォルダーを指定する.
+4) 以下のコマンドを使う.
+mor +t*CHI +t*MOT  myfile.cha
+MORに続いてPOSTが自動的に走り,ファイルが置き換えられる.
+(POSTでは多くの選択(disambiguation)が行われる)
+
+5) disambiguationを行う.
+esc-2 (escを押して,放してから2を押す)で残りの選択を行う.
+良く現れるペアについては置き換え機能を使うと便利.
+以下のコマンドで残った選択の一覧を作る.
+freq +t%mor +s*^* +u +o *.cex 
+多いもの(例えば30回以上のもの)を置き換えファイルに登録することも便利
+(“発話データベースCHILDES入門”p.87参照). 
+
+6) esc-l (CHECK mode) で ?| (辞書に登録されていない単語)などのエラーを探す.
+下にsuccess!が出るまで続ける.
+
+
+JMORはWAKACHI2002に適応している.
+<http://childes.psy.cmu.edu/morgrams/wakachi2002.zip>
+****WARNING: the current Wakachi2002 guideline is not completely updated***
+
+*******
+JMORの原則
+1. =wordは翻訳の目的ではなく,単語のcoreを意味を表す.語源を意識しながら,現在の使用法で決める.
+2.同音異義語はわけるが,多義語は品詞が変わらない限りわけない
+3.他の単語がどう分類されているかということと一貫性をもたせる.
+4. disambiguationをはっきり定義し,なるべく自動的にできるようにする.
+5. 話し言葉(会話に出る単語)に限る.そのなかでさらに親子会話で出現するもの
+	優先的に扱う. それ以外の語彙はAdult_ptl. cut Adult_noun.cut  Adult_verb.cut 等
+	で登録し,普段含まないことにする.
+6. 特殊なデータ(方言,L2,医療)は支障が無ければ含む. しかし方言等としてマークはしない.
+  必要に応じて別レキシコン(例 aphasiaLex.cut   DialectWest.cut)にして,普段含まないことにする
+7. 同音異義語は8個以下にする(MORの技術的な処理制限)
+********
+******** COMMANDS to use with JMOR08 ********
+
+1) run CHECK on your files
+
+2) make backup copies of your files
+The MOR program replaces your files with the output. Please be sure to make 
+backup copies of your files before running MOR.
+
+3) run JMOR on a file
+Set the "mor lib"  to the JMOR08 folder. Run the following command: 
+mor +t*CHI +t*MOT -s"[+ *]"  myfile.cha
+This command provides %mor tiers while excluding postcodes like [+ bch] .
+With this command, the disambiguation program POST is run automatically 
+in a next step. 
+Note that JMOR works best on files in WAKACHI2002 format. 
+
+4) disambiguate your file
+Next, use esc 2 for disambiguation.
+You may want to make a list the most frequent disambiguations and 
+do a replacement for the most frequent ones first, before starting esc 2 disambiguation. 
+freq +t%mor +s*^* +u +o *.cex   <= list of items to be disambiguated
+An efficient way of replacement using a replacement file is described in the blue manual 
+(Miyata et al., 2004:87f.) and in the online manual (Miyata 2012 ch.6.5)
+<http://www2.aasa.ac.jp/people/smiyata/CHILDESmanual/chapter01.html>
+
+4) esc-l (CHECK mode) checks for ?| and other format errors. 
+Continue CHECK-ing until "success!"
+
+********ABOUT POST *******
+Accuracy as tested on Tai Corpus shows an error rate of .005 (wrong disambiguation / words analyzed), 
+which equals to an average of 10 mistakes for a 40 minutes session containing 1200 utterances (JMOR05). 
+
+Please keep in mind that the error rate might be higher for another corpus. Before using your jmor-ed files 
+for research, you may want to have a close look at the JMOR analysis results. 
+
+About half of the mistakes are due to the confusion of -CONN and IMP:te (e.g.:  kore tabete: +...   
+vs. kore tabete!). The disambiguation of these two uses of -te can be often only be made with information 
+from intonation and context. Using "!" as indication of imperative at the end of the sentence during the
+transcription helps when checking CONN / IMP:te .
+
+Other recurrent errors concern 
+"iku" and "iu" in the CONN, IMP:te, PAST and COND:tara forms 
+(e.g.: hayaku itte!  早く言って vs. 早く行って),
+"de" as copula form and as post particle 
+(e.g.: 生で良い?  v:cop|de&CONN=be  vs. フォークで食べる ptl:post|de=POST )
+ and "to" as coordinative and as post particle.
+(e.g.: ナイフとフォーク ptl:coo|to=and  vs. パパと遊んだ  ptl:post|to=with )
+
+With the search function (cmd+F) you can find and correct these mis-disambiguations 
+and reduce the number of mistakes considerably (search for "-IMP:te", "-CONN",
+"|ik-", "|to ", "post|de", and "cop|de").
+
+For technical reasons it is difficult to train POST the difference between the causal
+and the temporal meaning of the conjunction "kara" (行くから vs. 行ってから). In the
+current version ptl:conj|kara=because is used as default. 
+The temporal "kara" is always used in combination with the connective (CONN), 
+so searching for  
+combo +t% +s"*CONN=*^ptl:conj|kara=because"  *.cha
+after running JMOR08, will give you a list of incorrect instances. 
+
+
+
