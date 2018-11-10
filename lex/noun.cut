@@ -506,7 +506,7 @@ kongetsu	{[scat n]} =this_month=
 	gake	{[scat n]} =cliff= 	% がけ  崖 
 	gakebuchi	{[scat n]} =edge_of_cliff= 	% 崖っ縁
 	gakeppuchi	{[scat n]} =edge_of_cliff= 	% 崖っ縁
-	gaki	{[scat n]} =brat=	% がき 
+	gaki	{[scat n]} =brat_CLQ=	% がき 
 	gakki	{[scat n]} =musical_instrument=	% 楽器 
 	gakko	{[scat n]} "gakkoo" =school= 	% 学校 
 	gakkoo	{[scat n]} =school= 	% 学校 
@@ -641,7 +641,7 @@ kongetsu	{[scat n]} =this_month=
 	hantsuki	{[scat n]} =half_month= 	% 半つき 
 	happa	{[scat n]} =leaf= 	% 葉っぱ 
 	happi	{[scat n]} =happi_coat= 	% 法被 
-	hara	{[scat n]} =abdomen= 	% 腹 
+	hara	{[scat n]} =abdomen_CLQ= 	% 腹 
 	harabai	{[scat n]} =lie_on_stomach= 
 	haragake	{[scat n]} =apron= 	% 腹掛け 
 	harakake	{[scat n]} "haragake" =apron= 	% 腹掛け 
@@ -1233,9 +1233,9 @@ kongetsu	{[scat n]} =this_month=
 	keshoosui	{[scat n]} =lotion= 	% 化粧水 
 	kesshooban	{[scat n]} =platelet= %血小板
 	kessoo	{[scat n]} =face_color= %血相
-	ketsu	{[scat n]} =buttocks= 	% けつ  尻 
+	ketsu	{[scat n]} =buttocks_CLQ= 	% けつ  尻 
 	ketsuatsu	{[scat n]} =bloodpressure= 	% 血圧
-	ketsuatsu	{[scat n]} =buttocks_pressure= 	% 尻圧
+	ketsuatsu	{[scat n]} =buttocks_CLQ_pressure= 	% 尻圧
 	ketsumakuen	{[scat n]} =conjunctivitis=  % 結膜炎
 	ki	{[scat n]} =spirit=	% 気 
 	ki	{[scat n]} =tree=	% 木 
@@ -1476,7 +1476,7 @@ kongetsu	{[scat n]} =this_month=
 	kusappara	{[scat n]} =grassy_plain= "kusahara"	% 草原 
 	kusari	{[scat n]} =chain=	% 鎖 
 	kushi	{[scat n]} =comb=	% くし  櫛 
-	kuso	{[scat n]} =shit= 	% くそ  糞 
+	kuso	{[scat n]} =shit_CLQ= 	% くそ  糞 
 	kusunoki	{[scat n]} =camphor_tree= 	% クスノキ  楠木  楠  
 	kusuri	{[scat n]} =medicine= 	% 薬 
 	kutsu	{[scat n]} =shoe= 	% 靴 

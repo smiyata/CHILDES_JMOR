@@ -542,6 +542,34 @@ ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
 
+%%%%%%%%new
+%%****************
+%% NUM-CLASSIFIER ALLO
+%%****************
+
+RULENAME: num-numclassifier
+% variables
+X = .* %anything
+%Y = .* %anything
+%%%
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat num:cl]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = DEL [scat], ADD [scat num], ADD [numcl 1]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat num:cl]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+
 
 %%****************
 %% CO-ALLO 
@@ -624,7 +652,7 @@ RULENAME: sfx-Q
 X = .* %anything
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR vtense atense vtense2 asfx nasfx]
+LEXCAT = [scat OR vtense atense vtense2 asfx] % nasfx]
 ALLO:
 ALLOSURF = $XQ
 ALLOCAT = LEXCAT
@@ -660,7 +688,7 @@ ALLOCAT = LEXCAT
 
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR nsfx npropsfx numsfx]
+LEXCAT = [scat OR nsfx npropsfx nasfx vnsfx]
 ALLO:
 ALLOSURF = -$X
 ALLOCAT = LEXCAT
@@ -673,7 +701,7 @@ RULENAME: sfx-extension
 X = .* %anything
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR asfx nasfx vnsfx]
+LEXCAT = [scat asfx]
 ALLO:
 ALLOSURF = -$X
 ALLOCAT = LEXCAT
@@ -682,18 +710,43 @@ ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
 
-RULENAME: num-extension
+%%%%new
+%RULENAME: num-extension
+%%****************
+%X = .* %anything
+%LEX-ENTRY:
+%LEXSURF = $X
+%LEXCAT = [scat numsfx]   %  vorher num num:cl n:deic:wh
+%ALLO:
+%ALLOSURF = +$X  %%egal ob plus minus
+%ALLOCAT = LEXCAT
+%ALLO:
+%ALLOSURF = LEXSURF
+%ALLOCAT = LEXCAT
+
+RULENAME: numsfx-extension
 %%****************
 X = .* %anything
 LEX-ENTRY:
-LEXSURF = $X
-LEXCAT = [scat OR num n:deic:wh]
+LEXSURF = y$X
+LEXCAT = [scat numsfx]
 ALLO:
-ALLOSURF = +$X
+ALLOSURF = -y$X
 ALLOCAT = LEXCAT
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
+
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR numsfx numclsfx ]
+ALLO:
+ALLOSURF = -$X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
 
 %RULENAME: dem-nani
 %%****************
@@ -706,8 +759,8 @@ ALLOCAT = LEXCAT
 RULENAME: default1
 %%****************
 LEX-ENTRY:
-LEXCAT = [scat OR adv adv:onoma conj num adn pfx \
-        numsfx vnsfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
+LEXCAT = [scat OR adv adv:onoma conj num adn pfx \  
+        numsfx numclsfx vnsfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
         ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
 	n n:fml n:let n:prop n:an n:an:mot v:mot neg \
 	n:deic:dem n:deic:wh \
@@ -715,7 +768,7 @@ LEXCAT = [scat OR adv adv:onoma conj num adn pfx \
 	adv:deic:dem adv:deic:wh \
 	n:deic:prs n:deic:indef adv:deic:indef \
 	vsfx vsfx2 vimp \
-	tag bq eq bq2 eq2 meta]
+	tag bq eq bq2 eq2 meta]  %num:cl
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT

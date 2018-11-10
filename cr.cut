@@ -1,5 +1,5 @@
 @UTF8
-@Color words:	RULENAME 0 3900 32894 65434 
+@Color words:	% 0 64634 467 1798 RULENAME 0 3900 32894 65434 
 %%%%%%%%%%%%%%%%%%%
 %% MISC Start 
 %%%%%%%%%%%%%%%%%%%
@@ -908,7 +908,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat n:vn]
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, n-bound, n-rendaku}
 
-%%	for rashii ppoi denominative adjectivalizers
+%%	for rashii ppoi denominative adjectivalizers  noun -> adj
 if
 STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
 NEXTCAT = [scat nasfx]
@@ -926,10 +926,11 @@ RULEPACKAGE = {a-tense}
 %%	for teki   noun -> adj noun
 if
 STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
-NEXTCAT = [scat nasfx], [sfxcat n:an]
+NEXTCAT = [scat nsfx], [sfxcat n:an]
 then
 RESULTCAT = DEL [scat], ADD [scat n:an]
 RULEPACKAGE = {}
+
 %%%%%%%%%%%%%%%%%%%
 %% VERBAL NOUN STARTS 
 %%%%%%%%%%%%%%%%%%%
@@ -956,8 +957,7 @@ NEXTCAT = [scat vnsfx]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
-
-%%	for teki   vnoun -> adj noun   %% laeuft nicht; scat nicht geaendert
+%%	for teki   vnoun -> adj noun   %% laeuft nicht; scat nicht geaendert; braucht eigene Regel an-suffix
 if
 STARTCAT = [scat n:vn]
 NEXTCAT = [scat vnsfx], [sfxcat n:an]
@@ -990,7 +990,12 @@ if
 NEXTCAT = [scat num]
 then
 RESULTCAT = NEXTCAT
-RULEPACKAGE = {num-suffix}
+RULEPACKAGE = {num-numcl}
+if
+NEXTCAT = [scat n:deic:wh]
+then
+RESULTCAT = NEXTCAT
+RULEPACKAGE = {num-numcl}
 
 %%%%%%%%%%%%%%%%%%%
 RULENAME: pfx-num
@@ -1001,23 +1006,47 @@ NEXTCAT = [scat num]
 MATCHCAT [numpf]
 then
 RESULTCAT = NEXTCAT, NEXTCAT [allo], ADD [numpfx +]
-RULEPACKAGE = {num-suffix}
+RULEPACKAGE = {num-suffix, num-numcl}
 
-%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%  for simple number-suffix (yon-sama)
 RULENAME: num-suffix
 CTYPE: -
 if
 STARTCAT = [scat OR num n:deic:wh]
 NEXTCAT = [scat numsfx]
 then
-RESULTCAT = STARTCAT, DEL [numpfx], DEL [allo], ADD [nums 1]
-RULEPACKAGE = {}
+RESULTCAT = STARTCAT %, DEL [numpfx], DEL [allo], ADD [nums 1]
+RULEPACKAGE = {pfx-noun, num-suffix, n-comp, n-bound, n-rendaku}
+
+%%	for ip-piki   number with classifier num -> num:cl
 if
-STARTCAT = [scat num]
-NEXTCAT = [scat numsfx]
+STARTCAT = [scat OR num n:deic:wh]
+NEXTCAT = [scat numclsfx]
 then
-RESULTCAT = STARTCAT, DEL [numpfx], DEL [allo], ADD [nums 2]
-RULEPACKAGE = {}
+RESULTCAT = DEL [scat], ADD [scat num:cl]
+RULEPACKAGE = {pfx-noun, num-suffix, num-numcl, n-comp, n-bound, n-rendaku}
+
+
+%%%%%NEW%%%%%%%%%%%%%  number-classifiers    (ip-piki)
+RULENAME: numcl-start
+CTYPE: START
+$X = .*
+if
+NEXTCAT = [scat num:cl]
+then
+RESULTCAT = NEXTCAT, ADD [rule numcl]
+RULEPACKAGE = {pfx-noun, num-suffix, num-numcl, n-comp, n-bound, n-rendaku}
+
+%%%%%%%%%%%%%%%%%%%  
+RULENAME: num-numcl
+CTYPE: -
+if
+STARTCAT = [scat num:cl]  
+NEXTCAT = [scat numclsfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {pfx-noun, num-suffix, n-comp, n-bound, n-rendaku}
+ 
 
 
 %%%%%%%%%%%%%%%%%%%
@@ -1070,7 +1099,7 @@ if
 NEXTCAT = [scat n:deic:dem:wh]
 then
 RESULTCAT = NEXTCAT
-RULEPACKAGE = {sfx-noun, n-comp, num-suffix, n-bound}
+RULEPACKAGE = {sfx-noun, n-comp, num-suffix, num-numcl, n-bound}
 
 %%%%%%%%%%%%%%%%%%%
 RULENAME: deic:dem-start2
@@ -1140,6 +1169,16 @@ RULENAME: num-endrule
 CTYPE: END
 if
 STARTCAT = [scat num], ![numbound +], ![numpfx +], ![allo OR numBBk \
+           numBBp numBBs numBBt]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: numcl-endrule
+CTYPE: END
+if
+STARTCAT = [scat num:cl], ![numbound +], ![numpfx +], ![allo OR numBBk \
            numBBp numBBs numBBt]
 then
 RESULTCAT = STARTCAT

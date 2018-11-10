@@ -55,84 +55,84 @@ dai	{[scat pfx] [pcat num]} =order=	% 第
 %% SUFFIXES %%	########
 
 % noun suffix	########
-%ba	{[scat nsfx]} ==
-chama	{[scat nsfx]} =HON=
--chama	{[scat nsfx]} "chama" =HON=
-chan	{[scat nsfx]} =FAM=
--chan	{[scat nsfx]} "chan" =FAM=
-chin	{[scat nsfx]} =FAM=
-chuu	{[scat nsfx]} =mid=
-chuu	{[scat nasfx]} =mid=
-darake	{[scat nsfx]} =covered_with=
-%gata	{[scat nsfx]} ==
-gata	{[scat nsfx]} "kata" =HON=
-gata	{[scat nsfx]} "kata" =shape=
-gokko	{[scat vnsfx]} =game= %  
-goto	{[scat nsfx]} =each=
-%joo	{[scat nsfx]} ==
-juu	{[scat nsfx]} =throughout=
-%ka	{[scat nsfx]} ==
-%kko	{[scat nsfx]} ==
-kun	{[scat nsfx]} =MASC_FAM=
-kusa	{[scat nasfx] [sfxcat adj]} =stinky=
-%me	{[scat nsfx]} =INSULT=
-ppo	{[scat nasfx] [sfxcat adj]} =like=
-ooji	{[scat nsfx]} =prince=
-%ra	{[scat nsfx]} =PL=
-rashi	{[scat nasfx] [sfxcat adj]} =similar=
-sama	{[scat nsfx]} =HON=
--sama	{[scat nsfx]} "sama" =HON=
-san	{[scat nsfx]} =HON=
--san	{[scat nsfx]} "san" =HON=
-%sangokko	{[scat nsfx]} "san-gokko" =HON_game=
-senshu	{[scat nsfx]} =player=
-see	{[scat nsfx]} =student=
-see	{[scat nsfx]} =made_of=
-tachi	{[scat nsfx]} =PL=
--tachi	{[scat nsfx]} "tachi" =PL=
-teki	{[scat nsfx]} =like=    %%sfxcat   bewirkt keine  scat Aenderung CHECK
-tsuki	{[scat nsfx]} =with=
-ya	{[scat nsfx] [sfxcat n]} "ya&SHOP"   %TEST  -> chatter 
-yagokko	{[scat nsfx] [sfxcat n:vn]} =shop_game= "ya-gokko"
-%yasan	{[scat nsfx]} "ya-san" ==
-yoo	{[scat nsfx]} =for=
-zuki	{[scat nsfx] [sfxcat n:an]} "suki" =prefer=
+%ba	{[scat nsfx]} "ba_PLACE"
+chama	{[scat nsfx]} "chama_HON"
+-chama	{[scat nsfx]} "chama_HON"
+chan	{[scat nsfx]} "chan_FAM"
+-chan	{[scat nsfx]} "chan_FAM"
+chin	{[scat nsfx]} "chin_FAM"
+chuu	{[scat nsfx]} "chuu_MID"
+darake	{[scat nsfx]} "darake_COVERED_WITH"
+%gata	{[scat nsfx]} ""
+gata	{[scat nsfx]} "kata_HON"
+gata	{[scat nsfx]} "kata_SHAPE"
+go	{[scat nsfx]} "go_AFTER"
+goto	{[scat nsfx]} "goto_EACH"
+%joo	{[scat nsfx]} ""
+juu	{[scat nsfx]} "juu_THROUGHOUT"
+%ka	{[scat nsfx]} ""
+%kko	{[scat nsfx]} ""
+kun	{[scat nsfx]} "kun_MASCFAM"
+%me	{[scat nsfx]} "me_INSULT"
+ooji	{[scat nsfx]} "ooji_PRINCE"
+%ra	{[scat nsfx]} "ra_PL"
+sama	{[scat nsfx]} "sama_HON"
+-sama	{[scat nsfx]} "sama_HON"
+san	{[scat nsfx]} "san_HON"
+-san	{[scat nsfx]} "san_HON"
+senshu	{[scat nsfx]} "senshu_PLAYER"
+see	{[scat nsfx]} "see_STUD"
+see	{[scat nsfx]} "see_MADEOF"
+tachi	{[scat nsfx]} "tachi_PL"
+-tachi	{[scat nsfx]} "tachi_PL"
+tsuki	{[scat nsfx]} "tsuki_WITH"
+ya	{[scat nsfx] [sfxcat n]} "ya_SHOP"   
+yoo	{[scat nsfx]} "yoo_FOR"
 
+kusa	{[scat nasfx] [sfxcat adj]} "kusa_STINKY"
+ppo	{[scat nasfx] [sfxcat adj]} "ppo_LIKE"
+rashi	{[scat nasfx] [sfxcat adj]} "rashi_SIM"
+
+chuu	{[scat nasfx]} "chuu_MID"
+
+teki	{[scat nsfx] [sfxcat n:an]} "teki_LIKE"                 %%sfxcat   bewirkt keine  scat Aenderung CHECK vnsfx ok
+zuki	{[scat nsfx] [sfxcat n:an]} "suki_PREFER"
+
+gokko	{[scat vnsfx]} "gokko_GAME" %  
 % proper noun suffix	########
-san	{[scat npropsfx]} =HON=
-sama	{[scat npropsfx]} =HON=
-chan	{[scat npropsfx]} =FAM=
-kun	{[scat npropsfx]} =MASC_FAM=
-sensee	{[scat npropsfx]} =teacher=
-keeji	{[scat npropsfx]} =detective=
-baachan	{[scat npropsfx]} =grandma_FAM=
-obaachan	{[scat npropsfx]} =HON_grandma_FAM=
-baasan	{[scat npropsfx]} =grandma_HON=
-obaasan	{[scat npropsfx]} =HON_grandma_HON=
-obachan	{[scat npropsfx]} =aunt_FAM=
-obasan	{[scat npropsfx]} =aunt_HON=
-ojoosan	{[scat npropsfx]} =HON_young_lady_HON=
-ooji	{[scat npropsfx]} =prince=
-ojichan	{[scat npropsfx]} =uncle_FAM=
-ojisan	{[scat npropsfx]} =uncle_HON=
-oneechan	{[scat npropsfx]} =HON_elder_sister_FAM=
-oneesan	{[scat npropsfx]} =HON_elder_sister_HON=
-neechan	{[scat npropsfx]} =elder_sister_FAM=
-oneesan	{[scat npropsfx]} =HON_elder_sister_HON=
-oniichan	{[scat npropsfx]} =HON_elder_brother_FAM=
-oniisan	{[scat npropsfx]} =HON_elder_brother_HON=
-niichan	{[scat npropsfx]} =elder_brother_FAM=
-niisan	{[scat npropsfx]} =elder_brother_HON=
-chantachi	{[scat npropsfx]} "chan-tachi" =FAM_PL=
-santachi	{[scat npropsfx]} "san-tachi" =HON_PL=
-kuntachi	{[scat npropsfx]} "kun-tachi" =MASC_FAM_PL=
-jin	{[scat npropsfx]} =person=
-iki	{[scat npropsfx]} "iki" =bound_for=
-ken	{[scat npropsfx]} =prefecture=
-kunhooshiki	{[scat npropsfx]} "kun-hooshiki" =MASC_FAM_style=
-kunfuu	{[scat npropsfx]} "kun-fuu" =MASC_FAM_style=
-yoo	{[scat npropsfx]} =for=
-yuki	{[scat npropsfx]} =bound_for=
+san	{[scat npropsfx]} "san_HON"
+sama	{[scat npropsfx]} "sama_HON"
+chan	{[scat npropsfx]} "chan_FAM"
+kun	{[scat npropsfx]} "kun_MASC_FAM"
+sensee	{[scat npropsfx]} "sensee_TEACHER"
+keeji	{[scat npropsfx]} "keeji_DETECTIVE"
+baachan	{[scat npropsfx]} "baachan_GRANDMA_FAM"
+obaachan	{[scat npropsfx]} "obaachan_HON_GRANDMA_FAM"
+baasan	{[scat npropsfx]} "baasan_GRANDMA_HON"
+obaasan	{[scat npropsfx]} "obaasan_HON_GRANDMA_HON"
+obachan	{[scat npropsfx]} "obachan_AUNT_FAM"
+obasan	{[scat npropsfx]} "obasan_AUNT_HON"
+ojoosan	{[scat npropsfx]} "ojoosan_HON_YOUNG_LADY_HON"
+ooji	{[scat npropsfx]} "ooji_PRINCE"
+ojichan	{[scat npropsfx]} "ojichan_UNCLE_FAM"
+ojisan	{[scat npropsfx]} "ojisan_UNCLE_HON"
+oneechan	{[scat npropsfx]} "oneechan_HON_ELDER_SISTER_FAM"
+neechan	{[scat npropsfx]} "neechan_ELDER_SISTER_FAM"
+oneesan	{[scat npropsfx]} "oneesan_HON_ELDER_SISTER_HON"
+oniichan	{[scat npropsfx]} "oniichan_HON_ELDER_BROTHER_FAM"
+oniisan	{[scat npropsfx]} "oniisan_HON_ELDER_BROTHER_HON"
+niichan	{[scat npropsfx]} "niichan_ELDER_BROTHER_FAM"
+niisan	{[scat npropsfx]} "niisan_ELDER_BROTHER_HON"
+chantachi	{[scat npropsfx]} "chan_FAM-tachi_PL"
+santachi	{[scat npropsfx]} "san_HON-tachi_PL"
+kuntachi	{[scat npropsfx]} "kun_MASC_FAM-tachi_PL"
+jin	{[scat npropsfx]} "jin_PERSON"
+iki	{[scat npropsfx]} "iki_BOUND_FOR"
+ken	{[scat npropsfx]} "ken_PREFECTURE"
+kunhooshiki	{[scat npropsfx]} "kun_MASC_FAM-hooshiki_style"
+kunfuu	{[scat npropsfx]} "kun_MASC_FAM-fuu_style"
+yoo	{[scat npropsfx]} "yoo_FOR"
+yuki	{[scat npropsfx]} "yuki_BOUND_FOR"
 
 
 % adjective suffixes	########
@@ -166,10 +166,10 @@ kunakucha	{[scat atense] [tense pres]} "NEG&OBL:wa"
 kunakya	{[scat atense] [tense pres]} "NEG&OBL:ba"
 nagara	{[scat atense] [tense inf] [infl -]} "SIMUL"
 
-ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo-PRES" =like=
-ppokunai	{[scat atense] [tense pres] [sfxcat adj]} "ppo-NEG-PRES" =like=
-ppokatta	{[scat atense] [tense past] [sfxcat adj]} "ppo-PAST" =like=
-ppokute	{[scat atense] [tense inf] [sfxcat adj]} "ppo-CONN" =like=
+ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-PRES" 
+ppokunai	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-NEG-PRES" 
+ppokatta	{[scat atense] [tense past] [sfxcat adj]} "ppo_LIKE-PAST" 
+ppokute	{[scat atense] [tense inf] [sfxcat adj]} "ppo_LIKE-CONN"
 
 gar	{[scat asfx] [sfxcat v] [cp vC]} "OBJVZ"
 gara	{[scat asfx] [sfxcat v] [cp vCa]} "OBJVZ"
@@ -178,7 +178,8 @@ gari	{[scat atense] [tense inf]} "OBJVZ-GER"
 gat	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ"
 gatte	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ-ASP"
 
-sa	{[scat asfx] [sfxcat n]} =NLZR= 
+sa	{[scat asfx] [sfxcat n]} "sa_NLZR"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%@@bishier 
 ke	{[scat asfx] [sfxcat n]} =taste= 
 ge	{[scat asfx] [sfxcat n]} =taste= "ke"
 me	{[scat asfx] [sfxcat n]} =NLZR=
@@ -425,255 +426,227 @@ jai	{[scat vsfx] [allo OR vTNn vTIg] [cp vPIw]} "COMPL"
 
 
 
-% numeral suffixes	########
+% Numeral Suffixes	########
+
+%
+%bi	{[scat numsfx] [allo numA]} "hi_DAY"
+bun	{[scat numsfx] [allo numA]} "bun_PORTION"
+gata	{[scat numsfx] [allo numA]} "kata_STYLE"
+han	{[scat numsfx] [allo numA]} "han_HALF"
+me	{[scat numsfx] [allo numA]} "me_ORD"
+retsu	{[scat numsfx] [allo numA]} "retsu_LINE"
+san	{[scat numsfx] [allo numA]} "san_HON"
+sama	{[scat numsfx] [allo numA]} "sama_HON"
+
+% Classifier Suffixes	########
 % 								 倍 
-bai	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =double=
+bai	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "bai_DOUBLE"
 % 								 番 
-ban	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =ORD=
-bamme	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban-me" =ORD=
-bansen	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban-sen" =ORD_track=
-bantai	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban-tai" ==
+ban	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD"
+bamme	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-me_ORD"
+bansen	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-sen_TRACK" 
+bantai	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-tai_TROOP"
 %
-bo	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =CL=
+bo	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "bo_PIECE"
 %								分
-bu	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =portion=
+bu	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "bu_PORTION"
 % 								 秒 
-byoo	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =second=
+byoo	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "byoo_SEC"
 % 								 台 
-dai	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =CL=
-daime	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dai-me" =CL_ORD=
+dai	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dai_STAND"
+daime	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dai_STAND-me_ORD"
 %								段
-dan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =step=
+dan	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =dan_STEP=
 % 								 丁目 
-choo	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =CL=
-choome	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "choo-me" =CL_ORD=
+choo	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =choo_CUT=
+choome	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "choo_CL-me_ORD" 
 % 								 度 
-do	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =degree=
-do	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =times=
+do	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "do_DEGREE"
+do	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "do_TIMES"
 % 								 エーカー  acre 
-eekaa	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =acre=
+eekaa	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "eekaa_ACRE"
 % 								 円 
-en	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =yen=
-embun	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en-bun" =yen_portion=
-endama	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en-dama" =yen_coin=
+en	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en_YEN"
 % 								 分 
-fun	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} =minute=
-pun	{[scat numsfx] [allo OR numBFa numBFb numBBp]} "fun" =minute=
-funkan	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun-kan" =minute_while=
-punkan	{[scat numsfx] [allo OR numBFa numBFb numBBp]} "fun-kan" =minute_while=
-fungoto	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun-goto" =minute_each=
-pungoto	{[scat numsfx] [allo OR numBFa numBFb numBBp]} "fun-goto" =minute_each=
+fun	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN"
+pun	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN"
+funkan	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN-kan_SPAN" 
+punkan	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} ""fun_MIN-kan_SPAN" 
+fungoto	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN-goto_EACH" 
+pungoto	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN-goto_EACH" 
 % 								 月 
-%gatsu	{[scat numsfx] [allo OR numCFa numBFa numFc]} =month=
+gatsu	{[scat numclsfx] [allo OR numCFa numBFa numFc]} "gatsu_MONTH"
+gatsuchuu	{[scat numclsfx] [allo OR numCFa numBFa numFc]} "gatsu_MONTH-chuu_WHILE"
+gatsugoo	{[scat numclsfx] [allo OR numCFa numBFa numFc]} "gatsu_MONTH-goo_ISSUE"
 % 								 グラム 
-guramu	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =gram=
+guramu	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "guramu_GRAM"
 % 								 杯 
-hai	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} =cup=
-pai	{[scat numsfx] [allo numBBp]} "hai" =cup=
-% 								 発 
-%hatsu	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} ==
-%patsu	{[scat numsfx] [allo numBBp]} "hatsu" ==
-%batsu	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hatsu" ==
+hai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "hai_CUP"
+pai	{[scat numclsfx] [allo numBBp]} "hai_CUP"
 % 								 遍 
-hen	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} =time= 
-pen	{[scat numsfx] [allo OR numBBp]} "hen" =time=
-ben	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hen" =time=
+hen	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hen_TIMES"
+pen	{[scat numclsfx] [allo OR numBBp]} "hen_TIMES"
+ben	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hen_TIMES"
 % 								 匹 
-hiki	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} =animal=
-piki	{[scat numsfx] [allo numBBp]} "hiki" =animal=
-biki	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hiki" =animal=
-hikime	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "hiki-me" =animal_ORD=
-pikime	{[scat numsfx] [allo numBBp]} "hiki-me" =animal_ORD=
-bikime	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hiki-me" =animal_ORD=
+hiki	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hiki_ANIMAL"
+piki	{[scat numclsfx] [allo numBBp]} "hiki_ANIMAL"
+biki	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hiki_ANIMAL"
+hikime	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hiki_ANIMAL-me_ORD" 
+pikime	{[scat numclsfx] [allo numBBp]} "hiki_ANIMAL-me_ORD" 
+bikime	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2 numBFa]} "hiki_ANIMAL-me_ORD" 
 % 								 本 
-hon	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} =stick=
-pon	{[scat numsfx] [allo numBBp]} "hon" =stick=
-bon	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2]} "hon" =stick=
-hombun	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "hon-bun" =stick_portion=
-pombun	{[scat numsfx] [allo numBBp]} "hon-bun" =stick_portion=
-bombun	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2]} "hon-bun" =stick_portion=
-homme	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "hon-me" =stick_ORD=
-pomme	{[scat numsfx] [allo numBBp]} "hon-me" =stick_ORD=
-bomme	{[scat numsfx] [allo OR numBFb numCFn numCBn1 numCBn2]} "hon-me" =stick_ORD=
+hon	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hon_STICK"
+pon	{[scat numclsfx] [allo numBBp]}  "hon_STICK"
+bon	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2]}  "hon_STICK"
+hombun	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hon_STICK-bun_PORTION" 
+pombun	{[scat numclsfx] [allo numBBp]} "hon_STICK-bun_PORTION" 
+bombun	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2]} "hon_STICK-bun_PORTION"
+homme	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "hon_STICK-me_ORD" 
+pomme	{[scat numclsfx] [allo numBBp]} "hon_STICK-me_ORD" 
+bomme	{[scat numclsfx] [allo OR numBFb numCFn numCBn1 numCBn2]} "hon_STICK-me_ORD" 
 % 								 時,字 
-ji	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} =hour=
-jihan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} "ji-han" =hour_half=
-ji	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} =letter=
-% 								 時間 
-jikan	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =hours=
-jikanhan	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "jikan-han" =hours_half=
-jikanme	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "jikan-me" =hours_ORD=
-jikamme	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "jikan-me" =hours_ORD=
+ji	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} "ji_OCLOCK"
+jihan	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} "ji_OCLOCK-han_HALF" 
+% 								 字 
+ji	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2 numFc]} "ji_LETTER"
 % 								 位 
-i	{[scat numsfx] [allo OR numBFa numCFa numCFn]} =rank=
+i	{[scat numclsfx] [allo OR numBFa numCFa numCFn]} "i_RANK"
+% 								 日
+ka	{[scat numclsfx] [allo numA]} "ka_DAY"
+ka	{[scat numclsfx] [allo numJpnKA]} "ka_DAY"  % 日 
+kame	{[scat numclsfx] [allo numJpnKA]} "ka_DAY-me_ORD"  % 日目 
+kakan	{[scat numclsfx] [allo numJpnKA]} "ka_DAY-kan_SPAN"  % 日間
+kabun	{[scat numclsfx] [allo numJpnKA]} "ka_DAY-bun_PORTION"  % 日分
 % 								 ヶ所 
-kasho	{[scat numsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =spots=
+kasho	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kasho_SPOT"
 % 								 ヶ月 
-kagetsu	{[scat numsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =months=
-kagetsuhan	{[scat numsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kagetsu-han" =months_half=
-% 								 回,階 
-kai	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} =floor=
-kai	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} =times=
-kaime	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai-me" =times_ORD=
-gai	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "kai" =floor=
-kaidate	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "kai-tate" =floor_built=
-gaidate	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "kai-tate" =floor_built=
+kagetsu	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kagetsu_MONTH"
+kagetsuhan	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kagetsu_MONTH-han_HALF" 
+% 								 回
+kai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_TIMES"
+kaime	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_TIMES-me_ORD" 
+% 								 階 
+kai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_FLOOR"
+gai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "kai_FLOOR" 
 % 								 軒 
-ken	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} =building=
-gen	{[scat numsfx] [allo OR numBFa numCFa numCBa numCBb]} "ken" =building=
+ken	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "ken_BLDG"
+gen	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "ken_BLDG" 
 % 								 桁 
-keta	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =digit=
+keta	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "keta_DIGIT"
 % 								 機 
-ki	{[scat numsfx] [allo OR numBBk numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =machine=
+ki	{[scat numclsfx] [allo OR numBBk numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ki_MACHINE"
 % 								 キロ 
-kiro	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =kilo=
-kiroguramu	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =kilo=
+kiro	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kiro_KILO"
+kiroguramu	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kiroguramu_KG"
+kiromeetoru	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kiromeetoru_KM"
 % 								 個 
-ko	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =piece=
-kome	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ko-me" =piece_ORD=
+ko	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ko_PIECE"
+kome	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ko_PIECE-me_ORD" 
 % 								 級 
-kyuu	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =rank=
-%
-kurasu	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =class=
+kyuu	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kyuu_RANK"
 % 								 枚 
-mai	{[scat numsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =sheet=
-maime	{[scat numsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mai-me" =sheet_ORD=
+mai	{[scat numclsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mai_SHEET"
+maime	{[scat numclsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mai_SHEET-me_ORD" 
 % 								 名 
-mee	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =person=
-meesama	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mee-sama" =person_HON=
+mee	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mee_PERSON"
+meesama	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mee_PERSON-sama_HON" 
 % 								 メーター 
-meetoru	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =metre=
-meetaa	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =metre=
-kiromeetoru	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =kilometre=
+meetoru	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "meetoru_METRE"
+meetaa	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]}  "meetaa_METRE"
 % 								 面 
-men	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =side=
+men	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "men_SIDE"
 % 								 ミリ 
-miri	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =millimeter=
-mirimeetoru	{[scat numsfx] [allo OR numBFa numBFb numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =millimeter=
-mirimeetaa	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =millimeter=
+miri	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "miri_MM"
+mirimeetoru	{[scat numclsfx] [allo OR numBFa numBFb numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mirimeetoru_MM"
+mirimeetaa	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =mirimeetaa_MM=
 % 								 問
-mon	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =question= 
+mon	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mon_QUESTION"
 % 								 匁 
-momme	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =weight= 
-monme	{[scat numsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =weight= "momme"
+momme	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "momme_WEIGHT" 
+monme	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "momme_WEIGHT" 
 % 								 年 
-nen	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =year=
-nemme	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-me" =year_ORD=
-nemburi	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-buri" =year_before=
-nenhan	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-han" =year_half=
-nenkan	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-kan" =year_span=
-% 								 年生 
-nensee	{[scat numsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen-see" =year_student=
+nen	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR"
+nemme	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-me_ORD" 
+nemburi	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-buri_BEFORE" 
+nenhan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-han_HALF" 
+nenkan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-kan_SPAN" 
+nensee	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-see_STUDENT" 
 % 								 日 
-nichi	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =day=
-nichime	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi-me" =day_ORD=
-nichioki	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi-oki" =day_every_other=
+nichi	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY"
+nichime	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY-me_ORD" 
+nichioki	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY-oki_EVERY_OTHER" 
 % 								 人 
-nin	{[scat numsfx] [allo OR numFc numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =person=
-nimme	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin-me" =person_ORD=
-nimmae	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin-mae" =person_share=
-nimbun	{[scat numsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin-bun" =person_person=
+nin	{[scat numclsfx] [allo OR numFc numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin_PERSON"
+nimme	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin_PERSON-me_ORD" 
+nimmae	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin_PERSON-mae_PORTION" 
+nimbun	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nin_PERSON-bun_PORTION" 
 % 								 リットル 
-rittaa	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =liter=
-ritta	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittaa" =liter=
-rittoru	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =liter=
+rittaa	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittaa_LITER"
+ritta	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittaa_LITER" 
+rittoru	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} rittoru_LITER"
 % 								 パーセント 
-paasento	{[scat numsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =percent=
+paasento	{[scat numclsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "paasento_PERCENT"
 % 								 ページ 
-peeji	{[scat numsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =page=
+peeji	{[scat numclsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "peeji_PAGE"
+% 								 ピース
+piisu	{[scat numclsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "piisu_PIECE"
 % 								 両 
-piisu	{[scat numsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =piece=
-% 								 両 
-ryoo	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =carriage=
-% 								 両目 
-ryoome	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =carriage_number=
-% 								 両編成 
-ryoohensee	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ryoo-hensee" =carriage_combination=
+ryoo	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ryoo_CARRIAGE"
+ryoome	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]}  "ryoo_CARRIAGE-me_ORD"
 % 								 才 
-sai	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =year_old=
-saihan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "sai-han" =year_old_half=
+sai	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "sai_YEARS_OLD"
+saihan	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "sai_YEARS_OLD-han_HALF" 
 % 								 冊 
-satsu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =books=
+satsu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "satsu_BOOK"
 % 								 席 
-seki	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =seat=
+seki	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "seki_SEAT"
 % 								 センチ 
-senchi	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =centimetre=
-senchimeetoru	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =centimetre=
-% 								 世帯 
-setai	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =household=
+senchi	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "senchi_CM"
+senchimeetoru	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "senchimeetoru_CM"
 % 								 勺 
-shaku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =centiliter=
-% 								 車線 
-shasen	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =line=
+shaku	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shaku_CL"
 % 								 色 
-shoku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =color=
+shoku	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shoku_COLOR"
 % 								 週,周,集 
-shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =week=
-shuukan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =week=
-shuukango	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuukan-go" =week_after=
-shuukanhan	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuukan-han" =week_half=
-shuukanoki	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuukan-oki" =week_each_other=
-shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =wrap=
-shuu	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =round=
-% 								 種類 
-shurui	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shurui" =sort=
+shuu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu_WEEK"
+shuu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu_WRAP"
+shuu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu_ROUND"
+shuume	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu_ROUND-me_ORD"
 %                                                                束
-shuunen	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuu-nen" =anniversary=
-%                                                                束
-soku	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bundle=
-sokubun	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bundle_portion= "soku-bun"
+soku	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "soku_BUNDLE" 
+sokubun	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "soku_BUNDLE-bun_PORTION"
 % 								 点 
-ten	{[scat numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =point=
+ten	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]}  "ten_POINT"
 % 								 トン 
-ton	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =ton=
+ton	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ton_TON"
 % 								 等,棟 
-too	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =grade=
-too	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =house=
-too	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =animal=
-% 								 等賞 
-tooshoo	{[scat numsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "too-shoo" =rank_prize=
+too	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "too_GRADE"
+too	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "too_BLDG"
+too	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "too_ANIMAL"
+%%tooshoo	 =rank_prize= => compound
+% 								 つ
+tsu	{[scat numclsfx] [allo numJpnTSU]} "tsu_PIECE" % つ 
+tsume	{[scat numclsfx] [allo numJpnTSU]} "tsu_PIECE-me_ORD"  % つ 
 % 								 粒 
-tsubu	{[scat numsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =grain=
+tsubu	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "tsubu_GRAIN"
 % 								 輪,羽 
-wa	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =ring=
-wa	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =bird=
+wa	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "wa_RING"
+wa	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "wa_BIRD"
 %							割
-wari	{[scat numsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =ratio=
+wari	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "wari_RATIO"
 % 	
-%
-bi	{[scat numsfx] [allo numA]} =day=
-bun	{[scat numsfx] [allo numA]} =portion=
-gata	{[scat numsfx] [allo numA]} =style=
-han	{[scat numsfx] [allo numA]} =half=
-ijoo	{[scat numsfx] [allo numA]} =over=
-ika	{[scat numsfx] [allo numA]} =below=
-ka	{[scat numsfx] [allo numA]} =day=
-nimmae	{[scat numsfx] [allo numA]} "nin-mae" =person_share=
-me	{[scat numsfx] [allo numA]} =ORD=
-retsu	{[scat numsfx] [allo numA]} =line=
-%ryoo	{[scat numsfx] [allo numA]} ==
-%ryoome	{[scat numsfx] [allo numA]} "ryoo-me" ==
-san	{[scat numsfx] [allo numA]} =HON=
-sama	{[scat numsfx] [allo numA]} =HON=
-ten	{[scat numsfx] [allo numA]} =point=
 
-tsu	{[scat numsfx] [allo numJpnTSU]} =piece= % つ 
-tsume	{[scat numsfx] [allo numJpnTSU]} "tsu-me" =piece_ORD= % つ 
-ka	{[scat numsfx] [allo numJpnKA]} =day= % 日 
-kame	{[scat numsfx] [allo numJpnKA]} "ka-me" =day_ORD= % 日目 
-kakan	{[scat numsfx] [allo numJpnKA]} "ka-kan" =day_while= % 日間
-kabun	{[scat numsfx] [allo numJpnKA]} "ka-bun" =day_portion= % 日分
-ri	{[scat numsfx] [allo numJpnRI]} =person= % 人 
-ribun	{[scat numsfx] [allo numJpnRI]} "ri-bun" =person_portion= % 人 
-ban	{[scat numsfx] [allo numJpnBAN]} =evening= % 晩 
-tsuki	{[scat numsfx] [allo numJpnTSUKI]} =month= % 月 
-keta	{[scat numsfx] [allo numJpnBAN]} =digit= % 桁 
-ashi	{[scat numsfx] [allo numJpnBAN]} =step= % 足 
-koto	{[scat numsfx] [allo numJpnBAN]} =word= % 言 
-kuchi	{[scat numsfx] [allo numJpnBAN]} =mouthful= % 口 
-me	{[scat numsfx] [allo numJpnBAN]} =ORD= % 目 
-michi	{[scat numsfx] [allo numJpnBAN]} =street= % 道 
-tsubu	{[scat numsfx] [allo numJpnBAN]} =grain= % 粒 
+ri	{[scat numsfx] [allo numJpnRI]} "ri_PERSON" % 人 
+ribun	{[scat numsfx] [allo numJpnRI]} "ri_PERSON-bun_PORTION"  % 人 
+ban	{[scat numsfx] [allo numJpnBAN]} "ban_EVENING" % 晩 
+tsuki	{[scat numsfx] [allo numJpnTSUKI]} "tsuki_MONTH" % 月 
+keta	{[scat numsfx] [allo numJpnBAN]} "keta_DIGIT"  % 桁 
+ashi	{[scat numsfx] [allo numJpnBAN]} "ashi_STEP" % 足 
+koto	{[scat numsfx] [allo numJpnBAN]} "koto_WORD"  % 言 
+kuchi	{[scat numsfx] [allo numJpnBAN]} "kuchi_MOUTHFUL"  % 口 
+me	{[scat numsfx] [allo numJpnBAN]} "me_ORD" % 目 
+michi	{[scat numsfx] [allo numJpnBAN]} "michi_STREET" % 道 
+tsubu	{[scat numsfx] [allo numJpnBAN]} "tsubu_GRAIN"  % 粒 
 
-tsuitachi	{[scat num]} =first_day=
-hatachi	{[scat num]} =twenty_years_old=
+tsuitachi	{[scat num:cl]} =first_day=
+hatachi	{[scat num:cl]} =twenty_years_old=
