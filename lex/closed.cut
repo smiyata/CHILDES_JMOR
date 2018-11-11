@@ -1,77 +1,76 @@
 @UTF8
 %% PREFIXES %%
-% verb prefixes
-o	{[scat pfx] [pcat v:c]} =HON=	% お 
-o	{[scat pfx] [pcat v:v]} =HON=	% お 
-o	{[scat pfx] [pcat v:ir]} =HON=	% お 
-お	{[scat pfx] [pcat v:c]} =HON=	% お 
-お	{[scat pfx] [pcat v:v]} =HON=	% お 
-お	{[scat pfx] [pcat v:ir]} =HON=	% お 
+% verb prefixes  "> entered directly in ar.cut as verb stem allo
+%o	{[scat pfx] [pcat v:c]} "o_HON"	% お  same for  choo# , do#
+%o	{[scat pfx] [pcat v:v]} "o_HON"	% お 
+%o	{[scat pfx] [pcat v:ir]} "o_HON" % お 
 
 % noun prefixes
-%bu	{[scat pfx] [pcat n]} =not=		% 不 
-dai	{[scat pfx] [pcat n]} =big=		% 大 
-choo	{[scat pfx] [pcat n]} =extremely=	% 超 
-do	{[scat pfx] [pcat n]} =extremely=		%ど
-%fu	{[scat pfx] [pcat n]} =not=		% 不   enter directly as "fu#word"
-go	{[scat pfx] [pcat n]} =HON=	% ご 
-%hi	{[scat pfx] [pcat n]} =not=		% 非 
-%hon	{[scat pfx] [pcat n]} =original=		% 本 
-%ko	{[scat pfx] [pcat n]} =small=	% 小 
-kaku	{[scat pfx] [pcat n]} =each=	% 各
-%mi	{[scat pfx] [pcat n]} =not_yet=		% 未 
-%ma	{[scat pfx] [pcat n]} =straight=	% 真 
-%mu	{[scat pfx] [pcat n]} =not=		% 無 
-o	{[scat pfx] [pcat n]} =HON=	% お 
-oo	{[scat pfx] [pcat n]} =big=	% 大,多 
-%ryoo	{[scat pfx] [pcat n]} =both=		% 両 to quant
-%mai	{[scat pfx] [pcat n]} =every=		% 毎 to quant
+dai	{[scat pfx] [pcat n]} "dai_BIG"		% 大 
+choo	{[scat pfx] [pcat n]} "choo_EXTREMELY"	% 超 
+do	{[scat pfx] [pcat n]} "do_EXTREMELY"		%ど
+go	{[scat pfx] [pcat n]} "go_HON"	% ご 
+kaku	{[scat pfx] [pcat n]} "kaku_EACH"	% 各
+o	{[scat pfx] [pcat n]} "o_HON"	% お 
+oo	{[scat pfx] [pcat n]} "oo_BIG"	% 大
+
+%bu	{[scat pfx] [pcat n]} "bu_NOT"		% 不 listed in the lexicon
+%fu	{[scat pfx] [pcat n]} "fu_NOT"		% 不   listed in the lexicon
+%hi	{[scat pfx] [pcat n]} "hi_NOT"		% 非 listed in the lexicon
+%hon	{[scat pfx] [pcat n]} "hon_ORIG"		% 本 listed in the lexicon
+%ko	{[scat pfx] [pcat n]} "ko_SMALL"	% 小 listed in the lexicon
+%mi	{[scat pfx] [pcat n]} "mi_NOT_YET"		% 未 listed in the lexicon
+%ma	{[scat pfx] [pcat n]} "ma_STRAIGHT"	% 真 listed in the lexicon
+%moo	{[scat pfx] [pcat n]} "moo_CRAZY"	% 猛 listed in the lexicon
+%mu	{[scat pfx] [pcat n]} "mu_MU"		% 無 listed in the lexicon
+oo	{[scat pfx] [pcat n]} "oo_MANY"	% 多 listed in the lexicon
+%soo	{[scat pfx] [pcat n]} "soo_GENERAL"	% 総  listed in the lexicon
+
+%ryoo	{[scat pfx] [pcat n]} "both"		% 両 to quant
+%mai	{[scat pfx] [pcat n]} "every"		% 毎 to quant
 %%%%
 
-% verb prefixes  => entered directly in ar.cut as verb stem allo
 
 % adjective prefixes
-choo	{[scat pfx] [pcat adj]} =extremely=		% 超 
-do	{[scat pfx] [pcat adj]} =extremely=		% 
-%ma	{[scat pfx] [pcat adj]} =straight=		% 真 
-o	{[scat pfx] [pcat adj]} =HON=
-o#	{[scat pfx] [pcat adj]} =HON= "o"
+choo	{[scat pfx] [pcat adj]} "choo_EXTREMELY"		% 超 
+do	{[scat pfx] [pcat adj]} "do_EXTREMELY"		% 
+%ma	{[scat pfx] [pcat adj]} "ma_STRAIGHT"		% 真  listed in the lexicon
+o	{[scat pfx] [pcat adj]} "o_HON"
 
 % adjectival noun prefixes
-choo	{[scat pfx] [pcat n:an]} =extremely=	% 超 
-dai	{[scat pfx] [pcat n:an]} =big=	% 大 
-o	{[scat pfx] [pcat n:an]} =HON=
+choo	{[scat pfx] [pcat n:an]} "choo_EXTREMELY"	% 超 
+dai	{[scat pfx] [pcat n:an]} "big"	% 大 
+o	{[scat pfx] [pcat n:an]} "HON"
 
 % verbal noun prefixes
-dai	{[scat pfx] [pcat n:vn]} =big=	% 大 
-go	{[scat pfx] [pcat n:vn]} =HON=	% 御 
-o	{[scat pfx] [pcat n:vn]} =HON=
-oo	{[scat pfx] [pcat n:vn]} =big=	% 大,多 
+dai	{[scat pfx] [pcat n:vn]} "dai_BIG"	% 大 
+go	{[scat pfx] [pcat n:vn]} "go_HON"	% 御 
+o	{[scat pfx] [pcat n:vn]} "o_HON"
+oo	{[scat pfx] [pcat n:vn]} "oo_BIG"	% 大,多 
 
-% classifier prefix
-dai	{[scat pfx] [pcat num]} =order=	% 第 
+% numeral prefix
+dai	{[scat pfx] [pcat num]} "dai_ORD"	% 第 
+dai	{[scat pfx] [pcat num:cl]} "dai_ORD"	% 第 
 
 
 %% SUFFIXES %%	########
 
 % noun suffix	########
-%ba	{[scat nsfx]} "ba_PLACE"
+%noun   n|kutsu-darake	########
+%ba	{[scat nsfx]} "ba_PLACE"      %changed to N+N compound
 chama	{[scat nsfx]} "chama_HON"
--chama	{[scat nsfx]} "chama_HON"
 chan	{[scat nsfx]} "chan_FAM"
--chan	{[scat nsfx]} "chan_FAM"
 chin	{[scat nsfx]} "chin_FAM"
 chuu	{[scat nsfx]} "chuu_MID"
 darake	{[scat nsfx]} "darake_COVERED_WITH"
-%gata	{[scat nsfx]} ""
 gata	{[scat nsfx]} "kata_HON"
 gata	{[scat nsfx]} "kata_SHAPE"
 go	{[scat nsfx]} "go_AFTER"
 goto	{[scat nsfx]} "goto_EACH"
-%joo	{[scat nsfx]} ""
+%joo	{[scat nsfx]} "joo_CONCERNING"
 juu	{[scat nsfx]} "juu_THROUGHOUT"
 %ka	{[scat nsfx]} ""
-%kko	{[scat nsfx]} ""
+%kko	{[scat nsfx]} "kko_DIM"   % listed in mot lexicon
 kun	{[scat nsfx]} "kun_MASCFAM"
 %me	{[scat nsfx]} "me_INSULT"
 ooji	{[scat nsfx]} "ooji_PRINCE"
@@ -86,20 +85,23 @@ see	{[scat nsfx]} "see_MADEOF"
 tachi	{[scat nsfx]} "tachi_PL"
 -tachi	{[scat nsfx]} "tachi_PL"
 tsuki	{[scat nsfx]} "tsuki_WITH"
-ya	{[scat nsfx] [sfxcat n]} "ya_SHOP"   
+ya	{[scat nsfx]} "ya_SHOP"   
 yoo	{[scat nsfx]} "yoo_FOR"
 
-kusa	{[scat nasfx] [sfxcat adj]} "kusa_STINKY"
+%noun -> adj suffix   adj|kutsu-kusa- ########
+kusa	{[scat nasfx] [sfxcat adj]} "kusa_STINKY"    
 ppo	{[scat nasfx] [sfxcat adj]} "ppo_LIKE"
 rashi	{[scat nasfx] [sfxcat adj]} "rashi_SIM"
 
-chuu	{[scat nasfx]} "chuu_MID"
+%noun -> adj noun suffix   n:an|kutsu-teki ########
+teki	{[scat nansfx]} "teki_LIKE" 
+zuki	{[scat nansfx]} "suki_PREFER"
 
-teki	{[scat nsfx] [sfxcat n:an]} "teki_LIKE"                 %%sfxcat   bewirkt keine  scat Aenderung CHECK vnsfx ok
-zuki	{[scat nsfx] [sfxcat n:an]} "suki_PREFER"
+%noun -> verbal noun suffix   n:vn|kutsu-gokko ########
+gokko	{[scat vnsfx]} "gokko_GAME" 
 
-gokko	{[scat vnsfx]} "gokko_GAME" %  
 % proper noun suffix	########
+% propnoun   n:prop|N-san
 san	{[scat npropsfx]} "san_HON"
 sama	{[scat npropsfx]} "sama_HON"
 chan	{[scat npropsfx]} "chan_FAM"
@@ -129,13 +131,17 @@ kuntachi	{[scat npropsfx]} "kun_MASC_FAM-tachi_PL"
 jin	{[scat npropsfx]} "jin_PERSON"
 iki	{[scat npropsfx]} "iki_BOUND_FOR"
 ken	{[scat npropsfx]} "ken_PREFECTURE"
-kunhooshiki	{[scat npropsfx]} "kun_MASC_FAM-hooshiki_style"
-kunfuu	{[scat npropsfx]} "kun_MASC_FAM-fuu_style"
+kunhooshiki	{[scat npropsfx]} "kun_MASC_FAM-hooshiki_STYLE"
+kunfuu	{[scat npropsfx]} "kun_MASC_FAM-fuu_STYLE"
 yoo	{[scat npropsfx]} "yoo_FOR"
 yuki	{[scat npropsfx]} "yuki_BOUND_FOR"
 
+% adj noun suffix	########  laeuft nicht
+% allo  ansfx   (nansfx is n>an,  nasfx is n>a)
+soo	{[scat ansfx]} "soo_SEEMINGx"
 
 % adjective suffixes	########
+
 %%%% tense %%%%%%
 i	{[scat atense] [tense pres]} "PRES"
 q	{[scat atense] [tense pres]} "PRES"
@@ -166,11 +172,13 @@ kunakucha	{[scat atense] [tense pres]} "NEG&OBL:wa"
 kunakya	{[scat atense] [tense pres]} "NEG&OBL:ba"
 nagara	{[scat atense] [tense inf] [infl -]} "SIMUL"
 
-ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-PRES" 
+%adj -> adj suffix  adj|hoso-ppo- ########
+ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-PRES"   
 ppokunai	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-NEG-PRES" 
 ppokatta	{[scat atense] [tense past] [sfxcat adj]} "ppo_LIKE-PAST" 
 ppokute	{[scat atense] [tense inf] [sfxcat adj]} "ppo_LIKE-CONN"
 
+%adj -> verb suffix  v|hoshi-gar- ########
 gar	{[scat asfx] [sfxcat v] [cp vC]} "OBJVZ"
 gara	{[scat asfx] [sfxcat v] [cp vCa]} "OBJVZ"
 gari	{[scat asfx] [sfxcat v] [cp vCi]} "OBJVZ"
@@ -178,35 +186,35 @@ gari	{[scat atense] [tense inf]} "OBJVZ-GER"
 gat	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ"
 gatte	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ-ASP"
 
+%adj -> noun suffix   n|oishi-sa ########
 sa	{[scat asfx] [sfxcat n]} "sa_NLZR"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%@@bishier 
-ke	{[scat asfx] [sfxcat n]} =taste= 
-ge	{[scat asfx] [sfxcat n]} =taste= "ke"
-me	{[scat asfx] [sfxcat n]} =NLZR=
-mi	{[scat asfx] [sfxcat n]} =taste=
-soo	{[scat asfx] [sfxcat n:an]} =seeming=  
+ke	{[scat asfx] [sfxcat n]} "ke_TASTE"
+ge	{[scat asfx] [sfxcat n]} "ke_TASTE"
+me	{[scat asfx] [sfxcat n]} "me_NLZR"
+mi	{[scat asfx] [sfxcat n]} "mi_TASTE"
+
+%adj -> adj noun suffix   n:an|oishi-soo ########
+soo	{[scat asfx] [sfxcat n:an]} "soo_SEEMING"
 
 
 % verb suffixes	########
 
-% word class changes to noun  "n|tabe-kata" ########
-gokko	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =game=   
-yagokko	{[scat vsfx] [sfxcat n:vn] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =shop_game=   
-hoodai	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =all_you_can=
-kata	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =way_of=
-ppanashi	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =abandoning=
-%te	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} == %changed to V+N compound
-%ba	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} == %changed to V+N compound
+%verb ->  noun  "n|tabe-kata" ########
+hoodai	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "hoodai_ALL_YOU_CAN"
+kata	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "kata_WAY_OF"
+ppanashi	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "ppanashi_ABANDONING"
+%te	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}       %changed to V+N compound
+%ba	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}      %changed to V+N compound
 
 % word class change to adj noun  "n:an|tabe-soo" ########
-gachi	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =liable=
-soo	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =seeming=
+gachi	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "gachi_LIABLE"
+soo	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "soo_SEEMING"
 
-% word class change to adj   "adj|tabe-yasu-PRES"  %%%%%%%%%%%%%%%%%%%%%%&%%%%%
-yasu	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =easy=
-niku	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =difficult= 
-gata	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} =hard=
-zura	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "tsura" =hard=
+%verb -> adj suffix   adj|tabe-yasu-   ########
+yasu	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yasu_EASY"
+niku	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "niku_DIFFICULT" 
+gata	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "gata_HARD" 
+zura	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "tsura_HARD" 
 
 % desiderative "tai"	########
 ta	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "DESID"
@@ -358,7 +366,6 @@ yaa	{[scat vtense] [tense pres] [allo vC]} "COND:contr"
 ryaa	{[scat vtense] [tense pres] [allo vV]} "COND:contr"
 
 % gerund	########   overproductive NEG-GER
-%newKKK
 i	{[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]} "GER"
 %e	{[scat vtense] [tense inf] [allo vV]} "GER"
 %i	{[scat vtense] [tense inf] [allo vV]} "GER"
@@ -471,7 +478,7 @@ en	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb n
 fun	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN"
 pun	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN"
 funkan	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN-kan_SPAN" 
-punkan	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} ""fun_MIN-kan_SPAN" 
+punkan	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN-kan_SPAN" 
 fungoto	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN-goto_EACH" 
 pungoto	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN-goto_EACH" 
 % 								 月 
@@ -583,7 +590,7 @@ nimbun	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numC
 % 								 リットル 
 rittaa	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittaa_LITER"
 ritta	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittaa_LITER" 
-rittoru	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} rittoru_LITER"
+rittoru	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "rittoru_LITER"
 % 								 パーセント 
 paasento	{[scat numclsfx] [allo OR numBFa numBBp numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "paasento_PERCENT"
 % 								 ページ 

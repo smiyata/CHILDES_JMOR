@@ -105,19 +105,19 @@
 	eeen	{[scat n:an]} =eternal=	% 永遠  
 	ekoji	{[scat n:an]} =obstinate=	% えこじ  依 怙地 
 	etchi	{[scat n:an]} =dirty_minded=	
-	fuantee	{[scat n:an]} =unstable= "fu#antee"	% 不安定 
+	fuantee	{[scat n:an]} =stable= "fu_NOT#antee"	% 不安定 
 	fuan	{[scat n:an]} =uneasy=	% 不安 
-	fuansoo	{[scat n:an]} "fuan-soo" =seeming_uneasy=	% 不安そう 
+	%fuansoo	{[scat n:an]} "fuan-soo" =seeming_uneasy=	% 不安そう 
 	fuben	{[scat n:an]} =unpracticle=	% 不便 
 	fubin	{[scat n:an]} =pitiable=	% ふびん  不 憫 
 	fudoo	{[scat n:an]} =unmoving=	% 不動
 	fukigen	{[scat n:an]} =in_bad_mood=	% 不機嫌
 	fukigensoo	{[scat n:an]} "fukigen-soo" =seeming_bad_mood=	% 不機嫌そう 
-	fukoohee	{[scat n:an]} =unfair= "fu#koohee"	% 不公平 
+	fukoohee	{[scat n:an]} =fair= "fu_NOT#koohee"	% 不公平 
 	fukuzatsu	{[scat n:an]} =complicated=	% 複雑 
 	furyoo	{[scat n:an]} =wicked=	% 不良 
 	furyoohin	{[scat n]} =inferior_goods= "furyoo-hin"	% 不良 
-	fushiawase	{[scat n:an]} =misfortune= "fu#shiawase"	% 不幸せ 
+	fushiawase	{[scat n:an]} =misfortune= "fu_NOT#shiawase"	% 不幸せ 
 	fushigi	{[scat n:an]} =marvel=	% 不思議 
 	fushigisoo	{[scat n:an]} "fushigi-soo" =seeming_to_marvel=	% 不思議そう 
 	futotcho	{[scat n:an]} =fatty=
@@ -246,7 +246,7 @@
 	kyuugeki	{[scat n:an]} =abrupt=
 	kyuukutsu	{[scat n:an]} =too_narrow=	% 窮屈 
 	majime	{[scat n:an]} =serious=	% まじめ  真面目 
-	makkura	{[scat n:an]} "ma#kura" =pitch_dark=	% 真っ暗 
+	makkura	{[scat n:an]} "ma_STRAIGHT#kura" =pitch_dark=	% 真っ暗 
 	makoto	{[scat n:an]} =sincere=	% 実 
 	makotoshiyaka	{[scat n:an]} =plausible=	% まことしやか  真しやか/ 実しやか 
 	mammaru	{[scat n:an]} =round=	% まん丸/真ん丸 
@@ -254,7 +254,7 @@
 	manzoku	{[scat n:an]} =satisfactory=	% 満足 
 	mashikaku	{[scat n:an]} =regular_square=	% 真四角 
 	massao	{[scat n:an]} =ashy_pale=	% 真っ青 
-	massugu	{[scat n:an]} "ma#sugu" =straight=	% まっすぐ  真っ 直ぐ 
+	massugu	{[scat n:an]} "ma_STRAIGHT#sugu" =straight=	% まっすぐ  真っ 直ぐ 
 	matomo	{[scat n:an]} =honest=
 	mechakucha	{[scat n:an]} =incoherent=	
 	mechakucha	{[scat n:an]} =incoherent=	% めちゃくちゃ  滅茶苦茶 

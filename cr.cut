@@ -886,7 +886,7 @@ RULENAME: sfx-noun
 CTYPE: -
 %%		for simple nominal suffixes
 if
-STARTCAT = [scat OR n n:an n:mot n:vn n:an:mot n:prop n:deic:dem n:deic:prs n:deic:wh]
+STARTCAT = [scat OR n n:an n:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
 NEXTCAT = [scat nsfx]
 then
 RESULTCAT = STARTCAT
@@ -900,7 +900,7 @@ then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {sfx-noun, n-comp, n-bound}
 
-%%	for gokko  denominative verbal noun makers
+%%	for gokko  noun -> verbal noun
 if
 STARTCAT = [scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs ]
 NEXTCAT = [scat vnsfx]
@@ -908,7 +908,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat n:vn]
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, n-bound, n-rendaku}
 
-%%	for rashii ppoi denominative adjectivalizers  noun -> adj
+%%	for rashii ppoi  noun -> adj
 if
 STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
 NEXTCAT = [scat nasfx]
@@ -916,20 +916,13 @@ then
 RESULTCAT = DEL [scat], ADD [scat adj]
 RULEPACKAGE = {a-tense}
 
-%if
-%STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
-%NEXTCAT = [scat adj], [sfxcat adj]
-%then
-%RESULTCAT = NEXTCAT
-%RULEPACKAGE = {a-tense}
-
 %%	for teki   noun -> adj noun
 if
-STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
-NEXTCAT = [scat nsfx], [sfxcat n:an]
+STARTCAT = [scat OR n n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
+NEXTCAT = [scat nansfx]
 then
 RESULTCAT = DEL [scat], ADD [scat n:an]
-RULEPACKAGE = {}
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
 
 %%%%%%%%%%%%%%%%%%%
 %% VERBAL NOUN STARTS 
@@ -957,13 +950,42 @@ NEXTCAT = [scat vnsfx]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
-%%	for teki   vnoun -> adj noun   %% laeuft nicht; scat nicht geaendert; braucht eigene Regel an-suffix
+
+%%%%%%%%%%%%%%%%%%
+%% ADJECTIVAL NOUN STARTS 
+%%%%%%%%%%%%%%%%%%%
+
+RULENAME: an-start
+CTYPE: START
+$X = .*
 if
-STARTCAT = [scat n:vn]
-NEXTCAT = [scat vnsfx], [sfxcat n:an]
+NEXTCAT = [scat OR n:an n:an:mot n:an:onoma], [nc +]
 then
-RESULTCAT = DEL [scat], ADD [scat n:an]
+RESULTCAT = NEXTCAT, ADD [rule an]
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound}
+if
+NEXTCAT = [scat OR n:an n:an:mot n:an:onoma]
+then
+RESULTCAT = NEXTCAT, ADD [rule an]
 RULEPACKAGE = {}
+
+
+RULENAME: an-suffix
+CTYPE: -
+if
+STARTCAT = [scat n:an]
+NEXTCAT = [scat OR ansfx nansfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
+ 
+%%	for soo  
+if
+STARTCAT = [scat n:an]
+NEXTCAT = [scat ansfx]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
 
 %%%%%%%%%%%%%%%%%%%
 %% COMPOUND NUMBERS START
@@ -1163,6 +1185,14 @@ then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+RULENAME: an-endrule
+CTYPE: END
+if
+STARTCAT = [scat OR n:an n:an:mot n:an:onoma]
+then
+RESULTCAT = STARTCAT
+RULEPACKAGE = {}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 RULENAME: num-endrule

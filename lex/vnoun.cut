@@ -92,7 +92,7 @@ xf%%% VERBAL NOUNS %%
 	chokkai	{[scat n:vn]} =poke_nose_into=
 	chokki	{[scat n:vn]} =direct_return=	%【直帰】		
 	chombo	{[scat n:vn]} =blunder=	%【チョンボ】		
-%	choohenshin	{[scat n:vn]} =extreme_transformation= "choo#henshin"
+%	choohenshin	{[scat n:vn]} =transformation= "choo_EXTREMELY#henshin"
 %	choodai	{[scat n:vn]} =receiving=	%【頂戴】
 	chookoku	{[scat n:vn]} =sculpture=	%【彫刻】
 	choosen	{[scat n:vn]} =challenge=	%【挑戦】
@@ -101,7 +101,7 @@ xf%%% VERBAL NOUNS %%
 	chuudoku	{[scat n:vn]} =poisoning=	%【中毒】
 	chuugaeri	{[scat n:vn]} =somersault=	%【宙返り】
 	chuui	{[scat n:vn] [mpf go]} =attention=	%【注意】
-	fuchuui	{[scat n:vn] [mpf go]} =not_attention=	"fu#chuui" %【注意】
+	fuchuui	{[scat n:vn] [mpf go]} =attention=	"fu_NOT#chuui" %【注意】
 	chuumon	{[scat n:vn]} =order=	%【注文】
 	chuusha	{[scat n:vn]} =injection=	%【注射】
 	chuusha	{[scat n:vn]} =parking=	%【駐車】
@@ -539,7 +539,7 @@ xf%%% VERBAL NOUNS %%
 	koofuku	{[scat n:vn]} =capitulation=	%【降伏/降服】
 	koofun	{[scat n:vn]} =exitement=	%【興奮】(〈昂奮)
 	koogeki	{[scat n:vn]} =aggression=	%【攻撃】
-	sookoogeki	{[scat n:vn]} =general_aggression= "soo#koogeki"	%【総攻撃】
+	sookoogeki	{[scat n:vn]} =aggression= "soo_GENERAL#koogeki"	%【総攻撃】
 	kooji	{[scat n:vn] [nsform chuu]} =construction_work=	%【工事】
 	kookai	{[scat n:vn]} =remorse=	%【後悔】
 	kookan	{[scat n:vn]} =exchange=	%【交換】
@@ -628,7 +628,7 @@ xf%%% VERBAL NOUNS %%
 	okawari	{[scat n:vn]} =refill=	%【お代わり】
 	omairi	{[scat n:vn]} =shrine_visit=	%【お参り】
 	omake	{[scat n:vn]} =discount=	%【おまけ】(お負け)
-	omimai	{[scat n:vn]} =sick_bed_visit= "o#mimai"
+	omimai	{[scat n:vn]} =sick_bed_visit= "o_HON#mimai"
 	ofu	{[scat n:vn]} =switch_off=	%オフ
 	on	{[scat n:vn]} =switch_on=	%オン
 	ongaeshi	{[scat n:vn]} =repay_obligation=	%【恩返し】
@@ -689,7 +689,6 @@ xf%%% VERBAL NOUNS %%
 	seekai	{[scat n:vn]} =correct_answer=	%【正解】
 	seekatsu	{[scat n:vn]} =life=	%【生活】
 	seekoo	{[scat n:vn]} =success=	%【成功】
-	daiseekoo	{[scat n:vn]} =big_success= "dai#seekoo"	%【成功】
 	seesho	{[scat n:vn]} =fair_copy=	% 清書
 	seeri	{[scat n:vn]} =reorganize=	%【整理】
 	seeton	{[scat n:vn]} =put_in_order=	% 整頓
@@ -777,10 +776,10 @@ xf%%% VERBAL NOUNS %%
 	shuuryoo	{[scat n:vn]} =finish=	%【終了】
 	shuushuu	{[scat n:vn]} =collect=	%【収集】
 	shuuzen	{[scat n:vn]} =mending=	%【修繕】
-	osonae	{[scat n:vn]} =HON_offerings= "o#sonae"	%【お供え】
+	osonae	{[scat n:vn]} =offerings= "o_HON#sonae"	%【お供え】
 	soodan	{[scat n:vn]} =consultation=	%【相談】
 	soodoo	{[scat n:vn]} =tumult=	%【騒動】
-	oosoodoo	{[scat n:vn]} =great_tumult=	"oo#soodoo" %【騒動】
+	oosoodoo	{[scat n:vn]} =tumult=	"oo_BIG#soodoo" %【騒動】
 	sooji	{[scat n:vn][mb +]} =cleaning=	%【掃除】
 	sookoo	{[scat n:vn]} =walking=	%【走行】
 	soosa	{[scat n:vn]} =handling=	%【操作】
@@ -843,7 +842,7 @@ xf%%% VERBAL NOUNS %%
 	toojoo	{[scat n:vn]} =appearance=	%【登場】
 	 hatsutoojoo	{[scat n]} =debut=	%【初登場】
 	tosshin	{[scat n:vn]} =dash=	%【突進】
-	mootosshin	{[scat n:vn]} "moo#tosshin" =dash=	%【猛突進】
+	mootosshin	{[scat n:vn]} "moo_CRAZY#tosshin" =dash=	%【猛突進】
 	tsuika	{[scat n:vn]} =addition=	%【追加】
 	tsuiraku	{[scat n:vn]} =plane_crash=	%【墜落】
 	tsuitotsu	{[scat n:vn]} =rear_end_collision=	%【追突】

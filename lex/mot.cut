@@ -500,25 +500,25 @@ yubikitta 	{[scat n:vn:mot]}	"yubi_kitta" =promissing_with_hooked_fingers=
 zuru	{[scat n:vn:mot]} =mean=
 
 %%%%%%%% -kko type %%%%%%%%%
-chibikko	{[scat n:mot]} "chibi-kko" =small_child_DIM=
-hipparikko	{[scat n:vn:mot]} "hippari-kko" =pulling_DIM=
-ijiwarukko	{[scat n:vn:mot]} "ijiwaru-kko" =bullying_DIM=
-ijimekko	{[scat n:vn:mot]} "ijime-kko" =bullying_DIM=
-itazurakko	{[scat n:vn:mot]} "itazura-kko" =doing_mischief_DIM=
-kadokko	{[scat n:mot]} =corner_DIM= "kado-kko"
-kaekko	{[scat n:vn:mot]} "kae-kko" =changing_DIM=
-kakekko	{[scat n:vn:mot]} "kake-kko"  =chasing_DIM=
-manekko	{[scat n:vn:mot]} "mane-kko"  =imitating_DIM=
-mazemazekko	{[scat n:vn:mot]} =mixing_DIM= "mazemaze-kko"
-mogurikko	{[scat n:vn:mot]} "mogur-kko"  =going_under_DIM=
-niramekko	{[scat n:vn:mot]} "nirame-kko" =looking_into_each_other_eyes_DIM=
-oikakekko	{[scat n:vn:mot]} "oikake-kko" =chasing_DIM=
-sumikko	{[scat n:mot]} "sumi-kko" =corner_DIM= 	% 隅っこ 
-toriaikko	{[scat n:vn:mot]} "toriai-kko" =scramble_for_DIM=
-torikaekko	{[scat n:vn:mot]} "torikae-kko" =taking_away_from_each_other_DIM=
-tokkaekko	{[scat n:vn:mot]} "torikae-kko" =tak_DIMing_away_from_each_other_DIM=
-wakekko	{[scat n:vn:mot]}	"wake-kko"  =sharing=
-zurukko	{[scat n:vn:mot]} "zuru-kko" =being_mean_DIM=
+chibikko	{[scat n:mot]} "chibi-kko_DIM" =small_child=
+hipparikko	{[scat n:vn:mot]} "hippari-kko_DIM" =pulling=
+ijiwarukko	{[scat n:vn:mot]} "ijiwaru-kko_DIM" =bullying=
+ijimekko	{[scat n:vn:mot]} "ijime-kko_DIM" =bullying=
+itazurakko	{[scat n:vn:mot]} "itazura-kko_DIM" =doing_mischief=
+kadokko	{[scat n:mot]} =corner= "kado-kko_DIM"
+kaekko	{[scat n:vn:mot]} "kae-kko_DIM" =changing=
+kakekko	{[scat n:vn:mot]} "kake-kko_DIM"  =chasing=
+manekko	{[scat n:vn:mot]} "mane-kko_DIM"  =imitating=
+mazemazekko	{[scat n:vn:mot]} =mixing= "mazemaze-kko_DIM"
+mogurikko	{[scat n:vn:mot]} "mogur-kko_DIM"  =going_under=
+niramekko	{[scat n:vn:mot]} "nirame-kko_DIM" =looking_into_each_other_eyes=
+oikakekko	{[scat n:vn:mot]} "oikake-kko_DIM" =chasing=
+sumikko	{[scat n:mot]} "sumi-kko_DIM" =corner= 	% 隅っこ 
+toriaikko	{[scat n:vn:mot]} "toriai-kko_DIM" =scramble_for=
+torikaekko	{[scat n:vn:mot]} "torikae-kko_DIM" =taking_away_from_each_other=
+tokkaekko	{[scat n:vn:mot]} "torikae-kko_DIM" =taking_away_from_each_other=
+wakekko	{[scat n:vn:mot]}	"wake-kko_DIM"  =sharing=
+zurukko	{[scat n:vn:mot]} "zuru-kko_DIM" =being_mean=
 
 %%%%%%%%%%%%%%%%%%%
 %%% ADJECTIVES %%%
