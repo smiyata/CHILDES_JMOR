@@ -2,6 +2,13 @@
 **JMOR08 *************************************Susanne Miyata**2018oct23
 ********************************************************************* 
 
+******** CHANGES in JMOR08 ********2018nov  (database未)
+n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog
+o#tegami=HON_letter -> o_HON#tegami=letter
+num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two
+n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week
+n|hara=abdomen ->  n|hara=abdomen_CLQ   (meshi, ketsu nado)
+
 ******** CHANGES in JMOR08 ********2018may27
 1) post and compound post particles
 post particles have been devided into 

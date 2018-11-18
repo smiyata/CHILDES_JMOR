@@ -18,6 +18,7 @@ shai	{[scat v:ir:sub]} =do= "su&IMP:shai"
 
 %						short Kanji + "suru"
 %%%%%%%%doesnt work yet (only v:ir|su) ; problem of overproduction)
+%%% have to be set up in cr.cut
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 aitaisu	{[scat v:ir]} =be/worth= "atai_su"
 fukusu	{[scat v:ir]} "fuku_su" =submit= %	服する
@@ -27,6 +28,7 @@ hansu	{[scat v:ir]} "han_su" =oppose= %	反する
 hassu	{[scat v:ir]} "has_su" =pass_off= %	発する
 hossu	{[scat v:ir]} "hos_su" =crave= %	欲する
 gaisu	{[scat v:ir]} "gai_su" =harm= %	害する
+imisu	{[scat v:ir]} "imi_su" =denote= %意味する
 %kansu	{[scat v:ir]} =concern= "kan_su" %関する  => adn|kansuru   ptl:foc|kanshite
 kessu	{[scat v:ir]} "kes_su" =decide= %	決する
 koisu	{[scat v:ir]} "koi_su" =fall_in_love= %	恋する

@@ -588,7 +588,7 @@ oritatam	{[scat v:c]} =fold=	%【折り畳む】				%% lex. compound
 	tsutsum	{[scat v:c]} =wrap=	%【包む】
 	tsutsushim	{[scat v:c]} =eschew= %	慎む		
 	um	{[scat v:c]} =give_birth_to=	%【産む】***
-umare	{[scat v:v]} =be_born= "um&PASS"	%生まれる***
+umare	{[scat v:v]} =be_born= "umare&PASS"	%生まれる***
 	uram	{[scat v:c]} =grudge=	%【恨む】(〈怨む)
 	urayam	{[scat v:c]} =grudge=	%【うらやむ】(〈羨む)
 	urum	{[scat v:c]} =become_wet=	%【潤む】
@@ -1312,7 +1312,8 @@ tsukiyabur	{[scat v:c]} =pierce= "tsuk_yabur"	%【突き破る】
 	yador	{[scat v:c]} =dwell=	%【宿る】
 	yajir	{[scat v:c]} =heckle= %	ヤジる		
 	yasumar	{[scat v:c]} =repose= %	休まる		
-	yar	{[scat v:c]} =do=	%【やる】(《遣る)
+	yar	{[scat v:c]} =give_CLQ=	%  遣る
+	yar	{[scat v:c]} =do=	%  やる
 omoiyar	{[scat v:c]} =sympathize_with= "omow_yar"	%【思いやる】(思い《遣る)   %% lex. compound 
 oiyar	{[scat v:c]} "oe_yar" =drive_off= %	追いやる		
 oshiyar	{[scat v:c]} "os_yar" =push_aside= %	押しやる		
@@ -1615,7 +1616,7 @@ asobikuras	{[scat v:c]} =idle=	%【遊び暮らす】
 	kurikaes	{[scat v:c]} =repeat=	%【繰り返す】
 	kusaras	{[scat v:c]} =spoil=	%【腐らす】
 	kutsugaes	{[scat v:c]} =overthrow= %	覆す		
-	kuwas	{[scat v:c]} =feed= "kuwas&CAUS"	%【食わす】
+	kuwas	{[scat v:c]} =feed= "kuwas_CLQ&CAUS"	%【食わす】
 dekuwas	{[scat v:c]} "de_kuwas&CAUS" =come_across= %	出くわす	
 	kuzus	{[scat v:c]} =destroy=	%【崩す】
 kirikuzus	{[scat v:c]} "kir_kuzus" =even_out= %	切り崩す	
@@ -2052,7 +2053,7 @@ yukikaw	{[scat v:c]} "yuk_kaw" =come_and_go= %	行き交う
 menkuraw	{[scat v:c]} "men_kuraw" =be_bewildered= %	面食らう
 odorikuruw	{[scat v:c]} "odor_kuruw" =dance_in_ecstasy= %	踊り狂う
 	kuruw	{[scat v:c]} =go_mad=	%【狂う】
-	kuw	{[scat v:c]} =eat=	%【食う】
+	kuw	{[scat v:c]} =eat_CLQ=	%【食う】
 	machigaw	{[scat v:c]} =be_wrong= "machigaw"	%【まちがう/間違う】
 makizoeokuw	{[scat v:c]} =be_entangled= "makizoe_o_kuw"	%【巻き添えを食う】
 	madow	{[scat v:c]}	=be_bewildered= %	まどう		
@@ -3211,6 +3212,7 @@ atatamesugi	{[scat v:v][comp v:v+v:v]} =warming_too_much= "atatame+sugi"
 chirakarisugi	{[scat v:v][comp v:c+v:v]} =scattering_too_much= "chirakar+sugi"
 dashisugi	{[scat v:v][comp v:c+v:v]} =take_out_too_much= "das+sugi"
 desugi	{[scat v:v][comp v:v+v:v]} =stick_out_too_far= "de+sugi"
+furisugi	{[scat v:v][comp v:c+v:v]} =rain_fall_too_much= "fur+sugi"
 hairisugi	{[scat v:v][comp v:c+v:v]} =enter_too_much= "hair+sugi"
 ikisugi	{[scat v:v][comp v:c+v:v]} =go_too_much= "ik+sugi"
 iresugi	{[scat v:v][comp v:v+v:v]} =put_in_too_much=  "ire+sugi"
@@ -3243,42 +3245,44 @@ yakisugi	{[scat v:v][comp v:c+v:v]} =roast_too_much=  "yak+sugi"
 yarisugi	{[scat v:v][comp v:c+v:v]} =do_too_much=  "yar+sugi"
 yorisugi	{[scat v:v][comp v:c+v:v]} =approach_too_much=  "yor+sugi"
 
-akasugi	{[scat v:v][comp adj+v:v]} =red_too_much=  "aka+sugi"
-amasugi	{[scat v:v][comp adj+v:v]} =sweet_too_much=  "ama+sugi"
-atsusugi	{[scat v:v][comp adj+v:v]} =hot_too_much=  "atsu+sugi"
-chiisasugi	{[scat v:v][comp adj+v:v]} =small_too_much=  "chiisa+sugi"
-chikasugi	{[scat v:v][comp adj+v:v]} =near_too_much=  "chika+sugi"
-chitchasugi	{[scat v:v][comp adj:mot+v:v]} =small_too_much=  "chitcha+sugi"
-dekasugi	{[scat v:v][comp adj+v:v]} =big_too_much=  "deka+sugi"
-hayasugi	{[scat v:v][comp adj+v:v]} =fast_too_much=  "haya+sugi"
-hirosugi	{[scat v:v][comp adj+v:v]} =broad_too_much=  "hiro+sugi"
-katasugi	{[scat v:v][comp adj+v:v]} =hard_too_much=  "kata+sugi"
-kawaisugi	{[scat v:v][comp adj+v:v]} =cute_too_much=  "kawai+sugi"
-kitanasugi	{[scat v:v][comp adj+v:v]} =dirty_too_much=  "kitana+sugi"
-komakasugi	{[scat v:v][comp adj+v:v]} =fine_too_much=  "komaka+sugi"
-mijikasugi	{[scat v:v][comp adj+v:v]} =short_too_much=  "mijika+sugi"
-muzukashisugi	{[scat v:v][comp adj+v:v]} =difficult_too_much=  "muzukashi+sugi"
-nagasugi	{[scat v:v][comp adj+v:v]} =long_too_much=  "naga+sugi"
-oishisugi	{[scat v:v][comp adj+v:v]} =tasty_too_much=  "oishi+sugi"
-okashisugi	{[scat v:v][comp adj+v:v]} =funny_too_much=  "okashi+sugi"
-ookisugi	{[scat v:v][comp adj+v:v]} =big_too_much=  "ooki+sugi"
-omosugi	{[scat v:v][comp adj+v:v]} =heavy_too_much=  "omo+sugi"
-omoshirosugi	{[scat v:v][comp adj+v:v]} =interesting_too_much=  "omoshiro+sugi"
-omotasugi	{[scat v:v][comp adj+v:v]} =heavy_too_much=  "omota+sugi"
-oosugi	{[scat v:v][comp adj+v:v]} =many_too_much=  "oo+sugi"
-ososugi	{[scat v:v][comp adj+v:v]} =late_too_much=  "oso+sugi"
-samusugi	{[scat v:v][comp adj+v:v]} =cold_too_much=  "samu+sugi"
-takasugi	{[scat v:v][comp adj+v:v]} =high_too_much=  "taka+sugi"
-toosugi	{[scat v:v][comp adj+v:v]} =far_too_much=  "too+sugi"
-tsuyosugi	{[scat v:v][comp adj+v:v]} =strong_too_much=  "tsuyo+sugi"
-urusasugi	{[scat v:v][comp adj+v:v]} =noisy_too_much=  "urusa+sugi"
-yawarakasugi	{[scat v:v][comp adj+v:v]} =soft_too_much=  "yawaraka+sugi"
-yurusugi	{[scat v:v][comp adj+v:v]} =loose_too_much=  "yuru+sugi"
-sukisugi	{[scat v:v][comp n:an+v:v]} =like_too_much=  "suki+sugi"
-debutchosugi	{[scat v:v][comp n+v:v]} =fat_person_too_much= "debutcho+sugi"
+akasugi	{[scat v:v][comp adj+v:v]} =too_red=  "aka+sugi"
+amasugi	{[scat v:v][comp adj+v:v]} =too_sweet=  "ama+sugi"
+atsusugi	{[scat v:v][comp adj+v:v]} =too_hot=  "atsu+sugi"
+chiisasugi	{[scat v:v][comp adj+v:v]} =too_small=  "chiisa+sugi"
+chikasugi	{[scat v:v][comp adj+v:v]} =too_near=  "chika+sugi"
+chitchasugi	{[scat v:v][comp adj:mot+v:v]} =too_small=  "chitcha+sugi"
+dekasugi	{[scat v:v][comp adj+v:v]} =too_big=  "deka+sugi"
+hayasugi	{[scat v:v][comp adj+v:v]} =too_fast=  "haya+sugi"
+hirosugi	{[scat v:v][comp adj+v:v]} =too_broad=  "hiro+sugi"
+karasugi	{[scat v:v][comp adj+v:v]} =too_spicy=  "kara+sugi"
+katasugi	{[scat v:v][comp adj+v:v]} =too_hard=  "kata+sugi"
+kawaisugi	{[scat v:v][comp adj+v:v]} =too_cute=  "kawai+sugi"
+kitanasugi	{[scat v:v][comp adj+v:v]} =too_dirty=  "kitana+sugi"
+komakasugi	{[scat v:v][comp adj+v:v]} =too_fine=  "komaka+sugi"
+mijikasugi	{[scat v:v][comp adj+v:v]} =too_short=  "mijika+sugi"
+muzukashisugi	{[scat v:v][comp adj+v:v]} =too_difficult=  "muzukashi+sugi"
+nagasugi	{[scat v:v][comp adj+v:v]} =too_long=  "naga+sugi"
+nemusugi	{[scat v:v][comp adj+v:v]} =too_tired=  "nemu+sugi"
+oishisugi	{[scat v:v][comp adj+v:v]} =too_tasty=  "oishi+sugi"
+okashisugi	{[scat v:v][comp adj+v:v]} =too_funny=  "okashi+sugi"
+ookisugi	{[scat v:v][comp adj+v:v]} =too_big=  "ooki+sugi"
+omosugi	{[scat v:v][comp adj+v:v]} =too_heavy=  "omo+sugi"
+omoshirosugi	{[scat v:v][comp adj+v:v]} =too_interesting=  "omoshiro+sugi"
+omotasugi	{[scat v:v][comp adj+v:v]} =too_heavy=  "omota+sugi"
+oosugi	{[scat v:v][comp adj+v:v]} =too_many=  "oo+sugi"
+ososugi	{[scat v:v][comp adj+v:v]} =too_late=  "oso+sugi"
+samusugi	{[scat v:v][comp adj+v:v]} =too_cold=  "samu+sugi"
+takasugi	{[scat v:v][comp adj+v:v]} =too_high=  "taka+sugi"
+toosugi	{[scat v:v][comp adj+v:v]} =too_far=  "too+sugi"
+tsuyosugi	{[scat v:v][comp adj+v:v]} =too_strong=  "tsuyo+sugi"
+urusasugi	{[scat v:v][comp adj+v:v]} =too_noisy=  "urusa+sugi"
+yawarakasugi	{[scat v:v][comp adj+v:v]} =too_soft=  "yawaraka+sugi"
+yurusugi	{[scat v:v][comp adj+v:v]} =too_loose=  "yuru+sugi"
+sukisugi	{[scat v:v][comp n:an+v:v]} =too_like=  "suki+sugi"
+debutchosugi	{[scat v:v][comp n+v:v]} =too_fat_person= "debutcho+sugi"
 uesugi	{[scat v:v][comp n+v:v]} =be_too_high= "ue+sugi"
 ippaisugi	{[scat v:v][comp quant+v:c]} =too_much= "ippai+sugi"
-takusansugi	{[scat v:v][comp quant+v:c]} "+adv|takusan+v:v|sugi"	
+takusansugi	{[scat v:v][comp quant+v:c]} =too_many= "+adv|takusan+v:v|sugi"	
 toorisugi	{[scat v:v]} =pass_over= "toor_sugi"				%% lex. compound 
 yukisugi 	{[scat v:v]} "yuk_sugi" =pass= %	行き過ぎる		
 	tari	{[scat v:v]} =be_enough=	%【足りる】

@@ -1437,6 +1437,7 @@ kongetsu	{[scat n]} =this_month=
 	koyubi	{[scat n]} =little_finger= 	% 小指 
 	kozeni	{[scat n]} =coins= 	% 小銭
 	kozoo	{[scat n]} =boy= 	% 小僧 
+	kozukai	{[scat n]} =pocket_money= 	% 小遣い 
 	kozue	{[scat n]} =treetop= 	% こずえ 梢 
 	kozukai	{[scat n]} =pocket_money= 	% 小遣い 
 	kozutsumi	{[scat n]} =parcel= 	% 小包 
@@ -1557,6 +1558,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	managatsuo	{[scat n]} =harvest_fish= 	% 真魚鰹 
 	manaita	{[scat n]} =chopping_board= 	% まないた  俎 
 	manga	{[scat n]} =cartoon= 	% 漫画 
+	mangekoo	{[scat n]} =caleidoscope= 	% 万華鏡 
 	mangetsu	{[scat n]} =full_moon= 	% 満月 
 	manju	{[scat n]} "manjuu" =bean_jam_bun= 	% まんじゅう  饅 頭 
 	manjuu	{[scat n]} =bean_jam_bun= 	% まんじゅう  饅 頭 
@@ -1624,6 +1626,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	mesu	{[scat n]} =female= 
 	mentaa	{[scat n]} =female= 
 	mesuakamidorishijimi	{[scat n]} =chrysozephyrus_smaragdinus_butterfly= 
+	meshi	{[scat n]} =food_CLQ= 
 	meyani	{[scat n]} =eye_mucus= 
 	mi	{[scat n]} =fruit=	% 実 
 	michi	{[scat n]} =road= 	% 道  路/ 途 
@@ -1791,6 +1794,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	nenchoo	{[scat n]} =seniority= 	% 年長 
 	nenchuu	{[scat n]} =four_year_olds_group= %幼稚園の年中さん
 	nendo	{[scat n]} =clay= 	% 粘土 
+	nenjuu	{[scat n]} =throughout_the_year= 	% 年中
 	nengajoo	{[scat n]} =seasonal_greetings= 	% 年賀状 
 	nenneko	{[scat n]} =piggyback_coat_DIM= 
 	nenrin	{[scat n]} =growth_ring= 
@@ -2177,6 +2181,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	senyoo	{[scat n]} =exclusive_use= 	% 専用 
 	senzai	{[scat n]} =cleanser= 	% 洗剤 
 	setake	{[scat n]} =length= 	% 背丈 
+	setsubun	{[scat n]} =begin_of_spring= 	% 節分
 	shabon	{[scat n]} =soap_bubble= 	% シャボン 
 	shaburi	{[scat n]} =teething_ring= 
 	shabushabu	{[scat n]} =boiled_beef_slices= 	%

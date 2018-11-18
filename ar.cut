@@ -8,7 +8,7 @@ RULENAME: noun-nonstandard
 X = .* %anything
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR n n:deic:dem n:mot v:mot], [bound +]
+LEXCAT = [scat OR n n:deic:dem n:mot n:num v:mot], [bound +]
 ALLO:
 ALLOSURF = -$X
 ALLOCAT = LEXCAT
@@ -762,7 +762,7 @@ LEX-ENTRY:
 LEXCAT = [scat OR adv adv:onoma conj num adn pfx \  
         numsfx numclsfx vnsfx nansfx ansfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
         ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
-	n n:fml n:let n:prop n:an n:an:mot v:mot neg \
+	n n:fml n:let n:prop n:an n:an:mot n:num v:mot neg \
 	n:deic:dem n:deic:wh \
 	adn:deic:dem adn:deic:wh \
 	adv:deic:dem adv:deic:wh \

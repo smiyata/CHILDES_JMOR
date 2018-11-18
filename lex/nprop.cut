@@ -222,6 +222,7 @@ Hitodeman	{[scat n:prop]} =Seastar_man= "Hitode-man"
 Hitomi	{[scat n:prop]} =Hitomi=
 Hitoshi	{[scat n:prop]} =Hitoshi=
 Hokkaidoo	{[scat n:prop]} =Hokkaidoo=
+Honda	{[scat n:prop]} =Honda=
 Hono	{[scat n:prop]} =Hono=
 Honochangoo	{[scat n:prop]} =Hono_FAM_train= "Hono-chan-goo"
 Honoka	{[scat n:prop]} =Honoka=
@@ -303,6 +304,8 @@ Kazumi	{[scat n:prop]} =Kazumi=
 Kee	{[scat n:prop]} =Kee=
 Keekiman	{[scat n:prop]} =Cake_man= "Keeki-man"
 Keeta	{[scat n:prop]} =Keeta=
+Keezu	{[scat n:prop]} =Keezu= "Keis_electr_app_store"
+Keezudenki	{[scat n:prop]} =Keezu_denki= "Keis_electr_app_store"
 Ken	{[scat n:prop]} =Ken=
 Kenichi	{[scat n:prop]} =Kenichi=
 Kenta	{[scat n:prop]} =Kenta=
@@ -827,6 +830,7 @@ Yuki	{[scat n:prop]} =Yuki=
 Yuri	{[scat n:prop]} =Yuri=
 Yuu	{[scat n:prop]} =Yuu=
 Yuuki	{[scat n:prop]} =Yuuki=
+Yuuna	{[scat n:prop]} =Yuuna=
 Yuusuke	{[scat n:prop]} =Yuusuke=
 Yuuta	{[scat n:prop]} =Yuuta=
 Mokusee	{[scat n:prop]} =Jupiter=

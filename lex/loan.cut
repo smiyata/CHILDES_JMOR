@@ -940,6 +940,7 @@
 	purezento	{[scat n:vn]} =present=
 	purezento	{[scat n]} =present=
 	purin	{[scat n]} =flan=
+	purinsesu	{[scat n]} =princess=
 	purittsu	{[scat n]} =pretz_cookies=
 	puropera	{[scat n]} =propeller=
 	puruun	{[scat n]} =prune=
