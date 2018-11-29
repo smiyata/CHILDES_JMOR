@@ -320,6 +320,7 @@ kongetsu	{[scat n]} =this_month=
 	daimee	{[scat n]} =title= 	% 題名 
 	dainashi	{[scat n]} =spoil= 	% 台なし 
 	dainoo	{[scat n]} =cerebrum= 	% 大脳 
+	daizu	{[scat n]} =beans= 	% 大豆 
 	dakuten	{[scat n]} =sonant_mark= 	% 濁点 
 	damboo	{[scat n]} =heating= 	% 暖房 
 	dambooru	{[scat n]} =carton= 	% 段ボール 
@@ -360,7 +361,7 @@ kongetsu	{[scat n]} =this_month=
 	densha	{[scat n]} =train= 	% 電車 
 	denshi	{[scat n]} =electron= 	% 電子 
 	dentoo	{[scat n]} =electric_light= 	% 電灯 
-	denwa	{[scat n]} =telephone= 	% 電話機 
+	denwa	{[scat n]} =telephone= 	% 電話 (機 
 	denwachoo	{[scat n]} =telephone_book= 	% 電話帳 
 	denwaki	{[scat n]} =telephone= 	% 電話機 
 	deppari	{[scat n]} =protrusion= 	% 出っ張り 
@@ -405,7 +406,7 @@ kongetsu	{[scat n]} =this_month=
 	ebi	{[scat n]} =prawn= 	% えび  海老/ 蝦 
 	eda	{[scat n]} =branch= 	% 枝 
 	eega	{[scat n]} =movie= 	% 映画 
-	eego	{[scat n]} =English= 	% 英語 
+	eego	{[scat n]} =English_language= 	% 英語 
 	eegyoosho	{[scat n]} =business_office=	% 営業所 
 	eeyoo	{[scat n]} =nutrition= 	% 栄養 
 	eezoo	{[scat n]} =picture= 	% 映像
@@ -1104,6 +1105,7 @@ kongetsu	{[scat n]} =this_month=
 	kando	{[scat n]} =sensitivity=	% 感度 
 	kane	{[scat n]} =bell=	% 鐘 
 	kane	{[scat n]} =money=	% 金 
+	kangae	{[scat n]} =thought=	%【考え】
 	kangofu	{[scat n]} =nurse= 	% 看護婦 
 	kani	{[scat n]} =crab= 	% かに  蟹 
 	kanja	{[scat n]} =patient= 	% 患者 
@@ -1127,6 +1129,7 @@ kongetsu	{[scat n]} =this_month=
 	kappaebisen	{[scat n]} =rice_cracker= 	% かっぱ  河童》 
 	kara	{[scat n]} =empty=	% 空 
 	kara	{[scat n]} =shell=	% 殻 
+	karaage	{[scat n]} =deep_fried_chicken=	%【空揚げ/唐揚げ】
 	karada	{[scat n]} =body= 	% 体  身体 
 	karashi	{[scat n]} =mustard= 	% からし  芥子/辛子 
 	karasu	{[scat n]} =crow= 	% からす  烏/ 鴉 
@@ -1752,6 +1755,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	namaji	{[scat n]} =halfway= 
 	namakemono	{[scat n]} =loafer= 	% 怠け者 
 	namako	{[scat n]} =sea_cucumber=	% ナマコ 
+	nameko	{[scat n]} =nameko_mushrooms=	% ナメコ
 	namari	{[scat n]} =accent=	% なまり  訛り 
 	namari	{[scat n]} =lead=	% 鉛 
 	namazu	{[scat n]} =catfish= 	% なまず  鯰 
@@ -1922,7 +1926,8 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	onigashima	{[scat n]} =demons_island= "oni_ga_shima" 	% 鬼ヶ島 
 	onigiri	{[scat n]} =rice_ball= 	% おにぎり
 	onna	{[scat n]} =woman= 	% 女 
-	onnanoko	{[scat n]} =girl= 	% 女の子 
+	onnanohito	{[scat n]} =woman= "onna_no_hito" 	% 女の人
+	onnanoko	{[scat n]} =girl= "onna_no_ko" 	% 女の子 
 	ono	{[scat n]} =axe= 	% 斧 
 	onsen	{[scat n]} =hot_spring= 	% 温泉 
 	oo	{[scat n]} =king= 	% 王 
@@ -1970,7 +1975,8 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	oto	{[scat n]} =sound= 	% 音 
 	otogibanashi	{[scat n]} =fairy_tale= 
 	otoko	{[scat n]} =man= 	% 男 
-	otokonoko	{[scat n]} =boy= 	% 男の子 
+	otokonohito	{[scat n]} =man=  "otoko_no_hito"	% 男のひと
+	otokonoko	{[scat n]} =boy= "otoko_no_ko" 	% 男の子 
 	otomanego	{[scat n]} =onomatopoeia= 	%
 	otona	{[scat n]} =adult= 	% おとな/大人 
 	otooto	{[scat n]} =younger_brother= 	% 弟 
@@ -2827,7 +2833,7 @@ makkura	{[scat n]} "ma#kura" =pitch_dark= %真っ暗
 	yooji	{[scat n]} =affair=	% 用事 
 	yooji	{[scat n]} =baby=	% 幼児 
 	yooji	{[scat n]} =toothpick=	% ようじ  楊枝 
-	yoojigo	{[scat n]} "yooji-go" =baby_talk= 	% 幼児 
+	yoojigo	{[scat n]} "yooji_go" =baby_talk= 	% 幼児 
 	yookai	{[scat n]} =monster= 	% ようかい 妖怪
 	yookan	{[scat n]} =adzuki_bean_paste= 	% ようかん  羊 羹 
 	yooki	{[scat n]} =container=	% 容器 

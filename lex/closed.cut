@@ -71,7 +71,7 @@ goto	{[scat nsfx]} "goto_EACH"
 juu	{[scat nsfx]} "juu_THROUGHOUT"
 %ka	{[scat nsfx]} ""
 %kko	{[scat nsfx]} "kko_DIM"   % listed in mot lexicon
-kun	{[scat nsfx]} "kun_MASCFAM"
+kun	{[scat nsfx]} "kun_MASC_FAM"
 %me	{[scat nsfx]} "me_INSULT"
 ooji	{[scat nsfx]} "ooji_PRINCE"
 %ra	{[scat nsfx]} "ra_PL"
@@ -127,12 +127,12 @@ niichan	{[scat npropsfx]} "niichan_ELDER_BROTHER_FAM"
 niisan	{[scat npropsfx]} "niisan_ELDER_BROTHER_HON"
 chantachi	{[scat npropsfx]} "chan_FAM-tachi_PL"
 santachi	{[scat npropsfx]} "san_HON-tachi_PL"
-kuntachi	{[scat npropsfx]} "kun_MASC_FAM-tachi_PL"
+kuntachi	{[scat npropsfx]} "kun_MFAM-tachi_PL"
 jin	{[scat npropsfx]} "jin_PERSON"
 iki	{[scat npropsfx]} "iki_BOUND_FOR"
 ken	{[scat npropsfx]} "ken_PREFECTURE"
-kunhooshiki	{[scat npropsfx]} "kun_MASC_FAM-hooshiki_STYLE"
-kunfuu	{[scat npropsfx]} "kun_MASC_FAM-fuu_STYLE"
+kunhooshiki	{[scat npropsfx]} "kun_MFAM-hooshiki_STYLE"
+kunfuu	{[scat npropsfx]} "kun_MFAM -fuu_STYLE"
 yoo	{[scat npropsfx]} "yoo_FOR"
 yuki	{[scat npropsfx]} "yuki_BOUND_FOR"
 
@@ -153,28 +153,14 @@ kute	{[scat atense] [tense inf]} "CONN"
 %kutte	{[scat atense] [tense inf]} "CONN"
 kattari	{[scat atense] [tense past]} "ALT"
 kutatte	{[scat atense] [tense past]} "CONC"
-kunakattatte	{[scat atense] [tense past]} "PAST-CONC"
 kereba	{[scat atense] [tense pres]} "COND:ba"
 kattara	{[scat atense] [tense past]} "COND:tara"
 kucha	{[scat atense] [tense inf]} "CONN&wa"
 kya	{[scat atense] [tense inf]} "COND:ba"
-kunai	{[scat atense] [tense pres]} "NEG-PRES"
-kunakatta	{[scat atense] [tense past]} "NEG-PAST"
-kunakattara	{[scat atense] [tense past]} "NEG-COND:tara"
-kunakattari	{[scat atense] [tense past]} "NEG-ALT"
-kunaku	{[scat atense] [tense pres]} "NEG-ADV"
-kunakute	{[scat atense] [tense pres]} "NEG-CONN"
-kunakucha	{[scat atense] [tense pres]} "NEG-CONN&wa"
-kunakereba	{[scat atense] [tense pres]} "NEG-COND:ba"
-kunakya	{[scat atense] [tense pres]} "NEG-CONN&ba"
-kunakutatte	{[scat atense] [tense past]} "NEG-CONC"
-kunakucha	{[scat atense] [tense pres]} "NEG&OBL:wa"
-kunakya	{[scat atense] [tense pres]} "NEG&OBL:ba"
 nagara	{[scat atense] [tense inf] [infl -]} "SIMUL"
 
 %adj -> adj suffix  adj|hoso-ppo- ########
 ppoi	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-PRES"   
-ppokunai	{[scat atense] [tense pres] [sfxcat adj]} "ppo_LIKE-NEG-PRES" 
 ppokatta	{[scat atense] [tense past] [sfxcat adj]} "ppo_LIKE-PAST" 
 ppokute	{[scat atense] [tense inf] [sfxcat adj]} "ppo_LIKE-CONN"
 
@@ -218,7 +204,6 @@ zura	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "tsura
 
 % desiderative "tai"	########
 ta	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "DESID"
-takuna	{[scat vsfx] [sfxcat adj] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "DESID-NEG"
 tagaru	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp OR vC vCi vCa vTTr]} "DESID-OBJVZ-PRES"
 tagatte	{[scat vtense] [tense inf] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp OR vC vCi vCa vTTr]} "DESID-OBJVZ-CONN"
 tagatta	{[scat vtense] [tense past] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs] [cp OR vC vCi vCa vTTr]} "DESID-OBJVZ-PAST"
@@ -336,8 +321,8 @@ na	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:na
 %ya	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vBko vTSi vAIs]} "IMP:ya" %% separated as GER and ptl:fina
 te	{[scat vtense] [tense imp] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "IMP:te"
 de	{[scat vtense] [tense pres] [allo OR vTNn vTIg]} "IMP:te"
-runa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu]} "NEG&IMP:na"
-una	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "NEG&IMP:na"
+runa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu]} "NEG&IMP:runa"
+una	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "NEG&IMP:runa"
 
 % consessive	########
 tatte	{[scat vtense] [tense past] [allo OR vV vC vTTw vTTr vAIs vTIk vTIg vTKi vTSi vTTik vBKo]} "CONC"
@@ -466,7 +451,7 @@ daime	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCB
 dan	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =dan_STEP=
 % 								 丁目 
 choo	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} =choo_CUT=
-choome	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "choo_CL-me_ORD" 
+choome	{[scat numclsfx] [allo OR numBFa numBBt numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "choo_CUT-me_ORD" 
 % 								 度 
 do	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "do_DEGREE"
 do	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "do_TIMES"

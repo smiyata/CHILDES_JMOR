@@ -21,6 +21,7 @@ kurikuri	{[scat adv:onoma]} =big_and_round=	%丸い
 kurukuru	{[scat adv:onoma]} =twirling=	%回る
 nebaneba	{[scat adv:onoma]} =sticky=	%くっ付く
 nikoniko	{[scat adv:onoma]} =smiling=	%笑う
+nurunuru 	{[scat adv:onoma]} =slimy=
 pakupaku	{[scat adv:onoma]} =gobbling=	%食べる
 pikapika	{[scat adv:onoma]} =shiny=	%光る
 pekopeko	{[scat adv:onoma]} =hungry=
@@ -193,6 +194,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 %changed_to_quant	ookata	{[scat adv]} =mostly=	% 大方 おおかた
 	orishimo	{[scat adv]} =at_that_very_moment= "ori_shimo"	% 折しも 
 	osoraku	{[scat adv]} =probably=	% おそらく/恐らく 
+	oyoso	{[scat adv]} =about=	% およそ  凡そ 
 	patto	{[scat adv]} =in_a_flash=	
 	pishitto	{[scat adv]} =tightly=	
 	pittari	{[scat adv] [to +] [vn +]} =exactly=	
@@ -266,6 +268,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	tottemo	{[scat adv]} =very= "totemo"	
 	tsugitsugi	{[scat adv]} =one_after_another=	% 次次 に  
 	tsui	{[scat adv]} =inadvertently=	
+	tsuitsui	{[scat adv]} =inadvertently=	
 	tsuideni	{[scat adv]} =on_the_occasion=	% ついでに  序でに 
 	tsuini	{[scat adv]} =finally=	% ついに  遂に/ 終に 
 	tsukuzuku	{[scat adv]} =thoroughly=

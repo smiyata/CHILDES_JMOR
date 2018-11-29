@@ -372,7 +372,7 @@ xf%%% VERBAL NOUNS %%
 	juushin	{[scat n:vn]} =center_of_gravity=
 	juushoo	{[scat n:vn]} =serious_injury=	%【重傷】
 	juutai	{[scat n:vn]} =traffic_jam=	%【渋滞】
-	kachi	{[scat n:vn]} =win=	%【加減】
+	kachi	{[scat n:vn]} =win=	%【勝ち】
 	kaeri	{[scat n:vn]} =return=	%【帰り】
 	kagen	{[scat n:vn]} =adjustment=	%【加減】
 	kaiage	{[scat n:vn]} =purchase=	%【買い上げ】
@@ -409,7 +409,6 @@ xf%%% VERBAL NOUNS %%
 	kanchoo	{[scat n:vn]} =enema=	%【かん腸】(〈浣腸/〈潅腸)
 	kanden	{[scat n:vn]} =get_electric_shock=	%【感電】
 	kandoo	{[scat n:vn]} =movement=	%【感動】+
-	kangae	{[scat n:vn]} =thought=	%【考え】
 	kangee	{[scat n:vn]} =welcome=	%【歓迎】
 	kangeki	{[scat n:vn]} =deeply_impressed=	%【感激】
 	kango	{[scat n:vn]} =nursing=	%【看護】
@@ -432,7 +431,6 @@ xf%%% VERBAL NOUNS %%
 	kanshoo	{[scat n:vn]} =enjoy=	%【観賞】+
 	kanshoo	{[scat n:vn]} =appreciation=	%【鑑賞】+
 	kansoo	{[scat n:vn]} =drying=	%【乾燥】+
-	karaage	{[scat n:vn]} =deep_fried_chicken=	%【空揚げ/唐揚げ】
 	karabuki	{[scat n:vn]} =dust_furniture=	%【からぶき】(《乾〈拭き)
 	karaburi	{[scat n:vn]} =swish_air=	%【空振り】
 	karadaki	{[scat n:vn]} =heat_empty_kettle=	%【空だき】(空〈焚き)
@@ -644,7 +642,7 @@ xf%%% VERBAL NOUNS %%
 	raichoo	{[scat n:vn]} =attendance=	%【来聴】
 	rakuba	{[scat n:vn]} =fall_from_horse= %【落馬】
 	rakugaki	{[scat n:vn]} =scribble=	%【落書き】
-	rakugakichoo	{[scat n]} =sketch_book= "rakugaki-choo"
+	rakugakichoo	{[scat n]} =sketch_book= "rakugaki_choo"
 	ramboo	{[scat n:vn]} =rude=	%【乱暴】
 	reetoo	{[scat n:vn]} =freeze=	%【冷凍】
 	renketsu	{[scat n:vn]} =connect=	%【連結】

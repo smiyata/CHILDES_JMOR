@@ -12,3 +12,6 @@ dea	{[scat ptl:fina]} =FINA=
 nonanno	{[scat ptl:fina]} =FINA=
 %%%%% topic particle
 dea	{[scat ptl:top]} "de_a" =TOP=
+%%%%% quotation particle
+zu	{[scat ptl:quot]} =QUOT=  %づ   
+

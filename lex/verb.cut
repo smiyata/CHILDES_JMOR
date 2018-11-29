@@ -1108,6 +1108,7 @@ tabeowar	{[scat v:c][comp v:v+v:c]} =finish_eating= "tabe+owar"
 toriowar	{[scat v:c][comp v:c+v:c]} =finish_taking= "tor+owar"
 tsukaiowar	{[scat v:c][comp v:c+v:c]} =finish_using= "tsukaw+owar"
 yariowar	{[scat v:c][comp v:c+v:c]} =finish_doing= "yar+owar"
+yomiowar	{[scat v:c][comp v:c+v:c]} =finish_reading= "yom+owar"
 	pakir	{[scat v:c]} =break=	%【パキる】
 	pakur	{[scat v:c]} =snatch= %	パクる		
 	posshar	{[scat v:c]} =fizzle_out= %	ポッしゃる		
@@ -2481,8 +2482,6 @@ uragae	{[scat v:v]} =betray= "ura_kae" %裏返る
 dakikakae	{[scat v:v]} =carry_in_arms= "dak_kakae"			%% lex. compound 
 	kake	{[scat v:v]} =lack=	%【欠ける】
 	kake	{[scat v:v]} =put_on=	%【掛ける】
-%	kake	{[scat v:v]} =hook=	%【掛ける】
-%	kake	{[scat v:v]} =phone=	%【掛ける】
 %	kake	{[scat v:v]} =gallop=	%【駆ける】
 	kakage	{[scat v:v]} =publish= %	掲げる		
 akikake 	{[scat v:v][comp v:c+v:v]} =start_to_open= "ak+kake"			%% synt. compound  +kake ("about to")

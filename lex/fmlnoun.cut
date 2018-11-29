@@ -1,5 +1,10 @@
 @UTF8
 %%%% formal nouns
+no	{[scat n:fml]} =RLV=   %  akai no ga atta   (former snr)
+n	{[scat n:fml]} =RLV= "no"
+no	{[scat n:fml]} =QUD=   %  akai no da / akai no ka. / akai no. (former final ptl)
+n	{[scat n:fml]} =QUD= "no"  
+
 aida	{[scat n:fml]} =meanwhile=
 amari	{[scat n:fml]} =more_than=
 baai	{[scat n:fml]} =case=

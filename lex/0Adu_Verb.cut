@@ -1,0 +1,13 @@
+@UTF8
+%%%%  Verb
+
+
+% Verb    (vowel/consonant)
+% 	erab	{[scat v:c]} =select=	% 選ぶ
+%	home	{[scat v:v]} =praise=	% 褒める
+%% lex. compound 
+%	harikae	{[scat v:v]} =repaper= "har_kae"  % 張り替える
+%% synt. compound 
+%	kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	% 壊れかける
+
+nar	{[scat v:c:sub]} =become=     %okake ni naru

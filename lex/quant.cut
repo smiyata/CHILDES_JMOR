@@ -46,14 +46,14 @@ yooke	{[scat quant]} =much=	%ようけ
 	zentai	{[scat quant]} =whole= 	% 全体
 	zuibun	{[scat quant]} =a_great_deal=	% 随時 
 
-mainichi	{[scat quant]} "mai#nichi" =every_day= 	% 毎日  changed to quant
-	maitsuki	{[scat quant]} =every_month= 	% 毎月 
-	maiasa	{[scat quant]} =every_morning= 	% 毎朝
-	maiban	{[scat quant]} =every_evening= 	% 毎晩 
-	maikai	{[scat quant]} "mai#kai" =every_time= 	% 毎回
-	maishuu	{[scat quant]} "mai#shuu" =every_week= 	% 毎週
-ryoohoo	{[scat quant]} "ryoo#hoo" =both_directions= 	% 両方  changed to quant
-ryoome	{[scat quant]} "ryoo#me" =both_eyes= 	% 両方  
-ryoote	{[scat quant]} "ryoo#te" =both_hands= 	% 両手  
-ryooashi	{[scat quant]} "ryoo#ashi" =both_feet= 	% 両足  
-ryoomen	{[scat quant]} "ryoo#men" =both_sides= 	% 両面
+maitsuki	{[scat quant]} "mai_EVERY#tsuki" =month= 	% 毎月 
+maiasa	{[scat quant]} "mai_EVERY#asa" =morning= 	% 毎朝
+maiban	{[scat quant]} "mai_EVERY#ban" =evening= 	% 毎晩 
+	mainichi	{[scat quant]} "mai_nichi" =every_day= 	% 毎日  changed to quant
+	maikai	{[scat quant]} "mai_kai" =every_time= 	% 毎回
+	maishuu	{[scat quant]} "mai_shuu" =every_week= 	% 毎週
+ryoohoo	{[scat quant]} "ryoo_BOTH#hoo" =direction= 	% 両方  changed to quant
+ryoome	{[scat quant]} "ryoo_BOTH#me" =eye= 	% 両方  
+ryoote	{[scat quant]} "ryoo_BOTH#te" =hand= 	% 両手  
+ryooashi	{[scat quant]} "ryoo_BOTH#ashi" =foot= 	% 両足  
+ryoomen	{[scat quant]} "ryoo_BOTH#men" =side= 	% 両面

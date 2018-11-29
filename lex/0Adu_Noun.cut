@@ -1,0 +1,30 @@
+@UTF8
+%%%%  Noun
+%%%% Proper Noun
+%%%% Adjectival Noun
+%%%% Verbal Noun
+
+%%%% Compound Noun
+
+
+
+
+
+%%%% Noun
+%	abura	{[scat n]} =oil=	% 油 
+futsugoo	{[scat n]} =inconvenience= "fu_tsugoo"
+ganka	{[scat n]} =ophthalmologist=
+
+%%%% Proper Noun
+%	Donarudo	{[scat n:prop]} =Donald=
+
+%%%% Adjectival Noun
+%	anzen	{[scat n:an]} =safe=	% 安全 
+ani	{[scat n:an]} =easy=
+futsugoo	{[scat n:an]} =inconvenient= "fu_tsugoo"
+
+%%%% Verbal Noun
+%	anshin	{[scat n:vn]} =reassured=	% 安心
+
+%%%% Compound Noun
+chuushinseemoomakuen	{[scat n][comp n+n]} =central_retinitis= "chuushinsee+moomakuen"

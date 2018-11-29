@@ -1,11 +1,6 @@
 @UTF8
-ani	{[scat n:an]} =easy=
 buruuberiijamu	{[scat n][comp n+n]} =blueberry_jam= "buruuberii+jamu"
-chuushinseemoomakuen	{[scat n][comp n+n]} =central_retinitis= "chuushinsee+moomakuen"
 epokku	{[scat n]} =epoch=
-futsugoo	{[scat n:an]} =inconvenient= 
-futsugoo	{[scat n]} =inconvenience= 
-ganka	{[scat n]} =ophthalmologist=
 gankyuu	{[scat n]} =eye_ball=
 genzai	{[scat n]} =present=
 gojibun	{[scat n:deic:prs]} =HON_self= "go#jibun"

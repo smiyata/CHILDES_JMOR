@@ -3,11 +3,17 @@
 ********************************************************************* 
 
 ******** CHANGES in JMOR08 ********2018nov  (database未)
+oishikunai adj|oishi-NEG-PRES=tasty -> oishiku nai adj|oishi-ADV=tasty v:ir:sub|ar&NEG-PRES
+tabetakunai v:v|tabe-DESID-NEG-PRES=eat -> tabetaku v:v|tabe-DESID-ADV=eat v:ir:sub|ar&NEG-PRES
+kodomoppokunai  adj|kodomo-ppo_LIKE-NEG-PRES=child  -> kodomoppoku nai adj|kodomo-ppo_LIKE-ADV=child 
+
 n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog
 o#tegami=HON_letter -> o_HON#tegami=letter
+
 num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two
 n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week
-n|hara=abdomen ->  n|hara=abdomen_CLQ   (meshi, ketsu nado)
+
+n|hara=abdomen ->  n|hara=abdomen_CLQ   (meshi, ketsu nado) [database ok]
 
 ******** CHANGES in JMOR08 ********2018may27
 1) post and compound post particles
@@ -44,7 +50,7 @@ only if following tensed V or A  ptl:fina|datte=QUOT
 if following N or formal N : da tte   v:cop|da&PRES ptl:quot|tte
 	ex. nagai datte   adj|naga-PRES ptl:fina|datte=QUOT
 compare: 
-      nagai n da tte  adj|naga-PRES n:fml|no=RLV v:cop|da&PRES ptl:quot|tte
+      nagai n da tte  adj|naga-PRES n:fml|no=QUD v:cop|da&PRES ptl:quot|tte
       empitsu da tte  n|empitsu v:cop|da&PRES ptl:quot|tte
       Ken datte  n:prop|Ken ptl:foc|datte=even 
 
@@ -165,10 +171,16 @@ e) change: (smod) rashii
    cut:  rashii adj|rashi-PRES=seeming  
 	(compare: harurashii  haru-rashi-PRES, -PAST NEG-PRES etc)
 	
-f) new: (fml) no (da)  n:fml|no=RLV
+f) new: (fml) no (da)  n:fml|no=QUD
 	OLD ptl:snr|no=SNR v:cop|da&PRES=be
-	NEW n:fml|no=RLV v:cop|da&PRES=be
-	(compare: iku no ga ii  ptl:snr|no=SNR )
+	NEW n:fml|no=QUD v:cop|da&PRES=be
+
+	OLD ptl:fina|no=FINA    (oishii no.  oishii no ka ?  oishii no ka doo ka ...)
+	NEW n:fml|no=QUD
+
+g) change  SNR to RLV
+	OLD ptl:snr|no=SNR   (oishii no ga aru. )
+	NEW n:fml|no=RLV  
 
 h) new: (fml) koto n:fml|koto=IMP
 	te arau koto! -> n:fml|koto=IMP

@@ -3,14 +3,6 @@
 %  verbal adjectives	
 %%%%%%%%%%%%%%%%%%%%%
 
-%%*方言*
-	sukunoo	{[scat adj][tense inf]} =be_few= "sukuna-ADV:uu" % すくない  少ない 
-	otonashuu	{[scat adj][tense inf]} =obedient= "otonashi-ADV:uu" % おとなしい  大人しい 
-	yoroshuu	{[scat adj][tense inf]} =very_well= "yoroshi-ADV:uu" % よろしい  宜しい   
-	monosugoo	{[scat adj][tense inf]} =terrible= "monosugo-ADV:uu" % ものすごい   
-	nagoo	{[scat adj][tense inf]} =long= "naga-ADV:uu" % 長い   
-	ooki	{[scat adj][tense inf]} =big= "ooki&ADV:i" % 大きい   
-kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV:uu"
 %%%%%%%%%
 	abuna	{[scat adj]} =dangerous=	% 危ない
 	abunakkashi	{[scat adj]} =dangerous=	% 危なっかしい 

@@ -116,12 +116,10 @@ kke	{[scat ptl:fina]} =WONDER=
 koto	{[scat ptl:fina]} =FINA=
 mon	{[scat ptl:fina]} =ASSERT=
 mono	{[scat ptl:fina]} =ASSERT=
-n	{[scat ptl:fina]} =FINA= "no"  
 naa	{[scat ptl:fina]} =TAG=
 ne	{[scat ptl:fina]} =TAG=
 nee	{[scat ptl:fina]} =TAG= "ne"
 nen	{[scat ptl:fina]} =ASSERT=
-no	{[scat ptl:fina]} =FINA= 
 pe	{[scat ptl:fina]} =ASSERT=
 sa	{[scat ptl:fina]} =FINA= 
 saq	{[scat ptl:fina]} =FINA= "sa"
@@ -185,10 +183,6 @@ toka	{[scat ptl:coo]} =or=
 ya	{[scat ptl:coo]} =or=
 yara	{[scat ptl:coo]} =or=
 
-%%%%% sentence nominalizing particle
-no	{[scat ptl:snr]} =SNR=
-n	{[scat ptl:snr]} =SNR= "no"
-
 %%%%% topic particle
 wa	{[scat ptl:top]} =TOP=
 
@@ -210,6 +204,8 @@ ttsutte	{[scat ptl:quot]} =QUOT= "to&yutte"
 ttsutten	{[scat ptl:quot]} =QUOT= "to&yutten"
 
 %%%%% indefinite particle
-demo	{[scat ptl:indef]} =every=
+demo	{[scat ptl:indef]} =every= "de_mo"
 kashira	{[scat ptl:indef]} =some=
+ka	{[scat ptl:indef]} =INDEF=   %for separated ka  ex.  dare  hitori mo   ex. nambiki mo
+mo	{[scat ptl:indef]} =INTENS=    % nankai ka 
 

@@ -22,7 +22,7 @@
 	andaa	{[scat n]} =under=
 	ankooru	{[scat n]} =encore=
 	antena	{[scat n]} =antena=
-	apaato	{[scat n]} =appartment=
+	apaato	{[scat n]} =apartment=
 	apiiru	{[scat n:vn]} =appeal=
 	apo	{[scat n]} =appointment=
 	appu	{[scat n:vn]} =up=
@@ -719,6 +719,7 @@
 	manikyua	{[scat n]} =manicure=
 	manshon	{[scat n]} =mansion=
 	manto	{[scat n]} =mantle=
+	mausu	{[scat n]} =pc_mouse=
 	marakasu	{[scat n]} =maracas=
 	marason	{[scat n]} =marathon=
 	maron	{[scat n]} =maron=

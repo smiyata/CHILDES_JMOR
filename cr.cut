@@ -748,7 +748,7 @@ STARTCAT = ![tense OR pres past inf]
 NEXTCAT = [scat atense]
 then
 RESULTCAT = STARTCAT, NEXTCAT [tense]
-RULEPACKAGE = {neg}
+%RULEPACKAGE = {neg}
 
 %%%%%%%%%%%%%%%%%%  deadjectival verbalizers (Agaru, Asugiru)
 RULENAME: adj-v

@@ -28,6 +28,8 @@ su	{[scat v:ir:sub]} =do=
 itas	{[scat v:c:sub]} =do_POL= 
 yar	{[scat v:c:sub]} =do= 
 
+nar	{[scat v:c:sub]} =become= 
+
 
 
 %			Irregular AI-VERBS
