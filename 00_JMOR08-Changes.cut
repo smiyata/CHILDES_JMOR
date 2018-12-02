@@ -8,7 +8,7 @@ tabetakunai v:v|tabe-DESID-NEG-PRES=eat -> tabetaku v:v|tabe-DESID-ADV=eat v:ir:
 kodomoppokunai  adj|kodomo-ppo_LIKE-NEG-PRES=child  -> kodomoppoku nai adj|kodomo-ppo_LIKE-ADV=child 
 
 n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog
-o#tegami=HON_letter -> o_HON#tegami=letter
+o#tegami=HON_letter -> o_HON#tegami=letter  database OK
 
 num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two
 n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week

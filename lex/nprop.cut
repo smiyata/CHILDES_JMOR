@@ -118,8 +118,7 @@ Diibuidifendaa		{[scat n:prop]} =D_V_fender=
 Diibuifaiyaazudifendaa		{[scat n:prop]} =D_V_fires_fender= 
 doitsu	{[scat n:prop]} =Germany=
 Doitsu	{[scat n:prop]} =Germany=
-doitsugo	{[scat n:prop]} "Doitsu-go" =German_language=
-Doitsugo	{[scat n:prop]} "Doitsu-go" =German_language=
+doitsugo	{[scat n]} "doitsu_go" =German_language=
 Dokin	{[scat n:prop]} =Dokin=
 dokin	{[scat n:prop]} =Dokin= "Dokin"
 Donarudo	{[scat n:prop]} =Donald=
@@ -482,8 +481,7 @@ Neechan	{[scat n:prop]} =Older_Sister_FAM=
 Niida	{[scat n:prop]} =Niida=
 Nihon	{[scat n:prop]} =Japan=
 Nippon	{[scat n:prop]} =Japan_FML=
-nihongo	{[scat n:prop]} "Nihon-go" =Japanese_language=
-Nihongo	{[scat n:prop]} "Nihon-go" =Japanese_language=
+nihongo	{[scat n:prop]} "nihon_go" =Japanese_language=
 Nikoniko	{[scat n:prop]} =Nikoniko=
 ninninjaa	{[scat n:prop]} =Ninninjaa=
 Ninomiya	{[scat n:prop]} =Ninomiya=
@@ -716,6 +714,7 @@ Suu	{[scat n:prop]} =Sue=
 Suutaroo	{[scat n:prop]} =Suutaroo=
 Suuze	{[scat n:prop]} =Suse=
 Suzuya	{[scat n:prop]} =S_supermarket=
+Suzuki	{[scat n:prop]} =Suzuki=
 Taa	{[scat n:prop]} =Taa=
 Taazan	{[scat n:prop]} =Tarzan=
 Tae	{[scat n:prop]} =Tae=

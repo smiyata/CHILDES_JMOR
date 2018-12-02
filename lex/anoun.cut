@@ -254,7 +254,7 @@
 	manzoku	{[scat n:an]} =satisfactory=	% 満足 
 	mashikaku	{[scat n:an]} =regular_square=	% 真四角 
 	massao	{[scat n:an]} =ashy_pale=	% 真っ青 
-	massugu	{[scat n:an]} "ma_STRAIGHT#sugu" =straight=	% まっすぐ  真っ 直ぐ 
+	massugu	{[scat n:an]} "ma_STRAIGHT_sugu" =straight=	% まっすぐ  真っ 直ぐ 
 	matomo	{[scat n:an]} =honest=
 	mechakucha	{[scat n:an]} =incoherent=	
 	mechakucha	{[scat n:an]} =incoherent=	% めちゃくちゃ  滅茶苦茶 

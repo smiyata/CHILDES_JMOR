@@ -1,5 +1,7 @@
 @UTF8
-xf%%% VERBAL NOUNS %%
+%	atari	{[scat n:vn]} =hit=	%当たり  当り  -> v:c only
+
+%%% VERBAL NOUNS %%
 	ai	{[scat n:vn]} =love=
 	aichaku	{[scat n:vn]} =attachment=	%【愛着】
 	aisatsu	{[scat n:vn]} =greeting=	%【あいさつ】(〈挨拶〉)
@@ -25,7 +27,6 @@ xf%%% VERBAL NOUNS %%
 	asobi	{[scat n:vn]} =play=	
 	assari	{[scat n:vn]} =plain=	
 	atafuta	{[scat n:vn]} =helter_skelter=	
-	atari	{[scat n:vn]} =hit=	%当たり  当り
 	atekko	{[scat n:vn]} =guessing_competition=	%【っこ
 	atomodori	{[scat n:vn]} =retrogressiong=	%【後戻り】
 	atoshimatsu	{[scat n:vn]} =deal_with_aftermath=	%【後始末/跡始末】
@@ -92,7 +93,7 @@ xf%%% VERBAL NOUNS %%
 	chokkai	{[scat n:vn]} =poke_nose_into=
 	chokki	{[scat n:vn]} =direct_return=	%【直帰】		
 	chombo	{[scat n:vn]} =blunder=	%【チョンボ】		
-%	choohenshin	{[scat n:vn]} =transformation= "choo_EXTREMELY#henshin"
+	choohenshin	{[scat n:vn]} =transformation= "choo_EXTREMELY#henshin"
 %	choodai	{[scat n:vn]} =receiving=	%【頂戴】
 	chookoku	{[scat n:vn]} =sculpture=	%【彫刻】
 	choosen	{[scat n:vn]} =challenge=	%【挑戦】

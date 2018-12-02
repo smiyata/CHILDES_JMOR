@@ -1,9 +1,6 @@
 @UTF8
 %% PREFIXES %%
 % verb prefixes  "> entered directly in ar.cut as verb stem allo
-%o	{[scat pfx] [pcat v:c]} "o_HON"	% お  same for  choo# , do#
-%o	{[scat pfx] [pcat v:v]} "o_HON"	% お 
-%o	{[scat pfx] [pcat v:ir]} "o_HON" % お 
 
 % noun prefixes
 dai	{[scat pfx] [pcat n]} "dai_BIG"		% 大 
@@ -14,33 +11,36 @@ kaku	{[scat pfx] [pcat n]} "kaku_EACH"	% 各
 o	{[scat pfx] [pcat n]} "o_HON"	% お 
 oo	{[scat pfx] [pcat n]} "oo_BIG"	% 大
 
-%bu	{[scat pfx] [pcat n]} "bu_NOT"		% 不 listed in the lexicon
-%fu	{[scat pfx] [pcat n]} "fu_NOT"		% 不   listed in the lexicon
-%hi	{[scat pfx] [pcat n]} "hi_NOT"		% 非 listed in the lexicon
-%hon	{[scat pfx] [pcat n]} "hon_ORIG"		% 本 listed in the lexicon
-%ko	{[scat pfx] [pcat n]} "ko_SMALL"	% 小 listed in the lexicon
-%mi	{[scat pfx] [pcat n]} "mi_NOT_YET"		% 未 listed in the lexicon
-%ma	{[scat pfx] [pcat n]} "ma_STRAIGHT"	% 真 listed in the lexicon
-%moo	{[scat pfx] [pcat n]} "moo_CRAZY"	% 猛 listed in the lexicon
-%mu	{[scat pfx] [pcat n]} "mu_MU"		% 無 listed in the lexicon
-oo	{[scat pfx] [pcat n]} "oo_MANY"	% 多 listed in the lexicon
-%soo	{[scat pfx] [pcat n]} "soo_GENERAL"	% 総  listed in the lexicon
+%bu_NOT"		% 不 listed in the lexicon
+%fu_NOT"		% 不  listed in the lexicon
+%fuku_SUB	% 副  listed in the lexicon
+%hi_NOT	% 非 listed in the lexicon
+%hon_ORIG		% 本 listed in the lexicon 
+%ko_SMALL	% 小 listed in the lexicon 
+%kon_THIS	% 今 listed in the lexicon 
+%mi_NOT_YET	% 未 listed in the lexicon
+%ma_STRAIGHT"	% 真 listed in the lexicon
+%maru_COMPLETELY	%丸 listed in the lexicon
+%moo_CRAZY"	% 猛 listed in the lexicon
+%moto_FORMER	 %本  listed in the lexicon
+%mu_MU	% 無 listed in the lexicon
+%oo_MANY	% 多 listed in the lexicon
+%soo_GENERAL"	% 総  listed in the lexicon
 
-%ryoo	{[scat pfx] [pcat n]} "both"		% 両 to quant
-%mai	{[scat pfx] [pcat n]} "every"		% 毎 to quant
-%%%%
+%ryoo	{[scat pfx] [pcat n]} "both"		% 両 changed to quant
+%mai	{[scat pfx] [pcat n]} "every"		% 毎 changed to quant
 
 
 % adjective prefixes
 choo	{[scat pfx] [pcat adj]} "choo_EXTREMELY"		% 超 
 do	{[scat pfx] [pcat adj]} "do_EXTREMELY"		% 
-%ma	{[scat pfx] [pcat adj]} "ma_STRAIGHT"		% 真  listed in the lexicon
+%ma_STRAIGHT		% 真  listed in the lexicon
 o	{[scat pfx] [pcat adj]} "o_HON"
 
 % adjectival noun prefixes
 choo	{[scat pfx] [pcat n:an]} "choo_EXTREMELY"	% 超 
-dai	{[scat pfx] [pcat n:an]} "big"	% 大 
-o	{[scat pfx] [pcat n:an]} "HON"
+dai	{[scat pfx] [pcat n:an]} "dai_BIG"	% 大 
+o	{[scat pfx] [pcat n:an]} "o_HON"
 
 % verbal noun prefixes
 dai	{[scat pfx] [pcat n:vn]} "dai_BIG"	% 大 
