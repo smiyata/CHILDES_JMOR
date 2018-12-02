@@ -321,8 +321,8 @@ na	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:na
 %ya	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vBko vTSi vAIs]} "IMP:ya" %% separated as GER and ptl:fina
 te	{[scat vtense] [tense imp] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "IMP:te"
 de	{[scat vtense] [tense pres] [allo OR vTNn vTIg]} "IMP:te"
-runa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu]} "NEG&IMP:runa"
-una	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "NEG&IMP:runa"
+%runa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu]} "NEG&IMP:runa"  separated -> smod|na=PRH
+%una	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "NEG&IMP:runa"
 
 % consessive	########
 tatte	{[scat vtense] [tense past] [allo OR vV vC vTTw vTTr vAIs vTIk vTIg vTKi vTSi vTTik vBKo]} "CONC"

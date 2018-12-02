@@ -7,6 +7,8 @@ oishikunai adj|oishi-NEG-PRES=tasty -> oishiku nai adj|oishi-ADV=tasty v:ir:sub|
 tabetakunai v:v|tabe-DESID-NEG-PRES=eat -> tabetaku v:v|tabe-DESID-ADV=eat v:ir:sub|ar&NEG-PRES
 kodomoppokunai  adj|kodomo-ppo_LIKE-NEG-PRES=child  -> kodomoppoku nai adj|kodomo-ppo_LIKE-ADV=child 
 
+NEG&IMP:runa ->  PRES  smod|na=PRH
+
 n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog
 o#tegami=HON_letter -> o_HON#tegami=letter  database OK
 
