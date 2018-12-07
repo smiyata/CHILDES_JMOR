@@ -21,6 +21,7 @@ mi	{[scat v:v:sub]} =try=
 mise	{[scat v:v:sub]} =show=
 moraw	{[scat v:c:sub]} =get=
 nar	{[scat v:c:sub]} =PRH=  %nakereba naranai
+nar	{[scat v:c:sub]} =become_POL=  %okaeri ni naru
 ok	{[scat v:c:sub]} =put= 
 or	{[scat v:c:sub]} =ASP= 
 shimaw	{[scat v:c:sub]} =finish_COMPL= 
@@ -28,7 +29,6 @@ su	{[scat v:ir:sub]} =do=
 itas	{[scat v:c:sub]} =do_POL= 
 yar	{[scat v:c:sub]} =do= 
 
-nar	{[scat v:c:sub]} =become= 
 
 
 

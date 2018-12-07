@@ -3,28 +3,66 @@
 %%%% Proper Noun
 %%%% Adjectival Noun
 %%%% Verbal Noun
-
 %%%% Compound Noun
-
-
-
 
 
 %%%% Noun
-%	abura	{[scat n]} =oil=	% 油 
-futsugoo	{[scat n]} =inconvenience= "fu_tsugoo"
-ganka	{[scat n]} =ophthalmologist=
+	abura	{[scat n]} =fat=	% 脂  膏 
+	ato	{[scat n]} =trace=	% 跡 
+	baa	{[scat n]} =old_woman= 	% ばあさん  婆さん/:祖母さん 
+	e	{[scat n]} =handle=	% 柄
+	fuku	{[scat n]} =wealth=	%  福
+	futsugoo	{[scat n]} =inconvenience= "fu_NOT_tsugoo"
+	ganka	{[scat n]} =ophthalmologist=
+	hai	{[scat n]} =ash= 	% 灰
+	hakuri	{[scat n]} =exfoliation=
+	hoo	{[scat n]} =law=	% 法 
+	ima	{[scat n]} =living_room=	% 居間
+	ji	{[scat n]} =hemorrhoids= 	%  痔 
+	jidoo	{[scat n]} =child=	% 児童 
+	jii	{[scat n]  } =old_man= 	% じいさん  爺さん/:祖父さん 
+	jishaku	{[scat n]} =compass= 	% 磁石 
+	kakko	{[scat n]} "kakkoo" =shape=	% かっこう/格好  恰好 
+	keeboo	{[scat n]} =guardian= 	% 警防
+	kinshu	{[scat n]} =myoma=
+	mata	{[scat n]} =groin=	% また  股 
+	me	{[scat n]} =bud= 	% 芽 
+	moomaku	{[scat n]} =retina=
+	muchi	{[scat n]} =shameless= 	% むち  無恥 
+	na	{[scat n]} =vegetable= 	% 菜 
+	ningyo	{[scat n]} =mermaid= 	% 人形 
+	nochi	{[scat n]} =later=
+	nochizoe	{[scat n]} =ones_second_wife=
+	noosotchuu	{[scat n]} =cerebral_apoplexy=
+	o	{[scat n]} =tail= 	% 尾 
+	ryoohoo	{[scat n]} =therapy= 	% 療法 
+	sukashijanome	{[scat n]} == 	% 蛇の目  unclear
+	sumakichoo	{[scat n]} == %monkichoo のこと?
+	sumi	{[scat n]} =charcoal=	% 炭
+	sumi	{[scat n]} =corner=	% 隅
+	tainai	{[scat n]} "tai_nai_WITHIN" =in_the_body=
+	tame	{[scat n]} =for= 	% ため  為 
+	tsumori	{[scat n]} =intention= 	% つもり  積もり 
+	umi	{[scat n]} =pus=	% うみ  膿 
+	ya	{[scat n]} =arrow= 	% 矢  箭 
+
 
 %%%% Proper Noun
-%	Donarudo	{[scat n:prop]} =Donald=
 
 %%%% Adjectival Noun
-%	anzen	{[scat n:an]} =safe=	% 安全 
-ani	{[scat n:an]} =easy=
-futsugoo	{[scat n:an]} =inconvenient= "fu_tsugoo"
+	ani	{[scat n:an]} =easy=
+	futsugoo	{[scat n:an]} =inconvenient= "fu_tsugoo"
 
 %%%% Verbal Noun
-%	anshin	{[scat n:vn]} =reassured=	% 安心
+	kyuukoo	{[scat n:vn]} =cancelling_lecture=	%【休講】
+	choodai	{[scat n:vn]} =receiving=	%【頂戴】
+	hasshin	{[scat n:vn]} =sending=	%【発信】
+	moomoo	{[scat n:vn:mot]} =burn=
+	kanchi	{[scat n:vn]} =recovering_completely=
 
 %%%% Compound Noun
-chuushinseemoomakuen	{[scat n][comp n+n]} =central_retinitis= "chuushinsee+moomakuen"
+	chuushinseemoomakuen	{[scat n][comp n+n]} =central_retinitis= "chuushinsee+moomakuen"
+	moomakuhakuri	{[scat n][comp n+n]} =retina_exfoliation= "moomaku+hakuri"
+	shikyuukinshu	{[scat n][comp n+n]} =uterus_myoma= "shikyuu+kinshu"
+
+	ichigo	{[scat n:num][comp num+n]} =one_word= "ichi+go"

@@ -1,5 +1,4 @@
 @UTF8
-%	atari	{[scat n:vn]} =hit=	%当たり  当り  -> v:c only
 
 %%% VERBAL NOUNS %%
 	ai	{[scat n:vn]} =love=
@@ -28,6 +27,7 @@
 	assari	{[scat n:vn]} =plain=	
 	atafuta	{[scat n:vn]} =helter_skelter=	
 	atekko	{[scat n:vn]} =guessing_competition=	%【っこ
+	attoo	{[scat n:vn]} =overwhelm=	%【圧倒  
 	atomodori	{[scat n:vn]} =retrogressiong=	%【後戻り】
 	atoshimatsu	{[scat n:vn]} =deal_with_aftermath=	%【後始末/跡始末】
 	atozusari	{[scat n:vn]} =draw_back=	%【後ずさり】(後《退り)
@@ -94,7 +94,6 @@
 	chokki	{[scat n:vn]} =direct_return=	%【直帰】		
 	chombo	{[scat n:vn]} =blunder=	%【チョンボ】		
 	choohenshin	{[scat n:vn]} =transformation= "choo_EXTREMELY#henshin"
-%	choodai	{[scat n:vn]} =receiving=	%【頂戴】
 	chookoku	{[scat n:vn]} =sculpture=	%【彫刻】
 	choosen	{[scat n:vn]} =challenge=	%【挑戦】
 	chootatsu	{[scat n:vn]} =procurement=	%【調達】
@@ -256,7 +255,6 @@
 	hassee	{[scat n:vn]} =outbreak=	%【発生】+
 	hassha	{[scat n:vn]} =departure=	%【発車】+
 	hasshin	{[scat n:vn]} =departure=	%【発進】
-%	hasshin	{[scat n:vn]} =sending=	%【発信】
 	hasshingen	{[scat n]} =signal_source=	%【発信源】
 	hassoo	{[scat n:vn]} =mail_out=
 	hatsuden	{[scat n:vn]} =electricity_generation=	%【発電】
@@ -533,6 +531,7 @@
 	konkurabe	{[scat n:vn]} =endurance_contest=	%【根比べ】(根《競べ)
 	konsen	{[scat n:vn]} =entangled=	%【混戦】
 	konran	{[scat n:vn]} =confusion=	%【混乱】
+	konwaku	{[scat n:vn]} =be_upset=
 	konzatsu	{[scat n:vn]} =crowdedness=	%【混雑】
 	koobi	{[scat n:vn]} =copulation=	%【交尾】
 	koofuku	{[scat n:vn]} =capitulation=	%【降伏/降服】
@@ -578,6 +577,7 @@
 	kuroo	{[scat n:vn]} =hardship=	%【苦労】
 	kushami	{[scat n:vn]} =sneezing=	%【くしゃみ】(〈嚔)
 	kuyokuyo	{[scat n:vn:onoma]} =brooding=	
+	kyohi	{[scat n:vn]} =refusal=
 	kyoogi	{[scat n:vn]} =contest=	%【競技】
 	kyooiku	{[scat n:vn]} =education=	%【教育】
 	kyooka	{[scat n:vn]} =fortification=	%【強化】
@@ -605,7 +605,6 @@
 	mitchaku	{[scat n:vn]} =glued_together=	%【密着】
 	miyamairi	{[scat n:vn] [npform o]} =shrine_visit=	%【宮参り】
 	monomorai	{[scat n:vn]} =begging=
-%	moomoo	{[scat n:vn:mot]} =burn=
 	muri	{[scat n:vn]} =overstrain=	%【無理】
 	mushi	{[scat n:vn]} =ignore=	%【無視】
 	nakimane	{[scat n:vn]} =fake_crying=	%
@@ -670,7 +669,7 @@
 	sakadachi	{[scat n:vn]} =handstand=	%【逆立ち】
 	sakatombori	{[scat n:vn]} =helter_skelter=	%【逆とんぼり】
 	sakubun	{[scat n:vn]} =essay=	%【作文】
-	sakusee	{[scat n:vn]} =make=	%【作成】
+	sakusee	{[scat n:vn]} =making=	%【作成】
 	sampatsu	{[scat n:vn]} =hair_cut=	%【散髪】
 	sampo	{[scat n:vn] [npform o]} =stroll=	%【散歩】
 	sanjoo	{[scat n:vn]} =visit=	%【参上】
@@ -685,6 +684,7 @@
 	satsuee	{[scat n:vn]} =film_shooting=	%【撮影】
 	seebi	{[scat n:vn]} =equip=	%【整備】
 	seebishi	{[scat n]} =mechanic=	%【整備】
+	seechoo	{[scat n:vn]} =growing=
 	seekai	{[scat n:vn]} =correct_answer=	%【正解】
 	seekatsu	{[scat n:vn]} =life=	%【生活】
 	seekoo	{[scat n:vn]} =success=	%【成功】
@@ -708,6 +708,7 @@
 	senyuu	{[scat n:vn]} =monopolize=	%【占有】
 	sesshoku	{[scat n:vn]} =touch=	%【接触】
 	setchaku	{[scat n:vn]} =adhesion=	%【接着】
+	setsujo	{[scat n:vn]} =excision=
 	setsumee	{[scat n:vn]} =explanation=	%【説明】
 	setsumeesho	{[scat n]} =instruction_manual= "setsumee-sho"	%【説明】
 	settai	{[scat n:vn]} =reception=	%【接待】
@@ -756,8 +757,10 @@
 	 shootaijoo	{[scat n]} =invitation_letter=	%【招待状】
 	shoototsu	{[scat n:vn]} =collision=	%【衝突】
 	shori	{[scat n:vn]} =treatment=	%【処理】
+	shujutsu	{[scat n:vn]}  =surgical_operation=
 	shugyoo	{[scat n:vn]} =ascetic_training=	%【修行】
 	shuppatsu	{[scat n:vn]} =departure=	%【出発】
+	shussan	{[scat n:vn]}  =childbirth=
 	shusseki	{[scat n:vn]} =attendance= "shusseki"
 	shussekichoo	{[scat n]} =register= "shusseki-choo"
 	shutchoo	{[scat n:vn]} =business_travel=	%【出張】
@@ -797,6 +800,7 @@
 	susume	{[scat n:vn]} =recommendation= %勧め
 	sutaato	{[scat n:vn]} =start=
 	tachikurami	{[scat n:vn]} =feel_dizzy_on_standing_up=	%【立ちくらみ】(立ち〈眩み)
+	tachioojoo	{[scat n:vn]} =be_stuck=
 	taiboo	{[scat n:vn]} =expectation=	%【待望】
 	taiho	{[scat n:vn]} =arrest=	%【逮捕】
 	taiin	{[scat n:vn]} =leaving_hospital=	%【退院】
@@ -884,4 +888,4 @@
 	yuutaan {[scat n:vn]} =u_turn= %Uターン
 	zemmetsu	{[scat n:vn]} =annihilation= %全滅
 	zukai	{[scat n:vn]} =illustration= %図解
-%	kyuukoo	{[scat n:vn]} =cancelling_lecture=	%【休講】
+

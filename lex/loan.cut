@@ -93,6 +93,7 @@
 	banira	{[scat n]} =vanilla=
 	baransu	{[scat n]} =balance=
 	barasu	{[scat n]} =gravel=
+	baree	{[scat n]} =ballet=
 	barentain	{[scat n]} =valentine=
 	bareriina	{[scat n]} =ballerina=
 	bariaa	{[scat n]} =barrier=
@@ -348,6 +349,7 @@
 	enjin	{[scat n]} =engine=
 	ensuto	{[scat n:vn]} =engine_stall=
 	entaa	{[scat n:vn]} =enter=
+	epokku	{[scat n]} =epoch=
 	epuron	{[scat n]} =apron=
 	eraa	{[scat n]} =error=
 	erebeeta	{[scat n]} =elevator= "erebeetaa"
@@ -452,7 +454,7 @@
 	hambaagu	{[scat n]} =hamburger_steak=
 	hamusutaa	{[scat n]} =hamster=
 	hando	{[scat n]} =hand=
-	handoa	{[scat n]} =not_properly_closed_door= "han#doa"
+	handoa	{[scat n]} =not_properly_closed_door= "han_HALF_doa"
 	handobaggu	{[scat n]} =handbag=
 	handobakku	{[scat n]} =handbag= "handobaggu"
 	handoru	{[scat n]} =handle=
@@ -493,8 +495,8 @@
 	hoomu	{[scat n]} =home=
 	hoomu	{[scat n]} =platform=
 	hooru	{[scat n]} =hall=
-	daihooru	{[scat n]} =big_hall= "dai#hooru"
-	shoohooru	{[scat n]} =small_hall= "shoo#hooru"
+	daihooru	{[scat n]} =hall= "dai_BIG#hooru"
+	shoohooru	{[scat n]} =hall= "shoo_SMALL#hooru"
 	hoon	{[scat n]} =horn=
 	hoosu	{[scat n]} =hose=
 	hoppu	{[scat n]} =hop=
@@ -871,7 +873,7 @@
 	pen	{[scat n]} =pen=
 	penchi	{[scat n]} =pliers=
 	pengin	{[scat n]} =penguin=
-	kopengin	{[scat n]} =penguin_baby= "ko#pengin"
+	kopengin	{[scat n]} =penguin= "ko_SMALL#pengin"
 	penishirin	{[scat n]} =penicilin=
 	penki	{[scat n]} =wall_paint=
 	penshon	{[scat n]} =pension=
@@ -943,6 +945,7 @@
 	purin	{[scat n]} =flan=
 	purinsesu	{[scat n]} =princess=
 	purittsu	{[scat n]} =pretz_cookies=
+	purojekuto	{[scat n]} =project=
 	puropera	{[scat n]} =propeller=
 	puruun	{[scat n]} =prune=
 	puudoru	{[scat n]} =poodle=
@@ -1015,11 +1018,13 @@
 	reshiito	{[scat n]} =receipt=
 	ressun	{[scat n]} =lesson=
 	resukyuu	{[scat n:vn]} =rescue=
+	resukyuutai	{[scat n]} =rescue= "resukyuu-tai_TROOP"
 	resutoran	{[scat n]} =restaurant=
 	retasu	{[scat n]} =lettuce=
 	retteru	{[scat n]} =label=
 	riakushon	{[scat n]} =reaction=
 	ribon	{[scat n]} =ribbon=
+	rifutingu	{[scat n:vn]} =lifting=
 	riidaa	{[scat n]} =leader=
 	riizunaburu	{[scat n]} =reasonable=
 	rikooda	{[scat n]} =recorder_flute=
@@ -1036,6 +1041,7 @@
 	risaikuru	{[scat n:vn]} =recycle=
 	risutoragokko	{[scat n:vn]} =restructuring_game= "risutora-gokko"
 	robo	{[scat n]} =roboter=
+	roguhausu	{[scat n]} =loghouse=
 	robotto	{[scat n]} =roboter=
 	roketto	{[scat n]} =rocket=
 	rokettodan	{[scat n]} =rocket_bomb= "roketto-dan"
@@ -1117,7 +1123,7 @@
 	shimiizu	{[scat n]} "shumiizu" =chemise=
 	shumiizu	{[scat n]} =chemise=
 	shinamon	{[scat n]} =cinnamon=
-	shintomato	{[scat n]} =new_tomatoes= "shin#tomato"
+	shintomato	{[scat n]} =tomato= "shin_NEW#tomato"
 	shiriaru	{[scat n]} =cereal=
 	shiriizu	{[scat n]} =series=
 	shiroppu	{[scat n]} =syrup=
@@ -1172,7 +1178,7 @@
 	supeesu	{[scat n]} =space=
 	supesharu	{[scat n]} =special=
 	supiido	{[scat n]} =speed=
-	 moosupiido	{[scat n]} =breakneck_speed= "moo#supiido"
+	 moosupiido	{[scat n]} =breakneck_speed= "moo_supiido"
 	supiikaa	{[scat n]} =speaker=
 	supin	{[scat n:vn]} =spin=
 	supinosaurusu	{[scat n]} =spinosaurus=
@@ -1195,6 +1201,7 @@
 	sutekki	{[scat n]} =cane=
 	suteppu	{[scat n]} =step=
 	sutoobu	{[scat n]} =stove=
+	sutoorii	{[scat n]} =story=
 	sutoppu	{[scat n:vn]} =stop=
 	sutoraiku	{[scat n:vn]} =baseball_strike=
 	sutoroberii	{[scat n]} =strawberry=

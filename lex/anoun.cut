@@ -21,15 +21,8 @@
 	atsuatsu	{[scat n:an]} =hot=	% 熱熱 
 	atsuraemuki	{[scat n:an]} =ready_made=	% あつらえ向き  誂え向き 
 	attaka	{[scat n:an]} =warm=	% あったか  暖か/ 温か 
-	attooteki	{[scat n:an]} =overwhelmingly=	"attoo-teki"	% 圧倒的 
-	 booryokuteki	{[scat n:an]} =aggressive=	"ooryoku-teki"	% 暴力的 
-	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku-teki"	% 本格的 
-	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki-teki"	% 画期的 
-	 kasooteki	{[scat n:an]} =disguise_like=	"kasoo-teki"	% 仮装的 
-	 kinooteki	{[scat n:an]} "kinoo-teki" =functional=	% 機能的 
- 	 kisokuteki	{[scat n:an]} "kisoku-teki" =regular=	% 規則的 
- 	 saishuuteki	{[scat n:an]} "saishuu-teki" =finally=	% 最終的 
- 	 saizuteki	{[scat n:an]} "saizu-teki" =concerning_size=	% サイズ的 
+	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku_teki_LIKE"	% 本格的 
+	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki_teki_LIKE"	% 画期的 
 	aware	{[scat n:an]} =miserable=	% 哀れ
 	ayafuya	{[scat n:an]} =vague=	%
 	azayaka	{[scat n:an]} =vivid=	% 鮮やか 
@@ -81,10 +74,10 @@
 	chuutohampa	{[scat n:an]} =half_finished=	% 中途はんぱ 
 	dabudabu	{[scat n:an]} =baggy=	%
 	daiji	{[scat n:an]} =important=	% 大事 
-	daijisoo	{[scat n:an]} =seeming_important= "daiji-soo"	% 大事そう 
+	daijisoo	{[scat n:an]} =important= "daiji-soo_SEEMING"	% 大事そう 
 	daijobu	{[scat n:an]} =alright= "daijoobu"	
 	daijoobu	{[scat n:an]} =alright=	% だいじょうぶ/大丈夫 
-	daijoobusoo	{[scat n:an]} =seeming_alright= "daijoobu-soo"	% だいじょうぶ/大丈夫 
+	daijoobusoo	{[scat n:an]} =alright= "daijoobu-soo_SEEMING"	% だいじょうぶ/大丈夫 
 	daitan	{[scat n:an]} =audacious=	% 大胆 
 	dame	{[scat n:an]} =no_good=	% だめ/駄目 
 	dameq	{[scat n:an]} =no_good= "dame"	% だめ/駄目 
@@ -107,19 +100,19 @@
 	etchi	{[scat n:an]} =dirty_minded=	
 	fuantee	{[scat n:an]} =stable= "fu_NOT#antee"	% 不安定 
 	fuan	{[scat n:an]} =uneasy=	% 不安 
-	%fuansoo	{[scat n:an]} "fuan-soo" =seeming_uneasy=	% 不安そう 
+	fuansoo	{[scat n:an]} "fuan-soo_SEEMING" =uneasy=	% 不安そう 
 	fuben	{[scat n:an]} =unpracticle=	% 不便 
 	fubin	{[scat n:an]} =pitiable=	% ふびん  不 憫 
 	fudoo	{[scat n:an]} =unmoving=	% 不動
 	fukigen	{[scat n:an]} =in_bad_mood=	% 不機嫌
-	fukigensoo	{[scat n:an]} "fukigen-soo" =seeming_bad_mood=	% 不機嫌そう 
+	fukigensoo	{[scat n:an]} "fukigen-soo_SEEMING" =bad_mood=	% 不機嫌そう 
 	fukoohee	{[scat n:an]} =fair= "fu_NOT#koohee"	% 不公平 
 	fukuzatsu	{[scat n:an]} =complicated=	% 複雑 
 	furyoo	{[scat n:an]} =wicked=	% 不良 
 	furyoohin	{[scat n]} =inferior_goods= "furyoo-hin"	% 不良 
 	fushiawase	{[scat n:an]} =misfortune= "fu_NOT#shiawase"	% 不幸せ 
 	fushigi	{[scat n:an]} =marvel=	% 不思議 
-	fushigisoo	{[scat n:an]} "fushigi-soo" =seeming_to_marvel=	% 不思議そう 
+	fushigisoo	{[scat n:an]} "fushigi-soo_SEEMING" =marvel=	% 不思議そう 
 	futotcho	{[scat n:an]} =fatty=
 	fuwafuwa	{[scat n:an]} =fluffy=	%
 	fuyoo	{[scat n:an]} =not_needed=	% 不要
@@ -150,9 +143,9 @@
 	guutara	{[scat n:an]} =idle=	%
 	guuzen	{[scat n:an]} =by_chance=	% 偶然 
 	guzu	{[scat n:an]} =laggard=	% ぐず  愚図 
-	guzukko	{[scat n]} =laggard= "guzu-kko"	% ぐずっこ  愚図 
+	guzukko	{[scat n]} =laggard= "guzu_DIM"	% ぐずっこ  愚図 
 	guzuguzu	{[scat n:an]} =laggard=	% ぐずぐず  愚図愚図 
-	guzuguzukko	{[scat n]} =laggard= "guzuguzu-kko"	% ぐずぐずっこ  愚図 
+	guzuguzukko	{[scat n]} =laggard= "guzuguzu-kko_DIM"	% ぐずぐずっこ  愚図 
 	gyaku	{[scat n:an]} =reverse=	% 逆 
 	gyuugyuu	{[scat n:an]} =squeezed=	%
 	hade	{[scat n:an]} =gaudy=
@@ -194,7 +187,6 @@
 	iyaq	{[scat n:an]} =disgusting= "iya"	% いや/嫌  厭 
 	jama	{[scat n:an]} =obstacle=	% 邪魔 
 	jibunkatte	{[scat n:an]} =selfish=	% 自分かって/自分勝手 
-	jidooteki	{[scat n:an]} =automatic=	% 自動的 
 	jinjoo	{[scat n:an]} =mediocre=	% 
 	jimichi	{[scat n:an]} =sober=	% 地道
 	jiyuu	{[scat n:an]} =free=	% 自由 
@@ -204,6 +196,7 @@
 	jootoo	{[scat n:an]} =superior= % 上等
 	joozu	{[scat n:an]} =skilled=	% じょうず/上手 
 	juubun	{[scat n:an]} =sufficient=	% 十分/充分 
+	juudai	{[scat n:an]} =important=
 	kaichoo	{[scat n:an]} =in_good_shape=	% 快調 
 	kaikai	{[scat n:an]} =itchy=	
 	kakujitsu	{[scat n:an]} =for_certain=	% 確実 

@@ -3,11 +3,47 @@
 
 
 % Verb    (vowel/consonant)
-% 	erab	{[scat v:c]} =select=	% 選ぶ
-%	home	{[scat v:v]} =praise=	% 褒める
-%% lex. compound 
-%	harikae	{[scat v:v]} =repaper= "har_kae"  % 張り替える
-%% synt. compound 
-%	kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	% 壊れかける
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "k"
+	hik	{[scat v:c]} =grind=	%【引く】***
+	sak	{[scat v:c]} =rupture= %	割く		
+	suk	{[scat v:c]} =like= %	好く		
+	yak	{[scat v:c]} =be_jealous=	%【やく】(〈妬く)***
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "r"
+	ayamar	{[scat v:c]} =mistake=	% 【誤る】
+	kur	{[scat v:c]} =wind=  %	繰る		
+	mair	{[scat v:c]} =worship=	%【参る】
+	memor	{[scat v:c]} =put_graded_scale=	%【目盛る】
+	mor	{[scat v:c]} =be_leaky=	%【漏る】
+	mor	{[scat v:c]} =fill_up=	%【盛る】
+	sor	{[scat v:c]} =be_curved=	%【反る】***
+	sur	{[scat v:c]} =rub=	%【擦る】
+	tomar	{[scat v:c]} =stay=	%【泊まる】***
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "s"
+	fukas	{[scat v:c]} =steam=	%【ふかす】(《蒸かす)***
+	makas	{[scat v:c]} =beat=	%【負かす】
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "t"
+	tat	{[scat v:c]} =go_by=	%【経つ】  
+	tat	{[scat v:c]} =depart=	%【発つ】 
+	tat	{[scat v:c]} =cut_off= %	断つ		
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "w"
+	yuw	{[scat v:c]} =bind=	%【結う】
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "e"
+	fuse	{[scat v:v]} =lie_down=	%【臥せる】
+	kake	{[scat v:v]} =gallop=	%【駆ける】
+	kure	{[scat v:v]} =get_dark=	%【暮れる】
+	megake	{[scat v:v]} =aim=	%【目がける/目掛ける】
+	tome	{[scat v:v]} =lodge_sb=	%【泊める】
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "i"
+
+
+%% lex. compound 
+%SAMPLE	harikae	{[scat v:v]} =repaper= "har_kae"  % 張り替える
+
+%% synt. compound 
+%SAMPLE	kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	% 壊れかける
+
+
+% Subsidiary Verb
 nar	{[scat v:c:sub]} =become=     %okake ni naru

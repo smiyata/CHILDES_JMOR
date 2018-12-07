@@ -24,12 +24,13 @@ kokono	{[scat num] [allo OR numJpnTSU numJpnKA]} =nine=
 too	{[scat num] [allo numJpnKA]} =ten= 
 hatsu	{[scat num] [allo numJpnKA]} =twenty= 
 
-hatachi	{[scat num]} =twenty_years_old=
-misoji	{[scat num]} =thirty_years_old=
-ohitori	{[scat num]} =HON_one_person= "o#hito-ri"	% お一人
-ofutari	{[scat num]} =HON_two_persons= "o#futa-ri"	% お二人
-ohitotsu	{[scat num]} =HON_one_piece= "o#hito-tsu"	% お一つ
-mapputatsu	{[scat num]} =in_two_equal_parts= "ma-futa-tsu"  %真っ二つ
+tsuitachi	{[scat num:cl]} =first_day=
+hatachi	{[scat num:cl]} =twenty_years_old=
+misoji	{[scat num:cl]} =thirty_years_old=
+ohitori	{[scat num:cl]} =one= "o_HON#hito-ri_PERSON"	% お一人
+ofutari	{[scat num:cl]} =two= "o_HON#futa-ri_PERSON"	% お二人
+ohitotsu	{[scat num:cl]} =one= "o_HON#hito-tsu_PIECE"	% お一つ
+mapputatsu	{[scat num:cl]} =two= "ma_STRAIGHT-futa-tsu_PIECE"  %真っ二つ
 
 
 %%% CHINESE BASED 					【漢語ベース】

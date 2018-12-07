@@ -293,12 +293,12 @@ hokusee	{[scat n]} "hokusee" =hokusee_train=
 Hokusee	{[scat n]} "hokusee" =hokusee_train=
 Iisokaze	{[scat n]} =iisokaze_train=
 kaisoku	{[scat n]} =semi_express_train=
-kamomegoo	{[scat n]} "kamome-goo" =kamome_train=
+kamomegoo	{[scat n]} "kamome-goo_NR" =kamome_train=
 Keehintoohoku	{[scat n]} "keehintoohoku" =saitama_yokohama_train=
 keehintoohoku	{[scat n]} "keehintoohoku" =saitama_yokohama_train=
 Keehintoohokusen	{[scat n]} "keehintoohoku-sen" =saitama_yokohama_line_train=
 keehintoohokusen	{[scat n]} "keehintoohoku-sen" =saitama_yokohama_line_train=
-kinseegoo	{[scat n]} "kinsee-goo" =kinsee_train=
+kinseegoo	{[scat n]} "kinsee-goo_NR" =kinsee_train=
 Kintetsu	{[scat n]} =kintetsu_train=
 Kintetsu_rubisutaa	{[scat n][comp n:prop+n]} "kintetsu+rubisutaa" =kintetsu_rubystar_train=
 kirishima	{[scat n]} =kirishima_train=
@@ -315,8 +315,8 @@ makkusu	{[scat n]} =max_train=
 meetetsu_panoramasuupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
 Meetetsu_Panorama_suupaa	{[scat n][comp n:prop+n+n]} =Nagoya_railway_panorama_super= "Meetetsu+panorama+suupaa"
 nozomi	{[scat n]} =nozomi_shinkansen_train=
-nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
-Nozomigoo	{[scat n]} "nozomi-goo" =nozomi_shinkansen_train=
+nozomigoo	{[scat n]} "nozomi-goo_NR" =nozomi_shinkansen_train=
+Nozomigoo	{[scat n]} "nozomi-goo_NR" =nozomi_shinkansen_train=
 nozomishinkansen	{[scat n][comp n+n]} =nozomi_shinkansen_train= "nozomi+shinkansen"
 Nyuureddoaroo	{[scat n]} "nyuureddoaroo" =new_red_arrow_train=
 odakyuu	{[scat n]} =odakyu_train=
@@ -330,11 +330,11 @@ haiesuiiromansukaa	{[scat n]} =hi_s_e_romance_car_train=
 sanyoo	{[scat n]} =sanyoo_shinkansen_train=
 sandaabaado	{[scat n]} =thunderbird_train=
 sukairainaa	{[scat n]} =skyliner_train=
-sakuragoo	{[scat n]} "sakura-goo" =sakura_train=
+sakuragoo	{[scat n]} "sakura-goo_NR" =sakura_train=
 sonikku	{[scat n]}  =sonic_train=
 suupaatokachi	{[scat n]}  =super_tokachi_train=
 Suupaatokachi	{[scat n]}  =super_tokachi_train=
-takaragoo	{[scat n]} "takara-goo" =takara_train=
+takaragoo	{[scat n]} "takara-goo_NR" =takara_train=
 tokigoo	{[scat n]} "toki-goo" =toki_train=
 Tomamu_sahoro_ekusupuresu	{[scat n][comp n:prop+n:prop+n]} "Tomamu+Sahoro+ekisupuresu" =Tomamu_Sahoro_express_train=
 toozaisen	{[scat n]} =toozai_train= "toozai-sen"

@@ -1,7 +1,7 @@
 @UTF8
 
 % motherese expressions
-onikai	{[scat num]} "o#ni-kai" =two_floor=
+onikai	{[scat num]} "o_HON#ni-kai_FLOOR" =two=
 %%%%%%%%%%%%
 %%% NOUNS %%%
 %%%%%%%%%%%%
@@ -21,7 +21,7 @@ amaiamai	{[scat n:mot]} =sweet=
 amekonkon	{[scat n:mot]} =rain=
 amekonko	{[scat n:mot]} =rain= "amekonkon"
 ameame	{[scat n:mot]} =candy=
-amekko  {[scat n:mot]} =candy_DIM=
+amekko  {[scat n:mot]} "ame_kko_DIM" =candy=
 amiami	{[scat n:mot]} =net= 	% 網 
 an'yo	{[scat n:mot]} =foot=
 anyo	{[scat n:mot]} =foot=
@@ -367,9 +367,9 @@ hai	{[scat n:vn:mot]} =handing_over=
 doozo	{[scat n:vn:mot]} =handing_over=
 konnichiwa	{[scat n:vn:mot]} =greeting=
 haihai 	{[scat n:vn:mot]} =crawling=
-hakobaregokko	{[scat n:vn:mot]} "hakob-PASS-GER-gokko" =being_carried_game=
+hakobaregokko	{[scat n:vn:mot]} "hakob-PASS-GER-gokko_GAME" =being_carried=
 hakushon 	{[scat n:vn:mot]} =sneezing=
-hambunko	{[scat n:vn:mot]} "hambun-ko" =sharing_DIM=
+hambunko	{[scat n:vn:mot]} "hambun-kko_DIM" =sharing=
 hambunhambun	{[scat n:vn:mot]} =sharing=
 hamehame 	{[scat n:vn:mot]} =fitting_in=
 hiyashihiyashi 	{[scat n:vn:mot]} =cooling=
@@ -409,7 +409,7 @@ maimai	{[scat n:vn:mot]} =turn=
 makimaki	{[scat n:vn:mot]} =turning_around=
 mamagoto {[scat n:vn:mot]} =play_housekeeping=
 mamagoto {[scat n:mot]} =play_housekeeping_set=
-mamagotogokko {[scat n:vn:mot]} "mamagoto-gokko" =housekeeping_game=
+mamagotogokko {[scat n:vn:mot]} "mamagoto-gokko_GAME" =housekeeping=
 mazemaze	{[scat n:vn:mot]} =mixing=
 menkomenko	{[scat n:vn:mot]} =stroking=
 mogumogu	{[scat n:vn:mot]} =chewing=
@@ -480,7 +480,7 @@ tachitachi	{[scat n:vn:mot]} =standing=
 takaitakai	{[scat n:vn:mot]} =hold_over_head=
 takitaki	{[scat n:vn:mot]} =cook=
 tappotappo	{[scat n:vn:mot]} =dripping=
-tatakaigokko	{[scat n:vn:mot]} "tatakaw-GER-gokko" =fighting_game=
+tatakaigokko	{[scat n:vn:mot]} "tatakaw-GER-gokko_GAME" =fighting=
 tatchi	{[scat n:vn:mot]} "tachi" =standing=
 tatta	{[scat n:vn:mot]} =standing=
 togetoge	{[scat n:vn:mot]} =sharp=
@@ -498,26 +498,6 @@ yoishoyoisho 	{[scat n:vn:mot]}	=do_best=
 yubikitta 	{[scat n:vn:mot]}	"yubi_kitta" =promissing_with_hooked_fingers=
 zuru	{[scat n:vn:mot]} =mean=
 
-%%%%%%%% -kko type %%%%%%%%%
-chibikko	{[scat n:mot]} "chibi-kko_DIM" =small_child=
-hipparikko	{[scat n:vn:mot]} "hippari-kko_DIM" =pulling=
-ijiwarukko	{[scat n:vn:mot]} "ijiwaru-kko_DIM" =bullying=
-ijimekko	{[scat n:vn:mot]} "ijime-kko_DIM" =bullying=
-itazurakko	{[scat n:vn:mot]} "itazura-kko_DIM" =doing_mischief=
-kadokko	{[scat n:mot]} =corner= "kado-kko_DIM"
-kaekko	{[scat n:vn:mot]} "kae-kko_DIM" =changing=
-kakekko	{[scat n:vn:mot]} "kake-kko_DIM"  =chasing=
-manekko	{[scat n:vn:mot]} "mane-kko_DIM"  =imitating=
-mazemazekko	{[scat n:vn:mot]} =mixing= "mazemaze-kko_DIM"
-mogurikko	{[scat n:vn:mot]} "mogur-kko_DIM"  =going_under=
-niramekko	{[scat n:vn:mot]} "nirame-kko_DIM" =looking_into_each_other_eyes=
-oikakekko	{[scat n:vn:mot]} "oikake-kko_DIM" =chasing=
-sumikko	{[scat n:mot]} "sumi-kko_DIM" =corner= 	% 隅っこ 
-toriaikko	{[scat n:vn:mot]} "toriai-kko_DIM" =scramble_for=
-torikaekko	{[scat n:vn:mot]} "torikae-kko_DIM" =taking_away_from_each_other=
-tokkaekko	{[scat n:vn:mot]} "torikae-kko_DIM" =taking_away_from_each_other=
-wakekko	{[scat n:vn:mot]}	"wake-kko_DIM"  =sharing=
-zurukko	{[scat n:vn:mot]} "zuru-kko_DIM" =being_mean=
 
 %%%%%%%%%%%%%%%%%%%
 %%% ADJECTIVES %%%

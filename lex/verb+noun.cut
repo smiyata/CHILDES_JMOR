@@ -70,6 +70,7 @@ chikarazuyo	{[scat adj][comp n+adj]} =strong= "chikara+tsuyo"
 kimochi	{[scat adj][comp n+adj]} =feeling_good= "kimochi+i"
 kimochyo	{[scat adj][comp n+adj]} =feeling_good= "kimochi+i"
 kimochiwaru	{[scat adj][comp n+adj]} =feeling_bad= "kimochi+waru"
+kimuzukashi	{[scat adj][comp n+adj]} =fastidious= "ki+muzukashi"
 kyoomibuka	{[scat adj][comp n+adj]} =interesting= "kyoomi+fuka"
 kyoomibukage	{[scat n:an][comp n+adj]} =interesting_seeming= "kyoomi+fuka-ge"
 nakayo	{[scat adj][comp n+adj]} =familiarly= "naka+yo"
@@ -77,6 +78,7 @@ nakayoku	{[scat n:vn][comp n+adj]} =make_friends= "naka+yo-ADV"
 genkiyo	{[scat adj][comp n+adj]} =vigorously= "genki+yo"
 shiokara	{[scat adj][comp n+adj]} =salty= "shio+kara"
 tatenaga	{[scat n][comp n+adj]} =vertically_long= "tate+naga"
+tegaru	{[scat n:an][comp n+adj]} "te+karu" =facile=
 
 kubinagakyooryuu	{[scat n][comp n+adj+n]} =long_necked_dinosaur= "kubi+naga+kyooryuu"
 

@@ -21,7 +21,6 @@
 	atarashi	{[scat adj]} =new=	% 新しい 
 	atataka	{[scat adj]} =warm=	% 暖かい 
 	atsu	{[scat adj]} =hot=	% 暑い 
-%	atsu	{[scat adj]} =thick=	% 厚い 
 	atsubotta	{[scat adj]} =thick=	% 厚ぼったい 
 	atsukamashi	{[scat adj]} =nervy=	% 厚かましい 
 	atsukurushi	{[scat adj]} =too_hot=	% 暑苦しい 

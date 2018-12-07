@@ -2,18 +2,18 @@
 **JMOR08 *************************************Susanne Miyata**2018oct23
 ********************************************************************* 
 
-******** CHANGES in JMOR08 ********2018nov  (database未)
+******** CHANGES in JMOR08 ********2018nov 
 oishikunai adj|oishi-NEG-PRES=tasty -> oishiku nai adj|oishi-ADV=tasty v:ir:sub|ar&NEG-PRES
 tabetakunai v:v|tabe-DESID-NEG-PRES=eat -> tabetaku v:v|tabe-DESID-ADV=eat v:ir:sub|ar&NEG-PRES
 kodomoppokunai  adj|kodomo-ppo_LIKE-NEG-PRES=child  -> kodomoppoku nai adj|kodomo-ppo_LIKE-ADV=child 
 
-NEG&IMP:runa ->  PRES  smod|na=PRH
+NEG&IMP:runa ->  PRES  smod|na=PRH    database OK
 
-n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog
+n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog              (database未)
 o#tegami=HON_letter -> o_HON#tegami=letter  database OK
 
-num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two
-n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week
+num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two    database OK
+n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week              (database未) 
 
 n|hara=abdomen ->  n|hara=abdomen_CLQ   (meshi, ketsu nado) [database ok]
 

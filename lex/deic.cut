@@ -95,39 +95,39 @@ dotchi	{[scat n:deic:wh]} =which=
 %%%%%%%%%%% Personal Nouns	
 	
 anata	{[scat n:deic:prs]} =you=
-anta	{[scat n:deic:prs]} =you=
+anta	{[scat n:deic:prs]} =you_FAM=
 boku	{[scat n:deic:prs]} =i_MASC=
 bokukata	{[scat n:deic:prs]} =we_MASC= "boku-kata"
 jibun	{[scat n:deic:prs]} =self=
+gojibun	{[scat n:deic:prs]} "go_HON#jibun" =self=
 kanojo	{[scat n:deic:prs]} =she=
 kare	{[scat n:deic:prs]} =he=
-kimi	{[scat n:deic:prs]} =you=
+kimi	{[scat n:deic:prs]} =you_CLQ=
 mina	{[scat n:deic:prs]} =all=
 minna	{[scat n:deic:prs]} =all= "mina"
 mukoo	{[scat n:deic:prs]} =they=
-omyaa	{[scat n:deic:prs]} =you=
-omae	{[scat n:deic:prs]} =you=
-ondora	{[scat n:deic:prs]} =you_swine=
+omyaa	{[scat n:deic:prs]} =you_CLQ=
+omae	{[scat n:deic:prs]} =you_CLQ=
+ondora	{[scat n:deic:prs]} =you_swine_CLQ=
 onore	{[scat n:deic:prs]} =self=
-ore	{[scat n:deic:prs]} =i_MASC=
+ore	{[scat n:deic:prs]} =i_MASC_CLQ=
 otaku	{[scat n:deic:prs]} =you=
 uchi	{[scat n:deic:prs]} =we=
-wareware	{[scat n:deic:prs]} =we=
-watakushi	{[scat n:deic:prs]} =i=
+wareware	{[scat n:deic:prs]} =we_FML=
+watakushi	{[scat n:deic:prs]} =i_FML=
 watashi	{[scat n:deic:prs]} =i_FML=
 atashi	{[scat n:deic:prs]} =i_FAM= 
-yatsu	{[scat n:deic:prs]} =thing=
+yatsu	{[scat n:deic:prs]} =thing_CLQ=
 
-
-orera	{[scat n:deic:prs]} =we_PL= "ore-ra"
-yatsura	{[scat n:deic:prs]} =they_PL= "yatsu-ra"
-omaera	{[scat n:deic:prs]} =you_PL= "omae-ra"
-karera	{[scat n:deic:prs]} =they_PL= "kare-ra"
-kimira	{[scat n:deic:prs]} =you_PL= "kimi-ra"
-bokura	{[scat n:deic:prs]} =we_PL= "boku-ra"
-uchira	{[scat n:deic:prs]} =we_PL= "uchi-ra"
-aitsura	{[scat n:deic:prs]} =they_PL= "aitsu-ra"
-koitsura	{[scat n:deic:prs]} =they_PL= "koitsu-ra"
+orera	{[scat n:deic:prs]} =i_MASC_CLQ= "ore-ra_PL"
+yatsura	{[scat n:deic:prs]} =he_CLQ= "yatsu-ra_PL"
+omaera	{[scat n:deic:prs]} =you_CLQ= "omae-ra_PL"
+karera	{[scat n:deic:prs]} =he= "kare-ra_PL"
+kimira	{[scat n:deic:prs]} =you_CLQ= "kimi-ra_PL"
+bokura	{[scat n:deic:prs]} =i_MASC= "boku-ra_PL"
+uchira	{[scat n:deic:prs]} =we_PL= "uchi-ra_PL"
+aitsura	{[scat n:deic:prs]} =he_CLQ= "aitsu-ra_PL"
+koitsura	{[scat n:deic:prs]} =he_CLQ= "koitsu-ra_PL"
 
 %%%%%%%%%%% Indefinites   
 
