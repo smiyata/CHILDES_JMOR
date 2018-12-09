@@ -85,8 +85,10 @@ Hachimanjinja	{[scat n:prop][comp n:prop+n]} =Hakata_shrine= "Hachiman+jinja"
 Hakataeki	{[scat n:prop][comp n:prop+n]} =Hakata_station= "Hakata+eki"
 Hakataningyoo	{[scat n:prop][comp n:prop+n]} =Hakata_doll= "Hakata+ningyoo"
 hakataningyoo	{[scat n:prop][comp n:prop+n]} =Hakata_doll= "Hakata+ningyoo"
-hanshindaishinsai	{[scat n:prop][comp n:prop+n]} =Kobe_earthquake= "Hanshin+dai&shinsai"
-Hanshindaishinsai	{[scat n:prop][comp n:prop+n]} =Kobe_earthquake= "Hanshin+dai&shinsai"
+Handaibyooin	{[scat n:prop][comp n:prop+n]} =Osaka_University_Hospital= "Handai+byooin"
+hanshindaishinsai	{[scat n:prop][comp n:prop+n]} =Great_Hanshin_Earthquake= "Hanshin+dai&shinsai"
+Hanshindaishinsai	{[scat n:prop][comp n:prop+n]} =Great_Hanshin_Earthquake= "Hanshin+dai&shinsai"
+Higashinihondaishinsai	{[scat n:prop][comp n+n:prop+n]} =Great_East_Japan_Earthquake= "higashi+Nihon+dai&shinsai"
 Hawairyokoo	{[scat n:vn][comp n:prop+n:vn]} =Hawaii_trip= "Hawai+ryokoo"
 Henriienjin {[scat n:prop][comp n:prop+n]} =Henry_the_engine= "Henrii+enjin"
 Hesodashiasato	{[scat n:prop][comp n+v:c+n:prop]} =Bellybutton_Asato= "heso+das&GER+Asato"
@@ -94,19 +96,35 @@ Higashiyamadoobutsuen	{[scat n:prop][comp n:prop+n]} =Higashiyama_zoo= "Higashiy
 Higashiyamakooen	{[scat n:prop][comp n:prop+n]} =Higashiyama_park= "Higashiyama+kooen"
 Hinanotokkyuu	{[scat n:prop][comp n:prop+n]} =Hinano_express= "Hinano+tokkyuu"
 Hiroshimahashi	{[scat n:prop][comp n:prop+n]} =Hiroshima_bridge= "Hiroshima+hashi"
+Hiru	{[scat n:prop]} =Hill=
+Homerosu	{[scat n:prop]} =Homer=
 Honkonryoori	{[scat n][comp n:prop+n]} =Hongkong_cuisine=	"Honkon+ryoori"
 Honobonokunpantsu	{[scat n][comp n:prop+n]} =Honobono_panties=	"Honobonokun+pantsu"
 Honochanmama	{[scat n:prop][comp n:prop+n]} =Honokas_mum= "Hono&chan+mama"
 Honochankaijuu {[scat n:prop][comp n:prop+n]} =Monster_Honoka= "Hono&chan+kaijuu"
 Honokakaijuu {[scat n:prop][comp n:prop+n]} =Monster_Honoka= "Honoka+kaijuu"
 Hooeyoochien	{[scat n:prop][comp n:prop+n]} =Hooe_kindergarten= "Hooe+yoochien"
+Hooru	{[scat n:prop]} =Hall=
 Ichimatsuningyoo	{[scat n:prop][comp n:prop+n]} =Ichimatsu_doll= "Ichimatsu+ningyoo"
 Ijiwaruasato	{[scat n:prop][comp n:an+n:prop]} =Malicious_Asato= "ijiwaru+Asato"
+Iiriasu	{[scat n:prop]} =Iliad=
+Ikeda	{[scat n:prop]} =Ikeda=
+Imamura	{[scat n:prop]} =Imamura=
+Ishida	{[scat n:prop]} =Ishida=
+Ishii	{[scat n:prop]} =Ishii=
 izumichanningyoo	{[scat n][comp n:prop+n]} =Izumi_doll=  "Izumi&chan+ningyoo" 
 Izumichanningyoo	{[scat n][comp n:prop+n]} =Izumi_doll=  "Izumi&chan+ningyoo" 
+Izuooshima	{[scat n:prop]} =Izuooshima=
+Jakuson	{[scat n:prop]} =Jackson=
+Jeen	{[scat n:prop]} =Jane=
+Jeen	{[scat n:prop]} =Jeen=
 Jeieichiaaruhombu	{[scat n:prop][comp n:prop+n]} =JHR_headquarters= "Jeieichiaaru+hombu"
+Jiin	{[scat n:prop]} =Jean=
+Jiroo	{[scat n:prop]} =Jiroo=
+Jonson	{[scat n:prop]} =Johnson=
 jooetsushinkansen {[scat n:prop][comp n:prop+n]} =Jooetsu_shinkansen_train= "Jooetsu+shinkansen"
 Jooetsushinkansen {[scat n:prop][comp n:prop+n]} =Jooetsu_shinkansen_train= "Jooetsu+shinkansen"
+Jooji	{[scat n:prop]} =George=
 Joomachikooen	{[scat n:prop][comp n:prop+n]} =Jomachi_park= "Joomachi+kooen"
 Jurichanmama	{[scat n:prop][comp n:prop+n]} =Juris_mum= "Juri&chan+mama"
 Jurikaijuu {[scat n:prop][comp n:prop+n]} =Monster_Juri= "Juri+kaijuu"
@@ -118,13 +136,14 @@ Kakkaomawari{[scat n:prop][comp n:prop+n]} =Police_officer_mum= "Kakka+omawari"
 Kakkashoberukaa	{[scat n][comp n:prop+n+n]} =Kakka_shovel_car= "Kakka+shoberu+kaa"			
 Kitaeki	{[scat n:prop][comp n:prop+n]} =North_station= "Kita+eki"
 Kamakuramatsuri	{[scat n:prop][comp n:prop+n]} =Kamakura_festival= "Kamakura+matsuri"
+kareepanchi	{[scat n:vn][comp n:prop+n:vn]} =Curry_man_punch= "Karee+panchi"
 Kitiichanjuusu	{[scat n:prop][comp n:prop+n]} =Kitty_FAM_juice= "Kiti&chan+juusu"
 Kitaharaeki	{[scat n:prop][comp n:prop+n]} =Kitahara_station= "Kitahara+eki"
 Koganeikooen	{[scat n:prop][comp n:prop+n]} =Koganei_park= "Koganei+kooen"
 Koikechiji	{[scat n:prop][comp n+n]} =governor_Koike= "Koike+chiji"
 Konoekooen	{[scat n:prop][comp n:prop+n]} =Konoe_park= "Konoe+kooen"
+Koonomukairooshi	{[scat n:prop]} =Koonomukairooshi=
 Kotopapa	{[scat n:prop][comp n:prop+n]} =Koto_papa= "Koto+papa"
-Kuriimuojisan	{[scat n:prop][comp n:prop+n]} =Cream_uncle= "Kuriimu+oji-san"
 Kyoototawaa	{[scat n:prop][comp n:prop+n]} =Kyoto_tower= "Kyooto+tawaa"
 Kyuushuuryokoo	{[scat n:prop][comp n:prop+n]} =Kyuushuu_travel= "Kyuushuu+ryokoo"
 Magumataishi	{[scat n:prop][comp n+n]} =ambassador_Magma= "maguma+taishi"
@@ -218,6 +237,7 @@ Seejoohoikuen	{[scat n:prop][comp n:prop+n]} =Seijo_daycare= "Seejoo+hoikuen"
 Seekantonneru	{[scat n:prop][comp n:prop+n]} =Seekan_tunnel= "Seekan+tonneru"
 Seeraasenshi	{[scat n:prop][comp n:prop+n]} =Sailor_moon_soldier= "Seeraa+senshi"
 Sendaieki	{[scat n:prop][comp n:prop+n]} =Sendai_station= "Sendai+eki"
+Sendaishinai	{[scat n][comp n:prop+n]} =metropolitan_Sendai= "Sendai+shinai"
 Shimajiroofuusen	{[scat n][comp n:prop+n]} =Shimajiro_balloon=	"Shimajiroo+fuusen"
 Shimajirooooji	{[scat n][comp n:prop+n]} =Prince_Shimajiro=	"Shimajiroo+ooji"
 Shimajirookaado	{[scat n][comp n:prop+n]} =Shimajiro_card=	"Shimajiroo+kaado"
@@ -226,6 +246,7 @@ Shimajirookunchiimu	{[scat n][comp n:prop+n]} =Shimajiro_team= "Shimajiroo&kun+c
 Shimabaachaneki	{[scat n][comp n:prop+n]} =Shima_granma_FAM_station= "Shima&baa&chan+eki"
 Shinjukueki	{[scat n:prop][comp n:prop+n]} =Shinjuku_station= "Shinjuku+eki"
 Shitennoojidoobutsuen	{[scat n:prop][comp n+n]} =Shitennooji_zoo= "Shitennooji+doobutsu-en"
+Sumaurakooen	{[scat n:prop][comp n:prop+n]} "Sumaura+kooen" =Sumaura_park=
 Taazankaijuu	{[scat n:prop][comp n:prop+n]} =Tarzan_monster= "Taazan+kaijuu"
 Tachigawaeki	{[scat n:prop][comp n:prop+n]} =Tachigawa_station= "Tachigawa+eki"
 Tachigawahoomen	{[scat n:prop][comp n:prop+n]} =direction_of_Tachigawa= "Tachigawa+hoomen"

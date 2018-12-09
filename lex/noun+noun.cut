@@ -5,7 +5,7 @@
 %%%%% REDUPL %%%%%
 %%%%% ADV %%%%%
 %%%%% AN %%%%%
-%%%%% NUMBERS %%%%%
+%%%%% Others %%%%%
 %%%%% NOUNS ONLY %%%%%
 
 
@@ -211,6 +211,7 @@ karendaadoori	{[scat n][comp n+n:fml]} =following_calendar= "karendaa+toori"
 doobutsukakurembokuizu	{[scat n][comp n+n:vn+n]} =animal_hide_and_seek_quiz= "doobutsu+kakurembo+kuizu"
 kumonosujootai		{[scat n][comp n+ptl:attr+n+n]} =cobweb_state= "kumo+no+su+jootai"
 naniouta	{[scat n:deic:wh][comp n:deic:wh+n]} =what_song= "nani+o&uta"
+nanishiiru	{[scat n:deic:wh][comp n:deic:wh+n]} =what_sticker= "nani+shiiru"
 naniasobi	{[scat n:deic:wh][comp n:deic:wh+n:vn]} =what_game= "nani+asobi"
 nanioneechan	{[scat n:deic:wh][comp n:deic:wh+n]} =what_sister= "nani+o&nee-san"
 nanidoobutsuen	{[scat n:deic:wh][comp n:deic:wh+n]} =what_zoo= "nani+doobutsuen"

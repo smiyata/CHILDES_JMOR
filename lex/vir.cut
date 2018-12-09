@@ -112,6 +112,16 @@ irasshaimashita	{[scat v:c][tense past]} =come_POL= "irasshar-POL-PAST"
 irasshaimashite	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-HORT"
 irasshaimashitara	{[scat v:c][tense inf]} =come_POL= "irasshar-POL-COND:tara"
+
+irasshar	{[scat v:c]} =be_POL=	
+irass	{[scat v:c]} =be_POL= "irasshar"
+irasshai	{[scat v:c][tense imp]} =be_POL= "irasshai&IMP" 
+irasshaimasu	{[scat v:c][tense pres]} =be_POL= "irasshar-POL-PRES"
+irasshaimasen	{[scat v:c][tense pres]} =be_POL= "irasshar-POL-NEG:n&PRES"
+irasshaimashita	{[scat v:c][tense past]} =be_POL= "irasshar-POL-PAST"
+irasshaimashite	{[scat v:c][tense inf]} =be_POL= "irasshar-POL-CONN"
+irasshaimashoo	{[scat v:c][tense inf]} =be_POL= "irasshar-POL-HORT"
+irasshaimashitara	{[scat v:c][tense inf]} =be_POL= "irasshar-POL-COND:tara"
 %              	  			 AI-VERBS     	"ossharu"
 osshar	{[scat v:c]} =say_POL=	
 osshaimasu	{[scat v:c][tense pres]} =say_POL= "osshar-POL-PRES"

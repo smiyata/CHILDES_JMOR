@@ -11,6 +11,7 @@
 	akushu	{[scat n:vn]} =handshake=	%【握手】
 	amakudari	{[scat n:vn]} =appointment_from_top=	%【天下り】(天《降り)
 	amayadori	{[scat n:vn]} =take_shelter=	%【雨宿り】
+	amimono	{[scat n:vn]} =knitting= 	% 編み物 
 	annai	{[scat n:vn]} =guidance=	%【案内】
 	annaiban	{[scat n:vn]} =guide_marker= "annai-ban"	%【案内】
 	anshin	{[scat n:vn]} =reassured=	%【安心】
@@ -420,6 +421,8 @@
 	kanoo	{[scat n:vn]} =suppuration=	%【化のう】(化〈膿)
 	kanran	{[scat n:vn]} =viewing=	%【観覧】
 	kanri	{[scat n:vn]} =administration=	%【管理】
+	 kanriryoo	{[scat n]} "kanri-ryoo_FEE" =administration_cost=
+	 kanrishoku	{[scat n]} "kanri-shoku_POST" =management=
 	kanryoo	{[scat n:vn]} =completion=	%【完了】
 	kansatsu	{[scat n:vn]} =observation=	%【観察】
 	kansatsuryoku	{[scat n]} =skill_of_observation= "kansatsu-ryoku"
@@ -478,6 +481,7 @@
 	kenken	{[scat n:vn]} =hopscotch=	%【けんけん】
 	kenkyuu	{[scat n:vn]} =research=	%【研究】
 	kenkyuujo	{[scat n]} =research_institute=	%【研究】
+	kenkyuushitsu	{[scat n]} =research_office=
 	kensa	{[scat n:vn]} =checkup_test=	%【検査】
 	kensatsu	{[scat n:vn]} =ticket_inspection=	%【検札】
 	kensetsu	{[scat n:vn]} =construction=	%【建設】
@@ -561,7 +565,6 @@
 	koshuu	{[scat n:vn]} =cling_to=	%【固執】
 	kosokoso	{[scat n:vn:onoma]} =secretly=	
 	kossetsu	{[scat n:vn]} =bone_fracture=	%【骨折】
-	kotae	{[scat n:vn]} =answer=	%【答え】
 	kotee	{[scat n:vn]} =fixation=	%【固定】
 	kotteri	{[scat n:vn:onoma]} =thickly=	
 	kozaiku	{[scat n:vn]} =petty_tricks=	%【小細工】
@@ -604,6 +607,7 @@
 	miburi	{[scat n:vn]} =gesticulatio=	%
 	mitchaku	{[scat n:vn]} =glued_together=	%【密着】
 	miyamairi	{[scat n:vn] [npform o]} =shrine_visit=	%【宮参り】
+	mochimochi	{[scat n:vn:onoma]} =soft_and_sticky=
 	monomorai	{[scat n:vn]} =begging=
 	muri	{[scat n:vn]} =overstrain=	%【無理】
 	mushi	{[scat n:vn]} =ignore=	%【無視】
@@ -712,11 +716,14 @@
 	setsumee	{[scat n:vn]} =explanation=	%【説明】
 	setsumeesho	{[scat n]} =instruction_manual= "setsumee-sho"	%【説明】
 	settai	{[scat n:vn]} =reception=	%【接待】
+	settee	{[scat n:vn]} =set=
 	sewa	{[scat n:vn]} =assistance=	%【世話】[1]
 	shaberi	{[scat n:vn]} =talk=	%
+	shakkin	{[scat n]} =debt=
 	shakkuri	{[scat n:vn]} =hiccup=	%
 	shiai	{[scat n:vn]} =competition=	%【試合】
-	shigoto	{[scat n:vn] [npform o]} =work=	%【仕事】
+	shien	{[scat n:vn]} =support=
+	shigoto	{[scat n:vn]} =work=	%【仕事】
 	shiken	{[scat n:vn]} =examination=	%【試験】
 	shikkaku	{[scat n:vn]} =disqualification=	%【失格】
 	shimboo	{[scat n:vn]} =patience=	%【辛抱】
@@ -730,6 +737,7 @@
 	shinsatsuken	{[scat n]} =consultation_ticket= "shinsatsu-ken"	%【診察】
 	shiohigari	{[scat n:vn]} =clam_digging=
 	shippai	{[scat n:vn]} =failure=	%【失敗】
+	shirabemono	{[scat n:vn]} =doing_research= 	% 調べ物
 	shirampuri	{[scat n:vn]} =feigning_ignorance=	%【知らん振り】
 	shishoku	{[scat n:vn]} =food_tasting=	%【試食】
 	shishokukai	{[scat n]} =food_tasting_party=	%【試食会】
@@ -779,6 +787,7 @@
 	shuushuu	{[scat n:vn]} =collect=	%【収集】
 	shuuzen	{[scat n:vn]} =mending=	%【修繕】
 	osonae	{[scat n:vn]} =offerings= "o_HON#sonae"	%【お供え】
+	sonzai	{[scat n:vn]} =existence=
 	soodan	{[scat n:vn]} =consultation=	%【相談】
 	soodoo	{[scat n:vn]} =tumult=	%【騒動】
 	oosoodoo	{[scat n:vn]} =tumult=	"oo_BIG#soodoo" %【騒動】
@@ -803,6 +812,8 @@
 	tachioojoo	{[scat n:vn]} =be_stuck=
 	taiboo	{[scat n:vn]} =expectation=	%【待望】
 	taiho	{[scat n:vn]} =arrest=	%【逮捕】
+	taiiku	{[scat n:vn]} =phys_edu=	%【体育】
+	 taiikukan	{[scat n]} "taiiku_kan" =gymn_hall=	%【体育】
 	taiin	{[scat n:vn]} =leaving_hospital=	%【退院】
 	taiji	{[scat n:vn]} =extermination= %【退治】
 	taiki	{[scat n:vn]} =waiting= %【待機】

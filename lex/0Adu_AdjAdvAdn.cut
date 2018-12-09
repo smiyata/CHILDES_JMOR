@@ -2,15 +2,26 @@
 %%%%  Adjective
 %%%% Adverb
 %%%% Adnominal
+%%%% Communicator
+%%%% Deixis
 
 
 %%%%  Adjective
-	atsu	{[scat adj]} =thick=	% 厚い 
+atsu	{[scat adj]} =thick=	% 厚い 
+haya	{[scat adj]} =early=
 
 %%%% Adverb
 %	mada	{[scat adv]} =still=	% いまだ  未だ 	
 
 %%%% Adnominal
 %	chottoshita	{[scat adn]} =little=
+
+%%%% Communicator
+iya	{[scat co:i]} "iyaa" =no=
+
+%%%% Deixis
+mizukara	{[scat n:deic:prs]} =self=
+
+
 
 

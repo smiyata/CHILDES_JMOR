@@ -27,7 +27,7 @@ or	{[scat v:c:sub]} =ASP=
 shimaw	{[scat v:c:sub]} =finish_COMPL= 
 su	{[scat v:ir:sub]} =do= 
 itas	{[scat v:c:sub]} =do_POL= 
-yar	{[scat v:c:sub]} =do= 
+yar	{[scat v:c:sub]} =do_CLQ= 
 
 
 
@@ -57,6 +57,13 @@ irasshaimashite	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-HORT"
 irasshaimashitara	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-COND:tara"
 
+irasshar	{[scat v:c:sub]} =be_POL=	
+irasshaimasu	{[scat v:c:sub] [tense pres]} =be_POL= "irasshar-POL-PRES"
+irasshaimasen	{[scat v:c:sub] [tense pres]} =be_POL= "irasshar-POL-NEG:n"
+irasshaimashita	{[scat v:c:sub] [tense past]} =be_POL= "irasshar-POL-PAST"
+irasshaimashite	{[scat v:c:sub] [tense inf]} =be_POL= "irasshar-POL-CONN"
+irasshaimashoo	{[scat v:c:sub] [tense inf]} =be_POL= "irasshar-POL-HORT"
+irasshaimashitara	{[scat v:c:sub] [tense inf]} =be_POL= "irasshar-POL-COND:tara"
 %                     IMPERATIVE FOSSILES
 
 goran	{[scat v:ir:sub] [tense imp]} =try= "goran&IMP"

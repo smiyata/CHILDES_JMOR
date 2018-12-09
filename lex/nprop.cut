@@ -11,7 +11,7 @@ N_N	{[scat n:prop]} =N_N=  %for anonymization
 Nn	{[scat n:prop]} =Nn=  %for anonymization
 Nko	{[scat n:prop]} =Nko= %for anonymization
 Nchoo	{[scat n:prop]} "N-choo" =N_village=  %for anonymization
-Nshi	{[scat n:prop]} "N-shi" =N_city= %for anonymization
+Nshi	{[scat n:prop]} "N-shi_CITY" =N= %for anonymization
 
 Aabo 	{[scat n:prop]} =Aabo=
 Aanii 	{[scat n:prop]} =Ernie=
@@ -19,27 +19,39 @@ Abu 	{[scat n:prop]} =Abu=
 Adamu	{[scat n:prop]} =Adam=
 Afu	{[scat n:prop]} =Afu=
 Afure	{[scat n:prop]} =Afure=
+Agamemunoon	{[scat n:prop]} =Agamemnon=
+Ago	{[scat n:prop]} =Ago=
 Ai	{[scat n:prop]} =Ai=
 Aichi	{[scat n:prop]} =Aichi_prefecture=
 Aika	{[scat n:prop]} =Aika=
 Aikatsu	{[scat n:prop]} =Aikatsu=
 aikatsu	{[scat n:prop]} =Aikatsu=
 Aiko	{[scat n:prop]} =Aiko=
+Ainu	{[scat n:prop]} =Ainu=
+Aisha	{[scat n:prop]} =Aisha=
 Akachanman	{[scat n:prop]} =Baby_man= "Akachan-man"
 Akachamman	{[scat n:prop]} =Baby_man= "Akachan-man"
 akachamman	{[scat n:prop]} =Baby_man= "Akachan-man"
 Akakage	{[scat n:prop]} =Akakage=
+Akamatsu	{[scat n:prop]} =Akamatsu=
 Akane	{[scat n:prop]} =Akane=
 Akazukin	{[scat n:prop]} =Little_red_cap=
 Aki	{[scat n:prop]} =Aki=
+Akiko	{[scat n:prop]} =Akiko=
 Akio	{[scat n:prop]} =Akio=
+Akitashi	{[scat n:prop]} "Akita-shi_CITY" =Akita=
+Akiu	{[scat n:prop]} =Akiu=
+Akiumachi	{[scat n:prop]} =Akiumachi=
 Akko	{[scat n:prop]} =Akko=
+Amerika	{[scat n:prop]} =America=
+ amerikajin	{[scat n]} "Amerika_jin_PERSON" =American=
 ampamman	{[scat n:prop]} =Beanjam_bun_man= "Ampan-man"
 Ampamman	{[scat n:prop]} =Beanjam_bun_man= "Ampan-man"
 ampammangoo	{[scat n:prop]} =Beanjam_bun_man_train= "Ampan-man-goo"
 Ampammangoo	{[scat n:prop]} =Beanjam_bun_man_train= "Ampan-man-goo"
 Ampamman_kodomo_myuujiamu	{[scat n:prop][comp n:prop+n+n]} =Beanjam_bun_man_childrens_museum= "Ampan&man+kodomo+myuujiamu"
 Ampanman	{[scat n:prop]} =beanjam_bun_man= "Ampan-man"
+Andaason	{[scat n:prop]} =Anderson=
 Andii	{[scat n:prop]} =Andy=
 Anii	{[scat n:prop]} =Annie=
 Ao 	{[scat n:prop]} =Ao=
@@ -72,6 +84,8 @@ Baaba 	{[scat n:prop]} =Granma=
 Babaa 	{[scat n:prop]} =Granma=
 Baba 	{[scat n:prop]} =Baba=
 Babu 	{[scat n:prop]} =Babu=
+Baddo	{[scat n:prop]} =Bud=
+Bahha	{[scat n:prop]} =Bach=
 baikimman	{[scat n:prop]} =Bacteria_man= "Baikin-man"
 Baikimman	{[scat n:prop]} =Bacteria_man= "Baikin-man"
 Baikin	{[scat n:prop]} =Bacteria_man=
@@ -80,11 +94,16 @@ Batako	{[scat n:prop]} =Batako=
 Baroo	{[scat n:prop]} =Baroo_supermarket=
 Beeta	{[scat n:prop]} =Beta=
 Beetaaarufaa	{[scat n:prop]} =Beta_Alpha=
+Beetooben	{[scat n:prop]} =Beethoven=
 Bekutaa	{[scat n:prop]} =Vector=
+Beirii	{[scat n:prop]} =Bailey=
 beniirando	{[scat n:prop]} =Benyland= "Beniirando"
+Beniirando	{[scat n:prop]} =Benyland= 
 Ben	{[scat n:prop]} =Ben=
+Besu	{[scat n:prop]} =Beth=
 Beteriikokooshaku	{[scat n:prop]} =Prince_Beteriiko= "Beteriiko-kooshaku"
 Birii	{[scat n:prop]} =Billy=
+Biru	{[scat n:prop]} =Bill=
 booro	{[scat n:prop]} =Booro_sweets=
 bunchan	{[scat n:prop]} =Bun_FAM= "Bun-chan"
 Bunchan	{[scat n:prop]} =Bun_FAM= "Bun-chan"
@@ -92,6 +111,7 @@ Bigguee	{[scat n:prop]} "Biggu_ee" =B_supermarket=
 Biikuru	{[scat n:prop]} =Biikuru_car=
 Bobu	{[scat n:prop]} =Bob=
 Burajja	{[scat n:prop]} =Burajja=
+Buraun	{[scat n:prop]} =Brown=
 Buu	{[scat n:prop]} =Buu=
 Buuko	{[scat n:prop]} =Buuko=
 Cheri	{[scat n:prop]} =Cheri=
@@ -102,6 +122,10 @@ Chitchi	{[scat n:prop]} =Chitchi=
 Choko	{[scat n:prop]} =Choko=
 Chokoreetoman	{[scat n:prop]} =Chocolate_man= "Chokoreeto-man"
 chuubuyakuhin	{[scat n:prop]} =Chubu_drugstore= "Chuubu_yakuhin"
+Chuugoku	{[scat n:prop]} =China=
+ chuugokugo	{[scat n]} "chuugoku_go_LANGUAGE" =Chinese=
+ chuugokujin	{[scat n]} "chuugoku_jin_PERSON" =Chinese=
+Chuuji	{[scat n:prop]} =Chuji=
 daarin 	{[scat n:prop]} =darling=
 Daburubekutaa 	{[scat n:prop]} =Double_vector=
 Dai	{[scat n:prop]} =Dai=
@@ -114,15 +138,20 @@ dambo	{[scat n:prop]} =Dambo= "Dambo"
 Dangosankyoodai	{[scat n:prop]} =Three_dumpling_brothers= "Dango_san_kyoodai"
 Datto		{[scat n:prop]} =white_rabbit_Datto= 
 Pyonko		{[scat n:prop]} =white_rabbit_Pyonko= 
+Denisu	{[scat n:prop]} =Dennis=
 Diibuidifendaa		{[scat n:prop]} =D_V_fender= 
 Diibuifaiyaazudifendaa		{[scat n:prop]} =D_V_fires_fender= 
+Dikku	{[scat n:prop]} =Dick=
 doitsu	{[scat n:prop]} =Germany=
 Doitsu	{[scat n:prop]} =Germany=
-doitsugo	{[scat n]} "doitsu_go" =German_language=
+ doitsugo	{[scat n]} "doitsu_go_LANGUAGE" =German=  
+ doitsujin	{[scat n]} "doitsu_jin_PERSON" =German=  
 Dokin	{[scat n:prop]} =Dokin=
 dokin	{[scat n:prop]} =Dokin= "Dokin"
 Donarudo	{[scat n:prop]} =Donald=
 Doonatsuman	{[scat n:prop]} =Donuts_man= "Doonatsu-man"
+Doojima	{[scat n:prop]} =Doojima=
+Dookoosha	{[scat n:prop]} =Dookoosha=
 Doraemon	{[scat n:prop]} =Doraemon= 
 doraemon	{[scat n:prop]} =Doraemon= "Doraemon"
 Doragon	{[scat n:prop]} =Dragon= 
@@ -130,9 +159,11 @@ Doragonhoomu	{[scat n:prop]} =Dragon_form=
 Dorami	{[scat n:prop]} =Dorami= 
 dorami	{[scat n:prop]} =Dorami= "Dorami"
 Doremi	{[scat n:prop]} =Doremi=
+Doroshii	{[scat n:prop]} =Dorothy=
 Edii	{[scat n:prop]} =Edii=
 Eebiishiishii	{[scat n:prop]} =Atomic_Bomb_Casualty_Commission=
 Eeko	{[scat n:prop]} =Eeko=
+Eguchi	{[scat n:prop]} =Eguchi=
 Ekka	{[scat n:prop]} =Ekka=
 Emma	{[scat n:prop]} =Yama_god_of_death= "Emma"
 Emma	{[scat n:prop]} =Emma= "Emma"
@@ -148,8 +179,14 @@ Fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
 fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
 Firippu	{[scat n:prop]} =Philip=
 Firumaa	{[scat n:prop]} =Fillmore=
+Fujisan	{[scat n:prop]} =Fujisan=
+Fujisan	{[scat n:prop]} =Mt_Fuji=
+Fureddo	{[scat n:prop]} =Fred=
+Fuudoki	{[scat n:prop]} =Fudoki=
 furansu	{[scat n:prop]} =France=
 Furansu	{[scat n:prop]} =France=
+ furansugo	{[scat n]} "furansu_go_LANGUAGE" =French=  
+ furansujin	{[scat n]} "furansu_jin_PERSON" =French=  
 Furansowa	{[scat n:prop]} =Francois=
 Furasshuman	{[scat n:prop]} =Flash_man= "Furasshu-man"
 Fuuchan	{[scat n:prop]} =Fuu_FAM=
@@ -157,8 +194,6 @@ fuusemman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
 Fuusenman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
 Fuusemman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
 fuusenman	{[scat n:prop]} =Balloon_man= "Fuusen-man"
-tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
-Tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
 Fuufu	{[scat n:prop]} =Fuufu=
 Fuuta	{[scat n:prop]} =Fuuta=
 Fuyumi	{[scat n:prop]} =Fuyumi=
@@ -172,6 +207,7 @@ Gamman	{[scat n:prop]} =Gun_man= "Gan-man"
 Ganko	{[scat n:prop]} =Ganko=
 Gasuto	{[scat n:prop]} =Gust=
 Gen	{[scat n:prop]} =Gen=
+Genjimonogatari	{[scat n:prop]} =The_Tale_of_Genji=
 Gifu	{[scat n:prop]} =Gifu=
 Gingaaman	{[scat n:prop]} =Gingaa_man= "Gingaa-man"
 Godai	{[scat n:prop]} =Godai=
@@ -184,6 +220,7 @@ Goronta	{[scat n:prop]} =Gonta=
 Goodon	{[scat n:prop]} =Gordon=
 Gotoo	{[scat n:prop]} =Gotoo=
 Gujjo	{[scat n:prop]} =Goodjob= 
+Guree	{[scat n:prop]} =Gray=
 Guroria	{[scat n:prop]} =Gloria= "Guroria"
 Hai	{[scat n:prop]} =Hai=
 haiji	{[scat n:prop]} =Heidi= "Haiji"
@@ -194,17 +231,25 @@ Hama 	{[scat n:prop]} =Hama=
 hamigakiman	{[scat n:prop]} =Toothbrush_man= "Hamigaki-man"
 Hamigakiman	{[scat n:prop]} =Toothbrush_man= "Hamigaki-man"
 Hana 	{[scat n:prop]} =Hana=
+Hanako	{[scat n:prop]} =Hanako=
+Handai	{[scat n:prop]} =Osaka_University=
 Hanamaru 	{[scat n:prop]} =Hanamaru=
 Hanasakajiisan	{[scat n:prop]} =Old_man_who_made_the_tree_blossom= "Hanasaka_jiisan"
 Hankyuu	{[scat n:prop]} =Hankyuu_dept_store=
 Hanshin	{[scat n:prop]} =Osaka_Kobe=
 Harii	{[scat n:prop]} =Harry=
+Harima	{[scat n:prop]} =Harima=
+Harisu	{[scat n:prop]} =Harris=
+Harizoonesu	{[scat n:prop]} =Halizones=
+Harue	{[scat n:prop]} =Harue=
+Haruko	{[scat n:prop]} =Haruko=
 Haroo	{[scat n:prop]} =Haroo=
 Haru	{[scat n:prop]} =Haru=
 Haruna 	{[scat n:prop]} =Haruna=
 Hattori 	{[scat n:prop]} =Hattori=
 Hayashi 	{[scat n:prop]} =Hayashi=
 Hazuki 	{[scat n:prop]} =Hazuki=
+Hekutooru	{[scat n:prop]} =Hector=
 Hemuren	{[scat n:prop]} =Hamlin=
 henrii	{[scat n:prop]} =Henry= "Henrii"
 Hidetoshi	{[scat n:prop]} =Hidetoshi=
@@ -234,7 +279,7 @@ Ichijoo	{[scat n:prop]} =Ichijoo=
 Ichiroo	{[scat n:prop]} =Ichiroo=
 Ieroo	{[scat n:prop]} =Yellow=
 Igurisu	{[scat n:prop]} =England=
-igurisu	{[scat n:prop]} =England=
+igurisujin	{[scat n:prop]} "Igurisu_jin_PERSON" =English=
 Iida	{[scat n:prop]} =Iida=
 Iku	{[scat n:prop]} =Iku=
 Ikuta	{[scat n:prop]} =Iku=
@@ -244,6 +289,7 @@ Ion	{[scat n:prop]} =Eon=
 Ionmooru	{[scat n:prop]} =Eon_mall=
 Ishimoto	{[scat n:prop]} =Ishimoto=
 Isshi	{[scat n:prop]} =Isshi=
+Issumbooshi	{[scat n:prop]} =Little_monk_Issumbooshi=
 itaria	{[scat n:prop]} =Italy=
 Itaria	{[scat n:prop]} =Italy=
 Izumi 	{[scat n:prop]} =Izumi=
@@ -264,6 +310,7 @@ Jijii	{[scat n:prop]} =Granpa=
 jiijo	{[scat n:prop]} =Jiijo= "Jiijo"
 Jiijo	{[scat n:prop]} =Jiijo=
 Jimii	{[scat n:prop]} =Jimmy=
+Jimu	{[scat n:prop]} =Jim=
 Joan	{[scat n:prop]} =Joan=
 Jon	{[scat n:prop]} =John=
 Jun	{[scat n:prop]} =Jun=
@@ -288,6 +335,7 @@ Kannon	{[scat n:prop]} =Kannon=
 kannon	{[scat n:prop]} =Kannon=
 Kanta	{[scat n:prop]} =Kanta=
 Kaori	{[scat n:prop]} =Kaori=
+karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	%  
 kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
 Kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
 Karen 	{[scat n:prop]} =Karen=
@@ -296,6 +344,8 @@ Kata 	{[scat n:prop]} =Kata=
 Katoriinu 	{[scat n:prop]} =Catherine=
 Katsudomman	{[scat n:prop]} =Cutlet_rice_man= "Katsudon-man"
 Katsudonman	{[scat n:prop]} =Cutlet_rice_man= "Katsudon-man"
+Kawachi	{[scat n:prop]} =Kawachi=
+Kazuo	{[scat n:prop]} =Kazuo=
 Kayama	{[scat n:prop]} =Kayama=
 Kazu	{[scat n:prop]} =Kazu=
 Kazuki	{[scat n:prop]} =Kazuki=
@@ -317,13 +367,17 @@ Keroppi	{[scat n:prop]} =Keroppi=
 keroppi	{[scat n:prop]} =Keroppi= "Keroppi"
 keroyon	{[scat n:prop]} =Keroyon=
 Kida	{[scat n:prop]} =Kida=
+Kiguchi	{[scat n:prop]} =Kiguchi=
 Kii	{[scat n:prop]} =Kii=
 kiirenjaa	{[scat n:prop]} =Yellow_ranger= "Kiirenjaa"
 Kikii	{[scat n:prop]} =Kikii=
 Kiko	{[scat n:prop]} =Kiko=
 Kimura	{[scat n:prop]} =Kimura=
 Kin	{[scat n:prop]} =Kin=
+Kinai	{[scat n:prop]} =Kinai=
+Kinaikoku	{[scat n:prop]} "Kinai_koku" =Kinai_country=
 Kinkikizzu	{[scat n:prop]} =KinKiKids_pop_duo=
+Kinoshita	{[scat n:prop]} =Kinoshita=
 Kinuta	{[scat n:prop]} =Kinuta=
 kinuta	{[scat n:prop]} =Kinuta= "Kinuta"
 Kiriko	{[scat n:prop]} =Kiriko=
@@ -352,18 +406,25 @@ Koota	{[scat n:prop]} =Koota=
 Koro	{[scat n:prop]} =Koro=
 Koto	{[scat n:prop]} =Koto=
 Kubo	{[scat n:prop]} =Kubo=
+Kuraaku	{[scat n:prop]} =Clark=
 Kuuga	{[scat n:prop]} =Kuuga=
 Kumatta	{[scat n:prop]} =Kumatta=
 Kureyonshin	{[scat n:prop]} =Crayon_shin=
+Kuriimu	{[scat n:prop]} =Cream=
 Kuriki	{[scat n:prop]} =Kuriki=
 Kutchi	{[scat n:prop]} =Kutchi=
 Kyoohee	{[scat n:prop]} =Kyoohee=
+Kyooko	{[scat n:prop]} =Kyooko=
+Kyooto	{[scat n:prop]} =Kyoto=
 Kyuupii	{[scat n:prop]} =QP=
 kyuupii	{[scat n:prop]} =QP= "Kyuupii"
 kyuushuu	{[scat n:prop]} =Kyuushuu= "Kyuushuu"
+Kyuushuu	{[scat n:prop]} =Kyushu= 
 Maafii	{[scat n:prop]} =Murphy=
+Maagaretto	{[scat n:prop]} =Margaret=
 Maasa	{[scat n:prop]} =Martha=
 Machamacha	{[scat n:prop]} =Machamacha=
+Maeda	{[scat n:prop]} =Maeda=
 Maeno	{[scat n:prop]} =Maeno=
 Maguma	{[scat n:prop]} =Magma=
 Maho 	{[scat n:prop]} =Maho=
@@ -398,22 +459,30 @@ Masaki	{[scat n:prop]} =Masaki=
 Maseki	{[scat n:prop]} =Maseki=
 Masuki 	{[scat n:prop]} =Masuki=
 Masuzoe 	{[scat n:prop]} =Masuzoe=
+Matsuda	{[scat n:prop]} =Matsuda=
+Matsumoto	{[scat n:prop]} =Matsumoto=
 Matsuo	{[scat n:prop]} =Matsuo=
+Mearii	{[scat n:prop]} =Mary=
 Mee	{[scat n:prop]} =Mee=
 Meeri	{[scat n:prop]} =Mary=
+Meeson	{[scat n:prop]} =Mason=
 Meetetsu	{[scat n:prop]} =Nagoya_railways=
-Megumi	{[scat n:prop]} =Megumi=
 Meeyaa	{[scat n:prop]} =Mayer=
+Megumi	{[scat n:prop]} =Megumi=
+Mekishiko	{[scat n:prop]} =Mexico=
 Merompanna	{[scat n:prop]} =Melon_bread= 
 merompanna	{[scat n:prop]} =Melon_bread= "Merompanna"
 meronpanna	{[scat n:prop]} =Melon_bread= "Merompanna"
 Meronpanna	{[scat n:prop]} =Melon_bread= "Merompanna"
 Metoro	{[scat n:prop]} =Metoro= 
+Michio	{[scat n:prop]} =Michio=
 Mido	{[scat n:prop]} =Mido=
 Midori	{[scat n:prop]} =Midori=
 midorirenjaa	{[scat n:prop]} =Green_ranger= "Midorirenjaa"
 miffii	{[scat n:prop]} =Miffy= "Miffii"
 Miffii	{[scat n:prop]} =Miffy=
+Miharayama	{[scat n:prop]} =Miharayama=
+Miharayamafunka	{[scat n:prop][comp n:prop+n:vn]} "Miharayama+funka" =the_eruption_of_Miharayama=
 Miho	{[scat n:prop]} =Miho=
 Mika	{[scat n:prop]} =Mika=
 Miki	{[scat n:prop]} =Miki=
@@ -425,6 +494,7 @@ Miko	{[scat n:prop]} =Miko=
 Miku	{[scat n:prop]} =Miku=
 Mimi	{[scat n:prop]} =Mimi=
 Mimirin	{[scat n:prop]} =Mimirin=
+Mimura	{[scat n:prop]} =Mimura=
 Minii	{[scat n:prop]} =Minnie= "Minnii"
 Minnii	{[scat n:prop]} =Minnie=
 minnii	{[scat n:prop]} =Minnie= "Minnii"
@@ -432,6 +502,7 @@ minniimausu	{[scat n:prop]} =Minniemouse= "Minniimausu"
 Mino	{[scat n:prop]} =Mino=
 Minoo	{[scat n:prop]} =Minoo=  %箕面
 Minoru	{[scat n:prop]} =Minoru=
+Miraa	{[scat n:prop]} =Miller=
 Mirai	{[scat n:prop]} =Mirai=
 Miruku	{[scat n:prop]} =Milk=
 Mitsui	{[scat n:prop]} =Mitsui=
@@ -440,6 +511,8 @@ Misutaadoonatsu	{[scat n:prop]} =Misterdonuts_foodchain= "Misutaa_doonatsu"
 Misutaadoonattsu	{[scat n:prop]} =Misterdonuts_foodchain= "Misutaa_doonatsu"
 Mitsuru	{[scat n:prop]} =Mitsuru=
 Miya	{[scat n:prop]} =Miya=
+Miyakejima	{[scat n:prop]} =Miyakejima=
+Miyamoto	{[scat n:prop]} =Miyamoto=
 Miyata	{[scat n:prop]} =Miyata=
 Miyoko	{[scat n:prop]} =Miyoko=
 Mizu	{[scat n:prop]} =Mizu=
@@ -455,26 +528,32 @@ mononoke	{[scat n:prop]} =Mononoke= "Mononoke"
 monshirochoo	{[scat n:prop]} =Monshirochoo=
 Monta	{[scat n:prop]} =Monta=
 Moo	{[scat n:prop]} =Moo=
+Mootsaruto	{[scat n:prop]} =Mozart=
 mosubaagaa	{[scat n:prop]} =Mosburger_foodchain= "Mosubaagaa"
 Motoki	{[scat n:prop]} =Motoki=
 Motomachi	{[scat n:prop]} =Motomachi=
 Muchimura	{[scat n:prop]} =Muchimura=
 mukku	{[scat n:prop]} =Mukku= "Mukku"
 Murakawa	{[scat n:prop]} =Murakawa=
+Murayama	{[scat n:prop]} =Murayama=
 Mushamushapoo	{[scat n:prop]} =Mushamushapoo=
 Muu	{[scat n:prop]} =Muu=
 Muumin	{[scat n:prop]} =Muumin=
 muumin	{[scat n:prop]} =Muumin= "Muumin"
 Nagano	{[scat n:prop]} =Nagano=
 Nagoya	{[scat n:prop]} =Nagoya=
-Nagoyaben	{[scat n:prop]} =Nagoya_accent= "Nagoya-ben"
+Nagoyaben	{[scat n:prop]} =Nagoya= "Nagoya-ben_ACCENT"
 Nanami	{[scat n:prop]} =Nanami=
 Nagashima	{[scat n:prop]} =Nagashima=
+Nakayama	{[scat n:prop]} =Nakayama=
+Nanshii	{[scat n:prop]} =Nancy=
+Nanzenjiha	{[scat n:prop]} "Nanzen_ji_ha" =Nanzenji_sect=
 Naoto	{[scat n:prop]} =Naoto=
 Nara 	{[scat n:prop]} =Nara=
 Naraken 	{[scat n:prop]} =Nara_prefecture= "Nara-ken"
 Naru 	{[scat n:prop]} =Naru=
 Natchan	{[scat n:prop]} =Natchan=
+Natorishi	{[scat n:prop]} "Natori-shi_CITY" =Natori=
 Natsuki	{[scat n:prop]} =Natsuki=
 Natsumi	{[scat n:prop]} =Natsumi=
 Nezumi	{[scat n:prop]} =Mouse=
@@ -482,7 +561,9 @@ Neechan	{[scat n:prop]} =Older_Sister_FAM=
 Niida	{[scat n:prop]} =Niida=
 Nihon	{[scat n:prop]} =Japan=
 Nippon	{[scat n:prop]} =Japan_FML=
-nihongo	{[scat n:prop]} "nihon_go" =Japanese_language=
+ nihongo	{[scat n:prop]} "nihon_go_LANGUAGE" =Japanese=
+ nihonjin	{[scat n:prop]} "nihon_jin_PERSON" =Japanese=
+ nihonrekishi	{[scat n][comp n:prop+n]} "Nihon+rekishi" =Japanese_history=
 Nikoniko	{[scat n:prop]} =Nikoniko=
 ninninjaa	{[scat n:prop]} =Ninninjaa=
 Ninomiya	{[scat n:prop]} =Ninomiya=
@@ -490,6 +571,7 @@ Nishimura	{[scat n:prop]} =Nishimura=
 Nishiyama	{[scat n:prop]} =Nishiyama=
 Nobita	{[scat n:prop]} =Nobita=
 Nobu	{[scat n:prop]} =Nobu=
+Nobuo	{[scat n:prop]} =Nobuo=
 Nogo	{[scat n:prop]} =Nogo= 
 Noi	{[scat n:prop]} =Noi=
 nokochan	{[scat n:prop]} =Noko_FAM= "Noko-chan"
@@ -499,17 +581,20 @@ Nonnon	{[scat n:prop]} =Nonnon=
 nonnon	{[scat n:prop]} =Nonnon= "Nonnon"
 Nono	{[scat n:prop]} =Nono= 
 Nookazuki 	{[scat n:prop]} =Nookazuki=
+Noosukingu	{[scat n:prop]} =Noosukingu=
 Nooto 	{[scat n:prop]} =Nooto=
-Nyandaakamen 	{[scat n:prop]} =mighty_cat_mask_Niyander=
-karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	%  
 nopperaboo	{[scat n:prop]} =ghost_flat_Nopperaboo=	% のっぺらぼう 
-rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	%  
+Nyandaakamen 	{[scat n:prop]} =mighty_cat_mask_Niyander=
+Nyuuyooku	{[scat n:prop]} =New_York=
 choochinobake	{[scat n:prop]} =ghost_lantern_Choochinnobake=	%  
 Nori	{[scat n:prop]} =Nori= 
 Noriko 	{[scat n:prop]} =Noriko=
 Nozomi 	{[scat n:prop]} =Nozomi=
+Odiosu	{[scat n:prop]} =Odius=
+Odusseeaa	{[scat n:prop]} =Odysseia=
+Ogawa	{[scat n:prop]} =Ogawa=
 Oguchi 	{[scat n:prop]} =Oguchi=
-Mamaremon 	{[scat n:prop]} =detergent=
+Okinawa	{[scat n:prop]} =Okinawa=
 Oho 	{[scat n:prop]} =Oho=
 Ojiichan 	{[scat n:prop]} =HON_Granpa_FAM=
 Obaachan 	{[scat n:prop]} =HON_Granma_FAM=
@@ -518,6 +603,7 @@ Ojamajodoremi 	{[scat n:prop]} =Ojamajodoremi= "Ojamajo_doremi"
 Okaachan 	{[scat n:prop]} =HON_Mother_FAM=
 Okaasan 	{[scat n:prop]} =HON_Mother_HON=
 Kaachan 	{[scat n:prop]} =Mother_FAM=
+Ookawa	{[scat n:prop]} =Okawa=
 Ompu 	{[scat n:prop]} =Musical_note=
 Omuraisu	{[scat n:prop]} =Omelet_rice= 
 Omusubiman	{[scat n:prop]} =Riceball_man= "Omusubi-man"
@@ -534,17 +620,20 @@ Ookido	{[scat n:prop]} =Ookido=
 Oonakku	{[scat n:prop]} =Oonakku=
 Oorora	{[scat n:prop]} =Aurora= 
 Oosaka	{[scat n:prop]} =Osaka=
-Oosakaben	{[scat n:prop]} =Osaka_accent= "Oosakaben"
+Oosakaben	{[scat n:prop]} =Osaka= "Oosaka-ben_ACCENT"
+Oota	{[scat n:prop]} =Ota=
 Orenjimaaketto	{[scat n:prop]} "Orenji_maaketto" =O_supermarket=
 Osembeeman	{[scat n:prop]} =Rice_cookie_man= "Osembee-man"
 Osumookuma 	{[scat n:prop]} =HON_Sumo_bear= "Osumoo_kuma"
 Otoochan 	{[scat n:prop]} =HON_Father_FAM=
 Otoosan 	{[scat n:prop]} =HON_Father_HON=
 Toosan 	{[scat n:prop]} =Father_HON=
-Oozu 	{[scat n:prop]} =Ooozu=
-Ooozu 	{[scat n:prop]} =Ooozu=
 Toochan 	{[scat n:prop]} =Father_FAM=
 Toochin 	{[scat n:prop]} =Father_FAM=
+Oozu 	{[scat n:prop]} =Ooozu=
+Ooozu 	{[scat n:prop]} =Ooozu=
+Ottoo	{[scat n:prop]} =Otto=
+Oyama	{[scat n:prop]} =Oyama=
 Oyayubi 	{[scat n:prop]} =Thumb=
 Paaman	{[scat n:prop]} =Perman=
 paashi	{[scat n:prop]} =Percy= "Paashii"
@@ -583,12 +672,14 @@ Pon 	{[scat n:prop]} =Pon=
 Ponkichi	{[scat n:prop]} =Ponkichi=
 ponkikki	{[scat n:prop]} =Ponkikki= "Ponkikki"
 Poo	{[scat n:prop]} =Poo=
+Pooru	{[scat n:prop]} =Paul=
 Popai	{[scat n:prop]} =Popeye=
 Popo	{[scat n:prop]} =Popo=
 Poppo	{[scat n:prop]} =Poppo=
 Porori	{[scat n:prop]} =Porori=
 Puu	{[scat n:prop]} =Pooh=
 puu	{[scat n:prop]} =Pooh= "Puu"
+Puriamosuoo	{[scat n:prop]} "Puriamosu_oo" =King_Priam=
 Purikyua	{[scat n:prop]} =Precure=
 Puripara	{[scat n:prop]} =PriPara=
 purichike	{[scat n]} =PriPara_ticket=
@@ -611,10 +702,13 @@ Rainarobo	{[scat n:prop]} =Liner_robo=
 Ree	{[scat n:prop]} =Ree=
 Reeko	{[scat n:prop]} =Reeko=
 Reena	{[scat n:prop]} =Reena=
+Repoman	{[scat n:prop]} =Repoman=
 Resshii	{[scat n:prop]} =Resshii=
 Ribon_no_kishi	{[scat n:prop]} =Princess_Knight=
 Rie	{[scat n:prop]} =Rie=
 Riechanoniichan	{[scat n:prop]} =Sister_Rie_FAM= "Rie-chan-oniichan"
+Rii	{[scat n:prop]} =Lee=
+Riizu	{[scat n:prop]} =Leeds=
 Rika	{[scat n:prop]} =Rika=
 Rikkii	{[scat n:prop]} =Rickey=
 Rimu	{[scat n:prop]} =Rimu=
@@ -624,24 +718,31 @@ Risako 	{[scat n:prop]} =Risako=
 Risuko 	{[scat n:prop]} =Risuko=
 robokon	{[scat n:prop]} =Robokon= "Robokon"
 Rokomo	{[scat n:prop]} =Locomo= 
+rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	%  
 Roorupanna	{[scat n:prop]} =Roll_pan=
 roorupanda	{[scat n:prop]} =Roll_pan=
 roorupanna	{[scat n:prop]} =Roll_pan=
 Rooson	{[scat n:prop]} =Lawson_supermarket=
+Rosanzerusu	{[scat n:prop]} =Los_Angeles=
 Rui	{[scat n:prop]} =Louis=
 Ruka	{[scat n:prop]} =Ruka=
 Ruru	{[scat n:prop]} =Lulu=
 Ryoo	{[scat n:prop]} =Ryoo=
 Ryooji	{[scat n:prop]} =Ryooji=
+Ryooko	{[scat n:prop]} =Ryooko=
 Ryoota	{[scat n:prop]} =Ryoota=
 Ryooto 	{[scat n:prop]} =Ryooto=
 Ryuuma	{[scat n:prop]} =Ryuuma=
 Ryuunosuke	{[scat n:prop]} =Ryuunosuke=
+Sachiko	{[scat n:prop]} =Sachiko=
 Sae	{[scat n:prop]} =Sae=
 Sai	{[scat n:prop]} =Sai=
 Saijoo	{[scat n:prop]} =Saijoo=
 Saika	{[scat n:prop]} =Saika=
+Sakaigawa	{[scat n:prop]} "Sakai_gawa" =Sakai_river=
+Sakamoto	{[scat n:prop]} =Sakamoto=
 Sakura	{[scat n:prop]} =Sakura=
+Sanfuranshisuko	{[scat n:prop]} =San_Francisco=
 Sankaku	{[scat n:prop]} =Triangle=
 Sannomiya	{[scat n:prop]} =Sannomiya=
 Santa	{[scat n:prop]} =Santa=
@@ -651,9 +752,11 @@ santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
 Santakuroosu	{[scat n:prop]} =StClaus= "Santa_kuroosu"
 santorii	{[scat n:prop]} =Suntory_brewing_company= "Santorii"
 Santorii	{[scat n:prop]} =Suntory_brewing_company= 
+Sasaki	{[scat n:prop]} =Sasaki=
 Sasano	{[scat n:prop]} =Sasano=
 Sato	{[scat n:prop]} =Sato=
 Satoshi	{[scat n:prop]} =Satoshi=
+Sauudo	{[scat n:prop]} =Saud=
 Sayaka	{[scat n:prop]} =Sayaki=
 Sayu	{[scat n:prop]} =Sayu=
 Sayumi	{[scat n:prop]} =Sayumi=
@@ -663,9 +766,13 @@ Sebunirebun	{[scat n:prop]} =Seven_eleven_supermarket=
 Seeji	{[scat n:prop]} =Seeji=
 seekyoo	{[scat n:prop]} =Coop_store= "Seekyoo"
 seeraamuun	{[scat n:prop]} =Sailor_moon= "Seeraamuun"
+Sendai	{[scat n:prop]} =Sendai=
+Sendaishi	{[scat n:prop]} =Sendai= "Sendai-shi_CITY"
+Settsu	{[scat n:prop]} =Settsu=
 Shadooarufaa	{[scat n:prop]} =Shadow_alpha= 
 shadooarufaa	{[scat n:prop]} =Shadow_alpha= "Shadooarufaa"
 Shadoobeeta	{[scat n:prop]} =Shadoo_beta= 
+Sheera	{[scat n:prop]} =Sheera=
 Shigeo	{[scat n:prop]} =Shigeo=
 Shiiwaarudo	{[scat n:prop]} =Seaworld_aquarium=
 Shima	{[scat n:prop]} =Shima=
@@ -674,6 +781,9 @@ shimajiroo	{[scat n:prop]} =Shimajiroo= "Shimajiroo"
 Shimako	{[scat n:prop]} =Shimako=
 Shimano	{[scat n:prop]} =Shimano=
 Shimaro	{[scat n:prop]} =Shimaro=
+Shimizu	{[scat n:prop]} =Shimizu=
+Shimoda	{[scat n:prop]} =Shimoda=
+Shimomasuda	{[scat n:prop]} =Shimomasuda=
 Shin	{[scat n:prop]} =Shim=
 Shinderera	{[scat n:prop]} =Cinderella=
 Shingo	{[scat n:prop]} =Shingo=
@@ -696,21 +806,31 @@ Soka	{[scat n:prop]} =Soka=
 Sorao	{[scat n:prop]} =Sorao=
 sorao	{[scat n:prop]} =Sorao= "Sorao"
 Sorari	{[scat n:prop]} =Sorari=
+Sugita	{[scat n:prop]} =Sugita=
+Sugiyama	{[scat n:prop]} =Sugiyama=
 sukaikeeburu	{[scat n:prop]} =Skycable_cablecar=
 sukaitsurii	{[scat n:prop]} =Skytree_building=
+Sumanoseki	{[scat n:prop]} "Suma_no_seki" =barrier_of_Suma=
 Sumappu	{[scat n:prop]} =Smap_pop_band=
 Sumida	{[scat n:prop]} =Sumida=
 Sumire	{[scat n:prop]} =Sumire=
+Sumisu	{[scat n:prop]} =Smith=
 Suneo	{[scat n:prop]} =Suneo=
 suneo	{[scat n:prop]} =Suneo= "Suneo"
 Sunuupii	{[scat n:prop]} =Snoopy=
 sunuupii	{[scat n:prop]} =Snoopy=
+Supeen	{[scat n:prop]} =Spain=
+ supeengo	{[scat n]} "supeen_go_LANGUAGE" =Spanish= 
+ supeenjin	{[scat n]} "supeen_jin_PERSON" =Spanish= 
+Shibayamazenkeerooshi	{[scat n:prop]} "Shibayama_Zenkee_rooshi" =Abbot_Shibayama_Zenkei=
 supekutoruman	{[scat n:prop]} =Spector_man= "Supekutoru-man"
 Supuraito	{[scat n:prop]} =Sprite=
 Suriiwai	{[scat n:prop]} =YYY_toy_shop=
 Suzuka	{[scat n:prop]} =Suzuka=
 sebunirebun	{[scat n:prop]} =Seven_eleven_conv_store=
 Sebunirebun	{[scat n:prop]} =Seven_eleven_conv_store=
+Sutiibu	{[scat n:prop]} =Steve=
+Suzukiyoshinori	{[scat n:prop]} "Suzuki_Yoshinori" =Suzuki_Yoshinori=
 Suu	{[scat n:prop]} =Sue=
 Suutaroo	{[scat n:prop]} =Suutaroo=
 Suuze	{[scat n:prop]} =Suse=
@@ -719,7 +839,10 @@ Suzuki	{[scat n:prop]} =Suzuki=
 Taa	{[scat n:prop]} =Taa=
 Taazan	{[scat n:prop]} =Tarzan=
 Tae	{[scat n:prop]} =Tae=
+Taguchi	{[scat n:prop]} =Taguchi=
 Tai	{[scat n:prop]} =Tai=
+Taihakuku	{[scat n:prop]} "Taihaku_ku_WARD" =Taihaku_ward=
+Taikanokaishin	{[scat n:prop]} "Taika_no_kaishin" =the_Taika_Reform=
 taimuretto	{[scat n:prop]} =Timelet= "Taimuretto"
 Taimuarufa	{[scat n:prop]} =Time_alpha=
 Taimufaiaa	{[scat n:prop]} =Time_fire=
@@ -746,11 +869,14 @@ Taitan	{[scat n:prop]} =Titan=
 Taitansoodo	{[scat n:prop]} =Titan_sword=
 Taka	{[scat n:prop]} =Taka=
 Takako	{[scat n:prop]} =Takako=
-Takashimaya	{[scat n:prop]} =Takashimaya_dept_store=
+Takashimaya	{[scat n:prop]} "Takashima_ya" =Takashimaya_dept_store=
+Takayama	{[scat n:prop]} =Takayama=
 Takuma	{[scat n:prop]} =Takuma=
 Takumi	{[scat n:prop]} =Takumi=
+Takuto	{[scat n:prop]} =Takuto=
 Tama	{[scat n:prop]} =Tama=
 Tamago	{[scat n:prop]} =Egg=
+Tanaka	{[scat n:prop]} =Tanaka=
 Tanao	{[scat n:prop]} =Tanao=
 Tappa	{[scat n:prop]} =Tappa=
 Tara	{[scat n:prop]} =Tara=
@@ -762,11 +888,15 @@ Temmaya	{[scat n:prop]} =Temmaya_dept_store=
 Tennoo	{[scat n:prop]} =Tenno=
 Tennooheeka	{[scat n:prop]} =His_majiesty_the_Tenno= "Tennoo_heeka"
 Tenjin	{[scat n:prop]} =heavenly_gods=
-Tenrishi 	{[scat n:prop]} =Tenri_city= "Tenri-shi"
+Tenrishi 	{[scat n:prop]} =Tenri= "Tenri-shi_CITY"
 Tenrioonomikoto	{[scat n:prop]} =Tenri_O_no_Mikoto=
+Terii	{[scat n:prop]} =Terry=
 Tetsuaaru	{[scat n:prop]} =Iron_R=
+tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
+Tetsudooman	{[scat n:prop]} =Railway_man= "Tetsudoo-man" 
 tetsujin_nijuuhachigoo	{[scat n:prop]} =iron_man_number28= "Tetsujin_nijuuhachigoo"
 tetsujinnijuuhachigoo	{[scat n:prop]} =iron_man_number28= "Tetsujin_nijuuhachigoo"
+Toda	{[scat n:prop]} =Toda=
 toizarasukizzu 	{[scat n:prop]} =Toyzrus_kids= "Toizarasu_kizzu"
 Tokio	{[scat n:prop]} =Tokio_music_band=
 Tomi 	{[scat n:prop]} =Tomi=
@@ -775,6 +905,7 @@ Tomito 	{[scat n:prop]} =Tomito=
 Tomo 	{[scat n:prop]} =Tomo=
 Tomu 	{[scat n:prop]} =Tom=
 Toobee	{[scat n:prop]} =Toobee=
+Toohoku	{[scat n:prop]} =Toohoku=
 Tookyoo	{[scat n:prop]} =Tokyo=
 Toomasu	{[scat n:prop]} =Thomas= 
 toomasu	{[scat n:prop]} =Thomas= "Toomasu"
@@ -793,9 +924,13 @@ totoro	{[scat n:prop]} =Totoro=
 Tsuma	{[scat n:prop]} =Tsuma=
 Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
 Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
+Tsuchita	{[scat n:prop]} =Tsuchita=
 Tsuchiyama	{[scat n:prop]} =Tsuchiyama=
 Uchimura	{[scat n:prop]} =Uchimura=
+Uchitsukoku	{[scat n:prop]} =Uchitsukoku=
+Ueda	{[scat n:prop]} =Ueda=
 Uemuromo	{[scat n:prop]} =Uemuromo=
+Ueno	{[scat n:prop]} =Ueno=
 Uno	{[scat n:prop]} =Uno=
 Uonuma	{[scat n:prop]} =Uonuma=
 Urashimataroo	{[scat n:prop]} =Urashimataroo=
@@ -809,12 +944,24 @@ Wakuwaku	{[scat n:prop]} =Wakuwaku=
 Wan	{[scat n:prop]} =Wan=
 wanwanwandaarando	{[scat n:prop]} =Woof_Wonderland_TV=
 Waseda	{[scat n:prop]} =Waseda=
+Webusutaa	{[scat n:prop]} =Webster=
+Wiruson	{[scat n:prop]} =Wilson=
 Yadamon	{[scat n:prop]} =Hate_it=
 Yakisobapanman	{[scat n:prop]} =Buckwheat_noodle_man= "Yakisobapan-man"
 Yakuruto	{[scat n:prop]} =Yakuruto_yoghurt=
 yakuruto	{[scat n:prop]} =Yakuruto_yoghurt= "Yakuruto"
+Yamada	{[scat n:prop]} =Yamada=
+Yamaguchi	{[scat n:prop]} =Yamaguchi=
+Yamakawa	{[scat n:prop]} =Yamakawa=
 Yamato	{[scat n:prop]} =Yamato=
+Yamamoto	{[scat n:prop]} =Yamamoto=
+Yamano	{[scat n:prop]} =Yamano=
+Yamashiro	{[scat n:prop]} =Yamashiro=
+Yamazaki	{[scat n:prop]} =Yamazaki=
 Yan	{[scat n:prop]} =Yan=
+Yooroppa	{[scat n:prop]} =Europe=
+Yoshida	{[scat n:prop]} =Yoshida=
+Yoshiko	{[scat n:prop]} =Yoshiko=
 Yasuko	{[scat n:prop]} =Yasuko=
 Yattaman	{[scat n:prop]} =Success_man= "Yatta-man"
 Yokohamakoo	{[scat n:prop]} =Yokohama_harbor= "Yokohama-koo"
@@ -827,9 +974,12 @@ Yoshimi	{[scat n:prop]} =Yoshimi=
 Yosshin	{[scat n:prop]} =Yosshin=
 Yukari	{[scat n:prop]} =Yukari=
 Yuki	{[scat n:prop]} =Yuki=
+Yukiguni	{[scat n:prop]} =Yukiguni=
+Yukiko	{[scat n:prop]} =Yukiko=
 Yuri	{[scat n:prop]} =Yuri=
 Yuu	{[scat n:prop]} =Yuu=
 Yuuki	{[scat n:prop]} =Yuuki=
+Yuuko	{[scat n:prop]} =Yuuko=
 Yuuna	{[scat n:prop]} =Yuuna=
 Yuusuke	{[scat n:prop]} =Yuusuke=
 Yuuta	{[scat n:prop]} =Yuuta=

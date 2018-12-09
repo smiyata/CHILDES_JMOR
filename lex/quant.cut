@@ -49,11 +49,12 @@ yooke	{[scat quant]} =much=	%ようけ
 maitsuki	{[scat quant]} "mai_EVERY#tsuki" =month= 	% 毎月 
 maiasa	{[scat quant]} "mai_EVERY#asa" =morning= 	% 毎朝
 maiban	{[scat quant]} "mai_EVERY#ban" =evening= 	% 毎晩 
-	mainichi	{[scat quant]} "mai_nichi" =every_day= 	% 毎日  changed to quant
-	maikai	{[scat quant]} "mai_kai" =every_time= 	% 毎回
-	maishuu	{[scat quant]} "mai_shuu" =every_week= 	% 毎週
+	mainichi	{[scat quant]} "mai_EVERY_nichi" =every_day= 	% 毎日  changed to quant
+	maikai	{[scat quant]} "mai_EVERY_kai" =every_time= 	% 毎回
+	maishuu	{[scat quant]} "mai_EVERY_shuu" =every_week= 	% 毎週
 ryoohoo	{[scat quant]} "ryoo_BOTH#hoo" =direction= 	% 両方  changed to quant
 ryoome	{[scat quant]} "ryoo_BOTH#me" =eye= 	% 両方  
 ryoote	{[scat quant]} "ryoo_BOTH#te" =hand= 	% 両手  
 ryooashi	{[scat quant]} "ryoo_BOTH#ashi" =foot= 	% 両足  
+ryookata	{[scat quant]} "ryoo_BOTH#kata" =shoulder= 	% 両肩
 ryoomen	{[scat quant]} "ryoo_BOTH#men" =side= 	% 両面

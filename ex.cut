@@ -1,5 +1,12 @@
 @UTF8
 @Color words:	SUS 1 61423 7967 7453 
+num:cl|shi-en_YEN=four ""shien"
+num:cl|go-byoo_SEC-ki_MACHINE=five "gobyooki"
+num:cl|dare-ka_DAY=who "darekaz"
+n|ki-yoo_FOR=tree "kiyoo"
+n|ki-yoo_FOR=spirit "kiyoo"
+n|ichi-go_AFTER=place "ichigo" n|ichi-go_AFTER=market "ichigo"
+v:c|umar-POT-ASP-NEG-PRES=be_buried "umaretenai"
 num:cl|go-ji_LETTER-bun_PORTION=five "gojibun"
 num:cl|go-ji_OCLOCK-bun_PORTION=five "gojibun"
 n|mochi-tsuki_WITH=rice_cake "mochitsuki"

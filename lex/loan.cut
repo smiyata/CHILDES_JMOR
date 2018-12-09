@@ -745,6 +745,7 @@
 	mejaa	{[scat n]} =measure=
 	memo	{[scat n:vn]} =note_taking=
 	memo	{[scat n]} =memo=
+	memochoo	{[scat n]} "memo-choo_BINDER" =memo=
 	mensooru	{[scat n]} =menthol=
 	mensoreetamu	{[scat n]} =mentholatum=
 	mensore	{[scat n]} =mentholatum=

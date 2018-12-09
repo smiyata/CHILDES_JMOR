@@ -256,6 +256,7 @@
 	hamusandoitchi	{[scat n][comp n+n]} =ham_sandwich= "hamu+sandoitchi"
 	hamusarada	{[scat n][comp n+n]} =ham_salad= "hamu+sarada"
 	happiiendo	{[scat n][comp n+n]} =happy_end= "happii+endo"
+	happiisetto	{[scat n][comp n+n]} =happy_set= "happii+setto"
 	hayashiraisu	{[scat n][comp n+n]} =rice_with_hashed_meat= "hayashi+raisu"
 	hearooshon	{[scat n][comp n+n]} =hair_lotion= "hea+rooshon"
 	heasupuree	{[scat n][comp n+n]} =hair_spray= "hea+supuree"

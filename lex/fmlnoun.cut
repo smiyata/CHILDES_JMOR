@@ -20,8 +20,8 @@ hoo	{[scat n:fml]} =side=
 ijoo	{[scat n:fml]} =more_than=
 ippoo	{[scat n:fml]} =on_the_one_hand=
 kagiri	{[scat n:fml]} =as_long_as=
-kawari	{[scat n:fml]} =instead_of=
- gawari	{[scat n:fml]} =instead_of= "kawari"
+kawari	{[scat n:fml]} =in_exchange_for=
+ gawari	{[scat n:fml]} =in_exchange_for= "kawari"
 kekka	{[scat n:fml]} =result=
 koto	{[scat n:fml]} =fact=
  oogoto	{[scat n]} =serious_matter= "oo#koto"

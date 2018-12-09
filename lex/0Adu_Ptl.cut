@@ -176,6 +176,7 @@ jaa	{[scat ptl:fina]} =isnt_it=
 jai	{[scat ptl:fina]} =isnt_it=
 ke	{[scat ptl:fina]} "kke" =WONDER=
 mo	{[scat ptl:fina]} =ASSERT=
+na	{[scat ptl:fina]} "naa" =TAG=
 ttara	{[scat ptl:fina]}  =i_tell_you=
 tcha	{[scat ptl:fina]}  =i_tell_you=
 tte	{[scat ptl:fina]}  =QUOT=
@@ -263,7 +264,7 @@ soshite	{[scat ptl:coo]} =and_also=
 sorekara	{[scat ptl:coo]} =and_also=
 tomo	{[scat ptl:coo]}  =also=
 
-%%%%% sentence nominalizing particle
+%%%%% sentence nominalizing particle   => n:fml
 
 %%%%% topic particle
 nara	{[scat ptl:top]}  =TOP=   % if replaceable with WA

@@ -55,6 +55,8 @@ issaiji	{[scat n:num][comp num:cl+n]} =one_year_old_child= "ichi&sai+ji"
 mitsuyubinamakemono	{[scat n:num][comp num:cl+n+n]} =three_toed_sloth= "mi&tsu+yubi+namakemono"
 %riり
 hitoridachi	{[scat n:num][comp num+v:c]} =standing_on_own_feet= "hitori+tat-GER"
+
+
 %%% num %%%
 daisansekutaa	{[scat n:num][comp num+n]} =third_sector= "dai_ORD#san+sekutaa"
 hitoiki	{[scat n:num][comp num+n]} =one_breath= "hito+iki"
@@ -126,6 +128,7 @@ nishasen{[scat n:num][comp num+n]} =two_lanes= "ni+shasen"
 ippootsuukoo	{[scat n:num][comp num+n:vn]} =one_way_traffic= "ichi&hoo+tsuukoo"
 ichijiteeshi	{[scat n:num][comp num+n:vn]} =halt= "ichi&ji+teeshi"
 nidanhensoku	{[scat n:num][comp num+n:vn]} =two_speed_gear_shift= "ni&dan+hensoku"
+yotsuba	{[scat n:num][comp num+n]} "yo&tsu_PIECE+ha" =four_leaved=
 wambaundo	{[scat n:num][comp num+n:vn]} =one_bound= "wan+baundo"
 
 nanahoshitentoo	{[scat n:num][comp num+n+n]} =seven_spot_ladybug= "nana+hoshi+tentoo"
