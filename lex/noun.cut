@@ -90,6 +90,7 @@
 	ashi	{[scat n]} =foot= 	% 足 
 	ashika	{[scat n]} =sea_lion= 	% あしか  海驢 
 	ashita	{[scat n]} =tomorrow= 	% あした  明日 
+	asobi	{[scat n]} =play= 	% 遊び
 	asu	{[scat n]} =tomorrow= 	% あす/明日 
 	atama	{[scat n]} =head= 	% 頭 [1]
 	atari	{[scat n]} =around=	% 辺り [1]
@@ -607,6 +608,7 @@
 	han	{[scat n]} =stamp=	% 判 
 	hana	{[scat n]} =flower=	% 花 
 	hana	{[scat n]} =nose=	% 鼻 
+	hanashi	{[scat n]} =story=	% 話 
 	hanao	{[scat n]} =geta_thong=	% 鼻緒 
 	hane	{[scat n]} =wing=	% 羽 
 	hanen	{[scat n]} =semicircle=	% 半円 
@@ -1763,6 +1765,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	nankotsu	{[scat n]} =gristle= 
 	nanohana	{[scat n]} =rape_blossoms= 	% 菜の花 
 	nanten	{[scat n]} =nandina_shrub= 	% 南天 
+	naoshiya	{[scat n]} "naos-GER-ya_SHOP" =repairman= 	% 直し屋 
 	nappa	{[scat n]} =leafy_vegetables= 	% 菜っ葉 
 	nariyuki	{[scat n]} =course_of_event=
 	nasake	{[scat n]} =sympathy= 	% 情け 
@@ -2416,6 +2419,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	sukatan	{[scat n]} =failure= 	%すかたん
 	suki	{[scat n]} =gap=	% 透き  隙 
 	sukima	{[scat n]} =gap= 	% 透き間  隙間 
+	sukiyaki	{[scat n]} =sukiyaki_dish=
 	sukkarakan	{[scat n]} =penniless= 	% すっからかん 
 %changed_to_quant	sukoshi	{[scat n]} =a_bit=	% 少し 
 	honnosukoshi	{[scat n]} =just_a_little_bit=	% ほんの少し 

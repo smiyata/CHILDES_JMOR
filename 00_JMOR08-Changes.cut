@@ -1,209 +1,324 @@
 @UTF8
-**JMOR08 *************************************Susanne Miyata**2018oct23
-********************************************************************* 
+**JMOR08 *************************************Susanne Miyata**2018dec10 ******** CHANGES in JMOR08 ******** 
+1) Compound verbs regrouped
+Syntactic compound verbs are analyzed as v+v , lexial compounds as v (stem v_v),
+following Kageyama (2013) 影山太郎 (2013)NINJAL複合動詞レキシコン <www.vvlexicon.ninjal.ac.jp> .
+All verbs are listed in verb.cut	
+	syntactic:    tabehajimeru v:v|+v:v|tabe+v:v|hajime-PRES=start_to_eat
+	lexical: 	tabekobos v:c|tabe_kobos-PRES=spill_food
 
-******** CHANGES in JMOR08 ********2018nov 
-oishikunai adj|oishi-NEG-PRES=tasty -> oishiku nai adj|oishi-ADV=tasty v:ir:sub|ar&NEG-PRES
-tabetakunai v:v|tabe-DESID-NEG-PRES=eat -> tabetaku v:v|tabe-DESID-ADV=eat v:ir:sub|ar&NEG-PRES
-kodomoppokunai  adj|kodomo-ppo_LIKE-NEG-PRES=child  -> kodomoppoku nai adj|kodomo-ppo_LIKE-ADV=child 
+2) Verb negative imperative -runa > -ru na
+The negative imperative -runa has been separated into -ru (PRES)  and 
+sentence modalizer "na" 
+OLD
+taberuna  v:v|tabe-NEG&IMP:runa=eat
+NEW
+taberu na  v:v|tabe-PRES  smod|na=PRH 
 
-NEG&IMP:runa ->  PRES  smod|na=PRH    database OK
+2) new final inflection: -SIMUL (nagara)
+ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc (after noun), resp.
 
-n|inu-tachi=dog_PL -> n|inu-tachi_PL=dog              (database未)
-o#tegami=HON_letter -> o_HON#tegami=letter  database OK
+OLD 
+tabe nagara    v:v|tabe&GER=eat ptl:conj|nagara=while
+onna nagara    n|onna ptl:conj|nagara=while
+NEW  
+tabenagara    v:v|tabe-SIMUL  
+onna nagara    n|onna ptl:foc|nagara=SIMUL
 
-num|ni-hiki=two_animal -> num:cl|ni-hiki_ANIMAL=two    database OK
-n|+num|ichi+n|shuukan=one_week   =>  n:num|+num|ichi+n|shuukan=one_week              (database未) 
+3) new final inflection:  -NEG:zaru
+ -zaru is analyzed as -NEG:zaru .
+NEW
+tabezaru  v:v|tabe-NEG:zaru=eat
 
-n|hara=abdomen ->  n|hara=abdomen_CLQ   (meshi, ketsu nado) [database ok]
+4) new final inflection:  -CONN:tsutsu	
+OLD 
+tabe tsutsu aru     v:v|tabe&GER=eat  smod|tsutsu=in_course_of v:ir|ar-PRES=be
+NEW 
+tabetsutsu aru         v:v|tabe-CONN:tsutsu=eat v:ir:sub|ar-PRES=be
 
-******** CHANGES in JMOR08 ********2018may27
-1) post and compound post particles
-post particles have been devided into 
+5) New copula form:  "no" v:cop|da&ADN:no=be
+OLD
+inu no omawarisan n|inu=dog ptl:attr|no=GEN n|omawari-san_HON=police_officer
+NEW
+inu no omawarisan n|inu=dog v:cop|da&ADN:no=be n|omawari-san_HON=police_officer
+
+compare: 
+inu no (COP) omawarisan -> omowarisan wa inu da.
+inu no (GEN) shippo (ptl:attr|no=GEN)   -> *shippo wa inu da.
+kugatsu kara no (COP) kyuuka   -> kyuuka wa kugatsu kara da
+similar: 
+kugatsu yori/made no (COP) kyuuka; iku made no (COP) aida; x ni oite no (COP) y; 
+ni kanshite no (COP); x mite no (COP) kansoo
+
+6) Modal expressions revised
+a) New subsidiary verb: naranai v:c:sub|nar-NEG-PRES=PRH 
+OLD
+nakute wa naranai   v:ir|ar&NEG-CONN=be ptl:top|wa=TOP  v:c|nar-NEG-PRES=become
+nakereba naranai   v:ir|ar&NEG-COND:ba=be  v:c|nar-NEG-PRES=become
+NEW
+nakute wa naranai   v:ir|ar&NEG-CONN=be ptl:top|wa=TOP v:c:sub|nar-NEG-PRES=PRH 
+nakereba naranai    v:ir|ar&NEG-COND:ba=be v:c:sub|nar-NEG-PRES=PRH 
+ b) New subsidiary verb:  ikemasen v:v:sub|ike&POT-POL-NEG:n&PRES=PRH 
+The modal expressions with ikemasen (ikenai etc) are analyzed as subidiary verbs.
+OLD 
+tabete wa ikemasen   v:v|tabe-CONN=eat ptl:top|wa=TOP v:c|ik-POT-POL-NEG:n&PRES=go
+tabenakute wa ikenai   v:v|tabe-NEG-CONN=eat ptl:top|wa=TOP v:c|ik-POT-NEG-PRES=go
+tabenakucha ikenai  v:v|tabe-NEG-CONN&wa=eat  v:c|ik-POT-NEG-PRES=go
+NEW
+tabete wa ikemasen    v:v|tabe-CONN=eat ptl:top|wa=TOP v:v:sub|ike&POT-POL-NEG:n&PRES=PRH
+tabenakute wa ikenai   v:v|tabe-NEG-CONN=eat ptl:top|wa=TOP v:v:sub|ike&POT-NEG-PRES=PRH
+tabenakucha ikenai    v:v|tabe-NEG-CONN&wa=eat  v:v:sub|ike&POT-NEG-PRES=PRH
+
+c) New subsidiary verb: eru  v:v:sub|e-PRES=get
+NEW
+tabezaru o enai  v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
+
+d) New subsidiary verb: (ni) kimatteru v:c:sub|kimar-ASP-PRES=be_decided)
+The expression "x ni kimatteru" is analyzed as v:sub. Used only as  -ASP-PRES .
+OLD
+adj|oishi-PRES=tasty v:cop|ni&ADV=be v:c|kimar-ASP-PRES=decide
+NEW
+adj|oishi-PRES=tasty v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided
+
+e) Subsidiary verb:  shika nai
+"nai"/"arimasen" after "shika" is analyzed as light verb
+OLD  
+N shika nai   ptl:conj|shika=only v:ir|ar&NEG-PRES
+NEW 
+N shika nai  ptl:foc|shika=only v:ir:sub|ar&NEG-PRES
+
+f) New smodalizer:  nichigainai
+The following modal verb constructions are analyzed as sentence modalizers.
+OLD
+ni chigai nai  ptl:post|ni=POST v:c|chigaw-GER=different v:ir:sub|ar&NEG-PRES=be
+NEW
+nichigainai smod|ni_chigai_nai=no_doubt_that
+nichigainakatta smod|ni_chigai_nakatta=no_doubt_that
+nichigaiarimasen smod|ni_chigai_arimasen=no_doubt_that
+
+
+7) Adjective negation  -kunai  > -ku  nai
+The adjective negation ending -kunai has been  separated into  -ku (ADV)  and subsidiary verb  nai .
+OLD
+oishikunai    adj|oishi-NEG-PRES=tasty 
+NEW
+oishiku nai     adj|oishi-ADV=tasty v:ir:sub|ar&NEG-PRES
+Also adjectival verb and noun forms follow this rule.
+OLD
+tabetakunai    v:v|tabe-DESID-NEG-PRES=eat 
+kodomoppokunai    adj|kodomo-ppo_LIKE-NEG-PRES=child
+NEW
+tabetaku   v:v|tabe-DESID-ADV=eat v:ir:sub|ar&NEG-PRES
+kodomoppoku nai    adj|kodomo-ppo_LIKE-ADV=child 
+
+8) New marker for colloquial expressions  CLQ
+Colloquial expressions (hara, meshi, ketsu, yatsu, yaru (=give) etc) are marked by CLQ.
+OLD
+meshi n|meshi=food
+NEW
+meshi n|meshi=food_CLQ 
+
+9) Noun prefixes and suffixes aligned with inflections   -tachi > tachi_PL
+The meaning (function) of noun prefixes and suffixes will be attached to the prefix/suffix itself, not to the gloss. 
+OLD
+inutachi  n|inu-tachi=dog_PL 
+o#tegami=HON_letter  
+NEW
+inutachi  n|inu-tachi_PL=dog              
+o_HON#tegami=letter  
+
+10) Classifiers and numerals revised  
+a) new category for classifiers: num:cl
+OLD
+nihiki   num|ni-hiki=two_animal 
+NEW
+nihiki   num:cl|ni-hiki_ANIMAL=two    
+
+b) new category for compound nouns with numerals  n:num
+compound nouns with numerals are categorized as n:num
+OLD
+isshuukan   n|+num|ichi+n|shuukan=one_week   
+NEW
+isshuuka    n:num|+num|ichi+n|shuukan=one_week           
+
+9) New category: Compound post particles   ptl:cppost
+Post particles have been devided into post and compound post particles.
 postposition particles  ptl:post   (ni, de, e, to, kara, made, yori)
-compound postposition particles  ptl:cppost (yorimo, nite,
+compound postposition particles  ptl:cppost (yorimo, nite, totomoni, toshite, niyotte, 
+  niatatte, nioite, totomoni, nikakawarazu etc.)
+OLD
+ringo yori mo oishii   ptl:post|yori=COMPARE ptl:foc|mo=too
+NEW
+ringo yorimo oishii   ptl:cppost|yori_mo=rather_than 
 
-2) ja
+a)  "ja" as  ptl:cppost
 in the case of hypothetic use ("nara"): compound postparticle
-ex.: kore ja dame   ->  ptl:cppost|ja=in_that_case  (mostly followed by negation or negative expressions like  "dame")
-in the case of copula use ("da") : v:cop
-ex.:  iya ja.   nan ja.   ->   v:cop|de&CONN&wa=be
+OLD
+kore ja dame    v:cop|de&CONN&wa=be
+NEW
+kore ja dame    ptl:cppost|ja=in_that_case 
+   (mostly followed by negation or negative expressions like  "dame")
 
-3) demo
+In the case of copula use ("da") : v:cop
+iya ja.    v:cop|de&CONN&wa=be
+nan ja.   v:cop|de&CONN&wa=be
+  10)  Focus particles revised
+a) Per definition, focus particles can appear also after verbs.
+A division between ptl:foc and ptl:conj  (made shika toka made nomi nante yara)
+and ptl:foc and n:fml (bakari (bakkari bakka bakashi bakkashi), dake, kiri/kkiri, ttara),
+resp., is not necessary. 
+OLD
+ie made    n|ie=house ptl:foc|made=until
+owaru made    v:c|owar-PRES ptl:conj|made=until 
+yasumu bakari   v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
+NEW 
+ie made    n|ie=house ptl:foc|made=until
+owaru made    v:c|owar-PRES ptl:foc|made=until
+yasumu bakari   v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
+
+b) New focus particle  demo ptl:foc|de_mo=even
 de mo (copula + conjunctive ptl) has been changed to demo (focus ptl)
-OLD: kore de mo ii .    v:cop|de&CONN=be ptl:conj|mo=even_if
-NEW: kore demo ii .   ptl:foc|de_mo=even
+OLD
+kore de mo ii .    v:cop|de&CONN=be ptl:conj|mo=even_if
+NEW
+kore demo ii .    ptl:foc|de_mo=even
+
+c) yara   as ptl:foc
+ptl:post|yara=or has been changed to ptl:foc|yara=or  .
+OLD
+fune da „ doo yara  n|fune=ship v:cop|da&PRES=be tag|disloc adv:deic:wh|doo=how ptl:post|yara=or
+NEW
+fune da „ doo yara  n|fune=ship v:cop|da&PRES=be tag|disloc adv:deic:wh|doo=how ptl:foc|yara=or
+
+ d)   goto   as ptl:foc  
+The noun suffix -goto has been changed to ptl:foc|goto=each (毎) and ptl:foc|goto=whole (共)
+OLD 
+gofungoto  num|go-fun-goto=five_minute_each
+saifugoto  n|saifu-goto=HON_wallet_each
+NEW 
+gofun goto  num|go-fun=five_minute ptl:foc|goto=each
+saifu goto  n|saifu=HON_wallet ptl:foc|goto=whole
+
+e) ka doo ka  -> kadooka 
+OLD 
+iku ka doo ka   v:c|ik-PRES=go  ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
+NEW 
+iku kadooka    v:c|ik-PRES=go  ptl:foc|ka_doo_ka=whether
+
+f) ttara   
+only 2 types of ttara:  ptl:foc after N, ptl:conj after V  (no ptl:fina anymore)
+OLD
+Taroo ttara    ptl:top|ttara=TOP 
+iku ttara    ptl:fina|ttara=i_tell_you
+NEW 
+Taroo ttara    ptl:foc|ttara=i_tell_you
+iku ttara    ptl:conj|ttara=i_tell_you
+ g) new ptl:foc   dokoroka nishiro niseyo
+NEW
+dokoroka	ptl:foc|dokoro_ka=not_at_all
+nishiro		ptl:foc|ni_shiro=be_it	
+niseyo		ptl:foc|ni_seyo=be_it
 
 
-******** CHANGES in JMOR08 ********2018apr21
-1) particles
-a) ka doo ka  -> kadooka 
-OLD ptl:conj|ka=whether adv:deic:wh|doo=how ptl:conj|ka 
-NEW ptl:foc|ka_doo_ka=whether
+11) Sentence modalizers and Final particles revised 
+a) yoo   as n:fml
+smod|yoo=apparently  has been changed to n:fml|yoo=apparently
+OLD
+denai yoo ni v:v|de-NEG-PRES=get_out smod|yoo=apparently v:cop|ni&ADV=be 
+NEW
+denai yoo ni   v:v|de-NEG-PRES=get_out n:fml|yoo=apparently v:cop|ni&ADV=be 
 
-b) ttara 
-only 2 types of ttara:  ptl:foc  and ptl:conj 
-ptl:top|ttara=TOP  -> ptl:foc|ttara=i_tell_you
-ptl:quot|ttara=i_tell_you  -> ptl:foc after N, ptl:conj after V
-ptl:fina|ttara=i_tell_you  ->  ptl:conj|ttara=i_tell_you (ptl:fina included in ptl:conj)
+b) kamoshirenai   as ptl:fina
+smod|kamoshirenai=perhaps has been changed to ptl:fina|kamoshirenai=perhaps   
+analog:  kashira kamoshiremasen kamo
+OLD
+iku kamo  v:c|ik-PRES=go smod|kamo=perhaps
+NEW
 
-c) datte 
-only if following tensed V or A  ptl:fina|datte=QUOT
-if following N or formal N : da tte   v:cop|da&PRES ptl:quot|tte
-	ex. nagai datte   adj|naga-PRES ptl:fina|datte=QUOT
+iku kamo  v:c|ik-PRES=go ptl:fina|kamo=perhaps
+
+c) rashii  (smod) with tense
+smod "rashii" and adjective "rashii" have been unified. 
+OLD 
+iku rashii    v:c|ik-PRES=go smod|rashii=hearsay  
+ichigo rashii   n|ichigo=strawberry adj|rashi-PRES=seeming  
+NEW 
+iku rashii    v:c|ik-PRES=go smod|rashi-PRES
+iku rashikute    smod|rashi-CONN    
+iku rashiku      smod|rashi-ADV
+  compare: 
+harurashii  adj|haru-rashi_SIM-ADV=spring
+harurashikute adj|haru-rashi_SIM-CONN=spring  etc)
+	
+d)  "no" ptl:snr/fina >  n:fml|no=RLV and n:fml|no=QUD 
+no=SNR has been changed to  n:fml|no=QUD   and n:fml|no=RLV.
+The relative use of "no" is expressed by n:fml|no=RLV.
+OLD
+oishii no ga atta.  oishi-PRES ptl:snr|no=SNR ptl:case|ga=NOM
+NEW
+oishii no ga atta.  oishi-PRES n:fml|no=RLV ptl:case|ga=NOM
+The "no da" construction and the former ptl:fina are expressed by n:fml|no=QUD (question under discussion) 
+OLD
+oishii no da . oishi-PRES ptl:snr|no=SNR v:cop|da&PRES .
+oishii no.   oishi-PRES ptl:fina|no=FINA .
+NEW
+oishii no da . oishi-PRES
+oishii no.   oishi-PRES oishii no.   oishi-PRES ptl:fina|no=FINA .
+oishii no ka.   oishi-PRES n:fml|no=QUD ptl:fina|ka=Q .
+oishii no kadooka   oishi-PRES n:fml|no=QUD ptl:foc|ka_doo_ka=whether 
+
+f)  bakari  as ptl:foc
+bakari (bakashi bakka etc) has been changed from sentence modalizer to ptl:foc.
+OLD 
+ichigo bakari   n|ichigo=strawberry smod|bakari=nothing_but		
+iku bakari    v:c|ik-PRES=go   smod|bakari=nothing_but	
+NEW 
+ichigo bakari   n|ichigo=strawberry ptl:foc|bakari=nothing_but
+iku bakari   v:c|ik-PRES=go  ptl:foc|bakari=nothing_but
+ g) koto   as ptl:fina   (final and imperative)
+n:fml|koto=IMP has been changed to ptl:fina|koto=IMP
+NEW
+iku koto!   v:c|ik-PRES=go ptl:fina|koto=IMP   
+	(compare: iku koto ga ooi  n:fml|koto=fact )
+Further,  ptl:fina|koto=FINA  has been added.
+NEW
+joozu da koto   n:an|joozu=skilled v:cop|da&PRES=be ptl:fina|koto=FINA
+joozu na koto   v:cop|da&PRES:na=be ptl:fina|koto=FINA
+oishii koto        adj|oishi-PRES=tasty ptl:fina|koto=FINA
+
+h) ka ne  -> kanee
+ptl:fina|ka=Q ptl:fina|ne=TAG has been changed to ptl:fina|kanee=DOUBT 
+OLD
+oishii ka ne .  adj|oishi-PRES=tasty ptl:fina|ka=Q ptl:fina|ne=TAG
+NEW
+oishii kanee.  adj|oishi-PRES=tasty ptl:fina|kanee=DOUBT 
+	
+i) New quotation particle  V-yoo tto 
+ptl:quot|to=QUOT after HORT has been changed to ptl:quot|tto=QUOT (double tt)
+OLD
+tabeyoo t:o  v:v|tabe-HORT=eat ptl:quot|to=QUOT
+NEW
+tabeyoo tto  v:v|tabe-HORT=eat ptl:quot|tto=QUOT
+
+
+k) datte   as ptl:fina
+If datte follows a tensed verb or adjective, it is analyzed as  ptl:fina|datte=QUOT
+If is follows a noun, it is separated to "da tte"  v:cop|da&PRES ptl:quot|tte
+NEW
+nagai datte   adj|naga-PRES ptl:fina|datte=QUOT
 compare: 
       nagai n da tte  adj|naga-PRES n:fml|no=QUD v:cop|da&PRES ptl:quot|tte
       empitsu da tte  n|empitsu v:cop|da&PRES ptl:quot|tte
       Ken datte  n:prop|Ken ptl:foc|datte=even 
 
-2) focus particles 
-Per definition, focus particles can appear also after verbs.
-A division between ptl:foc and n:fml,  and ptl:foc and ptl:conj, resp., is not necessary
+ 5) dai  as copula
+ptl:fina|dai=ASSERT has been changed to v:cop|dai&PRES=be_ASSERT.
+OLD
+iku dai   v:c|ik-PRES=go ptl:fina|dai=ASSERT 
+NEW
+iku dai   v:c|ik-PRES=go v:cop|dai&PRES=be_ASSERT.
 
-	OLD:  v:c|yasum-ASP-PRES  n:fml|bakari=nothing_but
-	NEW: v:c|yasum-ASP-PRES  ptl:foc|bakari=nothing_but
-analog: bakari (bakkari bakka bakashi bakkashi), dake, kiri/kkiri, ttara
 
-	OLD  v:c|owar-PRES ptl:conj|made=until 
-	NEW v:c|owar-PRES ptl:foc|made=until
-
-analog:  shika toka made nomi nante yara
-
-3) shika nai
-"nai"/"arimasen" after "shika" is analyzed as light verb
-	OLD  ptl:conj|shika=only v:ir|ar&NEG-PRES
- 	NEW ptl:foc|shika=only v:ir:sub|ar&NEG-PRES
-
-4) nagara
-ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc (after noun), resp.
-	OLD v:v|tabe&GER ptl:conj|nagara 
-	NEW  v:v|tabe-SIMUL  
-	OLD n|onna ptl:conj|nagara=while
-	NEW n|onna ptl:foc|nagara=SIMUL
-
-5) dai
-ptl:fina|dai=ASSERT has been changed to v:cop|dai&PRES=be_ASSERT
-
-6) kamoshirenai
-smod|kamoshirenai=perhaps (kashira kamoshiremasen kamo) have been changed to ptl:fina|kamoshirenai=perhaps
-
-7) koto
-n:fml|koto=IMP has been changed to ptl:fina|koto=IMP    (kaeru koto!)
-ptl:fina|koto=FINA  has been added  (ex. joozu da koto /  oishii koto / joozu na koto )
-
-8) ka ne  -> kanee
-ptl:fina|ka=Q ptl:fina|ne=TAG has been changed to ptl:fina|kanee=DOUBT 
-
-9) yara
-ptl:post|yara=or has been changed to ptl:foc|yara=or
-
-10) yoo
-smod|yoo=apparently  has been changed to n:fml|yoo=apparently
-
-11) goto
-n|word-goto has been changed to ptl:foc|goto=each (毎) and ptl:foc|goto=whole (共)
-	OLD gofungoto  num|go-fun-goto=five_minute_each
-	NEW gofun goto  num|go-fun=five_minute ptl:foc|goto=each
-
-	OLD saifugoto  n|saifu-goto=HON_wallet_each
-	NEW saifu goto  n|saifu=HON_wallet ptl:foc|goto=whole
-
-12) yorimo
-yori mo ptl:post|yori=COMPARE ptl:foc|mo=too    changed to   yorimo  ptl:post|yori_mo=rather_than
-
-13) V-yoo tto
-ptl:quot|to=QUOT after HORT changed to ptl:quot|tto=QUOT (double tt)
-OLD: tabeyoo t:o  v:v|tabe-HORT=eat ptl:quot|to=QUOT
-NEW: tabeyoo tto  v:v|tabe-HORT=eat ptl:quot|tto=QUOT
-******** CHANGES in JMOR08 ********2018mar11
-1) new ptl:post
-dokoroka	ptl:post|dokoro_ka=not_at_all
-niatatte	ptl:post|ni_atatte=concerning
-niatari		ptl:post|ni_atari=concerning
-niatarimashite	ptl:post|ni_atarimashite&POL=concerning
-nioite		ptl:post|ni_oite=concerning
-niokimashite		ptl:post|ni_okimashite&POL=concerning
-nimokakawarazu	ptl:post|ni_mo_kakawarazu=regardless
-nikakawarazu	ptl:post|ni_kakawarazu=regardless
-nikanshi	ptl:post|ni_kanshi=concerning
-nikanshimashite		ptl:post|ni_kanshimashite&POL=concerning
-nishiro		ptl:post|ni_shiro=be_it
-niseyo		ptl:post|ni_seyo=be_it
-nitsuki		ptl:post|ni_tsuki=about
-nitsukimashite	ptl:post|ni_tsukimashite&POL=about
-nitsurete	ptl:post|ni_tsurete=as_then
-niyori		ptl:post|ni_yori=according_to
-niyorimashite	ptl:post|ni_yorimashite&POL=according_to
-totomoni	ptl:post|to_tomo_ni=along_with
-towaie		ptl:post|to_wa_ie=though
-
-2) new ptl:post
-nite		ptl:post|nite=at
-
-******** CHANGES in JMOR08 ********2018feb19
-1) Compound verbs regrouped
-syntactic compound verbs as v+v , lexial compounds as v (stem v_v)
-	following 影山太郎 (2013)NINJAL複合動詞レキシコン <www.vvlexicon.ninjal.ac.jp> .
-	all verbs are listed in verb.cut	
-	syntactic:    tabehajimeru v:v|+v:v|tabe+v:v|hajime-PRES=start_to_eat
-	lexical: 	tabekobos v:c|tabe_kobos-PRES=spill_food
-
-2) new: (v:cop) no v:cop|da&ADN:no=be
-	inu no omawarisan v:cop|no&ADN=be
-	 (compare: inu no shippo ptl:attr|no=GEN)   omowarisan wa inu da vs *shippo wa inu da.
-	kugatsu kara (yori) no kyuuka   -> kugatsu kara da
-    	kugatsu made no kyuuka; iku made no aida; ni oite no; ni kanshite no; x mite no kansoo
-
-3) Modal expressions revised
-a) new: (v:sub) naranai v:c:sub|nar-NEG-PRES=PRH  (nakute wa naranai , nakereba naranai)
-
-b) new: (v:sub) ikemasen v:v:sub|ike&POT-POL-NEG:n&PRES=PRH etc (nakute wa ikemasen; wake ni wa ikanai )
-
-c) new: (v:sub) ni kimatteru v:cop|ni&ADV=be v:c:sub|kimar-ASP-PRES=be_decided) only CONN and ASP-PRES
-
-d) new: (smod) nichigainai smod|ni_chigai_nai=no_doubt_that
-     nichigainakatta smod|ni_chigai_nakatta=no_doubt_that
-     nichigaiarimasen smod|ni_chigai_arimasen=no_doubt_that
-
-e) change: (smod) rashii
-	OLD smod|rashii=hearsay  -> NEW smod|rashi-PRES
-	iku rashii       smod|rashi-PRES
-	iku rashikute    smod|rashi-CONN    
-	iku rashiku      smod|rashi-ADV
-   cut:  rashii adj|rashi-PRES=seeming  
-	(compare: harurashii  haru-rashi-PRES, -PAST NEG-PRES etc)
-	
-f) new: (fml) no (da)  n:fml|no=QUD
-	OLD ptl:snr|no=SNR v:cop|da&PRES=be
-	NEW n:fml|no=QUD v:cop|da&PRES=be
-
-	OLD ptl:fina|no=FINA    (oishii no.  oishii no ka ?  oishii no ka doo ka ...)
-	NEW n:fml|no=QUD
-
-g) change  SNR to RLV
-	OLD ptl:snr|no=SNR   (oishii no ga aru. )
-	NEW n:fml|no=RLV  
-
-h) new: (fml) koto n:fml|koto=IMP
-	te arau koto! -> n:fml|koto=IMP
-	(compare: iku koto ga ooi  n:fml|koto=fact )
-
-i) new: (infl) -zaru NEG:zaru
-
-j) new: (sub) eru  v:v:sub|e-PRES=get
-	tabezaru o enai  
-	v:v|tabe-NEG:zaru=eat ptl:case|o=ACC v:v:sub|e-NEG-PRES=get
-
-l) change: (smod) tsutsu	
-   OLD smod|tsutsu=in_course_of
-   	   smod|tsutsu_aru=in_course_of
-   NEW  -CONN:tsutsu  
-            ikitsutsu aru v:c|ik-CONN:tsutsu=go v:ir:sub|ar-PRES=be
-
-m) change: (smod) bakari
-   OLD smod|bakari=nothing_but		
-   NEW ptl:foc|bakari=nothing_but
-   (compare: n:fml|bakari=nothing_but)
 
 %%%%%%%
 

@@ -901,7 +901,7 @@
 	pin	{[scat n]} =pin=
 	pinchi	{[scat n]} =pinch=
 	pinku	{[scat n]} =pink=
-	pinku	{[scat adj:mot]} =pink=
+	 pinku	{[scat adj]} =pink=
 	pinsetto	{[scat n]} =tweezers=
 	pinto	{[scat n]} =focus=
 	piramiddo	{[scat n]} =pyramid=

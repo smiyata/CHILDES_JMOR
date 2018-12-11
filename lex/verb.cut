@@ -1468,7 +1468,7 @@ tsukaifurus	{[scat v:c]} "tsukaw_furus" =wear_out= %	使い古す
 	hagurakas	{[scat v:c]} =dodge=
 	hamidas	{[scat v:c]} =stick_out= %【はみ出す】(《食み出す)		
 	hanas	{[scat v:c]} =release=	%【放す】***
-	hanas	{[scat v:c]} =speak=	%【話す】***
+	hanas	{[scat v:c]} =talk=	%【話す】***
 	hanas	{[scat v:c]} =separate=	%【離す】***
 akehanas	{[scat v:c]} =open= "ake_hanas"	%【開け放す】			%% lex. compound 
 hikihanas	{[scat v:c]} =separate= "hik_hanas"	%【引き離す】
