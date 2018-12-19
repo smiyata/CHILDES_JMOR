@@ -11,6 +11,7 @@
 	akeppanashi	{[scat n:an]} =left_open=	% 開けっ放し 
 	akiraka	{[scat n:an]} =clear=	% 明らか 
 	angai	{[scat n:an]} =unexpected=	% 案外 
+	ankoku	{[scat n:an]} =dark=	% 暗黒 
 	anshin	{[scat n:an]} =relief=	% 安心 
 	anzen	{[scat n:an]} =safe=	% 安全 
 	asedaku	{[scat n:an]} =sweaty=	% 汗だく 
@@ -123,6 +124,7 @@
 	garagara	{[scat n:an]} =nearly_empty=	%[1]
 	garandoo	{[scat n:an]} =empty=	%
 	gehin	{[scat n:an]} =vulgar=	% 下品 
+	genjuu	{[scat n:an]} =strict=	% 厳重 
 	genki	{[scat n:an]} =high_spirited=	% 元気 
 	genkin	{[scat n:an]} =strictly_forbidden=	% 現金 
 	girigiri	{[scat n:an]} =barely_in_time=	%
@@ -244,7 +246,9 @@
 	makotoshiyaka	{[scat n:an]} =plausible=	% まことしやか  真しやか/ 実しやか 
 	mammaru	{[scat n:an]} =round=	% まん丸/真ん丸 
 	mampuku	{[scat n:an]} =fully_fed=	% 満腹 
+	manuke	{[scat n:an]} =fool= "ma_nuke"	%【間抜け】
 	manzoku	{[scat n:an]} =satisfactory=	% 満足 
+	mare	{[scat n:an]} =rare=	% 稀 
 	mashikaku	{[scat n:an]} =regular_square=	% 真四角 
 	massao	{[scat n:an]} =ashy_pale=	% 真っ青 
 	massugu	{[scat n:an]} "ma_STRAIGHT_sugu" =straight=	% まっすぐ  真っ 直ぐ 
@@ -252,9 +256,11 @@
 	mechakucha	{[scat n:an]} =incoherent=	
 	mechakucha	{[scat n:an]} =incoherent=	% めちゃくちゃ  滅茶苦茶 
 	mechamecha	{[scat n:an]} =incoherent=	
+	meeryoo	{[scat n:an]} =clearly=
 	meewaku	{[scat n:an]} =annoyance=	% 迷惑 
 	meewakusoo	{[scat n:an]} "meewaku-soo" =seeming_annoyance=	% 迷惑 
 	mendoo	{[scat n:an]} =bothersome=	% めんどう  面倒 
+	mijika	{[scat n:an]} =familiar=
 	migoto	{[scat n:an]} =splendid=	% 見事 
 	mottomo	{[scat n:an]} =most=	% もっとも  尤も 
 	mucha	{[scat n:an]} =incoherent=	% むちゃ  無茶 
@@ -279,6 +285,7 @@
 	nigiyaka	{[scat n:an]} =lively=	% にぎやか  賑やか 
 	nodoka	{[scat n:an]} =calm=
 	nonki	{[scat n:an]} =easygoing=
+	noroma	{[scat n:an]} =dull=
 	omo	{[scat n:an]} =main=
 	oochaku	{[scat n:an]} =cheeky= 	
 	oobaa	{[scat n:an]} =exaggerated= 	
@@ -319,6 +326,7 @@
 	shizuka	{[scat n:an]} =quiet=	% 静か 
 	shoojiki	{[scat n:an]} =frankly=	% 正直 
 	sokkuri	{[scat n:an]} =look_alike=	%
+	soodai	{[scat n:an]} =grand= %壮大
 	suki	{[scat n:an]} =like=	% 好き 
 	sukan	{[scat n:an]} =detest=	% 好かん
 	sumanasoo	{[scat n:an]} "sumana-soo" =apologetic=	% すなお/素直 
@@ -343,6 +351,7 @@
 	toozen	{[scat n:an]} =as_matter_of_course=	% 当然 
 	wagamama	{[scat n:an]} =egoistic=	% わがまま  我が侭 
 	wampaku	{[scat n:an]} =naughty=	% わんぱく  腕白
+	yancha	{[scat n:an]} =mischievous=
 	yokee	{[scat n:an]} =superfluous=	% 余計 
 	yooki	{[scat n:an]} =cheerful=	% 陽気 
 	yosasoo	{[scat n:an]} =seeming_good= "yo-soo"
@@ -352,6 +361,7 @@
 	yuruyuru	{[scat n:an]} =loose=	% 緩め 
 	yuuga	{[scat n:an]} =refined=	% 優雅
 	yuumee	{[scat n:an]} =famous=	% 有名
+	yuuri	{[scat n:an]} =profitable=
 	yuuutsu	{[scat n:an]} =depressed=	% 憂鬱
 	zannen	{[scat n:an]} =regrettable=	% 残念 
 %%%%%%%%%

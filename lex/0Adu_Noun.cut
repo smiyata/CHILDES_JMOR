@@ -110,7 +110,7 @@ kyuuichi	{[scat n][comp n:let+num]} "kyuu+ichi" =question_one=
 kyuusha	{[scat n]} =stable=
 kyuutee	{[scat n]} =court=
 madobe	{[scat n][comp n+n]} =near_the_window= "mado+he"
-mainasushikoo	{[scat n]} [comp n+n:vn] "mainasu+shikoo" =negative_thinking=
+mainasushikoo	{[scat n][comp n+n:vn]} "mainasu+shikoo" =negative_thinking=
 manoatari	{[scat n]} =one's_own_eye=
 mata	{[scat n]} =groin=	% また  股 
 me	{[scat n]} =bud= 	% 芽 
@@ -184,7 +184,7 @@ shizengenshoo	{[scat n][comp n+n]} "shizen+genshoo" =natural_phenomenon=
 shoki	{[scat n]} =early_stage=
 shokuin	{[scat n]} =personnel=
 shokumukeeken	{[scat n][comp n+vn]} "shokumu+keeken" =work_experience=
-shoobaigataki	{[scat n][]comp n+n]} "shoobai+gataki" =business_rival=
+shoobaigataki	{[scat n][comp n+n]} "shoobai+gataki" =business_rival=
 shoogakkoomae	{[scat n][comp n+n]} "shoogakkoo+mae" =in_front_of_the_elementary_school=
 shoogekitaiken	{[scat n][comp n+n:vn]} "shoogeki+taiken" =shocking_experience=
 shookaisha	{[scat n]} "shookai_sha_PERSON" =introducer=
@@ -247,7 +247,7 @@ nichiyoo	{[scat n]} =sunday=
 
 %%%% Proper Noun
 Akitakemminkaikan	{[scat n:prop]} "Akita_kemmin_kaikan" =Akita_prefectural_meeting_hall=
-Akitakensoogookoosha	{[scat n:prop]} =Akita_ken_soogoo_koosha" =Akita_general_public_corporation=
+Akitakensoogookoosha	{[scat n:prop]} "Akita_ken_soogoo_koosha" =Akita_general_public_corporation=
 Beru__cdot__suteeburu	{[scat n:prop]} =Beru__cdot__suteeburu=
 Kyuusekkijidai	{[scat n:prop]} "Kyuu_sekki_jidai" =old_stone_age=
 

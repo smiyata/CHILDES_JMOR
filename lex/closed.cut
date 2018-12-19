@@ -115,6 +115,7 @@ yoo	{[scat npropsfx]} "yoo_FOR"
 yuki	{[scat npropsfx]} "yuki_BOUND_FOR"
 
 sensee	{[scat npropsfx]} "sensee_TEACHER"
+chiji	{[scat npropsfx]} "chiji_GOVERNOR"
 keeji	{[scat npropsfx]} "keeji_DETECTIVE"
 baachan	{[scat npropsfx]} "baa_GRANDMA-chan_FAM"
 obaachan	{[scat npropsfx]} "o_HON&baa_GRANDMA-chan_FAM"
@@ -446,6 +447,8 @@ byoo	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb
 % 								 台 
 dai	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dai_VEHICLE"
 daime	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dai_VEHICLE-me_ORD"
+%								 ダースdozen
+daasu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "daasu_DOZEN"
 %								段
 dan	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "dan_STEP"
 % 								 丁目 

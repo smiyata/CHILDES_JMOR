@@ -11,7 +11,7 @@ atsu	{[scat adj]} =thick=	% 厚い
 haya	{[scat adj]} =early=
 
 %%%% Adverb
-%	mada	{[scat adv]} =still=	% いまだ  未だ 	
+kankan	{[scat adv:onoma]} =furious=	%怒る
 
 %%%% Adnominal
 %	chottoshita	{[scat adn]} =little=

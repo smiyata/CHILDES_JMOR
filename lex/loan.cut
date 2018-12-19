@@ -16,7 +16,7 @@
 	akuabiizu	{[scat n]} =acqua_beads=
 	akuseru	{[scat n]} =accelerator=
 	akueriasu	{[scat n]} =aquarius_soda=
-	akutibu	{[scat n]} =active=
+	akutibu	{[scat n:an]} =active=
 	anaunsaa	{[scat n]} =anouncer=
 	anaunsu	{[scat n:vn]} =anounce=
 	andaa	{[scat n]} =under=
@@ -152,6 +152,7 @@
 	biizu	{[scat n]} =beads=
 	bijinesu	{[scat n]} =business=
 	bijinesuman	{[scat n]} =businessman=
+	bijuaru	{[scat n:an]} =visual=
 	binegaa	{[scat n]} =vinegar=
 	bingo	{[scat n]} =bingo=
 	biniiru	{[scat n]} =vinyl=
@@ -347,6 +348,7 @@
 	enerugii	{[scat n]} =energy=
 	enerugisshu	{[scat n]} =energetic=
 	enjin	{[scat n]} =engine=
+	enjinia	{[scat n]} =engineer=
 	ensuto	{[scat n:vn]} =engine_stall=
 	entaa	{[scat n:vn]} =enter=
 	epokku	{[scat n]} =epoch=
@@ -420,7 +422,7 @@
 	gookaato	{[scat n]} =gocart=
 	gooru	{[scat n]} =goal=
 	gorira	{[scat n]} =gorilla=
-	gorufu	{[scat n:vn]} =golf=
+	gorufu	{[scat n]} =golf=
 	gorufujoo	{[scat n]} =golf_course=
 	gumi	{[scat n]} =gummi=
 	guranoora	{[scat n]} =granola=
@@ -485,6 +487,7 @@
 	hippu	{[scat n]} =hip=
 	hire	{[scat n]} =fillet=
 	hirekatsu	{[scat n]} =cutlet=
+	hirudoido	{[scat n]} =Hirudoid_cream=
 	hisuterikku	{[scat n:an]} =hysteric=
 	hitto	{[scat n:vn]} =successful_hit=
 	hoippu	{[scat n]} =whip=
@@ -551,7 +554,9 @@
 	jimu	{[scat n]} =gym=
 	jinjaa	{[scat n]} =ginger=
 	joa	{[scat n]} =joa_juice=
+	jogingu	{[scat n:vn]} =jogging=
 	jointo	{[scat n]} =joint=
+	jueru	{[scat n]} =jewel=
 	junia	{[scat n]} =junior=
 	juusaa	{[scat n]} =juicer=
 	juusu	{[scat n]} =juice=
@@ -629,6 +634,7 @@
 	komyunikeeshon	{[scat n]} =communication=
 	konkuriito	{[scat n]} =concrete=
 	konkuuru	{[scat n]} =concours=
+	konsaato	{[scat n]} =concert=
 	konsento	{[scat n]} =elec_socket=
 	kontakuto	{[scat n]} =contact_lens=
 	konteena	{[scat n]} =container= "kontena"
@@ -702,6 +708,7 @@
 	mafura	{[scat n]} =muffler= "mafuraa"
 	mafuraa	{[scat n]} =muffler=
 	mahha	{[scat n]} =Mach=
+	maihoomu	{[scat n]} "mai_MY#hoomu" =my_home=
 	maiku	{[scat n]} =microphone=
 	mainasaurusu	{[scat n]} =minor_saurus= "mainaasaurusu"
 	mainaasaurusu	{[scat n]} =minor_saurus=

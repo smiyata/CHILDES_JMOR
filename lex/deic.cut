@@ -22,7 +22,7 @@ soo	{[scat adv:deic:dem]} =like_that=
 are	{[scat n:deic:dem] [nsform ijoo]} =that=	
 arya	{[scat n:deic:dem]} =this= "are&wa"	
 achira	{[scat n:deic:dem]} =over_there_HON=	
-aitsu	{[scat n:deic:dem]} =he=	
+aitsu	{[scat n:deic:dem]} =he_CLQ=	
 asoko	{[scat n:deic:dem]} =over_there=	
 asuko	{[scat n:deic:dem]} =over_there= "asoko"	
 asokora	{[scat adn:deic:dem]} =over_there=	
@@ -33,22 +33,22 @@ kore	{[scat n:deic:dem]} =this=
 koreq	{[scat n:deic:dem]} =this=	
 korya	{[scat n:deic:dem]} =this= "kore&wa"	
 kochira	{[scat n:deic:dem]} =here_HON=	
-koitsu	{[scat n:deic:dem]} =he=	
+koitsu	{[scat n:deic:dem]} =he_CLQ=	
 koko	{[scat n:deic:dem]} =here=	
 kokora	{[scat adn:deic:dem]} =here=	
-kokoira	{[scat n:deic:dem]} =here= "kokora"	
-kokorajuu	{[scat n:deic:dem]} =all_over= "kokora-juu"	
+kokoira	{[scat adn:deic:dem]} =here= "kokora"	
+kokorajuu	{[scat n:deic:dem]} =all_over= "kokora-juu_MID"	
 kondake	{[scat n:deic:dem]} =this_much=	
 sore	{[scat n:deic:dem]} =this=	
 sorenarini	{[scat adv:deic:dem]} =in_its_own_way= "sore_nari_ni"	
 sorenarino	{[scat adn]} =in_its_own_way= "sore_nari_ni"	
 sorya	{[scat n:deic:dem]} =this= "sore&wa"	
 sochira	{[scat n:deic:dem]} =there_HON=	
-soitsu	{[scat n:deic:dem]} =he=	
+soitsu	{[scat n:deic:dem]} =he_CLQ=	
 soko	{[scat n:deic:dem]} =there=	
 sokora	{[scat adn:deic:dem]} =there=	
 %sokorahen	{[scat n:deic:dem]} == %2 words	
-sokorajuu	{[scat n:deic:dem]} =all_over= "sokora-chuu"	
+sokorajuu	{[scat n:deic:dem]} =all_over= "sokora-chuu_MID"	
 sotchi	{[scat n:deic:dem]} =there=	
 sondake	{[scat n:deic:dem]} =that_much=	
 donna	{[scat adn:deic:wh]} =what_kind=	
@@ -60,12 +60,13 @@ dondake	{[scat n:deic:wh]} =how_much=
 doo	{[scat adv:deic:wh]} =how=	
 dooshite	{[scat adv:deic:wh]} =why=	
 doshite	{[scat adv:deic:wh]} =why= "dooshite"	
+dooyatte	{[scat adv:deic:wh]} =how=
 ikaga	{[scat adv:deic:wh]} =how=	
 ikani	{[scat adv:deic:indef]} =how=	% いかに  如何に 
 ikura	{[scat adv:deic:wh]} =how_much=	
-oikura	{[scat adv:deic:wh]} =HON_how_much= "o#ikura"	
+oikura	{[scat adv:deic:wh]} =how_much= "o_HON#ikura"	
 ikutsu	{[scat adv:deic:wh]} =how_many=	
-oikutsu	{[scat adv:deic:wh]} =HON_how_many= "o#ikutsu"	
+oikutsu	{[scat adv:deic:wh]} =how_many= "o_HON#ikutsu"	
 itsu	{[scat adv:deic:wh]} =when=	
 nashite	{[scat adv:deic:wh]} =why=  %dialect
 nani	{[scat n:deic:wh]} =what=
@@ -75,14 +76,14 @@ nanisen	{[scat n:deic:wh]} =what_line= "nani-sen"
 nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"
 nanyoobi	{[scat n:deic:wh]} =what_weekday= "nani-yoobi"
 nan	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
-nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
+ nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
 nande	{[scat adv:deic:wh]} =why=
 naze	{[scat adv:deic:wh]} =why=
 dare	{[scat n:deic:wh]} =who=
 dareshimo	{[scat n:deic:indef]} =anyone= "dare_shimo"
 daredare	{[scat n][comp n:deic:wh+n:deic:wh]} =who= "dare+dare"
 dochira	{[scat n:deic:wh]} =which_HON=
-doitsu	{[scat n:deic:wh]} =who=
+doitsu	{[scat n:deic:wh]} =who_CLQ=
 doko	{[scat n:deic:wh]} =where=
 dokodoko	{[scat n][comp n:deic:wh+n:deic:wh]} =where= "doko+doko"
 dokora	{[scat adn:deic:wh]} =where=
@@ -135,7 +136,7 @@ dareka	{[scat n:deic:indef]} =somebody=
 darekasan	{[scat n:deic:indef]} =a_certain_person= "dareka-san"
 daremo	{[scat n:deic:indef]} =nobody=
 dareyara	{[scat n:deic:indef]} =somebody=
-dochiramo	{[scat n:deic:indef]} =none=
+dochiramo	{[scat n:deic:indef]} =none_HON=
 dokoka	{[scat n:deic:indef]} =somewhere=
 dokka	{[scat n:deic:indef]} =somewhere= "dokoka"
 dokomo	{[scat n:deic:indef]} =nowhere=
@@ -172,7 +173,7 @@ nandemokandemo	{[scat n:deic:indef]} =everything=
 nanimo	{[scat n:deic:indef]} =nothing=
 nannimo	{[scat n:deic:indef]} =nothing= "nanimo"
 nammo	{[scat n:deic:indef]} =nothing= "nanimo"
-nanikayoo	{[scat n:deic:indef]} =for_something= "nanika-yoo"
+ nanikayoo	{[scat n:deic:indef]} =something= "nanika-yoo_FOR"
 nandaka	{[scat adv:deic:indef]} =somehow=	% なんだか/何だか 
 nanimokamo	{[scat adv:deic:indef]} =everything=	% 何もかも 
 nantoka	{[scat adv:deic:indef]} =somehow=	% なんとか/何とか 
@@ -204,5 +205,4 @@ nazeka	{[scat adv:deic:indef]} =for_some_reason=
 %%dokodemo	{[scat n:deic:indef]} =whereever=
 %%ikurademo	{[scat n:deic:indef]} =ever_so_much=
 
-dooyatte	{[scat adv:deic:indef]} =how=
 

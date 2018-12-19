@@ -2,6 +2,7 @@
 %%%%%% onoma ADVERBS %%%%%%
 betabeta	{[scat adv:onoma]} =sticky=	%くっ付く
 bishibashi	{[scat adv:onoma]} =vigorously=	%
+botabota	{[scat adv:onoma]} =dripping=
 buruburu	{[scat adv:onoma]} =trembling=	%震える
 chikuchiku	{[scat adv:onoma]} =stinging=	%
 chokichoki	{[scat adv:onoma]} =cutting=	%
@@ -11,32 +12,67 @@ jirojiro	{[scat adv:onoma]} =staring=	%見る
 gehoq	{[scat adv:onoma]} =nauseous=	%笑う
 geragera	{[scat adv:onoma]} =horselaugh=	%笑う
 gangan	{[scat adv:onoma]} =clanging=	%痛い
+giragira	{[scat adv:onoma]} =shining=
+gorogoro	{[scat adv:onoma]} =rolling=
 gungun	{[scat adv:onoma]} =increasingly=	%飲む
 guuguu	{[scat adv:onoma]} =sleeping=	%飲む
 guruguru	{[scat adv:onoma]} =spinning=	%回る
-%kankan	{[scat adv:onoma]} =furious=	%怒る
+herahera	{[scat adv:onoma]} =thoughtlessly=
+kachikachi	{[scat adv:onoma]} =solidly=
 karikari	{[scat adv:onoma]} =crunchy=	%
 kasakasa	{[scat adv:onoma]} =dry=	%
 kirakira	{[scat adv:onoma]} =sparkling=	%光る
+korokoro	{[scat adv:onoma]} =rolling=
+kosokoso	{[scat adv:onoma]} =secretly=
 kurikuri	{[scat adv:onoma]} =big_and_round=	%丸い
 kurukuru	{[scat adv:onoma]} =twirling=	%回る
+mesomeso	{[scat adv:onoma]} =sobbing=
+muchimuchi	{[scat adv:onoma]} =plumply=
+mukumuku	{[scat adv:onoma]} =billowing=
+nayonayo	{[scat adv:onoma]} =effeminately=
 nebaneba	{[scat adv:onoma]} =sticky=	%くっ付く
+nechinechi	{[scat adv:onoma]} =persistently=
 nikoniko	{[scat adv:onoma]} =smiling=	%笑う
 nurunuru 	{[scat adv:onoma]} =slimy=
+nyurunryuru	{[scat adv:onoma]} =slimily=
+odoodo	{[scat adv:onoma]} =fearfully=
+omeome	{[scat adv:onoma]} =tamely=
+orooro	{[scat adv:onoma]} =insecurely=
+otaota	{[scat adv:onoma]} =jittering=
+ozuozu	{[scat adv:onoma]} =hesitantly=
 pakupaku	{[scat adv:onoma]} =gobbling=	%食べる
 pikapika	{[scat adv:onoma]} =shiny=	%光る
 pekopeko	{[scat adv:onoma]} =hungry=
+perapera	{[scat adv:onoma]} =glibly=
 piripiri	{[scat adv:onoma]} =spicy=	%辛い
+potapota	{[scat adv:onoma]} =dripping=
 puripuri	{[scat adv:onoma]} =soft_and_juicy=	%食感
 pyompyon	{[scat adv:onoma]} =hopping=	%跳ねる
 pimpin	{[scat adv:onoma]} =be_full_of_life=	%元気
 pokapoka	{[scat adv:onoma]} =warm=	%暖かい
 pokan	{[scat adv:onoma]} =blankly=	
 pumpun	{[scat adv:onoma]} =fuming=	%匂い,怒り
+sakusaku	{[scat adv:onoma]} =effortlessly=
 sarasara	{[scat adv:onoma]} =smooth=
+shitoshito	{[scat adv:onoma]} =softly=
 shombori	{[scat adv:onoma]} =downheartedly=
 subesube	{[scat adv:onoma]} =smooth=
-suisui	{[scat adv:onoma]} =swimming=
+suisui	{[scat adv:onoma]} =gracefully=
+surasura	{[scat adv:onoma]} =readily=
+surusuru	{[scat adv:onoma]} =smoothly=
+taratara	{[scat adv:onoma]} =dripping=
+teratera	{[scat adv:onoma]} =glossily=
+tsurutsuru	{[scat adv:onoma]} =smooth=
+ukiuki	{[scat adv:onoma]} =buoyantly=
+usuusu	{[scat adv]} =subtly=
+utouto	{[scat adv:onoma]} =nodding_off=
+utsurautsura	{[scat adv:onoma]} =nodding_off=
+uzuuzu	{[scat adv:onoma]} =eagerly=
+yoboyobo	{[scat adv:onoma]} =tottering=
+yochiyochi	{[scat adv:onoma]} =toddling=
+yoiyoi	{[scat adv:onoma]} =unsteady=
+yurayura	{[scat adv:onoma]} =swaying=
+zakuzaku	{[scat adv:onoma]} =crisply=
 zorozoro	{[scat adv:onoma]} =in_succession=
 zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 
@@ -283,16 +319,19 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	yagate	{[scat adv]} =before_long=	% やがて  軈て 
 	yahari	{[scat adv]} =as_thought=	
 	yaku	{[scat adv]} =about=	% 約 
+	yanwari	{[scat adv]} =gently=
 	yappa	{[scat adv]} =as_thought= "yahari"
 	yappari	{[scat adv]} =as_thought= "yahari"	
 	yappashi	{[scat adv]} =as_thought=	 "yahari"
 	yatto	{[scat adv]} =finally=	
+	yaya	{[scat adv]} =slightly=
 	yohodo	{[scat adv]} =considerably=	% よほど/余程 
 	yoku	{[scat adv]} =often=	% よく 
 	yoo	{[scat adv]} =well=
 %changed_to_quant	yooke	{[scat adv]} =much=
 	yooyaku	{[scat adv]} =finally=	% ようやく  漸く 
 	yoppodo	{[scat adv]} =considerably= "yohodo"	% よほど/余程 
+	yori	{[scat adv]} =more=
 	yukkuri	{[scat adv]} =slowly=	
 	yuttari	{[scat adv]} =spacious=	
 	zatto	{[scat adv]} =sketchily=	

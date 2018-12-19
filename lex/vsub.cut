@@ -27,7 +27,7 @@ or	{[scat v:c:sub]} =ASP=
 shimaw	{[scat v:c:sub]} =finish_COMPL= 
 su	{[scat v:ir:sub]} =do= 
 itas	{[scat v:c:sub]} =do_POL= 
-yar	{[scat v:c:sub]} =do_CLQ= 
+yar	{[scat v:c:sub]} =give_CLQ= 
 
 
 

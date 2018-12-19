@@ -5,9 +5,15 @@
 % Verb    (vowel/consonant)
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "k"
 	hik	{[scat v:c]} =grind=	%【引く】***
+	kakar	{[scat v:c]} =be_affected=
 	sak	{[scat v:c]} =rupture= %	割く		
 	suk	{[scat v:c]} =like= %	好く		
 	yak	{[scat v:c]} =be_jealous=	%【やく】(〈妬く)***
+%%%%%%%%%%%%%%%%%%%%%%%%%%   "m"
+	sum	{[scat v:c]} =clear=	%【澄む】***
+togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS"
+
+%	研ぎ澄ます
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "r"
 	ayamar	{[scat v:c]} =mistake=	% 【誤る】
 	kur	{[scat v:c]} =wind=  %	繰る		
@@ -17,6 +23,7 @@
 	mor	{[scat v:c]} =fill_up=	%【盛る】
 	sor	{[scat v:c]} =be_curved=	%【反る】***
 	sur	{[scat v:c]} =rub=	%【擦る】
+	tamar	{[scat v:c]} =bear= %  堪る
 	tomar	{[scat v:c]} =stay=	%【泊まる】***
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "s"
 	fukas	{[scat v:c]} =steam=	%【ふかす】(《蒸かす)***
@@ -35,6 +42,8 @@
 	kure	{[scat v:v]} =get_dark=	%【暮れる】
 	megake	{[scat v:v]} =aim=	%【目がける/目掛ける】
 	tome	{[scat v:v]} =lodge_sb=	%【泊める】
+	tsutome	{[scat v:v]} =strive=	%【努める】
+	tsutome	{[scat v:v]} =be_employed=	%【努める】
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "i"
 
 

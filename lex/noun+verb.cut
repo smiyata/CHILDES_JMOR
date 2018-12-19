@@ -10,6 +10,7 @@ ajimi	{[scat n:vn][comp n+v:v]} =tasting= "aji+mi&GER"
 ajitsuke	{[scat n:vn][comp n+v:v]} =flavoring= "aji+tsuke&GER"
 anaake	{[scat n:vn][comp n+v:v]} =making_a_hole= "ana+ake&GER"
 anahori	{[scat n:vn][comp n+v:c]} =hole_digging= "ana+hor-GER"
+asane	{[scat n:vn][comp n+v:v]} =morning_nap= "asa+ne"	%【朝寝】
 atodashi	{[scat n:vn][comp n+v:c]} =late_move= "ato+das-GER"
 atokatazuke	{[scat n:vn][comp n+v:v]} =cleaning_up= "ato+katazuke&GER"
 batteriigire	{[scat n:vn][comp n+v:v]} =dead_battery= "batterii+kire&GER"

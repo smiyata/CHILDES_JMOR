@@ -189,6 +189,7 @@ wa	{[scat ptl:top]} =TOP=
 %%%%% quotation particle
 tte	{[scat ptl:quot]} =QUOT=
 to	{[scat ptl:quot]} =QUOT=
+tto	{[scat ptl:quot]} =QUOT=
 toiu	{[scat ptl:quot]} "to_iu" =QUOT=
 toii	{[scat ptl:quot]} "to_ii" =QUOT=
 ttsu	{[scat ptl:quot]} "to&iu" =QUOT=

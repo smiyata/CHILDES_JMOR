@@ -94,6 +94,12 @@ shimootara	{[scat v:c:sub][tense past]} =finish_COMPL= "shimaw-COND:tara"
 
 omooteru	{[scat v:c][tense pres]} =think= "omow-ASP-PRES"
 
+semarikuru	{[scat v:ir][tense pres]} =impend= "semar_ku-PRES"
+semarikiteru	{[scat v:ir][tense pres]} =impend= "semar_ku-ASP-PRES"
+semarikite	{[scat v:ir][tense inf]} =impend= "semar_ku-CONN"
+semarikita	{[scat v:ir][tense past]} =impend= "semar_ku-PAST"
+semarikiteta	{[scat v:ir][tense past]} =impend= "semar_ku-ASP-PAST"
+
 %              	  			 AI-VERBS     	"gozaimasu"
 gozar	{[scat v:c]} =be_POL=	%
 gozaimasu	{[scat v:ir][tense pres]} =be_POL= "gozaimas-PRES"

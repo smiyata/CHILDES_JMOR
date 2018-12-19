@@ -659,6 +659,7 @@
 	hatsujooki	{[scat n]} =rut= 	% 発情期
 	hazure	{[scat n]} =a_miss= 	% 外れ 
 	hayashi	{[scat n]} =wood= 	% 林 
+	hebereke	{[scat n]} =extremely_drunk= 	% 
 	hebi	{[scat n]} =snake= 	% 蛇 
 	hechima	{[scat n]} =sponge_cucumber= 
 	hee	{[scat n]} =wall= 	% 塀 
@@ -792,7 +793,7 @@
 	hyoojoo	{[scat n]} =facial_expression=	%
 	hyoomen	{[scat n]} =surface= 
 	hyooshi	{[scat n]} =cover= 	% 表紙 
-	hyooshiki	{[scat n]} =traffi_sign= 	% 標識
+	hyooshiki	{[scat n]} =traffic_sign= 	% 標識
 	hyootan	{[scat n]} =gourd= 	% ひょうたん  ヒョウタン
 	hyottoko	{[scat n]} =ugly_face= 	% ひょっとこ
 	ibiki	{[scat n]} =snore= 	% いびき  鼾 
@@ -1689,6 +1690,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	monku	{[scat n]} =complaint= 	% 文句 
 	mono	{[scat n]} =thing=	% 物 
 	monomorai	{[scat n]} =sty=	% 物もらい 
+	monomorai	{[scat n]} =beggar=	% 物もらい 
 	monogatari	{[scat n]} =tale= 	% 物語 
 	mononoke	{[scat n]} =ghost= 	% 物の怪 
 	monooki	{[scat n]} =lumber_room= 	% 物置 
@@ -1898,6 +1900,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	okurimono	{[scat n]} =present= 	% 贈り物
 	okusama	{[scat n]} =wife= 	% 奥様 
 	okusan	{[scat n]} =wife= 	% 奥さん 
+	omake	{[scat n]} =extra=	%【おまけ】
 	omamori	{[scat n]} =amulett= 	% お守り
 	omaru	{[scat n]} =potty= 	% おまる 
 	omawari	{[scat n]} =police_officer= 	% お巡り 
@@ -1958,6 +1961,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	oshikuramanjuu	{[scat n]} "oshikura_manjuu" =back_to_back_circle_game=
 	oshime	{[scat n]} =diaper= 	% おしめ  襁褓 
 	oshinko	{[scat n]} =pickled_vegetables= 	% おしんこ  お新香 
+	osonae	{[scat n]} =offerings= "o_HON_sonae"	%【お供え】
 	ossan	{[scat n]} =man= 	% おじさん  小 父さん 
 	osu	{[scat n]} =male= 	% 雄  牡 
 	otanchin	{[scat n]} =blockhead= 	% おたんちん  オタンチン 
@@ -2537,6 +2541,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	tawashi	{[scat n]} =scrubbing_brush= 	% たわし  束子 
 	te	{[scat n]} =hand= 	% 手 
 	tearai	{[scat n]} =toilet= 	% 手洗い 
+	teate	{[scat n]} =treatment=	%【手当て】
 	tebukuro	{[scat n]} =glove= 	% 手袋 
 	techoo	{[scat n]} =notebook= 	% 手帳  手 帖 
 	teeboku	{[scat n]} =shrub= 	% 低木 

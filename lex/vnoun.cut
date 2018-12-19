@@ -20,7 +20,6 @@
 	appaku	{[scat n:vn]} =pressure=	%【圧迫】
 	appuappu	{[scat n:vn]} =gasp_for_breath=	
 	araimono	{[scat n:vn]} =washing= 
-	asane	{[scat n:vn]} =morning_nap=	%【朝寝】
 	asaneboo	{[scat n:vn]} =late_riser=	%【朝寝坊】
 	asayake	{[scat n:vn]} =glowing_morning_sky=	%【朝焼け】
 	ashibumi	{[scat n:vn]} =stamp=	%【足踏み】
@@ -42,13 +41,13 @@
 	bakuhatsu	{[scat n:vn]} =detonation=	%【爆発】
 	bansoo	{[scat n:vn]} =accompany=	%【伴奏】+
 	banzai	{[scat n:vn]} =cheers=	%【万歳】
-	batabata	{[scat n:vn]} =bustle=	
+	batabata	{[scat n:vn:onoma]} =bustle=	
 	batominton	{[scat n:vn]} =badminton=
 	bempi	{[scat n:vn]} =obstipation=	%【便秘】
 	benkyoo	{[scat n:vn] [npform o]} =study=	%【勉強】
 	benkyo	{[scat n:vn] [npform o]} =study= "benkyoo"	%【勉強】
 	benshoo	{[scat n:vn]} =pay_for_damage=	%【弁償】+
-	betabeta	{[scat n:vn]} =sticky=	
+	betabeta	{[scat n:vn:onoma]} =sticky=	
 	betobeto	{[scat n:vn:onoma]} =sticky=	
 	bettari	{[scat n:vn]} =clinging=	
 	bettori	{[scat n:vn]} =clinging=	
@@ -87,6 +86,7 @@
 	chakuriku	{[scat n:vn]} =landing=	%【着陸】
 	chikoku	{[scat n:vn]} =be_late=	%【遅刻】
 	chimmoku	{[scat n:vn]} =silence=	%【鎮火】
+	chin	{[scat n:vn:onoma]} =microwaving_CLQ=
 	chinka	{[scat n:vn]} =extinguish=	%【鎮火】
 	chiryoo	{[scat n:vn]} =heal=	%【治療】
 	chokin	{[scat n:vn]} =deposit_money=	%【貯金】
@@ -112,14 +112,11 @@
 	dansui	{[scat n:vn]} =water_failure=	%【断水】
 	damboo	{[scat n:vn]} =heating=	%【暖房】
 	daradara	{[scat n:vn]} =dragging_on=	
-	dashiire	{[scat n:vn]} =take_in_and_out=	%【出し入れ】
 	dassen	{[scat n:vn]} =derailment=	%【脱線】
+	dasshutsu	{[scat n:vn]} =escape=
 	dassoo	{[scat n:vn]} =desertion=	%【脱走】
 	dassui	{[scat n:vn]} =dehydration=	%【脱水】
 	datsuraku	{[scat n:vn]} =omission=
-	dehairi	{[scat n:vn]} =go_in_and_out=	%【出入り】
-	dekake	{[scat n:vn]} =going_out=	%【出かけ】出掛け
-	deiri	{[scat n:vn]} =go_in_and_out=	%【出入り】
 	dekoboko	{[scat n:vn:onoma]} =bumpy=	%
 	demae	{[scat n:vn]} =delivery=
 	dengon	{[scat n:vn]} =message=	%【伝言】
@@ -264,7 +261,6 @@
 	hatto	{[scat n:vn:onoma]} =startled=	%
 	hayagaten	{[scat n:vn]} =hasty_conclusion=	%【早合点】
 	hayajini	{[scat n:vn]} =premature_death=	%【早死に】
-	hayane	{[scat n:vn]} =early_to_bed=	%【早寝】
 	hayatochiri	{[scat n:vn]} =jump_to_conclusion=	%【早とちり】
 	hedomodo	{[scat n:vn]} =flustered=	
 	heekin	{[scat n:vn]} =average=	%【平均】
@@ -281,9 +277,8 @@
 	hensoku	{[scat n:vn]} =gear_change=	%【変速】
 	hentai	{[scat n:vn]} =metamorphosis=	%【変態】
 	hentoo	{[scat n:vn]} =answer=	%【返答】
-	hiebie	{[scat n:vn]} =feel_chilly=	%【冷え冷え】
+	herahera	{[scat n:vn:onoma]} =laugh_foolishly=
 	hikaku	{[scat n:vn]} =comparison=	%【比較】
-	hikinige	{[scat n:vn]} =hit_and_run=	%【ひき逃げ】(〈轢き逃げ)
 	hikizan	{[scat n:vn]} =subtraction=
 	hikkoshi	{[scat n:vn]} =moving=	%【引越】
 	hikoo	{[scat n:vn]} =flight=	%【飛行】
@@ -300,9 +295,7 @@
 	hitogoroshi	{[scat n:vn]} =murder=	%【人殺し】
 	hitomishiri	{[scat n:vn]} =afraid_of_strangers=	%【人見知り】
 	hitoriaruki	{[scat n:vn]} =walk_by_oneself=	%【独り歩き】+
-	hitorijime	{[scat n:vn]} =monopolize=	%【独り占め】
 	hiyahiya	{[scat n:vn]} =feel_cold=	%【冷や冷や】
-	hiyake	{[scat n:vn]} =sun_burn=	%【日焼け】
 	hiyarito	{[scat n:vn]} =feel_chilled=	%【冷やりと】
 	hiyatto	{[scat n:vn]} =feel_chilled=	%【冷やっと】
 	hogo	{[scat n:vn]} =protection=	%【保護】
@@ -319,23 +312,17 @@
 	hoosui	{[scat n:vn]} =water_drainage=	%【放水】
 	hootai	{[scat n:vn]} =bandage=	%【包帯】(〈繃帯)
 	hoozuri	{[scat n:vn]} =rub_cheek=	%【ほおずり】(〈頬擦り)
-	horebore	{[scat n:vn]} =be_enchanted=	%【ほれぼれ】(〈惚れ〈惚れ)
 	hosoo	{[scat n:vn]} =pavement=	%【舗装】(〈鋪装)
 	hossori	{[scat n:vn:onoma]} =slender=	
 	hotto	{[scat n:vn:onoma]} =relieved=
 	hyoogen	{[scat n:vn]} =expression=	%【表現】
 	hyoohaku	{[scat n:vn]} =bleach=	%【漂白】
 	hyoojoo	{[scat n:vn]} =face_expression=	% 表情
-	hyooshinuke	{[scat n:vn]} =feel_deflated=	%【拍子抜け】
 	ichidanraku	{[scat n:vn]} =stage_completed=	%【一段落】
 	idoo	{[scat n:vn]} =move=	%【移動】+
 	ihan	{[scat n:vn]} =transgression=	%【違反】
-	iiwake	{[scat n:vn]} =lame_excuse=	%【言い訳】
 	ijiwaru	{[scat n:vn]} =maliciousness=	%【意地悪】
 	ikaku	{[scat n:vn]} =threatening=	%【威嚇】
-	ikigire	{[scat n:vn]} =out_of_breath=	%【息切れ】
-	ikiiki	{[scat n:vn:onoma]} =vivid=	%【生き生き】
-	ikinuki	{[scat n:vn]} =breather=	%【息抜き】
 	ikuji	{[scat n:vn]} =child_raising=	%【育児】
 	imi	{[scat n:vn] [sn +] [ncf imi]} =meaning=	%【意味】-
 	inchiki	{[scat n:vn]} =fake=	%
@@ -355,6 +342,7 @@
 	jikken	{[scat n:vn]} =experiment=	%【実験】
 	jiman	{[scat n:vn]} =boasting=	%【自慢】
 	jinarashi	{[scat n:vn]} =leveling=	%【地均し】
+	jitsugen	{[scat n:vn]} =realize=
 	joosha	{[scat n:vn]} =get_on_train=	%【乗車】
 	josetsu	{[scat n:vn]} =clear_snow=	%【除雪】
 	josetsusha	{[scat n]} =snow_plow=	%【除雪】
@@ -369,17 +357,17 @@
 	juushoo	{[scat n:vn]} =serious_injury=	%【重傷】
 	juutai	{[scat n:vn]} =traffic_jam=	%【渋滞】
 	kagen	{[scat n:vn]} =adjustment=	%【加減】
-	kaiage	{[scat n:vn]} =purchase=	%【買い上げ】
 	kaigi	{[scat n:vn]} =conference=	%【会議】
 	kaigui	{[scat n:vn]} =spend_pocketmoney_on_sweets=	%【買い食い】
 	kaihoo	{[scat n:vn]} =release=	%解放
 	kaikee	{[scat n:vn]} =accounting=	%【会計】
 	kaiketsu	{[scat n:vn]} =solution=	%【解決】
+	kaiko	{[scat n:vn]} =lay_off= %解雇
 	kaikoo	{[scat n:vn]} =open_a_course=	%【開校】+
 	kaimono	{[scat n:vn]} =shopping=	%【買い物】
 	kaisatsu	{[scat n:vn]} =ticket_barrier=	%【改札】
 	kaishi	{[scat n:vn]} =start=	%【開始】
-	kaishuu	{[scat n:vn]} =collect=	%【回収】
+	kaishuu	{[scat n:vn]} =retrieval=	%【回収】
 	kaisoo	{[scat n:vn]} =renovation=	%【改装】
 	kaiten	{[scat n:vn] [ncf ban]} =rotation=	%【回転】
 	kaitendai	{[scat n] [ncf ban]} =rotator=	%【回転】
@@ -387,6 +375,7 @@
 	kaizoo	{[scat n:vn]} =remodeling=	%【改造】
 	kaji	{[scat n:vn]} =housework=	% 家事 
 	kakeashi	{[scat n:vn]} =gallop=	%【駆け足】
+	kakehiki	{[scat n:vn]} =trade=
 	kakioki	{[scat n:vn]} =memo=	%【書き置き】
 	kakka	{[scat n:vn]} =upset=	
 	kakko	{[scat n:vn]} =brackets=	%【かっこ/括弧】
@@ -440,7 +429,6 @@
 	kasoku	{[scat n:vn]} =acceleration=	%【加速】
 	kasoo	{[scat n:vn]} =disguise=	%【仮装】+
 	kassai	{[scat n:vn]} =applause=	%【かっさい】(喝〈采)
-	katazuke	{[scat n:vn]} =tidying_up=	%【活動】
 	katsudoo	{[scat n:vn]} =activity=	%【活動】
 	katsuyaku	{[scat n:vn]} =activity=	%【活躍】
 	katsuyoo	{[scat n:vn]} =practical_use=	%【活用】
@@ -471,7 +459,6 @@
 	kengakutai	{[scat n]} =visit_tour_troup=	%【見学隊】
 	kengakusha	{[scat n]} =visitor=	%【見学者】
 	kenka	{[scat n:vn]} =quarrel=	%【けんか】(〈喧嘩〉)
-	kenkawakare	{[scat n:vn]} =part_in_anger=	%【けんか別れ】(〈喧嘩〉別れ)
 	kenken	{[scat n:vn]} =hopscotch=	%【けんけん】
 	kenkyuu	{[scat n:vn]} =research=	%【研究】
 	kenkyuujo	{[scat n]} =research_institute=	%【研究】
@@ -503,7 +490,6 @@
 	kinodoku	{[scat n:vn]} =pitiable=	%【気の毒】
 	kinori	{[scat n:vn]} =enthusiastic=	%【気乗り】
 	kinshi	{[scat n:vn]} =forbidden=	%【禁止】
-	kinuke	{[scat n:vn]} =absentmindedly=	%【気抜け】
 	kioku	{[scat n:vn]} =memory=	%【記憶】
 	kiokure	{[scat n:vn]} =nervousness=	%【気後れ】
 	kirakira	{[scat n:vn:onoma]} =glitteringly=	
@@ -516,8 +502,6 @@
 	kitai	{[scat n:vn]} =expectation=	%【期待】
 	kitaku	{[scat n:vn]} =come_home=	%【帰宅】
 	kizetsu	{[scat n:vn]} =faint=	%【気絶】
-	kizukare	{[scat n:vn]} =mental_fatigue=	%【気疲れ】
-	koegawari	{[scat n:vn]} =voice_breaking=	%【声変わり】
 	kojimmari	{[scat n:vn]} =cozy=	
 	kokkuri	{[scat n:vn:onoma]} =nod_in_agreement=	
 	kokorozukai	{[scat n:vn]} =consideration=	%【心遣い】
@@ -525,7 +509,6 @@
 	komagoma	{[scat n:vn]} =miscellanies=	%【こまごま】(細細)
 	kommake	{[scat n:vn]} =patience_exhausted=	%【根負け】
 	komori	{[scat n:vn]} =baby_sit=	%【子守】
-	konkurabe	{[scat n:vn]} =endurance_contest=	%【根比べ】(根《競べ)
 	konsen	{[scat n:vn]} =entangled=	%【混戦】
 	konran	{[scat n:vn]} =confusion=	%【混乱】
 	konwaku	{[scat n:vn]} =be_upset=
@@ -553,7 +536,6 @@
 	kootsuu	{[scat n:vn]} =traffic=	%【交通】
 	kooyoo	{[scat n:vn]} =red_autumn_leaves=	%【紅葉】
 	korigori	{[scat n:vn]} =fed_up=	%懲り懲り
-	koromogae	{[scat n:vn]} =seasonal_dress_change=	%【衣替え】(衣《更え)
 	koshoo	{[scat n:vn]} =malfunction=	%【故障】
 	koshuu	{[scat n:vn]} =cling_to=	%【固執】
 	kosokoso	{[scat n:vn:onoma]} =secretly=	
@@ -563,11 +545,11 @@
 	kozaiku	{[scat n:vn]} =petty_tricks=	%【小細工】
 	kubetsu	{[scat n:vn]} =differentiation=	%【区別】
 	kuchigenka	{[scat n:vn]} =quarrel_words=	%【口げんか】(口〈喧嘩〉)
-	kuchigotae	{[scat n:vn]} =talk_back=	%【口答え】
 	kufuu	{[scat n:vn]} =device=	%【くふう/工夫】
 	kujibiki	{[scat n:vn]} =lottery=	%【くじ引き】(〈籖引き)
 	kukkiri	{[scat n:vn:onoma]} =distinctly=	
 	kunekune	{[scat n:vn:onoma]} =snake_like=	
+	kunkun	{[scat n:vn:onoma]} =sniffing=	
 	kunren	{[scat n:vn]} =exercises=	%【訓練】
 	kurakura	{[scat n:vn:onoma]} =dizzy=	
 	kuroo	{[scat n:vn]} =hardship=	%【苦労】
@@ -589,38 +571,28 @@
 	kyuunyuu	{[scat n:vn]} =inhalation=	%【吸入】
 	kyuuyu	{[scat n:vn]} =refueling=	%【給油】
 	magomago	{[scat n:vn:onoma]} =bewildered=	%
-	make	{[scat n:vn]} =defeat=	%【負け】
-	make	{[scat n:vn]} =discount=	%【負け】
-	mane	{[scat n:vn]} =imitation=	%【まね】(:真似)
-	manegoto	{[scat n:vn]} =imitation=	%【まね】(:真似)
 	mankai	{[scat n:vn]} =fully_open=	%【満開】
-	manuke	{[scat n:vn]} =fool=	%【間抜け】
 	meechuu	{[scat n:vn]} =hit_the_mark=	%【命中】
+	mensetsu	{[scat n:vn]} =interview=
 	memai	{[scat n:vn]} =vertigo=	%【めまい】(:眩暈)
 	miburi	{[scat n:vn]} =gesticulation=	%
 	mitchaku	{[scat n:vn]} =glued_together=	%【密着】
-	miyamairi	{[scat n:vn] [npform o]} =shrine_visit=	%【宮参り】
 	mochimochi	{[scat n:vn:onoma]} =soft_and_sticky=
-	monomorai	{[scat n:vn]} =begging=
 	muri	{[scat n:vn]} =overstrain=	%【無理】
 	mushi	{[scat n:vn]} =ignore=	%【無視】
-	nakimane	{[scat n:vn]} =fake_crying=	%
-	nakineiri	{[scat n:vn]} =cry_oneself_to_sleep=	%【泣き寝入り】
 	nattoku	{[scat n:vn]} =be_convinced=	%【納得】
 	neboo	{[scat n:vn]} =oversleep=	%【寝坊】
 	netchuu	{[scat n:vn]} =be_enthusiastic=	%【熱中】
-	nikoniko	{[scat n:vn]} =smiling=	%
-	niyaniya	{[scat n:vn]} =smirking=	%
+	nikoniko	{[scat n:vn:onoma]} =smiling=	%
+	niyaniya	{[scat n:vn:onoma]} =smirking=	%
 	nombiri	{[scat n:vn]} =tranquil=	%
+	nurunuru	{[scat n:vn:onoma]} =slimily=
 	nyuuen	{[scat n:vn]} =enter_kindergarten=
-	nyuuenshiki	{[scat n]} "nyuuen-shiki" =enter_kindergarten_ceremony=
+	nyuuenshiki	{[scat n]} "nyuuen-shiki_CEREMONY" =enter_kindergarten_ceremony=
+	shuugyooshiki	{[scat n]} "shuugyoo-shiki_CEREMONY" =closing_ceremony=
 	nyuuin	{[scat n:vn]} =enter_hospital=	%【入院】
 	oita	{[scat n:vn]} =mischief=
 	ojigi	{[scat n:vn]} =polite_bow=	%【おじぎ】(お辞儀)
-	okawari	{[scat n:vn]} =refill=	%【お代わり】
-	omairi	{[scat n:vn]} =shrine_visit=	%【お参り】
-	omake	{[scat n:vn]} =discount=	%【おまけ】(お負け)
-	omimai	{[scat n:vn]} =sick_bed_visit= "o_HON#mimai"
 	ofu	{[scat n:vn]} =switch_off=	%オフ
 	on	{[scat n:vn]} =switch_on=	%オン
 	ongaeshi	{[scat n:vn]} =repay_obligation=	%【恩返し】
@@ -775,7 +747,6 @@
 	shuuryoo	{[scat n:vn]} =finish=	%【終了】
 	shuushuu	{[scat n:vn]} =collect=	%【収集】
 	shuuzen	{[scat n:vn]} =mending=	%【修繕】
-	osonae	{[scat n:vn]} =offerings= "o_HON#sonae"	%【お供え】
 	sonzai	{[scat n:vn]} =existence=
 	soodan	{[scat n:vn]} =consultation=	%【相談】
 	soodoo	{[scat n:vn]} =tumult=	%【騒動】
@@ -793,8 +764,6 @@
 	sossen	{[scat n:vn]} =take_initiative=	%【率先】
 	suiee	{[scat n:vn]} =swim=	%【水泳】
 	suisoku	{[scat n:vn]} =inference=	%【推測】
-	sundome	{[scat n:vn]} =stopping_just_before=
-	susume	{[scat n:vn]} =recommendation= %勧め
 	sutaato	{[scat n:vn]} =start=
 	tachikurami	{[scat n:vn]} =feel_dizzy_on_standing_up=	%【立ちくらみ】(立ち〈眩み)
 	tachioojoo	{[scat n:vn]} =be_stuck=
@@ -817,7 +786,6 @@
 	tansoku	{[scat n:vn]} =probing=	%【探測】
 	taosemboo	{[scat n:vn]} =knock_down=	%【倒せん坊】
 	tashizan	{[scat n:vn]} =addition=	% 【足し算】
-	teate	{[scat n:vn]} =treatment=	%【手当て】
 	teeden	{[scat n:vn]} =power_cut=	%【停電】
 	teeryuujo	{[scat n]} =bus_stop= "teeryuu-jo"	%【停留所】
 	teesha	{[scat n:vn]} =stop=	%【停車】
@@ -848,7 +816,6 @@
 	tsukai	{[scat n:vn]} =errand= 	% 使い 
 	tsunahiki	{[scat n:vn]} =tug_of_war=	%【綱引き】(綱〈曳き)
 	tsurutsuru	{[scat n:vn:onoma]} =smooth= 	% ツルツル 
-	tsutome	{[scat n:vn]} =job= 	% 努め 
 	tsuuen	{[scat n:vn]} =commuting_to_kindergarten=	%【通園】
 	tsuuka	{[scat n:vn]} =passing=	%【通過】
 	tsuukoo	{[scat n:vn]} =passing=	%【通行】
@@ -857,6 +824,7 @@
 	undoo	{[scat n:vn]} =sports=	%【運動】
 	undoojoo	{[scat n]} =sports_ground= "undoo-joo"	%【運動】
 	unten	{[scat n:vn]} =driving=	%【運転】
+	unzari	{[scat n:vn:onoma]} =be_sick_of=	
 	urouro	{[scat n:vn:onoma]} =loitering=	
 	usetsu	{[scat n:vn]} =turning_right=	%【右折】
 	uwasa	{[scat n:vn]} =gossip=
