@@ -55,10 +55,12 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS"
 
 
 % Subsidiary Verb
+deki	{[scat v:v:sub]} =can= 
 nar	{[scat v:c:sub]} =become=     %okake ni naru
 
 %%% short Kanji + "suru"
 aisu	{[scat v:ir]} =love= "ai_su"
+akasu	{[scat v:ir]} =prove= "aka_su" %証す
 ataisu	{[scat v:ir]} =be_worth= "atai_su"
 fukusu	{[scat v:ir]} "fuku_su" =submit= %	服する
 futasu	{[scat v:ir]} "futa_su" =put_lid_on= %	蓋する

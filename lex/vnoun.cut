@@ -3,15 +3,19 @@
 %%% VERBAL NOUNS %%
 	ai	{[scat n:vn]} =love=
 	aichaku	{[scat n:vn]} =attachment=	%【愛着】
+	ainori	{[scat n:vn]} =ride_together=	%	相乗りする
 	aisatsu	{[scat n:vn]} =greeting=	%【あいさつ】(〈挨拶〉)
-	aiyoo	{[scat n:vn]} =regular_use=	%【愛用】
+	aiyoo	{[scat n:vn]} =use_habitually=	%【愛用】
 	aizu	{[scat n:vn]} =signal=	%【合図】
 	akiaki	{[scat n:vn]} =fed_up=	%【飽き飽き】(〈厭き〈厭き)
 	akubi	{[scat n:vn]} =yawning=	%【あくび】(:欠伸)
+	akunuki	{[scat n:vn]} =skim_off_scum=	%	アク抜きする
 	akushu	{[scat n:vn]} =handshake=	%【握手】
+	akuyoo	{[scat n:vn]} =make_bad_use_of=	%	悪用する
 	amakudari	{[scat n:vn]} =appointment_from_top=	%【天下り】(天《降り)
 	amayadori	{[scat n:vn]} =take_shelter=	%【雨宿り】
 	amimono	{[scat n:vn]} =knitting= 	% 編み物 
+	anki	{[scat n:vn]} =learning_by_heart=	%	暗記する
 	annai	{[scat n:vn]} =guidance=	%【案内】
 	annaiban	{[scat n:vn]} =guide_marker= "annai-ban"	%【案内】
 	anshin	{[scat n:vn]} =reassured=	%【安心】

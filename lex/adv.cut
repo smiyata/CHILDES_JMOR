@@ -88,6 +88,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 %changed_to_quant	amma	{[scat adv]} =not_quite= "amari"	% あまり  余り 
 %changed_to_quant	ammari	{[scat adv]} =not_quite= "amari"	% あんまり
 %changed_to_quant	aramashi	{[scat adv]} =almost= 	% あらまし
+	atode	{[scat adv]} =later=
 	awaya	{[scat adv]} =in_an_instant= 	% あわや
 	batchiri	{[scat adv]} =uncomplicated=	
 	bochibochi	{[scat adv]} =little_by_little=	
@@ -106,7 +107,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	choo	{[scat adv]} =extremely=	% 超
 	choodo	{[scat adv]} =just=	% ちょうど  丁度/ 恰度 
 	choppiri	{[scat adv]} =a_tiny_bit=	
-	choito	{[scat adv]} =a_bit= "choito"	% ちょっと  一寸 
+	choito	{[scat adv]} =a_bit= "chotto"	% ちょっと  一寸 
 	chotto	{[scat adv]} =a_bit=	% ちょっと  一寸 
 	chiito	{[scat adv]} =a_bit=	% ちいと  
 	daibu	{[scat adv]} =mostly=	% だいぶ/大分 before adj

@@ -140,9 +140,10 @@ oniisan	{[scat npropsfx]} "o_HON&nii_ELDER_BROTHER-san_HON"
 niichan	{[scat npropsfx]} "nii_ELDER_BROTHER-chan_FAM"
 niisan	{[scat npropsfx]} "nii_ELDER_BROTHER-san_HON"
 
-% adj noun suffix	########  laeuft nicht
-% allo  ansfx   (nansfx is n>an,  nasfx is n>a)
-soo	{[scat ansfx]} "soo_SEEMINGx"
+%anoun -> noun suffix   n|kakujitsu-sa ######## doesn't work
+% allo  annsfx   (nansfx is n>an,  nasfx is n>a)
+soo	{[scat annsfx][sfxcat n]} "soo_SEEMINGx"
+sa	{[scat annsfx][sfxcat n]} "sa_NLZR" 
 
 % adjective suffixes	########
 
@@ -185,6 +186,7 @@ mi	{[scat asfx] [sfxcat n]} "mi_TASTE"
 
 %adj -> adj noun suffix   n:an|oishi-soo ########
 soo	{[scat asfx] [sfxcat n:an]} "soo_SEEMING"
+
 
 
 % verb suffixes	########

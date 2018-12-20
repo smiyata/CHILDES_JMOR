@@ -758,6 +758,7 @@ kawatombo		{[scat n][comp n+n]} =damsel_fly= "kawa+tombo"
 kayakuudon	{[scat n][comp n+n]} =spicy_noodles= 	% 加薬うどん
 kazushiiru		{[scat n][comp n+n]} =number_sticker= "kazu+shiiru"
 kedama	{[scat n][comp n+n]} =wool_pill= "ke+tama"
+kensetsugemba	{[scat n][comp n+n]} =construction_site= "kensetsu+gemba"
 kensetsusangyoosha	{[scat n][comp n+n]} =construction_vehicle= "kensetsu+sangyoo-sha"
 kensetsutorakku	{[scat n][comp n+n]} =construction_truck= "kensetsu+torakku"
 ketsumakuen		{[scat n][comp n+n]} =conjunctivitis= "ketsumaku+en"
