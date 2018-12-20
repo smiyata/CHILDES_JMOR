@@ -56,3 +56,39 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS"
 
 % Subsidiary Verb
 nar	{[scat v:c:sub]} =become=     %okake ni naru
+
+%%% short Kanji + "suru"
+aisu	{[scat v:ir]} =love= "ai_su"
+ataisu	{[scat v:ir]} =be_worth= "atai_su"
+fukusu	{[scat v:ir]} "fuku_su" =submit= %	服する
+futasu	{[scat v:ir]} "futa_su" =put_lid_on= %	蓋する
+bossu	{[scat v:ir]} "bos_su" =perish= %	没する
+hansu	{[scat v:ir]} "han_su" =oppose= %	反する
+hassu	{[scat v:ir]} "has_su" =pass_off= %	発する
+hossu	{[scat v:ir]} "hos_su" =crave= %	欲する
+gaisu	{[scat v:ir]} "gai_su" =harm= %	害する
+imisu	{[scat v:ir]} "imi_su" =denote= %意味する
+%kansu	{[scat v:ir]} =concern= "kan_su" %関する  => adn|kansuru   ptl:foc|kanshite
+kessu	{[scat v:ir]} "kes_su" =decide= %	決する
+koisu	{[scat v:ir]} "koi_su" =fall_in_love= %	恋する
+kussu	{[scat v:ir]} "kus_su" =resign= %	屈する
+namidasu	{[scat v:ir]} "namida_su" =weep= %	涙する
+nessu	{[scat v:ir]} "nes_su" =heat_up= %	熱する
+ryakusu	{[scat v:ir]} "ryaku_su" =shorten= %	略する
+saiwaisu	{[scat v:ir]} "saiwai_su" =prove_fortunate= %	幸いする
+sassu	{[scat v:ir]} "sas_su" =perceive= %	察する
+seesu	{[scat v:ir]} "see_su" =control= %	制する
+sessu	{[scat v:ir]} "ses_su" =contact= %	接する
+shisu	{[scat v:ir]} "shi_su" =die= %	死する
+shokusu	{[scat v:ir]} "shoku_su" =eclipse= %	食する
+shoosu	{[scat v:ir]} "shoku_su" =profess_status= %	称する
+dassu	{[scat v:ir]} "das_su" =escape= %	脱する
+%taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
+tassu	{[scat v:ir]} "tas_su" =reach= %	達する
+tekisu	{[scat v:ir]} "teki_su" =conform_to= %	適する
+tessu	{[scat v:ir]} "tes_su" =sink_in= %	徹する
+tokusu	{[scat v:ir]} "toku_su" =profit= %	得する
+yoosu	{[scat v:ir]} "yoo_su" =need= %	要する
+yuusu	{[scat v:ir]} "yuu_su" =bear= %	有する
+zokusu	{[scat v:ir]} "zoku_su" =belong_to= %	属する
+

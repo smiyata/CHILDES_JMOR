@@ -290,12 +290,12 @@ ru	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES"
 
 
 % past		########
-ta	{[scat vtense] [tense past] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "PAST"
+ta	{[scat vtense] [tense past] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo vBSu]} "PAST"
 da	{[scat vtense] [tense past] [allo OR vTNn vTIg]} "PAST"  
 
 
 % connective	########
-te	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo]} "CONN"
+te	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo vBSu]} "CONN"
 de	{[scat vtense] [tense pres] [allo OR vTNn vTIg cRda]} "CONN"
 cha	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "CONN&wa"
 ja	{[scat vtense] [tense inf] [allo OR vTNn vTIg]} "CONN&wa"

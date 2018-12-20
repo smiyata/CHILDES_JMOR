@@ -44,7 +44,7 @@ see	{[scat n:fml]} =on_account_of=
 shidai	{[scat n:fml]} =order=
 tabi	{[scat n:fml]} =each_time=
 tambi	{[scat n:fml]} =each_time= "tabi"
-tame	{[scat n:fml]} =purpose=
+tame	{[scat n:fml]} =reason=
 %	toki	{[scat n:fml]} =time=  %ONLNY as noun
 toko	{[scat n:fml]} =when= "tokoro"
 tokoro	{[scat n:fml]} =when=
@@ -56,7 +56,7 @@ tsuide	{[scat n:fml]} =by_the_way=
 tsumori	{[scat n:fml]} =intention=
 uchi	{[scat n:fml]} =while=
 wake	{[scat n:fml]} =reason=
-yoo	{[scat n:fml]} =apparently=
+yoo	{[scat n:fml]} =as=
 
 mae	{[scat n]} =before=
 %mae	{[scat n:fml]} =before=

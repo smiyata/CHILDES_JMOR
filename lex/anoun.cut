@@ -115,7 +115,7 @@
 	fushigi	{[scat n:an]} =marvel=	% 不思議 
 	fushigisoo	{[scat n:an]} "fushigi-soo_SEEMING" =marvel=	% 不思議そう 
 	futotcho	{[scat n:an]} =fatty=
-	fuwafuwa	{[scat n:an]} =fluffy=	%
+	fuwafuwa	{[scat n:an:onoma]} =fluffy=	%
 	fuyoo	{[scat n:an]} =not_needed=	% 不要
 	gamushara	{[scat n:an]} =daredevil=	%
 	ganjoo	{[scat n:an]} =sturdy=	% 頑丈 

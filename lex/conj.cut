@@ -22,6 +22,7 @@ demo	{[scat conj]} =but=
 desukara	{[scat conj]} =therefore=
 dewa	{[scat conj]} =well=
 ja	{[scat conj]} =well=
+jitsuwa	{[scat conj]} "jitsu_wa" =in_fact=
 monono	{[scat conj]} =although=
 nazenaraba	{[scat conj]} =because=
 nanode	{[scat conj]} =therefore= "na_no_de"
@@ -61,6 +62,7 @@ soretomo	{[scat conj]} =or=
 soshite	{[scat conj]} =and_then=
 suruto	{[scat conj]} =and_then=
 soreto	{[scat conj]} =and_then=
+sunawachi	{[scat conj]} =that_is=
 tada	{[scat conj]} =however=
 tadashi	{[scat conj]} =however=
 todoojini	{[scat conj]} "to_dooji_ni" =simultaneously=
@@ -70,5 +72,6 @@ tteiuka	{[scat conj]} "tte_iu_ka" =or_rather=
 tteyuunowa	{[scat conj]} "tte_iu_no_wa" =this_means_that=
 toiuyori	{[scat conj]} "to_iu_yori" =or_rather=
 tosuruto	{[scat conj]} "to_suru_to" =if_then=
+tsumari	{[scat conj]} =that_is=
 yoosuruni	{[scat conj]} =this_means=
 

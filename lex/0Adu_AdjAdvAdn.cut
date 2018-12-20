@@ -9,12 +9,29 @@
 %%%%  Adjective
 atsu	{[scat adj]} =thick=	% 厚い 
 haya	{[scat adj]} =early=
+hodochika	{[scat adj]} =nearby=
+ibukashi	{[scat adj]} =dubious=
+kakkooyo	{[scat adj]} =attractive=
+mendookusa	{[scat adj]} =bothersome= "mendoo-kusa"
+susamaji	{[scat adj]} =horrible=
+urasabishi	{[scat adj]} =deserted=
+
+
 
 %%%% Adverb
 kankan	{[scat adv:onoma]} =furious=	%怒る
 
+gokugoku	{[scat adv]} =quite=
+jitsuni	{[scat adv]} "jitsu_ni" =truly=
+mommon	{[scat adv]} =with_anguish= %%悶々
+tabun	{[scat adv]} =diversely=
+taigai	{[scat adv]} =generally=
+tootee	{[scat adv]} =ultimately=
+
+
 %%%% Adnominal
-%	chottoshita	{[scat adn]} =little=
+kooshita	{[scat adn]} "koo_shita" =such=
+mamonai	{[scat adn]} =instantaneous=
 
 %%%% Communicator
 iya	{[scat co:i]} "iyaa" =no=
@@ -22,6 +39,7 @@ iya	{[scat co:i]} "iyaa" =no=
 %%%% Deixis
 mizukara	{[scat n:deic:prs]} =self=
 
-
+%%%% Conjunction
+ato	{[scat conj]} =another=
 
 

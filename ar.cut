@@ -238,7 +238,6 @@ ALLOCAT = LEXCAT, ADD [allo vBSu]
 ALLO:
 ALLOSURF = se
 ALLOCAT = LEXCAT, ADD [allo vTSe]
-%%%new kkk
 ALLO:
 ALLOSURF = sare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -247,6 +246,36 @@ ALLO:
 ALLOSURF = sase
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
 ALLOSTEM = su-CAUS&GER
+
+%%%				  sahen for Short Kanji Compound "ai-suru"
+LEX-ENTRY:
+LEXSURF = $Xsu
+LEXCAT = [scat v:ir]
+ALLO:
+ALLOSURF = $Xshi
+ALLOCAT = LEXCAT, ADD [allo vTSi]
+ALLO:
+ALLOSURF: = $Xshi
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xshi&GER
+ALLO:
+ALLOSURF = $Xsh
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+ALLO:
+ALLOSURF = $Xsu
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+ALLO:
+ALLOSURF = $Xsare
+ALLOCAT = LEXCAT, ADD [allo vBSu]
+ALLOSTEM = $Xsu-PASS
+ALLO:
+ALLOSURF = $Xsare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = $Xsu-PASS&GER
+ALLO:
+ALLOSURF = $Xsase
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
+ALLOSTEM = $Xsu-CAUS&GER
 
 %%%				  kahen 
 LEX-ENTRY:

@@ -60,6 +60,7 @@ jii	{[scat n]  } =old_man= 	% じいさん  爺さん/:祖父さん
 jimu	{[scat n]} =office=
 jishaku	{[scat n]} =compass= 	% 磁石 
 jishukikaku	{[scat n][comp n+n:vn]} "jishu+kikaku" =independent_planning=
+jishoo	{[scat n]} =phenomenon= %事象
 jitsumukeeken	{[scat n][comp n+n:vn]} "jitsumu+keeken" =practical_job_experience=
 joobakurabu	{[scat n][comp n+n:vn]} "jooba+kurabu" =equestrian_club=
 joyaku	{[scat n]} =deputy=
@@ -70,9 +71,13 @@ kaikan	{[scat n]} =meeting_hall=
 kakko	{[scat n]} "kakkoo" =shape=	% かっこう/格好  恰好 
 kamigami	{[scat n][comp n+n]} =gods= "kami+kami"
 kanan	{[scat n]} =seeing_darkness=  %観闇
+kanashibari	{[scat n][comp n+v:c]} "kane+shibar-GER" =sleep_paralysis=
+kanashibarijootai	{[scat n][comp n+v:c+n]} "kane+shibar&GER+jootai" =sleep_paralysis=
 kanchoo	{[scat n]} =director=  
 kanchookoobo	{[scat n][comp n+n:vn]} "kanchoo+koobo" =public_recruitment_for_director=
+karite	{[scat n][comp v:c+n]} =borrower= "kari&GER+te"
 karyuu	{[scat n]} =downstream=
+kashite	{[scat n][comp v:c+n]} =lender= "kasi&GER+te"
 kata	{[scat n]} =collateral_SLANG=
 kata	{[scat n]} =collateral_SLANG=
 kazanbai	{[scat n][comp n+n]} "kazan+hai" =volcanic_ashes=
@@ -84,11 +89,13 @@ kemminkaikan	{[scat n][comp n+n]} "kemmin+kaikan" =prefectural_citizen's_hall=
 ken	{[scat n]} =prefecture=
 kenshookin	{[scat n]} "kenshoo_kin_MONEY" =reward=
 kibo	{[scat n]} =scale=
+kichi	{[scat n]} =known=
 kigyoo	{[scat n]} =business=
 kihonkyuu	{[scat n]} =basic_salary=
 kikaku__cdot__jisshi	{[scat n]} =planning_and_execution=
 kimi	{[scat n]} =master=
 kinshu	{[scat n]} =myoma=
+kizuato	{[scat n][comp n+n]} "kizu+ato" =scar=
 kodaishutoken	{[scat n][comp n+n]} "kodai+shutoken" =ancient_capital=
 kokkyoo	{[scat n]} =national_border=
 kokkyoosen	{[scat n]} "kokkyoo-sen_LINE" =border_line=
@@ -116,6 +123,7 @@ mata	{[scat n]} =groin=	% また  股
 me	{[scat n]} =bud= 	% 芽 
 mekakushi	{[scat n]} =blindfolding=
 memmen	{[scat n]} =each_one=
+michi	{[scat n]} =unknown=
 mononofu	{[scat n]} =warrior=
 mononofura	{[scat n]} "mononofu-ra_PL" =warrior=
 moomaku	{[scat n]} =retina=
@@ -195,6 +203,7 @@ shuto	{[scat n]} =capital=
 shuukyakuryoku	{[scat n]} "shuukyaku-ryoku_POWER" =power_to_attract_customers=
 sooree	{[scat n]} =funeral=
 soshiki	{[scat n]} =organization=
+sue	{[scat n]} =end=
 sukashijanome	{[scat n]} =double_ring= 	% 蛇の目  unclear
 sumakichoo	{[scat n]} == %monkichoo のこと?
 sumi	{[scat n]} =charcoal=	% 炭
@@ -203,7 +212,7 @@ tainai	{[scat n]} "tai_nai_WITHIN" =in_the_body=
 taisakuhombu	{[scat n][comp n+n]} "taisakuhombu" =countermeasures_headquarters=
 taishaku	{[scat n]} =rental=
 tamashii	{[scat n]} =soul=
-tame	{[scat n]} =purpose= 	% ため  為 
+tame	{[scat n]} =benefit=  % ため  為 
 teegaku	{[scat n]} =suspension_from_school=
 ten	{[scat n]} =point=
 tennoo	{[scat n]} =emperor=
@@ -254,6 +263,7 @@ Kyuusekkijidai	{[scat n:prop]} "Kyuu_sekki_jidai" =old_stone_age=
 %%%% Adjectival Noun
 	ani	{[scat n:an]} =easy=
 	futsugoo	{[scat n:an]} =inconvenient= "fu_tsugoo"
+teechaku_kanoo	{[scat n:an]} =anchoring_capable=
 
 %%%% Verbal Noun
 booee	{[scat n:vn]} =defence=

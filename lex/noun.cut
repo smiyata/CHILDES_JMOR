@@ -830,6 +830,7 @@
 	ikioi	{[scat n]} =energy= 	% 勢い 
 	ikkaku	{[scat n]} =corner= 	% 一角
 	ikki	{[scat n]} =at_a_breath= 	% 一気  
+	ikkodate	{[scat n]} =stand_alone_house=
 	ikkoo	{[scat n]} =troupe= 	% 一行 
 	ikkyuu	{[scat n]} =first_class= 	% 一級 
 	ikotsu	{[scat n]} =remains= 	% 遺骨

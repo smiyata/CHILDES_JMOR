@@ -25,8 +25,10 @@ tonaku	{[scat ptl:foc]} "to_naku" =regardless=
 tote	{[scat ptl:foc]} =as_for=
 towa	{[scat ptl:foc]} "to_wa" =QUOT=
 toyara	{[scat ptl:foc]} "to_yara" =and_the_like=
+tte	{[scat ptl:foc]} =as_for=
 zo	{[scat ptl:foc]} =just=
-¥%%%% case particle
+
+%%%% case particle
 
 %%%%  postposition particle
 kkara	{[scat ptl:post]} "kara" =from=
@@ -183,6 +185,7 @@ tte	{[scat ptl:fina]}  =QUOT=
 yara	{[scat ptl:fina]}  =or_so=
 yai	{[scat ptl:fina]}  =ASSERT=
 yoq	{[scat ptl:fina]} "yo"  =ASSERT=
+waa	{[scat ptl:fina]} =FINA=
 zoi	{[scat ptl:fina]}  =FINA=
 zura	{[scat ptl:fina]}  =FINA=
 

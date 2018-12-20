@@ -32,6 +32,7 @@ mukumuku	{[scat adv:onoma]} =billowing=
 nayonayo	{[scat adv:onoma]} =effeminately=
 nebaneba	{[scat adv:onoma]} =sticky=	%くっ付く
 nechinechi	{[scat adv:onoma]} =persistently=
+nichanicha	{[scat adv:onoma]} =stickily=
 nikoniko	{[scat adv:onoma]} =smiling=	%笑う
 nurunuru 	{[scat adv:onoma]} =slimy=
 nyurunryuru	{[scat adv:onoma]} =slimily=
@@ -55,6 +56,7 @@ pumpun	{[scat adv:onoma]} =fuming=	%匂い,怒り
 sakusaku	{[scat adv:onoma]} =effortlessly=
 sarasara	{[scat adv:onoma]} =smooth=
 shitoshito	{[scat adv:onoma]} =softly=
+shinshin	{[scat adv:onoma]} =silently=
 shombori	{[scat adv:onoma]} =downheartedly=
 subesube	{[scat adv:onoma]} =smooth=
 suisui	{[scat adv:onoma]} =gracefully=
@@ -87,11 +89,11 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 %changed_to_quant	ammari	{[scat adv]} =not_quite= "amari"	% あんまり
 %changed_to_quant	aramashi	{[scat adv]} =almost= 	% あらまし
 	awaya	{[scat adv]} =in_an_instant= 	% あわや
-	batchiri	{[scat adv] [to +]} =uncomplicated=	
+	batchiri	{[scat adv]} =uncomplicated=	
 	bochibochi	{[scat adv]} =little_by_little=	
 	bokeq	{[scat adv]} "stupified"
 	botsubotsu	{[scat adv]} =little_by_little=	
-	chakuchaku	{[scat adv] [to +] [vn +]} =step_by_step=	
+	chakuchaku	{[scat adv]} =step_by_step=	
 	chanto	{[scat adv]} =correctly=	
 	chinamini	{[scat adv]} =by_the_way=	
 	chitto	{[scat adv]} =a_bit=	
@@ -112,24 +114,26 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 %changed_to_quant	daitai	{[scat adv]} =generally=	% 大体 
 	dandan	{[scat adv] [rent +]} =more_and_more=	% 段々 
 	danzen	{[scat adv] [rent +]} =decidedly=	% 断然 
-	daradara	{[scat adv] [to +] [vn +]} =sluggishly=	
+	daradara	{[scat adv]} =sluggishly=	
 	dateni	{[scat adv] [rent +]} =for_show=	% だてに
-	dondon	{[scat adv] [to +]} =more_and_more=	
+	dondon	{[scat adv]} =more_and_more=	
 	enen	{[scat adv]} =endlessly=	% 延延 
 	erai	{[scat adv]} =very=
 	etchiraotchira	{[scat adv]} =laboriously= 
 	futatabi	{[scat adv]} =again=	
 	futto	{[scat adv]} =suddenly=	
-	geni	{[scat adv]} =indeed=	% 実に
-	gakkari	{[scat adv] [to +]} =disappointed=	%
-	gakkuri	{[scat adv] [to +] [vn +]} =disappointed=	
-	gisshiri	{[scat adv] [to +]} =crammed_full=	
+	geni	{[scat adv]} =indeed=	% 現に
+	gakkari	{[scat adv]} =disappointed=	%
+	gakkuri	{[scat adv]} =disappointed=	
+	garatto	{[scat adv]} =completely=
+	gisshiri	{[scat adv]} =crammed_full=	
 	gotoku	{[scat adv]} =like=	
-	gussuri	{[scat adv] [to +]} =deeply=	
-	gutto	{[scat adv] [to +]} =at_a_gulp=	
+	gusari	{[scat onoma]} =prick=
+	gussuri	{[scat adv]} =deeply=	
+	gutto	{[scat adv]} =at_a_gulp=	
 	gyoosan	{[scat adv]} =many=	% ぎょうさん 仰山 	
 	hajimete	{[scat adv]} =for_the_first_time=	% 初めて 
-	hakkiri	{[scat adv] [to +] [vn +]} =clearly=	
+	hakkiri	{[scat adv]} =clearly=	
 	harubaru	{[scat adv]} =all_the_way=	% 遥々 	
 	hayo	{[scat adv]} =fast= 
 	hayoo	{[scat adv]} =fast=
@@ -169,25 +173,26 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	kesshite	{[scat adv]} =not_necessarily=	% 決して 
 	kichinto	{[scat adv]} =precisely=	
 	kichitto	{[scat adv]} =precisely=	
+	kippari	{[scat adv]} =definitely=
 	kitto	{[scat adv]} =surely=	
 	konoaida	{[scat adv]} =the_other_day= "kono_aida"
 	konomae	{[scat adv]} =recently=	"kono_mae" % この前 
 	korekara	{[scat adv]} =from_now_on=	% これから  此れから 
 	koppidoku	{[scat adv]} =harshly=	%  こっ酷く 
-	kossori	{[scat adv] [to +]} =secretly=	
-	kossotto	{[scat adv] [to +]} =secretly=	
+	kossori	{[scat adv]} =secretly=	
+	kossotto	{[scat adv]} =secretly=	
 	kosotto	{[scat adv]} "kossoto" =secretly=	
-	kukkiri	{[scat adv] [to +] [vn +]} =distinctly=	
+	kukkiri	{[scat adv]} =distinctly=	
 	kyokuryoku	{[scat adv]} =to_the_utmost=	% 極力 
 	kuchiguchini	{[scat adv]} =unanimously=	% 口々に
 	maamaa	{[scat adv]} =passable=	
 	mada	{[scat adv]} =still=	% まだ  未だ 
-	madashimo	{[scat adv]} =rather= "rather"	% まだしも  未だしも   
+	madashimo	{[scat adv]} =rather= "mada_shimo"	% まだしも  未だしも   
 	maji	{[scat adv]} =seriously=	% まじ
 	mamonaku	{[scat adv]} =in_an_instant=	% まもなく/間もなく 
 	marude	{[scat adv]} =completely=	
 	marukkiri	{[scat adv]} =completely=	
-	marumaru	{[scat adv] [to +]} =wholly=	% まるまる と)･丸丸 と  
+	marumaru	{[scat adv]} =wholly=	% まるまる と)･丸丸 と  
 	masaka	{[scat adv] } =unlikely=	
 	masani	{[scat adv]} =exactly=	% まさに 
 	masshigura	{[scat adv]} =precipitately=	
@@ -218,7 +223,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	muriyari	{[scat adv]} =forcibly=	% むりやり･無理やり 
 	mushiro	{[scat adv]} =rather=	% むしろ  寧ろ 
 	mutsumajiku	{[scat adv]} =harmoniously=	% むつまじく 睦まじく   
-	naganaga	{[scat adv] [to +]} =lengthily=	% 長長 と  
+	naganaga	{[scat adv]} =lengthily=	% 長長 と  
 	nagaraku	{[scat adv]} =for_a_while=	%   長らく 
 	nakanaka	{[scat adv]} =fairly=	% なかなか  中中 
 	nante	{[scat adv]} =very=	% なんと 何と
@@ -233,9 +238,15 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	osoraku	{[scat adv]} =probably=	% おそらく/恐らく 
 	oyoso	{[scat adv]} =about=	% およそ  凡そ 
 	patto	{[scat adv]} =in_a_flash=	
+	pinto	{[scat adv]} =instantly=
+	pishari	{[scat adv]} =slap=
 	pishitto	{[scat adv]} =tightly=	
-	pittari	{[scat adv] [to +] [vn +]} =exactly=	
-	rokuni	{[scat adv]} =not_properly=	
+	pittari	{[scat adv]} =exactly=	
+	pokkari	{[scat adv]} =lightly=
+	pokkuri	{[scat adv]} =suddenly=
+	putsutto	{[scat adv]} =suddenly=
+	puito	{[scat adv]} =abruptly=
+	rokuni	{[scat adv]} "roku_ni" =not_properly=	
 	saiwai	{[scat adv]} =fortunately=	
 	sakihodo	{[scat adv]} =a_little_while_ago=	
 	sakki	{[scat adv]} =a_little_while_ago=	% さっき  先 
@@ -243,7 +254,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 %changed_to_quant	sanzan	{[scat adv]} =severely=	% 散々
 	sappari	{[scat adv]} =frank=	% さっぱり 
 	sarani	{[scat adv]} =afresh=	% さらに/更に 
-	sassa	{[scat adv] [to +]} =promptly=	
+	sassa	{[scat adv]} =promptly=	
 	sassoku	{[scat adv]} =promptly=	
 	sasuga	{[scat adv]} =as_good_as_expected=	% さすが  流石 
 	satto	{[scat adv]} =quickly=	% さっと  颯と 
@@ -255,20 +266,23 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	shibaraku	{[scat adv]} =for_a_while=	% しばらく  暫く 
 	shibarakuburi	{[scat adv]} =after_a_long_time=	% しばらく  暫く 
 	shiite	{[scat adv]} =forcibly=	% しいて/強いて 
-	shikirini	{[scat adv] [to +]} =incessantly=	% しきりに  
-	shikkari	{[scat adv] [to +]} =firmly=	% しっかり  確と 
+	shikirini	{[scat adv]} =incessantly=	% しきりに  
+	shikkari	{[scat adv]} =firmly=	% しっかり  確と 
+	shimmiri	{[scat adv]} =softly=
+	shinto	{[scat adv]} =still=
 	shooshoo	{[scat adv]} =a_bit=	
 	shotchuu	{[scat adv]} =frequently=	
+	shunto	{[scat adv]} =depressingly=
 	sokosoko	{[scat adv]} =only_about=	
 	sonogo	{[scat adv]} =afterwards=	
 	sootoo	{[scat adv]} =considerably=	
 	sootto	{[scat adv]} =secretly=	
 	sotto	{[scat adv]} =secretly=	"sootto"
 	sorekkiri	{[scat adv]} =no_more_than_that=	
-	sorori	{[scat adv] [to +]} =slowly=	
-	sorootto	{[scat adv] [to +]} =slowly=	
-	somosomo	{[scat adv] [to +]} =to_begin_with=	
-	sorosoro	{[scat adv] [to +]} =by_and_by=	
+	sorori	{[scat adv]} =slowly=	
+	sorootto	{[scat adv]} =slowly=	
+	somosomo	{[scat adv]} =to_begin_with=	
+	sorosoro	{[scat adv]} =by_and_by=	
 %changed_to_quant	subete	{[scat adv]} =all=	% 全て 
 	sudeni	{[scat adv]} =already=	% すでに  既に/ 已に 
 	sugee	{[scat adv]} =very= "sugoi"
@@ -277,6 +291,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	sugu	{[scat adv]} =soon=	% すぐ  直ぐ 
 	sukkari	{[scat adv]} =completely=	
 	sukkiri	{[scat adv]} =refreshed=	
+	suratto	{[scat adv]} =slenderly=
 	tabun	{[scat adv]} =perhaps=	% 多分 
 	tada	{[scat adv]} =only=	% ただ  徒 
 %changed_to_quant	taigai	{[scat adv]} =generally=	% 大概 	
@@ -288,7 +303,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	tamatama	{[scat adv]} =sometimes=	
 	tanni	{[scat adv]} =simply=
 %changed_to_quant	tanto	{[scat adv]} =much=	
-%changed_to_quant	tappuri	{[scat adv] [to +] [vn +]} =in_plenty=	%
+%changed_to_quant	tappuri	{[scat adv]} =in_plenty=	%
 	tatoeba	{[scat adv]} =for_example=	% 例えば 
 	tekkiri	{[scat adv]} =beyond_doubt=	
 	tokidoki	{[scat adv]} =sometimes=	% 時時 
@@ -312,7 +327,8 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	tsuneni	{[scat adv]} =always=	% 常に 
 	tsuyushirazu	{[scat adv]} =utterly_ignorant=	% つゆ知らず
 	ukkari	{[scat adv]} =inadvertently=
-	ujauja	{[scat adv]} =crowded=	
+	ujauja	{[scat adv:onoma]} =crowded=	
+	uttori	{[scat adv]} =absorbedly=
 	warito	{[scat adv]} =relatively=	% わりと/割と 
 	wazato	{[scat adv]} =intentionally=	% わざと  態と 
 	wazawaza	{[scat adv]} =expressly=	% わざわざ  態態》 
