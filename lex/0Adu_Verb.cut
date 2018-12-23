@@ -11,9 +11,8 @@
 	yak	{[scat v:c]} =be_jealous=	%【やく】(〈妬く)***
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "m"
 	sum	{[scat v:c]} =clear=	%【澄む】***
-togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS"
-
-%	研ぎ澄ます
+togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
+	um	{[scat v:c]}	 =form_pus=	 %	膿む
 %%%%%%%%%%%%%%%%%%%%%%%%%%   "r"
 	ayamar	{[scat v:c]} =mistake=	% 【誤る】
 	kur	{[scat v:c]} =wind=  %	繰る		

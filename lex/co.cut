@@ -35,6 +35,7 @@ arararara	{[scat co:i]} =oh_dear= "arara"
 areq	{[scat co:i]} =AMAZED=
 aree	{[scat co:i]} =AMAZED= "areq"
 arere	{[scat co:i]} =AMAZED= "areq"
+arerenore	{[scat co:i]} =AMAZED= "arere_no_re"
 arerere	{[scat co:i]} =AMAZED= "areq"
 arigato	{[scat co:g]} =thank_you= "arigatoo"
 arigatosan	{[scat co:g]} =thank_you= "arigatoo-san"

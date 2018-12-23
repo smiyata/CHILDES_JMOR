@@ -284,6 +284,7 @@ nezuk	{[scat v:c]} "ne_tsuk" =root= %	根づく
 niramitsuk	{[scat v:c]} =glare_fiercely= "niram_tsuk"
 ochitsuk	{[scat v:c]} =settle= "ochi_tsuk"	%【落ち着く】
 oitsuk	{[scat v:c]} =catch_up= "ow_tsuk"
+ojiketsuk	{[scat v:c]} "ojike_tsuk" 	 =cringe=	 %	怖じ気づく
 omoitsuk	{[scat v:c]} =think_of= "omow_tsuk"
 sabitsuk	{[scat v:c]} "sabi_tsuk" =rust= %	錆び付く		
 shaburitsuk	{[scat v:c]} "shabur_tsuk" =suck_on= %	しゃぶり付く		
@@ -624,6 +625,7 @@ nariagar	{[scat v:c]} "nar_agar" =rise_in_the_world= %	成り上がる
 noshiagar	{[scat v:c]} "nos_agar" =stand_on_tiptoe= %	のし上がる		
 nobiagar	{[scat v:c]} =stand_on_tiptoe= "nobi_agar"
 noboseagar	{[scat v:c]} =be_beside_oneself= "nobose_agar"
+odoriagar	{[scat v:c]} "odor_agar" 	 =spring_up=	 %	躍り上がる
 okiagar	{[scat v:c]} =get_up= "oki_agar"
 omoiagar	{[scat v:c]} "omow_agar" =be_conceited= %	思い上がる		
 shiagar	{[scat v:c]} =finish= "su_agar"	%【仕上がる】
@@ -721,6 +723,7 @@ tachihadakar	{[scat v:c]} "tat_hadakar" =hinder= %	立ちはだかる
 	hajimar	{[scat v:c]} =begin=	%【始まる】
 	hakador	{[scat v:c]} =progress=	%【はかどる】(〈捗る)
 	hakar	{[scat v:c]} =measure=	%【計る】***
+oshihakar	{[scat v:c]} "os_hakar" 	 =hypothesise=	 %	推し測る
 	hamar	{[scat v:c]} =fit=	%【はまる】(〈嵌まる)
 	haor	{[scat v:c]} =put_on_coat=	%【羽織る】
 	har	{[scat v:c]} =stretch_and_fix=	%【張る】(〈貼る)***
@@ -982,7 +985,7 @@ irimajir	{[scat v:c]} =mix= "ir_majir"	%【入り交じる】			%% lex. compound
 	majiwar	{[scat v:c]} =intersect=	%【交わる】
 	makur	{[scat v:c]} =turn_up=	%【まくる】(〈捲る)
 abaremakur	{[scat v:c][comp v:v+v:c]} =behave_violently_on_and_on= "abare+makur"  %% synt. compound +makuru ("V on and on")
-iimakur	{[scat v:c][comp v:c+v:c]} =talk_volubly= "iw+makur"
+iimakur	{[scat v:c][comp v:c+v:c]} =talk_on_and_on= "iw+makur"
 kawakimakur	{[scat v:c][comp v:c+v:c]} =dry_on_and_on= "kawak+makur"
 namemakur	{[scat v:c][comp v:v+v:c]} =lick_on_and_on= "name+makur"
 shimakur	{[scat v:c][comp v:ir+v:c]} =do_on_and_on= "su+makur"
@@ -1303,6 +1306,7 @@ hikitsur	{[scat v:c]} =twitch= "hik_tsur"	%【引きつる】(引き〈攣る)		
 	tsuyogar	{[scat v:c]} =pretend_strength=	%【強がる】
 	tsuyomar	{[scat v:c]} =get_strong=	%【強まる】
 	tsuzur	{[scat v:c]} =spell= %	綴る		
+	udar	{[scat v:c]}	 =churn=	 %	茹だる
 	ukar	{[scat v:c]} =pass_exam=	%【受かる】
 	uketamawar	{[scat v:c]} =be_told=	%承る
 	umar	{[scat v:c]} =be_buried=	%【埋まる】
@@ -1446,6 +1450,7 @@ yaridas	{[scat v:c][comp v:c+v:c]} =begin_to_do= "yar+das"
 %
 amidas	{[scat v:c]} =hammer_out= "am_das"	 		%% lex. compound  ("put out")
 araidas	{[scat v:c]} =work_out= "araw_das"
+egakidas	{[scat v:c]} "egak_das" 	 =depict=	 %	描き出す
 fukidas	{[scat v:c]} =blow_out= "fuk_das"
 hajikidas	{[scat v:c]} =flick_out= "hajik_das"	
 hakidas	{[scat v:c]} =vomit_out= "hak_das"
@@ -1463,6 +1468,7 @@ kiridas	{[scat v:c]} =cut_out= "kir_das"
 mochidas	{[scat v:c]} =take_out= "mot_das"
 nagedas	{[scat v:c]} =throw_out= "nage_das"
 nukidas	{[scat v:c]} =pull_out= "nuk_das"
+obikidas	{[scat v:c]} "obik_das" 	 =lure_out_of=	 %	誘き出す
 oidas	{[scat v:c]} =throw_out= "ow_das"
 okuridas	{[scat v:c]} =send_out= "okur_das"
 oshidas	{[scat v:c]} =push_out= "os_das"
@@ -1941,6 +1947,7 @@ nietat	{[scat v:c]} =boil_up= "nie_tat"
 nitat	{[scat v:c]} =boil_up= "ni_tat"
 hikitat	{[scat v:c]} "hik_tat" =become_active= %	引き立つ
 omoitat	{[scat v:c]} "omow_tat" =resolve= %	思い立つ
+oritat	{[scat v:c]} "ori_tat" 	 =go_down=	 %	下り立つ
 tobitat	{[scat v:c]} =take_off= "tob_tat"
 wakitat	{[scat v:c]} "wak_tat" =well_up= %	沸き立つ
 awadat	{[scat v:c]} =form_bubbles= "awa_tat"				
@@ -2126,6 +2133,7 @@ ukeow	{[scat v:c]} =insource= "uke_ow"	%請け負う
 	shitaw	{[scat v:c]}	=admire= %	慕う		
 	show	{[scat v:c]} =shoulder=	%【しょう】(《背負》う)
 	sokonaw	{[scat v:c]} =miss=	%【損なう】
+iisokonaw	{[scat v:c][comp v:c+v:c]} "iw+sokonaw" 	 =use_the_wrong_words=	 %	言い損なう
 kakisokonaw	{[scat v:c][comp v:c+v:c]} =misspell= "kak+sokonaw"	%【書き損なう】	%% synt. compound "mis-"
 misokonaw	{[scat v:c][comp v:v+v:c]} =miss= "mi+sokonaw"	%【見損なう】
 kikisokonaw	{[scat v:c][comp v:c+v:c]} "kik+sokonaw" =mishear= %	聞き損なう
@@ -2331,6 +2339,7 @@ nanoride	{[scat v:v]} "nanor_de" =introduce_oneself= %	名乗り出る
 negaide	{[scat v:v]} "negaw_de" =apply_for= %	願い出る		
 nijimide	{[scat v:v]} "nijim_de" =permeate= %	滲み出る		
 nukede	{[scat v:v]} "nuke_de" =outstrip= %	抜け出る		
+odoride	{[scat v:v]} "odor_de" 	 =spring_out=	 %	躍り出る
 shasharide	{[scat v:v]} "shashar_de" =intrude= %	しゃしゃり出る		
 susumide	{[scat v:v]} "susum_de" =step_forward= %	進みでる		
 todokede	{[scat v:v]} "todoke_de" =notify= %	届け出る		
@@ -2717,6 +2726,8 @@ mochikotae	{[scat v:v]} "mot_kotae" =resist= %	持ち堪える
 mikurabe	{[scat v:v]} =compare= "mi_kurabe"	%【見比べる】				%% lex. compound 
 kakekurabe	{[scat v:v]} =compare_by_runing= "kake_kurabe"	%【掛け比べる】				%% lex. compound 
 	kure	{[scat v:v]} =give=	%【くれる】(《呉れる)
+	kurume	{[scat v:v]} =enwrap=	 %	包める
+iikurume	{[scat v:v]} "iw_kurume" 	 =talk_into=	 %	言い包める
 	kurushime	{[scat v:v]} =torment=	%【苦しめる】
 	kutabire	{[scat v:v]} =get_tired=	%【くたびれる】(:草臥れる)
 machikutabire	{[scat v:v]} =get_tired_of_waiting= "mat_kutabire"		%% lex. compound 
@@ -2981,6 +2992,7 @@ yokotae	{[scat v:v]} "yoko_tae" =repose= %	横たえる
 	tame	{[scat v:v]} =accumulate=	%【ためる】(〈溜める)
 	taore	{[scat v:v]} =fall_down=	%【倒れる】
 	tare	{[scat v:v]} =drop=	%【垂れる】
+unadare	{[scat v:v]} "una_tare" 	 =hang_ones_head=	 %	うな垂れる
 	tashikame	{[scat v:v]} =make_sure=	%【確かめる】
 	tashiname	{[scat v:v]} =reproach= %	嗜める		
 	tasuke	{[scat v:v]} =help=	%【助ける】
@@ -3182,6 +3194,7 @@ yuzuriuke	{[scat v:v]} "yuzur_uke" =inherit= %	譲り受ける
 	umore	{[scat v:v]} =be_buried=	%【埋もれる】
 	unasareru	{[scat v:v]} =have_nightmare=	%うなされる
 	unuboreru	{[scat v:v]} =be_conceited=	%自惚れる
+	urotae	{[scat v:v]}	 =flurry=	 %	うろたえる
 	usume	{[scat v:v]} =dilute=	%【薄める】
 	ure	{[scat v:v]} =sell_well=	%売れる
 	ure	{[scat v:v]} =mature=	%熟れる
@@ -3241,6 +3254,7 @@ usuyogore	{[scat v:v]} =get_filthy= "usu_yogore"	%【薄汚れる】
 	yoroke	{[scat v:v]} =stagger=
 	yose	{[scat v:v]} =put_aside=	%【寄せる】
 hikiyose	{[scat v:v]} "hik_yose" =attract= %	引き寄せる		
+obikiyose	{[scat v:v]} "obik_yose" 	 =bait_with=	 %	おびき寄せる
 oshiyose	{[scat v:v]} "os_yose" =surge= %	押し寄せる		
 suiyose	{[scat v:v]} "suw_yose" =attract= %	吸い寄せる		
 toriyose	{[scat v:v]} "tor_yose" =order= %	取り寄せる		
