@@ -21,7 +21,7 @@ nano	{[scat num] [allo numJpnKA]} =seven=
 yat	{[scat num] [allo numJpnTSU]} =eight= "ya"
 yoo	{[scat num] [allo numJpnKA]} =eight=
 kokono	{[scat num] [allo OR numJpnTSU numJpnKA]} =nine=
-too	{[scat num] [allo numJpnKA]} =ten= 
+too	{[scat num:cl] [allo numJpnKA]} =ten= 
 hatsu	{[scat num] [allo numJpnKA]} =twenty= 
 
 tsuitachi	{[scat num:cl]} =first_day=
@@ -56,7 +56,6 @@ suu	{[scat num] [allo numBFa] [numcform suu] [nunpform o] [mnum -]} =several=
 
 %							【4】 
 shi	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
-shi=four	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four=
 shigo	{[scat num] [allo numFc] [mnum -] [numcform shi]} =four_five=
 %								【5】 
 go	{[scat num] [allo numBFa]} =five=
@@ -122,3 +121,5 @@ daisan	{[scat num]} "dai#san" =third=
 
 ichimanjaku	{[scat num]} "ichi-man-shaku" =ten_thousand_feet=
 
+ree	{[scat num]} =zero=
+zero	{[scat num]} =zero=

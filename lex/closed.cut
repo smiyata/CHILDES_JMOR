@@ -463,6 +463,7 @@ do	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]
 eekaa	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "eekaa_ACRE"
 % 								 円 
 en	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en_YEN"
+embun	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en_YEN-bun_PORTION"
 % 								 分 
 fun	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN"
 pun	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN"
@@ -563,6 +564,7 @@ nen	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 
 nemme	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-me_ORD" 
 nemburi	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-buri_BEFORE" 
 nenhan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-han_HALF" 
+nenjuu	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-juu_MID" 
 nenkan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-kan_SPAN" 
 nensee	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-see_STUDENT" 
 % 								 日 

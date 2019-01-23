@@ -21,12 +21,12 @@ amaiamai	{[scat n:mot]} =sweet=
 amekonkon	{[scat n:mot]} =rain=
 amekonko	{[scat n:mot]} =rain= "amekonkon"
 ameame	{[scat n:mot]} =candy=
-amekko  {[scat n:mot]} "ame_kko_DIM" =candy=
+amekko  {[scat n:mot]} "ame_ko_DIM" =candy=
 amiami	{[scat n:mot]} =net= 	% 網 
 an'yo	{[scat n:mot]} =foot=
 anyo	{[scat n:mot]} =foot=
 appu	{[scat n:mot]} =nice_dress=
-arinko	{[scat n:mot]} =ant_DIM=
+arinko	{[scat n:mot]} "ari-ko_DIM" =ant=
 atatakaiatatakai	{[scat n:mot]} =warm=
 atchichi	{[scat n:mot]} =hot=
 atchiiatchii	{[scat n:mot]} =hot=
@@ -40,14 +40,14 @@ awatemboo	{[scat n:mot]} =hurry_too_much=
 baaba	{[scat n:mot]} =grandma=
 ban	{[scat n:mot]} =pistol=
 batabata	{[scat n:mot]} =cycle_car=
-batanko	{[scat n:mot]} =cycle_car_DIM=
+batanko	{[scat n:mot]} =cycle_car=
 batambatan	{[scat n:mot]} =seesaw=
 batchichi	{[scat n:mot]} =dirty=
 bibi	{[scat n:mot]} =bottle=
 bebe	{[scat n:mot]} =clothes=
 bebeso	{[scat n:mot]} =navel=
 bero	{[scat n:mot]} =tongue=
-beshanko	{[scat n:mot]} =soak_wet_DIM=
+beshanko	{[scat n:mot]} =soak_wet=
 bochabocha	{[scat n:mot]} =bath=
 bubbuu	{[scat n:mot]}	"buubu" =car=
 bumbu	{[scat n:mot]}	=water=
@@ -62,6 +62,8 @@ buun	{[scat n:mot]} =plane=
 buuwa	{[scat n:mot]} =light=
 chacha	{[scat n:mot]}	=tea=
 chichi	{[scat n:mot]} =milk=
+chikkutakku	{[scat n:mot]} =clock=
+chikutaku	{[scat n:mot]} "chikkutakku" =clock=
 chinchin	{[scat n:mot]} =penis=
 chimboo	{[scat n:mot]} =penis=
 chinchin	{[scat n:mot]} =train=
@@ -69,7 +71,7 @@ chinchin	{[scat n:mot]} =vehicle=
 chinchimbuu	{[scat n:mot]} =train=
 chinchin	{[scat n:mot]} =sukeeto=
 chinchin	{[scat n:mot]} =bicycle=
-chinko	{[scat n:mot]} =pussy_DIM=
+chinko	{[scat n:mot]} =pussy=
 choko	{[scat n:mot]} =pussy=
 chirin	{[scat n:mot]} =bell=
 chirinchirin	{[scat n:mot]} =bike=
@@ -110,6 +112,7 @@ hadakambotchi	{[scat n:mot]} =nudie= % 裸
 hadakambotchin	{[scat n:mot]} =nudie= % 裸 
 haha	{[scat n:mot]} =tooth=
 hetappii	{[scat n:mot]} =clumsy=
+hojihoji	{[scat n:vn:mot]} =pick_nose=
 hoppeta	{[scat n:mot]} =cheek=
 itaiitai 	{[scat n:mot]} =aching=
 itaitai 	{[scat n:mot]}	"itaiitai" =aching=
@@ -122,6 +125,8 @@ jiji	{[scat n:mot]} =letter=
 jumbanjumban	{[scat n:mot]} =in_order=
 kaakaa	{[scat n:mot]} =crow=
 kaikai	{[scat n:mot]} =itchy=
+kaiikaii	{[scat n:mot]} =itchy=
+kayuikayui	{[scat n:mot]} =itchy=
 kakka	{[scat n:mot]} =mom=
 kanabumbun	{[scat n:mot]} =drone_beetle= 	%
 kankan	{[scat n:mot]}	=can=
@@ -147,12 +152,9 @@ kukku	{[scat n:mot]}	=shoe=
 kuraikurai	{[scat n:mot]} =dark=
 kurokuro	{[scat n:mot]} =black=
 kurukuru	{[scat n:vn:mot]} =twirling=
+kurukurubee	{[scat n:vn:mot]} =gargling=	%
 kusaikusai	{[scat n:mot]} =stinky=
 kusaikusai	{[scat n:mot]}	=poo=
-makka	{[scat n:an:mot]} =garish_red=
-makkaka	{[scat n:an:mot]} =garish_red=
-makkiikii	{[scat n:mot]} "makkikki" =acidic_yellow=
-makkikii	{[scat n:mot]} =acidic_yellow=
 mamma	{[scat n:mot]} =food=
 umamma	{[scat n:mot]} =food= "mamma"
 mamman	{[scat n:mot]} =buddha=
@@ -165,6 +167,7 @@ memmen	{[scat n:mot]} =noodles=
 mimmin	{[scat n:mot]} =cicada=
 moochan	{[scat n:mot]} "moo-chan" =cow=
 moomoo	{[scat n:mot]} =cow=
+moshimoshi	{[scat n:vn:mot]} =telephone=
 namunamu	{[scat n:mot]} =buddha=
 namusan	{[scat n:mot]} =buddha=
 nazonazo	{[scat n:mot]} =quiz=
@@ -187,7 +190,7 @@ nopperaboo	{[scat n:mot]} =flat=
 nyaachan	{[scat n:mot]} "nyaa-chan" =cat=
 nyaanya	{[scat n:mot]} =cat=
 nyaanyaa	{[scat n:mot]} "nyaanya" =cat=
-nyanko	{[scat n:mot]}  =cat_DIM=
+nyanko	{[scat n:mot]}  =cat=
 nyannyan	{[scat n:mot]} "nyaanya"  =cat=
 obebe	{[scat n:mot]}	=clothes=
 oishiioishii	{[scat n:mot]} =tasty=
@@ -219,7 +222,7 @@ piipoo	{[scat n:mot]} =fireengine=
 piipoopiipoo	{[scat n:mot]} "piipopiipo" =fireengine=
 piipopiipo	{[scat n:mot]} =fireengine=
 piyo	{[scat n:mot]} =bird=
-piyoko	{[scat n:mot]} =bird_DIM=
+piyoko	{[scat n:mot]} =bird=
 piyopiyo	{[scat n:mot]} =bird=
 pochipochi	{[scat n:mot]}	=dots=
 pompokopon	{[scat n:mot]}	=full_stomach=
@@ -273,12 +276,12 @@ tenten	{[scat n:mot]} =dots=
 tenten	{[scat n:mot]} =ball=
 tentemmari	{[scat n:mot]} =ball= "tententemari"
 tententemari	{[scat n:mot]} =ball=
-tentenko	{[scat n:mot]} =dots_DIM= "tenten-ko"
+tentenko	{[scat n:mot]} =dots= "tenten-ko_DIM"
 tete	{[scat n:mot]} =hand=
 tonton	{[scat n:mot]} =hammer=
 tonton	{[scat n:mot]} =cooking_tools=
 tonton	{[scat n:vn:mot]} =cooking=
-tonton	{[scat n:vn:mot]} =hammering=
+tonton	{[scat ng:mot]} =hammering=
 totto	{[scat n:mot]}	=bird=
 totto	{[scat n:mot]}	=father=
 totto	{[scat n:mot]}	=fish=
@@ -316,13 +319,13 @@ bachabacha	{[scat n:vn:mot]} =splashing=
 pachapacha	{[scat n:vn:mot]} =splashing=
 biribiri	{[scat n:vn:mot]} =tear=
 bukobuko	{[scat n:vn:mot]} =seesaw=
-buttsukanko	{[scat n:vn:mot]} "buttsukan-ko" =bumping_DIM=
+buttsukanko	{[scat n:vn:mot]} "buttsukan-ko_DIM" =bumping=
 buuranbuuran	{[scat n:vn:mot]} =swinging=
 chai	{[scat n:vn:mot]}	=hitting=
 chai	{[scat n:vn:mot]} =getting_down=
 chan	{[scat n:vn:mot]} =sit_down=
 chanchan	{[scat n:vn:mot]} =sit_down=
-chanko	{[scat n:vn:mot]} =sit_down_DIM=
+chanko	{[scat n:vn:mot]} "chan-ko_DIM" =sit_down=
 chichimpuipui	{[scat n:vn:mot]} =spelling_and_poof=
 chinton	{[scat n:vn:mot]} =sit_down=
 chokichoki	{[scat n:vn:mot]} =cutting=
@@ -342,7 +345,8 @@ fukifuki	{[scat n:vn:mot]} =swiping=
 furifuri	{[scat n:vn:mot]} =shaking=
 fuu	{[scat n:vn:mot]}	=blowing=
 fuufuu	{[scat n:vn:mot]}	=blowing=
-garagarapeq	{[scat n:vn:mot]}	=gurgling=
+garagarapeq	{[scat n:vn:mot]}	=gargling=
+garagarapee	{[scat n:vn:mot]} =gargling=	%
 gee	{[scat n:vn:mot]}	=vomiting=
 gikombatan	{[scat n:vn:mot]} "gikkombattan" =seesaw=
 gikkombattan	{[scat n:vn:mot]} =seesaw=
@@ -358,7 +362,7 @@ goron	{[scat n:vn:mot]} =lying_down=
 goshigoshi	{[scat n:vn:mot]} =scrubbing=
 gotsun	{[scat n:vn:mot]} "gottsun" =bumping_into=
 gottsun	{[scat n:vn:mot]} =bumping_into=
-gottsunko	{[scat n:vn:mot]} "gottsun-ko" =bumping_into_DIM=
+gottsunko	{[scat n:vn:mot]} "gottsun-ko_DIM" =bumping_into=
 gujupe	{[scat n:vn:mot]} =mouth_rinsing=
 guruguru	{[scat n:vn:mot]} =circling=
 gyogyo	{[scat n:vn:mot]} =vomit=
@@ -386,7 +390,7 @@ chapuchapu	{[scat n:vn:mot]} =splashing= "jabujabu"
 jampujampu	{[scat n:vn:mot]} =jumping=
 joozujoozu	{[scat n:vn:mot]} =clapping_hands=
 jorijori	{[scat n:vn:mot]} =cutting=
-jumbanko	{[scat n:vn:mot]} "jumban-ko" =in_order_DIM=
+jumbanko	{[scat n:vn:mot]} "jumban-ko_DIM" =in_order=
 juujuu	{[scat n:vn:mot]}	=frying=
 kaikai	{[scat n:vn:mot]} =scratching=	
 kakekake	{[scat n:vn:mot]} =putting_on=	
@@ -402,7 +406,7 @@ kochokocho	{[scat n:vn:mot]} =tickling=
 kuchukuchu	{[scat n:vn:mot]} =tickling=	
 konekone	{[scat n:vn:mot]} =kneading=
 konkon	{[scat n:vn:mot]} =coughing=	
-kookanko	{[scat n:vn:mot]} "kookan-ko" =exchanging_DIM=
+kookanko	{[scat n:vn:mot]} "kookan-ko_DIM" =exchanging=
 maimai	{[scat n:vn:mot]} =rolling_up=
 maimai	{[scat n:vn:mot]} =turn=
 makimaki	{[scat n:vn:mot]} =turning_around=
@@ -473,6 +477,7 @@ shun	{[scat n:vn:mot]}	=blowing_nose=
 shurushuru	{[scat n:vn:mot]}	=slurping=
 sukisuki	{[scat n:vn:mot]}	=stroke=
 surusuru	{[scat n:vn:mot]}	=slurping=
+surisuri	{[scat n:vn:mot]}	=rubbing=
 tabetabe	{[scat n:vn:mot]} =eat=
 tachi	{[scat n:vn:mot]} =standing=
 tachitachi	{[scat n:vn:mot]} =standing=
@@ -495,7 +500,8 @@ yakiyaki 	{[scat n:vn:mot]} =fry=
 yoshiyoshi 	{[scat n:vn:mot]}	=stroke=
 yoishoyoisho 	{[scat n:vn:mot]}	=do_best=
 yubikitta 	{[scat n:vn:mot]}	"yubi_kitta" =promissing_with_hooked_fingers=
-zuru	{[scat n:vn:mot]} =mean=
+zuru	{[scat n:vn:mot]} =being_mean=
+zurukko	{[scat n:vn:mot]} =being_mean= "zuru-kko_DIM"
 
 
 %%%%%%%%%%%%%%%%%%%

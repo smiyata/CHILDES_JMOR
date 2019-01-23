@@ -29,13 +29,14 @@ deeryuu	{[scat n]} =mud_flow= % 泥流
 fundoshi	{[scat n]} =loincloth=
 e	{[scat n]} =handle=	% 柄
 eewajiten	{[scat n][comp n+n]} "ee_wa+jiten" =English_Japanese_dictionary=
+enyoogyogyoo	{[scat n][comp n+n:vn]} "enyoo+gyogyoo" =deep_sea_fishing=
 fuku	{[scat n]} =wealth=	%  福
 futsugoo	{[scat n]} =inconvenience= "fu_NOT_tsugoo"
 ganka	{[scat n]} =ophthalmologist=
-enyoogyogyoo	{[scat n][comp n+n:vn]} "enyoo+gyogyoo" =deep_sea_fishing=
 geejutsubunkajigyoo	{[scat n][comp n+n+n]} "geejutsu+bunka+jigyoo" =artistic_cultural_enterprise=
 genri	{[scat n]} =principle=
 gijidoo	{[scat n]} =Diet_Building=
+go	{[scat n]} =go_game=
 gyoomuzempan	{[scat n][comp n+n]} "gyoomu+zempan" =business_in_general=
 gyoosha	{[scat n]} =vendor=
 hai	{[scat n]} =ash= 	% 灰
@@ -43,6 +44,7 @@ hakuchuu	{[scat n]} =daylight= % 白昼
 hakuri	{[scat n]} =exfoliation=
 hame	{[scat n]} =tight_spot=
 harugakki	{[scat n][comp n+n]} "haru+gakki" =spring_semester=
+he	{[scat n]} =fart= 
 hibi	{[scat n][comp n+n]} "hi+hi" =days=
 hitobito	{[scat n][comp n+n]} =people= "hito+hito"
 hoo	{[scat n]} =law=	% 法 
@@ -228,7 +230,6 @@ ya	{[scat n]} =arrow= 	% 矢  箭
 yachinkankaku	{[scat n][comp n+n]} "yachin+kankaku" =house_rent_sense=
 yami	{[scat n]} =darkness=
 yaminabe	{[scat n][comp n+n]} "yami+nabe" =stew_with_unknown_ingredients=
-yasumi	{[scat n]} =closing_day=
 yokogao	{[scat n][comp n+n]} "yoko+kao" =profile=
 yooganryuu	{[scat n]} =lava_flow=
 yutori	{[scat n]} =room=
@@ -276,34 +277,34 @@ aoao	{[scat n:vn]}	=be_bright_green=	%	青々する
 akiaki	{[scat n:vn]}	=get_sick_of=	%	飽き飽きする
 akinai	{[scat n:vn]}	=trading=	%	商いする
 akuseku	{[scat n:vn]}	=busy_oneself=	%	あくせくする
-akusenkutoo	{[scat n:vn]}	=fight_desperately=	%	悪戦苦闘する
-ageoroshi	{[scat n:vn]}	=loading_unloading=		上げ下ろしする
-agesage	{[scat n:vn]}	=up_down=	%	上げ下げする
-asaoki	{[scat n:vn]}	=early_rising=	%	朝起きする
-asagaeri	{[scat n:vn]}	=coming_home_in_the_morning=	%	朝帰りする
-asaneboo	{[scat n:vn]}	=late_rising=	%	朝寝坊する
-ashinarashi	{[scat n:vn]}	=warm_up=	%	足慣しする
+akusenkutoo	{[scat n:vn]}	=fight_desperately= "akusen_kutoo"	%	悪戦苦闘する
+ageoroshi	{[scat n:vn]}	=loading_unloading= "age_oros&GER"		上げ下ろしする
+agesage	{[scat n:vn]}	=up_down= "age_oros&GER"	%	上げ下げする
+asaoki	{[scat n:vn]}	=early_rising= "asa_oki&GER"	%	朝起きする
+asagaeri	{[scat n:vn]}	=coming_home_in_the_morning= "asa_kaer&GER" 	%	朝帰りする
+asaneboo	{[scat n:vn]}	=late_rising=	% "asa_neboo"	朝寝坊する
+ashinarashi	{[scat n:vn]}	=warm_up= "asa_naras&GER"	%	足慣しする
 adauchi	{[scat n:vn]}	=vengeance=	%	あだ討ちする
 akka	{[scat n:vn]}	=getting_worse=	%	悪化する
-atsugeshoo	{[scat n:vn]}	=applying_heavy_makeup=	%	厚化粧する
+atsugeshoo	{[scat n:vn]}	=applying_heavy_makeup= "atsu_keshoo"	%	厚化粧する
 asshi	{[scat n:vn]}	=be_squeezed_to_death=	%	圧死する
 asshuku	{[scat n:vn]}	=compress=	%	圧縮する
 assen	{[scat n:vn]}	=act_as_intermediary=	%	斡旋する
 attoo	{[scat n:vn]}	=overwhelm=	%	圧倒する
 appurike	{[scat n:vn]}	=put_on_applique=	%	アップリケする
-atenige	{[scat n:vn]}	=hit_and_run=	%	当て逃げする
-atooshi	{[scat n:vn]}	=push=	%	後押しする
-atoshimatsu	{[scat n:vn]}	=clearing_up=	%	後始末する
-atozusari	{[scat n:vn]}	=step_back=	%	後ずさりする
-atomodori	{[scat n:vn]}	=step_back=	%	後戻りする
-anaume	{[scat n:vn]}	=filling=	%	穴埋めする
-amakudari	{[scat n:vn]}	=golden_parachuting=	%	天下りする
-amagoi	{[scat n:vn]}	=praying_for_rain=	%	雨ごいする
-amayadori	{[scat n:vn]}	=take_shelter_from_rain=	%	雨宿りする
-amiyaki	{[scat n:vn]}	=grilling_on_wire_net=	%	網焼きする
-arakasegi	{[scat n:vn]}	=making_quick_money=	%	荒稼ぎする
-arakezuri	{[scat n:vn]}	=cutting_roughly=	%	荒削りする
-arabiki	{[scat n:vn]}	=grinding_coarse=	%	粗びきする
+atenige	{[scat n:vn]}	=hit_and_run= "ate_nige&GER"	%	当て逃げする
+atooshi	{[scat n:vn]}	=push= "ato_osh&GER"	%	後押しする
+atoshimatsu	{[scat n:vn]}	=clearing_up= "ato_shimatsu"	%	後始末する
+atozusari	{[scat n:vn]}	=step_back= "ato_susar&GER"	%	後ずさりする
+atomodori	{[scat n:vn]}	=step_back= "ato_modor"	%	後戻りする
+anaume	{[scat n:vn]}	=filling= "ana_ume&GER"	%	穴埋めする
+amakudari	{[scat n:vn]}	=golden_parachuting= "ama_kudar&GER"	%	天下りする
+amagoi	{[scat n:vn]}	=praying_for_rain= "ame_kow&GER"	%	雨ごいする
+amayadori	{[scat n:vn]}	=take_shelter_from_rain= "ame_yador&GER"	%	雨宿りする
+amiyaki	{[scat n:vn]}	=grilling_on_wire_net= "ami_yak&GER"	%	網焼きする
+arakasegi	{[scat n:vn]}	=making_quick_money= "ara_kaseg&GER"	%	荒稼ぎする
+arakezuri	{[scat n:vn]}	=cutting_roughly= "ara_kerzur&GER"	%	荒削りする
+arabiki	{[scat n:vn]}	=grinding_coarse= "ara_hik&GER"	%	粗びきする
 anguri	{[scat n:vn]}	=gawk=	%	あんぐりする
 ansatsu	{[scat n:vn]}	=assassinate=	%	暗殺する
 anzan	{[scat n:vn]}	=having_an_easy_delivery=	%	安産する
@@ -313,7 +314,7 @@ anjuu	{[scat n:vn]}	=peaceful_living=	%	安住する
 ansoku	{[scat n:vn]}	=rest=	%	安息する
 anda	{[scat n:vn]}	=base_hit=	%	安打する
 anchi	{[scat n:vn]}	=install=	%	安置する
-anchuumosaku	{[scat n:vn]}	=grop_in_the_dark=	%	暗中模索する
+anchuumosaku	{[scat n:vn]}	=grop_in_the_dark= "anchuu_moosaku"	%	暗中模索する
 ando	{[scat n:vn]}	=relief=	%	安どする
 amma	{[scat n:vn]}	=massage=	%	あんまする
 ammin	{[scat n:vn]}	=sleep_soundly=	%	安眠する
@@ -323,322 +324,168 @@ choodai	{[scat n:vn]} =receiving=	%【頂戴】
 doohan	{[scat n:vn]} =accompany=
 dookoo	{[scat n:vn]} =go_together=
 doshasarai	{[scat n:vn][comp n+v:c]} "dosha+saraw-GER" =cleaning_of_soil=
-edawakare	{[scat n:vn]}	 =ramification=	 %	枝分かれ 
-
+edawakare	{[scat n:vn]}	 =ramification= "eda_wakare&GER"	 %	枝分かれ 
 eegaka	{[scat n:vn]}	 =making_a_movie_of=	 %	映画化 
-
 eegyoo	{[scat n:vn]}	 =doing_business=	 %	営業 
-
 eejuu	{[scat n:vn]}	 =reside_permanently=	 %	永住 
-
 eemin	{[scat n:vn]}	 =being_dead=	 %	永眠 
-
 eeseechuukee	{[scat n:vn]}	 =satellite_repeating=	 %	衛星中継 
-
 eeten	{[scat n:vn]}	 =promotion=	 %	栄転 
-
 eeyaku	{[scat n:vn]}	 =translating_into_English=	 %	英訳 
-
 eezoku	{[scat n:vn]}	 =permanent_lasting=	 %	永続 
-
 ejike	{[scat n:vn]}	 =feeding=	 %	餌付け 
-
 ekika	{[scat n:vn]}	 =liquefying=	 %	液化 
-
 ekohiiki	{[scat n:vn]}	 =partiality=	 %	エコひいき 
-
 enee	{[scat n:vn]}	 =long_distance_swim=	 %	遠泳 
-
 engeki	{[scat n:vn]}	 =operation=	 %	演技 
-
 engo	{[scat n:vn]}	 =support=	 %	援護 
-
 engumi	{[scat n:vn]}	 =marriage=	 %	縁組 
-
 enjo	{[scat n:vn]}	 =support=	 %	援助 
-
 enjoo	{[scat n:vn]}	 =going_up_in_flames=	 %	炎上 
-
 enjuku	{[scat n:vn]}	 =maturity=	 %	円熟 
-
 enki	{[scat n:vn]}	 =postponement=	 %	延期 
-
 ensee	{[scat n:vn]}	 =expedition=	 %	遠征 
-
 enshutsu	{[scat n:vn]}	 =production=	 %	演出 
-
 entai	{[scat n:vn]}	 =delay=	 %	延滞 
-
 enzan	{[scat n:vn]}	 =arithmetic_operation=	 %	演算 
-
 enzetsu	{[scat n:vn]}	 =speech=	 %	演説 
-
 eshaku	{[scat n:vn]}	 =greeting=	 %	会釈 
-
 etoku	{[scat n:vn]}	 =understanding=	 %	会得 
-
 etsuran	{[scat n:vn]}	 =reading=	 %	閲覧 
-
 ettoo	{[scat n:vn]}	 =hibernation=	 %	越冬 
-
 gaikin	{[scat n:vn]}	 =outside_duty=	 %	外勤 
-
 gaisan	{[scat n:vn]}	 =rough_estimation=	 %	概算 
-
 gaisen	{[scat n:vn]}	 =triumphal_return=	 %	凱旋 
-
 gaitoo	{[scat n:vn]}	 =correspondence=	 %	該当 
 hasshin	{[scat n:vn]} =sending=	%【発信】
 hendoo	{[scat n:vn]} =fluctuate=
 henyoo	{[scat n:vn]} =change=
 hisai	{[scat n:vn]} =fall_victim=
 ian	{[scat n:vn]}	 =comfort=	 %	慰安 
-
 iatsu	{[scat n:vn]}	 =coercion=	 %	威圧 
-
 ichi	{[scat n:vn]}	 =placement=	 %	位置 
-
 ichibai	{[scat n:vn]}	 =haploid=	 %	一倍 
-
 ichibannori	{[scat n:vn]}	 =first_to_arrive=	 %	一番乗り 
-
 ichiboo	{[scat n:vn]}	 =sweeping_view=	 %	一望 
-
 ichidanraku	{[scat n:vn]}	 =complete_the_first_stage=	 %	1段落 
-
 ichidoku	{[scat n:vn]}	 =single_reading=	 %	一読 
-
 ichigeki	{[scat n:vn]}	 =single_shot=	 %	一撃 
-
 ichijiteeshi	{[scat n:vn]}	 =halt=	 %	一時停止 
-
 ichimonittoo	{[scat n:vn]}	 =dialogue=	 %	一問一答 
-
 ichinin	{[scat n:vn]}	 =entrustment=	 %	一任 
-
 ichiran	{[scat n:vn]}	 =list=	 %	一覧 
-
 ichiree	{[scat n:vn]}	 =bow=	 %	一礼 
-
 ijiiji	{[scat n:vn:onoma]}	 =be_greedy=	 %	いじいじ 
-
 ijiiji	{[scat n:vn]}	 =maintenance=	 %	維持 
-
 ijuu	{[scat n:vn]}	 =migration=	 %	移住 
-
 iken	{[scat n:vn]}	 =opinion=	 %	意見 
-
 iki 	{[scat n:vn]}	 =abandonment=	 %	遺棄 
-
 ikinuki	{[scat n:vn]}	 =air-breather=	 %	息抜き 
-
 ikishoochin	{[scat n:vn]}	 =disconsolateness=	 %	意気消沈 
-
 ikitoogoo	{[scat n:vn]}	 =understanding=	 %	意気投合 
-
 ikitsugi	{[scat n:vn]}	 =breath=	 %	息つぎ 
 ikkan	{[scat n:vn]} =consistent=
-
 ikkatsu	{[scat n:vn]}	 =consolidation=	 %	一括 
-
 ikken	{[scat n:vn]}	 =glance=	 %	一見 
-
 ikkiichuu	{[scat n:vn]}	 =swinging_from_joy_to_sorrow=	 %	一喜一憂 
-
 ikoo	{[scat n:vn]}	 =transition=	 %	移行 
-
 ikuji	{[scat n:vn]}	 =child_rearing=	 %	育児 
-
 ikusee	{[scat n:vn]}	 =upbringing=	 %	育成 
-
 imin	{[scat n:vn]}	 =immigrate=	 %	移民 
-
 inin	{[scat n:vn]}	 =entrust_with=	 %	委任 
-
 inji	{[scat n:vn]}	 =printing=	 %	印字 
-
 inka	{[scat n:vn]}	 =catch_fire=	 %	引火 
-
 inkyo	{[scat n:vn]}	 =retire=	 %	隠居 
-
 inochibiroi	{[scat n:vn]}	 =have_a_narrow_escape=	 %	命びろい 
-
 inochigoi	{[scat n:vn]}	 =plead_for_one_life=	 %	命ごい 
-
 inshoku	{[scat n:vn]}	 =eating_and_drinking=	 %	飲食 
-
 inshu	{[scat n:vn]}	 =drinking_alcohol=	 %	飲酒 
-
 insotsu	{[scat n:vn]}	 =leading=	 %	引率 
-
 intai	{[scat n:vn]}	 =retire=	 %	引退 
-
 inyoo	{[scat n:vn]}	 =citation=	 %	引用 
-
 inyoo	{[scat n:vn]}	 =drinking_alcohol=	 %	飲用 
-
 ippai	{[scat n:vn]}	 =one_defeat=	 %	一敗 
-
 ippaku	{[scat n:vn]}	 =stopping_one_night=	 %	一泊 
-
 ippen	{[scat n:vn]}	 =change_completely=	 %	一変 
-
 ipponka	{[scat n:vn]}	 =draw_together=	 %	一本化 
-
 ippoo	{[scat n:vn]}	 =inform_somebody=	 %	一報 
-
 ippuku	{[scat n:vn]}	 =have_a_smoke=	 %	一服 
-
 irai	{[scat n:vn]}	 =requesting=	 %	依頼 
-
 irejie	{[scat n:vn]}	 =suggest_an_idea=	 %	入れ知恵 
-
 irodori	{[scat n:vn]}	 =color=	 %	彩り 
-
 ironaoshi	{[scat n:vn]}	 =redyeing=	 %	色直し 
-
 irowake	{[scat n:vn]}	 =classify_by_color=	 %	色分け 
-
 irozuke	{[scat n:vn]}	 =color=	 %	色づけ 
-
 iseki	{[scat n:vn]}	 =transfer=	 %	移籍 
-
 ishoku	{[scat n:vn]}	 =transplanting=	 %	移植 
-
 ishuku	{[scat n:vn]}	 =cringe=	 %	畏縮 
-
 isoiso	{[scat n:vn:onoma]}	 =cheerfully=	 %	いそいそ 
-
 isoo	{[scat n:vn]}	 =transfer=	 %	移送 
-
 issen	{[scat n:vn]}	 =battle=	 %	一戦 
-
 isshin	{[scat n:vn]}	 =refurbishment=	 %	一新 
-
 isshinittai	{[scat n:vn]}	 =roller_coaster_ride=	 %	一進一退 
-
 issoo	{[scat n:vn]}	 =cleaning_up=	 %	一掃 
-
 issui	{[scat n:vn]}	 =sleep=	 %	一睡 
-
 itabari	{[scat n:vn]}	 =planking=	 %	板張 
-
 itaku	{[scat n:vn]}	 =consignment=	 %	委託 
-
 itchaku	{[scat n:vn]}	 =first_to_arrive=	 %	一着 
-
 itchi	{[scat n:vn]}	 =congruence=	 %	一致 
-
 iten	{[scat n:vn]}	 =moving_this_way_and_ that=	 %	移転
-
 ito	{[scat n:vn]}	 =intend_to_do=	 %	意図 
-
 ittee	{[scat n:vn]}	 =constant=	 %	一定 
-
 itten	{[scat n:vn]}	 =turning=	 %	一転 
-
 izon	{[scat n:vn]}	 =dependence=	 %	依存 
 jikkan	{[scat n:vn]} =realize=
 kaichiku	{[scat n:vn]}	 =reconstruction=	 %	改築 
-
 kaidame	{[scat n:vn]}	 =hoarding=	 %	買いだめ 
-
 kaidan	{[scat n:vn]}	 =consultation=	 %	会談 
-
 kaien	{[scat n:vn]}	 =opening_of_park=	 %	開園 
-
 kaien	{[scat n:vn]}	 =opening_of_performance=	 %	開演 
-
 kaigi	{[scat n:vn]}	 =meeting=	 %	会議 
-
 kaigo	{[scat n:vn]}	 =care=	 %	介護 
-
 kaigoo	{[scat n:vn]}	 =aggregation=	 %	会合 
-
 kaigui	{[scat n:vn]}	 =buying_and_eating_sweets=	 %	買い食い 
-
 kaigyoo	{[scat n:vn]}	 =start_a_new_line=	 %	改行 
-
 kaigyoo	{[scat n:vn]}	 =opening=	 %	開業 
-
 kaijo	{[scat n:vn]}	 =cancellation=	 %	解除 
-
 kaijoo	{[scat n:vn]}	 =opening=	 %	開場 
-
 kaika	{[scat n:vn]}	 =civilization=	 %	開化 
-
 kaika	{[scat n:vn]}	 =blooming=	 %	開花 
-
 kaikai	{[scat n:vn]}	 =opening=	 %	開会 
-
 kaikaku	{[scat n:vn]}	 =reform=	 %	改革 
-
 kaikan	{[scat n:vn]}	 =opening=	 %	開館 
-
 kaikin	{[scat n:vn]}	 =lifting_of_ban=	 %	解禁 
-
 kaikin	{[scat n:vn]}	 =perfect_attendance=	 %	皆勤 
-
 kaiko	{[scat n:vn]}	 =layoff=	 %	解雇 
-
 kaikoku	{[scat n:vn]}	 =opening_diplomatic_relations=	 %	開国 
-
 kaikoo	{[scat n:vn]}	 =opening_of_school=	 %	開校 
-
 kaikoo	{[scat n:vn]}	 =opening_of_port=	 %	開港 
-
 kaikyoku	{[scat n:vn]}	 =opening=	 %	開局 
-
 kaisai	{[scat n:vn]}	 =opening=	 %	開催 
-
 kaisan	{[scat n:vn]}	 =dispersion=	 %	解散 
-
 kaisatsu	{[scat n:vn]}	 =ticket_barrier=	 %	改札 
-
 kaisee	{[scat n:vn]}	 =amendment=	 %	改正 
-
 kaiseki	{[scat n:vn]}	 =analysis=	 %	解析 
-
 kaisen	{[scat n:vn]}	 =opening_of_hostilities=	 %	開戦 
-
 kaisetsu	{[scat n:vn]}	 =explanation=	 %	解説 
-
 kaisetsu	{[scat n:vn]}	 =establishment=	 %	開設 
-
 kaishaku	{[scat n:vn]}	 =interpretation=	 %	解釈 
-
 kaishin	{[scat n:vn]}	 =round_of_visits=	 %	回診 
-
 kaishin	{[scat n:vn]}	 =reform=	 %	改心 
-
 kaishoku	{[scat n:vn]}	 =dine_together=	 %	会食 
-
 kaishoo	{[scat n:vn]}	 =dissolution=	 %	解消 
-
 kaishoo	{[scat n:vn]}	 =decisive_victory=	 %	快勝 
-
 kaisoo	{[scat n:vn]}	 =reminiscence=	 %	回想 
-
 kaisoo	{[scat n:vn]}	 =forwarding=	 %	回送 
-
 kaisoo	{[scat n:vn]}	 =fast_moving=	 %	快走 
-
 kaisoo	{[scat n:vn]}	 =remodeling=	 %	改装 
-
 kaitai	{[scat n:vn]}	 =dissection=	 %	解体 
-
 kaitaku	{[scat n:vn]}	 =cultivation=	 %	開拓 
-
 kaitee	{[scat n:vn]}	 =revision=	 %	改定 
-
 kaitee	{[scat n:vn]}	 =revision=	 %	改訂 
-
 kaiten	{[scat n:vn]}	 =opening=	 %	開店 
-
 kaitoo	{[scat n:vn]}	 =reply=	 %	回答 
-
 kaitsuu	{[scat n:vn]}	 =opening=	 %	開通 
-
 kaizen	{[scat n:vn]}	 =improvement=	 %	改善 
 kanchi	{[scat n:vn]} =recovering_completely=
 kembun	{[scat n:vn]} =investigate=
@@ -649,199 +496,109 @@ koobo	{[scat n:vn]} =public_recruitment=
 koosee	{[scat n:vn]} =organize=
 kyuukoo	{[scat n:vn]} =cancelling_lecture=	%【休講】
 moderuzukuri	{[scat n:vn][comp n+v:c]} "moderu+tsukur-GER" =model_making=
-moomoo	{[scat n:vn:onoma]} =burn=
 odoodo	{[scat n:vn:onoma]}	 =uneasily=	 %	おどおど 
-
 okibiki	{[scat n:vn]}	 =luggage_theft=	 %	置き引き 
-
 okitegami	{[scat n:vn]}	 =letter_left_behind=	 %	置き手紙 
-
 okkee	{[scat n:vn]}	 =accept=	 %	OK 
-
 okuribanto	{[scat n:vn]}	 =sacrifice_bunt=	 %	送りバント 
-
 okusoku	{[scat n:vn]}	 =fantasy=	 %	憶測 
-
 omekashi	{[scat n:vn]}	 =primp_up=	 %	おめかし 
-
 omemie	{[scat n:vn]}	 =debut=	 %	お目見え 
-
 omoichigai	{[scat n:vn]}	 =misconception=	 %	思い違い 
-
 omoiire	{[scat n:vn]}	 =striking_a_pose=	 %	思い入れ 
-
 omori	{[scat n:vn]}	 =plummet=	 %	おもり 
-
 ondoku	{[scat n:vn]}	 =reading_aloud=	 %	音読 
-
 onesho	{[scat n:vn]}	 =bed_wetting=	 %	おねしょ 
-
 onyomi	{[scat n:vn]}	 =Chinese_style_reading=	 %	音読み 
-
 onzon	{[scat n:vn]}	 =preservation=	 %	温存 
-
 oobaahiito	{[scat n:vn]}	 =over_heat=	 %	オーバーヒート 
-
 oobaaran	{[scat n:vn]}	 =overrun=	 %	オーバーラン 
-
 oobo	{[scat n:vn]}	 =application=	 %	応募 
-
 ooburi	{[scat n:vn]}	 =heavy_rain=	 %	大降り 
-
 oodaa	{[scat n:vn]}	 =order=	 %	オーダー 
-
 oofuku	{[scat n:vn]}	 =reciprocating=	 %	往復 
-
 ooin	{[scat n:vn]}	 =imprinting=	 %	押印 
-
 ookee	{[scat n:vn]}	 =accept=	 %	OK 
-
 oorai	{[scat n:vn]}	 =traffic=	 %	往来 
-
 ooryoo	{[scat n:vn]}	 =embezzlement=	 %	横領 
-
 oosetsu	{[scat n:vn]}	 =reception=	 %	応接 
-
 ooshin	{[scat n:vn]}	 =house_visit=	 %	往診 
-
 ooshuu	{[scat n:vn]}	 =confiscation=	 %	押収 
-
 ooten	{[scat n:vn]}	 =overturning=	 %	横転 
-
 ooto	{[scat n:vn]}	 =vomiting=	 %	おう吐 
-
 ootoo	{[scat n:vn]}	 =response=	 %	応答 
-
 ooyoo	{[scat n:vn]}	 =application=	 %	応用 
-
 orooro	{[scat n:vn:onoma]}	 =be_flustered=	 %	おろおろ 
-
 oroshiuri	{[scat n:vn]}	 =wholesaling=	 %	卸売 
-
 osaraba	{[scat n:vn]}	 =adieu=	 %	おさらば 
-
 osen	{[scat n:vn]}	 =pollution=	 %	汚染 
-
 oshaku	{[scat n:vn]}	 =filling_cup=	 %	おしゃく 
-
 oshiaiheshiai	{[scat n:vn]}	 =hustle_and_bustle=	 %	押し合いへし合い 
-
 oshimondoo	{[scat n:vn]}	 =arguing_back_and_forth=	 %	押し問答 
-
-oshiuri	{[scat n:vn]}	 =pushy_salesman=	 %	押し売り 
-
-osusowake	{[scat n:vn]}	 =sharing=	 %	おすそ分け 
-
+oshiuri	{[scat n:vn]}	 =pushy_salesman= "os+ur&GER"	 %	押し売り 
+osusowake	{[scat n:vn]}	 =sharing= "osuso_wake&GER""	 %	おすそ分け 
 otaota	{[scat n:vn:onoma]}	 =panic=	 %	おたおた 
-
-otokonaki	{[scat n:vn]}	 =a_mans_weeping=	 %	男泣き 
-
+otokonaki	{[scat n:vn]}	 =a_mans_weeping= "otoko_nak&GER"	 %	男泣き 
 otomo	{[scat n:vn]}	 =accompany=	 %	お伴 
-
 ottori	{[scat n:vn:onoma]}	 =calmly=	 %	おっとり 
-
-ozendate	{[scat n:vn]}	 =arrangements=	 %	お膳立て 
-
+ozendate	{[scat n:vn]}	 =arrangements= "ozen_tate&GER"	 %	お膳立て 
 ozuozu	{[scat n:vn:onoma]}	 =being_timid=	 %	おずおず 
 reeraku {[scat n:vn]} =fall_low= %零落
 ritsuan	{[scat n:vn]} =proposal=
 shinyoo	{[scat n:vn]} =trust=
 shinkoo	{[scat n:vn]} =faith=
-shinkyosagashi	{[scat n:vn]}  =house_hunting=
+shinkyosagashi	{[scat n:vn]}  =house_hunting= "shinkyo_sagas&GER"
 shugyoo	{[scat n:vn]} =ascetic_training_mid=
 sooguu	{[scat n:vn]} =encpunter=   %遭遇
 teeji	{[scat n:vn]} =present=  %提示
 tenkin	{[scat n:vn]} =job_transfer=
-udedameshi	{[scat n:vn]}	 =trying_ones_skill=	 %	腕試し 
-
+udedameshi	{[scat n:vn]}	 =trying_ones_skill= "ude_tames&GER"	 %	腕試し 
 udegumi	{[scat n:vn]}	 =folding_arms=	 %	腕組み 
-
-udejiman	{[scat n:vn]}	 =boasting=	 %	腕自慢 
-
-udemakura	{[scat n:vn]}	 =resting_the_head_on_the_arms=	 %	腕枕 
-
-udemakuri	{[scat n:vn]}	 =roll_up_ones_sleeves=	 %	腕まくり 
-
-uejini	{[scat n:vn]}	 =starving=	 %	餓え死に 
-
-uetsuke	{[scat n:vn]}	 =planting=	 %	植えつけ 
-
+udejiman	{[scat n:vn]}	 =boasting= "ude_jiman"	 %	腕自慢 
+udemakura	{[scat n:vn]}	 =resting_the_head_on_the_arms= "ude_makura"	 %	腕枕 
+udemakuri	{[scat n:vn]}	 =roll_up_ones_sleeves= "ude_makur&GER"	 %	腕まくり 
+uejini	{[scat n:vn]}	 =starving= "ue_shin&GER"	 %	餓え死に 
+uetsuke	{[scat n:vn]}	 =planting= "ue_tsuke&GER"	 %	植えつけ 
 ujauja	{[scat n:vn:onoma]}	 =whining=	 %	うじゃうじゃ 
-
 ujiuji	{[scat n:vn:onoma]}	 =hesitating=	 %	うじうじ 
-
 ukai	{[scat n:vn]}	 =circumventing=	 %	迂回 
-
 ukauka	{[scat n:vn:onoma]}	 =be_careless=	 %	うかうか 
-
-ukekotae	{[scat n:vn]}	 =answering=	 %	受け答え 
-
-ukeuri	{[scat n:vn]}	 =retailing=	 %	受け売り 
-
-ukewatashi	{[scat n:vn]}	 =transmitting=	 %	受け渡し 
-
-ukibori	{[scat n:vn]}	 =carving_in_relief=	 %	浮き彫り 
-
-ukishizumi	{[scat n:vn]}	 =fluctuating=	 %	浮き沈み 
-
+ukekotae	{[scat n:vn]}	 =answering= "uke_kotae&GER"	 %	受け答え 
+ukeuri	{[scat n:vn]}	 =retailing= "uke_ur&GER"	 %	受け売り 
+ukewatashi	{[scat n:vn]}	 =transmitting= "uke_watas&GER"	 %	受け渡し 
+ukibori	{[scat n:vn]}	 =carving_in_relief= "uke_hor&GER"	 %	浮き彫り 
+ukishizumi	{[scat n:vn]}	 =fluctuating= "uk_shizum&GER"	 %	浮き沈み 
 ukiuki	{[scat n:vn:onoma]}	 =be_cheerful=	 %	うきうき 
-
 ukkari	{[scat n:vn:onoma]}	 =being_careless=	 %	うっかり 
 unee	{[scat n:vn]} =management=
-
 uneune	{[scat n:vn:onoma]}	 =meandering=	 %	うねうね 
-
 unkoo	{[scat n:vn]}	 =running=	 %	運航 
-
 unkoo	{[scat n:vn]}	 =revolving=	 %	運行 
-
 unkyuu	{[scat n:vn]}	 =suspension_of_operation=	 %	運休 
-
 unsoo	{[scat n:vn]}	 =transport=	 %	運送 
-
 unyoo	{[scat n:vn]}	 =operating=	 %	運用 
-
 unzari	{[scat n:vn:onoma]}	 =weary=	 %	うんざり 
-
-uoosaoo	{[scat n:vn]}	 =moving_this_way_and_ that=	 %	右往左往 
-
-uragoshi	{[scat n:vn]}	 =straining=	 %	裏ごし 
-
-urazuke	{[scat n:vn]}	 =testifying=	 %	裏づけ 
-
-ureshinaki	{[scat n:vn]}	 =weep_for_joy=	 %	うれし泣き 
-
-urikai	{[scat n:vn]}	 =sell_and_buy=	 %	売り買い 
-
+uoosaoo	{[scat n:vn]}	 =moving_this_way_and_ that= "uoo_saoo"	 %	右往左往 
+uragoshi	{[scat n:vn]}	 =straining= "ura_kos&GER""	 %	裏ごし 
+urazuke	{[scat n:vn]}	 =testifying= "ura_tsuke&GER"	 %	裏づけ 
+ureshinaki	{[scat n:vn]}	 =weep_for_joy= "ureshi_nak&GER"	 %	うれし泣き 
+urikai	{[scat n:vn]}	 =sell_and_buy= "ur_kaw&GER"	 %	売り買い 
 urochoro	{[scat n:vn:onoma]}	 =loitering=	 %	うろちょろ 
-
-usabarashi	{[scat n:vn]}	 =entertainment=	 %	憂さ晴し 
-
-usonaki	{[scat n:vn]}	 =fake_crying=	 %	うそ泣き 
-
-usugeshoo	{[scat n:vn]}	 =applying_light_make_up=	 %	薄化粧 
-
-usurawarai	{[scat n:vn]}	 =laughing_slightly=	 %	うすら笑い 
-
-utatane	{[scat n:vn]}	 =doze=	 %	うたた寝 
-
+usabarashi	{[scat n:vn]}	 =entertainment= "usa_haras&GER"	 %	憂さ晴し 
+usonaki	{[scat n:vn]}	 =fake_crying= "uso_nak&GER"	 %	うそ泣き 
+usugeshoo	{[scat n:vn]}	 =applying_light_make_up= "usu_keshoo"	 %	薄化粧 
+usurawarai	{[scat n:vn]}	 =laughing_slightly= utsura_waraw&GER""	 %	うすら笑い 
+utatane	{[scat n:vn]}	 =doze= "uta_ne&GER"	 %	うたた寝 
 utouto	{[scat n:vn:onoma]}	 =dozing_of=	 %	うとうと 
-
 utsurautsura	{[scat n:vn:onoma]}	 =nodding_off=	 %	うつらうつら 
-
 uttori	{[scat n:vn:onoma]}	 =being_fascinated=	 %	うっとり 
-
 uwaki	{[scat n:vn]}	 =having_an_affair=	 %	浮気 
-
-uwanose	{[scat n:vn]}	 =add_an_amount=	 %	上乗せ 
-
-uwazumi	{[scat n:vn]}	 =pile_on_top=	 %	上積み 
-
+uwanose	{[scat n:vn]}	 =add_an_amount= "ue_nose&GER"	 %	上乗せ 
+uwazumi	{[scat n:vn]}	 =pile_on_top= "ue_tsum&GER"	 %	上積み 
 uyouyo	{[scat n:vn:onoma]}	 =swarming=	 %	うようよ 
-
 uzuuzu	{[scat n:vn:onoma]}	 =be_impatient=	 %	うずうず 
-yamiasobi	{[scat n:vn][comp n+v:c]} "yami+asob-GER" =dark_play=
-yaminomi	{[scat n:vn][comp n+v:c]} "yami+nom-GER" =dark_drinking=
+yamiasobi	{[scat n:vn]} "yami_asob&GER" =dark_play=
+yaminomi	{[scat n:vn]} "yami_nom&GER" =dark_drinking=
 zenkai	{[scat n:vn]} =be_completely_destroyed=
 
 

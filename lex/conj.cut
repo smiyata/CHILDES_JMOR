@@ -33,6 +33,7 @@ hoide	{[scat conj]} =and_then= "sorede"
 hoija	{[scat conj]} =well= "soredewa"
 nja	{[scat conj]} =well= "soredewa"
 honde	{[scat conj]} =and_then= "sorede"
+moshikasuruto	{[scat conj]} "moshi_ka_suru_to" =maybe=
 nde	{[scat conj]} =and_then= "sorede"
 nara	{[scat conj]} =in_that_case=
 honja	{[scat conj]} =well= "soredewa"

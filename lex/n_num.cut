@@ -6,7 +6,7 @@ ichibanhoomu	{[scat n:num][comp num:cl+n]} =track_one= "ichi&ban+hoomu"
  nibanhoomu	{[scat n:num][comp num:cl+n]} =track_two= "ni&ban+hoomu"
  sambanhoomu	{[scat n:num][comp num:cl+n]} =track_three= "san&ban+hoomu"
  yombanhoomu	{[scat n:num][comp num:cl+n]} =track_four= "yon&ban+hoomu"
- nambanhoomu	{[scat n:num:deic:wh][comp n:deic:wh+n]} =track_what= "nan&ban+hoomu"
+ nambanhoomu	{[scat n:num:deic:wh][comp n:deic:wh+n]} =which_number_track= "nan&ban+hoomu"
  ichibansenshu	{[scat n:num][comp num:cl+n]} =first_athlete= "ichi&ban+senshu"
  nibansenshu	{[scat n:num][comp num:cl+n]} =second_athlete= "ni&ban+senshu"
  sambansenshu	{[scat n:num][comp num:cl+n]} =third_athlete= "san&ban+senshu"
@@ -30,22 +30,32 @@ nijuuago	{[scat n:num][comp num:cl+n]} =double_chin= "ni&juu+ago"
 %ka 日
 mikazuki	{[scat n:num][comp num:cl+n]} =crescent_moon= "mi&ka+tsuki"
   mikkazuki	{[scat n:num][comp num:cl+n]} =crescent_moon= "mi&ka+tsuki"
+  mikazukisama	{[scat n:num][comp num:cl+n]} =crescent_moon= "mi&ka+tsuki-sama_HON"
 %kagetsuヵ月
 ikkagetsukarendaa	{[scat n:num][comp num:cl+n]} =monthly_calendar= "ichi&kagetsu+karendaa"
 %kai階
 ikkaidate	{[scat n:num][comp num:cl+v:v]} =single_storied_house= "ichi&kai+tate&GER"
  nikaidate	{[scat n:num][comp num:cl+v:v]} =two_storied_house= "ni&kai+tate"
+ sankaidate	{[scat n:num][comp num:cl+v:v]} =three_storied_house= "san&kai+tate"
+ sangaidate	{[scat n:num][comp num:cl+v:v]} =three_storied_house= "san&kai+tate"
+ yonkaidate	{[scat n:num][comp num:cl+v:v]} =four_storied_house= "yon&kai+tate"
+ gokaidate	{[scat n:num][comp num:cl+v:v]} =five_storied_house= "go&kai+tate"
+ rokkaidate	{[scat n:num][comp num:cl+v:v]} =six_storied_house= "roku&kai+tate"
  nikaidatebasu	{[scat n:num][comp num:cl+v:v+n]} =double_decker_bus= "ni&kai+tate+basu"
  nikaidatekankoobasu	{[scat n:num][comp num:cl+v:v+n:vn+n]} =double_decker_tourist_bus= "ni&kai+tate+kankoo+basu"
  nikaidatedensha	{[scat n:num][comp num:cl+v:v+n]} =double_decker_train= "ni&kai+tate+densha"
  nikaidatekikanko	{[scat n:num][comp num:cl+v:v+n]} =double_decker_round_house= "ni&kai+tate+kikanko"
  yonkaidatebetto	{[scat n:num][comp num:cl+v:v+n]} =quadruple_deck_bed= "yon&kai+tate+beddo"
+ nankaidate	{[scat n:num][comp num:cl+v:v]} =how_many_storied_house= "nan&kai+tate"
+ nangaidate	{[scat n:num][comp num:cl+v:v]} =how_many_storied_house= "nan&kai+tate"
 %nin人
  sanninkanjo	{[scat n:num][comp num:cl+n]} =three_court_ladies= "san&nin+kanjo" 
  sanninkazoku	{[scat n:num][comp num:cl+n]} =family_of_three= "san&nin+kazoku"
  yoninkazoku	{[scat n:num][comp num:cl+n]} =family_of_four= "yo&nin+kazoku"
+%ri人
+futaridensha	{[scat n:num][comp num:cl+n]} =two_person_train= "futa&ri+densha" 
 %ryoo 両
-ryoohensee	{[scat n:numsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ryoo-hensee" =carriage_combination=
+ yonryoohensee	{[scat n:num][comp num:cl+n]} "yon&ryoo+hensee" =change_to_four_carriages=
 %sai才
 issaiji	{[scat n:num][comp num:cl+n]} =one_year_old_child= "ichi&sai+ji" 
  nisaiji	{[scat n:num][comp num:cl+n]} =two_year_old_child= "ni&sai+ji" 
@@ -53,10 +63,10 @@ issaiji	{[scat n:num][comp num:cl+n]} =one_year_old_child= "ichi&sai+ji"
  yonsaiji	{[scat n:num][comp num:cl+n]} =four_year_old_child= "yon&sai+ji" 
 %tsuつ
 mitsuyubinamakemono	{[scat n:num][comp num:cl+n+n]} =three_toed_sloth= "mi&tsu+yubi+namakemono"
-%riり
-hitoridachi	{[scat n:num][comp num+v:c]} =standing_on_own_feet= "hitori+tat-GER"
-
-
+%ten点
+hyakutenmanten	{[scat n:num][comp num:cl+n]} =hundred_points_top_grade_= "hyaku&ten+manten"
+%too 等
+ittooshoo	{[scat n:num][comp num:cl+n]} "ichi_too_RANK+shoo" =first_rank_prize=
 %%% num %%%
 daisansekutaa	{[scat n:num][comp num+n]} =third_sector= "dai_ORD#san+sekutaa"
 hitoiki	{[scat n:num][comp num+n]} =one_breath= "hito+iki"
@@ -66,7 +76,9 @@ ichijikan	{[scat n:num][comp num+n]} =one_hour= "ichi+jikan"
  nijikan	{[scat n:num][comp num+n]} =two_hours= "ni+jikan"
  sanjikan	{[scat n:num][comp num+n]} =three_hours= "san+jikan"
  yonjikan	{[scat n:num][comp num+n]} =four_hours= "yon+jikan"
+ yojikan	{[scat n:num][comp num+n]} =four_hours= "yon+jikan"
  nanjikan	{[scat n:num][comp n:deic:wh+n]} =how_many_hours= "nan+jikan"
+ nanjikansupesharu	{[scat n:num][comp n:deic:wh+n+n]} =how_many_hours_special= "nan+jikan+supesharu"
  nanjuujikan	{[scat n:num][comp n:deic:wh+n+n]} =how_many_ten_hours= "nan+juu+jikan"
  ichijikanhan	{[scat n:num][comp num+n]} =one_hour= "ichi+jikan-han_HALF"
  nijikanhan	{[scat n:num][comp num+n]} =two_hours= "ni+jikan-han_HALF"
@@ -80,15 +92,24 @@ hitokurasu	{[scat n:num][comp num+n]} =one_class= "hito+kurasu"
  futakurasu	{[scat n:num][comp num+n]} =two_classes= "futa+kurasu"
  nikurasu	{[scat n:num][comp num+n]} =two_classes= "ni+kurasu"
  sankurasu	{[scat n:num][comp num+n]} =three_classes= "san+kurasu"
+ichipointo	{[scat n:num][comp num+n]} =one_point= "ichi+pointo"
+ juunipointo	{[scat n:num][comp num+num+n]} =twelve_points= "juu+ni+pointo"
+ rokujuppointo	{[scat n:num][comp num+num+n]} =sixty_points= "roku+juu+pointo"
 ichiretsu	{[scat n:num][comp num+n]} =one_line= "ichi+retsu"
  niretsu	{[scat n:num][comp num+n]} =two_line= "ni+retsu"
  sanretsu	{[scat n:num][comp num+n]} =three_line= "san+retsu"
+isshasen	{[scat n:num][comp num+n]} =one_lane= "ichi+shasen" 	% 車線 
+ nishasen	{[scat n:num][comp num+n]} =two_lane= "ni+shasen" 	% 車線 
+ sanshasen	{[scat n:num][comp num+n]} =three_lane= "san+shasen" 	% 車線 
 isshoku	{[scat n:num][comp num+n]} =one_color= "ichi+shoku"
  nishoku	{[scat n:num][comp num+n]} =two_color= "ni+shoku"
  sanshoku	{[scat n:num][comp num+n]} =three_color= "san+shoku"
  sanshokudango	{[scat n:num][comp num+n+n]} =three_color_dumpling= "san+shoku+dango"
 isshurui	{[scat n:num][comp num+n]} =one_kind= "ichi+shurui"
  nishurui	{[scat n:num][comp num+n]} =two_kinds= "ni+shurui"
+ sanshurui	{[scat n:num][comp num+n]} =three_kinds= "san+shurui"
+ yonshurui	{[scat n:num][comp num+n]} =four_kinds= "yon+shurui"
+ nijusshurui	{[scat n:num][comp num+num+n]} =twenty_kinds= "ni+juu+shurui"
 isshuukan	{[scat n:num][comp num+n]} =one_week= "ichi+shuukan"
 nishuukan	{[scat n:num][comp num+n]} =two_weeks= "ni+shuukan"
 sanshuukan	{[scat n:num][comp num+n]} =three_weeks= "san+shuukan"
@@ -109,6 +130,7 @@ nidangasanekeeki	{[scat n:num][comp num+v:v+n]} =double_deck_cake= "ni&dan+kasan
 juushuunenkinen	{[scat n:num][comp num+n+vn]} =tenth_anniversary_memory= "juu+shuunen+kinen"
 juunishuunenkinen	{[scat n:num][comp num+num+n+vn]} =twelveth_anniversary_memory= "juu+ni+shuunen+kinen"
 sampointo	{[scat n:num][comp num+n]} =three_points= "san+pointo"
+hyakupointo	{[scat n:num][comp num+n]} =hundred_points= "hyaku+pointo"
 reeten	{[scat n:num][comp num+n]} =zero_points= "ree+ten"
 hitotoki	{[scat n:num][comp num+n]} =moment= "hito+toki"
 sanchanneru	{[scat n:num][comp num+n]} =channel_three= "san+channel"
@@ -121,6 +143,7 @@ nanahyakukeenozomi	{[scat n:num][comp num+num+n+n]} =nozomi_train_sevenhundred= 
 nanahyakkeenozomi	{[scat n:num][comp num+num+n+n]} =nozomi_train_sevenhundred= "nana+hyaku+kee+nozomi"
 sambyakukeenozomi	{[scat n:num][comp num+num+n+n]} =nozomi_train_threehundred= "san+hyaku+kee+nozomi"
 sambyakkeenozomi	{[scat n:num][comp num+num+n+n]} =nozomi_train_threehundred= "san+hyaku+kee+nozomi"
+juugoya	{[scat n:num][comp num+num+n]} =full_moon_evening= "juu+go+ya"
 juunigoosen	{[scat n:num][comp num+num]} =train_number_twelve= "juu+ni-goo-sen"
 nanahyakukee	{[scat n:num][comp num+num+n]} =nozomi_train_type_sevenhundred= "nana+hyaku+kee"
 nishasen{[scat n:num][comp num+n]} =two_lanes= "ni+shasen"
@@ -131,13 +154,15 @@ nidanhensoku	{[scat n:num][comp num+n:vn]} =two_speed_gear_shift= "ni&dan+hensok
 yotsuba	{[scat n:num][comp num+n]} "yo&tsu_PIECE+ha" =four_leaved=
 wambaundo	{[scat n:num][comp num+n:vn]} =one_bound= "wan+baundo"
 
+sekaiichi	{[scat n:num][comp n+num]} =worlds_best= "sekai+ichi"
+
 nanahoshitentoo	{[scat n:num][comp num+n+n]} =seven_spot_ladybug= "nana+hoshi+tentoo"
 
 dangosankyoodai	{[scat n:num][comp n+num+n]} =three_dumpling_siblings= "dango+san+kyoodai"
 ringosankyoodai	{[scat n:num][comp n+num+n]} =three_apple_siblings= "ringo+san+kyoodai"
 nintamasanningumi	{[scat n:num][comp n+num+n]} =three_ninja_disciples= "nintama+san&nin+kumi"
 
-nangatsuumare	{[scat n:num:deic:wh][comp n:deic:wh+v:c]} =born_in_which_month= "nani&gatsu+umare&PASS&GER"
+nangatsuumare	{[scat n:deic:wh][comp n:deic:wh+v:c]} =born_in_which_month= "nani&gatsu+umare&PASS&GER"
 ichigatsuumare	{[scat n:num][comp num+v:c]} =born_in_january= "ichi&gatsu+umare&PASS&GER"
 nigatsuumare	{[scat n:num][comp num+v:c]} =born_in_february= "ni&gatsu+umare&PASS&GER"
 sangatsuumare	{[scat n:num][comp num+v:c]} =born_in_march= "san&gatsu+umare&PASS&GER"

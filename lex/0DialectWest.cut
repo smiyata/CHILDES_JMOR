@@ -92,7 +92,8 @@ rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai"  % overp
 % conditional	########
 yaa	{[scat vtense] [tense pres] [allo OR vC]} "COND:contr"
 ryaa	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
-
+koryaa	{[scat v:ir] [tense inf]}   "ku-COND:contr"
+koryaa	{[scat v:ir:sub] [tense inf]}  "ku-COND:contr"
 
 % prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen -> moved to closed.cut)
 %iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
@@ -128,6 +129,10 @@ ntotte	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-t
 	nagoo	{[scat adj][tense inf]} =long= "naga-ADV:uu" % 長い   
 	ooki	{[scat adj][tense inf]} =big= "ooki&ADV:i" % 大きい   
 kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV:uu"
+
+%%%kahen%%%
+koreba	{[scat v:ir][tense inf]} "ku-COND:ba" =come=
+koreba	{[scat v:ir:sub][tense inf]} "ku-COND:ba" =come=
 
 %%%%%%
 %% sentence modalizer

@@ -3,8 +3,6 @@
 %%%% ADJ + ADJ
 %%%% NA + N
 %%%% ADV + N
-%%%% ADJ + V
-%%%% ONOMA + V
 %%%% N + ADJ
 %%%% Number+V
 %%%% V+N
@@ -17,11 +15,13 @@ arasuji	{[scat n][comp adj+n]} "ara+suji" =synopsis=
 chikagoro	{[scat n][comp adj+n]} =recently= "chika+koro"	
 furudokee	{[scat n][comp adj+n]} =old_clock= "furu+tokee"	
 furuhon	{[scat n][comp adj+n]} =second_hand_book= "furu+hon"	
+futotaiya	{[scat n][comp adj+n]} =thick_tire= "futo+taiya"	
 hayakuchi	{[scat n][comp adj+n]} =fast_talker= "haya+kuchi"	
 hiroba	{[scat n][comp adj+n]} =plaza=  "hiro+ba" 
 hirokuchi	{[scat n][comp adj+n]} =wide_mouth=  "hiro+kuchi" 
 nagaame	{[scat n][comp adj+n]} =long_rain= "naga+ame"	
 nagagutsu	{[scat n][comp adj+n]} =boot= "naga+kutsu"	
+ gomunagagutsu	{[scat n][comp n+adj+n]} =rubber_boot= "gomu+naga+kutsu"	
 nagasaifu	{[scat n][comp adj+n]} =long_wallet= "naga+saifu"	
 nagashikaku	{[scat n][comp adj+n]} =rectangle=  "naga+shikaku" 
 nagasode	{[scat n][comp adj+n]} =long_sleeve= "naga+sode"	
@@ -36,7 +36,8 @@ yowabi	{[scat n][comp adj+n]} =low_flame= "yowa+hi"
 yowamushi	{[scat n][comp adj+n]} =weakling= "yowa+mushi"	
 
 umaiboo	{[scat n][comp adj+n]} =yummy_stick= "umai+boo"	
-
+mottainaiobake	{[scat n][comp n:an+n]} =wasteful_ghost= "mottaina&PRES+obake"
+mottainaiobasan	{[scat n][comp n:an+n]} =wasteful_aunt= "mottaina&PRES+oba-san_HON"
 wakashachikokutai	{[scat n][comp adj+n+n]} =young_dragon_athletic_meet= "waka+shachi+kokutai"	
 iikochan	{[scat n][comp adj+n]} =good_child= "ii+ko-chan"
 iikochanguruupu	{[scat n][comp adj+n+n]} =good_child_group= "ii+ko&chan+guruupu"
@@ -57,13 +58,6 @@ tokuiwazataikai	{[scat n][comp n:an+n+n]} =special_skill_mass_meeting= "tokui+wa
 
 %%%% ADV + N
 yukkurikuma	{[scat n][comp adv+n]} =slow_bear= "yukkuri+kuma"	
-
-%%% ADJ + V
-hayaoki	{[scat n:vn][comp adj+v:v]} =getting_up_early= "haya+oki&GER"	
-
-%%%% ONOMA + V
-bishonure	{[scat n:vn][comp onoma+v:v]} =be_soaked= "bisho+nure&GER"
-yochiyochiaruki	{[scat n:vn][comp onoma+v:c]} =waddling= "yochiyochi+aruk-GER"
 
 
 %%%% N + ADJ
@@ -96,8 +90,12 @@ hitokire	{[scat n:vn][comp num+v:v]} =slice= "hito+kire&GER"
 hitomawari	{[scat n:vn][comp num+v:c]} =making_a_round= "hito+mawar-GER"
 hitonemuri	{[scat n:vn][comp num+v:c]} =taking_a_nap= "hito+nemur-GER"
 hitoppashiri	{[scat n:vn][comp num+v:c]} =making_a_run= "hito+hashir-GER" 
+hitoriaruki	{[scat n:vn][comp num+v:c]} =walk_by_oneself= "hitori+aruk-GER"	%【独り歩き】+
 hitoridachi	{[scat n:vn][comp num+v:c]} =standing_on_own_feet= "hitori+tat-GER"
 hitorijime	{[scat n:vn][comp num+v:v]} =monopolizing= "hitori+shime&GER"
+hitorigurashi	{[scat n:vn][comp num+v:c]} =single_living= "hitori+kuras-GER"
+ futarigurashi	{[scat n:vn][comp num+v:c]} =living_together= "futari+kuras-GER"
+ sanningurashi	{[scat n:vn][comp num+v:c]} =three_living_together= "san&nin+kuras-GER"
 hitorinori	{[scat n:vn][comp num+v:c]} =single_riding= "hitori+nor-GER"
 hitotobi	{[scat n:vn][comp num+v:c]} =making_a_jump= "hito+tob-GER"
 hitoyasumi	{[scat n:vn][comp num+v:c]} =making_a_rest= "hito+yasum-GER" 
@@ -117,7 +115,9 @@ akibin	{[scat n][comp v:c+n]} =empty_can= "ak&GER+bin"
 akichuushajoo	{[scat n][comp v:c+n]} =empty_parking_lot= "ak&GER+chuushajoo"
 amimono	{[scat n:vn][comp v:c+n]} =needle_work= "am&GER+mono"
 asobiba	{[scat n][comp v:c+n]} =playground= "asob&GER+ba"
+ asobibabasu	{[scat n][comp v:c+n+n]} =playground_bus= "asob&GER+ba+basu"
 asobijikan	{[scat n][comp v:c+n]} =playtime= "asob&GER+jikan"
+asobikyooshitsu	{[scat n][comp v:c+n]} =play_school= "asob&GER+kyooshitsu"
 hakobigakari	{[scat n][comp v:c+n]} =person_in_charge_of_transport= "hakob&GER+kakari"
 dekakeryukku	{[scat n][comp v:v+n]} =going_out_knapsack= "dekake&GER+ryukku"
 hamee	{[scat n][comp v:v+n]} =jigsaw_puzzle= "hame&GER+e"
@@ -137,6 +137,7 @@ kaeuta	{[scat n][comp v:v+n]} =song_variation= "kae&GER+uta"
 kainushi	{[scat n][comp v:c+n]} =pet_owner= "kaw&GER+nushi"
 kakeishi	{[scat n][comp v:v+n]} =marble= "kake&GER+ishi"
 kakesoba	{[scat n][comp v:v+n]} =buckwheat_noodles_in_soup= "kake&GER+soba"
+kakigoori	{[scat n][comp v:c+n]} =shaved_ice_with_syrup= 	"kak&GER+koori" % かき氷 
 kangaegoto	{[scat n][comp v:v+n]} =concern= "kangae&GER+koto"
 kareeda	{[scat n][comp v:v+n]} =withered_branch= "kare&GER+eda"
 kareha	{[scat n][comp v:v+n]} =dead_leaf= "kare&GER+ha"
@@ -167,6 +168,7 @@ miharitoo	{[scat n][comp v:v+v:c+n]} =watch_tower= "mi&GER+har&GER+too"
 mooshiwake	{[scat n][comp v:c+n]} =excuse= "moos&GER+wake"
 morisoba	{[scat n][comp v:c+n]} =buckwheat_noodles_in_basket= "mor&GER+soba"
 moritsuchi	{[scat n][comp v:c+n]} =soil_mound= "mor&GER+tsuchi"
+mushipan	{[scat n][comp v:c+n]} =steamed_bread= "mus&GER+pan"
 nagareboshi	{[scat n][comp v:v+n]} =shooting_star= "nagare&GER+hoshi"
 nagarehoshi	{[scat n][comp v:v+n]} =shooting_star= "nagare&GER+hoshi"
 nagashidai	{[scat n][comp v:v+n]} =washstand= "nagas&GER+dai"
@@ -234,18 +236,21 @@ ukiwa	{[scat n][comp v:c+n]} =swimming_ring= "uk&GER+wa"
 uriba	{[scat n][comp v:c+n]} =selling_area= "ur&GER+ba"
 urimono	{[scat n][comp v:c+n]} =article_for_sale= "ur&GER+mono"
 utsushie	{[scat n][comp v:c+n]} =copying_picture= "utsus&GER+e"
+wakimizu	{[scat n][comp v:c+n]} =spring_water= "wak&GER+mizu"
 wakaremichi	{[scat n][comp v:v+n]} =cross_roads= "wakare&GER+michi"
 wasuremon	{[scat n][comp v:v+n]} =thing_left_behind= "wasure&GER+mono"
 wasuremono	{[scat n][comp v:v+n]} =thing_left_behind= "wasure&GER+mono"
 watashimono	{[scat n][comp v:c+n]} =delivery= "watas&GER+mono"
 yakiika	{[scat n][comp v:c+n]} =grilled_squid= "yak&GER+ika"
 yakiimo	{[scat n][comp v:c+n]} =roast_sweet_potato= "yak&GER+imo"
+yakigohan	{[scat n][comp v:c+n]} =fried_rice= "yak&GER+gohan"
 yakimeshi	{[scat n][comp v:c+n]} =fried_rice= "yak&GER+meshi"
 yakionigiri	{[scat n][comp v:c+n]} =grilled_riceball= "yak&GER+onigiri"
 yakisoba	{[scat n][comp v:c+n]} =fried_noodles= "yak&GER+soba"
 yakisobakaree	{[scat n][comp v:c+n+n]} =fried_noodles_curry= "yak&GER+soba+karee"
 yakisobapaatii	{[scat n][comp v:c+n+n]} =fried_noodles_party= "yak&GER+soba+paatii"
 yakitori	{[scat n][comp v:c+n]} =grilled_chicken= "yak&GER+tori"
+yakiudon	{[scat n][comp v:c+n]} =fried_noodles= "yak&GER+udon"
 yakizakana	{[scat n][comp v:c+n]} =grilled_fish= "yak&GER+sakana"
 yasumimae	{[scat n][comp v:c+n]} =before_bedtime= "yasum&GER+mae"
 yomifuda	{[scat n][comp v:c+n]} =card_to_be_read_out= "yom&GER+fuda"
@@ -264,3 +269,5 @@ kakekomijoosha	{[scat n][comp v:c+v:c+n]} =rush_into_train= "kake&GER+kom&GER+jo
 kogechairo	{[scat n][comp v:v+n+n]} =black_tea_color=  "koge&GER+cha+iro" 
 kirikaesen	{[scat n][comp v:c+v:v+n]} =switch_line= "kir&GER+kae&GER+sen"
 moritsukegakari	{[scat n][comp v:c+v:v+n]} =person_in_charge_of_food_arrangement= "mor&GER+tsuke&GER+kakari"
+nodosukkiriame	{[scat n][comp n+adv:onoma+n]} "nodo+sukkiri+ame" =throat_refresh_drop=
+hokahokabentoo	{[scat n][comp adv:onoma+n]} "hokahoka+bentoo" =hot_lunch_box=

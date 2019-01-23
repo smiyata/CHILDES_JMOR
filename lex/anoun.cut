@@ -175,10 +175,12 @@
 	hisoka	{[scat n:an]} =secret=	% ひそか  密か/ 窃か 
 	hitsuyoo	{[scat n:an]} =necessary=	% 必要 
 	hitsuzen	{[scat n:an]} =inevitable=	% 必然的 
+	 hitsuzenteki	{[scat n:an]} =inevitable= "hitsuzen-teki_LIKE"	% 必然的 
 	honki	{[scat n:an]} =serious=	% 本気 
 	iikagen	{[scat n:an]} =halfhearted=	% いいかげん  好い加減 
 	ijiwaru	{[scat n:an]} =malicious=	% 意地悪 
-	ijiwarusoo	{[scat n:an]} =seeming_malicious= "ijiwaru-soo"	% 意地悪 
+	 ijiwarukko	{[scat n:vn]} =bullying= "ijiwaru-kko_DIM"	% 意地悪 
+	 ijiwarusoo	{[scat n:an]} =seeming_malicious= "ijiwaru-soo"	% 意地悪 
 	ijoo	{[scat n:an]} =extraordinary=	% 異常 
 	iroiro	{[scat n:an]} =various=	% いろいろ  色色  副[— と ]
 	isshokemmee	{[scat n:an]} =with_whole_heart= "isshookemmee" % 一所懸命 
@@ -299,11 +301,13 @@
 	pittari	{[scat n:an]} =tight=	
 	rakkii	{[scat n:an]} =lucky=	
 	raku	{[scat n:an]} =comfortable=	% 楽 
+	rakuraku	{[scat n][comp n:an+n:an]} =comfortable= "raku+raku"	% 楽 
 	rakuchi	{[scat n:an]} =easy=	% 楽 
 	rakuchin	{[scat n:an]} =easy=	% 楽 
 	ramboo	{[scat n:an]} =violent=
 	rikoo	{[scat n:an]} =bright_child=	% 利口/利巧 
 	rippa	{[scat n:an]} =splendid=	% りっぱ/立派 
+	ryookoo	{[scat n:an]} =satsifactory=	% 良好 
 	saiaku	{[scat n:an]} =worst=	% 最悪 
 	sakasama	{[scat n:an]} =reverse=	% 逆さま  逆様 
 	samazama	{[scat n:an]} =diverse=	% 様々 

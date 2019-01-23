@@ -1,6 +1,7 @@
 @UTF8
 %%%%%%%% NOUNS %%%%%
 	abaremboo	{[scat n]} =rowdy= 	% 暴れん坊 
+	wasuremboo	{[scat n]} =forgetful_person= 	% 忘れん坊 
 	abekawa	{[scat n]} =kinako_rice_cakes=	% 安倍川
 	abu	{[scat n]} =horsefly=	% アブ  虻
 	abuku	{[scat n]} =bubble= 	% 泡 +
@@ -119,6 +120,7 @@
 	baikin	{[scat n]} =germ= 	% ばい菌  黴菌 
 	baiten	{[scat n]} =kiosk= 	% 売店 
 	bakagai	{[scat n]} =trough_shell= 	% バカガイ  馬鹿貝 
+	baka	{[scat n]} =fool= 	% ばか  馬鹿 
 	bakatare	{[scat n]} =fool= 	% ばかたれ  馬鹿たれ 
 	bakayaroo	{[scat n]} =fool= 	% ばかやろう  馬鹿=野郎 
 	bakudan	{[scat n]} =bomb= 	% 爆弾 
@@ -384,6 +386,7 @@
 	ebi	{[scat n]} =prawn= 	% えび  海老/ 蝦 
 	eda	{[scat n]} =branch= 	% 枝 
 	eega	{[scat n]} =movie= 	% 映画 
+	eegakan	{[scat n]} =cinema= "eega-kan_BLDG"	% 映画館
 	eego	{[scat n]} =English_language= 	% 英語 
 	eegyoosho	{[scat n]} =business_office=	% 営業所 
 	eeyoo	{[scat n]} =nutrition= 	% 栄養 
@@ -446,6 +449,7 @@
 	funsui	{[scat n]} =fountain= 	% 噴水 
 	furaigaeshi	{[scat n]} =turner= 	%フライ返し
 	furansugo {[scat n]} =French= 
+	ofure	{[scat n]} =notice= "o_HON#fure" 	% お触れ
 	furikake	{[scat n]} =seasoned_powder_sprinkled_over_rice= 	% ふりかけ/振り掛け 
 	furo	{[scat n]} =bath= 	% ふろ  風 呂 
 	furoba	{[scat n]} =bath= 	% ふろ  風 呂 
@@ -493,6 +497,7 @@
 	gamen	{[scat n]} =screen= 	% 画面 
 	gammen	{[scat n]} =face= 	% 顔面 
 	gankyuu	{[scat n]} =eye_ball=
+	ganzuki	{[scat n]} =ganzuki_dessert=
 	gara	{[scat n]} =pattern= 	%
 	garakuta	{[scat n]} =junk= 	%
 	gawa	{[scat n]} =side=	% 側
@@ -615,6 +620,7 @@
 	hanetsuki	{[scat n]} =battledore= 	% 羽根突き 
 	hangaku	{[scat n]} =half_price= 
 	hani	{[scat n]} =scope= 	% 範囲 
+	 koohani	{[scat n]} =wide_scope= 	% 広範囲 
 	hanketsu	{[scat n]} =backside_out=  %半ケツ
 	hanko	{[scat n]} =stamp= 	% はんこ/判こ 
 	hankooki	{[scat n]} =period_of_rebelliousness= 	% 反抗期 
@@ -624,6 +630,8 @@
 	hantai	{[scat n]} =opposite= 	% 反対 
 	hantaiko	{[scat n]} "hantai-ko_DIM" =opposite= 	% 反対 
 	hantsuki	{[scat n]} =half_month= 	% 半つき 
+	hanzai	{[scat n]} =crime= 	% 犯罪 
+	hanzaisha	{[scat n]} =criminal= "hanzai-sha_PERSON" 	% 犯罪 
 	happa	{[scat n]} =leaf= 	% 葉っぱ 
 	happi	{[scat n]} =happi_coat= 	% 法被 
 	hara	{[scat n]} =abdomen_CLQ= 	% 腹 
@@ -662,6 +670,7 @@
 	hebereke	{[scat n]} =extremely_drunk= 	% 
 	hebi	{[scat n]} =snake= 	% 蛇 
 	hechima	{[scat n]} =sponge_cucumber= 
+	hetchara	{[scat n]} =unconcern= 
 	hee	{[scat n]} =wall= 	% 塀 
 	heegen	{[scat n]} =plateau= 	%平原 
 	heekindai	{[scat n]} =balance_beam= 	% 平均台 
@@ -680,6 +689,7 @@
 	hidari	{[scat n]} =left= 	% 左 
 	hiepita	{[scat n]} =cold_plaster= 	% 冷えピタ 
 	hifu	{[scat n]} =skin= 	% 皮膚 
+	hifuka	{[scat n]} =dermatology= 	% 皮膚  
 	hifubyoo	{[scat n]} =skin_disease= 	% 皮膚病 
 	higan	{[scat n]} =equinox= 	% 彼岸
 	higashi	{[scat n]} =east= 	% 東 
@@ -775,6 +785,7 @@
 	hoorensoo	{[scat n]} =spinach= 	% ほうれんそう  菠薐〉草 
 	hoosenka	{[scat n]} =touch_me_not= 	% ホウセンカ  鳳仙花
 	hoppe	{[scat n]} =cheek= 	% ほっぺ  頬っぺ 
+	horeezai	{[scat n]} =thermal_gel= 	% 保冷剤 
 	hosen	{[scat n]} =track_maintenance= 	% 保線 
 	hoshi	{[scat n]} =star= 	% 星 
 	hoshibudoo	{[scat n]} =raisin= 	% 干し葡萄 
@@ -797,6 +808,7 @@
 	hyootan	{[scat n]} =gourd= 	% ひょうたん  ヒョウタン
 	hyottoko	{[scat n]} =ugly_face= 	% ひょっとこ
 	ibiki	{[scat n]} =snore= 	% いびき  鼾 
+	ibo	{[scat n]} =wart= 	% イボ
 	ichi	{[scat n]} =market=	% 市 
 	ichi	{[scat n]} =place=	% 位置
 	ichiba	{[scat n]} =market= 	% 市場 
@@ -809,6 +821,7 @@
 	ichiritsu	{[scat n]} =evenly= 	% 一律
 	ichitaisen	{[scat n]} =confrontation= 	% 一対戦
 	ichoo	{[scat n]} =ginkgo= 	% いちょう  銀杏/:公孫樹 
+	ichoo-en	{[scat n]} =gastroenteritis=	% 胃腸炎
 	ido	{[scat n]} =well=	% 井戸 
 	ie	{[scat n]} =house= 	% 家 
 	ieji	{[scat n]} =way_back_home= 	% 家路
@@ -862,6 +875,7 @@
 	iriko	{[scat n]} =dried_sea_slug=	% いりこ
 	iro	{[scat n]} =color=	% 色 
 	irodori	{[scat n]} =coloring=	% 彩り 
+	irori	{[scat n]} =hearth=	% 囲炉裏
 	iruka	{[scat n]} =dolphin= 	% いるか  海豚 
 	iryoku	{[scat n]} =power= 	% 威力 
 	isha	{[scat n]} =doctor= 	% 医者 
@@ -901,6 +915,7 @@
 	jari	{[scat n]} =gravel=	% 砂利 
 	jettoki	{[scat n]} =jet_plane= 	% ジェット機 
 	ji	{[scat n]} =letter=	% 字 
+	jibeta	{[scat n]} =bare_ground=	% 地べた
 	jibika	{[scat n]} =otolaryngology= 	% 耳鼻科 
 	jidensha	{[scat n]} "jitensha" =bicycle= 	% 自転車 
 	jidoo	{[scat n]} =auto=	% 自動 
@@ -998,9 +1013,11 @@
 	kabin	{[scat n]} =vase= 	% 花瓶
 	kabocha	{[scat n]} =pumpkin= 	% かぼちゃ 
 	kabu	{[scat n]} =turnip= 	% かぶ  蕪 
+	kabuki	{[scat n]} =kabuki_theater= 	% 歌舞伎
 	kabura	{[scat n]} =turnip= 	% かぶら  蕪 
 	kabuto	{[scat n]} =helmet= 	% かぶと  兜/ 冑 
 	kachi	{[scat n]} =value=	% 価値 
+	kachoo	{[scat n]} =section_chief=	% 課長
 	kadenhin	{[scat n]} =electr_appliances= 	% 家電品 
 	kadai	{[scat n]} =task=
 	kadan	{[scat n]} =flower_bed= 	% 花壇 
@@ -1010,7 +1027,8 @@
 	kafunshoo	{[scat n]} =pollen= 	% 花粉 
 	kagaku	{[scat n]} =chemistry=	% 化学 
 	kagaku	{[scat n]} =science=	% 科学 
-	kagakukan	{[scat n]} =science_museum=	% 科学 
+	kagakukan	{[scat n]} =science_museum=  "kagaku-kan_BLDG"	% 科学館
+	kagakkan	{[scat n]} =science_museum=  "kagaku-kan_BLDG"	% 科学館
 	kagakusha	{[scat n]} =scientist= "kagaku-sha_PERSON" 	% 科学 
 	kagakusha	{[scat n]} =chemical_fire_engine= "kagaku-sha_VEHICLE" 	% 化学車
 	kagami	{[scat n]} =mirror= 	% 鏡 
@@ -1053,10 +1071,10 @@
 	kakera	{[scat n]} =fragment= 	% かけら  欠けら 
 	kaki	{[scat n]} =oyster=	% かき  牡蛎 
 	kaki	{[scat n]} =persimon=	% かき  柿 
-	kakigoori	{[scat n]} =shaved_ice_with_syrup= 	% かき氷 
 	kakikukeko	{[scat n:let]} =hiragana_ka_line= 
 	kakine	{[scat n]} =fence= 
 	kakitome	{[scat n]} =registered_letter=   
+	kakkontoo	{[scat n]} =kakkontoo_medicine=	% 葛根湯
 	kakkoo	{[scat n]} =cuckoo=	% かっこう/郭公 
 	kakkoo	{[scat n]} =shape=	% かっこう/格好  恰好 
 	kakudo	{[scat n]} =angle= 	% 角度 
@@ -1234,18 +1252,19 @@
 	ketsumakuen	{[scat n]} =conjunctivitis=  % 結膜炎
 	ki	{[scat n]} =spirit=	% 気 
 	ki	{[scat n]} =tree=	% 木 
+	maki	{[scat n]} =yellow=  "ma_STRAIGTH#ki"	% 真黄
 	kiai	{[scat n]} =spirit= 	% 気合 
 	kiba	{[scat n]} =tusk= 	% きば  牙 
 	kibun	{[scat n]} =feeling= 	% 気分 
 	kichi	{[scat n]} =base= 	% 基地 
+	kichoo	{[scat n]} =captain= 	% 機長 
 	kidootai	{[scat n]} =riot_police= 	% 機動隊 
 	kifujin	{[scat n]} =noblewoman= 	% 貴婦人 
-	kigae	{[scat n]} =spare_clothes= 	% 着替え 
 	kigen	{[scat n]} =temper=	% 機嫌 
 	kigi	{[scat n]} =trees=	% 木々 
 	kigurumi	{[scat n]} =anime_costume=	% 着ぐるみ 着包み
 	kihon	{[scat n]} =fundamentals= 
-	kihonkee	{[scat n]} "kihon-kee_FORM" =prototype= 
+	kihonkee	{[scat n]} "kihon-kee_TYPE" =prototype= 
 	kiji	{[scat n]} =cloth=	% 木地 
 	kiji	{[scat n]} =article=	% 記事 
 	kiji	{[scat n]} =dough=	% 生地
@@ -1265,8 +1284,10 @@
 	kimono	{[scat n]} =kimono= 	% 着物 
 	kimpira	{[scat n]} =chopped_burdock_in_sugar_soy= 	% きんぴら 
 	kin	{[scat n]} =gold=	% 金
+	kin	{[scat n]} =bacteria=	% 菌
 	kinako	{[scat n]} =soybean_flour= 	% きなこ  黄な粉 
 	kine	{[scat n]} =pestle= 	% きね  杵 
+	kinembi	{[scat n]} =memorial_day= 	% きね  杵 
 	kinjo	{[scat n]} =neighboring=
 	kingin	{[scat n]} =gold_and_silver= 	% 金銀 
 	kingyo	{[scat n]} =goldfish= 	% 金魚 
@@ -1284,6 +1305,7 @@
 	kinoo	{[scat n]} =function= 	% 機能
 	kinrin	{[scat n]} =neighboring=
 	kintetsu	{[scat n]} =kintetsu_railway= 	% 近鉄
+	kinu	{[scat n]} =silk= 	% 絹
 	kinyoobi	{[scat n]} =friday=
 	kinzoku	{[scat n]} =metal= 	% 金属
 	kippu	{[scat n]} =ticket= 	% 切符 
@@ -1348,7 +1370,7 @@
 	kojuuto	{[scat n]} =sister_in_law= 	% 小姑 
 	kokage	{[scat n]} "kokage" =under_a_tree=  %木陰
 	kokeshi	{[scat n]} =kokeshi_doll= 	%
-	kokizami	{[scat v:c]} =bit_by_bit=    "ko#kizam-GER"
+	kokizami	{[scat v:c]} =bit_by_bit=    "ko_SMALL#kizam-GER"
 	kokki	{[scat n]} =national_flag= 	% 国旗 
 	kokochi	{[scat n]} =feeling= 	% ここち/心地 
 	kokoro	{[scat n]} =mind= 	% 心 
@@ -1521,6 +1543,7 @@
 	kyuuri	{[scat n]} =cucumber= 	% きゅうり  胡瓜 
 	kyuushoku	{[scat n]} =school_meal= 	% 給食
 	kyuusu	{[scat n]} =tea_pot= 	% きゅうす  急 須 
+	kyuuyoo	{[scat n]} =urgent_business= 	% 急用
 	ma	{[scat n]} =space=	% 間 [1]
 	maboroshi	{[scat n]} =phantom= 	% 幻 
 	machi	{[scat n]} =town= 	% 町 
@@ -1542,7 +1565,14 @@
 	makizoe	{[scat n]} =involvement= 	% 巻き添え
 	makizushi	{[scat n]} =rolled_sushi= 	% 巻きずし  巻き:寿司 
 makkuro	{[scat n]} "ma_STRAIGHT#kuro" =black= %真っ黒
+makka	{[scat n]} =garish_red=
+makkaka	{[scat n]} =garish_red=
+makka	{[scat n:an]} =garish_red=
+makkaka	{[scat n:an]} =garish_red=
+makkikii	{[scat n]} =acidic_yellow=
+makkiikii	{[scat n]} =acidic_yellow= "makkikkii"
 makkuroke	{[scat n]} "ma_STRAIGHT#kuro-ke_TASTE" =black= %真っ黒け
+ makkurokepan	{[scat n][comp n+n]} "ma_STRAIGHT#kuro&ke_TASTE+pan" =black_bread= %真っ黒けパン
 makkurake	{[scat n]} "ma_STRAIGHT#kuro-ke_TASTE" =dark= %真っ暗け
 makkura	{[scat n]} "ma_STRAIGHT#kura" =dark= %真っ暗
 masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
@@ -1568,6 +1598,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	mannenhitsu	{[scat n]} =fountain_pen= 	% 万年筆 
 	mansha	{[scat n]} =full= 	% 満車 
 	mantan	{[scat n]} =full_up= 	% 満タン 
+	manten	{[scat n]} =top_grade= 	% 満点 
 	mantohihi	{[scat n]} =papio_hamadryas= 	% マントひひ  マント 狒狒 
 	mari	{[scat n]} =ball= 	% まり  毬/ 鞠 
 	maru	{[scat n]} =circle= 	% 円 
@@ -1816,9 +1847,11 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	nii	{[scat n]} =brother= 	% 兄さん にい 
 	niiko	{[scat n]} =brother= 	% 兄子 にいこ
 	niji	{[scat n]} =rainbow= 	% にじ  虹 
+	 onikai	{[scat num:cl]} =two= "o_HON#ni-kai_FLOOR" 	% お二階 
 	nikki	{[scat n]} =diary= 	% 日記 
 	niku	{[scat n]} =meat= 	% 肉 
 	nikuman	{[scat n]} =meat_dumpling= 	% 肉マン 
+	  butaman	{[scat n]} =pork_dumpling= 	% 豚マン
 	  kareeman	{[scat n]} =curry_dumpling= 	% カレーマン
 	  amman	{[scat n]} =redbean_paste_dumpling= 	% あんマン
 	nimotsu	{[scat n]} =baggage= 	% 荷物 
@@ -1848,6 +1881,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	nomichi	{[scat n]} =field_path= 	% 野道 
 	nomimono	{[scat n]} =drink= 	% 飲み物 
 	nomiya	{[scat n]} "nom-GER-ya_SHOP" =pub= 	% 飲み屋 
+	nomippuri	{[scat n]} "nom-GER-ppuri_WAY_OF" =drink= 	% 飲みっぷり
 	nopperaboo	{[scat n]} =flat= 	% のっぺらぼう 
 	noppo	{[scat n]} =lanky= 	% のっぽ
 	nookyoo	{[scat n]} =agricultural_cooperative= 	% 農協 
@@ -1871,6 +1905,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	obi	{[scat n]} =belt= 	% 帯 
 	obon	{[scat n]} =Lantern_festival= 	% お盆 
 	ocha	{[scat n]} =tea= 	% お茶 
+	ochappa	{[scat n]} =tea_leaves= 	% お茶っぱ
 	odairi	{[scat n]} =emperor_and_empress_dolls= 
 	odeki	{[scat n]} =pus=	% おでき  お出来 
 	odeko	{[scat n]} =forehead= 	%
@@ -1912,6 +1947,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	omote	{[scat n]} =exterior= 	%
 	ompu	{[scat n]} =musical_note= 	% 音符 
 	omutsu	{[scat n]} =diaper= 	%
+	omusubi	{[scat n]} =rice_ball= 	%
 	onagadori	{[scat n]} =long_tailed_rooster= 	%尾長鶏
 	onaka	{[scat n]} =stomach= 	% おなか  お 腹 
 	onara	{[scat n]} =fart= 	%
@@ -1998,6 +2034,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	oyatsu	{[scat n]} =snack= 	% おやつ  お八つ 
 	pakkuncho	{[scat n]} =origami_pakkuncho= 	
 	paa	{[scat n]} =fool= 	% ぱあ 
+	pachin	{[scat n]} =clip= 	% ぱあ 
 	raigetsu	{[scat n]} =next_month=
 	rainen	{[scat n]} =next_year= 	% 来年 
 	rainendo	{[scat n]} =next_fiscal_year= 
@@ -2065,6 +2102,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	saifu	{[scat n]} =wallet= 	% 財布 
 	saigo	{[scat n]} =last=	% 最後 
 	saijoo	{[scat n]} =finest= %最上
+	saijookai	{[scat n]} =top_floor= %最上階
 	saikin	{[scat n]} =recently= 	% 最近 
 	saikoo	{[scat n]} =highest= 	% 最高 [1]
 	saikoro	{[scat n]} =dice= 	% さいころ ((//)骰子 
@@ -2091,6 +2129,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	sakitcho	{[scat n]} =end= 	% 先っちょ 
 	saku	{[scat n]} =fence= 	% さく  柵 
 	sakuhin	{[scat n]} =work= 
+	sakuhinten	{[scat n]} =work_exhibition= 
 	sakura	{[scat n]} =cherry_blossoms= 	% 桜 
 	sakurambo	{[scat n]} =cherry= 	% さくらんぼ  桜桃 
 	sakuramboo	{[scat n]} "sakurambo" =cherry= 	% さくらんぼ  桜桃 
@@ -2150,6 +2189,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	seki	{[scat n]} =seat=	% 席 
 	sekihan	{[scat n]} =red_rice= 	% 赤飯 
 	sekinin	{[scat n]} =responsibility= 	% 責任 
+	sekisair	{[scat n]} =load= 	% 積載
 	sekitan	{[scat n]} =coal= 	% 石炭 
 	sekiyu	{[scat n]} =oil= 	% 石油 
 	sekkeezu	{[scat n]} =blueprint= 
@@ -2182,6 +2222,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	sensha	{[scat n]} =tank= 	% 戦車 
 	senshi	{[scat n]} =soldier= 	% 戦士
 	senshu	{[scat n]} =player= 	% 選手 
+	senshuu	{[scat n]} =last_week= 	% 先週 
 	sensu	{[scat n]} =fan=	% 扇子
 	sensuikan	{[scat n]} =submarine= 	% 潜水艦 
 	sentakki	{[scat n]}  "sentaku-ki_MACHINE" =laundry=	% 洗濯機 
@@ -2222,8 +2263,8 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	shibai	{[scat n]} =play= 	% 芝居 
 	shibakusa	{[scat n]} =grass= 	% 芝草 
 	shiboo	{[scat n]} =fat= 	%脂肪
+	 teeshiboo	{[scat n]} =fat=  "tee_LOW#shiboo"	%脂肪
 	shiboo	{[scat n]} =wish= 	%志望
-	shiboo	{[scat n]} =death= 	%死亡
 	shichi	{[scat n]} =pawn= 	% 質 
 	shichirin	{[scat n]} =portable_stove= 	% 七輪
 	shidare	{[scat n]} =weeping_willow= 	% しだれ  枝垂れ
@@ -2285,6 +2326,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	shinzoo	{[scat n]} =heart= 
 	shio	{[scat n]} =salt=	% 塩 
 	shio	{[scat n]} =tide=	% 潮
+	shiori	{[scat n]} =bookmark=	% 栞
 	shippo	{[scat n]} =tail= 	% しっぽ  尻尾 
 	shippu	{[scat n]} =compress= 	% 湿布  
 	shirakaba	{[scat n]} =white_birch= 	% しらかば  白 樺 
@@ -2316,6 +2358,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	shiyakusho	{[scat n]} =city_hall= 	% 市役所 
 	shizen	{[scat n]} =nature= 	% 自然 [1]
 	shokkaku	{[scat n]} =tactile_sense= 	%触覚
+	shokkan	{[scat n]} =mouthfeel= 	%食感
 	shokki	{[scat n]} =tableware= 	% 食器 
 	shoko	{[scat n]} =archive= 	% 書庫 
 	shokubutsu	{[scat n]} =plant= 	% 植物 
@@ -2399,6 +2442,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	su	{[scat n]} =vinegar=	% 酢  醋 
 	sugata	{[scat n]} =figure= 	% 姿 
 	sugoroku	{[scat n]} =sugoroku_game= 	% すごろく  双六 
+	suibun	{[scat n]} =water= 	% 水分
 	suichuuyokusen	{[scat n]} =hydrofoil= 	% 水中翼船 
 	suidoo	{[scat n]} =tap_water= 	% 水道 
 	suidoodai	{[scat n]}  "suidoo_dai_FEE" =water_fee=	% 水道 
@@ -2475,6 +2519,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	taikai	{[scat n]} =mass_meeting= 	% 大会 
 	taikaku	{[scat n]} =physical_build= 	% 体格 
 	taiko	{[scat n]} =drum= 	% 太鼓 
+	 ootaiko	{[scat n]} "oo_BIG#taiko" =drum= 	% 太鼓 
 	taion	{[scat n]} =body_temperature= 	% 体温 
 	taionkee	{[scat n]} =thermometer= 	% 体温計 
 	taisee	{[scat n]} =system=	% 体制 
@@ -2519,8 +2564,9 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	tane	{[scat n]} =seed= 	% 種 
 	tani	{[scat n]} =valley= 	% 谷 
 	tanjoobi	{[scat n]} =birthday= 
-	tanjoobikai	{[scat n]} "tanjoobi_kai_MEETING" =birthday_party= 
-	tanjookai	{[scat n]} "tanjoo_kai_MEETING" =birthday_party= 
+	tanjoobikai	{[scat n]} "tanjoobi_kai_MEETING" =birthday= 
+	tanjookai	{[scat n]} "tanjoo_kai_MEETING" =birthday= 
+	tomarikai	{[scat n]} "tomar&GER_kai_MEETING" =sleep_over= 
 	tankobu	{[scat n]} =bump= 	%
 	tanninsan	{[scat n]} =tannin= 	% タンニン酸
 	tansu	{[scat n]} =chest= 	% たんす  箪笥 
@@ -2555,6 +2601,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	tehon	{[scat n]} =example= 	% 手本 
 	teki	{[scat n]} =enemy= 	% 敵 
 	tekkin	{[scat n]} =reinforcing_rod= 
+	tekkin	{[scat n]} =metallophone= 	% 鉄琴 
 	tekkotsu	{[scat n]} =steel_frame= 	% 鉄骨 
 	tekkyoo	{[scat n]} =railroad_bridge= 	% 鉄橋 
 	tema	{[scat n]} =labor= 	% 手間 
@@ -2637,6 +2684,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	tooban	{[scat n]} =on_duty= 	% 当番 
 	toofu	{[scat n]} =soybean_tofu= 	% 豆腐 
 	toogarashi	{[scat n]} =hot_pepper= 	% 唐辛子 
+	tongarashi	{[scat n]} =hot_pepper= "toogarashi" 	% 唐辛子 
 	tookibi	{[scat n]} =indian_corn= 	% トウキビ 
 	tooku	{[scat n]} =far= 	% 遠く 
 	toomorokoshi	{[scat n]} =corn= 	% とうもろこし  玉蜀黍 
@@ -2652,6 +2700,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	toshi	{[scat n]} =year=	% 年  歳 
 	toshiyori	{[scat n]} =aged_person= 	% 年寄 
 	toshokan	{[scat n]} =library= 	% 図書館 
+	toshoshitsu	{[scat n]} =library_room= 	% 図書室 
 	totsugeki	{[scat n]} =assault=	% 突撃 
 	tsuba	{[scat n]} =spit= 	% つば  唾 
 	tsubame	{[scat n]} =swallow= 	% つばめ  燕 
@@ -2694,6 +2743,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	tsunagime	{[scat n]} =joint= 	% つなぎ目  繋ぎ目 
 	tsunami	{[scat n]} =tidal_wave=
 	tsuno	{[scat n]} =horn= 	% 角 
+	tsurara	{[scat n]} =icicle =
 	tsure	{[scat n]} =companion=
 	tsurekko	{[scat n]} =step_child=	
 	tsuri	{[scat n]} =the_change=	% 釣り 
@@ -2820,6 +2870,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	yaseppo	{[scat n]} =meager_person= 	% やせっぽ  痩せっぽ
 	yashiki	{[scat n]} =mansion= 	% 屋敷  邸 
 	yashoku	{[scat n]} =midnight_snack= 
+	yasumi	{[scat n]} =vacation=
 	yasuri	{[scat n]} =rasp= 	% やすり  鑢 ヤスリ 
 	yatsu	{[scat n]} =fellow_CLQ= 	% やつ  奴 
 	yatsuhashi	{[scat n]} =bean_paste_sweet= 	% 八つ橋 
@@ -2880,6 +2931,7 @@ masaki	{[scat n]} "ma_STRAIGHT#saki" =first= %真先
 	yutampo	{[scat n]} =hot_water_bottle= 	% ゆたんぽ  湯たんぽ
 	yuube	{[scat n]} =last_night= 	% ゆうべ  昨夕 
 	yuubin	{[scat n]} =mail= 	% 郵便 
+	yuubimbutsu	{[scat n]} =mail= "yuubin-butsu_THING" 	% 
 	yuubinkyoku	{[scat n]} =post_office= "yuubin-kyoku_BUREAU" 	% 郵便局 
 	yuubinsha	{[scat n]} =mail_van=   "yuubin-sha_VEHICLE"
 	yuudachi	{[scat n]} =summer_shower= 	% 夕立 

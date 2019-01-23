@@ -1,14 +1,24 @@
 @UTF8
-% Definites 
+%%%%%%%%%%% Definites	
+%%%%%%%%%%% WH Nouns	
+%%%%%%%%%%% Personal Nouns	
+%%%%%%%%%%% Indefinites   -ka
+
+
+
+%%%%%%%%%%% Definites	
+	
 aaiu	{[scat adn:deic:dem]} =like_that=	
 aayuu	{[scat adn:deic:dem]} "aaiu" =like_that=	
 anna	{[scat adn:deic:dem]} =like_that=	
 ano	{[scat adn:deic:dem]} =that=	
 andake	{[scat n:deic:dem]} =that_much=	
+aashita	{[scat adn:deic:dem]} =like_that=
 konna	{[scat adn:deic:dem]} =like_this=	
 kono	{[scat adn:deic:dem]} =this=	
 kooiu	{[scat adn:deic:dem]} =like_this=	
 kooyuu	{[scat adn:deic:dem]} =like_this= "kooiu"	
+kooshita	{[scat adn:deic:dem]} =like_this=
 sonna	{[scat adn:deic:dem]} =like_that=	
 sono	{[scat adn:deic:dem]} =that=	
 sooiu	{[scat adn:deic:dem]} =like_that=	
@@ -27,8 +37,10 @@ asoko	{[scat n:deic:dem]} =over_there=
 asuko	{[scat n:deic:dem]} =over_there= "asoko"	
 asokora	{[scat adn:deic:dem]} =over_there=	
 atchi	{[scat n:deic:dem]} =over_there=	
+ atchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "atchi+ik-GER" =directed_for_over_there=	
 atchikotchi	{[scat n:deic:dem]} =all_over_the_place=	
 kotchi	{[scat n:deic:dem]} =here=	
+ kotchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "kotchi+ik-GER" =directed_for_here=	
 kore	{[scat n:deic:dem]} =this=	
 koreq	{[scat n:deic:dem]} =this=	
 korya	{[scat n:deic:dem]} =this= "kore&wa"	
@@ -51,6 +63,9 @@ sokora	{[scat adn:deic:dem]} =there=
 sokorajuu	{[scat n:deic:dem]} =all_over= "sokora-chuu_MID"	
 sotchi	{[scat n:deic:dem]} =there=	
 sondake	{[scat n:deic:dem]} =that_much=	
+
+%%%%%%%%%%% WH Nouns	
+	
 donna	{[scat adn:deic:wh]} =what_kind=	
 dono	{[scat adn:deic:wh]} =which=	
 dooiu	{[scat adn:deic:wh]} =what_kind=	
@@ -70,13 +85,13 @@ oikutsu	{[scat adv:deic:wh]} =how_many= "o_HON#ikutsu"
 itsu	{[scat adv:deic:wh]} =when=	
 nashite	{[scat adv:deic:wh]} =why=  %dialect
 nani	{[scat n:deic:wh]} =what=
+ nan	{[scat n:deic:wh] [allo numBFa]} =how_many= "nani"   %for num:cl
+ nam	{[scat n:deic:wh] [allo numBFb]} =how_many= "nani"
 nanigoto	{[scat n:deic:wh]} =what_matter=
 naninani	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
 nanisen	{[scat n:deic:wh]} =what_line= "nani-sen"
 nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"
-nanyoobi	{[scat n:deic:wh]} =what_weekday= "nani-yoobi"
-nan	{[scat n:deic:wh] [allo numBFa]} =what= "nani"
- nam	{[scat n:deic:wh] [allo numBFb]} =what= "nani"
+nanyoobi	{[scat n:deic:wh]} =which_weekday= "nani-yoobi"
 nande	{[scat adv:deic:wh]} =why=
 naze	{[scat adv:deic:wh]} =why=
 dare	{[scat n:deic:wh]} =who=
@@ -106,6 +121,7 @@ kare	{[scat n:deic:prs]} =he=
 kimi	{[scat n:deic:prs]} =you_CLQ=
 mina	{[scat n:deic:prs]} =all=
 minna	{[scat n:deic:prs]} =all= "mina"
+mizukara	{[scat n:deic:prs]} =self=
 mukoo	{[scat n:deic:prs]} =they=
 omyaa	{[scat n:deic:prs]} =you_CLQ=
 omae	{[scat n:deic:prs]} =you_CLQ=
@@ -191,12 +207,9 @@ nanyara	{[scat n:deic:indef]} =what_so_ever= "naniyara"
 nazeka	{[scat adv:deic:indef]} =for_some_reason=
 
 
-%%%%%stuff for KKK
-%%%%%%%%%%%%%%%take out  (分ける)  ptl:indef  kashira/demo
-%%nanikashira	{[scat n:deic:indef]} =something= "nanikashira"
-
-%%nandemo	{[scat n:deic:indef]} =everything=
-%%itsudemo	{[scat adv:deic:indef]} =always=
+%%%%%%%%%%%%%%% (分ける)   ptl:indef  kashira/demo
+%%nandemo	{[scat n:deic:indef]} =everything=  >  nan demo ptl:indef|de_mo=every
+%%itsudemo	{[scat adv:deic:indef]} =always=    
 %%daredemo	{[scat n:deic:indef]} =everyone=
 %%dochirademo	{[scat n:deic:indef]} =whichever=
 %%dotchidemo	{[scat n:deic:indef]} =whichever=
@@ -204,5 +217,6 @@ nazeka	{[scat adv:deic:indef]} =for_some_reason=
 %%doodemo	{[scat adv:deic:indef]} =however=
 %%dokodemo	{[scat n:deic:indef]} =whereever=
 %%ikurademo	{[scat n:deic:indef]} =ever_so_much=
+%%nanikashira	{[scat n:deic:indef]} =something=    >  ptl:indef|kashira=some
 
 

@@ -51,7 +51,8 @@ tsumamigui	{[scat n:vn]} =snitching_food= "tsumam_kuw-GER"
 deokure		{[scat n][comp v:v+v:v]} =get_out_too_late= "de+okure&GER"	
 hanashiai	{[scat n][comp v:c+v:c]} =discussion= "hanas+aw-GER"	
 kashikiri	{[scat n][comp v:c+v:c]} =reservation= "kas+kir-GER"	
-kashikiribasu	{[scat n][comp v:c+v:c+n]} =reserved_bus= "kas+kir&GER+basu"	
+ kashikiribasu	{[scat n][comp v:c+v:c+n]} =reserved_bus= "kas+kir&GER+basu"	
+tsuribori	{[scat n][comp v:c+v:c]} =fishing_pond= "tsur+hor-GER"
 
 
 %lex.compounds
@@ -70,6 +71,7 @@ kakikomi	{[scat n]} =writing_down= "kak_kom-GER"
 kigae		{[scat n]} =spare_clothes= "ki_kae&GER"	
 kikiwake	{[scat n]} =docile= "kik_wake&GER"	
 kirikae		{[scat n]} =switchover= "kir_kae&GER"	
+kiritooshi	{[scat n]} =railway_cutting= "kir_toos-GER"
 kisekaeningyoo	{[scat n][comp v:v+n]} =dress_up_doll= "kise_kae+ningyoo"	
 kisekaeshiiru	{[scat n][comp v:v+n]} =dress_up_doll_seal= "kise_kae+seal"	
 mooshikomi	{[scat n]} =application= "moos_kom-GER"	

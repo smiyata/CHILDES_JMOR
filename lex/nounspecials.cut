@@ -198,6 +198,7 @@ ammari_isoide	{[scat n]} =hurrying_too_much_songsong=
 bara_ga_saita	{[scat n]} =roses_blossoming_song=
 bokura_o_nosete	{[scat n]} =take_us_on_board_song=
 bokura_no_rokomooshon	{[scat n]} =our_locomotive_song=
+chinchimpompon	{[scat n]} =chinchimpompon_song=
 choocho_choocho	{[scat n]} =butterfly_song=
 dendemmushi_mushi	{[scat n]} =snail_song=
 donguri_korokoro	{[scat n]} =acorn_rolling_around_song=
@@ -376,17 +377,18 @@ suupaahowaitoaroo	{[scat n][comp n+n*n]} "suupaa+howaito+aroo" =super_white_arro
 suupaatokachi	{[scat n][comp n+n]} "suupaa+tokachi" =super_tokachi_train=
 tangoekisupurooraa	{[scat n][comp n+n]} "tango+ekusupurooraa" =tango_explorer_train=
 towairaitoekusupuresu	{[scat n][comp n+n]} "towairaito+ekusupuresu" =twilight_express_train=
+towairaitogoo	{[scat n][comp n+n]} "towairaito_goo" =twilight_train=
 uesutohikari	{[scat n][comp n+n]} "uesuto+hikari" =west_hikari_train=
 yamanotesenhikarian	{[scat n][comp n+n]} "yamanote&sen+hikarian" =yamanote_hikarian_train=
 yamanotedensha	{[scat n][comp n+n]} "yamanote+densha" =yamanote_train=
 erutokkyuu	{[scat n][comp n:let+n]} "eru+tokkyuu" =l_express_train=
 esueru	{[scat n][comp n:let+n:let]} "esu+eru" =sl_train=
-gohyakkee	{[scat n][comp num+num]} "go+hyaku-kee" =fivehundred_type_train=
-gohyakukee	{[scat n][comp num+num]} "go+hyaku-kee" =fivehundred_type_train=
-hassenkee	{[scat n][comp num+num]} "hachi+sen-kee" =eighthundred_type_train=
-nanahyakkee	{[scat n][comp num+num]} "nana+hyaku-kee" =sevenhundred_type_train_train=
-sambyakkee	{[scat n][comp num+num]} "san+hyaku-kee" =threehundred_type_train=
-sambyakuekkusu	{[scat n][comp num+num*n:let]} "san+hyaku+ekkusu" =threehundred_x_train=
+gohyakkee	{[scat n:num][comp num+num]} "go+hyaku-kee_TYPE" =fivehundred_type_train=
+gohyakukee	{[scat n:num][comp num+num]} "go+hyaku-kee_TYPE" =fivehundred_type_train=
+hassenkee	{[scat n:num][comp num+num]} "hachi+sen-kee_TYPE" =eighthundred_type_train=
+nanahyakkee	{[scat n:num][comp num+num]} "nana+hyaku-kee_TYPE" =sevenhundred_type_train_train=
+sambyakkee	{[scat n:num][comp num+num]} "san+hyaku-kee_TYPE" =threehundred_type_train=
+sambyakuekkusu	{[scat n:num][comp num+num+n:let]} "san+hyaku+ekkusu" =threehundred_x_train=
 tiihyaku	{[scat n][comp n:let+num]} "tii+hyaku"  =t_hundred_train=
 
 sebuntsuusebun	{[scat n][comp num+num+num]} "sebun+tsuu+sebun"  =Boeing_727_airplane=
@@ -432,6 +434,7 @@ aporo	{[scat n]} =apollo_rocket=
 	aishisu	{[scat n]} =isis_car=
 	akoodo	{[scat n]} =accord_car=
 	akua	{[scat n]} =aqua_car=
+	aruto	{[scat n]} =alto_car=
 	banetto	{[scat n]} =vanetto_car=
 	bentsu	{[scat n]} =benz_car=
 	beretto	{[scat n]} =bellett_car=

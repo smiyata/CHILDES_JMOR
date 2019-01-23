@@ -64,6 +64,7 @@ assooka	{[scat co:i]} =is_that_so= "a_soo_ka"
 atode	{[scat co:g]} =see_you_later= "ato_de"
 atodene	{[scat co:g]} =see_you_later= "ato_de_ne"
 baa	{[scat co:g]} =boo=
+baaq	{[scat co:g]} =boo=
 baq	{[scat co:g]} =boo=
 baai	{[scat co:g]} =byebye= "baibai"
 baibai	{[scat co:g]} =byebye=
@@ -84,6 +85,7 @@ chichimpui	{[scat co:g]} =poof=
 chichimpuipui	{[scat co:g]} =poof=
 choki	{[scat co:g]} =scissors_of_paper_stone_scissors=
 dokkoisho	{[scat co:i]} =yo_heave_ho=
+dommai	{[scat co:g]} =i_dont_mind=
 dooitashimashite	{[scat co:g]} =dont_mention= "doo_itashimashite"
 doo_itashimashite	{[scat co:g]} =dont_mention= "doo_itashimashite"
 doomo	{[scat co:g]} =thanks=
@@ -113,6 +115,7 @@ eetosa	{[scat co:i]} =errr= "eeto_sa"
 ntosa	{[scat co:i]} =errr= "eeto_sa" 
 eetosaa	{[scat co:i]} =errr= "eeto_sa"
 ntosaa	{[scat co:i]} =errr= "eeto_sa" 
+eeyaq	{[scat co:i]} =yo_heave_ho= 
 fuku_wa_uchi	{[scat co:g]} =in_with_fortune=
 fuun_da	{[scat co:g]} =SNIPPY=
 gattenda	{[scat co:g]} =alright= "gatten_da"
@@ -146,6 +149,7 @@ guuchiipaa	{[scat co:g]} =stone_scissors_paper=
 guwee	{[scat co:i]} =yipe=
 guwii	{[scat co:i]} =yipe=
 gyaa	{[scat co:i]} =yipe=
+hakkeyoi	{[scat co:g]} =good_spirits=
 haq	{[scat co:i]} =yes=
 haaq	{[scat co:i]} =yes= "haq"
 haa	{[scat co:i]} =yes=
@@ -285,6 +289,7 @@ naisu_gooru	{[scat co:g]} =nice_goal=
 naisu_tuu_miichuu	{[scat co:g]} =nice_to_meet_you=
 ne	{[scat co:i]} =APPEAL=
 naa	{[scat co:i]} =APPEAL=
+nabappunapapa	{[scat co:g]} =poof=
 nn	{[scat co:i]} =HESIT=
 nennenkorori	{[scat co:g]} =LULL_TO_SLEEP=
 korori	{[scat co:g]} =LULL_TO_SLEEP= "nennenkorori"
@@ -311,6 +316,7 @@ okaennasai	{[scat co:g]} =welcome_home= "okaerinasai"
 okaeri	{[scat co:g]} =welcome_home=
 okairi	{[scat co:g]} =welcome_home= "okaeri"
 okaerinasai	{[scat co:g]} =welcome_home=
+okaerinasaimase	{[scat co:g]} =welcome_home=
 okkoisho	{[scat co:i]} =heave_ho= "yokkoisho"
 dondokosho	{[scat co:i]} =heave_ho= 
 okkei	{[scat co:g]} =ok= "okkee"
@@ -337,13 +343,14 @@ omedetoogozaimasu	{[scat co:g]} =congratulations= "omedetoo_gozaimasu"
 omedetoo_gozaimasu	{[scat co:g]} =congratulations= "omedetoo_gozaimasu"
 onegaishimasu	{[scat co:g]} =please= "onegai_shimasu"
 oni_wa_soto	{[scat co:g]} =demons_out=
+ooesu	{[scat co:i]} =heave=
 oorai	{[scat co:g]} =alright=
 bakkuoorai	{[scat co:g]} =back_alright= "bakku_oorai"
 bakku_oorai	{[scat co:g]} =back_alright=
-otsukaresama	{[scat co:g]} =much_appreciated= 
-otsukaresan	{[scat co:g]} =much_appreciated= "otsukaresama"
-otsukaresamadeshita	{[scat co:g]} =much_appreciated= "otsukaresama_deshita"
-otsukaresama_deshita	{[scat co:g]} =much_appreciated= "otsukaresama_deshita"
+otsukaresama	{[scat co:g]} =thank_you_for_your_hard_work= 
+otsukaresan	{[scat co:g]} =thank_you_for_your_hard_work= "otsukaresama"
+otsukaresamadeshita	{[scat co:g]} =thank_you_for_your_hard_work= "otsukaresama_deshita"
+otsukaresama_deshita	{[scat co:g]} =thank_you_for_your_hard_work= "otsukaresama_deshita"
 ooi	{[scat co:i]} =hey=
 osakini	{[scat co:g]} =pardon_me_for_going_first= "osaki_ni"
 ossu	{[scat co:g]} =hi=
@@ -415,11 +422,10 @@ uan	{[scat co:i]} =wow= "uwaa"
 uee	{[scat co:i]} =boo_hoo= "ueen"
 uen	{[scat co:i]} =boo_hoo= "ueen"
 ueen	{[scat co:i]} =boo_hoo=
-uhaha	{[scat co:i]} =LAUGH= "hahaha"
 un	{[scat co:i]} =yes=
 n	{[scat co:i]} =yes=
 unto	{[scat co:i]} =errr= "eeto"
-uso	{[scat co:i]} =thats_not_true=
+uso	{[scat co:g]} =thats_not_true=
 usopyon	{[scat co:g]} =you_fell_for_it= "uso_pyon"
 usoq	{[scat co:i]} =thats_not_true= "uso"
 uu	{[scat co:i]} =errr= %FILLER

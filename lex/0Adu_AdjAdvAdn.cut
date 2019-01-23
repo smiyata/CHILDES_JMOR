@@ -35,6 +35,7 @@ mamonai	{[scat adn]} =instantaneous=
 
 %%%% Communicator
 iya	{[scat co:i]} "iyaa" =no=
+iyaq	{[scat co:i]} "iyaa" =no=
 
 %%%% Deixis
 mizukara	{[scat n:deic:prs]} =self=

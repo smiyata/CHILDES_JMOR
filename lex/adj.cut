@@ -84,6 +84,7 @@
 	ikujina	{[scat adj]} =cowardly=	% いくじない/意気地ない 
 	isamashi	{[scat adj]} =courageous=	% 勇ましい 
 	isogashi	{[scat adj]} =busy=	% 忙しい 
+	 ooisogashi	{[scat n]} =very_busy= "oo_BIG_isogashi"	% 大忙し 
 	ita	{[scat adj]} =aching=	% 痛い 
 	itoshi	{[scat adj]} =lovely=	% 愛しい 
 	iyarashi	{[scat adj]} =disgusting=	%

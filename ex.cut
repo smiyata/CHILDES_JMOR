@@ -1,5 +1,18 @@
 @UTF8
-@Color words:	SUS 1 61423 7967 7453 
+n|he-ya_SHOP=fart "heya"
+n|shoogaku-see_MADEOF=elementary_school "shoogakusee"
+n|sai-go_AFTER=rhino "saigo"
+o_HON#v:c|ki_ni_ir-GER=please "okiniiri"
+n|tanoshi-mi_TASTE=delightful "tanoshimi"
+num:cl|hito-i_RANK-ki_MACHINE=one "hitoiki"
+v:v|kae-IMP:ri=change "kaeri"
+v:c|kaw-POT-IMP:ri=keep_animal "kaeri"
+v:c|kaw-POT-IMP:ri=buy "kaeri"
+num:cl|nani-ka_DAY-i_RANK=how_many "nankai"
+o_HON#num|ni-kai_FLOOR=two  "onikai"
+o#num:cl|ni-kai_FLOOR=two  "onikai"
+o#num|ni-kai_FLOOR=two  "onikai"
+o_HON#v:v|susume&GER=advance "osusume"
 oo_BIG#n|otoko=man "oootoko"
 go_HON#n|fun-goto_EACH=excrement "gofungoto"
 go_HON#n|fun-goto_EACH=minute "gofungoto"
@@ -8,7 +21,7 @@ n|yasu-mi_TASTE=cheap "yasumi"
 v:c|kata_tsuk-IMP=tidy "katazuke"
 num:cl|shi-en_YEN=four ""shien"
 num:cl|go-byoo_SEC-ki_MACHINE=five "gobyooki"
-num:cl|dare-ka_DAY=who "darekaz"
+num:cl|dare-ka_DAY=who "dareka"
 n|ki-yoo_FOR=tree "kiyoo"
 n|ki-yoo_FOR=spirit "kiyoo"
 n|ichi-go_AFTER=place "ichigo" n|ichi-go_AFTER=market "ichigo"
