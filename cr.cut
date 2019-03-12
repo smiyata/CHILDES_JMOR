@@ -108,14 +108,14 @@ RULEPACKAGE = {a-tense}
 
 %%% 							 for copula   
 if
-NEXTCAT = [scat v:cop], ![tense OR pres past inf imp], ![adj +]
+NEXTCAT = [scat OR v:cop v:cop:sub], ![tense OR pres past inf imp], ![adj +]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-tense, v-caus, v-pot-cv, v-tense, v-adj, v-comp, v-anoun}
 
 %%% 
 if
-NEXTCAT = [scat OR v:cop v:v v:c v:v:sub v:c:sub], [tense OR pres past inf imp]
+NEXTCAT = [scat OR v:cop v:v v:c v:v:sub v:c:sub v:cop:sub], [tense OR pres past inf imp]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {}
@@ -846,13 +846,13 @@ RULENAME: n-comp
 CTYPE: +
 X = .* %anything
 if
-STARTCAT = [scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh], [nc +]
+STARTCAT = [scat OR n n:an n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh n:an:deic:wh], [nc +]
 NEXTCAT = [scat OR n n:an n:vn n:prop]
 then
 RESULTCAT = NEXTCAT, ADD [ncomp 1]
 RULEPACKAGE = {sfx-noun, n-comp, n-bound}
 if
-STARTCAT = [scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh], [nc ++]
+STARTCAT = [scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:wh n:an:deic:wh], [nc ++]
 NEXTCAT = [scat OR n n:an n:an:mot n:vn n:vn:onoma n:vn:mot n:prop], [nc ++]
 then
 RESULTCAT = NEXTCAT, ADD [ncomp 1]
@@ -862,7 +862,7 @@ RULEPACKAGE = {sfx-noun, n-comp, n-bound}
 RULENAME: n-rendaku
 CTYPE: +
 if
-STARTCAT = [scat OR n n:an n:prop n:deic:wh n:vn]
+STARTCAT = [scat OR n n:an n:prop n:deic:wh n:an:deic:wh n:vn]
 NEXTCAT = [scat OR n n:an n:vn n:prop], [rendaku +]
 MATCHCAT [ndf]
 then
@@ -873,7 +873,7 @@ RULEPACKAGE = {sfx-noun, n-comp, n-bound}
 RULENAME: n-bound
 CTYPE: -
 if
-STARTCAT = [scat OR n n:an n:vn n:deic:dem n:deic:wh], [nb +]
+STARTCAT = [scat OR n n:an n:vn n:deic:dem n:an:deic:wh], [nb +]
 NEXTCAT = [scat n], [bound +]
 MATCHCAT [nbf]
 then
@@ -1107,7 +1107,7 @@ RULEPACKAGE = {co-compound}
 RULENAME: dem-start
 CTYPE: START
 if
-NEXTCAT = [scat OR n:deic:dem n:deic:wh]
+NEXTCAT = [scat OR n:deic:dem n:deic:wh n:an:deic:dem n:an:deic:wh]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {sfx-noun, n-bound}
@@ -1153,7 +1153,7 @@ RULEPACKAGE = {}
 RULENAME: v-endrule
 CTYPE: END
 if
-STARTCAT = [scat OR v v:v v:c v:cop v:ir v:v:sub v:c:sub v:ir:sub], [tense OR pres past inf imp]
+STARTCAT = [scat OR v v:v v:c v:cop v:cop:sub v:ir v:v:sub v:c:sub v:ir:sub], [tense OR pres past inf imp]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
@@ -1218,7 +1218,7 @@ RULEPACKAGE = {}
 RULENAME: dem-endrule
 CTYPE: END
 if
-STARTCAT = [scat OR n:deic:dem n:deic:wh n:deic:prs\
+STARTCAT = [scat OR n:deic:dem n:deic:wh n:an:deic:dem n:an:deic:wh n:deic:prs\
 	adn:deic:dem adn:deic:wh adv:deic:dem adv:deic:wh]
 then
 RESULTCAT = STARTCAT

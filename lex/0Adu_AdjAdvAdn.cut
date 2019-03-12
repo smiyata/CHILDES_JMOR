@@ -4,6 +4,8 @@
 %%%% Adnominal
 %%%% Communicator
 %%%% Deixis
+%%%% Quantifier
+%%%% Sentence Modalizer
 
 
 %%%%  Adjective
@@ -15,32 +17,195 @@ kakkooyo	{[scat adj]} =attractive=
 mendookusa	{[scat adj]} =bothersome= "mendoo-kusa"
 susamaji	{[scat adj]} =horrible=
 urasabishi	{[scat adj]} =deserted=
+yo	{[scat adj]} =good= 
 
+aojiro	{[scat adj]} =pale= % 青白い
+aojiroki	{[scat adj][tense inf]} =pale= "aojiro-ki_ADN"
+arigata	{[scat adj]} =be_appreciated=
+arigatoo	{[scat adj][tense inf]} =be_appreciated= "arigata&ADV"
+asekusa	{[scat adj]} =smelling_of_sweat= "ase_kusa_SMELLING" % 汗くさい
+ashiki	{[scat adj][tense inf]} =bad= "a-shiki_ADN"
+bimbooninkusa	{[scat adj]} =like_the_poor= "bimboonin_kusa_SMELLING" % 貧乏人くさい
+dorokusa	{[scat adj]} =unrefined= "doro_kusa_SMELLING" % 泥くさい
+dosuguro	{[scat adj]} =darkish= % どす黒い
+furukusa	{[scat adj]} =oldfashioned= "furu_kusa_SMELLING" % 古くさい
+fusawashi	{[scat adj]} =suitable=
+hazukashi	{[scat adj][tense pres]} =ashamed= "hazuka-shi_PRES"
+hoshi	{[scat adj]} =desire=
+ichijirushi	{[scat adj]} =remarkable=
+inakakusa	{[scat adj]} =rustic= "inaka_kusa_SMELLING" % 田舎くさい
+kechikusa	{[scat adj]} =stingy= "kechi_kusa_SMELLING" % けちくさい
+kizewashi	{[scat adj]} =restless=
+kusurikusa	{[scat adj]} =smelling_of_medicine= "kusuri_kusa_SMELLING" % 魚くさい
+mattaki	{[scat adj][tense inf]} =complete= "matta-ki_ADN"
+mendokusa	{[scat adj]} =bothersome= "mendo_kusa_SMELLING"
+ningenkusa	{[scat adj]} =quite_human= "ningen_kusa_SMELLING" % 人間くさい
+ooki	{[scat adj][tense inf]} =many= "oo-ki_ADN"
+sakanakusa	{[scat adj]} =smelling_of_fish= "sakana_kusa_SMELLING" % 魚くさい
+sakekusa	{[scat adj]} =smelling_of_alcohol= "sake_kusa_SMELLING" % 酒くさい
+seeyookusa	{[scat adj]} =quite_European= "seeyoo_kusa_SMELLING" % 西洋くさい
+semashi	{[scat adj][tense pres]} =narrow= "sema-shi_PRES" % シク活用“狭し”
+sokkena	{[scat adj]} =standoffish=
+sukusa	{[scat adj]} =smelling_of_vinegar= "su_kusa_SMELLING" % 酢くさい
+utsukushiki	{[scat adj][tense inf]} =beautiful= "utsukushi-ki_ADN"
+yamunashi	{[scat adj][tense pres]} =no_choice_but_to= "yamuna-shi_PRES"
+yoki	{[scat adj][tense inf]} =good= "yo-ki_ADN"
+yasashi	{[scat adj]} =gentle= % 優しい
+uruwashi	{[scat adj]} =elegant= % 麗しい
+yoshi	{[scat adj][tense pres]} =good= "yo-shi_PRES" % シク活用“よし”
+obotsukana	{[scat adj]} =uncertain= % おぼつかない
+nikunikushi	{[scat adj]} =hateful= % 憎々しい
+niganigashi	{[scat adj]} =painful= % 苦々しい
+monou	{[scat adj]} =listless= % 物憂い
+modokashi	{[scat adj]} =impatient= % もどかしい
+kotomona	{[scat adj]} =easy= % こともない
 
 
 %%%% Adverb
 kankan	{[scat adv:onoma]} =furious=	%怒る
+chiratto	{[scat adv:onoma]} =at_a_glance=
+fuwatto	{[scat adv:onoma]} =softly=
+gusarito	{[scat adv:onoma]} =deeply=
+hirarito	{[scat adv:onoma]} =hirarito=
+kachitto	{[scat adv:onoma]} =firmly=
+kakushakuto	{[scat adv:onoma]} =vigorously=
+potsunto	{[scat adv:onoma]} =solitarily=
+sansanto	{[scat adv:onoma]} =brightly=
+sappari	{[scat onoma]} =at_all=
 
-gokugoku	{[scat adv]} =quite=
-jitsuni	{[scat adv]} "jitsu_ni" =truly=
+donoyooni	{[scat adv:deic:wh]} =how= "dono_yoo_ni"
+
 mommon	{[scat adv]} =with_anguish= %%悶々
 tabun	{[scat adv]} =diversely=
 taigai	{[scat adv]} =generally=
 tootee	{[scat adv]} =ultimately=
 
+aete	{[scat adv]} =daringly=
+amari	{[scat adv]} =very_much=
+anagachi	{[scat adv]} =not_necessarily=
+arakajime	{[scat adv]} =in_advance=
+aratamete	{[scat adv]} =again=
+atakamo	{[scat adv]} =as_if=
+atarikamawazu	{[scat adv]} =regardless_of_the_effect_on_others=
+ato	{[scat adv]} =another=
+betsuni	{[scat adv]} =particularly=
+chikaraippai	{[scat adv]} =with_all_one's_strength=
+danjite	{[scat adv]} =at_all=
+dekirudake	{[scat adv]} =all_possible_efforts=
+dooyoo	{[scat adv]} =same=
+en'en	{[scat adv]} =endlessly=
+fukabuka	{[scat adv]} =deeply=
+futo	{[scat adv]} =unintentionally=
+gaishite	{[scat adv]} =mostly=
+goku	{[scat adv]} =very=
+gokugoku	{[scat adv]} =quite=
+hatasshite	{[scat adv]} =sure_enough=
+hitoaji	{[scat adv]} =one_shade=
+hitorideni	{[scat adv]} =spontaneously=
+hitotsu	{[scat adv]} =just=
+hotondo	{[scat adv]} =mostly=
+hyottoshitara	{[scat adv]} =perhaps=
+hyottosuruto	{[scat adv]} =perhaps=
+ichiban	{[scat adv]} =most=
+imahitotsu	{[scat adv]} =not_quite=
+inochikaragara	{[scat adv]} =with_bare_life=
+irekawaritachikawari	{[scat adv]} =one_after_another=
+issoo	{[scat adv]} =more=
+iwaba	{[scat adv]} =so_to_speak=
+iza	{[scat adv]} =well_then=
+izen	{[scat adv]} =still=
+jitsuni	{[scat adv]} "jitsu_ni" =truly=
+jitsuwa	{[scat adv]} =in_fact= "jitsu_wa" 
+katsute	{[scat adv]} =once=
+kesshite	{[scat adv]} =at_all=	
+kiwamete	{[scat adv]} =extremely=
+kotoni	{[scat adv]} =especially=
+kuchiguchini   {[scat adv]} =severally=
+kyuukyo	{[scat adv]} =in_haste=
+machigainaku   {[scat adv]} =definitely=
+marude	{[scat adv]} =just=
+masaka	{[scat adv]} =unlikely=
+mashite	{[scat adv]} =not_to_speak_of=
+mashiteya	{[scat adv]} =not_to_speak_of=
+mirukarani	{[scat adv]} =so_as_to_be_visible=
+mohaya	{[scat adv]} =by_now=
+mojidoori	{[scat adv]} =literally=
+moshiya	{[scat adv]} =maybe=
+muron	{[scat adv]} =of_course=
+nakanaka       {[scat adv]} =not_nearly= %なかなか〜ない
+namajikka	{[scat adv]} =by_halves=
+nanishiro	{[scat adv]} =at_any_rate=
+naniyori	{[scat adv]} =more_than_anything_else=
+nanra	{[scat adv]} =any_kind_of=
+nanto	{[scat adv]}    =very=  % eg: なんと大きな桃じゃ!; cf.: なんて
+nao	{[scat adv]} =still=
+nombiri	{[scat adv]} =leisurely=
+ooini	{[scat adv]} =exceedingly=
+oriitte	{[scat adv]} =in_a_beseeching_manner=
+osokarehayakare	{[scat adv]} =sooner_or_later=
+rakuraku	{[scat adv]} =easily=
+reenogotoku	{[scat adv]} =as_usual=
+samo	{[scat adv]} =just=
+sanzan	{[scat adv]} =severely=
+sashiatari	{[scat adv]} =for_the_time_being=
+sazo	{[scat adv]} =indeed=
+seezee	{[scat adv]} =to_the_utmost=
+shibashiba	{[scat adv]} =frequently=
+soratakaku	{[scat adv]} =high_in_the_sky= "sora_takaku"
+soredemo	{[scat adv]} =nevertheless=
+sugusama	{[scat adv]} =immediately=
+sukunakutomo	{[scat adv]} =at_least=
+tabitabi	{[scat adv]} =often=
+tadachini	{[scat adv]} =immediately=
+tadatada	{[scat adv]} =quite=
+taitee	{[scat adv]} =generally=
+takadaka	{[scat adv]} =at_most=
+takaga	{[scat adv]} =at_most=
+tatoe	{[scat adv]} =even_if=
+tatta	{[scat adv]} =just=
+tattaima	{[scat adv]} =just_now=
+tenjite	{[scat adv]} =conversely=
+tobikiri	{[scat adv]} =exceptional=
+todonotsumari	{[scat adv]} =in_the_end=
+tokaku	{[scat adv]} =anyhow=
+tokini	{[scat adv]} =from_time_to_time=
+tokiori	{[scat adv]} =sometimes=
+tokitama	{[scat adv]} =sometimes=
+tomokaku       {[scat adv]} =setting aside=
+tomosuruto	{[scat adv]} =sometimes=
+tootee	{[scat adv]} =absolutely=
+toozen	{[scat adv]} =of_course=
+tsuujoo	{[scat adv]} =usually=
+zokuzoku	{[scat adv]} =successively=
 
 %%%% Adnominal
-kooshita	{[scat adn]} "koo_shita" =such=
-mamonai	{[scat adn]} =instantaneous=
+kooshita	{[scat adn]} "koo_shita" =like_this=
+aashita	{[scat adn:deic:dem]} "aa_shita" =like_that=
 
 %%%% Communicator
 iya	{[scat co:i]} "iyaa" =no=
 iyaq	{[scat co:i]} "iyaa" =no=
 
 %%%% Deixis
+donoyooni	{[scat adv:deic:wh]} =how= "dono_yoo_ni"
+jishin	{[scat n:deic:prs]} =self=
+gojishin	{[scat n:deic:prs]} "go_HON#jishin" =self=
+korera	{[scat n:deic:dem]} =this= "kore-ra_PL"
 mizukara	{[scat n:deic:prs]} =self=
+reeno	{[scat n:deic:dem]} =in_question=
+washi	{[scat n:deic:prs]} =i_MASC=
+waga	{[scat n:deic:prs]} =our=
 
-%%%% Conjunction
-ato	{[scat conj]} =another=
+%%%% Quantifier
+	zen'in	{[scat quant]} =all_members= 	% 全員 
 
 
+%%%% Sentence Modalizer
+dearoo	{[scat smod]} =INFR=
+rashi	{[scat smod]} =SENS= "rashi&PRES"
+midai	{[scat smod]} =INFR= "mitai"
+bekarazu	{[scat smod]} =ought_to= "bekara-NEG"
+beku	{[scat smod]} =ought_to= "beki&ADV"
+
+yoo	{[scat smod]} =SENS=
+tsumori	{[scat smod]} =INTEN= % intentional

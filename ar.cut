@@ -91,7 +91,7 @@ ALLOCAT = DEL [scat n:an], ADD [scat n]
 
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR n:an n:an:mot]
+LEXCAT = [scat OR n:an n:an:mot n:an:onoma]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
@@ -129,11 +129,19 @@ ALLOSTEM = o_HON#$Xe&GER
 ALLO:
 ALLOSURF = oo$Xe
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xe&GER
+ALLOSTEM = oo_BIG_$Xe&GER
 ALLO:
 ALLOSURF = do$Xe
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do_EXTREMELY#$Xe&GER
+ALLOSTEM = do_EXTREMELY_$Xe&GER
+ALLO:
+ALLOSURF: = $Xe
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xe&CONN:i
+ALLO:
+ALLOSURF = $Xerare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-CONN:i]
+ALLOSTEM = $Xe-PASS&CONN:i
 
 
 %%% 				vowel verbs "i" 
@@ -158,12 +166,20 @@ ALLOSTEM = o_HON#$Xi&GER
 ALLO:
 ALLOSURF = oo$Xi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xi&GER
+ALLOSTEM = oo_BIG_$Xi&GER
 ALLO:
 ALLOSURF = do$Xi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = do_EXTREMELY#$Xi&GER
- 
+ALLOSTEM = do_EXTREMELY_$Xi&GER
+ALLO:
+ALLOSURF: = $Xi
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xi&CONN:i
+ALLO:
+ALLOSURF = $Xirare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-CONN:i]
+ALLOSTEM = $Xi-PASS&CONN:i
+
 
 
 %%%				  existence verb aru
@@ -246,6 +262,14 @@ ALLO:
 ALLOSURF = sase
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
 ALLOSTEM = su-CAUS&GER
+ALLO:
+ALLOSURF = sare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
+ALLOSTEM = su-PASS&CONN:i
+ALLO:
+ALLOSURF = sase
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
+ALLOSTEM = su-CAUS&CONN:i
 
 %%%				  sahen for Short Kanji Compound "ai-suru"
 LEX-ENTRY:
@@ -258,6 +282,10 @@ ALLO:
 ALLOSURF: = $Xshi
 ALLOCAT = LEXCAT, ADD [tense inf]
 ALLOSTEM = $Xshi&GER
+ALLO:
+ALLOSURF: = $Xshi
+ALLOCAT = LEXCAT, ADD [tense inf]
+ALLOSTEM = $Xshi&CONN:i
 ALLO:
 ALLOSURF = $Xsh
 ALLOCAT = LEXCAT, ADD [allo vBSu]
@@ -273,9 +301,17 @@ ALLOSURF = $Xsare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
 ALLOSTEM = $Xsu-PASS&GER
 ALLO:
+ALLOSURF = $Xsare
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-CONN:i]
+ALLOSTEM = $Xsu-PASS&CONN:i
+ALLO:
 ALLOSURF = $Xsase
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
 ALLOSTEM = $Xsu-CAUS&GER
+ALLO:
+ALLOSURF = $Xsase
+ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-CONN:i]
+ALLOSTEM = $Xsu-CAUS&CONN:i
 
 %%%				  kahen 
 LEX-ENTRY:
@@ -322,17 +358,13 @@ ALLO:
 ALLOSURF = $Xri
 ALLOCAT = LEXCAT, ADD [allo vCi]
 ALLO:
-ALLOSURF = $Xrare
-ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
-ALLOSTEM = $Xr-PASS&GER
-ALLO:
 ALLOSURF = o$Xri
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = o_HON#$Xr-GER
 ALLO:
 ALLOSURF = oo$Xri
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xr-GER
+ALLOSTEM = oo_BIG_$Xr-GER
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -362,7 +394,7 @@ ALLOSTEM = o_HON#$Xw-GER
 ALLO:
 ALLOSURF = oo$Xi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xw-GER
+ALLOSTEM = oo_BIG_$Xw-GER
 ALLO:
 ALLOSURF = $Xwa
 ALLOCAT = LEXCAT, ADD [allo vCa]  
@@ -404,7 +436,7 @@ ALLOSTEM = o_HON#$Xt-GER
 ALLO:
 ALLOSURF = oo$Xchi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xt-GER
+ALLOSTEM = oo_BIG_$Xt-GER
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -434,7 +466,7 @@ ALLOSTEM = o_HON#$X$N-GER
 ALLO:
 ALLOSURF = oo$X$Ni
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$X$N-GER
+ALLOSTEM = oo_BIG_$X$N-GER
 ALLO:
 ALLOSURF = $X$Na
 ALLOCAT = LEXCAT, ADD [allo vCa]  
@@ -468,7 +500,7 @@ ALLOSTEM = o_HON#$Xk-GER
 ALLO:
 ALLOSURF = oo$Xki
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xk-GER
+ALLOSTEM = oo_BIG_$Xk-GER
 ALLO:
 ALLOSURF = $Xka
 ALLOCAT = LEXCAT, ADD [allo vCa]  
@@ -504,7 +536,7 @@ ALLOSTEM = o_HON#$Xg-GER
 ALLO:
 ALLOSURF = oo$Xgi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xg-GER
+ALLOSTEM = oo_BIG_$Xg-GER
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -534,7 +566,7 @@ ALLOSTEM = o_HON#$Xs-GER
 ALLO:
 ALLOSURF = oo$Xshi
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
-ALLOSTEM = oo_BIG#$Xs-GER
+ALLOSTEM = oo_BIG_$Xs-GER
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]  
@@ -791,7 +823,7 @@ LEX-ENTRY:
 LEXCAT = [scat OR adv adv:onoma conj num adn pfx \  
         numsfx numclsfx vnsfx nansfx ansfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
         ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
-	n n:fml n:let n:prop n:an n:an:mot n:num v:mot neg \
+	n n:fml n:let n:prop n:an n:an:mot n:an:onoma n:num v:mot neg \
 	n:deic:dem n:deic:wh \
 	adn:deic:dem adn:deic:wh \
 	adv:deic:dem adv:deic:wh \

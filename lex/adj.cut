@@ -76,7 +76,7 @@
 	hoshi	{[scat adj]} =desired=	% 欲しい [1]
 	hoso	{[scat adj]} =thin=	% 細い 
 	hyoronaga	{[scat adj]} =long_and_narrow=	% ひょろ長い 
-	i	{[scat adj] [ir +]} =good=	% いい  好い/ 善い/ 良い [1]
+	i	{[scat adj]} =good=	% いい  好い/ 善い/ 良い [1]
 	igarappo	{[scat adj]} =feeling_harsh=	%
 	ijikitana	{[scat adj]} =greedy=	% 意地汚い 
 	ijimoshi	{[scat adj]} =feeling_bad=	% 意地もしい 
@@ -121,7 +121,7 @@
 	kitsu	{[scat adj]} =tough=	%
 	ko	{[scat adj]} =dark=	% 濃い 
 	kogitana	{[scat adj]} =dirty=	% 小汚い 
-	koishi	{[scat adj]} =dearest=	% 恋しい 
+	koishi	{[scat adj]} =long_for=	% 恋しい 
 	kokochiyo	{[scat adj]} =comfortable=	% ここちよい/心地よい 
 	kokoroboso	{[scat adj]} =disheartening=	% 心細い 
 	kokoroyo	{[scat adj]} =agreeable=	% 快い 
@@ -148,6 +148,7 @@
 	magirawashi	{[scat adj]} =misleading=	% 紛らわしい 
 	makkuro	{[scat adj]} =pitchblack=	% 真っ黒い 
 	mammaru	{[scat adj]} =perfectly_round=	% まん丸い/真ん丸い 
+	mamona	{[scat adj]} =instantaneous= 
 	maru	{[scat adj]} =round=	% 丸い 
 	marukko	{[scat adj]} =round=	% 丸っこい 
 	masshiro	{[scat adj]} =pure_white=	% 真っ白い 
@@ -156,7 +157,7 @@
 	meboshi	{[scat adj]} =conspicuous=	%
 	medeta	{[scat adj]} =auspicious=	% めでたい  目出度い･:芽出度い 
 	membokuna	{[scat adj]} =shamefully=	% 面目ない 
-	mendokusa	{[scat adj]} =bothersome= "mendoo-kusa"	% めんどうくさい  面倒=臭い 
+	mendokusa	{[scat adj]} =bothersome= "mendoo_kusa_SMELLING"	% めんどうくさい  面倒=臭い 
 	mezurashi	{[scat adj]} =rare=	% 珍しい 
 	mijika	{[scat adj]} =short=	% 短い 
 	miniku	{[scat adj]} =ugly=	% 醜い 
@@ -175,6 +176,7 @@
 	mutsukashi	{[scat adj]} =difficult= "muzukashi"	% 難しい 
 	muzu	{[scat adj]} =difficult=	% 難しい 
 	muzukashi	{[scat adj]} =difficult=	% 難しい 
+	domuzukashi	{[scat adj]} =extremely_difficult= "do_EXTREMELY_muzukashi"	% 難しい 
 	naga	{[scat adj]} =long=	% 長い 
 	nagorioshi	{[scat adj]} =regretting=	% 名残惜しい
 	nagatarashi	{[scat adj]} =lengthy=	% 長たらしい 
@@ -205,6 +207,7 @@
 	nuku	{[scat adj]} =lukewarm=	% ぬくい  温い 
 	nuru	{[scat adj]} =lukewarm=	% ぬるい  温い 
 	oishi	{[scat adj]} =tasty=	% おいしい  美味しい 
+	choooishi	{[scat adj]} =extremely_tasty= "choo_EXTREMELY"	% おいしい  美味しい 
 	okashi	{[scat adj]} =strange=	% おかしい  奇怪しい 
 	okkana	{[scat adj]} =scary=	%
 	okki	{[scat adj:mot]} =big=	% 大きい 
@@ -237,7 +240,7 @@
 	shigana	{[scat adj]} =poor=	%
 	shikaku	{[scat adj]} =square=	% 四角い 
 	shikatana	{[scat adj]} =inevitable=	% しかたない  仕方無い 
-	shikatanasasoo	{[scat n:an]} =looks_inevitable= "shikatana-soo"
+	shikatanasasoo	{[scat n:an]} =inevitable= "shikatana-soo_SEEMING"
 	shimboozuyo	{[scat adj]} =patient=	% 辛抱強い 
 	shimeppo	{[scat adj]} =wet=	% 湿っぽい 
 	shindo	{[scat adj]} =exhausting=	%

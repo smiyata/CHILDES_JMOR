@@ -1,5 +1,6 @@
 @UTF8
 aru	{[scat adn]}  =a_certain=
+arayuru	{[scat adn]} =every=
 kansuru	{[scat adn]}  =concerning=
 taisuru	{[scat adn]}  =concerning=
 gaina	{[scat adn]} =enormous=	% 我意な
@@ -8,6 +9,7 @@ okkina	{[scat adn]} =big= "ookina" %おっきな
 chiisana	{[scat adn]} =small=
 chiichana	{[scat adn]} =small= "chitchana"
 chitchana	{[scat adn]} =small=
+hyottoshita	{[scat adn]} =accidental=
 okashina	{[scat adn]} =strange=
 komakana	{[scat adn]} =fine=
 komayakana	{[scat adn]} =fine=
@@ -15,11 +17,13 @@ yawarakana	{[scat adn]} =soft=
 ironna	{[scat adn]} =diverse=
 rokuna	{[scat adn]} =any_good=
 mettana	{[scat adn]} =rare=
+mishiranu	{[scat adn]} =unfamiliar=
 taishita	{[scat adn]} =great_deal=
 chantoshita	{[scat adn]} =proper=
 chottoshita	{[scat adn]} =little=
 sukashita	{[scat adn]} =nasty= %	スカした
 iwayuru	{[scat adn]} =so_called=
+omoikitta	{[scat adn]} =daring=
 onaji	{[scat adn]} =same=
 onnaji	{[scat adn]} =same= "onaji"
 %%%

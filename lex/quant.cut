@@ -11,6 +11,7 @@
 	ammari	{[scat quant]} =not_quite= "amari"	% あんまり
 aramashi	{[scat quant]} =almost= 	% あらまし
 daibu	{[scat quant]} =mostly=	% だいぶ/大分 
+daibun	{[scat quant]} =mostly= "daibu"	% だいぶ/大分 
 daitai	{[scat quant]} =generally=	% 大体 
 	fukusuu	{[scat quant]} =several=	%複数
 	hambun	{[scat quant]} =half= %半分
@@ -46,15 +47,16 @@ yooke	{[scat quant]} =much=	%ようけ
 	zentai	{[scat quant]} =whole= 	% 全体
 	zuibun	{[scat quant]} =a_great_deal=	% 随時 
 
-maitsuki	{[scat quant]} "mai_EVERY#tsuki" =month= 	% 毎月 
-maiasa	{[scat quant]} "mai_EVERY#asa" =morning= 	% 毎朝
-maiban	{[scat quant]} "mai_EVERY#ban" =evening= 	% 毎晩 
+maitsuki	{[scat quant]} "mai_EVERY_tsuki" =month= 	% 毎月 
+maiasa	{[scat quant]} "mai_EVERY_asa" =morning= 	% 毎朝
+maiban	{[scat quant]} "mai_EVERY_ban" =evening= 	% 毎晩 
 	mainichi	{[scat quant]} "mai_EVERY_nichi" =every_day= 	% 毎日  changed to quant
 	maikai	{[scat quant]} "mai_EVERY_kai" =every_time= 	% 毎回
 	maishuu	{[scat quant]} "mai_EVERY_shuu" =every_week= 	% 毎週
-ryoohoo	{[scat quant]} "ryoo_BOTH#hoo" =direction= 	% 両方  changed to quant
-ryoome	{[scat quant]} "ryoo_BOTH#me" =eye= 	% 両方  
-ryoote	{[scat quant]} "ryoo_BOTH#te" =hand= 	% 両手  
-ryooashi	{[scat quant]} "ryoo_BOTH#ashi" =foot= 	% 両足  
-ryookata	{[scat quant]} "ryoo_BOTH#kata" =shoulder= 	% 両肩
-ryoomen	{[scat quant]} "ryoo_BOTH#men" =side= 	% 両面
+	maitoshi	{[scat quant]} =every_year= "mai_EVERY_toshi"
+ryoohoo	{[scat quant]} "ryoo_BOTH_hoo" =direction= 	% 両方  changed to quant
+ryoome	{[scat quant]} "ryoo_BOTH_me" =eye= 	% 両方  
+ryoote	{[scat quant]} "ryoo_BOTH_te" =hand= 	% 両手  
+ryooashi	{[scat quant]} "ryoo_BOTH_ashi" =foot= 	% 両足  
+ryookata	{[scat quant]} "ryoo_BOTH_kata" =shoulder= 	% 両肩
+ryoomen	{[scat quant]} "ryoo_BOTH_men" =side= 	% 両面

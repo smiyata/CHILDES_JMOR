@@ -25,35 +25,36 @@
 	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku_teki_LIKE"	% 本格的 
 	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki_teki_LIKE"	% 画期的 
 	aware	{[scat n:an]} =miserable=	% 哀れ
-	ayafuya	{[scat n:an]} =vague=	%
+	ayafuya	{[scat n:an:onoma]} =vague=	%
 	azayaka	{[scat n:an]} =vivid=	% 鮮やか 
 	baka	{[scat n:an]} =stupid=	% ばか  馬鹿 
 	bakashoojiki	{[scat n:an]} =honest_to_a_fault=	% ばか正直  馬鹿=正直 
-	barabara	{[scat n:an]} =be_scattered=	%[1]
-	batchibatchi 	{[scat n:an]} =dirty=	
+	barabara	{[scat n:an:onoma]} =be_scattered=	%[1]
+	batchibatchi 	{[scat n:an:onoma]} =dirty=	
 	batsugun	{[scat n:an]} =outstanding=	% 抜群 
-	bechabecha 	{[scat n:an]} =soggy=	
+	bechabecha 	{[scat n:an:onoma]} =soggy=	
 	benri	{[scat n:an]} =practical=	% 便利 
-	berabera	{[scat n:an]} =chattering=	%
+	berabera	{[scat n:an:onoma]} =chattering=	%
 	beraboo	{[scat n:an]} =extremely=	% べらぼう  箆棒 
-	berobero	{[scat n:an]} =licking=	%
+	berobero	{[scat n:an:onoma]} =licking=	%
 	besuto	{[scat n:an]} =best=	
-	betabeta	{[scat n:an]} =sticky=	
+	betabeta	{[scat n:an:onoma]} =sticky=	
 	betsu	{[scat n:an]} =different=	%
 	betsubetsu	{[scat n:an]} =separately=	% 別別 
-	bettanko	{[scat n:an]} =flat=
-	bichobicho 	{[scat n:an]} =soak_wet=	
+	bettanko	{[scat n:an:onoma]} =flat=
+	bichobicho 	{[scat n:an:onoma]} =soak_wet=	
 	bimboo	{[scat n:an]} =poor=	% 貧乏 
 	bimyoo	{[scat n:an]} =subtle=	% 微妙 
 	binkan	{[scat n:an]} =sensitive=	% 敏感 
-	bishobisho	{[scat n:an]} =soak_wet=	%
-	bisshobisho	{[scat n:an]} == "bishobisho"	
+	bichobicho	{[scat n:an:onoma]} =soak_wet=	%
+	bishobisho	{[scat n:an:onoma]} =soak_wet=	%
+	bisshobisho	{[scat n:an:onoma]} =soak_wet= "bishobisho"	
 	boodai	{[scat n:an]} =colossal=	% 膨大  厖大 
-	boroboro	{[scat n:an]} =ragged=	%[1]
-	borokuso	{[scat n:an]} =ragged=	% ぼろくそ  ぼろ 糞 
+	boroboro	{[scat n:an:onoma]} =ragged=	%[1]
+	borokuso	{[scat n:an:onoma]} =ragged=	% ぼろくそ  ぼろ 糞 
 	buaisoo	{[scat n:an]} =unfriendly=	% 無愛想 
 	buji	{[scat n:an]} =uneventful=	% 無事 
-	bukabuka	{[scat n:an] } =baggy=	% 副[— と ]
+	bukabuka	{[scat n:an:onoma] } =baggy=	% 副[— と ]
 	bukakkoo	{[scat n:an]} =ill_fitting=	% 不格好  不 恰好 
 	bukimi	{[scat n:an]} =eerie=	% 不気味/無気味 
 	bukiryoo	{[scat n:an]} =plain=	% 不器量/無器量 
@@ -99,7 +100,8 @@
 	eeen	{[scat n:an]} =eternal=	% 永遠  
 	ekoji	{[scat n:an]} =obstinate=	% えこじ  依 怙地 
 	etchi	{[scat n:an]} =dirty_minded=	
-	fuantee	{[scat n:an]} =stable= "fu_NOT#antee"	% 不安定 
+	etchiman	{[scat n]} =dirty_minded_man= "etchi_man"	
+	fuantee	{[scat n:an]} =stable= "fu_NOT_antee"	% 不安定 
 	fuan	{[scat n:an]} =uneasy=	% 不安 
 	fuansoo	{[scat n:an]} "fuan-soo_SEEMING" =uneasy=	% 不安そう 
 	fuben	{[scat n:an]} =unpracticle=	% 不便 
@@ -107,11 +109,11 @@
 	fudoo	{[scat n:an]} =unmoving=	% 不動
 	fukigen	{[scat n:an]} =in_bad_mood=	% 不機嫌
 	fukigensoo	{[scat n:an]} "fukigen-soo_SEEMING" =bad_mood=	% 不機嫌そう 
-	fukoohee	{[scat n:an]} =fair= "fu_NOT#koohee"	% 不公平 
+	fukoohee	{[scat n:an]} =fair= "fu_NOT_koohee"	% 不公平 
 	fukuzatsu	{[scat n:an]} =complicated=	% 複雑 
 	furyoo	{[scat n:an]} =wicked=	% 不良 
-	furyoohin	{[scat n]} =inferior_goods= "furyoo-hin"	% 不良 
-	fushiawase	{[scat n:an]} =misfortune= "fu_NOT#shiawase"	% 不幸せ 
+	furyoohin	{[scat n]} =inferior_goods= "furyoohin"	% 不良 
+	fushiawase	{[scat n:an]} =misfortune= "fu_NOT_shiawase"	% 不幸せ 
 	fushigi	{[scat n:an]} =marvel=	% 不思議 
 	fushigisoo	{[scat n:an]} "fushigi-soo_SEEMING" =marvel=	% 不思議そう 
 	futotcho	{[scat n:an]} =fatty=
@@ -121,15 +123,15 @@
 	ganjoo	{[scat n:an]} =sturdy=	% 頑丈 
 	ganko	{[scat n:an]} =obstinate=	% 頑固 
 	garaaki	{[scat n:an]} =practically_empty=	% がら空き 
-	garagara	{[scat n:an]} =nearly_empty=	%[1]
+	garagara	{[scat n:an:onoma]} =nearly_empty=	%[1]
 	garandoo	{[scat n:an]} =empty=	%
 	gehin	{[scat n:an]} =vulgar=	% 下品 
 	genjuu	{[scat n:an]} =strict=	% 厳重 
 	genki	{[scat n:an]} =high_spirited=	% 元気 
 	genkin	{[scat n:an]} =strictly_forbidden=	% 現金 
-	girigiri	{[scat n:an]} =barely_in_time=	%
-	gizagiza	{[scat n:an]} =notched=	
-	gochagocha	{[scat n:an]} =jumbled_up=	
+	girigiri	{[scat n:an:onoma]} =barely_in_time=	%
+	gizagiza	{[scat n:an:onoma]} =notched=	
+	gochagocha	{[scat n:an:onoma]} =jumbled_up=	
 	gokaku	{[scat n:an]} =evenly_matched=	% 互角 
 	gokigen	{[scat n:an]} =in_good_mood=	% ご機嫌 
 	gooin	{[scat n:an]} =forcible=	% 強引 
@@ -138,18 +140,18 @@
 	gooka	{[scat n:an]} =splendid=	% 豪華 
 	goosee	{[scat n:an]} =luxurious=	% 豪勢 
 	gootsukubari	{[scat n:an]} =greedy=	% ごうつくばり  業突く張り 
-	gotcha	{[scat n:an]} =messy=	%
-	guchagucha	{[scat n:an]} =messy=	
-	gushagusha	{[scat n:an]} =messy=	
-	gutaiteki	{[scat n:an]} =concretely=	% 具体的 
-	guutara	{[scat n:an]} =idle=	%
+	gotcha	{[scat n:an:onoma]} =messy=	%
+	guchagucha	{[scat n:an:onoma]} =messy=	
+	gushagusha	{[scat n:an:onoma]} =messy=	
+	gutaiteki	{[scat n:an]} =concrete= "gutai_teki_LIKE" 
+	guutara	{[scat n:an:onoma]} =idle=	%
 	guuzen	{[scat n:an]} =by_chance=	% 偶然 
 	guzu	{[scat n:an]} =laggard=	% ぐず  愚図 
 	guzukko	{[scat n]} =laggard= "guzu_DIM"	% ぐずっこ  愚図 
-	guzuguzu	{[scat n:an]} =laggard=	% ぐずぐず  愚図愚図 
+	guzuguzu	{[scat n:an:onoma]} =laggard=	% ぐずぐず  愚図愚図 
 	guzuguzukko	{[scat n]} =laggard= "guzuguzu-kko_DIM"	% ぐずぐずっこ  愚図 
 	gyaku	{[scat n:an]} =reverse=	% 逆 
-	gyuugyuu	{[scat n:an]} =squeezed=	%
+	gyuugyuu	{[scat n:an:onoma]} =squeezed=	%
 	hade	{[scat n:an]} =gaudy=
 	hampa	{[scat n:an]} =odd_and_halfway=	% はんぱ/半端 
 	hanayaka	{[scat n:an]} =flamboyant=	% 華やか 
@@ -167,9 +169,10 @@
 	heta	{[scat n:an]} =unskillfull=	% へた/下手 
 	hetakuso	{[scat n:an]} =clumsy=	% へたくそ/下手くそ  下手 糞 
 	hetappi	{[scat n]} =clumsy=	% へたくそ/下手くそ  下手 糞 
-	hijoo	{[scat n:an]} =state_of_emergency=	% 非常 
+	hijoo	{[scat n:an]} =extreme=	% 非常 
 	hijooni	{[scat adv]} =extremely= "hijoo_ni"	% 非常に
 	hima	{[scat n:an]} =leisure_time=	
+	himasoo	{[scat n:an]} =leisure_time_like= "hima_soo_SEEMING"	
 	himitsu	{[scat n:an]} =secret=	% 秘密 
 	hisshi	{[scat n:an]} =frantic=	% 必死
 	hisoka	{[scat n:an]} =secret=	% ひそか  密か/ 窃か 
@@ -180,7 +183,7 @@
 	iikagen	{[scat n:an]} =halfhearted=	% いいかげん  好い加減 
 	ijiwaru	{[scat n:an]} =malicious=	% 意地悪 
 	 ijiwarukko	{[scat n:vn]} =bullying= "ijiwaru-kko_DIM"	% 意地悪 
-	 ijiwarusoo	{[scat n:an]} =seeming_malicious= "ijiwaru-soo"	% 意地悪 
+	 ijiwarusoo	{[scat n:an]} =malicious= "ijiwaru-soo_SEEMING"	% 意地悪 
 	ijoo	{[scat n:an]} =extraordinary=	% 異常 
 	iroiro	{[scat n:an]} =various=	% いろいろ  色色  副[— と ]
 	isshokemmee	{[scat n:an]} =with_whole_heart= "isshookemmee" % 一所懸命 
@@ -192,10 +195,11 @@
 	jama	{[scat n:an]} =obstacle=	% 邪魔 
 	jibunkatte	{[scat n:an]} =selfish=	% 自分かって/自分勝手 
 	jinjoo	{[scat n:an]} =mediocre=	% 
+	jimi	{[scat n:an]} =plain=	% 地味
 	jimichi	{[scat n:an]} =sober=	% 地道
 	jiyuu	{[scat n:an]} =free=	% 自由 
 	joobu	{[scat n:an]} =robust=	% じょうぶ/丈夫 
-	joobusoo	{[scat n:an]} "joobu-soo" =seeming_robust=	% じょうぶ/丈夫 
+	joobusoo	{[scat n:an]} "joobu-soo_SEEMING" =robust=	% じょうぶ/丈夫 
 	joohin	{[scat n:an]} =refined=	% 上品 
 	jootoo	{[scat n:an]} =superior= % 上等
 	joozu	{[scat n:an]} =skilled=	% じょうず/上手 
@@ -203,11 +207,12 @@
 	juudai	{[scat n:an]} =important=
 	kaichoo	{[scat n:an]} =in_good_shape=	% 快調 
 	kaikai	{[scat n:an]} =itchy=	
+	kaiteki	{[scat n:an]} =pleasant=	
 	kakujitsu	{[scat n:an]} =for_certain=	% 確実 
 	kampeki	{[scat n:an]} =perfect=	% 完ぺき  完 璧 
 	kantan	{[scat n:an]} =simple=	% 簡単 
 	kantansugi	{[scat v:v][comp n:an+v:v]} =too_simple= "kantan+sugi"	% 簡単 
-	kantansoo	{[scat n:an]} =seeming_simple= "kantan-soo"	% 簡単 
+	kantansoo	{[scat n:an]} =simple= "kantan-soo_SEEMING"	% 簡単 
 	kanzen	{[scat n:an]} =complete=	% 完全 
 	karappo	{[scat n:an]} =empty=	% 空っぽ 
 	kasuka	{[scat n:an]} =faint=	%  微か  かすか 
@@ -219,7 +224,7 @@
 	kemmee	{[scat n:an]} =with_whole_heart= % 懸命 
 	kettai	{[scat n:an]} =weird= % けったい 
 	kichoo	{[scat n:an]} =precious=	% 貴重 
-	kichoohin	{[scat n]} "kichoo-hin" =precious_ware=	% 貴重品 
+	kichoohin	{[scat n]} "kichoohin" =precious_ware=	% 貴重品 
 	kichoomen	{[scat n:an]} =prim=	% きちょうめん  几帳面 
 	kichoomensa	{[scat n]} == "kichoomen-sa"
 	kigakari	{[scat n:an]} =sorrow=	% 気がかり 
@@ -227,12 +232,13 @@
 	kimagure	{[scat n:an]} =capricious=	% 均一 
 	kinitsu	{[scat n:an]} =uniform=	% 均一 
 	kirai	{[scat n:an]} =detest=	% 嫌い 
+	daikirai	{[scat n:an]} =big_detest= "dai_BIG_detest"	% 嫌い 
 	kiree	{[scat n:an]} =beautiful=	% きれい  奇麗/ 綺麗 
 	kiyoo	{[scat n:an]} =skillful=	% 器用 
 	kootoo	{[scat n:an]} =high_grade=	% 高等 
 	korigori	{[scat n:an]} =fed_up=	% 懲り懲り 
-	kuchakucha	{[scat n:an]} =messy=	
-	kuchakucha	{[scat n:an]} =messy=	
+	kuchakucha	{[scat n:an:onoma]} =messy=	
+	kuchakucha	{[scat n:an:onoma]} =messy=	
 	kuishimbo	{[scat n:an]} =gourmand= "kuishimboo"	% 食いしん坊 
 	kuishimboo	{[scat n:an]} =gourmand=	% 食いしん坊 
 	kushakusha	{[scat n:an]} =messy=	
@@ -243,7 +249,7 @@
 	kyuugeki	{[scat n:an]} =abrupt=
 	kyuukutsu	{[scat n:an]} =too_narrow=	% 窮屈 
 	majime	{[scat n:an]} =serious=	% まじめ  真面目 
-	makkura	{[scat n:an]} "ma_STRAIGHT#kura" =pitch_dark=	% 真っ暗 
+	makkura	{[scat n:an]} "ma_STRAIGHT_kura" =pitch_dark=	% 真っ暗 
 	makoto	{[scat n:an]} =sincere=	% 実 
 	makotoshiyaka	{[scat n:an]} =plausible=	% まことしやか  真しやか/ 実しやか 
 	mammaru	{[scat n:an]} =round=	% まん丸/真ん丸 
@@ -255,18 +261,17 @@
 	massao	{[scat n:an]} =ashy_pale=	% 真っ青 
 	massugu	{[scat n:an]} "ma_STRAIGHT_sugu" =straight=	% まっすぐ  真っ 直ぐ 
 	matomo	{[scat n:an]} =honest=
-	mechakucha	{[scat n:an]} =incoherent=	
-	mechakucha	{[scat n:an]} =incoherent=	% めちゃくちゃ  滅茶苦茶 
-	mechamecha	{[scat n:an]} =incoherent=	
-	meeryoo	{[scat n:an]} =clearly=
+	mechakucha	{[scat n:an:onoma]} =incoherent=	% めちゃくちゃ  滅茶苦茶 
+	mechamecha	{[scat n:an:onoma]} =incoherent=	
+	meeryoo	{[scat n:an]} =clear=
 	meewaku	{[scat n:an]} =annoyance=	% 迷惑 
-	meewakusoo	{[scat n:an]} "meewaku-soo" =seeming_annoyance=	% 迷惑 
+	meewakusoo	{[scat n:an]} "meewaku-soo_SEEMING" =annoyance=	% 迷惑 
 	mendoo	{[scat n:an]} =bothersome=	% めんどう  面倒 
 	mijika	{[scat n:an]} =familiar=
 	migoto	{[scat n:an]} =splendid=	% 見事 
 	mottomo	{[scat n:an]} =most=	% もっとも  尤も 
-	mucha	{[scat n:an]} =incoherent=	% むちゃ  無茶 
-	muchakucha	{[scat n:an]} =incoherent=	% むちゃくちゃ  無茶苦茶 
+	mucha	{[scat n:an:onoma]} =incoherent=	% むちゃ  無茶 
+	muchakucha	{[scat n:an:onoma]} =incoherent=	% むちゃくちゃ  無茶苦茶 
 	muchi	{[scat n:an]} =ignorant=	% 無知  無 智 
 	muchuu	{[scat n:an]} =frantically=	% 夢中 
 	muda	{[scat n:an]} =futile=	% むだ/無駄 
@@ -289,23 +294,24 @@
 	nonki	{[scat n:an]} =easygoing=
 	noroma	{[scat n:an]} =dull=
 	omo	{[scat n:an]} =main=
+	onaji	{[scat n:an]} =same=
 	oochaku	{[scat n:an]} =cheeky= 	
 	oobaa	{[scat n:an]} =exaggerated= 	
 	oohee	{[scat n:an]} =arrogant= % 大柄 
 	oshama	{[scat n:an]} =precocious=	%
 	oshamasan	{[scat n:an]} =precocious=	%
 	oshare	{[scat n:an]} =stylish=	% おしゃれ  お:洒落 
-	pampan	{[scat n:an]} =bulging=	%
-	pechanko	{[scat n:an]} =flat= "petchanko"	%
-	petchanko	{[scat n:an]} =flat=	%
-	pittari	{[scat n:an]} =tight=	
+	pampan	{[scat n:an:onoma]} =bulging=	%
+	pechanko	{[scat n:an:onoma]} =flat= "petchanko"	%
+	petchanko	{[scat n:an:onoma]} =flat=	%
+	pittari	{[scat n:anv]} =tight=	
 	rakkii	{[scat n:an]} =lucky=	
 	raku	{[scat n:an]} =comfortable=	% 楽 
 	rakuraku	{[scat n][comp n:an+n:an]} =comfortable= "raku+raku"	% 楽 
 	rakuchi	{[scat n:an]} =easy=	% 楽 
 	rakuchin	{[scat n:an]} =easy=	% 楽 
 	ramboo	{[scat n:an]} =violent=
-	rikoo	{[scat n:an]} =bright_child=	% 利口/利巧 
+	rikoo	{[scat n:an]} =smart=	% 利口/利巧 
 	rippa	{[scat n:an]} =splendid=	% りっぱ/立派 
 	ryookoo	{[scat n:an]} =satsifactory=	% 良好 
 	saiaku	{[scat n:an]} =worst=	% 最悪 
@@ -314,9 +320,9 @@
 	seekaku	{[scat n:an]} =accurate=	% 正確 
 	seeketsu	{[scat n:an]} =clean=	% 清潔 
 	seetoo	{[scat n:an]} =orthodox=	% 正統 
-	seetooha	{[scat n]} "seetoo-ha" =orthodox_school=	% 正統派
+	seetooha	{[scat n]} "seetoo_ha_SCHOOL" =orthodox_school=	% 正統派
 	shiawase	{[scat n:an]} =happy=	% 幸せ  仕合わせ 
-	shiawasesoo	{[scat n:an]} "shiawase-soo" =seeming_happy=	% 幸せ  仕合わせ 
+	shiawasesoo	{[scat n:an]} "shiawase-soo_SEEMING" =happy=	% 幸せ  仕合わせ 
 	shikyuu	{[scat n:an]} =urgently=	% 至急
 	shimmyoo	{[scat n:an]} =tame=	% 神妙
 	shinan	{[scat n:an]} =most_difficult=	% 至難 
@@ -329,11 +335,13 @@
 	shizen	{[scat n:an]} =natural=	% 自然 
 	shizuka	{[scat n:an]} =quiet=	% 静か 
 	shoojiki	{[scat n:an]} =frankly=	% 正直 
-	sokkuri	{[scat n:an]} =look_alike=	%
+	sokkuri	{[scat n:an:onoma]} =look_alike=	%
 	soodai	{[scat n:an]} =grand= %壮大
 	suki	{[scat n:an]} =like=	% 好き 
+	 daisuki	{[scat n:an]} =like=	"dai_BIG_suki"
 	sukan	{[scat n:an]} =detest=	% 好かん
-	sumanasoo	{[scat n:an]} "sumana-soo" =apologetic=	% すなお/素直 
+	daisukan	{[scat n:an]} =detest=	"dai_BIG_sukan" % 好かん
+	sumanasoo	{[scat n:an]} "sumana-soo_SEEMING" =apologetic=	% すなお/素直 
 	sunao	{[scat n:an]} =uncomplicated=	% すなお/素直 
 	suteki	{[scat n:an]} =splendid=	% すてき  素敵 
 	taihen	{[scat n:an]} =terrible=	% 大変 
@@ -342,10 +350,10 @@
 	taira	{[scat n:an]} =flat=	% 平ら 
 	tairyoo	{[scat n:an]} =large_quantity=	% 大量 
 	taisetsu	{[scat n:an]} =important=	% たいせつ/大切 
-	taisetsusoo	{[scat n:an]} "taisetsu-soo" =seeming_important=	% たいせつ/大切 
+	taisetsusoo	{[scat n:an]} "taisetsu-soo_SEEMING" =important=	% たいせつ/大切 
 	tanjun	{[scat n:an]} =simple=	% 単純 
 	tashika	{[scat n:an]} =certain=	% 確か 
-	teenee	{[scat n:an]} =respectful=	% 丁寧  叮嚀 
+	teenee	{[scat n:an]} =careful=	% 丁寧  叮嚀 
 	tegoro	{[scat n:an]} =convenient=	% 手頃
 	tekitoo	{[scat n:an]} =adequate=	% 適当 
 	tokubetsu	{[scat n:an]} =special=	% 特別 
@@ -358,14 +366,16 @@
 	yancha	{[scat n:an]} =mischievous=
 	yokee	{[scat n:an]} =superfluous=	% 余計 
 	yooki	{[scat n:an]} =cheerful=	% 陽気 
-	yosasoo	{[scat n:an]} =seeming_good= "yo-soo"
+	yosasoo	{[scat n:an]}  =good= "yo-soo_SEEMING"
 	yoreyore	{[scat n:an]} =worn_out=
 	yukai	{[scat n:an]} =amusing=	% 愉快 
 	fuyukai	{[scat n:an]} =unpleasant=	% 不愉快 
-	yuruyuru	{[scat n:an]} =loose=	% 緩め 
+	yuruyuru	{[scat n:an:onoma]} =loose=	% 緩め 
 	yuuga	{[scat n:an]} =refined=	% 優雅
 	yuumee	{[scat n:an]} =famous=	% 有名
 	yuuri	{[scat n:an]} =profitable=
 	yuuutsu	{[scat n:an]} =depressed=	% 憂鬱
+	zankoku	{[scat n:an]} =cruel=	% 残酷 
 	zannen	{[scat n:an]} =regrettable=	% 残念 
+	zettai	{[scat n:an]} =absolute=	% 残念 
 %%%%%%%%%

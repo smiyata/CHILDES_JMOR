@@ -1,13 +1,17 @@
 @UTF8
 %%%%%% onoma ADVERBS %%%%%%
 bamban	{[scat adv:onoma]} =full=
+battari	{[scat onoma]} =unexpectedly=
 betabeta	{[scat adv:onoma]} =sticky=	%くっ付く
 bishibashi	{[scat adv:onoma]} =vigorously=	%
+bishobisho	{[scat onoma]} =soak_wet=
 bisshori	{[scat adv:onoma]} =soak_wet=
 botabota	{[scat adv:onoma]} =dripping=
+burari	{[scat onoma]} =aimlessly=
 buruburu	{[scat adv:onoma]} =trembling=	%震える
 chikuchiku	{[scat adv:onoma]} =stinging=	%
 chokichoki	{[scat adv:onoma]} =cutting=	%
+doppuri	{[scat adv:onoma]} =totally=
 fukkura	{[scat adv:onoma]} =fluffy=	%
 furafura	{[scat adv:onoma]} =staggering=	%目まい
 hiihii	{[scat adv:onoma]} =complaining=	%ため息つく
@@ -21,17 +25,26 @@ gungun	{[scat adv:onoma]} =increasingly=	%飲む
 guuguu	{[scat adv:onoma]} =sleeping=	%飲む
 guruguru	{[scat adv:onoma]} =spinning=	%回る
 herahera	{[scat adv:onoma]} =thoughtlessly=
+hissori	{[scat adv:onoma]} =quietly=
 hokahoka	{[scat adv:onoma]} =warm=	%
 hokkora	{[scat adv:onoma]} =fluffy=	%
+honnori	{[scat adv:onoma]} =slightly=
 jirijiri	{[scat adv:onoma]} =sizzling=
 kachikachi	{[scat adv:onoma]} =solidly=
 karikari	{[scat adv:onoma]} =crunchy=	%
 kasakasa	{[scat adv:onoma]} =dry=	%
+kippari	{[scat adv:onoma]} =definitely=
 kirakira	{[scat adv:onoma]} =sparkling=	%光る
 korokoro	{[scat adv:onoma]} =rolling=
 kosokoso	{[scat adv:onoma]} =secretly=
+kunekune	{[scat adv:onoma]} =tortuous=
 kurikuri	{[scat adv:onoma]} =big_and_round=	%丸い
 kurukuru	{[scat adv:onoma]} =twirling=	%回る
+mechakucha	{[scat adv:onoma]} =extremely=
+metchakucha	{[scat adv:onoma]} "mechakucha" =extremely=
+mechamecha	{[scat adv:onoma]} =extremely=
+meramera	{[scat adv:onoma]} =in_flames=
+metcha	{[scat adv:onoma]} =extremely=
 mesomeso	{[scat adv:onoma]} =sobbing=
 mochimochi	{[scat adv:onoma]} =sticky=
 muchimuchi	{[scat adv:onoma]} =plumply=
@@ -64,6 +77,7 @@ pumpun	{[scat adv:onoma]} =fuming=	%匂い,怒り
 sakusaku	{[scat adv:onoma]} =effortlessly=
 sappari	{[scat adv:onoma]} =frank=	% さっぱり 
 sarasara	{[scat adv:onoma]} =smooth=
+sekaseka	{[scat adv:onoma]} =restlessly=
 shitoshito	{[scat adv:onoma]} =softly=
 shinshin	{[scat adv:onoma]} =silently=
 shombori	{[scat adv:onoma]} =downheartedly=
@@ -74,18 +88,22 @@ surusuru	{[scat adv:onoma]} =smoothly=
 taratara	{[scat adv:onoma]} =dripping=
 teratera	{[scat adv:onoma]} =glossily=
 tsurutsuru	{[scat adv:onoma]} =smooth=
+tsuruntsurun	{[scat adv:onoma]} =slippery=
 ukiuki	{[scat adv:onoma]} =buoyantly=
 usuusu	{[scat adv]} =subtly=
 utouto	{[scat adv:onoma]} =nodding_off=
 utsurautsura	{[scat adv:onoma]} =nodding_off=
 uzuuzu	{[scat adv:onoma]} =eagerly=
+waawaa	{[scat adv:onoma]} =boohoo=
 yoboyobo	{[scat adv:onoma]} =tottering=
 yochiyochi	{[scat adv:onoma]} =toddling=
 yoiyoi	{[scat adv:onoma]} =unsteady=
 yurayura	{[scat adv:onoma]} =swaying=
 zakuzaku	{[scat adv:onoma]} =crisply=
 zorozoro	{[scat adv:onoma]} =in_succession=
+zukezuke	{[scat adv:onoma]} =bluntly=
 zungurimukkuri	{[scat adv:onoma]} =rolypoly=
+zurari	{[scat adv:onoma]} =in_a_row=
 
 %%%%%% ADVERBS %%%%%%
 
@@ -119,7 +137,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	choito	{[scat adv]} =a_bit= "chotto"	% ちょっと  一寸 
 	chotto	{[scat adv]} =a_bit=	% ちょっと  一寸 
 	chiito	{[scat adv]} =a_bit=	% ちいと  
-	daibu	{[scat adv]} =mostly=	% だいぶ/大分 before adj
+	daibu	{[scat adv]} =mostly=	% だいぶ/大分 before adj ; otherwise quant
 %changed_to_quant	daibu	{[scat adv]} =mostly=	% だいぶ/大分 
 %changed_to_quant	daitai	{[scat adv]} =generally=	% 大体 
 	dandan	{[scat adv] [rent +]} =more_and_more=	% 段々 
@@ -138,7 +156,6 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	gakkuri	{[scat adv]} =disappointed=	
 	garatto	{[scat adv]} =completely=
 	gisshiri	{[scat adv]} =crammed_full=	
-	gotoku	{[scat adv]} =like=	
 	gusari	{[scat onoma]} =prick=
 	gussuri	{[scat adv]} =deeply=	
 	gutto	{[scat adv]} =at_a_gulp=	
@@ -146,6 +163,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	hajimete	{[scat adv]} =for_the_first_time=	% 初めて 
 	hakkiri	{[scat adv]} =clearly=	
 	harubaru	{[scat adv]} =all_the_way=	% 遥々 	
+	hatashite	{[scat adv]} =as_expected=
 	hayo	{[scat adv]} =fast= 
 	hayoo	{[scat adv]} =fast=
 	hitasura	{[scat adv]} =solely= %ひたすら
@@ -176,12 +194,12 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	jojoni	{[scat adv]} =step_by_step=	% 徐徐に 
 	kaette	{[scat adv]} =on_the_contrary=	% かえって  却って 
 	kanarazu	{[scat adv]} =necessarily=	% 必ず 
-	kanarazushimo	{[scat adv]} =not_necessarily= "kanarazu_shimo"	% 必ずしも 
+	kanarazushimo	{[scat adv]} =necessarily= "kanarazu_shimo"	% 必ずしも 
 %changed_to_quant	kanari	{[scat adv]} =considerably=	% 可成り 
 	karoojite	{[scat adv]} =narrowly=	% かろうじて/辛うじて 
 %changed_to_quant	kekkoo	{[scat adv]} =quite= % quant
 	kekkyoku	{[scat adv]} =in_the_end=	% 結局 
-	kesshite	{[scat adv]} =not_necessarily=	% 決して 
+	kesshite	{[scat adv]} =at_all=	% 決して 
 	kichinto	{[scat adv]} =precisely=	
 	kichitto	{[scat adv]} =precisely=	
 	kippari	{[scat adv]} =definitely=
@@ -212,11 +230,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	mata	{[scat adv]} =again=	% また･又 
 	mattaku	{[scat adv]} =completely=	% まったく/全く 
 	mazu	{[scat adv]} =at_first=	% まず  先ず 
-	mechakucha	{[scat adv]} =extremely=
-	metchakucha	{[scat adv]} "mechakucha" =extremely=
-	mechamecha	{[scat adv]} =extremely=
 	meippai	{[scat adv]} =to_the_full=	% 目いっぱい/目一杯 
-	metcha	{[scat adv]} =extremely=
 	mettani	{[scat adv]} =rarely=
 	mochiron	{[scat adv]} =of_course=	% もちろん  勿論 
 	mokkai	{[scat adv]} =once_more=	% もう一回 
@@ -227,6 +241,7 @@ zungurimukkuri	{[scat adv:onoma]} =rolypoly=
 	morotomo	{[scat adv]} =altogether=	% 諸共 
 	moshikashitara	{[scat adv]} =maybe=	% もしかしたら 
 	moshikashite	{[scat adv]} =maybe=	%  
+	moshikasuruto	{[scat adv]} "moshi_ka_suru_to" =maybe=
 	motomoto	{[scat adv]} =originally=	% 元元 
 	motto	{[scat adv]} =more=	
 	mottomo	{[scat adv]} =most=	% 最も 

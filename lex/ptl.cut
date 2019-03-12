@@ -23,7 +23,6 @@ koso	{[scat ptl:foc]} =just=
 kurai	{[scat ptl:foc]} =about=
 mo	{[scat ptl:foc]} =ADD=
 nado	{[scat ptl:foc]} =etc=
-nagara	{[scat ptl:foc]} =SIMUL=
 nanka	{[scat ptl:foc]} =even=
 nante	{[scat ptl:foc]} =even=
 nari	{[scat ptl:foc]} =in_one_own_style=  % watashi nari ni
@@ -51,13 +50,13 @@ o	{[scat ptl:case]} =ACC=
 no	{[scat ptl:case]} =NOM=   %の/がconversion
 
 %%%% postposition particle
-de	{[scat ptl:post]} =POST=
-e	{[scat ptl:post]} =to=
-kara	{[scat ptl:post]} =from=
-made	{[scat ptl:post]} =until=
-ni	{[scat ptl:post]} =POST= 
-to	{[scat ptl:post]} =with= 
-yori	{[scat ptl:post]} =from= 
+de	{[scat ptl:post]} =LOC=
+e	{[scat ptl:post]} =LAT=
+kara	{[scat ptl:post]} =ABL=
+made	{[scat ptl:post]} =TERM=
+ni	{[scat ptl:post]} =DAT= 
+to	{[scat ptl:post]} =COMT= 
+yori	{[scat ptl:post]} =ABL= 
 yori	{[scat ptl:post]} =COMPARE= 
 
 %%%% compound postposition particles   [here only ptls used in the child data; for more particles, see Adult_ptl.cut]
@@ -102,13 +101,6 @@ yanai	{[scat ptl:fina]} =TAG=
 ka	{[scat ptl:fina]} =Q=
 kka	{[scat ptl:fina]} =Q= "ka"
 kai	{[scat ptl:fina]} =Q=
-kamo	{[scat ptl:fina]} =perhaps=
-kamoshinnai	{[scat ptl:fina]} =perhaps= "kamoshirenai"
-kamoshiremasen	{[scat ptl:fina]} =perhaps= "kamoshiremasen&POL"
-kamoshiren	{[scat ptl:fina]} =perhaps= "kamoshirenai"
-kamoshirenai	{[scat ptl:fina]} =perhaps=
-kashiran	{[scat ptl:fina]} =perhaps=
-kashira	{[scat ptl:fina]} =perhaps=
 kana	{[scat ptl:fina]} =DOUBT= "kanaa"
 kanaa	{[scat ptl:fina]} =DOUBT=
 kanee	{[scat ptl:fina]} =DOUBT=

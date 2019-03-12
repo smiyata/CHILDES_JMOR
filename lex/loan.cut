@@ -11,9 +11,10 @@
 	aidoru	{[scat n]} =idol=
 	aieechi	{[scat n]} =induction_heating=
 	airon	{[scat n]} =iron=
-	nairon	{[scat n]} =nylon=
 	aipotto	{[scat n]} =ipod=
 	aisu	{[scat n]} =ice=
+	aisuya	{[scat n]} =icecream_shop= "aisu_ya_SHOP"
+	aisukuriimuya	{[scat n]} =icecream_shop= "aisukuriimu_ya_SHOP"
 	akoodion	{[scat n]} =accordion=
 	akuabiizu	{[scat n]} =acqua_beads=
 	akuseru	{[scat n]} =accelerator=
@@ -22,6 +23,9 @@
 	anaunsaa	{[scat n]} =anouncer=
 	anaunsu	{[scat n:vn]} =anounce=
 	andaa	{[scat n]} =under=
+	anime	{[scat n]} =anime=
+	animeeshon	{[scat n]} =animation=
+	ankeeto	{[scat n]} =enquete=
 	ankooru	{[scat n]} =encore=
 	antena	{[scat n]} =antena=
 	apaato	{[scat n]} =apartment=
@@ -29,6 +33,7 @@
 	apo	{[scat n]} =appointment=
 	appu	{[scat n:vn]} =up=
 	appu	{[scat n]} =close_up=
+	doappu	{[scat n]} =extreme_close_up= "do_EXTREMELY_appu"
 	appuru	{[scat n]} =apple=
 	apurike	{[scat n]} =application=
 	apuroochi	{[scat n:vn]} =approach=
@@ -88,6 +93,7 @@
 	bampaa	{[scat n]} =bumper=
 	ban	{[scat n]} =van=
 	banana	{[scat n]} =banana=
+	bananaya	{[scat n]} =banana_shop=	"banana_ya_SHOP" % 
 	bandana	{[scat n]} =bandana=
 	bando	{[scat n]} =band=
 	bandoeedo	{[scat n]} =bandaid=
@@ -139,7 +145,9 @@
 	biagaaden	{[scat n]} =beer_garden=
 	biburaato	{[scat n]} =vibrato=
 	bideo	{[scat n]} =video=
-	bideokan	{[scat n]} =video_shop= "bideo-kan"
+	bideoya	{[scat n]} =video_shop= "bideo_ya_SHOP"
+	bideokan	{[scat n]} =video_shop= "bideo_kan_BLDG"
+	bideochuu	{[scat n]} =while_video_taping= "bideo_chuu_WHILE"
 	bifuteki	{[scat n]} =beefsteak=
 	biggu	{[scat n:an]} =big=
 	biggu_nyuusu	{[scat n]} =big_news=
@@ -159,6 +167,7 @@
 	binegaa	{[scat n]} =vinegar=
 	bingo	{[scat n]} =bingo=
 	biniiru	{[scat n]} =vinyl=
+	biniirusee	{[scat n]} =made_of_vinyl= "biniiru_see_MADEOF"
 	biora	{[scat n]} =viola=
 	biriyaado	{[scat n]} =billiard=
 	biroodo	{[scat n]} =velvet=
@@ -193,6 +202,7 @@
 	booringujoo	{[scat n]} =bowling_hall= "booringu-joo"
 	booru	{[scat n]} =ball=
 	booto	{[scat n]} =boat=
+	bootoya	{[scat n]} =boat_shop= "booto_ya_SHOP"
 	borantia	{[scat n]} =volunteer=
 	borero	{[scat n]} =bolero=
 	boruto	{[scat n]} =volt=
@@ -211,6 +221,7 @@
 	bureeki	{[scat n]} =brake=
 	buresuretto	{[scat n]} =bracelet=
 	burezaa	{[scat n]} =blazer=
+	burijji	{[scat n]} =bridge=
 	buriki	{[scat n]} =tin=
 	burogu	{[scat n]} =blog=
 	burokkori	{[scat n]} =broccoli=
@@ -257,6 +268,7 @@
 	chikin	{[scat n]} =chicken=
 	chimpanjii	{[scat n]} =chimp=
 	chippu	{[scat n]} =tip=
+	chippusu	{[scat n]} =chips=
 	chippusutaa	{[scat n]} =chipstar=
 	chiwawa	{[scat n]} =chihuahua=
 	choisu	{[scat n]} =choice=
@@ -308,7 +320,7 @@
 	dezain	{[scat n]} =design=
 	diibuidii	{[scat n]} =DVD=
 	diizeru	{[scat n]} =diesel=
-	diizerusha	{[scat n]} "diizeru-sha" =diesel_car=
+	diizerusha	{[scat n]} "diizeru_sha_VEHICLE" =diesel_car=
 	dinaa	{[scat n]} =dinner=
 	disuku	{[scat n]} =disk=
 	dizunii	{[scat n]} =disney=
@@ -321,6 +333,7 @@
 	domino	{[scat n]} =domino=
 	doonatsu	{[scat n]} =doughnuts=
 	doonattsu	{[scat n]} =doughnuts= "doonatsu"
+	doonatsuya	{[scat n]} =doughnuts_shop= "doonatsu_ya_SHOP"
 	doraggusu	{[scat n]} =drugs=
 	doragon	{[scat n]} =dragon=
 	dorai	{[scat n:an]} =dry=
@@ -328,6 +341,7 @@
 	doraibu	{[scat n:vn]} =drive=
 	doraibuwee	{[scat n]} =driveway=
 	doraiyaa	{[scat n]} =dryer=
+	dorama	{[scat n]} =drama=
 	doramu	{[scat n]} =drum=
 	doressaa	{[scat n]} =dresser=
 	doresshingu	{[scat n]} =dressing=
@@ -365,6 +379,7 @@
 	esukareetaa	{[scat n]} =escalator=
 	fagotto	{[scat n]} =fagott=
 	fainaru	{[scat n]} =final=
+	fairu	{[scat n]} =file=
 	faito	{[scat n:vn]} =fight=
 	faiya	{[scat n]} =fire=
 	famikon	{[scat n]} =videogame=
@@ -373,6 +388,7 @@
 	fanta	{[scat n]} =fanta_soda=
 	fasshon	{[scat n]} =fashion=
 	fasunaa	{[scat n]} =fastener=
+	feento	{[scat n]} =feint=
 	fensu	{[scat n]} =fence=
 	ferii	{[scat n]} =ferry=
 	fesutibaru	{[scat n]} =festival=
@@ -398,6 +414,7 @@
 	furuuche	{[scat n]} =fruitdessert=
 	furuuto	{[scat n]} =flute=
 	furuutsu	{[scat n]} =fruits=
+	furuutsuya	{[scat n]} =fruits_shop= "furuutsu_ya_SHOP"
 	futtobooru	{[scat n]} =football=
 	futtowaaku	{[scat n]} =footwork_freight=
 	gaabera	{[scat n]} =gerbera=
@@ -412,7 +429,8 @@
 	gareeji	{[scat n]} =garage=
 	garimimusu	{[scat n]} =gallimimus=
 	gasorin	{[scat n]} =gasolin=
-	gasorindai	{[scat n]} =gasolin_fee= "gasorin-dai"
+	gasorinya	{[scat n]} =gasolin_shop= "gasorin_ya_SHOP"
+	gasorindai	{[scat n]} =gasolin_fee= "gasorin_dai_FEE"
 	gasu	{[scat n]} =gas=
 	gaun	{[scat n]} =gown=
 	geemu	{[scat n:vn]} =game=
@@ -427,7 +445,7 @@
 	gooru	{[scat n]} =goal=
 	goorudenwiiku	{[scat n]} =golden_week= "gooruden_wiiku"
 	gorira	{[scat n]} =gorilla=
-	gorufu	{[scat n:vn]} =golf=
+	gorufu	{[scat n]} =golf=
 	gorufujoo	{[scat n]} =golf_course=
 	gumi	{[scat n]} =gummi=
 	guranoora	{[scat n]} =granola=
@@ -458,8 +476,10 @@
 	haiyaa	{[scat n]} =taxi=
 	hambaaga	{[scat n]} =hamburger= "hambaagaa"
 	hambaagaa	{[scat n]} =hamburger=
+	hambaagaaya	{[scat n]} =hamburger_shop= "hambaagaa_ya_SHOP"
 	mosubaagaa	{[scat n]} =mosburger=
 	hambaagu	{[scat n]} =hamburger_steak=
+	hambaaguya	{[scat n]} =hamburger_steak_shop= "hambaagu_ya_SHOP"
 	hammokku	{[scat n]} =hammock=
 	hammoggu	{[scat n]} =hammock= "hammokku"
 	hamusutaa	{[scat n]} =hamster=
@@ -507,8 +527,8 @@
 	hoomu	{[scat n]} =home=
 	hoomu	{[scat n]} =platform=
 	hooru	{[scat n]} =hall=
-	daihooru	{[scat n]} =hall= "dai_BIG#hooru"
-	shoohooru	{[scat n]} =hall= "shoo_SMALL#hooru"
+	daihooru	{[scat n]} =hall= "dai_BIG_hooru"
+	shoohooru	{[scat n]} =hall= "shoo_SMALL_hooru"
 	hoon	{[scat n]} =horn=
 	hoosu	{[scat n]} =hose=
 	hoppu	{[scat n]} =hop=
@@ -591,12 +611,14 @@
 	kamereon	{[scat n]} =chameleon=
 	kamereonsensee	{[scat n]} =Mr_chameleon= "kamereon-sensee"
 	kanaria	{[scat n]} =canaria=
+	kanna	{[scat n]} =canna_flower=
 	kangaruu	{[scat n]} =cangaroo=
 	kappa	{[scat n]} =cape=
 	kappu	{[scat n]} =cup=
 	karaa	{[scat n]} =color=
 	karafuru	{[scat n:an]} =colorful=
 	karee	{[scat n]} =curry=
+	kareeya	{[scat n]} =curry_shop= "karee_ya_SHOP"
 	bonkaree	{[scat n]} =Bon_curry=
 	kareeko	{[scat n]} =curry_powder= "karee-ko"
 	karendaa	{[scat n]} =calender=
@@ -616,6 +638,7 @@
 	kechappu	{[scat n]} =ketchup=
 	keeburu	{[scat n]} =cable=
 	keeki	{[scat n]} =cake=
+	keekiya	{[scat n]} =cake_shop= "keeki_ya_SHOP"
 	keepaaaragejirisu	{[scat n]} =cape_ground_squirrel=
 	keesu	{[scat n]} =case=
 	kii	{[scat n]} =key=
@@ -639,9 +662,11 @@
 	kombaato	{[scat n]} =conversion=
 	kombatto	{[scat n]} =combat=
 	kombiifu	{[scat n]} =cornedbeef=
+	kombineeshon	{[scat n]} =combination=
 	kombini	{[scat n]} =conv_store=
+	kombiniensusutoa	{[scat n]} =conv_store=
 	kompakuto	{[scat n:an]} =compact=
-	kompeetoo	{[scat n:an]} =sugar_candy=
+	kompeetoo	{[scat n]} =sugar_candy=
 	kompyuutaa	{[scat n]} =computer=
 	komyunikeeshon	{[scat n]} =communication=
 	konkuriito	{[scat n]} =concrete=
@@ -651,8 +676,9 @@
 	kontakuto	{[scat n]} =contact_lens=
 	konteena	{[scat n]} =container= "kontena"
 	kontena	{[scat n]} =container=
-	kontenasha	{[scat n]} =container_carrier= "kontena-sha"
+	kontenasha	{[scat n]} =container_carrier= "kontena_sha_VEHICLE"
 	kontorabasu	{[scat n]} =contrabass=
+	kontorooru	{[scat n:vn]} =control=
 	kooda	{[scat n]} =coder= "koodaa"
 	koodaa	{[scat n]} =coder=
 	koode	{[scat n]} =coordination=
@@ -669,6 +695,7 @@
 	koppu	{[scat n]} =cup=
 	korii	{[scat n]} =collie_dog=
 	korokke	{[scat n]} =croquette=
+	korokkeya	{[scat n]} =croquette_shop= "korokke_ya_SHOP"
 	korunetto	{[scat n]} =cornet=
 	koruto	{[scat n]} =colt=
 	kosumosu	{[scat n]} =cosmos=
@@ -683,11 +710,13 @@
 	kurashikku	{[scat n]} =classic_music=
 	kurasu	{[scat n]} =class=
 	kureen	{[scat n]} =crane=
-	kureensha	{[scat n]} =crane_truck=
+	kureentsuki	{[scat n]} =with_crane= "kureen_tsuki_WITH"
+	kureensha	{[scat n]} =crane_truck= "kureen_sha_VEHICLE"
 	kurepasu	{[scat n]} =pastel_crayon=
 	kureyon	{[scat n]} =crayon=
 	kuriimu	{[scat n]} =cream=
 	kuriiningu	{[scat n]} =cleaning=
+	kuriininguya	{[scat n]} =cleaning_shop= "kuriiningu_ya_SHOP"
 	kuriipu	{[scat n]} =cream_powder=
 	kurippu	{[scat n]} =clip=
 	kurisumasu	{[scat n]} =christmas=
@@ -704,6 +733,7 @@
 	kyampujoo	{[scat n]} =camping_ground= "kyampu-joo"
 	kyandee	{[scat n]} =candies= "kyandii"
 	kyandii	{[scat n]} =candies=
+	kyandiiya	{[scat n]} =candy_shop= "kyandii_ya_SHOP"
 	kyappu	{[scat n]} =cap=
 	kyarakutaa	{[scat n]} =pop_character=
 	kyarameru	{[scat n]} =caramel=
@@ -722,8 +752,9 @@
 	mafura	{[scat n]} =muffler= "mafuraa"
 	mafuraa	{[scat n]} =muffler=
 	mahha	{[scat n]} =Mach=
-	maihoomu	{[scat n]} "mai_MY#hoomu" =my_home=
+	maihoomu	{[scat n]} "mai_MY_hoomu" =my_home=
 	maiku	{[scat n]} =microphone=
+	maiasaura	{[scat n]} =Maiasaura= 
 	mainasaurusu	{[scat n]} =minor_saurus= "mainaasaurusu"
 	mainaasaurusu	{[scat n]} =minor_saurus=
 	mainasu	{[scat n]} =minus=
@@ -749,12 +780,14 @@
 	mashiin	{[scat n]} =machine=
 	mashin	{[scat n]} =machine=
 	massaaji	{[scat n:vn]} =massage=
+	mashumaro	{[scat n]} =marshmallows=
 	masshuruumu	{[scat n]} =mushroom=
 	masukotto	{[scat n]} =mascot=
 	masuku	{[scat n]} =mask=
 	matchi	{[scat n]} =match=
 	matto	{[scat n]} =mat=
 	mayoneezu	{[scat n]} =mayonnaise=
+	mazakon	{[scat n]} =mother_complex=
 	medaru	{[scat n]} =medal=
 	meedee	{[scat n]} =mayday=
 	meen	{[scat n]} =main=
@@ -775,7 +808,7 @@
 	meriigoorando	{[scat n]} "meriigooraundo" =merrygoround=
 	meron	{[scat n]} =melon=
 	mikisaa	{[scat n]} =mixer=
-	mikisaasha	{[scat n]} =concrete_mixer_truck=
+	mikisaasha	{[scat n]} =concrete_mixer_truck= "mikisaa_sha_VEHICLE"
 	mikkusu	{[scat n:vn]} =mix=
 	mikusaa	{[scat n]} =mixer=
 	minichua	{[scat n]} =miniature=
@@ -787,6 +820,7 @@
 	moa	{[scat n]} =more=
 	moderu	{[scat n]} =model=
 	mofuru	{[scat n]} =thick_paper=
+	momburan	{[scat n]} =montblanc_cake=
 	monaka	{[scat n]} =waffle=
 	monoreeru	{[scat n]} =monorail=
 	monsutaa	{[scat n]} =monster=
@@ -813,7 +847,9 @@
 	neebiiburuu	{[scat n]} =navy_blue=
 	neeburu	{[scat n]} =navel_orange=
 	nekkachiifu	{[scat n]} =neckerchief=
+	nekku	{[scat n]} =neck=
 	nekkuresu	{[scat n]} =necklace=
+	nekutaa	{[scat n]} =nectar=
 	nekutai	{[scat n]} =necktie=
 	netto	{[scat n]} =net=
 	nokku	{[scat n:vn]} =knock=
@@ -838,6 +874,7 @@
 	oonamento	{[scat n]} =ornament=
 	oopun	{[scat n:vn]} =open=	%【オープン】
 	oora	{[scat n]} =aura=
+	oorora	{[scat n]} =aurora=
 	ooto	{[scat n]} =auto=
 	ootobai	{[scat n]} =motorbike=
 	oranuutan	{[scat n]} =orangutan=
@@ -850,6 +887,7 @@
 	osero	{[scat n]} =othello_game=
 	paafekuto	{[scat n:an]} =perfect=
 	paakingu	{[scat n]} =parking_lot=
+	paama	{[scat n]} =perma=
 	paapuru	{[scat n]} =purple=
 	paatii	{[scat n]} =party=
 	paatsu	{[scat n]} =part=
@@ -874,6 +912,7 @@
 	panorama	{[scat n]} =panorama=
 	pantagurafu	{[scat n]} =pantograph=
 	pantsu	{[scat n]} =pants=
+	panya {[scat n]} "pan_ya_SHOP" =bakery= %パン屋
 	papa	{[scat n]} =father=
 	papaiya	{[scat n]} =papaya=
 	parasaurorosusu	{[scat n]} "parasaurosu" =parasaurus_zoid=
@@ -900,15 +939,18 @@
 	pen	{[scat n]} =pen=
 	penchi	{[scat n]} =pliers=
 	pengin	{[scat n]} =penguin=
-	kopengin	{[scat n]} =penguin= "ko_SMALL#pengin"
+	kopengin	{[scat n]} =penguin= "ko_SMALL_pengin"
 	penishirin	{[scat n]} =penicilin=
 	penki	{[scat n]} =wall_paint=
+	penkiya	{[scat n]} =wall_paint_shop= "penki_ya_SHOP"
 	penshon	{[scat n]} =pension=
 	penteru	{[scat n]} =pentel_feltpen=
 	pepushi	{[scat n]} =pepsi_soda=
 	pepushikoora	{[scat n]} =pepsi_cola=
 	perooshifaka	{[scat n]} "berooshifaka" =verreaux_sifaka=
 	petto	{[scat n]} =pet=
+	pianisuto	{[scat n]} =pianist=
+	tensaipianisuto	{[scat n][comp n+n]} =genius_pianist= "tensai+pianisuto"
 	piano	{[scat n]} =piano=
 	piasu	{[scat n]} =earring=
 	piguretto	{[scat n]} =piglet=
@@ -936,6 +978,7 @@
 	pisutoru	{[scat n]} =pistol=
 	pitto	{[scat n]} =pit=
 	piza	{[scat n]} =pizza=
+	pizaya	{[scat n]} =pizza_shop= "piza_SHOP"
 	pointo	{[scat n]} =point=
 	poketto	{[scat n]} =pocket=
 	pokke	{[scat n]} =pocket=
@@ -948,6 +991,7 @@
 	poniiteeru	{[scat n]} =ponytail=
 	poochi	{[scat n]} =porch=
 	pooto	{[scat n]} =port=
+	pooru	{[scat n]} =pole=
 	poozu	{[scat n:vn]} =pose=
 	popura	{[scat n]} =poplar=
 	poshetto	{[scat n]} =pochette=
@@ -972,6 +1016,7 @@
 	purezento	{[scat n]} =present=
 	purin	{[scat n]} =flan=
 	purinsesu	{[scat n]} =princess=
+	purinto	{[scat n:vn]} =print=
 	purittsu	{[scat n]} =pretz_cookies=
 	purojekuto	{[scat n]} =project=
 	puropera	{[scat n]} =propeller=
@@ -981,6 +1026,7 @@
 	puuru	{[scat n]} =pool=
 	pyuuma	{[scat n]} =puma=
 	raamen	{[scat n]} =noodle_soup=
+	raamenya	{[scat n]} =noodle_soup_shop= "raamen_ya_SHOP"
 	rabendaa	{[scat n]} =lavender=
 	raberu	{[scat n]} =label=
 	rabu	{[scat n]} =love=
@@ -1016,6 +1062,7 @@
 	rasuku	{[scat n]} =rusk=
 	rebaa	{[scat n]} =handle=
 	rebaa	{[scat n]} =liver=
+	reberu	{[scat n]} =level=
 	reddo	{[scat n]} =red=
 	reemboo	{[scat n]} =rainbow=
 	reenkooto	{[scat n]} =raincoat=
@@ -1023,6 +1070,7 @@
 	reesaa	{[scat n]} =racer=
 	reeshingujoo	{[scat n]} =race_course= "reeshingu-joo"
 	reesu	{[scat n]} =race=
+	reesuchuu	{[scat n]} =while_racing= "reesu_chuu_WHILE"
 	reesu	{[scat n]} =lace=
 	reesu	{[scat n]} =lace_curtain=
 	reezaa	{[scat n]} =laser=
@@ -1032,7 +1080,7 @@
 	reji	{[scat n]} =cash_register=
 	rejisutaa	{[scat n]} =cash_register=
 	rekkaa	{[scat n]} =wrecker=
-	rekkaasha	{[scat n]} =wrecking_car=
+	rekkaasha	{[scat n]} =wrecking_car= "rekkaa_sha_VEHICLE"
 	rekooda	{[scat n]} =recorder= "rekoodaa"
 	rekoodaa	{[scat n]} =recorder=
 	rekoodo	{[scat n]} =music_record=
@@ -1051,6 +1099,7 @@
 	retasu	{[scat n]} =lettuce=
 	retteru	{[scat n]} =label=
 	riakushon	{[scat n]} =reaction=
+	ribingu	{[scat n]} =living_room=
 	ribon	{[scat n]} =ribbon=
 	rifutingu	{[scat n:vn]} =lifting=
 	riidaa	{[scat n]} =leader=
@@ -1084,11 +1133,13 @@
 	rooraa	{[scat n]} =roller=
 	rooraasukeeto	{[scat n]} =roller_skate=
 	rootarii	{[scat n]} =rotary=
+	roozugaaden	{[scat n]} =rose_garden= "roozu_gaaden"
 	rubii	{[scat n]} =ruby=
 	ryukku	{[scat n]} =knapsack=
 	ryukkusakku	{[scat n]} =knapsack=
 	ryukkuzakku	{[scat n]} =knapsack=
 	saabisu	{[scat n:vn]} =service=
+	daisaabisu	{[scat n:vn]} =big_service= "dai_BIG_saabisu"
 	saakasu	{[scat n]} =circus=
 	saboten	{[scat n]} =cactus=
 	sadoru	{[scat n]} =saddle=
@@ -1125,6 +1176,7 @@
 	serifu	{[scat n]} =speech_line=
 	serohan	{[scat n]} =cellophane=
 	serori	{[scat n]} =celery=
+	settingu	{[scat n:vn]} =setting=
 	setto	{[scat n]} =set=
 	setto	{[scat n:vn]} =set_up=
 	shaabetto	{[scat n]} =sorbet=
@@ -1139,6 +1191,7 @@
 	sheiku	{[scat n]} =milkshake= "sheeku"
 	sheipuappu	{[scat n:vn]} =shape_up=
 	shichuu	{[scat n]} =stew=
+	shifuto	{[scat n:vn]} =shift=
 	shigunaru	{[scat n]} =signal=
 	shiichikin	{[scat n]} =tuna_flakes=
 	shiiemu	{[scat n]} =commercial=
@@ -1152,7 +1205,7 @@
 	shimiizu	{[scat n]} "shumiizu" =chemise=
 	shumiizu	{[scat n]} =chemise=
 	shinamon	{[scat n]} =cinnamon=
-	shintomato	{[scat n]} =tomato= "shin_NEW#tomato"
+	shintomato	{[scat n]} =tomato= "shin_NEW_tomato"
 	shiriaru	{[scat n]} =cereal=
 	shiriizu	{[scat n]} =series=
 	shiroppu	{[scat n]} =syrup=
@@ -1183,6 +1236,7 @@
 	suitchi	{[scat n]} =switch=
 	sukaafu	{[scat n]} =scarf=
 	sukaato	{[scat n]} =skirt=
+	sukaatotsuki	{[scat n]} =with_skirt= "sukaato_tsuki_WITH"
 	sukanku	{[scat n]} =skunk=
 	sukeeto	{[scat n]} =skates=
 	sukejuuru	{[scat n]} =schedule=
@@ -1192,6 +1246,7 @@
 	sukoppu	{[scat n]} =spade=
 	sukureepaa	{[scat n]} =scraper=
 	sukuriin	{[scat n]} =screen=
+	sukuutaa	{[scat n]} =scooter=
 	sumaho	{[scat n]} =smart_phone=
 	sumasshu	{[scat n]} =smash=
 	sumoggu	{[scat n]} =smog=
@@ -1224,6 +1279,7 @@
 	surippu	{[scat n:vn]} =slip=
 	suroopu	{[scat n]} =slope=
 	sutaato	{[scat n:vn]} =start=
+	sutambai	{[scat n:vn]} =stand_by=
 	sutampu	{[scat n]} =stamp=
 	sutando	{[scat n]} =floor_lamp=
 	suteeji	{[scat n]} =stage=
@@ -1231,7 +1287,9 @@
 	suteeshon	{[scat n]} =station=
 	sutekki	{[scat n]} =cane=
 	suteppu	{[scat n]} =step=
+	sutokkingu	{[scat n]} =stocking=
 	sutoobu	{[scat n]} =stove=
+	sutoobuya	{[scat n]} =stove_shop= "sutoobu_ya_SHOP"
 	sutoorii	{[scat n]} =story=
 	sutoppu	{[scat n:vn]} =stop=
 	sutoraiku	{[scat n:vn]} =baseball_strike=
@@ -1245,6 +1303,8 @@
 	suupu	{[scat n]} =soup=
 	suutsu	{[scat n]} =suit=
 	suutsukeesu	{[scat n]} =suitcase=
+	suwiito	{[scat n]} =suite=
+	taaban	{[scat n]} =turban=
 	taakii	{[scat n]} =turkey=
 	tabako	{[scat n]} =tobacco=
 	taigaa	{[scat n]} =tiger=
@@ -1254,7 +1314,10 @@
 	taipu	{[scat n]} =type=
 	taitsu	{[scat n]} =tights=
 	taiya	{[scat n]} =tire=
+	taiyaya	{[scat n]} =tire_shop= "taiya_ya_SHOP"
+	taizai	{[scat n:vn]} =stay=
 	takushii	{[scat n]} =taxi=
+	takushiiya	{[scat n]} =taxi_shop= "taxi_ya_SHOP"
 	takuto	{[scat n]} =baton=
 	tambarin	{[scat n]} =tambourine=
 	tamburin	{[scat n]} =tambourine= "tambarin"
@@ -1265,6 +1328,7 @@
 	tappaa	{[scat n]} =tupper=
 	tarappu	{[scat n]} =landing_steps=
 	taruto	{[scat n]} =tart=
+	tatchi	{[scat n:vn]} =touch=
 	tawaa	{[scat n]} =tower=
 	teeburu	{[scat n]} =table=
 	teema	{[scat n]} =theme=
@@ -1275,6 +1339,8 @@
 	tenshon	{[scat n]} =tension=
 	tento	{[scat n]} =tent=
 	terebi	{[scat n]} =tv=
+	terebisha	{[scat n]} =tv_car= "terebi_sha_VEHICLE"
+	terebikyoku	{[scat n]} =tv_station= "terebi_kyoku_BUREAU"
 	terebiran	{[scat n]} =tv_page=
 	tesuto	{[scat n:vn]} =test=
 	tesuto	{[scat n]} =test=
@@ -1289,6 +1355,7 @@
 	tomika	{[scat n]} =tomika_mini_car=
 	tonakai	{[scat n]} =elk=
 	tonneru	{[scat n]} =tunnel=
+	tonnerutsuki	{[scat n]} =with_tunnel= "tonneru_tsuki_WITH"
 	toosutaa	{[scat n]} =toaster=
 	toosuto	{[scat n]} =toast=
 	torai	{[scat n:vn]} =try=
@@ -1296,7 +1363,8 @@
 	toraianguru	{[scat n]} =triangle=
 	torakkingu	{[scat n]} =tracking=
 	torakku	{[scat n]} =truck=
-	torakkusha	{[scat n]} =truck= "torakku-sha"
+	torakkuya	{[scat n]} =truck_shop= "torakku_ya_SHOP"
+	torakkusha	{[scat n]} =truck= "torakku_sha_VEHICLE"
 	torakuta	{[scat n]} =tractor= "torakutaa"
 	torakutaa	{[scat n]} =tractor=
 	torampetto	{[scat n]} =trumpet=
@@ -1308,8 +1376,10 @@
 	toreenaa	{[scat n]} =trainer=
 	toreeningu	{[scat n]} =training=
 	toreeraa	{[scat n]} =trailer=
+	toreeraaya	{[scat n]} =trailer_shop= "toreeraa_ya_SHOP"
 	torikeratopusu	{[scat n]} =triceratops=
 	toripuru	{[scat n]} =triple=
+	toripuruakuseru	{[scat n]} =triple_axel= "toripuru_akuseru"
 	torokko	{[scat n]} =trolley= 	% トロッコ 
 	toromboon	{[scat n]} =trombone=
 	tsuna	{[scat n]} =tuna=
@@ -1319,7 +1389,7 @@
 	uinna	{[scat n]} =wiener_sausage= "uinnaa"
 	 uinnaa	{[scat n]} =wiener_sausage=
 	 winnaa	{[scat n]} =wiener_sausage= "uinnaa"
-	uinnaa	{[scat n]} =wiener_sausage=
+	uinnaya	{[scat n]} =wiener_sausage_shop= "uinna_ya_SHOP"
 	uirusu	{[scat n]} =virus=
 	uisukii	{[scat n]} =whiskey=
 	ukurere	{[scat n]} =ukulele=
@@ -1328,12 +1398,13 @@
 	waapu	{[scat n:vn]} =warp=
 	waapuro	{[scat n]} =wordprocessor=
 	wagon	{[scat n]} =wagon=
-	wagonsha	{[scat n]} =wagon=
+	wagonsha	{[scat n]} =wagon= "wagon_sha_VEHICLE"
 	waffuru	{[scat n]} =waffle=
 	wain	{[scat n]} =wine=
 	waipaa	{[scat n]} =wiper=
 	waishatsu	{[scat n]} =white_shirt=
 	wakkusu	{[scat n]} =wax=
+	wambokkusukaa	{[scat n]} =carriage= "wan_bokkusu_kaa"
 	wampiisu	{[scat n]} =one_piece_dress=
 	warutsu	{[scat n]} =waltz=
 	weehaasu	{[scat n]} =wafers= "uehaasu"
@@ -1342,6 +1413,7 @@
 	yooguruto	{[scat n]} =yoghurt=
 	yooderu	{[scat n]} =yodel=
 	yooyoo	{[scat n]} =yoyo=
+	yooyooya	{[scat n]} =yoyo_shop= "yooyoo_ya_SHOP"
 	yotto	{[scat n]} =yacht=
 	yuubooto	{[scat n]} =u_boat=
 	yuufo	{[scat n]} =ufo= "yuufoo"
@@ -1350,6 +1422,7 @@
 	zenee	{[scat n]} =avantgarde=
 	zerii	{[scat n]} =jelly=
 	zubon	{[scat n]} =pants=
+	zubonya	{[scat n]} =pants_shop= "zubon_ya_SHOP"
 	zukku	{[scat n]} =canvas=
 	zuroozu	{[scat n]} =bloomers=	
 	zuumu	{[scat n]} =zoom=

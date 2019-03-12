@@ -107,8 +107,6 @@ zenchoo	{[scat num] [allo numCFa] [numf -] [numcform OR san nan]} =hundredtrilli
 nijuu	{[scat num]} "ni-juu_MULTIPLE" =two=	
 sanjuu	{[scat num]} "san-juu_MULTIPLE" =three=	
 
-ichinenjuu	{[scat num]} =throughout_the_year= "ichi-nen-juu"			
-ichinichijuu	{[scat num]} =throughout_the_day= "ichi-nichi-juu"			
 ichigoo	{[scat num]} =carriage_one= "ichi-goo"			
 ippin	{[scat num]} =one_item= "ichi-hin"			
 isshu	{[scat num]} =one_kind= "ichi-shu"			

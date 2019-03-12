@@ -1,7 +1,6 @@
 @UTF8
 
 % motherese expressions
-onikai	{[scat num]} "o_HON#ni-kai_FLOOR" =two=
 %%%%%%%%%%%%
 %%% NOUNS %%%
 %%%%%%%%%%%%
@@ -42,6 +41,7 @@ ban	{[scat n:mot]} =pistol=
 batabata	{[scat n:mot]} =cycle_car=
 batanko	{[scat n:mot]} =cycle_car=
 batambatan	{[scat n:mot]} =seesaw=
+batchi	{[scat n:mot]} =dirty=
 batchichi	{[scat n:mot]} =dirty=
 bibi	{[scat n:mot]} =bottle=
 bebe	{[scat n:mot]} =clothes=
@@ -229,6 +229,7 @@ pompokopon	{[scat n:mot]}	=full_stomach=
 pompokorin	{[scat n:mot]}	=full_stomach=
 pompon	{[scat n:mot]}	=belly=
 pompon	{[scat n:mot]}	=poo=
+pompon	{[scat n:vn:mot]}	=poo=
 pomponsen	{[scat n:mot]}	=motor_sailer=
 poppo	{[scat n:mot]}	=pigeon=
 poppo	{[scat n:mot]}	=train=
@@ -245,6 +246,7 @@ rinrin	{[scat n:mot]} =bicycle=
 sakippo	{[scat n:mot]} "saki-ppo" =tip=
 samuisamui	{[scat n:mot]} =cold=
 shikko	{[scat n:mot]} =pee=
+shikkotsuki	{[scat n:mot]} "shikko_tsuki_WITH" =with_pee=
 shii	{[scat n:mot]} =pee=
 shiishii	{[scat n:mot]} =pee=
 shiishi	{[scat n:mot]} "shiishii" =pee=
@@ -295,6 +297,7 @@ unchitchi	{[scat n:mot]} =poo=
 unko	{[scat n:mot]} =poo=	
 untan	{[scat n:mot]} =poo=
 unun	{[scat n:mot]} =poo=
+unun	{[scat n:vn:mot]} =poo=
 uunuun	{[scat n:mot]} =poo=
 usa	{[scat n:mot]} =rabbit=
 wan	{[scat n:mot]} =dog=
@@ -341,6 +344,7 @@ dakko	{[scat n:vn:mot]} =embracing=
 dakkodakko	{[scat n:vn:mot]} =embracing=
 dekopin	{[scat n:vn:mot]} =poking_in_forehead=
 eeee	{[scat n:vn:mot]}	=cleaning=
+eeneen	{[scat n:vn:mot]}	=weeping=
 fukifuki	{[scat n:vn:mot]} =swiping=
 furifuri	{[scat n:vn:mot]} =shaking=
 fuu	{[scat n:vn:mot]}	=blowing=
@@ -364,7 +368,7 @@ gotsun	{[scat n:vn:mot]} "gottsun" =bumping_into=
 gottsun	{[scat n:vn:mot]} =bumping_into=
 gottsunko	{[scat n:vn:mot]} "gottsun-ko_DIM" =bumping_into=
 gujupe	{[scat n:vn:mot]} =mouth_rinsing=
-guruguru	{[scat n:vn:mot]} =circling=
+guruguru	{[scat n:vn:mot]} =spinning=
 gyogyo	{[scat n:vn:mot]} =vomit=
 hai	{[scat n:vn:mot]} =handing_over=
 doozo	{[scat n:vn:mot]} =handing_over=
@@ -402,6 +406,7 @@ kikkukikku	{[scat n:vn:mot]} "kikkukikku" =kicking=
 kirakira	{[scat n:vn:mot]} =sparkling=
 kireekiree	{[scat n:vn:mot]} =cleaning=
 kirekire	{[scat n:vn:mot]} "kireekiree" =cleaning=
+kirekire	{[scat n:mot]} "kireekiree" =beautiful=
 kochokocho	{[scat n:vn:mot]} =tickling=	
 kuchukuchu	{[scat n:vn:mot]} =tickling=	
 konekone	{[scat n:vn:mot]} =kneading=
@@ -414,6 +419,7 @@ mamagoto {[scat n:vn:mot]} =play_housekeeping=
 mamagoto {[scat n:mot]} =play_housekeeping_set=
 mamagotogokko {[scat n:vn:mot]} "mamagoto-gokko_GAME" =housekeeping=
 mazemaze	{[scat n:vn:mot]} =mixing=
+mazemazekko	{[scat n:vn:mot]} =mixing= "mazemaze_kko_DIM"
 menkomenko	{[scat n:vn:mot]} =stroking=
 mogumogu	{[scat n:vn:mot]} =chewing=
 moguritcho	{[scat n:vn:mot]} =diving=
@@ -426,6 +432,7 @@ nainai	{[scat n:vn:mot]} =allgone=
 namename	{[scat n:vn:mot]} =licking=
 nanna	{[scat n:vn:mot]} =strolling=
 nenne	{[scat n:vn:mot]} =sleeping=
+nenneko	{[scat n:vn:mot]} =sleeping= "nenne_kko_DIM"
 nennen	{[scat n:vn:mot]} =sleeping=
 nokenoke	{[scat n:vn:mot]} =moving=
 nosenose	{[scat n:vn:mot]} =placing_on=
@@ -449,6 +456,7 @@ otchinton	{[scat n:vn:mot]} =sit_down=
 pachin	{[scat n:vn:mot]} =clicking=
 pachipachi	{[scat n:vn:mot]} =clapping_hands=
 paan	{[scat n:vn:mot]} =splitting=
+pan	{[scat n:vn:mot]}	=hitting=
 pampan	{[scat n:vn:mot]} =hitting=
 pee	{[scat n:vn:mot]} =spitting=
 pempen	{[scat n:vn:mot]} =hitting=
@@ -517,7 +525,6 @@ batchi	{[scat adj:mot]} =dirty=
 babachi	{[scat adj:mot]} =dirty=
 babatchi	{[scat adj:mot]} =dirty=
 batchichi	{[scat adj:mot]}  =dirty=
-batchi	{[scat adj:mot]}  =dirty=
 batchibatchi	{[scat adj:mot]}  =dirty=
 chitcha	{[scat adj:mot]} =small=
 chibitcha	{[scat adj:mot]} =small=

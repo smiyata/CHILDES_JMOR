@@ -5,82 +5,96 @@
 
 %% resulting in VERBAL NOUN %%	
 %lex.compounds  (verb PRES form not used; eg *akeshimeru )
-akeshime	{[scat n:vn]} =open_and_close= "ake_shime&GER"	
-nakiwarai	{[scat n:vn][comp v:c+v:c]} =smiling_through_tears= "nak+waraw-GER"	
-ikiiki	{[scat n:vn]} "iki_iki&GER" =vivid=	%【生き生き】
+akeshime	{[scat n:vn]} =open_and_close= "ake_shime"	
+nakiwarai	{[scat n:vn][comp v:c+v:c]} =smiling_through_tears= "nak+waraw"	
+ikiiki	{[scat n:vn]} "iki_iki" =vivid=	%【生き生き】
 
+atenige	{[scat n:vn]} =hit_and_run_away= "ate_nige"	% 当て逃げ
 dashiire	{[scat n:vn]} =take_in_and_out=	"das_ire" %【出し入れ】
-dehairi	{[scat n:vn]} =go_in_and_out= "de_hair-GER"	%【出入り】
-deiri	{[scat n:vn]} =go_in_and_out=	 "de_ir-GER" %【出入り】
-hayane	{[scat n:vn]} =early_to_bed= "haya_ne&GER"	%【早寝】
-hiebie	{[scat n:vn]} =feel_chilly= "hie_hie&GER"	%【冷え冷え】
-horebore	{[scat n:vn]} =be_enchanted= "hore_hore&GER"	%【ほれぼれ】(〈惚れ〈惚れ)
-hikinige	{[scat n:vn]} =hit_and_run= "hik_nige&GER"	%【ひき逃げ】(〈轢き逃げ)
-hitorijime	{[scat n:vn]} =monopolize= "hito_ri_shime&GER"	%【独り占め】
-hiyake	{[scat n:vn]} =sun_burn= "hi_yake&GER"	%【日焼け】
-hyooshinuke	{[scat n:vn]} "hyooshi_nuke&GER" =feel_deflated=	%【拍子抜け】
+dehairi	{[scat n:vn]} =go_in_and_out= "de_hair"	%【出入り】
+deiri	{[scat n:vn]} =go_in_and_out=	 "de_ir" %【出入り】
+gyakumodori	{[scat n:vn]} =relapsing= "gyaku_modor"	%【逆戻り】
+hagishiri	{[scat n:vn]} =bruxism= "ha_kishir"	%【歯ぎしり】(歯〈軋り)
+hayane	{[scat n:vn]} =early_to_bed= "haya_ne"	%【早寝】
+hayajini	{[scat n:vn]} =premature_death= "haya_shin"	%【早死に】
+hayatochiri	{[scat n:vn]} =jumping_to_conclusion= "haya_tochir"	%【早とちり】
+hiebie	{[scat n:vn]} =feel_chilly= "hie_hie"	%【冷え冷え】
+horebore	{[scat n:vn]} =be_enchanted= "hore_hore"	%【ほれぼれ】(〈惚れ〈惚れ)
+hikinige	{[scat n:vn]} =hit_and_run= "hik_nige"	%【ひき逃げ】(〈轢き逃げ)
+hitorijime	{[scat n:vn]} =monopolize= "hito_ri_shime"	%【独り占め】
+hiyake	{[scat n:vn]} =sun_burn= "hi_yake"	%【日焼け】
+hyooshinuke	{[scat n:vn]} "hyooshi_nuke" =feel_deflated=	%【拍子抜け】
 iiwake	{[scat n:vn]} "iw_wake" =lame_excuse=	%【言い訳】
-ikigire	{[scat n:vn]} "iki_kire&GER" =out_of_breath=	%【息切れ】
-kakemochi	{[scat n:vn]} =holding_two_jobs= "kake_mot-GER"
-kenkawakare	{[scat n:vn]} "kenka_wakare&GER" =part_in_anger=	%【けんか別れ】(〈喧嘩〉別れ)
-kinuke	{[scat n:vn]} "ki_nuke&GER" =absentmindedly=	%【気抜け】
-kizukare	{[scat n:vn]} "ki_tsukare&GER" =mental_fatigue=	%【気疲れ】
-koegawari	{[scat n:vn]} "koe_kawar-GER" =voice_breaking=	%【声変わり】
-konkurabe	{[scat n:vn]} "kon_kurabe&GER" =endurance_contest=	%【根比べ】(根《競べ)
-koromogae	{[scat n:vn]} "koromo_kae&GER" =seasonal_dress_change=	%【衣替え】(衣《更え)
-kuchigotae	{[scat n:vn]} "kuchi_kotae" =talk_back=	%【口答え】
+ikigire	{[scat n:vn]} "iki_kire" =out_of_breath=	%【息切れ】
+kakemochi	{[scat n:vn]} =holding_two_jobs= "kake_mot"
+kenkawakare	{[scat n:vn]} "kenka_wakare" =part_in_anger=	%【けんか別れ】(〈喧嘩〉別れ)
+kibutori	{[scat n:vn]} =looking_plump= "ki_futor"	%【着太り】
+kinori	{[scat n:vn]} =enthusiastic= "ki_nor"	%【気乗り】
+kinuke	{[scat n:vn]} "ki_nuke" =absentmindedly=	%【気抜け】
+kiokure	{[scat n:vn]} =nervousness= "ki_okure"	%【気後れ】
+kiribari	{[scat n:vn]} =patching= "kir_har"	%【切り張り】(切り〈貼り)
+kizukare	{[scat n:vn]} "ki_tsukare" =mental_fatigue=	%【気疲れ】
+koegawari	{[scat n:vn]} "koe_kawar" =voice_breaking=	%【声変わり】
+konkurabe	{[scat n:vn]} "kon_kurabe" =endurance_contest=	%【根比べ】(根《競べ)
+koromogae	{[scat n:vn]} "koromo_kae" =seasonal_dress_change=	%【衣替え】(衣《更え)
+kuchigotae	{[scat n:vn]} "kuchi_kotaeGER" =talk_back=	%【口答え】
+kuinige	{[scat n:vn]} =eat_and_run_away= "kuw_nige"  % 食い逃げ
 manegoto	{[scat n:vn]} "mane_goto" =imitation=	%【まね】(:真似)
-miyamairi	{[scat n:vn]} "miya_mair&GER" =shrine_visit=	%【宮参り】
+miyamairi	{[scat n:vn]} "miya_mair" =shrine_visit=	%【宮参り】
+mochinige	{[scat n:vn]} =take_and_running_away= "mot_nige"  % 持ち逃げ
 nakimane	{[scat n:vn]} "nak_mane" =fake_crying=	%
-nakineiri	{[scat n:vn]} "nak_ne_ir-GER" =cry_oneself_to_sleep=	%【泣き寝入り】
-okawari	{[scat n:vn]} "o_HON_kawar-GER" =refill=	%【お代わり】
+nakineiri	{[scat n:vn]} "nak_ne_ir" =cry_oneself_to_sleep=	%【泣き寝入り】
+norinige	{[scat n:vn]} =ride_and_running_away= "nor_nige"  % 乗り逃げ
+okawari	{[scat n:vn]} "o_HON_kawar" =refill=	%【お代わり】
 omairi	{[scat n:vn]} =shrine_visit= "o_HON_mairi"	%【お参り】
 omake	{[scat n:vn]} =discount= "o_HON_make"	%【おまけ】(お負け)
 omimai	{[scat n:vn]} =sick_bed_visit= "o_HON_mimai"
-otsutome	{[scat n:vn]} =have_a_job= "o_HON_tsutome&GER"	% 努め 
-sundome	{[scat n:vn]} =stopping_just_before= "sun_tome&GER"
-tachigui	{[scat n:vn]} =taking_a_stand_up_meal= "tat_kuw-GER"	
-tachitabe	{[scat n:vn]} =taking_a_stand_up_meal= "tat_tabe&GER"	
-tachiyomi	{[scat n:vn]} =stand_up_reading= "tat_yom-GER"	
-tatakaiasobi	{[scat n:vn]} =fighting_game= "tatakaw_asob-GER"	
-tsumamigui	{[scat n:vn]} =snitching_food= "tsumam_kuw-GER"	
+otsutome	{[scat n:vn]} =have_a_job= "o_HON_tsutome"	% 努め 
+rakugaki	{[scat n:vn]} =scribbling= "raku_kak_GER"	%【落書き】
+rakugakichoo	{[scat n]} =sketch_book= "raku_kak_choo_BINDER"
+sundome	{[scat n:vn]} =stopping_just_before= "sun_tome"
+tachigui	{[scat n:vn]} =taking_a_stand_up_meal= "tat_kuw"	
+tachitabe	{[scat n:vn]} =taking_a_stand_up_meal= "tat_tabe"	
+tachiyomi	{[scat n:vn]} =stand_up_reading= "tat_yom"	
+tatakaiasobi	{[scat n:vn]} =fighting_game= "tatakaw_asob"	
+tsumamigui	{[scat n:vn]} =snitching_food= "tsumam_kuw"	
 
 
 %% resulting in NOUN %%		
 %synt.compounds
-deokure		{[scat n][comp v:v+v:v]} =get_out_too_late= "de+okure&GER"	
-hanashiai	{[scat n][comp v:c+v:c]} =discussion= "hanas+aw-GER"	
-kashikiri	{[scat n][comp v:c+v:c]} =reservation= "kas+kir-GER"	
- kashikiribasu	{[scat n][comp v:c+v:c+n]} =reserved_bus= "kas+kir&GER+basu"	
-tsuribori	{[scat n][comp v:c+v:c]} =fishing_pond= "tsur+hor-GER"
+deokure		{[scat n][comp v:v+v:v]} =get_out_too_late= "de+okure"	
+hanashiai	{[scat n][comp v:c+v:c]} =discussion= "hanas+aw"	
+kashikiri	{[scat n][comp v:c+v:c]} =reservation= "kas+kir"	
+ kashikiribasu	{[scat n][comp v:c+v:c+n]} =reserved_bus= "kas+kir+basu"	
+tsuribori	{[scat n][comp v:c+v:c]} =fishing_pond= "tsur+hor"
 
 
 %lex.compounds
-fukidashi	{[scat n]} =balloon= "fuk_das-GER"	
-furikake	{[scat n]} =dried_fish_powder_to_sprinkle_over_rice= "fur_kake&GER"	
-furikakegohan	{[scat n][comp v:v+n]} =rice_with_dried_fish_powder= "fur_kake&GER+gohan"	
-furikomi	{[scat n]} =bank_transfer= "fur_kom-GER"	
-haraikomi	{[scat n]} =payment= "haraw_kom-GER"	
-haraimodoshi	{[scat n]} =repayment= "haraw_modos-GER"	
-hikidashi	{[scat n]} =drawer= "hik_das-GER"	
-hikiwake	{[scat n]} =drawn_game= "hik_wake&GER"	
-iitsuke		{[scat n]} =command= "iw_tsuke&GER"	
-ikidomari	{[scat n]} =dead_end_street= "ik_tomar-GER"	
-kaeriuchi	{[scat n]} =killing_avenger= "kaer_ut-GER"	
-kakikomi	{[scat n]} =writing_down= "kak_kom-GER"
-kigae		{[scat n]} =spare_clothes= "ki_kae&GER"	
-kikiwake	{[scat n]} =docile= "kik_wake&GER"	
-kirikae		{[scat n]} =switchover= "kir_kae&GER"	
-kiritooshi	{[scat n]} =railway_cutting= "kir_toos-GER"
+fukidashi	{[scat n]} =balloon= "fuk_das"	
+furikake	{[scat n]} =dried_fish_powder_to_sprinkle_over_rice= "fur_kake"	
+furikakegohan	{[scat n][comp v:v+n]} =rice_with_dried_fish_powder= "fur_kake+gohan"	
+furikomi	{[scat n]} =bank_transfer= "fur_kom"	
+haraikomi	{[scat n]} =payment= "haraw_kom"	
+haraimodoshi	{[scat n]} =repayment= "haraw_modos"	
+hikidashi	{[scat n]} =drawer= "hik_das"	
+hikiwake	{[scat n]} =drawn_game= "hik_wake"	
+iitsuke		{[scat n]} =command= "iw_tsuke"	
+ikidomari	{[scat n]} =dead_end_street= "ik_tomar"	
+kaeriuchi	{[scat n]} =killing_avenger= "kaer_ut"	
+kakikomi	{[scat n]} =writing_down= "kak_kom"
+kigae		{[scat n]} =spare_clothes= "ki_kae"	
+kikiwake	{[scat n]} =docile= "kik_wake"	
+kirikae		{[scat n]} =switchover= "kir_kae"	
+kiritooshi	{[scat n]} =railway_cutting= "kir_toos"
 kisekaeningyoo	{[scat n][comp v:v+n]} =dress_up_doll= "kise_kae+ningyoo"	
 kisekaeshiiru	{[scat n][comp v:v+n]} =dress_up_doll_seal= "kise_kae+seal"	
-mooshikomi	{[scat n]} =application= "moos_kom-GER"	
-nikomi		{[scat n]} =stew= "ni_kom&GER"	
-omoikomi	{[scat n]} =prejudiced_impression= "omow_kom-GER"	
-surechigai	{[scat n]} =crossing_paths_without_meeting= "sure_chigaw-GER"	
-tsukeawase	{[scat n]} =garnish= "tsuke_awase&GER"	
-yoidome		{[scat n]} =motion_sickness_medicine= "yow_tome&GER"	
+mooshikomi	{[scat n]} =application= "moos_kom"	
+nikomi		{[scat n]} =stew= "ni_kom"	
+omoikomi	{[scat n]} =prejudiced_impression= "omow_kom"	
+surechigai	{[scat n]} =crossing_paths_without_meeting= "sure_chigaw"	
+tsukeawase	{[scat n]} =garnish= "tsuke_awase"	
+yoidome		{[scat n]} =motion_sickness_medicine= "yow_tome"	
 
 %% OTHER
-totteoki	{[scat n]} =reserve= "tor&CONN_ok-GER"
+totteoki	{[scat n]} =reserve= "tor&CONN_ok"
 

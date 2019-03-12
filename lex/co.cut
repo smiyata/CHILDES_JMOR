@@ -201,6 +201,8 @@ fun	{[scat co:i]} =LISTENING=
 funfun	{[scat co:i]} =i_see= 
 fuun	{[scat co:i]} =AMAZED=
 iie	{[scat co:i]} =no=
+ie	{[scat co:i]} =no= "iie"
+ieq	{[scat co:i]} =no= "iie"
 iiya	{[scat co:i]} =no_rather=
 inainai	{[scat co:g]} =peekaboo= "inaiinai"
 inaiinai	{[scat co:g]} =peekaboo= "inaiinai"
@@ -324,6 +326,7 @@ oo	{[scat co:i]} =oh=    %FILLER
 oou@i	{[scat co:i]} =oh=    %FILLER
 okkee	{[scat co:g]} =ok=
 ookee	{[scat co:g]} =ok= "okkee"
+ookini	{[scat co:g]} =thanks= 
 okorori	{[scat co:g]} =lull_to_sleep=
 omachidoo	{[scat co:g]} =thank_you_for_waiting=
 omachidoosama	{[scat co:g]} =thank_you_for_waiting=
@@ -459,6 +462,7 @@ yai	{[scat co:i]} =hey=
 yaa	{[scat co:i]} =well= "iya"
 yaan	{[scat co:i]} =well= "iya"
 yahhoo	{[scat co:g]} =hi=
+yare	{[scat co:g]} =RELIEF=
 yareyare	{[scat co:g]} =RELIEF=
 yatta	{[scat co:g]} =great=
 yoq	{[scat co:g]} =hi=

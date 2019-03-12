@@ -22,7 +22,6 @@ demo	{[scat conj]} =but=
 desukara	{[scat conj]} =therefore=
 dewa	{[scat conj]} =well=
 ja	{[scat conj]} =well=
-jitsuwa	{[scat conj]} "jitsu_wa" =in_fact=
 monono	{[scat conj]} =although=
 nazenaraba	{[scat conj]} =because=
 nanode	{[scat conj]} =therefore= "na_no_de"
@@ -33,7 +32,6 @@ hoide	{[scat conj]} =and_then= "sorede"
 hoija	{[scat conj]} =well= "soredewa"
 nja	{[scat conj]} =well= "soredewa"
 honde	{[scat conj]} =and_then= "sorede"
-moshikasuruto	{[scat conj]} "moshi_ka_suru_to" =maybe=
 nde	{[scat conj]} =and_then= "sorede"
 nara	{[scat conj]} =in_that_case=
 honja	{[scat conj]} =well= "soredewa"

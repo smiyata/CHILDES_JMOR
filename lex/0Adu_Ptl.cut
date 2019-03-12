@@ -1,5 +1,23 @@
 @UTF8
 %%%% focus paricle
+%%%% case particle
+%%%%  postposition particle
+%%%% compound postposition particle
+%%%% attributive particle 
+%%%% vocative particle
+%%%% final particle
+%%%%%%%%%%%%%%%%% co:i use (isolated) %%%%%%
+%%%% conjunctive particle
+%%%% conjunction
+%%%% coordinating particle
+%%%% sentence nominalizing particle   => n:fml
+%%%% topic particle
+%%%% quotation particle
+%%%%%%%%%% inflection
+
+
+
+%%%% focus paricle
 daka	{[scat ptl:foc]} =or=
 dani	{[scat ptl:foc]}  "da_ni" ==
 datoka	{[scat ptl:foc]} =or=
@@ -193,7 +211,7 @@ zura	{[scat ptl:fina]}  =FINA=
 kana	{[scat co:i]} =DOUBT= "kanaa"
 kane	{[scat co:i]} =DOUBT= "kanee"
 
-%%%%%%%%%%%%conjunctive particle
+%%%% conjunctive particle
 ageku	{[scat ptl:conj]} =finally=
 bakarika	{[scat ptl:conj]} "bakari_ka" =not_only=
 bakarini	{[scat ptl:conj]} "bakari_ni" =simply_because=
@@ -215,6 +233,7 @@ mademo	{[scat ptl:conj]} "made_mo" =go_so_far_as=
 mononara	{[scat ptl:conj]} "mono_nara" =if_possible=
 monono	{[scat ptl:conj]} "mono_no" =although=
 monoo	{[scat ptl:conj]} "mono_o" =in_spite_of=
+nagara	{[scat ptl:conj]} =although=
 ni	{[scat ptl:conj]} =as_far_as=   % deshoo ni  / watashi ga kangaeru ni wa
 niatari	{[scat ptl:conj]} =when= "ni_atatte"
 niatatte	{[scat ptl:conj]} =when= "ni_atatte"
@@ -231,6 +250,7 @@ nitsure	{[scat ptl:conj]} =in_association_with= "ni_tsure"
 nitsurete	{[scat ptl:conj]} =in_association_with= "ni_tsurete"
 nodewa	{[scat ptl:conj]} =because= "no_de_wa"
 sakai	{[scat ptl:conj]} =because=
+sorenishitemo	{[scat ptl:conj]} =at_any_rate= "sore_ni_shite_mo"
 toii	{[scat ptl:foc]} =so_called= "to&ii&QUOT"
 toisshoni	{[scat ptl:conj]} "to_issho_ni" =simultaneously=
 toittemo	{[scat ptl:conj]} "to_itte_mo" =even=
@@ -250,10 +270,40 @@ ya	{[scat ptl:conj]} =or=
 yara	{[scat ptl:conj]} =or=
 yainaya	{[scat ptl:conj]} =or= "ya_ina_ya"
 
-%%%%%%%%%%%% conjunction
+%%%% conjunction
 %to		{[scat conj]} =and_then=    %disamibuation
+ato	{[scat conj]} =another=
+chinamini	{[scat conj]} =by_the_way= "chinami_ni"
+datosuruto	{[scat conj]} =assuming_that= "da_to_suru_to"
+desuga	{[scat conj]} =but= "desu_ga"
+ga	{[scat conj]} =but= 
+ippoo	{[scat conj]} =on_the_other_hand=
+ja	{[scat conj]} =then=
+jaa	{[scat conj]} =then=
+katsu	{[scat conj]} =and=
+keredo	{[scat conj]} =but=
+keredomo	{[scat conj]} =but=
+kuwaete	{[scat conj]} =besides=
+mata	{[scat conj]} =and=
+matawa	{[scat conj]} =or= "mata_wa"
+moshikuwa	{[scat conj]} =or= "moshiku_wa"
+mottomo	{[scat conj]} =however=
+narabini	{[scat conj]} =and= "narabi_ni"
+oyobi	{[scat conj]} =and=
+sarani	{[scat conj]} =furthermore= "sara_ni"
+saraniwa	{[scat conj]} =furthermore= "sara_ni_wa"
+shikashinagara	{[scat conj]} =but= "shikashi_nagara"
+shitagatte	{[scat conj]} =therefore=
+shitemiruto	{[scat conj]} =if_so= "shite_miru_to"
+sooshite	{[scat conj]} =and_then= "soo_shite"
+soremo	{[scat conj]} =and_in_addition_to_that= "sore_mo"
+sorenishitemo	{[scat conj]} =nevertheless= "sore_ni_shite_mo"
+toiunowa	{[scat conj]} =because= "to_iu_no_wa"
+towaie	{[scat conj]} =nevertheless= "to_wa_ie"
+towaittemo	{[scat conj]} =nevertheless= "to_wa_itte_mo"
+yotte	{[scat conj]} =therefore=
 
-%%%%%%%%%%%% coordinating particle
+%%%% coordinating particle
 nari	{[scat ptl:coo]} =and=
 daka	{[scat ptl:coo]} =or=
 dano	{[scat ptl:coo]} =or=
@@ -266,14 +316,18 @@ soshite	{[scat ptl:coo]} =and_also=
 sorekara	{[scat ptl:coo]} =and_also=
 tomo	{[scat ptl:coo]}  =also=
 
-%%%%% sentence nominalizing particle   => n:fml
 
-%%%%% topic particle
+%%%% sentence nominalizing particle   => n:fml
+
+%%%% topic particle
 nara	{[scat ptl:top]}  =TOP=   % if replaceable with WA
 naraba	{[scat ptl:top]}  =TOP=   % if replaceable with WA
 toshimashite	{[scat ptl:top]} =TOP= "to_shimashite&POL"  
 
-%%%%% quotation particle
+%%%% quotation particle
 nante	{[scat ptl:quot]} =such_as= "nan_tte"
 tono	{[scat ptl:quot]} =QUOT= "to_no&QUOT"
+
+%%%%%%%%%% inflection
+yoo	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yoo_WAY_OF"  % tabeyoo mo naij
 

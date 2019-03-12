@@ -14,6 +14,8 @@ OLD
 taberuna  v:v|tabe-NEG&IMP:runa=eat
 NEW
 taberu na  v:v|tabe-PRES  smod|na=PRH 
+\|([^ ]+)-NEG&IMP:runa=([^ ]+)
+|\1-PRES=\2 smod|na=PRH
 
 2) new final inflection: -SIMUL (nagara)
 ptl:conj|nagara=while has been changed to -SIMUL (final inflection) and ptl:foc (after noun), resp.
@@ -162,6 +164,7 @@ kore ja dame    ptl:cppost|ja=in_that_case
 In the case of copula use ("da") : v:cop
 iya ja.    v:cop|de&CONN&wa=be
 nan ja.   v:cop|de&CONN&wa=be
+
   10)  Focus particles revised
 a) Per definition, focus particles can appear also after verbs.
 A division between ptl:foc and ptl:conj  (made shika toka made nomi nante yara)
@@ -388,7 +391,7 @@ ptl:post|yori=COMPARE
 例:sugu iku yori chotto matta hoo ga ii   -> ptl:conj|yori=more 
 
 ******** CHANGES **2016Apr24
-オノマトペの“語幹”に統一
+オノマトペの“語幹”に統一 (大野正弘 2007, 日本語オノマトペ辞典, 小学館)
 オノマトペのバリエーションを3繰り返しまで登録してありますが,%morアウトプット
 を語幹に統一しました.
 例:becha, bechabecha, bechabechabecha, betchaq がonoma|bechaとして表記

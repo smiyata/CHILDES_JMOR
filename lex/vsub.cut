@@ -35,7 +35,7 @@ yar	{[scat v:c:sub]} =give_CLQ=
 %			Irregular AI-VERBS
 kudasar	{[scat v:c:sub]} =give_POL= 
 kudasaimasu	{[scat v:c:sub] [tense pres]} =give_POL= "kudasar-POL-PRES"
-kudasaimasen	{[scat v:c:sub] [tense pres]} =give_POL= "kudasar-POL-NEG:n"
+kudasaimasen	{[scat v:c:sub] [tense pres]} =give_POL= "kudasar-POL-NEG:n&PRES"
 kudasaimashita	{[scat v:c:sub] [tense past]} =give_POL= "kudasar-POL-PAST"
 kudasaimashite	{[scat v:c:sub] [tense inf]} =give_POL= "kudasar-POL-CONN"
 kudasaimashoo	{[scat v:c:sub] [tense inf]} =give_POL= "kudasar-POL-HORT"
@@ -43,7 +43,7 @@ kudasaimashitara	{[scat v:c:sub] [tense inf]} =give_POL= "kudasar-POL-COND:tara"
 
 gozaimasu	{[scat v:c:sub] [tense pres]} =be_POL= "gozar-POL-PRES"
 gozaimasu	{[scat v:c] [tense pres]} =be_POL= "gozar-POL-PRES"
-gozaimasen	{[scat v:c:sub] [tense pres]} =be_POL= "gozar-POL-NEG:n"
+gozaimasen	{[scat v:c:sub] [tense pres]} =be_POL= "gozar-POL-NEG:n&PRES"
 gozaimashita	{[scat v:c:sub] [tense past]} =be_POL= "gozar-POL-PAST"
 gozaimashite	{[scat v:c:sub] [tense inf]} =be_POL= "gozae-POL-CONN"
 gozaimashoo	{[scat v:c:sub] [tense inf]} =be_POL= "goza-POL-HORT"
@@ -51,7 +51,7 @@ gozaimashitara	{[scat v:c:sub] [tense inf]} =be_POL= "goza-POL-COND:tara"
 
 irasshar	{[scat v:c:sub]} =come_POL=	
 irasshaimasu	{[scat v:c:sub] [tense pres]} =come_POL= "irasshar-POL-PRES"
-irasshaimasen	{[scat v:c:sub] [tense pres]} =come_POL= "irasshar-POL-NEG:n"
+irasshaimasen	{[scat v:c:sub] [tense pres]} =come_POL= "irasshar-POL-NEG:n&PRES"
 irasshaimashita	{[scat v:c:sub] [tense past]} =come_POL= "irasshar-POL-PAST"
 irasshaimashite	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-HORT"
@@ -59,7 +59,7 @@ irasshaimashitara	{[scat v:c:sub] [tense inf]} =come_POL= "irasshar-POL-COND:tar
 
 irasshar	{[scat v:c:sub]} =be_POL=	
 irasshaimasu	{[scat v:c:sub] [tense pres]} =be_POL= "irasshar-POL-PRES"
-irasshaimasen	{[scat v:c:sub] [tense pres]} =be_POL= "irasshar-POL-NEG:n"
+irasshaimasen	{[scat v:c:sub] [tense pres]} =be_POL= "irasshar-POL-NEG:n&PRES"
 irasshaimashita	{[scat v:c:sub] [tense past]} =be_POL= "irasshar-POL-PAST"
 irasshaimashite	{[scat v:c:sub] [tense inf]} =be_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c:sub] [tense inf]} =be_POL= "irasshar-POL-HORT"

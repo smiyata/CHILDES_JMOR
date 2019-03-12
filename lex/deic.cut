@@ -8,66 +8,69 @@
 
 %%%%%%%%%%% Definites	
 	
-aaiu	{[scat adn:deic:dem]} =like_that=	
-aayuu	{[scat adn:deic:dem]} "aaiu" =like_that=	
-anna	{[scat adn:deic:dem]} =like_that=	
-ano	{[scat adn:deic:dem]} =that=	
-andake	{[scat n:deic:dem]} =that_much=	
-aashita	{[scat adn:deic:dem]} =like_that=
-konna	{[scat adn:deic:dem]} =like_this=	
-kono	{[scat adn:deic:dem]} =this=	
-kooiu	{[scat adn:deic:dem]} =like_this=	
-kooyuu	{[scat adn:deic:dem]} =like_this= "kooiu"	
-kooshita	{[scat adn:deic:dem]} =like_this=
-sonna	{[scat adn:deic:dem]} =like_that=	
-sono	{[scat adn:deic:dem]} =that=	
-sooiu	{[scat adn:deic:dem]} =like_that=	
-sooyuu	{[scat adn:deic:dem]} =like_that= "sooiu"	
 aa	{[scat adv:deic:dem]} =like_that=	
-annani	{[scat adv:deic:dem]} =like_that=	
-konnani	{[scat adv:deic:dem]} =like_this=	
-koo	{[scat adv:deic:dem]} =like_this=	
-sonnani	{[scat adv:deic:dem]} =like_that=	
-soo	{[scat adv:deic:dem]} =like_that=	
-are	{[scat n:deic:dem] [nsform ijoo]} =that=	
-arya	{[scat n:deic:dem]} =this= "are&wa"	
+aaiu	{[scat adn:deic:dem]} =like_that=	
+aashita	{[scat adn:deic:dem]} =like_that=
+aayuu	{[scat adn:deic:dem]} "aaiu" =like_that=	
 achira	{[scat n:deic:dem]} =over_there_HON=	
 aitsu	{[scat n:deic:dem]} =he_CLQ=	
+andake	{[scat n:deic:dem]} =that_much=	
+anna	{[scat adn:deic:dem]} =like_that=	
+annani	{[scat adv:deic:dem]} =like_that=	
+ano	{[scat adn:deic:dem]} =that=	
+anoyoo	{[scat n:an:deic:dem]} =like_that= "ano_yoo"
+are	{[scat n:deic:dem] [nsform ijoo]} =that=	
+arya	{[scat n:deic:dem]} =this= "are&wa"	
 asoko	{[scat n:deic:dem]} =over_there=	
-asuko	{[scat n:deic:dem]} =over_there= "asoko"	
 asokora	{[scat adn:deic:dem]} =over_there=	
+asuko	{[scat n:deic:dem]} =over_there= "asoko"	
 atchi	{[scat n:deic:dem]} =over_there=	
- atchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "atchi+ik-GER" =directed_for_over_there=	
+atchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "atchi+ik-GER" =directed_for_over_there=	
 atchikotchi	{[scat n:deic:dem]} =all_over_the_place=	
-kotchi	{[scat n:deic:dem]} =here=	
- kotchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "kotchi+ik-GER" =directed_for_here=	
-kore	{[scat n:deic:dem]} =this=	
-koreq	{[scat n:deic:dem]} =this=	
-korya	{[scat n:deic:dem]} =this= "kore&wa"	
 kochira	{[scat n:deic:dem]} =here_HON=	
 koitsu	{[scat n:deic:dem]} =he_CLQ=	
 koko	{[scat n:deic:dem]} =here=	
-kokora	{[scat adn:deic:dem]} =here=	
 kokoira	{[scat adn:deic:dem]} =here= "kokora"	
+kokora	{[scat adn:deic:dem]} =here=	
 kokorajuu	{[scat n:deic:dem]} =all_over= "kokora-juu_MID"	
 kondake	{[scat n:deic:dem]} =this_much=	
-sore	{[scat n:deic:dem]} =this=	
-sorenarini	{[scat adv:deic:dem]} =in_its_own_way= "sore_nari_ni"	
-sorenarino	{[scat adn]} =in_its_own_way= "sore_nari_ni"	
-sorya	{[scat n:deic:dem]} =this= "sore&wa"	
+konna	{[scat adn:deic:dem]} =like_this=	
+konnani	{[scat adv:deic:dem]} =like_this=	
+kono	{[scat adn:deic:dem]} =this=	
+konoyoo	{[scat n:an:deic:dem]} =like_this= "kono_yoo"
+koo	{[scat adv:deic:dem]} =like_this=	
+kooiu	{[scat adn:deic:dem]} =like_this=	
+kooshita	{[scat adn:deic:dem]} =such=
+kooyuu	{[scat adn:deic:dem]} =like_this= "kooiu"	
+kore	{[scat n:deic:dem]} =this=	
+koreq	{[scat n:deic:dem]} =this=	
+korya	{[scat n:deic:dem]} =this= "kore&wa"	
+kotchi	{[scat n:deic:dem]} =here=	
+kotchiiki	{[scat n:deic:dem][comp n:deic:dem+v:c]} "kotchi+ik-GER" =directed_for_here=	
 sochira	{[scat n:deic:dem]} =there_HON=	
 soitsu	{[scat n:deic:dem]} =he_CLQ=	
 soko	{[scat n:deic:dem]} =there=	
 sokora	{[scat adn:deic:dem]} =there=	
 %sokorahen	{[scat n:deic:dem]} == %2 words	
 sokorajuu	{[scat n:deic:dem]} =all_over= "sokora-chuu_MID"	
-sotchi	{[scat n:deic:dem]} =there=	
 sondake	{[scat n:deic:dem]} =that_much=	
-
+sonna	{[scat adn:deic:dem]} =like_that=	
+sonnani	{[scat adv:deic:dem]} =like_that=	
+sono	{[scat adn:deic:dem]} =that=	
+sonoyoo	{[scat n:an:deic:dem]} =like_that= "sono_yoo"
+soo	{[scat adv:deic:dem]} =like_that=	
+sooiu	{[scat adn:deic:dem]} =like_that=	
+sooyuu	{[scat adn:deic:dem]} =like_that= "sooiu"	
+sore	{[scat n:deic:dem]} =this=	
+sorenarini	{[scat adv:deic:dem]} =in_its_own_way= "sore_nari_ni"	
+sorenarino	{[scat adn]} =in_its_own_way= "sore_nari_ni"	
+sorya	{[scat n:deic:dem]} =this= "sore&wa"	
+sotchi	{[scat n:deic:dem]} =there=	
 %%%%%%%%%%% WH Nouns	
 	
 donna	{[scat adn:deic:wh]} =what_kind=	
 dono	{[scat adn:deic:wh]} =which=	
+donoyoo	{[scat n:an:deic:wh]} =how= "dono_yoo"
 dooiu	{[scat adn:deic:wh]} =what_kind=	
 dooyuu	{[scat adn:deic:wh]} =what_kind= "dooiu"	
 donnani	{[scat adv:deic:wh]} =how_much=	
@@ -77,6 +80,7 @@ dooshite	{[scat adv:deic:wh]} =why=
 doshite	{[scat adv:deic:wh]} =why= "dooshite"	
 dooyatte	{[scat adv:deic:wh]} =how=
 ikaga	{[scat adv:deic:wh]} =how=	
+ikanaru	{[scat adn:deic:wh]} =what_kind=
 ikani	{[scat adv:deic:indef]} =how=	% いかに  如何に 
 ikura	{[scat adv:deic:wh]} =how_much=	
 oikura	{[scat adv:deic:wh]} =how_much= "o_HON#ikura"	
@@ -89,7 +93,8 @@ nani	{[scat n:deic:wh]} =what=
  nam	{[scat n:deic:wh] [allo numBFb]} =how_many= "nani"
 nanigoto	{[scat n:deic:wh]} =what_matter=
 naninani	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
-nanisen	{[scat n:deic:wh]} =what_line= "nani-sen"
+naniya	{[scat n:deic:wh]} =what_shop= "nani_ya_SHOP"
+nanisen	{[scat n:deic:wh]} =what_line= "nani-sen_LINE"
 nanikaa	{[scat n:deic:wh]} =what_car= "nani-kaa"
 nanyoobi	{[scat n:deic:wh]} =which_weekday= "nani-yoobi"
 nande	{[scat adv:deic:wh]} =why=

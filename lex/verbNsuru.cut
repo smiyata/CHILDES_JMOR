@@ -2,5 +2,7 @@
 %% N-suru verbs 	########
 %%% have to be set up in cr.cut
 
+ais	{[scat v:c]} =love=                   % 【愛す】(“愛す.べき”) 
+hans	{[scat v:c]} =be_against=
 imisu	{[scat v:ir]} =denote= %意味する
 

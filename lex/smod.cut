@@ -1,30 +1,46 @@
 @UTF8
 %%%% sentence modalizer
-beki	{[scat smod]} =ought_to_do=
-beshi	{[scat smod]} =ought_to_do=
+beku	{[scat smod]} =OBLG=
+beshi	{[scat smod]} =OBLG= 
+beki	{[scat smod]} =OBLG= "beki&ADN"
+bekarazu	{[scat smod]} =OBLG= "bekarazu&NEG"
 chau	{[scat smod]} =isnt_it=
-nichigainai	{[scat smod]} =no_doubt_that= "ni_chigai_nai"
-nichigainakatta	{[scat smod]} =no_doubt_that= "ni_chigai_nakatta"
-nichigaiarimasen	{[scat smod]} =no_doubt_that= "ni_chigai_arimasen"
-nisooinai	{[scat smod]} =no_doubt_that= "ni_sooi_nai"
+chau	{[scat smod]} =isnt_it=
 
-daro	{[scat smod]} =dont_you_think= "daroo"
-daroo	{[scat smod]} =dont_you_think=
-desho	{[scat smod]} =dont_you_think= "deshoo&POL"
-deshoo	{[scat smod]} =dont_you_think= "deshoo&POL"
+kamo	{[scat smod]} =perhaps=
+kamoshinnai	{[scat smod]} =perhaps= "kamoshirena-PRES"
+kamoshiremasen	{[scat smod]} =perhaps= "kamoshiremasen&POL"
+kamoshiren	{[scat smod]} =perhaps= "kamoshiren&PRES"
+kamoshirenai	{[scat smod]} =perhaps= "kamoshirena-PRES"
+kamoshirenakute	{[scat smod]} =perhaps= "kamoshirena-CONN"
+kamoshirenaku	{[scat smod]} =perhaps= "kamoshirena-ADV"
+kamoshirenakatta	{[scat smod]} =perhaps= "kamoshirena-PAST"
+kashiran	{[scat smod]} =perhaps= 
+kashira	{[scat smod]} =perhaps=
+
+daro	{[scat smod]} =INFR= "daroo"
+daroo	{[scat smod]} =INFR=
+desho	{[scat smod]} =INFR= "deshoo&POL"
+deshoo	{[scat smod]} =INFR= "deshoo&POL"
+yaro	{[scat smod]} =INFR=
+jaro	{[scat smod]} =INFR=
+jaroo	{[scat smod]} =INFR=
+
 desu	{[scat smod]} =POL=
-yaro	{[scat smod]} =isnt_it=
-jaro	{[scat smod]} =isnt_it=
-jaroo	{[scat smod]} =isnt_it=
+desu	{[scat v:ir:sub][tense inf]} =POL=
 
-mai	{[scat smod]} =probably_not=
-mitai	{[scat smod]} =looks_like=
+mai	{[scat smod]} =NEG&INFR=
+mitai	{[scat smod]} =INFR=
+mitaku	{[scat smod]} =INFR= "mitaku&ADV"
 ppoi	{[scat smod]} =looks_like= "ppo-PRES"   %after tense  (attached to nouns)
 ppoku	{[scat smod]} =looks_like= "ppo-ADV"
 ppokunai	{[scat smod]} =looks_like= "ppo-NEG-PRES"
-rashii	{[scat smod]} =hearsay= "rashi-PRES"
-rashiku	{[scat smod]} =hearsay= "rashi-ADV"
-rashikute	{[scat smod]} =hearsay= "rashi-CONN"
-soo	{[scat smod]} =hearsay=
+rashii	{[scat smod]} =SENS= "rashi-PRES"  % sensory evidential mood
+rashikatta     {[scat smod]} =SENS= "rashi-PAST"
+rashiku	{[scat smod]} =SENS= "rashi-ADV"
+rashikute	{[scat smod]} =SENS= "rashi-CONN"
+
+soo	{[scat smod]} =HEARSAY=
 na	{[scat smod]} =PRH=
+yoo	{[scat smod]} =SENS=
 

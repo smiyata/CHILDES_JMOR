@@ -1,106 +1,179 @@
 @UTF8
 %% PREFIXES %%
-% verb prefixes  "> entered directly in ar.cut as verb stem allo
 
-% noun prefixes
-dai	{[scat pfx] [pcat n]} "dai_BIG"		% 大 
-choo	{[scat pfx] [pcat n]} "choo_EXTREMELY"	% 超 
-do	{[scat pfx] [pcat n]} "do_EXTREMELY"		%ど
-go	{[scat pfx] [pcat n]} "go_HON"	% ご 
-kaku	{[scat pfx] [pcat n]} "kaku_EACH"	% 各
+
+
+% noun prefixes   o_HON#n|te=hand ########
+go	{[scat pfx] [pcat n]} "go_HON"	%  御 
 o	{[scat pfx] [pcat n]} "o_HON"	% お 
-oo	{[scat pfx] [pcat n]} "oo_BIG"	% 大
 
-%bu_NOT"		% 不 listed in the lexicon
-%fu_NOT"		% 不  listed in the lexicon
-%fuku_SUB	% 副  listed in the lexicon
-%hi_NOT	% 非 listed in the lexicon
-%hon_ORIG		% 本 listed in the lexicon 
-%ko_SMALL	% 小 listed in the lexicon 
-%kon_THIS	% 今 listed in the lexicon 
-%mi_NOT_YET	% 未 listed in the lexicon
-%ma_STRAIGHT"	% 真 listed in the lexicon
-%maru_COMPLETELY	%丸 listed in the lexicon
-%moo_CRAZY"	% 猛 listed in the lexicon
-%moto_FORMER	 %本  listed in the lexicon
-%mu_MU	% 無 listed in the lexicon
-%oo_MANY	% 多 listed in the lexicon
-%soo_GENERAL"	% 総  listed in the lexicon
-
-%ryoo	{[scat pfx] [pcat n]} "both"		% 両 changed to quant
-%mai	{[scat pfx] [pcat n]} "every"		% 毎 changed to quant
-
-
-% adjective prefixes
-choo	{[scat pfx] [pcat adj]} "choo_EXTREMELY"		% 超 
-do	{[scat pfx] [pcat adj]} "do_EXTREMELY"		% 
-%ma_STRAIGHT		% 真  listed in the lexicon
+% adjective prefixes   ########
 o	{[scat pfx] [pcat adj]} "o_HON"
 
-% adjectival noun prefixes
-choo	{[scat pfx] [pcat n:an]} "choo_EXTREMELY"	% 超 
-dai	{[scat pfx] [pcat n:an]} "dai_BIG"	% 大 
-o	{[scat pfx] [pcat n:an]} "o_HON"
+% adjectival noun prefixes    ########
+go	{[scat pfx] [pcat n:an]} "go_HON"	% 御 
+o	{[scat pfx] [pcat n:an]} "o_HON" 
 
-% verbal noun prefixes
-dai	{[scat pfx] [pcat n:vn]} "dai_BIG"	% 大 
+% verbal noun prefixes  ########
 go	{[scat pfx] [pcat n:vn]} "go_HON"	% 御 
 o	{[scat pfx] [pcat n:vn]} "o_HON"
-oo	{[scat pfx] [pcat n:vn]} "oo_BIG"	% 大,多 
 
-% numeral prefix
+% verb prefixes  > entered directly in ar.cut as verb stem allo
+
+% numeral prefix    ########
 dai	{[scat pfx] [pcat num]} "dai_ORD"	% 第 
 dai	{[scat pfx] [pcat num:cl]} "dai_ORD"	% 第 
+
+%%attached prefixes  (listed  the lexicon) n|dai_BIG_tokai=city  ########
+%dai_BIG_   大 
+%choo_EXTREMELY_   超 
+%do_EXTREMELY_  ど
+%doo_SAME	 同 
+%kaku_EACH_   各
+%bu_NOT_   不 
+%fu_NOT_   不  
+%fuku_SUB_   副  
+%hi_NOT_   非 
+%hon_ORIG_  本  
+%ko_SMALL_   小  
+%kon_THIS_   今  
+%mi_NOT_YET_   未 
+%ma_STRAIGHT_   真 
+%maru_COMPLETELY_  丸 
+%moo_CRAZY_   猛 
+%moto_FORMER_  本  
+%mu_MU_   無 
+%oo_MANY_   多 
+%oo_BIG_   大
+%sai_AGAIN_   再
+%shin_NEW_  新
+%shoo_SMALL_  小
+%shoo_FEW_  少
+%soo_GENERAL_   総  
+%tee_LOW_   低
+%too_THIS_   当
+%ryoo_BOTH_    両  quant
+%mai_EVERY_   毎  quant
 
 
 %% SUFFIXES %%	########
 
-% noun suffix	########
-%   n|kutsu-darake	########
-%ba	{[scat nsfx]} "ba_PLACE"      %changed to N+N compound
+% noun suffix	  n|kuma-chan_FAM=bear  ########
 chama	{[scat nsfx]} "chama_HON"
 chan	{[scat nsfx]} "chan_FAM"
 chin	{[scat nsfx]} "chin_FAM"
-chuu	{[scat nsfx]} "chuu_MID"
-darake	{[scat nsfx]} "darake_COVERED_WITH"
-gata	{[scat nsfx]} "kata_PERSON_HON"
-gata	{[scat nsfx]} "kata_SHAPE"
-go	{[scat nsfx]} "go_AFTER"
-goto	{[scat nsfx]} "goto_EACH"
-juu	{[scat nsfx]} "juu_THROUGHOUT"
+gata	{[scat nsfx]} "kata_PL_HON"
 kun	{[scat nsfx]} "kun_MFAM"
 ooji	{[scat nsfx]} "ooji_PRINCE"
 sama	{[scat nsfx]} "sama_HON"
 san	{[scat nsfx]} "san_HON"
-% senshu	{[scat nsfx]} "senshu_PLAYER"  => compound
-see	{[scat nsfx]} "see_STUD"
-see	{[scat nsfx]} "see_MADEOF"
 tachi	{[scat nsfx]} "tachi_PL"
-tsuki	{[scat nsfx]} "tsuki_WITH"
-ya	{[scat nsfx]} "ya_SHOP"   
+teki	{[scat nsfx]} "teki_ANZR" 
 yoo	{[scat nsfx]} "yoo_FOR"
 
-%joo	{[scat nsfx]} "joo_CONCERNING"
-%ka	{[scat nsfx]} "ka_PERSON" %家 % listed in lexicon
-%ka	{[scat nsfx]} "ka_ DEPT" %科 % listed in lexicon
 %kko	{[scat nsfx]} "kko_DIM"   % listed in lexicon
 %me	{[scat nsfx]} "me_DEROG"  %listed in the lexicon
 %ra	{[scat nsfx]} "ra_PL"  		%listed in the lexicon
 
+%%attached sufixes  (listed  the lexicon) n|doobutsu_en_GARDEN=zoo  ########
+% _bu_PART 部
+% _bun_PORTION 分
+% _butsu_THING  物
+% _chi_PLACE  地
+% _chuu_WHILE  中
+% _juu_ALLTHROUGH  中
+% _dai_FEE  代
+% _choo_HEAD 長
+% _choo_BINDER 帳
+% _choo_AGENCY  庁
+% _dai_PLATFORM 台
+% _doo_HALL 堂
+% _en_GARDEN  園
+% _en_INFLAMM  炎
+% _fu_LADY  婦
+% _fuu_STYLE  風
+% _gawa_SIDE  側
+% _go_AFTER  後
+% _go_LANGUAGE  語
+% _goo_NR 号
+% _gun_ARMY 軍
+% _ha_SCHOOL  派
+% _hi_DAY  日
+% _hin_WARE 品
+% _in_PERSON 員
+% _ji_CHILD 児
+% _jo_PLACE 所
+% _joo_UP  上
+% _sho_PLACE 所
+% _joo_LETTER 状
+% _joo_CONCERNING 上
+% _joo_SPACE 場
+% _jutsu_METHOD 術
+% _ka_CHANGE 化
+% _ka_POSSIBILITY 可
+% _ka_PERSON 家
+% _ka_COURSE  科
+% _kata_SHAPE  型
+% _kan_BLDG 館
+% _kan_OFFICIAL   官
+% _kee_FORM 形
+% _kee_TYPE 型
+% _ken_TICKET 券
+% _ki_MACHINE 機
+% _ki_INSTR  器
+% _ki_PERIOD 期
+% _kyoku_BUREAU 局
+% ma_DEVIL  魔
+% _men_SIDE  面
+% _nai_WITHIN  内
+% _ryoku_STRENGTH 力
+% _ryoo_FEE  料
+% _saku_WORK  作
+% _see_STUDENT 生
+% _see_MADEOF  製
+% _sen_SHIP 船
+% _sen_LINE" 線
+% _sha_PERSON 者
+% _sha_VEHICLE  車
+% _shi_PROFESSIONAL  士   
+% _shi_MR  氏
+% _shiki_CEREMONY 式
+% _shitsu_ROOM 室
+% _sho_BOOK 書
+% _sho_OFFICE 署 
+% _shoku_POST 職
+% _shoku_FOOD 食
+% _shoo_DISEASE 症
+% _shu_WORKER 手
+% _shu_ALC 酒
+% _tee_BOAT  艇 
+% _ten_SHOP 店
+% _yoo_FOR 用
+% _zai_MATERIAL 材
+% _zee_TAX 税
+%%
+% _darake_COVERED だらけ
+% _goro_AROUND 頃
+% _goto_ALL   ごと
+% _goto_EACH  毎
+% _me_GRADE 目  め
+% _suki_PREFER  好き
+% _tsuki_WITH  付き
+% _ya_SHOP 屋
 
-%noun -> adj suffix   adj|kutsu-kusa- ########
-kusa	{[scat nasfx] [sfxcat adj]} "kusa_STINKY"    
+
+%noun -> adj suffix   adj|neko-ppo_LIKE=cat ########
+% kusa	{[scat nasfx] [sfxcat adj]} "kusa_STINKY"    listed in the lexicon _kusa_SMELLING-
 ppo	{[scat nasfx] [sfxcat adj]} "ppo_LIKE"
 rashi	{[scat nasfx] [sfxcat adj]} "rashi_SIM"
 
-%noun -> adj noun suffix   n:an|kutsu-teki ########
+%noun -> adj noun suffix   n:an|neko-teki ########
 teki	{[scat nansfx]} "teki_LIKE" 
-zuki	{[scat nansfx]} "suki_PREFER"
 
-%noun -> verbal noun suffix   n:vn|kutsu-gokko ########
+%noun -> verbal noun suffix   n:vn|neko-gokko ########
 gokko	{[scat vnsfx]} "gokko_GAME" 
 
-% proper noun suffix	########
+% proper noun suffix	n:prop|Tomoko-chan_FAM=Tomoko ########
 % propnoun   n:prop|N-san
 san	{[scat npropsfx]} "san_HON"
 santachi	{[scat npropsfx]} "san_HON-tachi_PL"
@@ -108,10 +181,9 @@ sama	{[scat npropsfx]} "sama_HON"
 chan	{[scat npropsfx]} "chan_FAM"
 chantachi	{[scat npropsfx]} "chan_FAM-tachi_PL"
 kun	{[scat npropsfx]} "kun_MFAM"
-kunfuu	{[scat npropsfx]} "kun_MFAM-fuu_STYLE"
-jin	{[scat npropsfx]} "jin_PERSON"
+kunfuu	{[scat npropsfx]} "kun_MFAM_fuu_STYLE"
+shi	{[scat npropsfx]} "shi_HON"
 iki	{[scat npropsfx]} "iki_BOUND_FOR"
-yoo	{[scat npropsfx]} "yoo_FOR"
 yuki	{[scat npropsfx]} "yuki_BOUND_FOR"
 
 sensee	{[scat npropsfx]} "sensee_TEACHER"
@@ -174,6 +246,7 @@ gar	{[scat asfx] [sfxcat v] [cp vC]} "OBJVZ"
 gara	{[scat asfx] [sfxcat v] [cp vCa]} "OBJVZ"
 gari	{[scat asfx] [sfxcat v] [cp vCi]} "OBJVZ"
 gari	{[scat atense] [tense inf]} "OBJVZ-GER"
+gari	{[scat atense] [tense inf]} "OBJVZ-CONN:i"
 gat	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ"
 gatte	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ-ASP"
 
@@ -181,8 +254,8 @@ gatte	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ-ASP"
 sa	{[scat asfx] [sfxcat n]} "sa_NLZR"
 ke	{[scat asfx] [sfxcat n]} "ke_TASTE"
 ge	{[scat asfx] [sfxcat n]} "ke_TASTE"
-me	{[scat asfx] [sfxcat n]} "me_NLZR"
-mi	{[scat asfx] [sfxcat n]} "mi_TASTE"
+me	{[scat asfx] [sfxcat n]} "me_GRADE"
+mi	{[scat asfx] [sfxcat n]} "mi_NLZR"
 
 %adj -> adj noun suffix   n:an|oishi-soo ########
 soo	{[scat asfx] [sfxcat n:an]} "soo_SEEMING"
@@ -197,7 +270,9 @@ kata	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "kata_WA
 ppanashi	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "ppanashi_ABANDONING"
 %te	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}       %changed to V+N compound
 %ba	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]}      %changed to V+N compound
-
+yasusa	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yasu_EASY-sa_NLZR"
+nikusa	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "niku_DIFFICULT-sa_NLZR" 
+zurasa	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "tsura_HARD-sa_NLZR" 
 % word class change to adj noun  "n:an|tabe-soo" ########
 gachi	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "gachi_LIABLE"
 soo	{[scat vsfx] [sfxcat n:an] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "soo_SEEMING"
@@ -242,6 +317,7 @@ dore	{[scat vtense] [tense imp] [allo OR vTNn vTIg]} "ASP:or-IMP"
 % negative		######## vsfx
 na	{[scat vsfx] [sfxcat adj] [allo OR vV vCa vBKo  vTSi vNNr]} "NEG" 
 zu	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&GER" 
+zuni	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu-ADV" 
 zaru	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zaru" 
 nu	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:nu&PRES"  
 naide	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&CONN:de"
@@ -299,6 +375,7 @@ da	{[scat vtense] [tense past] [allo OR vTNn vTIg]} "PAST"
 % connective	########
 te	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik vBKo vBSu]} "CONN"
 de	{[scat vtense] [tense pres] [allo OR vTNn vTIg cRda]} "CONN"
+i	{[scat vtense] [tense inf] [allo OR vV vC vRw vBKu vBSu cCr]} "CONN:i"   % yomi, hanashi..
 cha	{[scat vtense] [tense inf] [allo OR vV vC vTTw vTTr vAIs vTIk vTKi vTSi vTTik]} "CONN&wa"
 ja	{[scat vtense] [tense inf] [allo OR vTNn vTIg]} "CONN&wa"
 nakya	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi]} "NEG-CONN&ba"
@@ -321,6 +398,7 @@ tamae	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP
 na	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG&CONN:na" 
 nasai	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai"
 nchai	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai"
+shai	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:shai"
 nasaimase	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai-POL-IMP"
 nchaimase	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:nasai-POL-IMP"
 na	{[scat vtense] [tense imp] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "IMP:na"
@@ -436,6 +514,7 @@ sama	{[scat numsfx] [allo numA]} "sama_HON"
 bai	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "bai_DOUBLE"
 % 								 番 
 ban	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD"
+banko	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD_kko_DIM"
 bamme	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-me_ORD"
 bansen	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-sen_TRACK" 
 bantai	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ban_ORD-tai_TROOP"
@@ -464,6 +543,9 @@ eekaa	{[scat numclsfx] [allo OR numBFa numCFa numCFn numCBa numCBn1 numCBb numCB
 % 								 円 
 en	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en_YEN"
 embun	{[scat numclsfx] [allo OR numBFa numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "en_YEN-bun_PORTION"
+% 								 歩
+ho	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "ho_STEP"
+po	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "ho_STEP"
 % 								 分 
 fun	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "fun_MIN"
 pun	{[scat numclsfx] [allo OR numBFa numBFb numBBp]} "fun_MIN"
@@ -520,10 +602,10 @@ kasho	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn
 kagetsu	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kagetsu_MONTH"
 kagetsuhan	{[scat numclsfx] [allo OR numBFa numBBk numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kagetsu_MONTH-han_HALF" 
 % 								 回
-kai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_TIMES"
+kai	{[scat numclsfx] [allo OR numBBk numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_TIMES"
 kaime	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_TIMES-me_ORD" 
 % 								 階 
-kai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_FLOOR"
+kai	{[scat numclsfx] [allo OR numBBk numBFa numCFa numCBa numCBb numBBk numCFn]} "kai_FLOOR"
 gai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb]} "kai_FLOOR" 
 % 								 軒 
 ken	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "ken_BLDG"
@@ -542,6 +624,8 @@ kyuu	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb
 % 								 枚 
 mai	{[scat numclsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mai_SHEET"
 maime	{[scat numclsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mai_SHEET-me_ORD" 
+% 								 マイル 
+mairu	{[scat numclsfx] [allo OR numBFa numBFb numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mairu_MILE"
 % 								 名 
 mee	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mee_PERSON"
 meesama	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "mee_PERSON-sama_HON" 
@@ -564,11 +648,12 @@ nen	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 
 nemme	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-me_ORD" 
 nemburi	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-buri_BEFORE" 
 nenhan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-han_HALF" 
-nenjuu	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-juu_MID" 
+nenjuu	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-juu_THROUGHOUT" 
 nenkan	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-kan_SPAN" 
 nensee	{[scat numclsfx] [allo OR numBFa numBBs numBBd numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nen_YEAR-see_STUDENT" 
 % 								 日 
 nichi	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY"
+nichijuu	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY-juu_THROUGHOUT"
 nichime	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY-me_ORD" 
 nichioki	{[scat numclsfx] [allo OR numBFa numBBs numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "nichi_DAY-oki_EVERY_OTHER" 
 % 								 人 

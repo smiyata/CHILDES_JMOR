@@ -9,9 +9,6 @@ aida	{[scat n:fml]} =meanwhile=
 amari	{[scat n:fml]} =more_than=
 baai	{[scat n:fml]} =case=
 fuu	{[scat n:fml]} =manner=
-gotoki	{[scat n:fml]} =same_way=
-gotoshi	{[scat n:fml]} =same_way=
-gotoku	{[scat n:fml]} =same_way=
 hammen	{[scat n:fml]} =reverse=
 hazu	{[scat n:fml]} =supposed_to=
 hoka	{[scat n:fml]} =other_than=
@@ -20,11 +17,11 @@ hoo	{[scat n:fml]} =side=
 ijoo	{[scat n:fml]} =more_than=
 ippoo	{[scat n:fml]} =on_the_one_hand=
 kagiri	{[scat n:fml]} =as_long_as=
-kawari	{[scat n:fml]} =in_exchange_for=
- gawari	{[scat n:fml]} =in_exchange_for= "kawari"
+kawari	{[scat n:fml]} =instead_of=
+ gawari	{[scat n:fml]} =instead_of= "kawari"
 kekka	{[scat n:fml]} =result=
 koto	{[scat n:fml]} =fact=
- oogoto	{[scat n]} =serious_matter= "oo_BIG#koto"
+ oogoto	{[scat n]} =serious_matter= "oo_BIG_koto"
 koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
 gurai	{[scat n:fml]} =grade= "kurai"
@@ -56,7 +53,6 @@ tsuide	{[scat n:fml]} =by_the_way=
 tsumori	{[scat n:fml]} =intention=
 uchi	{[scat n:fml]} =while=
 wake	{[scat n:fml]} =reason=
-yoo	{[scat n:fml]} =as=
 
 mae	{[scat n]} =before=
 %mae	{[scat n:fml]} =before=

@@ -69,6 +69,7 @@ yorai	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-PRE
 yoru	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-PRES"
 yoran	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-NEG:n&PRES"
 yotte	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-CONN"
+yotte	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-IMP:te"
 yotta	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-PAST"
 yottara	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "yor-COND:tara"
 yoraa	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-PRES:raa"
@@ -76,6 +77,7 @@ yorai	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yo
 yoru	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-PRES"
 yoran	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-NEG:n&PRES"
 yotte	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-CONN"
+yotte	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-IMP:te"
 yotta	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-PAST"
 yottara	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yor-COND:tara"
 % potential "-kiru" 	dialect	########
