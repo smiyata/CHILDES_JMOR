@@ -57,7 +57,7 @@ made	{[scat ptl:post]} =TERM=
 ni	{[scat ptl:post]} =DAT= 
 to	{[scat ptl:post]} =COMT= 
 yori	{[scat ptl:post]} =ABL= 
-yori	{[scat ptl:post]} =COMPARE= 
+yori	{[scat ptl:post]} =COMPR= 
 
 %%%% compound postposition particles   [here only ptls used in the child data; for more particles, see Adult_ptl.cut]
 ja	{[scat ptl:cppost]} =in_that_case= "de&wa"

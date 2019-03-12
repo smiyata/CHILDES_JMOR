@@ -286,7 +286,7 @@ yosomi	{[scat n:vn][comp n+v:v]} =taking_eyes_off= "yoso+mi"
 yubikiri	{[scat n:vn][comp n+v:c]} =linking_little_fingers_for_promise= "yubi+kir"
 yukiasobi	{[scat n:vn][comp n+v:c]} =snow_playing= "yuki+asob"
 yukikaki	{[scat n:vn][comp n+v:c]} =snow_ploughing= "yuki+kak"
-yukikakisha	{[scat n][comp n+v:c]} =snow_plough= "yuki+kak-sha"
+yukikakisha	{[scat n][comp n+v:c]} =snow_plough= "yuki+kak_sha_VEHICLE"
 zookingake	{[scat n:vn][comp n+v:v]} =mopping_floor= "zookin+kake"
 
 

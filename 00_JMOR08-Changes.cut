@@ -314,12 +314,42 @@ compare:
       empitsu da tte  n|empitsu v:cop|da&PRES ptl:quot|tte
       Ken datte  n:prop|Ken ptl:foc|datte=even 
 
- 5) dai  as copula
+12) dai  as copula
 ptl:fina|dai=ASSERT has been changed to v:cop|dai&PRES=be_ASSERT.
 OLD
 iku dai   v:c|ik-PRES=go ptl:fina|dai=ASSERT 
 NEW
 iku dai   v:c|ik-PRES=go v:cop|dai&PRES=be_ASSERT.
+
+13) renaming of post particles
+OLD
+ptl:post|de=POST
+ptl:post|ni=POST   
+ptl:post|e=to
+ptl:post|kara=from
+ptl:post|made=until
+ptl:post|yori=from
+ptl:post|yori=COMPARE
+ptl:post|to=with 
+NEW
+ptl:post|de=LOC     including instrumental
+ptl:post|ni=DAT         
+ptl:post|e=LAT    
+ptl:post|kara=ABL   
+ptl:post|made=TERM    
+ptl:post|yori=ABL    
+ptl:post|yori=COMPR
+ptl:post|to=COMT   
+
+14)  "desu" after tense
+OLD  adj|oishi-PRES smod|desu=POL
+NEW adj|oishi-PRES v:cop:sub|desu=POL
+SAME:  NEG and DESID forms  tabenai desu/ tabetai desu   
+
+15)  new CONN:i
+OLD  n|koohi ptl:case|o=ACC v:c|nom-GER n|keeki=cake  ptl:case|o=ACC v:v|tabe-GER
+NEW n|koohi ptl:case|o=ACC v:c|nom-CONN:i n|keeki=cake  ptl:case|o=ACC v:v|tabe-CONN:i
+Compare:  v:c|nom-GER ptl:ptl|ni=DAT v:c|ik-PRES=go
 
 
 

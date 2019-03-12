@@ -68,7 +68,6 @@ ooji	{[scat nsfx]} "ooji_PRINCE"
 sama	{[scat nsfx]} "sama_HON"
 san	{[scat nsfx]} "san_HON"
 tachi	{[scat nsfx]} "tachi_PL"
-teki	{[scat nsfx]} "teki_ANZR" 
 yoo	{[scat nsfx]} "yoo_FOR"
 
 %kko	{[scat nsfx]} "kko_DIM"   % listed in lexicon
@@ -168,7 +167,7 @@ ppo	{[scat nasfx] [sfxcat adj]} "ppo_LIKE"
 rashi	{[scat nasfx] [sfxcat adj]} "rashi_SIM"
 
 %noun -> adj noun suffix   n:an|neko-teki ########
-teki	{[scat nansfx]} "teki_LIKE" 
+teki	{[scat nansfx] [sfxcat n:an]} "teki_ANZR" 
 
 %noun -> verbal noun suffix   n:vn|neko-gokko ########
 gokko	{[scat vnsfx]} "gokko_GAME" 
@@ -253,12 +252,12 @@ gatte	{[scat asfx] [sfxcat v] [cp vTTr]} "OBJVZ-ASP"
 %adj -> noun suffix   n|oishi-sa ########
 sa	{[scat asfx] [sfxcat n]} "sa_NLZR"
 ke	{[scat asfx] [sfxcat n]} "ke_TASTE"
-ge	{[scat asfx] [sfxcat n]} "ke_TASTE"
 me	{[scat asfx] [sfxcat n]} "me_GRADE"
 mi	{[scat asfx] [sfxcat n]} "mi_NLZR"
 
 %adj -> adj noun suffix   n:an|oishi-soo ########
 soo	{[scat asfx] [sfxcat n:an]} "soo_SEEMING"
+ge	{[scat asfx] [sfxcat n:an]} "ge_TASTE"
 
 
 

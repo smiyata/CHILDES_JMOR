@@ -22,8 +22,8 @@
 	atsuatsu	{[scat n:an]} =hot=	% 熱熱 
 	atsuraemuki	{[scat n:an]} =ready_made=	% あつらえ向き  誂え向き 
 	attaka	{[scat n:an]} =warm=	% あったか  暖か/ 温か 
-	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku_teki_LIKE"	% 本格的 
-	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki_teki_LIKE"	% 画期的 
+	 honkakuteki	{[scat n:an]} =in_earnest=	"honkaku-teki_ANZR"	% 本格的 
+	 kakkiteki	{[scat n:an]} =epoch_making=	"kakki-teki_ANZR"	% 画期的 
 	aware	{[scat n:an]} =miserable=	% 哀れ
 	ayafuya	{[scat n:an:onoma]} =vague=	%
 	azayaka	{[scat n:an]} =vivid=	% 鮮やか 
@@ -143,7 +143,7 @@
 	gotcha	{[scat n:an:onoma]} =messy=	%
 	guchagucha	{[scat n:an:onoma]} =messy=	
 	gushagusha	{[scat n:an:onoma]} =messy=	
-	gutaiteki	{[scat n:an]} =concrete= "gutai_teki_LIKE" 
+	gutaiteki	{[scat n:an]} =concrete= "gutai-teki_ANZR" 
 	guutara	{[scat n:an:onoma]} =idle=	%
 	guuzen	{[scat n:an]} =by_chance=	% 偶然 
 	guzu	{[scat n:an]} =laggard=	% ぐず  愚図 
@@ -178,7 +178,7 @@
 	hisoka	{[scat n:an]} =secret=	% ひそか  密か/ 窃か 
 	hitsuyoo	{[scat n:an]} =necessary=	% 必要 
 	hitsuzen	{[scat n:an]} =inevitable=	% 必然的 
-	 hitsuzenteki	{[scat n:an]} =inevitable= "hitsuzen-teki_LIKE"	% 必然的 
+	 hitsuzenteki	{[scat n:an]} =inevitable= "hitsuzen-teki_ANZR"	% 必然的 
 	honki	{[scat n:an]} =serious=	% 本気 
 	iikagen	{[scat n:an]} =halfhearted=	% いいかげん  好い加減 
 	ijiwaru	{[scat n:an]} =malicious=	% 意地悪 
