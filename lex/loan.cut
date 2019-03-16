@@ -25,6 +25,7 @@
 	andaa	{[scat n]} =under=
 	anime	{[scat n]} =anime=
 	animeeshon	{[scat n]} =animation=
+	anisakisu	{[scat n]} =anisakis=
 	ankeeto	{[scat n]} =enquete=
 	ankooru	{[scat n]} =encore=
 	antena	{[scat n]} =antena=
@@ -300,7 +301,8 @@
 	dandii	{[scat n]} =dandy=
 	dansaa	{[scat n]} =dancer=
 	dansu	{[scat n]} =dance=
-	daria	{[scat n]} =dahlia=
+	daria	{[scat n]} =dahlia= 
+	dariya	{[scat n]} =dahlia= "daria"
 	dasshu	{[scat n]} =dash=
 	daun	{[scat n]} =down_feather=
 	dasshu	{[scat n:vn]} =dash=
@@ -625,6 +627,7 @@
 	karifurawaa	{[scat n]} =cauliflower=
 	karumera	{[scat n]} =karmellae=
 	karupisu	{[scat n]} =fermented_milk_drink=
+	karushiumu	{[scat n]} =calcium=
 	karuta	{[scat n]} =card_play=
 	kasetto	{[scat n]} =cassette=
 	kashuunattsu	{[scat n]} =cashewnuts=
@@ -986,7 +989,7 @@
 	pokkii	{[scat n]} =poky_cookies=
 	pompon	{[scat n]} =wool_pompom=
 	pompu	{[scat n]} =pomp=
-	pompusha	{[scat n]} =pomp_truck=  "pompu-sha" 	% ポンプ車 
+	pompusha	{[scat n]} =pomp_truck= "pompu-sha" 	% ポンプ車 
 	ponii	{[scat n]} =pony=
 	poniiteeru	{[scat n]} =ponytail=
 	poochi	{[scat n]} =porch=
@@ -1016,6 +1019,7 @@
 	purezento	{[scat n]} =present=
 	purin	{[scat n]} =flan=
 	purinsesu	{[scat n]} =princess=
+	purintaa	{[scat n:vn]} =printer=
 	purinto	{[scat n:vn]} =print=
 	purittsu	{[scat n]} =pretz_cookies=
 	purojekuto	{[scat n]} =project=
@@ -1051,6 +1055,7 @@
 	rama	{[scat n]} =lama=
 	rampu	{[scat n]} =lamp=
 	ramune	{[scat n]} =lamune_juice=
+	ramuneya	{[scat n]} =lamune_juice_shop= "ramune_ya_SHOP"
 	ranchi	{[scat n]} =lunch=
 	ranchonmatto	{[scat n]} =luncheonmat=
 	randoseru	{[scat n]} =satchel=
@@ -1176,6 +1181,7 @@
 	serifu	{[scat n]} =speech_line=
 	serohan	{[scat n]} =cellophane=
 	serori	{[scat n]} =celery=
+	seruroido	{[scat n]} =celluloid=
 	settingu	{[scat n:vn]} =setting=
 	setto	{[scat n]} =set=
 	setto	{[scat n:vn]} =set_up=
@@ -1421,6 +1427,7 @@
 	yuuhoo	{[scat n]} =ufo= "yuufoo"
 	zenee	{[scat n]} =avantgarde=
 	zerii	{[scat n]} =jelly=
+	zombi	{[scat n]} =zombie=
 	zubon	{[scat n]} =pants=
 	zubonya	{[scat n]} =pants_shop= "zubon_ya_SHOP"
 	zukku	{[scat n]} =canvas=

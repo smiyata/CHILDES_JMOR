@@ -20,7 +20,7 @@ amaiamai	{[scat n:mot]} =sweet=
 amekonkon	{[scat n:mot]} =rain=
 amekonko	{[scat n:mot]} =rain= "amekonkon"
 ameame	{[scat n:mot]} =candy=
-amekko  {[scat n:mot]} "ame_ko_DIM" =candy=
+amekko {[scat n:mot]} "ame_ko_DIM" =candy=
 amiami	{[scat n:mot]} =net= 	% 網 
 an'yo	{[scat n:mot]} =foot=
 anyo	{[scat n:mot]} =foot=
@@ -190,8 +190,8 @@ nopperaboo	{[scat n:mot]} =flat=
 nyaachan	{[scat n:mot]} "nyaa-chan" =cat=
 nyaanya	{[scat n:mot]} =cat=
 nyaanyaa	{[scat n:mot]} "nyaanya" =cat=
-nyanko	{[scat n:mot]}  =cat=
-nyannyan	{[scat n:mot]} "nyaanya"  =cat=
+nyanko	{[scat n:mot]} =cat=
+nyannyan	{[scat n:mot]} "nyaanya" =cat=
 obebe	{[scat n:mot]}	=clothes=
 oishiioishii	{[scat n:mot]} =tasty=
 oishioishi	{[scat n:mot]} =tasty=
@@ -245,7 +245,9 @@ rinrin	{[scat n:mot]} =skates=
 rinrin	{[scat n:mot]} =bicycle=
 sakippo	{[scat n:mot]} "saki-ppo" =tip=
 samuisamui	{[scat n:mot]} =cold=
+shibushibu	{[scat n:mot]} =bitter=
 shikko	{[scat n:mot]} =pee=
+shikkokusa	{[scat adj]} "shikko_kusa_SMELLING" =pee_smelling=
 shikkotsuki	{[scat n:mot]} "shikko_tsuki_WITH" =with_pee=
 shii	{[scat n:mot]} =pee=
 shiishii	{[scat n:mot]} =pee=
@@ -293,6 +295,7 @@ tsuttsu	{[scat n:mot]}	=soup= "tsuutsu"
 umamma	{[scat n:mot]} "mamma" =food=
 umauma	{[scat n:mot]} "mamma" =food=
 unchi	{[scat n:mot]} =poo=
+unchikusa	{[scat adj]} "unchi_kusa_SMELLING" =poo_smelling=
 unchitchi	{[scat n:mot]} =poo=
 unko	{[scat n:mot]} =poo=	
 untan	{[scat n:mot]} =poo=
@@ -524,8 +527,8 @@ attakaattaka	{[scat n:mot]} =warm=
 batchi	{[scat adj:mot]} =dirty=
 babachi	{[scat adj:mot]} =dirty=
 babatchi	{[scat adj:mot]} =dirty=
-batchichi	{[scat adj:mot]}  =dirty=
-batchibatchi	{[scat adj:mot]}  =dirty=
+batchichi	{[scat adj:mot]} =dirty=
+batchibatchi	{[scat adj:mot]} =dirty=
 chitcha	{[scat adj:mot]} =small=
 chibitcha	{[scat adj:mot]} =small=
 chibicha	{[scat adj:mot]} "chibitcha" =small=

@@ -1,7 +1,7 @@
 @UTF8
 %%%% focus paricle
 %%%% case particle
-%%%%  postposition particle
+%%%% postposition particle
 %%%% compound postposition particle
 %%%% attributive particle 
 %%%% vocative particle
@@ -10,7 +10,7 @@
 %%%% conjunctive particle
 %%%% conjunction
 %%%% coordinating particle
-%%%% sentence nominalizing particle   => n:fml
+%%%% sentence nominalizing particle => n:fml
 %%%% topic particle
 %%%% quotation particle
 %%%%%%%%%% inflection
@@ -19,11 +19,11 @@
 
 %%%% focus paricle
 daka	{[scat ptl:foc]} =or=
-dani	{[scat ptl:foc]}  "da_ni" ==
+dani	{[scat ptl:foc]} "da_ni" ==
 datoka	{[scat ptl:foc]} =or=
-domo	{[scat ptl:foc]}  =even=
-kiri	{[scat ptl:foc]}  =only=
-nanzo	{[scat ptl:foc]}  =etc=
+domo	{[scat ptl:foc]} =even=
+kiri	{[scat ptl:foc]} =only=
+nanzo	{[scat ptl:foc]} =etc=
 naradewa	{[scat ptl:foc]} "nara_de_wa" =special_to=
 niseyo	{[scat ptl:foc]} =be_it= "ni_seyo"
 nishitekaraga	{[scat ptl:foc]} =judged_from= "ni_shite_kara_ga"
@@ -31,8 +31,8 @@ nka	{[scat ptl:foc]} "nanka" =even=
 mokamo	{[scat ptl:foc]} "mo_kamo" =as_if=
 ohajime	{[scat ptl:foc]} =to_start_with= "o_hajime"
 ohajimetoshite	{[scat ptl:foc]} =to_start_with= "o_hajime_to_shite"
-taritomo	{[scat ptl:foc]}  =even_only=
-taruya	{[scat ptl:foc]}  =speaking_of=
+taritomo	{[scat ptl:foc]} =even_only=
+taruya	{[scat ptl:foc]} =speaking_of=
 toiuni	{[scat ptl:foc]} "to_iu_ni" =as_for=
 toiuto	{[scat ptl:foc]} "to_iu_to" =as_for=
 toieba	{[scat ptl:foc]} "to_ieba" =as_for=
@@ -48,9 +48,9 @@ zo	{[scat ptl:foc]} =just=
 
 %%%% case particle
 
-%%%%  postposition particle
+%%%% postposition particle
 kkara	{[scat ptl:post]} "kara" =from=
-shite	{[scat ptl:post]} =as= "shite"    	%Disambiguation problematic
+shite	{[scat ptl:post]} =as= "shite" 	%Disambiguation problematic
 
 %%%% compound postposition particle
 emuke	{[scat ptl:cppost]} "e_muke" =directed_to=
@@ -134,7 +134,7 @@ omeguru	{[scat ptl:cppost]} =about= "o_meguru"
 ooite	{[scat ptl:cppost]} =ignoring= "o_oite" %を措いて
 ooshite	{[scat ptl:cppost]} == "o_oshite"
 demotte	{[scat ptl:cppost]} =from= "de_motte"
-omotte	{[scat ptl:cppost]} =from= "o_motte"    %disambiguation
+omotte	{[scat ptl:cppost]} =from= "o_motte" %disambiguation
 omochimashite	{[scat ptl:cppost]} =from= "o_mochimashite&POL"
 ooshite	{[scat ptl:cppost]} == "o_oshite"
 oshite	{[scat ptl:cppost]} == "o_shite"
@@ -148,7 +148,7 @@ toawase	{[scat ptl:cppost]} == "to_awase"
 toitashimashite	{[scat ptl:cppost]} == "to_itashimashite&POL"
 tomoni	{[scat ptl:cppost]} "tomo_ni" =together=
 totomoni	{[scat ptl:cppost]} "to_tomo_ni" =together=
-toshimashite	{[scat ptl:cppost]} =as=  % tokai toshimashite 
+toshimashite	{[scat ptl:cppost]} =as= % tokai toshimashite 
 
 %%%% attributive particle 
 n	{[scat ptl:attr]} "no" =GEN=
@@ -161,7 +161,7 @@ niokimasuru	{[scat ptl:attr]} =concerning= "ni_okimasuru"
 nitomonau	{[scat ptl:attr]} =associated_with= "ni_tomonau"
 nitsuki	{[scat ptl:attr]} =per= "ni_tsuki"
 
-% iu	{[scat ptl:attr]} =so_called= "iu&QUOT"   %% Disambiguation problematic
+% iu	{[scat ptl:attr]} =so_called= "iu&QUOT" %% Disambiguation problematic
 chu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
 chuu	{[scat ptl:attr]} =so_called= "to&iu&QUOT"
 deiu	{[scat ptl:attr]} =so_called= "de_iu&QUOT"
@@ -173,20 +173,20 @@ tte	{[scat ptl:attr]} =QUOT= "tte&QUOT"
 toitta	{[scat ptl:attr]} =something_like= "to_itta&QUOT"
 tokaiu	{[scat ptl:attr]} =something_like= "toka_iu&QUOT"
 toyaraiu	{[scat ptl:attr]} =something_like= "to_yara_iu&QUOT"
-ttsu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
-ttsuu	{[scat ptl:attr]}  =QUOT= "to&yuu&QUOT"
+ttsu	{[scat ptl:attr]} =QUOT= "to&yuu&QUOT"
+ttsuu	{[scat ptl:attr]} =QUOT= "to&yuu&QUOT"
 ttsutta	{[scat ptl:attr]} =QUOT= "to&yutta&QUOT"
 
 
 %%%% vocative particle
-yo	{[scat ptl:voc]} =VOC=      	%Disambiguation problematic
+yo	{[scat ptl:voc]} =VOC= 	%Disambiguation problematic
 
 %%%% final particle
 dato	{[scat ptl:fina]} =QUOT=
 dewaarimasenka	{[scat ptl:fina]} =isnt_it&POL=
 dewanaika	{[scat ptl:fina]} =isnt_it=
 janaika	{[scat ptl:fina]} =isnt_it=
-doo	{[scat ptl:fina]} "do" =ASSERT=     %disambiguation?
+doo	{[scat ptl:fina]} "do" =ASSERT= %disambiguation?
 gana	{[scat ptl:fina]} =TAG=
 gane	{[scat ptl:fina]} =TAG=
 gano	{[scat ptl:fina]} =TAG=
@@ -197,15 +197,15 @@ jai	{[scat ptl:fina]} =isnt_it=
 ke	{[scat ptl:fina]} "kke" =WONDER=
 mo	{[scat ptl:fina]} =ASSERT=
 na	{[scat ptl:fina]} "naa" =TAG=
-ttara	{[scat ptl:fina]}  =i_tell_you=
-tcha	{[scat ptl:fina]}  =i_tell_you=
-tte	{[scat ptl:fina]}  =QUOT=
-yara	{[scat ptl:fina]}  =or_so=
-yai	{[scat ptl:fina]}  =ASSERT=
-yoq	{[scat ptl:fina]} "yo"  =ASSERT=
+ttara	{[scat ptl:fina]} =i_tell_you=
+tcha	{[scat ptl:fina]} =i_tell_you=
+tte	{[scat ptl:fina]} =QUOT=
+yara	{[scat ptl:fina]} =or_so=
+yai	{[scat ptl:fina]} =ASSERT=
+yoq	{[scat ptl:fina]} "yo" =ASSERT=
 waa	{[scat ptl:fina]} =FINA=
-zoi	{[scat ptl:fina]}  =FINA=
-zura	{[scat ptl:fina]}  =FINA=
+zoi	{[scat ptl:fina]} =FINA=
+zura	{[scat ptl:fina]} =FINA=
 
 %%%%%%%%%%%%%%%%% co:i use (isolated) %%%%%%
 kana	{[scat co:i]} =DOUBT= "kanaa"
@@ -234,7 +234,7 @@ mononara	{[scat ptl:conj]} "mono_nara" =if_possible=
 monono	{[scat ptl:conj]} "mono_no" =although=
 monoo	{[scat ptl:conj]} "mono_o" =in_spite_of=
 nagara	{[scat ptl:conj]} =although=
-ni	{[scat ptl:conj]} =as_far_as=   % deshoo ni  / watashi ga kangaeru ni wa
+ni	{[scat ptl:conj]} =as_far_as= % deshoo ni / watashi ga kangaeru ni wa
 niatari	{[scat ptl:conj]} =when= "ni_atatte"
 niatatte	{[scat ptl:conj]} =when= "ni_atatte"
 niatarimashite	{[scat ptl:conj]} =when= "ni_atarimashite&POL"
@@ -258,12 +258,12 @@ toiuyori	{[scat ptl:conj]} "to_iu_yori" =or_rather=
 toiunoni	{[scat ptl:conj]} "to_iu_noni" =although=
 todoojini	{[scat ptl:conj]} "to_dooji_ni" =simultaneously=
 todooyooni	{[scat ptl:conj]} "to_dooyoo_ni" =similarly=
-totomoni	{[scat ptl:conj]}  "to_tomo_ni" =along_with=
-tomo	{[scat ptl:conj]}  =no_matter=
-domo	{[scat ptl:conj]}  =the_more=
+totomoni	{[scat ptl:conj]} "to_tomo_ni" =along_with=
+tomo	{[scat ptl:conj]} =no_matter=
+domo	{[scat ptl:conj]} =the_more=
 toq	{[scat ptl:conj]} "to" =when=
 do	{[scat ptl:conj]} "to" =when= %dialect
-wa	{[scat ptl:conj]} "wa&FP" =let_alone=  %netsu wa deru wa, seki mo deru wa.
+wa	{[scat ptl:conj]} "wa&FP" =let_alone= %netsu wa deru wa, seki mo deru wa.
 waoroka	{[scat ptl:conj]} "wa_oroka" =let_alone= 
 wamotoyori	{[scat ptl:conj]} "wa_moto_yori" =from_the_start= 
 ya	{[scat ptl:conj]} =or=
@@ -271,7 +271,7 @@ yara	{[scat ptl:conj]} =or=
 yainaya	{[scat ptl:conj]} =or= "ya_ina_ya"
 
 %%%% conjunction
-%to		{[scat conj]} =and_then=    %disamibuation
+%to		{[scat conj]} =and_then= %disamibuation
 ato	{[scat conj]} =another=
 chinamini	{[scat conj]} =by_the_way= "chinami_ni"
 datosuruto	{[scat conj]} =assuming_that= "da_to_suru_to"
@@ -314,20 +314,20 @@ nishite	{[scat ptl:coo]} =as= "ni_shite"
 nishitemo	{[scat ptl:coo]} =as= "ni_shite_mo"
 soshite	{[scat ptl:coo]} =and_also=
 sorekara	{[scat ptl:coo]} =and_also=
-tomo	{[scat ptl:coo]}  =also=
+tomo	{[scat ptl:coo]} =also=
 
 
-%%%% sentence nominalizing particle   => n:fml
+%%%% sentence nominalizing particle => n:fml
 
 %%%% topic particle
-nara	{[scat ptl:top]}  =TOP=   % if replaceable with WA
-naraba	{[scat ptl:top]}  =TOP=   % if replaceable with WA
-toshimashite	{[scat ptl:top]} =TOP= "to_shimashite&POL"  
+nara	{[scat ptl:top]} =TOP= % if replaceable with WA
+naraba	{[scat ptl:top]} =TOP= % if replaceable with WA
+toshimashite	{[scat ptl:top]} =TOP= "to_shimashite&POL" 
 
 %%%% quotation particle
 nante	{[scat ptl:quot]} =such_as= "nan_tte"
 tono	{[scat ptl:quot]} =QUOT= "to_no&QUOT"
 
 %%%%%%%%%% inflection
-yoo	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yoo_WAY_OF"  % tabeyoo mo naij
+yoo	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yoo_WAY_OF" % tabeyoo mo naij
 

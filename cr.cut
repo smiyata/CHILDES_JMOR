@@ -8,7 +8,7 @@ RULENAME: misc-start
 CTYPE: START
 if
 NEXTCAT = [scat OR adn adv adv:onoma n:let n:fml n:num conj ptl:case ptl:post ptl:cppost ptl:attr ptl:conj ptl:coo ptl:foc ptl:indef \
-           ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
+  ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {}
@@ -39,11 +39,11 @@ NEXTCAT = [scat OR v:v v:v:sub], [allo vV]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-complet, v-caus, v-pot-vv, v-pass-vv, \
-       v-tense, asp_i, asp_or, v-adj, v2adj, v-comp, v-noun, v-anoun}
+ v-tense, asp_i, asp_or, v-adj, v2adj, v-comp, v-noun, v-anoun}
 
-%%	 for consonant verb  	 	  		stem infl  
+%%	 for consonant verb 	 	 		stem infl 
 if
-NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vC vRw vRww vBTts vBSu]  
+NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vC vRw vRww vBTts vBSu] 
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-caus, v-pot-cv, v-pass-cv, v-complet, v-tense}
@@ -60,7 +60,7 @@ then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-tense, v-complet, v-adj, asp_i, asp_or, v-comp}
 
-%%	 for consonant verb  	  			i-infl
+%%	 for consonant verb 	 			i-infl
 if
 NEXTCAT = [scat OR v:c v:ir v:c:sub v:ir:sub], [allo OR vCi vPIw vAIt vAIs vTSi] 
 then
@@ -74,7 +74,7 @@ then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {v-tense, v-caus, v-adj}
 
-%%	for consonant verb on "r" (assimilated a-infl)  "yannai"
+%%	for consonant verb on "r" (assimilated a-infl) "yannai"
 if
 NEXTCAT = [scat OR v:c v:c:sub], [allo vNNr]
 then
@@ -106,7 +106,7 @@ then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {a-tense}
 
-%%% 							 for copula   
+%%% 							 for copula 
 if
 NEXTCAT = [scat OR v:cop v:cop:sub], ![tense OR pres past inf imp], ![adj +]
 then
@@ -132,7 +132,7 @@ CTYPE: -
 
 %% 				all infl
 if
-NEXTCAT = [scat vcomp],  [cp vV]
+NEXTCAT = [scat vcomp], [cp vV]
 MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV], DEL [scat], ADD [scat v:v]
@@ -173,7 +173,7 @@ then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vAIs], DEL [scat], ADD [scat v:c]
 RULEPACKAGE ={v-tense, v-complet, v-adj, v2adj, v-comp, v-noun, v-anoun}
 
-%%				assim stem: 2nd  verb ending on -k
+%%				assim stem: 2nd verb ending on -k
 if
 NEXTCAT = [scat vcomp], [cp vTIk]
 MATCHCAT [allo]
@@ -334,7 +334,7 @@ MATCHCAT [allo]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-anoun} 
-%%%   	 					vV for re
+%%% 	 					vV for re
 if
 STARTCAT = [allo vV], ![int -]
 NEXTSURF = re
@@ -366,7 +366,7 @@ then
 RESULTCAT = STARTCAT, DEL [allo], ADD [allo vV] 
 RULEPACKAGE = {v-tense, v-complet, asp_i, asp_or, v-adj, v-anoun}
 
-%%%  						for verbs on "w" 
+%%% 						for verbs on "w" 
 if
 STARTSURF = !ir
 STARTCAT = [allo vRw]
@@ -545,11 +545,11 @@ RULEPACKAGE = {v-tense, v-adj, asp_i, asp_or}
 
 
 %%%%%%%%%%%%%%%%%%%
-%%  ASPECT 
+%% ASPECT 
 %%%%%%%%%%%%%%%%%%%
 RULENAME: asp_i
 CTYPE: -
-%%                        V-teru, V-deru
+%%   V-teru, V-deru
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
 NEXTCAT = [scat asp_i]
@@ -560,7 +560,7 @@ RULEPACKAGE = {v-tense, v-adj}
 
 RULENAME: asp_or
 CTYPE: -
-%%                        V-toru, V-doru
+%%   V-toru, V-doru
 %% 				stem infl
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
@@ -600,7 +600,7 @@ RULEPACKAGE = {v-tense, v-complet}
 
 
 %%%%%%%%%%%%%%%%%%%
-%%  NEGATION 
+%% NEGATION 
 %%%%%%%%%%%%%%%%%%%
 
 RULENAME: neg
@@ -616,7 +616,7 @@ RULEPACKAGE = {a-tense, v-tense}
 
 
 %%%%%%%%%%%%%%%%%%%
-%%  V-TENSE   
+%% V-TENSE 
 %%%%%%%%%%%%%%%%%%%
 
 RULENAME: v-tense
@@ -639,7 +639,7 @@ NEXTSURF = na
 NEXTCAT = [scat vsfx], [sfxcat adj]
 MATCHCAT [allo]
 then
-RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RESULTCAT = STARTCAT, ADD [v-adj 1]
 RULEPACKAGE = {a-tense, adj-v}
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
@@ -647,7 +647,7 @@ NEXTSURF = ta
 NEXTCAT = [scat vsfx], [sfxcat adj]
 MATCHCAT [allo]
 then
-RESULTCAT =  STARTCAT, ADD [v-adj 1]
+RESULTCAT = STARTCAT, ADD [v-adj 1]
 RULEPACKAGE = {a-tense, adj-v}
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
@@ -657,7 +657,7 @@ then
 RESULTCAT = STARTCAT, DEL [allo], ADD [an 1], NEXTCAT [tense]
 RULEPACKAGE = {}
 
-RULENAME: v2adj   %fuer tabe-zurai, -gatai, -nikui, 
+RULENAME: v2adj %fuer tabe-zurai, -gatai, -nikui, 
 CTYPE: -
 if
 STARTCAT = [scat OR v:v v:c v:ir v:v:sub v:c:sub v:ir:sub]
@@ -750,7 +750,7 @@ then
 RESULTCAT = STARTCAT, NEXTCAT [tense]
 %RULEPACKAGE = {neg}
 
-%%%%%%%%%%%%%%%%%%  deadjectival verbalizers (Agaru, Asugiru)
+%%%%%%%%%%%%%%%%%% deadjectival verbalizers (Agaru, Asugiru)
 RULENAME: adj-v
 CTYPE: -
 if
@@ -774,7 +774,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat v:c], DEL [allo], ADD [allo vCi]
 RULEPACKAGE = {v-tense}
 
-%%%%%%%%%%%%%%%%%%  deadjectival nominalizers   (Asa, Ake)
+%%%%%%%%%%%%%%%%%% deadjectival nominalizers (Asa, Ake)
 RULENAME: adj-n
 CTYPE: -
 if
@@ -783,7 +783,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat n]
 RULEPACKAGE = {}
 
-%%%%%%%%%%%%%%%%%%  				(Asoo) 
+%%%%%%%%%%%%%%%%%% 				(Asoo) 
 RULENAME: adj-an
 CTYPE: -
 if
@@ -900,7 +900,7 @@ then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {sfx-noun, n-comp, n-bound}
 
-%%	for gokko  noun -> verbal noun
+%%	for gokko noun -> verbal noun
 if
 STARTCAT = [scat OR n n:an n:mot n:vn n:vn:onoma n:vn:mot n:prop n:deic:dem n:deic:prs ]
 NEXTCAT = [scat vnsfx]
@@ -908,7 +908,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat n:vn]
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, n-bound, n-rendaku}
 
-%%	for rashii ppoi  noun -> adj
+%%	for rashii ppoi noun -> adj
 if
 STARTCAT = [scat OR n n:an n:mot n:an:mot n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
 NEXTCAT = [scat nasfx]
@@ -916,7 +916,7 @@ then
 RESULTCAT = DEL [scat], ADD [scat adj]
 RULEPACKAGE = {a-tense}
 
-%%	for teki   noun -> adj noun
+%%	for teki noun -> adj noun
 if
 STARTCAT = [scat OR n n:vn n:prop n:deic:dem n:deic:prs n:deic:wh]
 NEXTCAT = [scat nansfx]
@@ -979,7 +979,7 @@ then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
  
-%%	for soo  
+%%	for soo 
 if
 STARTCAT = [scat n:an]
 NEXTCAT = [scat ansfx]
@@ -1030,7 +1030,7 @@ then
 RESULTCAT = NEXTCAT, NEXTCAT [allo], ADD [numpfx +]
 RULEPACKAGE = {num-suffix, num-numcl}
 
-%%%%%%%%%%%%%%%%%%%  for simple number-suffix (yon-sama)
+%%%%%%%%%%%%%%%%%%% for simple number-suffix (yon-sama)
 RULENAME: num-suffix
 CTYPE: -
 if
@@ -1040,7 +1040,7 @@ then
 RESULTCAT = STARTCAT %, DEL [numpfx], DEL [allo], ADD [nums 1]
 RULEPACKAGE = {pfx-noun, num-suffix, n-comp, n-bound, n-rendaku}
 
-%%	for ip-piki   number with classifier num -> num:cl
+%%	for ip-piki number with classifier num -> num:cl
 if
 STARTCAT = [scat OR num n:deic:wh]
 NEXTCAT = [scat numclsfx]
@@ -1049,7 +1049,7 @@ RESULTCAT = DEL [scat], ADD [scat num:cl]
 RULEPACKAGE = {pfx-noun, num-suffix, num-numcl, n-comp, n-bound, n-rendaku}
 
 
-%%%%%NEW%%%%%%%%%%%%%  number-classifiers    (ip-piki)
+%%%%%NEW%%%%%%%%%%%%% number-classifiers (ip-piki)
 RULENAME: numcl-start
 CTYPE: START
 $X = .*
@@ -1059,11 +1059,11 @@ then
 RESULTCAT = NEXTCAT, ADD [rule numcl]
 RULEPACKAGE = {pfx-noun, num-suffix, num-numcl, n-comp, n-bound, n-rendaku}
 
-%%%%%%%%%%%%%%%%%%%  
+%%%%%%%%%%%%%%%%%%% 
 RULENAME: num-numcl
 CTYPE: -
 if
-STARTCAT = [scat num:cl]  
+STARTCAT = [scat num:cl] 
 NEXTCAT = [scat numclsfx]
 then
 RESULTCAT = STARTCAT
@@ -1101,7 +1101,7 @@ RESULTCAT = NEXTCAT, ADD [ccr 1]
 RULEPACKAGE = {co-compound}
 
 %%%%%%%%%%%%%%%%%%%
-%%   DEM START    
+%% DEM START 
 %%%%%%%%%%%%%%%%%%%
 
 RULENAME: dem-start
@@ -1147,7 +1147,7 @@ RULEPACKAGE = {}
 
 
 %%%%%%%%%%%%%%%%%%%
-%% END RULES  
+%% END RULES 
 %%%%%%%%%%%%%%%%%%%
 
 RULENAME: v-endrule
@@ -1199,7 +1199,7 @@ RULENAME: num-endrule
 CTYPE: END
 if
 STARTCAT = [scat num], ![numbound +], ![numpfx +], ![allo OR numBBk \
-           numBBp numBBs numBBt]
+  numBBp numBBs numBBt]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
@@ -1209,7 +1209,7 @@ RULENAME: numcl-endrule
 CTYPE: END
 if
 STARTCAT = [scat num:cl], ![numbound +], ![numpfx +], ![allo OR numBBk \
-           numBBp numBBs numBBt]
+  numBBp numBBs numBBt]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
@@ -1228,7 +1228,7 @@ RULEPACKAGE = {}
 RULENAME: dem-endrule2
 CTYPE: END
 if
-STARTCAT = [scat OR adv:deic:dem  adv:deic:wh adv:deic:indef n:deic:indef]
+STARTCAT = [scat OR adv:deic:dem adv:deic:wh adv:deic:indef n:deic:indef]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
@@ -1247,7 +1247,7 @@ RULENAME: misc-endrule
 CTYPE: END
 if
 STARTCAT = [scat OR adn adv adv:onoma co:g co:i conj n:let n:fml n:num n:prop ptl:case ptl:post ptl:cppost ptl:attr \
-            ptl:conj ptl:coo ptl:foc ptl:indef ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
+  ptl:conj ptl:coo ptl:foc ptl:indef ptl:fina ptl:quot ptl:snr ptl:top ptl:voc quant smod onoma v:mot bq eq tag]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}

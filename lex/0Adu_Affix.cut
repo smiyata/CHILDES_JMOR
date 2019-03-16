@@ -1,0 +1,49 @@
+@UTF8
+%% SUSANNE   buri	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "buri_FOR_THE_FIRST_TIME_IN"
+%% this produces ichiburi niburi ; i think it has to be attached to another numcl     
+%%
+%% jikan	{[scat numclsfx] [allo OR numBFa numBBk numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "jikan_HOUR"
+%%  jikan can stand alone, therefore better a n:num compound ?
+%% same for senkyoku and shuukan
+%% senkyoku {[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "senkyoku_ELECTORAL_DISTRICT"
+%% shuukan	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shuukan_WEEK"
+%%
+%% zuni	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG&ADV"
+%% i would like to keep the NEG:zu , so i changed it to 
+%% zuni	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&ADV" 
+%%
+%%yoo	{[scat vsfx] [sfxcat n] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "yoo_WAY_OF"
+%% this produces  tabeyoo/nomiyoo ? 
+%%
+% intentitive	######## 意志 (Deliberative),勧誘 (Hortative),推量 (Inferential) のハイブリッド
+%yoo	{[scat vtense] [tense inf] [allo OR vV vBKo vTSi]} "DELB/HORT/INFR"
+%% i would really like to avoid the slashes in the gloss. Unless we decide to divide -yoo into 3 meanings, we should
+%% go with one gloss and explain that it is a placeholder or abbreviation for the other meanings
+%%
+% nsfx
+%gata	{[scat nsfx]} "PL"
+%tachi	{[scat nsfx]} "PL"
+%% the other affixes have all the pattern o_HON# or  -chan_FAM ; i don't think that -tachi is special in any way, so
+%% -tachi_PL looks good to me.
+%%
+%doo	{[scat pfx] [pcat n]} "doo_SAID"	% 同 
+%gen {[scat pfx] [pcat n]} "gen_CURRENT" % 現
+%saku {[scat pfx] [pcat n]} "saku_LAST" % 昨
+%ryoo {[scat pfx] [pcat quant]} "ryoo_BOTH" % 両(県)
+%moto {[scat pfx] [pcat n]} "moto_EX" % 元
+%%are you suggesting that these are real prefixes, like o_HON# ?  I have added them to the list of the things 
+%%that  have to be entered in the lexicon.   
+%%doo_SAID_ 同 
+%%gen_CURRENT_ 現  etc
+
+
+% Classifier Suffixes	########
+% 								 敗 
+hai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "hai_DEFEAT"
+pai	{[scat numclsfx] [allo numBBp]} "hai_DEFEAT"
+% 								 期
+ki {[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "ki_TERM" % 期
+% 								 選
+sen {[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "sen_ELECTED" % 選(する)
+% 								 賞
+shoo {[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "shoo_VICTORY" % n勝

@@ -30,7 +30,7 @@ misoji	{[scat num:cl]} =thirty_years_old=
 ohitori	{[scat num:cl]} =one= "o_HON#hito-ri_PERSON"	% お一人
 ofutari	{[scat num:cl]} =two= "o_HON#futa-ri_PERSON"	% お二人
 ohitotsu	{[scat num:cl]} =one= "o_HON#hito-tsu_PIECE"	% お一つ
-mapputatsu	{[scat num:cl]} =two= "ma_STRAIGHT-futa-tsu_PIECE"  %真っ二つ
+mapputatsu	{[scat num:cl]} =two= "ma_STRAIGHT-futa-tsu_PIECE" %真っ二つ
 
 
 %%% CHINESE BASED 					【漢語ベース】

@@ -1,8 +1,8 @@
 @UTF8
-aru	{[scat adn]}  =a_certain=
+aru	{[scat adn]} =a_certain=
 arayuru	{[scat adn]} =every=
-kansuru	{[scat adn]}  =concerning=
-taisuru	{[scat adn]}  =concerning=
+kansuru	{[scat adn]} =concerning=
+taisuru	{[scat adn]} =concerning=
 gaina	{[scat adn]} =enormous=	% 我意な
 ookina	{[scat adn]} =big= %大きな
 okkina	{[scat adn]} =big= "ookina" %おっきな
@@ -30,5 +30,5 @@ onnaji	{[scat adn]} =same= "onaji"
 anzuru	{[scat adn]} =plan=
 enzuru	{[scat adn]} =perform=
 oozuru	{[scat adn]} =respond= %	応ずる
-shoozuru	{[scat adn]} =occur= %	生ずる  
+shoozuru	{[scat adn]} =occur= %	生ずる 
 

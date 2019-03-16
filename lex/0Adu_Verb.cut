@@ -1,20 +1,20 @@
 @UTF8
-%%%%  Verb
+%%%% Verb
 
 
-% Verb    (vowel/consonant)
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "k"
+% Verb (vowel/consonant)
+%%%%%%%%%%%%%%%%%%%%%%%%%% "k"
 	hik	{[scat v:c]} =grind=	%【引く】***
 	kakar	{[scat v:c]} =be_affected=
 	sabak	{[scat v:c]} =deal_with/judge=	
 	sak	{[scat v:c]} =rupture= %	割く		
 	suk	{[scat v:c]} =like= %	好く		
 	yak	{[scat v:c]} =be_jealous=	%【やく】(〈妬く)***
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "m"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "m"
 	sum	{[scat v:c]} =clear=	%【澄む】***
 togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	um	{[scat v:c]}	 =form_pus=	 %	膿む
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "r"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "r"
 	atar	{[scat v:c]} =be_in_charge=
 	azukar	{[scat v:c]} =take_custody=	%【預かる】
 	ayamar	{[scat v:c]} =mistake=	% 【誤る】
@@ -22,7 +22,7 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	demawar	{[scat v:c]} "demawar" =appear_abundantly= %	出回る
 	hakar	{[scat v:c]} =plan=
 	ikar	{[scat v:c]} =get_angry=
-	kur	{[scat v:c]} =wind=  %	繰る		
+	kur	{[scat v:c]} =wind= %	繰る		
 	mair	{[scat v:c]} =worship=	%【参る】
 	memor	{[scat v:c]} =put_graded_scale=	%【目盛る】
 	mor	{[scat v:c]} =be_leaky=	%【漏る】
@@ -32,25 +32,25 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	shikir	{[scat v:c]} =manage=
 	sor	{[scat v:c]} =be_curved=	%【反る】***
 	sur	{[scat v:c]} =rub=	%【擦る】
-	tamar	{[scat v:c]} =bear= %  堪る
+	tamar	{[scat v:c]} =bear= % 堪る
 	tomar	{[scat v:c]} =stay=	%【泊まる】***
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "s"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "s"
 	das	{[scat v:c]} =submit=
 	fukas	{[scat v:c]} =steam=	%【ふかす】(《蒸かす)***
 	makas	{[scat v:c]} =defeat=	%【負かす】
 	mas {[scat v:c]} =increase=
 	ondas	{[scat v:c]} =expel=
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "t"
-	tat	{[scat v:c]} =go_by=	%【経つ】  
+%%%%%%%%%%%%%%%%%%%%%%%%%% "t"
+	tat	{[scat v:c]} =go_by=	%【経つ】 
 	tat	{[scat v:c]} =depart=	%【発つ】 
 	tat	{[scat v:c]} =cut_off= %	断つ		
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "w"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "w"
 	furumaw	{[scat v:c]} =distribute=
 	mukaw	{[scat v:c]} =face=	%向かう
 	yuw	{[scat v:c]} =bind=	%【結う】
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "e"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "e"
 	age	{[scat v:v]} =mention=
 	ake	{[scat v:v]} =be_over= %明ける
 	fuse	{[scat v:v]} =lie_down=	%【臥せる】
@@ -62,10 +62,10 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	tome	{[scat v:v]} =lodge_sb=	%【泊める】
 	tsutome	{[scat v:v]} =strive=	%【努める】
 	tsutome	{[scat v:v]} =be_employed=	%【努める】
-%%%%%%%%%%%%%%%%%%%%%%%%%%   "i"
+%%%%%%%%%%%%%%%%%%%%%%%%%% "i"
 	deki	{[scat v:v]} =be_made=
 
-%% synt. compound    (all listed in verb.cut)
+%% synt. compound (all listed in verb.cut)
 %SAMPLE	
 %kowarekake	{[scat v:v][comp v:v+v:v]} =start_to_break= "koware+kake"	% 壊れかける
 %% lex. compound 
@@ -1279,7 +1279,7 @@ atehame	{[scat v:v]} =apply= "ate_hame"
 atekom	{[scat v:c]} =expect_go_in= "ate_kom" 
 atetsuke	{[scat v:v]} =insinuate= "ate_tsuke" 
 awasemot	{[scat v:c]} =combine_hold= "awase_mot" 
-ayumide	{[scat v:c]} =walk_get_out=  "ayum_de" 
+ayumide	{[scat v:c]} =walk_get_out= "ayum_de" 
 ayumiyor	{[scat v:c]} =walk_approach= "ayum_yor" 
 azakeriwaraw	{[scat v:c]} =scoff_at= "azaker_waraw" 
 azukarishir	{[scat v:c]} =have_concern_with= "azukar_shir" 
@@ -1295,7 +1295,7 @@ hanaskom	{[scat v:c]} =talk_repeat= "hanas_kom"
 hanemawar	{[scat v:c]} =jump_revolve= "hane_mawar" 
 hariowar	{[scat v:c]} =stretch_finish= "har_owar" 
 hashirimawar	{[scat v:c]} =run_revolve= "hashir_mawar" 
-hikisak	{[scat v:c]} =pull_rupture=  "hik_sak" 
+hikisak	{[scat v:c]} =pull_rupture= "hik_sak" 
 iawase	{[scat v:v]} =be_combine= "i_awase" 
 ibarichiras	{[scat v:c]} =boss_around= "ibar_chiras" 
 idetat	{[scat v:c]} =go_out= "ide_tat" 
@@ -1686,12 +1686,12 @@ yoriwake	{[scat v:v]} =select= "yor_wake"
 yudeagar	{[scat v:c]} =be_boiled_up= "yude_agar" 
 yudeage	{[scat v:v]} =boil_up= "yude_age" 
 yukikayow	{[scat v:c]} =pass= "yuk_kayow" 
-  
+ 
 
 
 % Subsidiary Verb
 deki	{[scat v:v:sub]} =can= 
-nar	{[scat v:c:sub]} =become=     %okake ni naru
+nar	{[scat v:c:sub]} =become= %okake ni naru
 
 %%% short Kanji + "suru"
 aisu	{[scat v:ir]} =love= "ai_su"
@@ -1705,7 +1705,7 @@ hassu	{[scat v:ir]} "has_su" =pass_off= %	発する
 hossu	{[scat v:ir]} "hos_su" =crave= %	欲する
 gaisu	{[scat v:ir]} "gai_su" =harm= %	害する
 imisu	{[scat v:ir]} "imi_su" =denote= %意味する
-%kansu	{[scat v:ir]} =concern= "kan_su" %関する  => adn|kansuru   ptl:foc|kanshite
+%kansu	{[scat v:ir]} =concern= "kan_su" %関する => adn|kansuru ptl:foc|kanshite
 kessu	{[scat v:ir]} "kes_su" =decide= %	決する
 koisu	{[scat v:ir]} "koi_su" =fall_in_love= %	恋する
 kussu	{[scat v:ir]} "kus_su" =resign= %	屈する
@@ -1720,7 +1720,7 @@ shisu	{[scat v:ir]} "shi_su" =die= %	死する
 shokusu	{[scat v:ir]} "shoku_su" =eclipse= %	食する
 shoosu	{[scat v:ir]} "shoku_su" =profess_status= %	称する
 dassu	{[scat v:ir]} "das_su" =escape= %	脱する
-%taisu	{[scat v:ir]} =concern=  %対する  => adn|taisuru   ptl:foc|taishite
+%taisu	{[scat v:ir]} =concern= %対する => adn|taisuru ptl:foc|taishite
 tassu	{[scat v:ir]} "tas_su" =reach= %	達する
 tekisu	{[scat v:ir]} "teki_su" =conform_to= %	適する
 tessu	{[scat v:ir]} "tes_su" =sink_in= %	徹する

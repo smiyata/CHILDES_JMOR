@@ -1,9 +1,6 @@
 @UTF8
 %%%% sentence modalizer
-beku	{[scat smod]} =OBLG=
-beshi	{[scat smod]} =OBLG= 
-beki	{[scat smod]} =OBLG= "beki&ADN"
-bekarazu	{[scat smod]} =OBLG= "bekarazu&NEG"
+beki	{[scat smod]} =OBLG= "beshi&ADN"
 chau	{[scat smod]} =isnt_it=
 chau	{[scat smod]} =isnt_it=
 
@@ -18,10 +15,12 @@ kamoshirenakatta	{[scat smod]} =perhaps= "kamoshirena-PAST"
 kashiran	{[scat smod]} =perhaps= 
 kashira	{[scat smod]} =perhaps=
 
-daro	{[scat smod]} =INFR= "daroo"
 daroo	{[scat smod]} =INFR=
-desho	{[scat smod]} =INFR= "deshoo&POL"
-deshoo	{[scat smod]} =INFR= "deshoo&POL"
+daro	{[scat smod]} =INFR= "daroo"
+dearoo	{[scat smod]} =INFR= "daroo"
+desho	{[scat smod]} =INFR= "daroo&POL"
+deshoo	{[scat smod]} =INFR= "daroo&POL"
+dearimashoo	{[scat smod]} =INFR= "daroo&POL"
 yaro	{[scat smod]} =INFR=
 jaro	{[scat smod]} =INFR=
 jaroo	{[scat smod]} =INFR=
@@ -30,13 +29,15 @@ desu	{[scat smod]} =POL=
 desu	{[scat v:ir:sub][tense inf]} =POL=
 
 mai	{[scat smod]} =NEG&INFR=
+maji	{[scat smod]} =NEG&INFR=
 mitai	{[scat smod]} =INFR=
-mitaku	{[scat smod]} =INFR= "mitaku&ADV"
-ppoi	{[scat smod]} =looks_like= "ppo-PRES"   %after tense  (attached to nouns)
+midai	{[scat smod]} =INFR=
+mitaku	{[scat smod]} =INFR= "mitai&ADV"
+ppoi	{[scat smod]} =looks_like= "ppo-PRES" %after tense (attached to nouns)
 ppoku	{[scat smod]} =looks_like= "ppo-ADV"
 ppokunai	{[scat smod]} =looks_like= "ppo-NEG-PRES"
-rashii	{[scat smod]} =SENS= "rashi-PRES"  % sensory evidential mood
-rashikatta     {[scat smod]} =SENS= "rashi-PAST"
+rashii	{[scat smod]} =SENS= "rashi-PRES" % sensory evidential mood
+rashikatta {[scat smod]} =SENS= "rashi-PAST"
 rashiku	{[scat smod]} =SENS= "rashi-ADV"
 rashikute	{[scat smod]} =SENS= "rashi-CONN"
 

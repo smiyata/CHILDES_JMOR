@@ -110,9 +110,9 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	aikawarazu	{[scat adv]} =as_usual=	% 相変わらず 
 	akumade	{[scat adv]} =to_the_end=	% あくまで･飽くまで 
 	akumademo	{[scat adv]} =to_the_end=	% あくまでも･飽くまでも 
-%changed_to_quant	amari	{[scat adv]} =not_quite=	% あまり  余り 
-%changed_to_quant	amashi	{[scat adv]} =not_quite= "amari"	% あまり  余り 
-%changed_to_quant	amma	{[scat adv]} =not_quite= "amari"	% あまり  余り 
+%changed_to_quant	amari	{[scat adv]} =not_quite=	% あまり 余り 
+%changed_to_quant	amashi	{[scat adv]} =not_quite= "amari"	% あまり 余り 
+%changed_to_quant	amma	{[scat adv]} =not_quite= "amari"	% あまり 余り 
 %changed_to_quant	ammari	{[scat adv]} =not_quite= "amari"	% あんまり
 %changed_to_quant	aramashi	{[scat adv]} =almost= 	% あらまし
 	atode	{[scat adv]} =later=
@@ -128,15 +128,15 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	chittomo	{[scat adv]} =not_at_all=	
 	chobitto	{[scat adv]} =a_bit=	
 	choi	{[scat adv]} =a_bit=	
-	chokkake	{[scat adv]} =a_bit=	% ちょっと  一寸
-	chokotto	{[scat adv]} =a_bit=	% ちょっと  一寸
-	chorotto	{[scat adv]} =a_bit=	% ちょっと  一寸
+	chokkake	{[scat adv]} =a_bit=	% ちょっと 一寸
+	chokotto	{[scat adv]} =a_bit=	% ちょっと 一寸
+	chorotto	{[scat adv]} =a_bit=	% ちょっと 一寸
 	choo	{[scat adv]} =extremely=	% 超
-	choodo	{[scat adv]} =just=	% ちょうど  丁度/ 恰度 
+	choodo	{[scat adv]} =just=	% ちょうど 丁度/ 恰度 
 	choppiri	{[scat adv]} =a_tiny_bit=	
-	choito	{[scat adv]} =a_bit= "chotto"	% ちょっと  一寸 
-	chotto	{[scat adv]} =a_bit=	% ちょっと  一寸 
-	chiito	{[scat adv]} =a_bit=	% ちいと  
+	choito	{[scat adv]} =a_bit= "chotto"	% ちょっと 一寸 
+	chotto	{[scat adv]} =a_bit=	% ちょっと 一寸 
+	chiito	{[scat adv]} =a_bit=	% ちいと 
 	daibu	{[scat adv]} =mostly=	% だいぶ/大分 before adj ; otherwise quant
 %changed_to_quant	daibu	{[scat adv]} =mostly=	% だいぶ/大分 
 %changed_to_quant	daitai	{[scat adv]} =generally=	% 大体 
@@ -169,30 +169,30 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	hitasura	{[scat adv]} =solely= %ひたすら
 	honno	{[scat adv]} =only= %ほんの
 	honobono	{[scat adv]} =heartwarming=	% ほのぼの
-%changed_to_quant	hotondo	{[scat adv]} =mostly=	% ほとんど  殆ど 
+%changed_to_quant	hotondo	{[scat adv]} =mostly=	% ほとんど 殆ど 
 	hyottoshite	{[scat adv]} =perhaps=	
 	hyottoshitara	{[scat adv]} =perhaps=	
 	ichiban	{[scat adv] [n +]} =most=	% 一番 
-	ichiichi	{[scat adv]} =in_detail=	% いちいち  一一 
-	ichioo	{[scat adv]} =tentatively=	% 一応  一往 
+	ichiichi	{[scat adv]} =in_detail=	% いちいち 一一 
+	ichioo	{[scat adv]} =tentatively=	% 一応 一往 
 	ikinari	{[scat adv]} =all_of_a_sudden=	
 	ikioi	{[scat adv]} =vigor=	% 勢い 
-	imada	{[scat adv]} =still=	% いまだ  未だ 	
+	imada	{[scat adv]} =still=	% いまだ 未だ 	
 	imasara	{[scat adv]} =now_after_that_long_time=	% いまさら/今更 	
 %changed_to_quant	ippai	{[scat adv]} =plenty=	% 一杯 
-	ippen	{[scat adv]} =one_time=	% いっぺん  一遍 
+	ippen	{[scat adv]} =one_time=	% いっぺん 一遍 
 	issai	{[scat adv]} =at_all= %一切
 	isshun	{[scat adv]} =in_a_second=
 	ittai	{[scat adv]} =wh_on_earth=	% 一体 
 	ittan	{[scat adv]} =once=
 	iyoiyo	{[scat adv]} =finally=
-	jikani	{[scat adv]} =directly=	% 直に  じかに
+	jikani	{[scat adv]} =directly=	% 直に じかに
 	jiki	{[scat adv]} =soon=	% 直 
 	jikkuri	{[scat adv]} =slowly=	% ジックリ 
 	jiitto	{[scat adv]} =fixedly= "jitto"	% じっと 
 	jitto	{[scat adv]} =fixedly=	% じっと 
 	jojoni	{[scat adv]} =step_by_step=	% 徐徐に 
-	kaette	{[scat adv]} =on_the_contrary=	% かえって  却って 
+	kaette	{[scat adv]} =on_the_contrary=	% かえって 却って 
 	kanarazu	{[scat adv]} =necessarily=	% 必ず 
 	kanarazushimo	{[scat adv]} =necessarily= "kanarazu_shimo"	% 必ずしも 
 %changed_to_quant	kanari	{[scat adv]} =considerably=	% 可成り 
@@ -206,8 +206,8 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	kitto	{[scat adv]} =surely=	
 	konoaida	{[scat adv]} =the_other_day= "kono_aida"
 	konomae	{[scat adv]} =recently=	"kono_mae" % この前 
-	korekara	{[scat adv]} =from_now_on=	% これから  此れから 
-	koppidoku	{[scat adv]} =harshly=	%  こっ酷く 
+	korekara	{[scat adv]} =from_now_on=	% これから 此れから 
+	koppidoku	{[scat adv]} =harshly=	% こっ酷く 
 	kossori	{[scat adv]} =secretly=	
 	kossotto	{[scat adv]} =secretly=	
 	kosotto	{[scat adv]} "kossoto" =secretly=	
@@ -215,24 +215,24 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	kyokuryoku	{[scat adv]} =to_the_utmost=	% 極力 
 	kuchiguchini	{[scat adv]} =unanimously=	% 口々に
 	maamaa	{[scat adv]} =passable=	
-	mada	{[scat adv]} =still=	% まだ  未だ 
-	madashimo	{[scat adv]} =rather= "mada_shimo"	% まだしも  未だしも   
+	mada	{[scat adv]} =still=	% まだ 未だ 
+	madashimo	{[scat adv]} =rather= "mada_shimo"	% まだしも 未だしも 
 	maji	{[scat adv]} =seriously=	% まじ
 	mamonaku	{[scat adv]} =in_an_instant=	% まもなく/間もなく 
 	marude	{[scat adv]} =completely=	
 	marukkiri	{[scat adv]} =completely=	
-	marumaru	{[scat adv]} =wholly=	% まるまる と)･丸丸 と  
+	marumaru	{[scat adv]} =wholly=	% まるまる と)･丸丸 と 
 	masaka	{[scat adv] } =unlikely=	
 	masani	{[scat adv]} =exactly=	% まさに 
 	masshigura	{[scat adv]} =precipitately=	
 	massugu	{[scat adv]} =straight=	
-	masumasu	{[scat adv]} =more_and_more=	% ますます  益益》 
+	masumasu	{[scat adv]} =more_and_more=	% ますます 益益》 
 	mata	{[scat adv]} =again=	% また･又 
 	mattaku	{[scat adv]} =completely=	% まったく/全く 
-	mazu	{[scat adv]} =at_first=	% まず  先ず 
+	mazu	{[scat adv]} =at_first=	% まず 先ず 
 	meippai	{[scat adv]} =to_the_full=	% 目いっぱい/目一杯 
 	mettani	{[scat adv]} =rarely=
-	mochiron	{[scat adv]} =of_course=	% もちろん  勿論 
+	mochiron	{[scat adv]} =of_course=	% もちろん 勿論 
 	mokkai	{[scat adv]} =once_more=	% もう一回 
 	moo	{[scat adv]} =already=	
 	moojiki	{[scat adv]} =soon=	% もう一度 
@@ -240,18 +240,18 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	moppen	{[scat adv]} =once_more=	% も一編 
 	morotomo	{[scat adv]} =altogether=	% 諸共 
 	moshikashitara	{[scat adv]} =maybe=	% もしかしたら 
-	moshikashite	{[scat adv]} =maybe=	%  
+	moshikashite	{[scat adv]} =maybe=	% 
 	moshikasuruto	{[scat adv]} "moshi_ka_suru_to" =maybe=
 	motomoto	{[scat adv]} =originally=	% 元元 
 	motto	{[scat adv]} =more=	
 	mottomo	{[scat adv]} =most=	% 最も 
 	mukkuri	{[scat adv]} =abruptly=	
 	muriyari	{[scat adv]} =forcibly=	% むりやり･無理やり 
-	mushiro	{[scat adv]} =rather=	% むしろ  寧ろ 
-	mutsumajiku	{[scat adv]} =harmoniously=	% むつまじく 睦まじく   
-	naganaga	{[scat adv]} =lengthily=	% 長長 と  
-	nagaraku	{[scat adv]} =for_a_while=	%   長らく 
-	nakanaka	{[scat adv]} =fairly=	% なかなか  中中 
+	mushiro	{[scat adv]} =rather=	% むしろ 寧ろ 
+	mutsumajiku	{[scat adv]} =harmoniously=	% むつまじく 睦まじく 
+	naganaga	{[scat adv]} =lengthily=	% 長長 と 
+	nagaraku	{[scat adv]} =for_a_while=	% 長らく 
+	nakanaka	{[scat adv]} =fairly=	% なかなか 中中 
 	nante	{[scat adv]} =very=	% なんと 何と
 	nanto	{[scat adv]} =whatever=	% なんと 何と
 	naomo	{[scat adv]} =further=	% 尚も
@@ -262,7 +262,7 @@ zurari	{[scat adv:onoma]} =in_a_row=
 %changed_to_quant	ookata	{[scat adv]} =mostly=	% 大方 おおかた
 	orishimo	{[scat adv]} =at_that_very_moment= "ori_shimo"	% 折しも 
 	osoraku	{[scat adv]} =probably=	% おそらく/恐らく 
-	oyoso	{[scat adv]} =about=	% およそ  凡そ 
+	oyoso	{[scat adv]} =about=	% およそ 凡そ 
 	patto	{[scat adv]} =in_a_flash=	
 	pinto	{[scat adv]} =instantly=
 	pishari	{[scat adv]} =slap=
@@ -275,25 +275,25 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	rokuni	{[scat adv]} "roku_ni" =not_properly=	
 	saiwai	{[scat adv]} =fortunately=	
 	sakihodo	{[scat adv]} =a_little_while_ago=	
-	sakki	{[scat adv]} =a_little_while_ago=	% さっき  先 
-	 imasakki	{[scat adv]} =a_little_while_ago=	% さっき  先 
+	sakki	{[scat adv]} =a_little_while_ago=	% さっき 先 
+	 imasakki	{[scat adv]} =a_little_while_ago=	% さっき 先 
 %changed_to_quant	sanzan	{[scat adv]} =severely=	% 散々
 	sarani	{[scat adv]} =afresh=	% さらに/更に 
 	sassa	{[scat adv]} =promptly=	
 	sassato	{[scat adv]} =promptly=	
 	sassoku	{[scat adv]} =promptly=	
-	sasuga	{[scat adv]} =as_good_as_expected=	% さすが  流石 
-	satto	{[scat adv]} =quickly=	% さっと  颯と 
-	sazokashi	{[scat adv]} =surely=	% さぞかし  嘸かし 
-	seeippai	{[scat adv]} =with_all_might=	% 精いっぱい  精一杯 
-	sekkaku	{[scat adv]} =expressly=	% せっかく  折角 
+	sasuga	{[scat adv]} =as_good_as_expected=	% さすが 流石 
+	satto	{[scat adv]} =quickly=	% さっと 颯と 
+	sazokashi	{[scat adv]} =surely=	% さぞかし 嘸かし 
+	seeippai	{[scat adv]} =with_all_might=	% 精いっぱい 精一杯 
+	sekkaku	{[scat adv]} =expressly=	% せっかく 折角 
 	semete	{[scat adv]} =at_least=	
 	sesseto	{[scat adv]} =diligently=	
-	shibaraku	{[scat adv]} =for_a_while=	% しばらく  暫く 
-	shibarakuburi	{[scat adv]} =after_a_long_time=	% しばらく  暫く 
+	shibaraku	{[scat adv]} =for_a_while=	% しばらく 暫く 
+	shibarakuburi	{[scat adv]} =after_a_long_time=	% しばらく 暫く 
 	shiite	{[scat adv]} =forcibly=	% しいて/強いて 
-	shikirini	{[scat adv]} =incessantly=	% しきりに  
-	shikkari	{[scat adv]} =firmly=	% しっかり  確と 
+	shikirini	{[scat adv]} =incessantly=	% しきりに 
+	shikkari	{[scat adv]} =firmly=	% しっかり 確と 
 	shimmiri	{[scat adv]} =softly=
 	shinto	{[scat adv]} =still=
 	shooshoo	{[scat adv]} =a_bit=	
@@ -310,22 +310,22 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	somosomo	{[scat adv]} =to_begin_with=	
 	sorosoro	{[scat adv]} =by_and_by=	
 %changed_to_quant	subete	{[scat adv]} =all=	% 全て 
-	sudeni	{[scat adv]} =already=	% すでに  既に/ 已に 
+	sudeni	{[scat adv]} =already=	% すでに 既に/ 已に 
 	sugee	{[scat adv]} =very= "sugoi"
 	sugoi	{[scat adv]} =very=
-	monosugoi	{[scat adv]} =very_very=	% ものすごい  物 凄い 
-	sugu	{[scat adv]} =soon=	% すぐ  直ぐ 
+	monosugoi	{[scat adv]} =very_very=	% ものすごい 物 凄い 
+	sugu	{[scat adv]} =soon=	% すぐ 直ぐ 
 	sukkari	{[scat adv]} =completely=	
 	sukkiri	{[scat adv]} =refreshed=	
 	suratto	{[scat adv]} =slenderly=
 	tabun	{[scat adv]} =perhaps=	% 多分 
-	tada	{[scat adv]} =only=	% ただ  徒 
+	tada	{[scat adv]} =only=	% ただ 徒 
 %changed_to_quant	taigai	{[scat adv]} =generally=	% 大概 	
 	taihen	{[scat adv]} =very=	% 大変 	
 %changed_to_quant	taishite	{[scat adv]} =greatly=	% たいして/大して 	% 寸分 
-%changed_to_quant	takkusan	{[scat adv]} =many= "takusan"	% たくさん  沢山 	
-%changed_to_quant	takusan	{[scat adv]} =many=	% たくさん  沢山 	
-	tamani	{[scat adv]} =sometimes=	% たまに  偶に 	
+%changed_to_quant	takkusan	{[scat adv]} =many= "takusan"	% たくさん 沢山 	
+%changed_to_quant	takusan	{[scat adv]} =many=	% たくさん 沢山 	
+	tamani	{[scat adv]} =sometimes=	% たまに 偶に 	
 	tamatama	{[scat adv]} =sometimes=	
 	tanni	{[scat adv]} =simply=
 %changed_to_quant	tanto	{[scat adv]} =much=	
@@ -333,22 +333,22 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	tatoeba	{[scat adv]} =for_example=	% 例えば 
 	tekkiri	{[scat adv]} =beyond_doubt=	
 	tokidoki	{[scat adv]} =sometimes=	% 時時 
-	tokku	{[scat adv]} =swiftly=	% とっく  
+	tokku	{[scat adv]} =swiftly=	% とっく 
 	tokuni	{[scat adv]} =especially=	% 特に 
 	tomodomo	{[scat adv]} =along_with=
 	tomonaku	{[scat adv]} =anyway=	
 	tonikaku	{[scat adv]} =anyway=	
 	toobun	{[scat adv]} =for_the_time_being=	% 当分 
-	tootoo	{[scat adv]} =at_last=	% とうとう  到頭 
-	toriaezu	{[scat adv]} =for_the_time_being=	% とりあえず  取り 敢えず 
-	totemo	{[scat adv]} =very=	% とても  迚も 
+	tootoo	{[scat adv]} =at_last=	% とうとう 到頭 
+	toriaezu	{[scat adv]} =for_the_time_being=	% とりあえず 取り 敢えず 
+	totemo	{[scat adv]} =very=	% とても 迚も 
 	totsuzen	{[scat adv]} =suddenly=	% 突然 
 	tottemo	{[scat adv]} =very= "totemo"	
-	tsugitsugi	{[scat adv]} =one_after_another=	% 次次 に  
+	tsugitsugi	{[scat adv]} =one_after_another=	% 次次 に 
 	tsui	{[scat adv]} =inadvertently=	
 	tsuitsui	{[scat adv]} =inadvertently=	
-	tsuideni	{[scat adv]} =on_the_occasion=	% ついでに  序でに 
-	tsuini	{[scat adv]} =finally=	% ついに  遂に/ 終に 
+	tsuideni	{[scat adv]} =on_the_occasion=	% ついでに 序でに 
+	tsuini	{[scat adv]} =finally=	% ついに 遂に/ 終に 
 	tsukuzuku	{[scat adv]} =thoroughly=
 	tsuneni	{[scat adv]} =always=	% 常に 
 	tsuyushirazu	{[scat adv]} =utterly_ignorant=	% つゆ知らず
@@ -356,9 +356,9 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	ujauja	{[scat adv:onoma]} =crowded=	
 	uttori	{[scat adv]} =absorbedly=
 	warito	{[scat adv]} =relatively=	% わりと/割と 
-	wazato	{[scat adv]} =intentionally=	% わざと  態と 
-	wazawaza	{[scat adv]} =expressly=	% わざわざ  態態》 
-	yagate	{[scat adv]} =before_long=	% やがて  軈て 
+	wazato	{[scat adv]} =intentionally=	% わざと 態と 
+	wazawaza	{[scat adv]} =expressly=	% わざわざ 態態》 
+	yagate	{[scat adv]} =before_long=	% やがて 軈て 
 	yahari	{[scat adv]} =as_thought=	
 	yaku	{[scat adv]} =about=	% 約 
 	yanwari	{[scat adv]} =gently=
@@ -371,7 +371,7 @@ zurari	{[scat adv:onoma]} =in_a_row=
 	yoku	{[scat adv]} =often=	% よく 
 	yoo	{[scat adv]} =well=
 %changed_to_quant	yooke	{[scat adv]} =much=
-	yooyaku	{[scat adv]} =finally=	% ようやく  漸く 
+	yooyaku	{[scat adv]} =finally=	% ようやく 漸く 
 	yoppodo	{[scat adv]} =considerably= "yohodo"	% よほど/余程 
 	yori	{[scat adv]} =more=
 	yukkuri	{[scat adv]} =slowly=	
@@ -383,6 +383,6 @@ zurari	{[scat adv:onoma]} =in_a_row=
 %changed_to_quant	zuibun	{[scat adv]} =a_great_deal=	% 随時 
 	zutto	{[scat adv]} =constantly=	
 	zuutto	{[scat adv]} =constantly= "zutto"
-%	naruhodo	{[scat adv]} =indeed=	% なるほど  成る程 
+%	naruhodo	{[scat adv]} =indeed=	% なるほど 成る程 
 	attoiumani	{[scat adv]} =instantly= "aq_to_iu_ma_ni"	%
 

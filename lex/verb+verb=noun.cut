@@ -4,7 +4,7 @@
 %% OTHER resulting in NOUN %%	
 
 %% resulting in VERBAL NOUN %%	
-%lex.compounds  (verb PRES form not used; eg *akeshimeru )
+%lex.compounds (verb PRES form not used; eg *akeshimeru )
 akeshime	{[scat n:vn]} =open_and_close= "ake_shime"	
 nakiwarai	{[scat n:vn][comp v:c+v:c]} =smiling_through_tears= "nak+waraw"	
 ikiiki	{[scat n:vn]} "iki_iki" =vivid=	%【生き生き】
@@ -38,18 +38,17 @@ koegawari	{[scat n:vn]} "koe_kawar" =voice_breaking=	%【声変わり】
 konkurabe	{[scat n:vn]} "kon_kurabe" =endurance_contest=	%【根比べ】(根《競べ)
 koromogae	{[scat n:vn]} "koromo_kae" =seasonal_dress_change=	%【衣替え】(衣《更え)
 kuchigotae	{[scat n:vn]} "kuchi_kotaeGER" =talk_back=	%【口答え】
-kuinige	{[scat n:vn]} =eat_and_run_away= "kuw_nige"  % 食い逃げ
+kuinige	{[scat n:vn]} =eat_and_run_away= "kuw_nige" % 食い逃げ
 manegoto	{[scat n:vn]} "mane_goto" =imitation=	%【まね】(:真似)
 miyamairi	{[scat n:vn]} "miya_mair" =shrine_visit=	%【宮参り】
-mochinige	{[scat n:vn]} =take_and_running_away= "mot_nige"  % 持ち逃げ
+mochinige	{[scat n:vn]} =take_and_running_away= "mot_nige" % 持ち逃げ
 nakimane	{[scat n:vn]} "nak_mane" =fake_crying=	%
 nakineiri	{[scat n:vn]} "nak_ne_ir" =cry_oneself_to_sleep=	%【泣き寝入り】
-norinige	{[scat n:vn]} =ride_and_running_away= "nor_nige"  % 乗り逃げ
+norinige	{[scat n:vn]} =ride_and_running_away= "nor_nige" % 乗り逃げ
 okawari	{[scat n:vn]} "o_HON_kawar" =refill=	%【お代わり】
 omairi	{[scat n:vn]} =shrine_visit= "o_HON_mairi"	%【お参り】
 omake	{[scat n:vn]} =discount= "o_HON_make"	%【おまけ】(お負け)
 omimai	{[scat n:vn]} =sick_bed_visit= "o_HON_mimai"
-otsutome	{[scat n:vn]} =have_a_job= "o_HON_tsutome"	% 努め 
 rakugaki	{[scat n:vn]} =scribbling= "raku_kak_GER"	%【落書き】
 rakugakichoo	{[scat n]} =sketch_book= "raku_kak_choo_BINDER"
 sundome	{[scat n:vn]} =stopping_just_before= "sun_tome"

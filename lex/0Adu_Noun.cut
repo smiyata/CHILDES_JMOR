@@ -1,5 +1,5 @@
 @UTF8
-%%%%  Noun
+%%%% Noun
 %%%% Proper Noun
 %%%% Adjectival Noun
 %%%% Verbal Noun
@@ -9,130 +9,130 @@
 
 %%%% Noun
 aakeedo	{[scat n]} =arcade=
-abura	{[scat n]} =fat=	% 脂  膏 
+abura	{[scat n]} =fat=	% 脂 膏 
 aidokusha	{[scat n]} =regular_reader= "aidoku_sha_PERSON" % 愛読者
 aishoo	{[scat n]} =affinity= % 相性
-aitekata  {[scat n][comp n+n]} "aite+kata" =other_party=
-ajiwai  {[scat n]} =taste=
+aitekata {[scat n][comp n+n]} "aite+kata" =other_party=
+ajiwai {[scat n]} =taste=
 akiya	{[scat n]} =unoccupied_house=
 aku	{[scat n]} =evil=
 anken	{[scat n]} =matter=
 anzenkijun	{[scat n][comp n:an+n]} =safety_standard= "anzen+kijun"
-apurikeeshon  {[scat n]} =pc_application=
-atari  {[scat n]} =hit=
+apurikeeshon {[scat n]} =pc_application=
+atari {[scat n]} =hit=
 ate	{[scat n]} =expectation=
 ato	{[scat n]} =trace=	% 跡 
-baa	{[scat n]} =old_woman= 	% ばあさん  婆さん/:祖母さん 
+baa	{[scat n]} =old_woman= 	% ばあさん 婆さん/:祖母さん 
 banushi	{[scat n]} =horse_owner=
 baree	{[scat n]} =horse_age=
 basee	{[scat n]} =bellowing=
 baaya		{[scat n]} =nanny=
-bengoshi  {[scat n]} =counsel=
+bengoshi {[scat n]} =counsel=
 bijutsukan	{[scat n]} =art_museum= "bijutsu_kan_BLDG"	% 美術館
 booeesen	{[scat n][comp n:vn+n]} =line_of_defence= "booee+sen"
-buchoo  {[scat n]} =division_head=
+buchoo {[scat n]} =division_head=
 bunkahatten	{[scat n][comp n+n]} "bunka+hatten" =cultural_development=
 bunsai		{[scat n]} =literary_talent=
 bunshooboshuu	{[scat n:vn][comp n+n:vn]} =call_for_papers= "bunshoo+boshuu"
-bun'ya  {[scat n]} =field=
-burandingu  {[scat n]} =branding=
-burandohin     {[scat n][comp n+n]} =luxury_brand_goods= "brando+hin"   
+bun'ya {[scat n]} =field=
+burandingu {[scat n]} =branding=
+burandohin {[scat n][comp n+n]} =luxury_brand_goods= "brando+hin" 
 bushoo	{[scat n]} =military_commander=
-bussan  {[scat n]} =product=
+bussan {[scat n]} =product=
 chiri	{[scat n]} =topography=
-chiiki  {[scat n]} =region=
+chiiki {[scat n]} =region=
 chindon'ya	{[scat n]} =street_musician= "chindon_ya_SHOP" 	% チンドン屋
 choku	{[scat n]} =command=
 choochoo	{[scat n]} =town_mayer=
-choojoogenshoo  {[scat n][comp n:n+n]} =supernatural_phenomenon= "choojoo+genshoo"
+choojoogenshoo {[scat n][comp n:n+n]} =supernatural_phenomenon= "choojoo+genshoo"
 choosensha	{[scat n]} =challenger= "choosen_sha_PERSON" % 挑戦者
 chosha	{[scat n]} =author= "chosha" % 著者
 chuugakkoorika	{[scat n][comp n+n]} =junior_high_school_science= "chuugakkoo+rika"
 chuushinseemoomakuen	{[scat n][comp n+n]} =central_retinitis= "chuushinsee+moomakuen"
-daichi  {[scat n]} =earth=
-daigakugawa  {[scat n]} =university_side= "university_gawa_SIDE"
+daichi {[scat n]} =earth=
+daigakugawa {[scat n]} =university_side= "university_gawa_SIDE"
 daigakunyuugaku	{[scat n][comp n+n:vn]} =entering_university= "daigaku+nyuugaku"
 daihyoosha	{[scat n]} =representative= "daihyoo_sha_PERSON" % 代表者
-daihyooshagyoomudaikoosha      {[scat n][comp n+n+n]} =business_agent_of_the_representative= "daihyoo_sha_PERSON+gyoomu+daikoo_sha_PERSON"
+daihyooshagyoomudaikoosha {[scat n][comp n+n+n]} =business_agent_of_the_representative= "daihyoo_sha_PERSON+gyoomu+daikoo_sha_PERSON"
 danaoizee	{[scat n]} =Danaoi_warriors=
 dandori		{[scat n]} =plan=
 danryokusee	{[scat n]} =elasticity=
 dasha	{[scat n]} =batter= % 打者
-dasshutsusakusen  {[scat n][comp n:vn+n]} =escape_strategy= "dasshutsu+sakusen"
+dasshutsusakusen {[scat n][comp n:vn+n]} =escape_strategy= "dasshutsu+sakusen"
 deeryuu	{[scat n]} =mud_flow= % 泥流
 dokusaisha	{[scat n]} =dictator= "dokusai_sha_PERSON" % 独裁者
 dokusha	{[scat n]} =reader= "doku_sha_PERSON" % 読者
-dooshokubutsu  {[scat n]} =animals_and_plants=
+dooshokubutsu {[scat n]} =animals_and_plants=
 dorama	{[scat n]} =drama=
 e	{[scat n]} =handle=	% 柄
 eegakantoku {[scat n][comp n+n:n]} "eega+kantoku" =movie_director= % 映画監督
 eegyooseeseki	{[scat n][comp n+n]} =business_result= "eegyoo+seeseki"
 eeichi	{[scat n][comp n:let+num]} "ee+ichi" =answer_one= %%A1
 eewajiten	{[scat n][comp n+n]} "ee_wa+jiten" =English_Japanese_dictionary=
-engawa  {[scat n]} =veranda=
-engeki  {[scat n]} =theatrical_production=
-enkai   {[scat n]}      =party=
-ekoshisutemu  {[scat n][comp n+n]}  =ecosystem= "eko+shisutemu"
-emi  {[scat n]} =smile=
+engawa {[scat n]} =veranda=
+engeki {[scat n]} =theatrical_production=
+enkai {[scat n]} =party=
+ekoshisutemu {[scat n][comp n+n]} =ecosystem= "eko+shisutemu"
+emi {[scat n]} =smile=
 ensoosha	{[scat n]} =player_of_instrument= "ensoo_sha_PERSON" % 演奏者
-en'yoo  {[scat n]} =pelagic=
-en'yoogyogyoo  {[scat n][comp n+n]} =pelagic_fishery= "en'yoo+gyogyoo"
+en'yoo {[scat n]} =pelagic=
+en'yoogyogyoo {[scat n][comp n+n]} =pelagic_fishery= "en'yoo+gyogyoo"
 essee		{[scat n]} =essay=
 foroosha	{[scat n]} =vagabon= "foroo_sha_PERSON" % 浮浪者
-fuku	{[scat n]} =wealth=	%  福
+fuku	{[scat n]} =wealth=	% 福
 fundoshi	{[scat n]} =loincloth=
-furusato  {[scat n]} =home_town=
+furusato {[scat n]} =home_town=
 fushinsha	{[scat n]} =suspicious_person= "fushin_sha_PERSON" % 不審者
 fushoosha	{[scat n]} =injured_person= "fushoo_sha_PERSON" % 負傷者
 futsugoo	{[scat n]} =inconvenience= "fu_NOT_tsugoo"
-fuudo  {[scat n]} =regional_charateristic=
-fuukee  {[scat n]} =scenery=
-gaikai  {[scat n]} =the_outside_world=
+fuudo {[scat n]} =regional_charateristic=
+fuukee {[scat n]} =scenery=
+gaikai {[scat n]} =the_outside_world=
 gaikokugo {[scat n]} "gaikoku_go_LANGUAGE" =foreign_language= % 外国語
 gairoju		{[scat n]} =street_tree=
 gairyaku	{[scat n]} =outline=
 ganka	{[scat n]} =ophthalmologist=
-gakkoogawa  {[scat n]} =school_side= "gakkoo_gawa_SIDE"
+gakkoogawa {[scat n]} =school_side= "gakkoo_gawa_SIDE"
 gaku		{[scat n]} =amount_of_money=
 gakusha	{[scat n]} =scholar= % 学者
 geejutsubunkajigyoo	{[scat n][comp n+n+n]} "geejutsu+bunka+jigyoo" =artistic_cultural_enterprise=
-gengodeeta  {[scat n][comp n+n]}    =linguistic_data=       "gengo+deeta"
-gengokaisekijoohoo {[scat n][comp n+n:vn+n]}   =linguistic_analysis=   "gengo+kaiseki+joohoo"
-gengokenkyuu    {[scat n][comp n+n:vn]} =linguistic_research= "gengo+kenkyuu"
+gengodeeta {[scat n][comp n+n]} =linguistic_data= "gengo+deeta"
+gengokaisekijoohoo {[scat n][comp n+n:vn+n]} =linguistic_analysis= "gengo+kaiseki+joohoo"
+gengokenkyuu {[scat n][comp n+n:vn]} =linguistic_research= "gengo+kenkyuu"
 gengoshorishisutemukaihatsu {[scat n][comp n+n:vn+n+n:vn]} =development_of_NLP_system= "gengo+shori+shisutemu+kaihatsu"
 genkoo		{[scat n]} =draft=
 gensanchi {[scat n]} "gensan_chi_PLACE" =origin= % 原産地
 genri	{[scat n]} =principle=
 gijidoo	{[scat n]} =Diet_Building=
-gijie  {[scat n]} =lures=
+gijie {[scat n]} =lures=
 gijutsusha	{[scat n]} =engineer= "gijutsu_sha_PERSON" % 技術者
 go	{[scat n]} =go_game=
-go          {[scat n]}              =word=
+go  {[scat n]}  =word=
 go		{[scat n]} =after= %後
-gorufukurabu  {[scat n][comp n+n]} =golf_club= "gorufu+kurabu"
-gorufukurabusetto  {[scat n][comp n+n+n]} =golf_club_set= "gorufu+kurabu+setto"
-gottani  {[scat n]} =potpourri=
+gorufukurabu {[scat n][comp n+n]} =golf_club= "gorufu+kurabu"
+gorufukurabusetto {[scat n][comp n+n+n]} =golf_club_set= "gorufu+kurabu+setto"
+gottani {[scat n]} =potpourri=
 gunshuu	{[scat n]} =crowd=
-gunte  {[scat n]} =work_gloves=
-gyogyoo  {[scat n]} =fishery=
-gyoomu  {[scat n]} =business=
+gunte {[scat n]} =work_gloves=
+gyogyoo {[scat n]} =fishery=
+gyoomu {[scat n]} =business=
 gyoomuzempan	{[scat n][comp n+n]} "gyoomu+zempan" =business_in_general=
 gyoosha	{[scat n]} =vendor=
-gyooyoo  {[scat n]} =business=
+gyooyoo {[scat n]} =business=
 hai	{[scat n]} =ash= 	% 灰
 haiburiddo	{[scat n]} =hybrid= % ハイブリッド
 hakuchuu	{[scat n]} =daylight= % 白昼
 hakuri	{[scat n]} =exfoliation=
 hame	{[scat n]} =tight_spot=
-han'i  {[scat n]} =range=
+han'i {[scat n]} =range=
 hare	{[scat n]} =sunny= % 晴れ
 harugakki	{[scat n][comp n+n]} "haru+gakki" =spring_semester=
 he	{[scat n]} =fart= 
-heesha	       {[scat n]} =this_company=
+heesha	 {[scat n]} =this_company=
 henja	{[scat n]} =editor= "henja" % 編者
 henshuusha	{[scat n]} =editor= "henshuu_sha_PERSON" % 編集者
-hibi  {[scat n]} =days=
-hibiki  {[scat n]} =sound=
+hibi {[scat n]} =days=
+hibiki {[scat n]} =sound=
 higaisha	{[scat n]} =sufferer= "higai_sha_PERSON" % 被害者
 higashigawa	{[scat n]} =east_side= "higashi_gawa_SIDE"
 higisha	{[scat n]} =suspected_person= "higi_sha_PERSON" % 被疑者
@@ -169,7 +169,7 @@ ippashi		{[scat n]} =competent_enough=
 ishuui	{[scat n]} =wrong_smell=
 itaku	{[scat n]} =commission=
 iyoku	{[scat n]} =enthusiasm=
-ji	{[scat n]} =hemorrhoids= 	%  痔 
+ji	{[scat n]} =hemorrhoids= 	% 痔 
 jian	{[scat n]} =case=
 jichitai	{[scat n]} =autonomous_governing_body=
 jidai	{[scat n]} =time=
@@ -178,7 +178,7 @@ jidookan	{[scat n]} =childrens_house= "jidoo_kan_BLDG"	% 児童館
 jigo	{[scat n]} =after_the_event=
 jigyoosha	{[scat n]} =business person= "jigyoo_sha_PERSON" % 事業者
 jihishuppan	{[scat n]} =self_publishing= "jihi_shuppan"
-jii	{[scat n]  } =old_man= 	% じいさん  爺さん/:祖父さん 
+jii	{[scat n] } =old_man= 	% じいさん 爺さん/:祖父さん 
 jikokuhyoo	{[scat n][comp n+n]} =timetable= "jikoku+hyoo" % 時刻表
 jimotohatsu	{[scat n]} =local_origin=
 jimu	{[scat n]} =office=
@@ -198,8 +198,8 @@ juukyo	{[scat n]} =dwelling=
 kabu	{[scat n]} =stock=
 kabutogani	{[scat n][comp n+n]} =horseshoe_crab= "kabuto+kani"
 kadomatsu	{[scat n][comp n+n]} "kado+matsu" =gate_pine_tree=
-kagakkan	{[scat n]} =science_museum=  "kagaku_kan_BLDG"	% 科学館
-kagakukan	{[scat n]} =science_museum=  "kagaku_kan_BLDG"	% 科学館
+kagakkan	{[scat n]} =science_museum= "kagaku_kan_BLDG"	% 科学館
+kagakukan	{[scat n]} =science_museum= "kagaku_kan_BLDG"	% 科学館
 kagakusha	{[scat n]} =chemical_fire_engine= "kagaku_sha_VEHICLE" 	% 化学車
 kagakusha	{[scat n]} =scientist= "kagaku_sha_PERSON" 	% 科学
 kagakusha	{[scat n]} =scientist= "kagaku_sha_PERSON"
@@ -207,24 +207,24 @@ kaigairyokoo	{[scat n]} =overseas_trip= "kaigai_ryokoo"
 kaigan	{[scat n]} =seashore=
 kaikan	{[scat n]} =meeting_hall=
 kaishagawa	{[scat n]} =company_side= "kaisha_gawa_SIDE"
-kaiyuukan	{[scat n]} "kaiyuu_kan_BLDG" =Osaka_aquarium=  %大阪の海遊館
-kakko	{[scat n]} "kakkoo" =shape=	% かっこう/格好  恰好 
-kamigami       {[scat n]} =gods=       	
-kanan	{[scat n]} =seeing_darkness=  %観闇
+kaiyuukan	{[scat n]} "kaiyuu_kan_BLDG" =Osaka_aquarium= %大阪の海遊館
+kakko	{[scat n]} "kakkoo" =shape=	% かっこう/格好 恰好 
+kamigami {[scat n]} =gods= 	
+kanan	{[scat n]} =seeing_darkness= %観闇
 kanashibari	{[scat n][comp n+v:c]} "kane+shibar-GER" =sleep_paralysis=
 kanashibarijootai	{[scat n][comp n+v:c+n]} "kane+shibar&GER+jootai" =sleep_paralysis=
-kanchoo	{[scat n]} =director=  
+kanchoo	{[scat n]} =director= 
 kanchookoobo	{[scat n][comp n+n:vn]} "kanchoo+koobo" =public_recruitment_for_director=
-kankeesha      {[scat n]} =person_concerned= "kankee_sha_PERSON" % 関係者
-kankyaku       {[scat n]} =audience=
-kankyakuseki   {[scat n][comp n+n]} =audience_seat= "kankyaku+seki"
-kanojo	       {[scat n]} =girl_friend=
-kanriryoo      {[scat n]} =administration_cost= "kanri_ryoo_FEE" 
-karaoke        {[scat n]} =karaoke= % カラオケ
-kare	       {[scat n]} =boy_friend=
-kareshi	       {[scat n]} =boy_friend=
+kankeesha {[scat n]} =person_concerned= "kankee_sha_PERSON" % 関係者
+kankyaku {[scat n]} =audience=
+kankyakuseki {[scat n][comp n+n]} =audience_seat= "kankyaku+seki"
+kanojo	 {[scat n]} =girl_friend=
+kanriryoo {[scat n]} =administration_cost= "kanri_ryoo_FEE" 
+karaoke {[scat n]} =karaoke= % カラオケ
+kare	 {[scat n]} =boy_friend=
+kareshi	 {[scat n]} =boy_friend=
 karite	{[scat n][comp v:c+n]} =borrower= "kari&GER+te"
-karuchaa       {[scat n]} =culture=
+karuchaa {[scat n]} =culture=
 karushiumu {[scat n]} =calcium= % カルシウム
 karyuu	{[scat n]} =downstream=
 kashite	{[scat n][comp v:c+n]} =lender= "kas&GER+te"
@@ -234,41 +234,41 @@ kazanbai	{[scat n][comp n+n]} "kazan+hai" =volcanic_ashes=
 kazandan	{[scat n]} "kazan_dan" =volcanic_bomb=
 kazokushuppan	{[scat n]} =family_publishing= "kazoku_shuppan"
 keeboo	{[scat n]} =guardian= 	% 警防
-keekensha      {[scat n]} =person_with_experience= "keeken_sha_PERSON" % 経験者
+keekensha {[scat n]} =person_with_experience= "keeken_sha_PERSON" % 経験者
 keerekisho	{[scat n]} =curriculum_vitae=
 keesatsushochoo	{[scat n]} "keesatsu_sho_choo" =police_station_chief=
-keesha	       {[scat n]} =slope=
-keeyakusho     {[scat n]} =contract_document=
+keesha	 {[scat n]} =slope=
+keeyakusho {[scat n]} =contract_document=
 kemminkaikan	{[scat n][comp n+n]} "kemmin+kaikan" =prefectural_citizen's_hall=
 ken	{[scat n]} =prefecture=
-kenkyuusha     {[scat n]} =researcher= "kenkyuu_sha_PERSON" % 研究者
-kenryokusha    {[scat n]} =man_of_power= "kenryoku_sha_PERSON" % 権力者
+kenkyuusha {[scat n]} =researcher= "kenkyuu_sha_PERSON" % 研究者
+kenryokusha {[scat n]} =man_of_power= "kenryoku_sha_PERSON" % 権力者
 kenshookin	{[scat n]} "kenshoo_kin_MONEY" =reward=
 kibo	{[scat n]} =scale=
 kichi	{[scat n]} =known=
 kigyoo	{[scat n]} =company=
 kihonkyuu	{[scat n]} =basic_salary=
 kikaku__cdot__jisshi	{[scat n]} =planning_and_execution=
-kikoo	       {[scat n]} =weather=
+kikoo	 {[scat n]} =weather=
 kimi	{[scat n]} =master=
 kingaku		{[scat n]} =amount_of_money=
-kinshi	       {[scat n]} =gold_thread=
+kinshi	 {[scat n]} =gold_thread=
 kinshu	{[scat n]} =myoma=
 kin'yoobi {[scat n]} =friday= 
-kisha	       {[scat n]} =ournalist= % 記者
-kissaten       {[scat n]} "kissa_ten_SHOP=tearoom" =coffeeshop= % 喫茶店
-kitagawa       {[scat n]} =north_side= "kita_gawa_SIDE"
+kisha	 {[scat n]} =ournalist= % 記者
+kissaten {[scat n]} "kissa_ten_SHOP=tearoom" =coffeeshop= % 喫茶店
+kitagawa {[scat n]} =north_side= "kita_gawa_SIDE"
 kitsujitsu	{[scat n]} =lucky_day=
 kizuato	{[scat n][comp n+n]} "kizu+ato" =scar=
 kodaishutoken	{[scat n][comp n+n]} "kodai+shutoken" =ancient_capital=
 kogaisha	{[scat n][comp n+n]} =subsidiary_company= "ko+kaisha"
 kokkyoo	{[scat n]} =national_border=
-kokkyoosen     {[scat n][comp n+n]} =national_border_line= "kokkyoo+sen" 
+kokkyoosen {[scat n][comp n+n]} =national_border_line= "kokkyoo+sen" 
 koko		{[scat n]} =each=
-kokyaku        {[scat n]} =client=
-komedii        {[scat n]} =comedy= % コメディ
+kokyaku {[scat n]} =client=
+komedii {[scat n]} =comedy= % コメディ
 konekutaa	{[scat n]} =connector=
-kon'yakusha    {[scat n]} "kon'yaku_sha_PERSON" =fiancee=
+kon'yakusha {[scat n]} "kon'yaku_sha_PERSON" =fiancee=
 koogaku	{[scat n]} =high_value=
 koofuku	{[scat n]} =happiness=
 koohosha	{[scat n]} =candidate= "kooho_sha_PERSON" % 候補者
@@ -306,7 +306,7 @@ mainasushikoo	{[scat n][comp n+n:vn]} "mainasu+shikoo" =negative_thinking=
 manazashi	{[scat n]} =look=
 manki		{[scat n]} =expiration=
 manoatari	{[scat n]} =one's_own_eye=
-mata	{[scat n]} =groin=	% また  股 
+mata	{[scat n]} =groin=	% また 股 
 me	{[scat n]} =bud= 	% 芽 
 mekakushi	{[scat n]} =blindfolding=
 memmen	{[scat n]} =each_one=
@@ -319,7 +319,7 @@ mononofura	{[scat n]} "mononofu-ra_PL" =warrior=
 moomaku	{[scat n]} =retina=
 moomakuhakuri	{[scat n][comp n+n]} =retina_exfoliation= "moomaku+hakuri"
 mooshikomi	{[scat n]} =application=
-muchi	{[scat n]} =shameless= 	% むち  無恥 
+muchi	{[scat n]} =shameless= 	% むち 無恥 
 munaita	{[scat n]} =chest=
 na	{[scat n]} =vegetable= 	% 菜 
 nambu	{[scat n]} =the_south=
@@ -335,7 +335,7 @@ nazukeoya	{[scat n]} =godparent=
 ne	{[scat n]} =root= 	% 根 
 ninki	{[scat n]} =term_of_post=
 nichijooseekatsu	{[scat n][comp n+n:vn]} "nichijoo+seekatsu" =daily_life=
-nihonkodai	{[scat n][comp n:prop+n]}  "Nihon+kodai" =ancient_japan=
+nihonkodai	{[scat n][comp n:prop+n]} "Nihon+kodai" =ancient_japan=
 nikutai	{[scat n]} =body=
 ningyo	{[scat n]} =mermaid= 	% 人形 
 nishigawa	{[scat n]} =west_side= "nishi_gawa_SIDE"
@@ -347,7 +347,7 @@ noonyuugyoosha	{[scat n][comp n:vn+n]} =supplier= "noonyuu+gyoosha"
 nooryoku	{[scat n]} =ability=
 noosotchuu	{[scat n]} =cerebral_apoplexy=
 o	{[scat n]} =tail= 	% 尾 
-omoi  {[scat n]} =thought=    %【思い】
+omoi {[scat n]} =thought= %【思い】
 oobojooken	{[scat n][comp n:vn+n]} "oobo+jooken" =conditions_for_applying=
 oobosha	{[scat n]} =applicant= "oobo_sha_PERSON"
 oshie	{[scat n]} =teaching=
@@ -355,9 +355,9 @@ pan'ya {[scat n]} "pan_ya_SHOP" =bakery= %パン屋
 purosesu	{[scat n]} =process=
 puurugawa	{[scat n]} =pool_side= "puuru_gawa_SIDE"
 raijoosha	{[scat n]} =visitor= "raijoo_sha_PERSON" % 来場者
-rakurakumochiieseekatsu	{[scat n][comp n:an+n:an+n+n]}  "raku+raku+mochiie+seekatsu" =happy_my_home_life=
+rakurakumochiieseekatsu	{[scat n][comp n:an+n:an+n+n]} "raku+raku+mochiie+seekatsu" =happy_my_home_life=
 rakushoo	{[scat n]} =easily_win=
-oree	{[scat n]}  "o_HON#ree" =token_of_gratitude=
+oree	{[scat n]} "o_HON#ree" =token_of_gratitude=
 oriori		{[scat n]} =sometimes=
 pan'ya {[scat n]} "pan_ya_SHOP" =bakery= %パン屋
 reetekigenshoo	{[scat n][comp n:an+n]} "ree_teki_LIKE+genshoo" =psychic_phenomenon=
@@ -397,7 +397,7 @@ saiyoo	{[scat n:vn]} =employ=
 sakana		{[scat n]} =side_dish= %(酒の)肴
 sakka	{[scat n]} =novelist= % 作家
 sakusha	{[scat n]} =author= % 作者
-samuraikubi	{[scat n][comp n+n]} "samurai+kubi"  =head_of_warrior=
+samuraikubi	{[scat n][comp n+n]} "samurai+kubi" =head_of_warrior=
 sandoo	{[scat n]} =mountain_path=
 sankasha	{[scat n]} =participant= "sanka_sha_PERSON" % 参加者
 sankoo		{[scat n]} =third_proof= %三校
@@ -451,8 +451,8 @@ shikisha	{[scat n]} =conductor= "shiki_sha_PERSON" % 指揮者
 shikyuukinshu	{[scat n][comp n+n]} =uterus_myoma= "shikyuu+kinshu"
 shindansho {[scat n]} =medical_certificate= "shindan_sho_LETTER" % 診断書
 shingaisha	{[scat n]} =new_company=
-shinja	{[scat n]} =believer=  % 信者
-shinkan	{[scat n]} =god_view=   %神観
+shinja	{[scat n]} =believer= % 信者
+shinkan	{[scat n]} =god_view= %神観
 shinro	{[scat n]} =course=
 shinsai	{[scat n]} =earthquake_destruction=
 shintenchi	{[scat n]} "shin_NEW#tenchi" =new_world=
@@ -508,23 +508,23 @@ soshikigawa	{[scat n]} =organization_side= "soshiki_gawa_SIDE"
 sotsugyoosee	{[scat n]} =alumnus/alumna= "sotsugyoo_see_STUDENT"
 sue	{[scat n]} =end=
 suimen	{[scat n]} =water_surface=
-suirikuryooyoosha	{[scat n]} =amphibious_vehicle= "suirikuryooyoo_sha_VEHICLE" % “水陸両用車
-sukashijanome	{[scat n]} =double_ring= 	% 蛇の目  unclear
+suirikuryooyoosha	{[scat n]} =amphibious_vehicle= "suirikuryooyoo_sha_VEHICLE" % “ 水陸両用車
+sukashijanome	{[scat n]} =double_ring= 	% 蛇の目 unclear
 sumakichoo	{[scat n]} == %monkichoo のこと?
 sumi	{[scat n]} =charcoal=	% 炭
 sumi	{[scat n]} =corner=	% 隅
 sutaffu	{[scat n]} =staff=
 sutoresu	{[scat n]} =stress=
 sutoroberiiaji	{[scat n]} =strawberry_flavor= "sutoroberii_aji_FLAVOR" % ストロベリー味
-taihensa	{[scat n]} =terrible=   "taihen-sa_NLZR"
+taihensa	{[scat n]} =terrible= "taihen-sa_NLZR"
 tainai	{[scat n]} "tai_nai_WITHIN" =in_the_body=
 tairiku	{[scat n]} =continent=
 taisakuhombu	{[scat n][comp n+n]} "taisakuhombu" =countermeasures_headquarters=
 taisetsusa	{[scat n]} =important= "taisetsu-sa_NLZR"
 taishaku	{[scat n]} =rental=
 tamashii	{[scat n]} =soul=
-tame	{[scat n]} =benefit=  % ため  為 
-tame	{[scat n]} =due_to=  % ため  為 
+tame	{[scat n]} =benefit= % ため 為 
+tame	{[scat n]} =due_to= % ため 為 
 tamokutekisha	{[scat n]} =multi_purpose_car= "tamokuteki_sha_VEHICLE" %多目的車
 tanin	{[scat n]} =others=
 tansaiboo	{[scat n]} =unicellular=
@@ -559,17 +559,17 @@ toosha	{[scat n]} =this_company=
 tooshi	{[scat n]} =this_city=
 toosho		{[scat n]} =at_first=
 tozansha	{[scat n]} =mountain_climber= "tozan_sha_PERSON" % 登山者
-tsumori	{[scat n]} =intention= 	% つもり  積もり 
+tsumori	{[scat n]} =intention= 	% つもり 積もり 
 tsuriibank	{[scat n]} =treebank=
 tsuyu		{[scat n]} =rainy_season=
 uegawa	{[scat n]} =upper_part= "ue_gawa_SIDE"
-umi	{[scat n]} =pus=	% うみ  膿 
+umi	{[scat n]} =pus=	% うみ 膿 
 umigawa	{[scat n]} =seaward_side= "umi_gawa_SIDE"
 umpansha	{[scat n]} =moving_van= "umpan_sha_VEHICLE"
 untenshikin	{[scat n][comp n:vn+n]} =working_capital= "unten+shikin"
 uranai	{[scat n]} =fortune_telling= % 占い
 uranaishi	{[scat n]} =fortune_teller= "uranai_shi_PROFESSIONAL" % 占い師
-ya	{[scat n]} =arrow= 	% 矢  箭 
+ya	{[scat n]} =arrow= 	% 矢 箭 
 yachinkankaku	{[scat n][comp n+n]} "yachin+kankaku" =house_rent_sense=
 yakuinkoosee	{[scat n][comp n+n]} =list_of_directors= "yakuin+koosee"
 yakusha	{[scat n]} =actor= % 役者
@@ -598,36 +598,36 @@ zentoo	{[scat n]} =the_whole_island=
 zentoomin	{[scat n]} =all_of_the_inhabitant_of_the_island=
 zerokinri	{[scat n]} =zero_interest_rate= "zero_kinri"
 
-ichibushijuu	  {[scat n]} =the_whole_story=
-kuuran		  {[scat n]} =blank=
-memoyooshi	  {[scat n]} =notepad=
-koomoku		  {[scat n]} =item=
-choohen		  {[scat n]} =long_piece=
-choohenshoosetsu  {[scat n][comp n+n]} =long_novel= "choohen+shoosetsu"
-ninkisakka	  {[scat n][comp n:an+n]} =popular_author= "ninki+sakka"
-buri		  {[scat n]} =for_the_first_time_in=
-shaberu		  {[scat n]} =shovel=
-kakuchooshi	  {[scat n]} =extension=
-keeshiki	  {[scat n]} =format=
-menkyoshoo	  {[scat n]} =license=
-untenmenkyoshoo	  {[scat n][comp n:vn+n]} =driver_license= "unten+menkyoshoo"
-bushi		  {[scat n]} =samurai=
-tantoo		  {[scat n]} =dagger=
-yooten		  {[scat n]} =main_point=
-shuukanshi	  {[scat n]} =weekly_magazine=
-doshaburii	  {[scat n]} =downpour=
-seeen	  	  {[scat n]} =cheering=
-chooshoku	  {[scat n]} =breakfast=
-kuten		  {[scat n]} =period=
-skyandaru	  {[scat n]} =scandal=
-chitekikookishin  {[scat n][comp n:an+n]} =intellectual_curiosity= "chi_teki_LIKE+kookishin"
-shuzaimemo	  {[scat n][comp n:vn+n]} =coverage_memo=
-meebo		  {[scat n]} =name_list=
-komento		  {[scat n]} =comment=
-koosui		  {[scat n]} =perfume=
-hanshi		  {[scat n]} =Japanese_paper_for_calligraphy=
-meegen		  {[scat n]} =wise_saying=
-shimbunkisha	  {[scat n][comp n+n]} =newspaper_journalist= "shimbun+kisha" 
+ichibushijuu	 {[scat n]} =the_whole_story=
+kuuran		 {[scat n]} =blank=
+memoyooshi	 {[scat n]} =notepad=
+koomoku		 {[scat n]} =item=
+choohen		 {[scat n]} =long_piece=
+choohenshoosetsu {[scat n][comp n+n]} =long_novel= "choohen+shoosetsu"
+ninkisakka	 {[scat n][comp n:an+n]} =popular_author= "ninki+sakka"
+buri		 {[scat n]} =for_the_first_time_in=
+shaberu		 {[scat n]} =shovel=
+kakuchooshi	 {[scat n]} =extension=
+keeshiki	 {[scat n]} =format=
+menkyoshoo	 {[scat n]} =license=
+untenmenkyoshoo	 {[scat n][comp n:vn+n]} =driver_license= "unten+menkyoshoo"
+bushi		 {[scat n]} =samurai=
+tantoo		 {[scat n]} =dagger=
+yooten		 {[scat n]} =main_point=
+shuukanshi	 {[scat n]} =weekly_magazine=
+doshaburii	 {[scat n]} =downpour=
+seeen	 	 {[scat n]} =cheering=
+chooshoku	 {[scat n]} =breakfast=
+kuten		 {[scat n]} =period=
+skyandaru	 {[scat n]} =scandal=
+chitekikookishin {[scat n][comp n:an+n]} =intellectual_curiosity= "chi_teki_LIKE+kookishin"
+shuzaimemo	 {[scat n][comp n:vn+n]} =coverage_memo=
+meebo		 {[scat n]} =name_list=
+komento		 {[scat n]} =comment=
+koosui		 {[scat n]} =perfume=
+hanshi		 {[scat n]} =Japanese_paper_for_calligraphy=
+meegen		 {[scat n]} =wise_saying=
+shimbunkisha	 {[scat n][comp n+n]} =newspaper_journalist= "shimbun+kisha" 
 
 
 %%%% weekdays (abbr) %%%%%
@@ -649,8 +649,8 @@ Fukuoka		{[scat n:prop]} =Fukuoka=
 Heesee		{[scat n:prop]} =Heesee_era=
 Kyuusekkijidai	{[scat n:prop]} "Kyuu_sekki_jidai" =old_stone_age=
 Kyuushuuchihoo	{[scat n:prop][comp n:prop+n]} =the_Kyushu_region= "Kyuushuu+chihoo"
-Shisuko  {[scat n:prop]} =Cisco=   
-Shisukogawa  {[scat n:prop]} =Cisco= "Shisuko_gawa_SIDE"   
+Shisuko {[scat n:prop]} =Cisco= 
+Shisukogawa {[scat n:prop]} =Cisco= "Shisuko_gawa_SIDE" 
 
 %%%% Adjectival Noun
 	ani	{[scat n:an]} =easy=
@@ -662,16 +662,16 @@ Shisukogawa  {[scat n:prop]} =Cisco= "Shisuko_gawa_SIDE"
 	yuniiku	{[scat n:an]} =unique=
 	junchoo	{[scat n:an]} =smooth=
 	niwaka	{[scat n:an]} =sudden=
-taikyokuteki	{[scat n:an]}  =overwhelming=  "taikyoku_teki_LIKE" % 大局的
-anteeteki	{[scat n:an]}  =stable=  "antee_teki_LIKE" % 安定的
+taikyokuteki	{[scat n:an]} =overwhelming= "taikyoku_teki_LIKE" % 大局的
+anteeteki	{[scat n:an]} =stable= "antee_teki_LIKE" % 安定的
 arata	{[scat n:an]} =new=
-attooteki	{[scat n:an]}  =overwhelming=  "attoo_teki_LIKE" % 圧倒的
-bapponteki	{[scat n:an]}  =drastic=  "bappon_teki_LIKE" % 抜本的
-bubunteki	{[scat n:an]}  =partial=  "bubun_teki_LIKE" % 部分的
-bungakuteki	{[scat n:an]}  =literary=  "bungaku_teki_LIKE" % 文学的
-bunkateki	{[scat n:an]}  =cultural=  "bunka_teki_LIKE" % 文化的
-chimeeteki	{[scat n:an]}  =fatal=  "chimee_teki_LIKE" % 致命的
-chiriteki	{[scat n:an]}  =geographical=  "chiri_teki_LIKE" % 地理的
+attooteki	{[scat n:an]} =overwhelming= "attoo_teki_LIKE" % 圧倒的
+bapponteki	{[scat n:an]} =drastic= "bappon_teki_LIKE" % 抜本的
+bubunteki	{[scat n:an]} =partial= "bubun_teki_LIKE" % 部分的
+bungakuteki	{[scat n:an]} =literary= "bungaku_teki_LIKE" % 文学的
+bunkateki	{[scat n:an]} =cultural= "bunka_teki_LIKE" % 文化的
+chimeeteki	{[scat n:an]} =fatal= "chimee_teki_LIKE" % 致命的
+chiriteki	{[scat n:an]} =geographical= "chiri_teki_LIKE" % 地理的
 chiteki	{[scat n:an]} =intellectual= "chi_teki_LIKE"
 choojinteki	{[scat n:an]} =superhuman= "choojin_teki_LIKE"
 chookiteki	{[scat n:an]} =long_term= "chooki_teki_LIKE"
@@ -679,7 +679,7 @@ daihyooteki	{[scat n:an]} =typical= "daihyoo_teki_LIKE"
 daikibo	{[scat n:an]} =large_scale= % 大規模
 oohaba	{[scat n:an]} =big= % 大幅 
 daishoosamazama	{[scat n:an]} =various= "daishoo_samazama"
-dankaiteki	{[scat n:an]}  =phased=  "dankai_teki_LIKE" % 段階的
+dankaiteki	{[scat n:an]} =phased= "dankai_teki_LIKE" % 段階的
 dentooteki	{[scat n:an]} =traditional= "dentoo_teki_LIKE"
 eekyuu	{[scat n:an]} =everlasting=
 fuantee	{[scat n:an]} =unstable= "fu_NEG_antee"
@@ -693,56 +693,56 @@ fushiawase	{[scat n:an]} =misfortune= "fu_NEG_shiawase"
 futsuu	{[scat n:an]} =normal=
 fuyoo	{[scat n:an]} =not_needed= "fu_NEG_yoo"
 gasatsu	{[scat n:an]} =crude=
-geejutsuteki	{[scat n:an]}  =artistic=  "geejutsu_teki_LIKE" % 芸術的
+geejutsuteki	{[scat n:an]} =artistic= "geejutsu_teki_LIKE" % 芸術的
 genjitsuteki	{[scat n:an]} =realistic= "genjitsu_teki_LIKE"
 genshiteki	{[scat n:an]} =primitive= "genshi_teki_LIKE"
-gooriteki	{[scat n:an]}  =rational=  "goori_teki_LIKE" % 合理的
-hanshateki	{[scat n:an]}  =reflexive=  "hansha_teki_LIKE" % 反射的
+gooriteki	{[scat n:an]} =rational= "goori_teki_LIKE" % 合理的
+hanshateki	{[scat n:an]} =reflexive= "hansha_teki_LIKE" % 反射的
 haruka	{[scat n:an]} =remote=
-heekinteki	{[scat n:an]}  =average=  "heekin_teki_LIKE" % 平均的
-heesateki	{[scat n:an]}  =insular=  "heesa_teki_LIKE" % 閉鎖的
+heekinteki	{[scat n:an]} =average= "heekin_teki_LIKE" % 平均的
+heesateki	{[scat n:an]} =insular= "heesa_teki_LIKE" % 閉鎖的
 herushii {[scat n:an]} =healthy= %ヘルシー
-hijoo	{[scat n:an]}  =extreme=  % 非常な(暑さ)
+hijoo	{[scat n:an]} =extreme= % 非常な(暑さ)
 himpan	{[scat n:an]} =frequently=
 hisoka	{[scat n:an]} =stealthy=
-hiteeteki	{[scat n:an]}  =negative=  "hitee_teki_LIKE" % 否定的
-hiyakuteki	{[scat n:an]}  =rapid=  "hiyaku_teki_LIKE" % 飛躍的
-honnooteki	{[scat n:an]}  =instinctive=  "honnoo_teki_LIKE" % 本能的
+hiteeteki	{[scat n:an]} =negative= "hitee_teki_LIKE" % 否定的
+hiyakuteki	{[scat n:an]} =rapid= "hiyaku_teki_LIKE" % 飛躍的
+honnooteki	{[scat n:an]} =instinctive= "honnoo_teki_LIKE" % 本能的
 honshitsuteki	{[scat n:an]} =essential= "honshitsu_teki_LIKE"
 hontoo	{[scat n:an]} =real=
-hooteki	{[scat n:an]}  =legal=  "hoo_teki_LIKE" % 法的
+hooteki	{[scat n:an]} =legal= "hoo_teki_LIKE" % 法的
 hyoojunteki	{[scat n:an]} =standard= "hyoojun_teki_LIKE"
-ichijiteki	{[scat n:an]}  =temporary=  "ichiji_teki_LIKE" % 一時的
+ichijiteki	{[scat n:an]} =temporary= "ichiji_teki_LIKE" % 一時的
 ippanteki	{[scat n:an]} =general= "ippan_teki_LIKE"
-ippooteki	{[scat n:an]}  =one_sided=  "ippoo_teki_LIKE" % 一方的
+ippooteki	{[scat n:an]} =one_sided= "ippoo_teki_LIKE" % 一方的
 iyokuteki	{[scat n:an]} =enthusiastic= "iyoku_teki_LIKE"
-jidooteki	{[scat n:an]}  =automatic=  "jidoo_teki_LIKE" % 自動的
+jidooteki	{[scat n:an]} =automatic= "jidoo_teki_LIKE" % 自動的
 jihatsuteki	{[scat n:an]} =spontaneous= "jihatsu_teki_LIKE"
-jikanteki	{[scat n:an]}  =timewise=  "jikan_teki_LIKE" % 時間的
+jikanteki	{[scat n:an]} =timewise= "jikan_teki_LIKE" % 時間的
 jisshitsuteki	{[scat n:an]} =substantial= "jisshitsu_teki_LIKE"
 juutenteki	{[scat n:an]} =prioritized= "juuten_teki_LIKE"
 juuyoo	{[scat n:an]} =important=
-kagakuteki	{[scat n:an]}  =scientific=  "kagaku_teki_LIKE" % 科学的
-kaimetsuteki	{[scat n:an]}  =catastrophic=  "kaimetsu_teki_LIKE" % 壊滅的
-kakushinteki	{[scat n:an]}  =innovative=  "kakushin_teki_LIKE" % 革新的
-kandooteki	{[scat n:an]}  =touching=  "kandoo_teki_LIKE" % 感動的
+kagakuteki	{[scat n:an]} =scientific= "kagaku_teki_LIKE" % 科学的
+kaimetsuteki	{[scat n:an]} =catastrophic= "kaimetsu_teki_LIKE" % 壊滅的
+kakushinteki	{[scat n:an]} =innovative= "kakushin_teki_LIKE" % 革新的
+kandooteki	{[scat n:an]} =touching= "kandoo_teki_LIKE" % 感動的
 kanjin	 {[scat n:an]} =crucial=
 kappatsu	{[scat n:an]} =active=
-keekakuteki	{[scat n:an]}  =planned=  "keekaku_teki_LIKE" % 計画的
+keekakuteki	{[scat n:an]} =planned= "keekaku_teki_LIKE" % 計画的
 keezaiteki	{[scat n:an]} =economic= "keezai_teki_LIKE"
-keezokuteki	{[scat n:an]}  =continuous=  "keezoku_teki_LIKE" % 継続的
-kekkateki	{[scat n:an]}  =concerning_the_result=  "kekka_teki_LIKE" % 結果的
+keezokuteki	{[scat n:an]} =continuous= "keezoku_teki_LIKE" % 継続的
+kekkateki	{[scat n:an]} =concerning_the_result= "kekka_teki_LIKE" % 結果的
 kenkoo	{[scat n:an]} =helthy=
 kenkoosoo	{[scat n:an]} =helthy= "kenkoo-soo_SEEMING"
 kenkyo	{[scat n:an]} =modest=
-kenzaiteki	{[scat n:an]}  =overt=  "kenzai_teki_LIKE" % 顕在的
+kenzaiteki	{[scat n:an]} =overt= "kenzai_teki_LIKE" % 顕在的
 ketteeteki	{[scat n:an]} =decisive= "kettee_teki_LIKE"
 kichi	{[scat n:an]} =known= % 【既知】,n でなく
 kigaru	{[scat n:an]} =lighthearted=
 kihonteki	{[scat n:an]} =basic= "kihon_teki_LIKE"
 kikai	 {[scat n:an]} =strange=
-kikaiteki	{[scat n:an]}  =mechanical=  "kikai_teki_LIKE" % 機械的
-kindaiteki	{[scat n:an]}  =modern=  "kindai_teki_LIKE" % 近代的
+kikaiteki	{[scat n:an]} =mechanical= "kikai_teki_LIKE" % 機械的
+kindaiteki	{[scat n:an]} =modern= "kindai_teki_LIKE" % 近代的
 kiraku	{[scat n:an]} =carefree=
 kisoteki	{[scat n:an]} =basic= "kiso_teki_LIKE" % 基礎的
 kogara	{[scat n:an]} =small= % 小柄
@@ -756,7 +756,7 @@ koofuku	{[scat n:an]} =happy=
 kooiteki	{[scat n:an]} =favourable= "kooi_teki_LIKE"
 kookateki	{[scat n:an]} =effective= "kooka_teki_LIKE"
 kooritsuteki	{[scat n:an]} =efficient= "kooritsu_teki_LIKE"
-kooteeteki	{[scat n:an]}  =affirmative=  "kootee_teki_LIKE" % 肯定的
+kooteeteki	{[scat n:an]} =affirmative= "kootee_teki_LIKE" % 肯定的
 korishoo	{[scat n:an]} =perfectionist= % 凝り性
 kyooretsu	{[scat n:an]} =intense=
 maemiki	{[scat n:an]} =positive=
@@ -764,29 +764,29 @@ maji	{[scat n:an]} =serious=
 makkuro	{[scat n:an]} =pitch_black=
 massugu	{[scat n:an]} =straight=
 meehaku	{[scat n:an]} =clear=
-metta	{[scat n:an]}  =rash=  % 滅多
+metta	{[scat n:an]} =rash= % 滅多
 mikaiketsu	{[scat n:an]} =unresolved= "mi_NEG_kaiketsu"
 miryokuteki	{[scat n:an]} =attractive= "miryoku_teki_LIKE"
 monogusa	{[scat n:an]} =lazy=
 naibuteki	{[scat n:an]} =internal= "naibu_teki_LIKE"
 naibuteki	{[scat n:an]} =internal= "naibu_teki_LIKE"
 nihonteki	{[scat n:an]} =Japan= "nihon_teki_LIKE"
-nikutaiteki	{[scat n:an]}  =physical=  "nikutai_teki_LIKE" % 肉体的
-ningenteki	{[scat n:an]}  =human_like=  "ningen_teki_LIKE" % 人間的
+nikutaiteki	{[scat n:an]} =physical= "nikutai_teki_LIKE" % 肉体的
+ningenteki	{[scat n:an]} =human_like= "ningen_teki_LIKE" % 人間的
 noopuroburemu	{[scat n:an]} =no_problem= "noo_puroburemu"
 odayaka	{[scat n:an]} =mild=
 onnaji	{[scat n:an]} =same= "onaji"
-reegaiteki	{[scat n:an]}  =exceptional=  "reegai_teki_LIKE" % 例外的
+reegaiteki	{[scat n:an]} =exceptional= "reegai_teki_LIKE" % 例外的
 rekishiteki	{[scat n:an]} =historical= "rekishi_teki_LIKE"
-richiteki	{[scat n:an]}  =intellectual=  "richi_teki_LIKE" % 理智的
-rironteki	{[scat n:an]}  =theoretical=  "riron_teki_LIKE" % 理論的
-risooteki	{[scat n:an]}  =ideal=  "risoo_teki_LIKE" % 理想的
-ronriteki	{[scat n:an]}  =logical=  "ronri_teki_LIKE" % 論理的
+richiteki	{[scat n:an]} =intellectual= "richi_teki_LIKE" % 理智的
+rironteki	{[scat n:an]} =theoretical= "riron_teki_LIKE" % 理論的
+risooteki	{[scat n:an]} =ideal= "risoo_teki_LIKE" % 理想的
+ronriteki	{[scat n:an]} =logical= "ronri_teki_LIKE" % 論理的
 saidai	{[scat n:an]} =greatest=
 saishuuteki	{[scat n:an]} =final= "saishuu_teki_LIKE"
 saiwai	{[scat n:an]} =fortunate=
 sasayaka	{[scat n:an]} =slight=
-seejiteki	{[scat n:an]}  =political=  "seeji_teki_LIKE" % 政治的
+seejiteki	{[scat n:an]} =political= "seeji_teki_LIKE" % 政治的
 seeryokuteki	{[scat n:an]} =energetic= "seeryoku_teki_LIKE"
 seesanteki	{[scat n:an]} =productive= "seesan_teki_LIKE"
 seeshiki	{[scat n:an]} =official=
@@ -795,44 +795,44 @@ sekaiteki	{[scat n:an]} =global= "sekai_teki_LIKE"
 sekkyokuteki	{[scat n:an]} =active= "sekkyoku_teki_LIKE"
 sensai	{[scat n:an]} =delicate=
 seraresoo {[scat n:an]} =do= "se-PASS-soo_SEEMING"
-shajitsuteki	{[scat n:an]}  =naturalistic=  "shajitsu_teki_LIKE" % 写実的
-shikakuteki	{[scat n:an]}  =visual=  "shikaku_teki_LIKE" % 視覚的
+shajitsuteki	{[scat n:an]} =naturalistic= "shajitsu_teki_LIKE" % 写実的
+shikakuteki	{[scat n:an]} =visual= "shikaku_teki_LIKE" % 視覚的
 shimpai	{[scat n:an]} =anxious=
 shimpaisoo	{[scat n:an]} =anxious= "shimpai-soo_SEEMING"
 shimpiteki	{[scat n:an]} =mysterious= "shimpi_teki_LIKE"
 shinkoku	{[scat n:an]} =serious=
-shinriteki	{[scat n:an]}  =mental=  "shinri_teki_LIKE" % 心理的
+shinriteki	{[scat n:an]} =mental= "shinri_teki_LIKE" % 心理的
 shitsuyoo	{[scat n:an]} =persistent=
 shookyokuteki	{[scat n:an]} =inactive= "shookyoku_teki_LIKE"
-shooraiteki	{[scat n:an]}  =future=  "shoorai_teki_LIKE" % 将来的
-shuushooteki	{[scat n:an]}  =abstract=  "shuushoo_teki_LIKE" % 抽象的
+shooraiteki	{[scat n:an]} =future= "shoorai_teki_LIKE" % 将来的
+shuushooteki	{[scat n:an]} =abstract= "shuushoo_teki_LIKE" % 抽象的
 soogooteki	{[scat n:an]} =comprehensive= "soogoo_teki_LIKE"
 sookyuu	{[scat n:an]} =urgent=
-sooshokuteki	{[scat n:an]}  =decorative=  "sooshoku_teki_LIKE" % 装飾的
-sootaiteki	{[scat n:an]}  =relative=  "sootai_teki_LIKE" % 相対的
-soozooteki	{[scat n:an]}  =creative=  "soozoo_teki_LIKE" % 創造的
+sooshokuteki	{[scat n:an]} =decorative= "sooshoku_teki_LIKE" % 装飾的
+sootaiteki	{[scat n:an]} =relative= "sootai_teki_LIKE" % 相対的
+soozooteki	{[scat n:an]} =creative= "soozoo_teki_LIKE" % 創造的
 suihee	{[scat n:an]} =horizontal=
-taishooteki	{[scat n:an]}  =contrastive=  "taishoo_teki_LIKE" % 対照的
+taishooteki	{[scat n:an]} =contrastive= "taishoo_teki_LIKE" % 対照的
 teehakukanoo	{[scat n:an][comp n:vn+n:an]} =anchoring_capable= "teehaku_kanoo"
 teekiteki	{[scat n:an]} =regular= "teeki_teki_LIKE"
-tetsugakuteki	{[scat n:an]}  =philosophical=  "tetsugaku_teki_LIKE" % 哲学的
+tetsugakuteki	{[scat n:an]} =philosophical= "tetsugaku_teki_LIKE" % 哲学的
 tetteeteki	{[scat n:an]} =thoroughly= "tettee_teki_LIKE"
 tokushu	{[scat n:an]} =special=
 wazuka	{[scat n:an]} =slight=
 yakki {[scat n:an]} =wrought_up= % 躍起
-yashinteki	{[scat n:an]}  =ambitious=  "yashin_teki_LIKE" % 野心的
+yashinteki	{[scat n:an]} =ambitious= "yashin_teki_LIKE" % 野心的
 yasuraka	{[scat n:an]} =peaceful=		
 yuniiku	{[scat n:an]} =unique=
 yutaka	 {[scat n:an]} =rich=
 yuufuku	{[scat n:an]} =rich=
 yuukoo	{[scat n:an]} =valid=
 yuuryoku	{[scat n:an]} =weighty=
-yuuyoo	{[scat n:an]}    =useful=
+yuuyoo	{[scat n:an]} =useful=
 zeetaku	{[scat n:an]} =luxurious=
 zemmenteki	{[scat n:an]} =fullscale= "zemmen_teki_LIKE"
 zenkokuteki	{[scat n:an]} =nationwide= "zenkoku_teki_LIKE"
 zensekaiteki	{[scat n:an]} =global= "zensekai_teki_LIKE"
-zentaiteki	{[scat n:an]}  =overall=  "zentai_teki_LIKE" % 全体的
+zentaiteki	{[scat n:an]} =overall= "zentai_teki_LIKE" % 全体的
 zetsubooteki	{[scat n:an]} =desperate= "zetsuboo_teki_LIKE"
 akeppiroge	{[scat n:an]} =frank=
 oboroge	{[scat n:an]} =fuzzy=
@@ -938,20 +938,20 @@ esukooto	{[scat n:vn]}	 =escort=	 %	エスコート
 etoku	{[scat n:vn]}	 =understanding=	 %	会得 
 etsuran	{[scat n:vn]}	 =reading=	 %	閲覧 
 ettoo	{[scat n:vn]}	 =hibernation=	 %	越冬 
-gabunomi	{[scat n:vn]}	=gulping=	"gabu_nom&GER"	%	がぶ飲み  
-gaihaku	{[scat n:vn]}	=stay_out_overnight=	%	外泊  	
+gabunomi	{[scat n:vn]}	=gulping=	"gabu_nom&GER"	%	がぶ飲み 
+gaihaku	{[scat n:vn]}	=stay_out_overnight=	%	外泊 	
 gaikin	{[scat n:vn]}	 =outside_duty=	 %	外勤 
 gaisan	{[scat n:vn]}	 =rough_estimation=	 %	概算 
 gaisen	{[scat n:vn]}	 =triumphal_return=	 %	凱旋 
 gaitoo	{[scat n:vn]}	 =correspondence=	 %	該当 
-gakuyairi	{[scat n:vn]}	=visiting_dressing_room=	"gakuya_ir&GER"	%	楽屋入り  
-gataochi	{[scat n:vn]}	=slump=	"gata_ochi&GER"	%	がた落ち  
-giridate	{[scat n:vn]}	=doing_ones_duty=	"giri_tate&GER"	%	義理立て  
-goorika	{[scat n:vn]}	=rationalization=	"goori_ka_CHANGE"	%	合理化  
-gutaika	{[scat n:vn]}	=taking_shape=	"gutai_ka_CHANGE"	%	具体化  
-gyakumodori	{[scat n:vn]}	=going_back=	"gyaku_REVERSE_modor&GER"	%	逆戻り  
-gyakutanchi	{[scat n:vn]}	=tracing_call=	"gyaku_tanchi"	%	逆探知  
-gyakuyunyuu	{[scat n:vn]}	=reverse_import=	"gyaku_REVERSE_yunyuu"	%	逆輸入  
+gakuyairi	{[scat n:vn]}	=visiting_dressing_room=	"gakuya_ir&GER"	%	楽屋入り 
+gataochi	{[scat n:vn]}	=slump=	"gata_ochi&GER"	%	がた落ち 
+giridate	{[scat n:vn]}	=doing_ones_duty=	"giri_tate&GER"	%	義理立て 
+goorika	{[scat n:vn]}	=rationalization=	"goori_ka_CHANGE"	%	合理化 
+gutaika	{[scat n:vn]}	=taking_shape=	"gutai_ka_CHANGE"	%	具体化 
+gyakumodori	{[scat n:vn]}	=going_back=	"gyaku_REVERSE_modor&GER"	%	逆戻り 
+gyakutanchi	{[scat n:vn]}	=tracing_call=	"gyaku_tanchi"	%	逆探知 
+gyakuyunyuu	{[scat n:vn]}	=reverse_import=	"gyaku_REVERSE_yunyuu"	%	逆輸入 
 hasshin	{[scat n:vn]} =sending=	%【発信】
 hatchuu		{[scat n:vn]} =order= 
 hendoo	{[scat n:vn]} =fluctuate=
@@ -1040,30 +1040,30 @@ jikkan	{[scat n:vn]} =realize=
 jikkoo		{[scat n:vn]} =execution=
 kaabu	{[scat n:vn]}	 =curve=	 %	カーブ 
 kaaru	{[scat n:vn]}	 =curling=	 %	カール 
-kadode	{[scat n:vn]}	=departure=	"kado_de&GER"	%	門出  
-kageboshi	{[scat n:vn]}	=drying_in_the_shade=	"kage_hos&GER"	%	陰乾し  
-kagekika	{[scat n:vn]}	=radicalization=	"kageki_ka_CHANGE"	%	過激化  
-kaiboo	{[scat n:vn]}	=dissection=	%	解剖  	
+kadode	{[scat n:vn]}	=departure=	"kado_de&GER"	%	門出 
+kageboshi	{[scat n:vn]}	=drying_in_the_shade=	"kage_hos&GER"	%	陰乾し 
+kagekika	{[scat n:vn]}	=radicalization=	"kageki_ka_CHANGE"	%	過激化 
+kaiboo	{[scat n:vn]}	=dissection=	%	解剖 	
 kaichiku	{[scat n:vn]}	 =reconstruction=%	改築 	
 kaidame	{[scat n:vn]}	 =hoarding=	%	買いだめ 	
 kaidan	{[scat n:vn]}	 =consultation=	%	会談 	
-kaidoku	{[scat n:vn]}	=decoding=	%	解読  	
+kaidoku	{[scat n:vn]}	=decoding=	%	解読 	
 kaien	{[scat n:vn]}	 =opening_of_park=	%	開園 	
 kaien	{[scat n:vn]}	 =opening_of_performance=	%	開演 	
-kaifuku	{[scat n:vn]}	=recovery=	%	回復  	
-kaifuu	{[scat n:vn]}	=opening=	%	開封  	
+kaifuku	{[scat n:vn]}	=recovery=	%	回復 	
+kaifuu	{[scat n:vn]}	=opening=	%	開封 	
 kaigi	{[scat n:vn]}	 =meeting=	%	会議 	
 kaigo	{[scat n:vn]}	 =care=	%	介護 	
 kaigoo	{[scat n:vn]}	 =aggregation=	%	会合 	
 kaigui	{[scat n:vn]}	 =buying_and_eating_sweets=	%	買い食い 	
 kaigyoo	{[scat n:vn]}	 =start_a_new_line=	%	改行 	
 kaigyoo	{[scat n:vn]}	 =opening=	%	開業 	
-kaihatsu	{[scat n:vn]}	=development=	%	開発  	
-kaihee	{[scat n:vn]}	=opening_and_shutting=	%	開閉  	
-kaihi	{[scat n:vn]}	=avoidance=	%	回避  	
-kaihoo	{[scat n:vn]}	=nursing=	%	介抱  	
-kaihoo	{[scat n:vn]}	=liberation=	%	解放  	
-kaihyoo	{[scat n:vn]}	=ballot_counting=	%	開票  	
+kaihatsu	{[scat n:vn]}	=development=	%	開発 	
+kaihee	{[scat n:vn]}	=opening_and_shutting=	%	開閉 	
+kaihi	{[scat n:vn]}	=avoidance=	%	回避 	
+kaihoo	{[scat n:vn]}	=nursing=	%	介抱 	
+kaihoo	{[scat n:vn]}	=liberation=	%	解放 	
+kaihyoo	{[scat n:vn]}	=ballot_counting=	%	開票 	
 kaijo	{[scat n:vn]}	 =cancellation=	%	解除 	
 kaijoo	{[scat n:vn]}	 =opening=	%	開場 	
 kaika	{[scat n:vn]}	 =civilization=	%	開化 	
@@ -1078,17 +1078,17 @@ kaikoku	{[scat n:vn]}	 =opening_diplomatic_relations=	%	開国
 kaikoo	{[scat n:vn]}	 =opening_of_school=	%	開校 	
 kaikoo	{[scat n:vn]}	 =opening_of_port=	%	開港 	
 kaikyoku	{[scat n:vn]}	 =opening=	%	開局 	
-kaimaku	{[scat n:vn]}	=opening=	%	開幕  	
-kaimee	{[scat n:vn]}	=elucidation=	%	解明  	
-kaimee	{[scat n:vn]}	=renaming=	%	改名  	
-kaimetsu	{[scat n:vn]}	=destruction=	%	壊滅  	
-kaimin	{[scat n:vn]}	=pleasant_sleep=	%	快眠  	
-kaimon	{[scat n:vn]}	=opening_of_gate=	%	開門  	
-kainin	{[scat n:vn]}	=dismissal=	%	解任  	
-kainin	{[scat n:vn]}	=conception=	%	懐妊  	
-kainyuu	{[scat n:vn]}	=intervention=	%	介入  	
-kairan	{[scat n:vn]}	=circulation=	%	回覧  	
-kairyoo	{[scat n:vn]}	=improvement=	%	改良  	
+kaimaku	{[scat n:vn]}	=opening=	%	開幕 	
+kaimee	{[scat n:vn]}	=elucidation=	%	解明 	
+kaimee	{[scat n:vn]}	=renaming=	%	改名 	
+kaimetsu	{[scat n:vn]}	=destruction=	%	壊滅 	
+kaimin	{[scat n:vn]}	=pleasant_sleep=	%	快眠 	
+kaimon	{[scat n:vn]}	=opening_of_gate=	%	開門 	
+kainin	{[scat n:vn]}	=dismissal=	%	解任 	
+kainin	{[scat n:vn]}	=conception=	%	懐妊 	
+kainyuu	{[scat n:vn]}	=intervention=	%	介入 	
+kairan	{[scat n:vn]}	=circulation=	%	回覧 	
+kairyoo	{[scat n:vn]}	=improvement=	%	改良 	
 kaisai	{[scat n:vn]}	 =opening=	%	開催 	
 kaisan	{[scat n:vn]}	 =dispersion=	%	解散 	
 kaisatsu	{[scat n:vn]}	 =ticket_barrier=	%	改札 	
@@ -1098,7 +1098,7 @@ kaisen	{[scat n:vn]}	 =opening_of_hostilities=	%	開戦
 kaisetsu	{[scat n:vn]}	 =explanation=	%	解説 	
 kaisetsu	{[scat n:vn]}	 =establishment=	%	開設 	
 kaishaku	{[scat n:vn]}	 =interpretation=	%	解釈 	
-kaishasaisee		       {[scat n:vn][comp n+n:vn]} =regeneration_of_the_company= "kaisha+saisee"
+kaishasaisee		 {[scat n:vn][comp n+n:vn]} =regeneration_of_the_company= "kaisha+saisee"
 kaishin	{[scat n:vn]}	 =round_of_visits=	%	回診 	
 kaishin	{[scat n:vn]}	 =reform=	%	改心 	
 kaishoku	{[scat n:vn]}	 =dine_together=	%	会食 	
@@ -1114,91 +1114,91 @@ kaitee	{[scat n:vn]}	 =revision=	%	改訂
 kaiten	{[scat n:vn]}	 =opening=	%	開店 	
 kaitoo	{[scat n:vn]}	 =reply=	%	回答 	
 kaitsuu	{[scat n:vn]}	 =opening=	%	開通 	
-kaiyaku	{[scat n:vn]}	=cancellation_of_contract=	%	解約  	
+kaiyaku	{[scat n:vn]}	=cancellation_of_contract=	%	解約 	
 kaizen	{[scat n:vn]}	 =improvement=	%	改善 	
-kakeashi	{[scat n:vn]}	=running=	"kake_ashi"	%	かけ足  
-kakehiki	{[scat n:vn]}	=tactics=	"kake_hik&GER"	%	かけ引き  
-kakemochi	{[scat n:vn]}	=doing_two_jobs=	"kake_mot&GER"	%	掛け持ち  
-kakeochi	{[scat n:vn]}	=elopement=	"kake_ochi&GER"	%	かけおち  
-kakuage	{[scat n:vn]}	=upgrading=	"kaku_age&GER"	%	格上げ  
-kakusage	{[scat n:vn]}	=downgrading=	"kaku_sage&GER"	%	格下げ  
-kakushidori	{[scat n:vn]}	=sneaking_a_shot=	"kakus_tor&GER"	%	隠し撮り  
-kanemooke	{[scat n:vn]}	=moneymaking=	"kane_mooke&GER"	%	金儲け  
+kakeashi	{[scat n:vn]}	=running=	"kake_ashi"	%	かけ足 
+kakehiki	{[scat n:vn]}	=tactics=	"kake_hik&GER"	%	かけ引き 
+kakemochi	{[scat n:vn]}	=doing_two_jobs=	"kake_mot&GER"	%	掛け持ち 
+kakeochi	{[scat n:vn]}	=elopement=	"kake_ochi&GER"	%	かけおち 
+kakuage	{[scat n:vn]}	=upgrading=	"kaku_age&GER"	%	格上げ 
+kakusage	{[scat n:vn]}	=downgrading=	"kaku_sage&GER"	%	格下げ 
+kakushidori	{[scat n:vn]}	=sneaking_a_shot=	"kakus_tor&GER"	%	隠し撮り 
+kanemooke	{[scat n:vn]}	=moneymaking=	"kane_mooke&GER"	%	金儲け 
 kankyoohairyo	{[scat n:vn][comp n+n:vn]} =environmental_considerations= "kankyoo_hairyo"
 kan'yuu	{[scat n:vn]} =persuading=
-kaoawase	{[scat n:vn]}	=meeting_together=	"kao_awase&GER"	%	顔合せ  
-kaodashi	{[scat n:vn]}	=attending=	"kao_das&GER"	%	顔出し  
-karabuki	{[scat n:vn]}	=dry_wiping=	"kara_fuk&GER"	%	から拭き  
-karaburi	{[scat n:vn]}	=swishing=	"kara_fur&GER"	%	空振り  
-karadaki	{[scat n:vn]}	=no_water_burning=	"kara_dak&GER"	%	空焚き  
-karamawari	{[scat n:vn]}	=idling=	"kara_mawar&GER"	%	空回り  
-karinui	{[scat n:vn]}	=tacking=	"kari_nuw&GER"	%	仮縫い  
-karizumai	{[scat n:vn]}	=residing_temporarily=	"kari_sumai"	%	仮住い  
-katagawari	{[scat n:vn]}	=taking_over=	"kata_kawar&GER"	%	肩替り  
-katakusoosaku	{[scat n:vn][comp n+n:vn]}	=house_search=	"kataku+soosaku"	%	家宅捜索  
-katanarashi	{[scat n:vn]}	=warming_up=	"kata_naras&GER"	%	肩ならし  
-katatataki	{[scat n:vn]}	=shoulder_tapping=	"kata_tatak&GER"	%	肩たたき  
-katsuage	{[scat n:vn]}	=mugging=	"katsu_age&GER"	%	かつあげ  
+kaoawase	{[scat n:vn]}	=meeting_together=	"kao_awase&GER"	%	顔合せ 
+kaodashi	{[scat n:vn]}	=attending=	"kao_das&GER"	%	顔出し 
+karabuki	{[scat n:vn]}	=dry_wiping=	"kara_fuk&GER"	%	から拭き 
+karaburi	{[scat n:vn]}	=swishing=	"kara_fur&GER"	%	空振り 
+karadaki	{[scat n:vn]}	=no_water_burning=	"kara_dak&GER"	%	空焚き 
+karamawari	{[scat n:vn]}	=idling=	"kara_mawar&GER"	%	空回り 
+karinui	{[scat n:vn]}	=tacking=	"kari_nuw&GER"	%	仮縫い 
+karizumai	{[scat n:vn]}	=residing_temporarily=	"kari_sumai"	%	仮住い 
+katagawari	{[scat n:vn]}	=taking_over=	"kata_kawar&GER"	%	肩替り 
+katakusoosaku	{[scat n:vn][comp n+n:vn]}	=house_search=	"kataku+soosaku"	%	家宅捜索 
+katanarashi	{[scat n:vn]}	=warming_up=	"kata_naras&GER"	%	肩ならし 
+katatataki	{[scat n:vn]}	=shoulder_tapping=	"kata_tatak&GER"	%	肩たたき 
+katsuage	{[scat n:vn]}	=mugging=	"katsu_age&GER"	%	かつあげ 
 kazokushuppan	{[scat n:vn][comp n+n:vn]} =family_publishing= "kazoku+shuppan"
-kegirai	{[scat n:vn]}	=instinctive_dislike=	"ki_kiraw&GER"	%	毛嫌い  
+kegirai	{[scat n:vn]}	=instinctive_dislike=	"ki_kiraw&GER"	%	毛嫌い 
 kembun	{[scat n:vn]} =investigate=	
-kenshoo	{[scat n:vn]} =seeing_one's_own_character_without_obstruction;=  % 見性
-kibutori	{[scat n:vn]}	=looking_plump=	"ki_futor&GER"	%	着太り  
-kigane	{[scat n:vn]}	=constraint=	"ki_kane&GER"	%	気兼ね  
-kikaika	{[scat n:vn]}	=mechanisation=	"kikai_ka_CHANGE"	%	機械化  
-kikichigai	{[scat n:vn]}	=mishearing=	"kik_chigaw&GER"	%	聞き違い  
+kenshoo	{[scat n:vn]} =seeing_one's_own_character_without_obstruction;= % 見性
+kibutori	{[scat n:vn]}	=looking_plump=	"ki_futor&GER"	%	着太り 
+kigane	{[scat n:vn]}	=constraint=	"ki_kane&GER"	%	気兼ね 
+kikaika	{[scat n:vn]}	=mechanisation=	"kikai_ka_CHANGE"	%	機械化 
+kikichigai	{[scat n:vn]}	=mishearing=	"kik_chigaw&GER"	%	聞き違い 
 kikisentee	{[scat n:vn][comp n+n:vn]} =equipment_selection= "kiki+sentee"
-kikizake	{[scat n:vn]}	=sake_tasting=	"kik_sake"	%	聞き酒  
-kikubari	{[scat n:vn]}	=consideration=	"ki_kubar&GER"	%	気配り  
-kikuzure	{[scat n:vn]}	=out_o_shape_wearing=	"ki_kuzure&GER"	%	着崩れ  
-kindaika	{[scat n:vn]}	=modernisation=	"kindai_ka_CHANGE"	%	近代化  
-kinori	{[scat n:vn]}	=enthusiasm=	"ki_nor&GER"	%	気乗り  
-kinugoshi	{[scat n:vn]}	=straining_through_silk_cloth=	"kinu_kos&GER"	%	絹ごし  
-kiochi	{[scat n:vn]}	=being_dispirited=	"ki_ochi&GER"	%	気落ち  
-kireesappari	{[scat n:vn]}	=cleaning_completely=	"kiree_sappari"	%	綺麗さっぱり  
-kirikirimai	{[scat n:vn]}	=whirling=	"kirikiri_maw&GER"	%	きりきり舞い  
-kiyase	{[scat n:vn]}	=looking_slender=	"ki_yase&GER"	%	着やせ  
+kikizake	{[scat n:vn]}	=sake_tasting=	"kik_sake"	%	聞き酒 
+kikubari	{[scat n:vn]}	=consideration=	"ki_kubar&GER"	%	気配り 
+kikuzure	{[scat n:vn]}	=out_o_shape_wearing=	"ki_kuzure&GER"	%	着崩れ 
+kindaika	{[scat n:vn]}	=modernisation=	"kindai_ka_CHANGE"	%	近代化 
+kinori	{[scat n:vn]}	=enthusiasm=	"ki_nor&GER"	%	気乗り 
+kinugoshi	{[scat n:vn]}	=straining_through_silk_cloth=	"kinu_kos&GER"	%	絹ごし 
+kiochi	{[scat n:vn]}	=being_dispirited=	"ki_ochi&GER"	%	気落ち 
+kireesappari	{[scat n:vn]}	=cleaning_completely=	"kiree_sappari"	%	綺麗さっぱり 
+kirikirimai	{[scat n:vn]}	=whirling=	"kirikiri_maw&GER"	%	きりきり舞い 
+kiyase	{[scat n:vn]}	=looking_slender=	"ki_yase&GER"	%	着やせ 
 kiyo	{[scat n:vn]} =contribute=	
-kizukare	{[scat n:vn]}	=mental_fatigue=	"ki_tsukare&GER"	%	気疲れ  
-koegawari	{[scat n:vn]}	=breaking_of_voice=	"koe_kawar&GER"	%	声変り  
-kogoejini	{[scat n:vn]}	=freezing_to_death=	"kogoe_jin&GER"	%	凍え死に  
-kokorogawari	{[scat n:vn]}	=change_of_mind=	"kokoro_kawar&GER"	%	心変り  
-kokoromochi	{[scat n:vn]}	=anticipation=	"kokoro_mot&GER"	%	心待ち  
-kommake	{[scat n:vn]}	=being_outlasted=	"kon_make&GER"	%	根負け  
-konkimake	{[scat n:vn]}	=being_outpersevered=	"konki_make&GER"	%	根気負け  
-konyaku	{[scat n:vn]}  =engagement=	
+kizukare	{[scat n:vn]}	=mental_fatigue=	"ki_tsukare&GER"	%	気疲れ 
+koegawari	{[scat n:vn]}	=breaking_of_voice=	"koe_kawar&GER"	%	声変り 
+kogoejini	{[scat n:vn]}	=freezing_to_death=	"kogoe_jin&GER"	%	凍え死に 
+kokorogawari	{[scat n:vn]}	=change_of_mind=	"kokoro_kawar&GER"	%	心変り 
+kokoromochi	{[scat n:vn]}	=anticipation=	"kokoro_mot&GER"	%	心待ち 
+kommake	{[scat n:vn]}	=being_outlasted=	"kon_make&GER"	%	根負け 
+konkimake	{[scat n:vn]}	=being_outpersevered=	"konki_make&GER"	%	根気負け 
+konyaku	{[scat n:vn]} =engagement=	
 koobo	{[scat n:vn]} =public_recruitment=	
 koobosee	{[scat n]} "koobo_see" =public_recruitment_process=	
-koogoyaku	{[scat n:vn][comp n+n:vn]}	=colloquial_translation=	"koogo+yaku"	%	口語訳  
+koogoyaku	{[scat n:vn][comp n+n:vn]}	=colloquial_translation=	"koogo+yaku"	%	口語訳 
 kookoo	{[scat n:vn]} =cruise=
 koosee		{[scat n:vn]} =proofreading=
 koosee	{[scat n:vn]} =organisation=	%【構成】
 kooshugookaku	{[scat n:vn][comp n+n:vn]} =pass_the_conscription_check_as_a_first-class= "kooshu+gookaku"
-kowake	{[scat n:vn]}	=subdivision=	"ko_SMALL_wake&GER"	%	小分け  
-kowazurai	{[scat n:vn]}	=love_sickness=	"koi_wazuraw&GER"	%	恋わずらい  
-kozaiku	{[scat n:vn]}	=handiwork=	"ko_SMALL_zaiku"	%	小細工  
-kubitsuri	{[scat n:vn]}	=hanging=	"kubi_tsur&GER"	%	首吊り  
-kuchidashi	{[scat n:vn]}	=meddling_in=	"kuchi_das&GER"	%	口出し  
-kuchifuuji	{[scat n:vn]}	=sealed_lips=	"kuchi_fuuji&GER"	%	口封じ  
-kuchinarashi	{[scat n:vn]}	=oral_drill=	"kuchi_naras&GER"	%	口慣し  
-kuchiyakusoku	{[scat n:vn][comp n+n:vn]}	=verbal_promise=	"kuchi+yakusoku"	%	口約束  
-kuchizoe	{[scat n:vn]}	=advice=	"kuchi_soe&GER"	%	口添え  
-kuchizuke	{[scat n:vn]}	=kiss=	"kuchi_tsuke&GER"	%	口付け  
-kugizuke	{[scat n:vn]}	=pegging=	"kugi_tsuke&GER"	%	釘付け  
-kuinige	{[scat n:vn]}	=bilking=	"kuw_nige&GER"	%	食い逃げ  
-kunyomi	{[scat n:vn]}	=taking_the_native_Japanese_reading=	"kun_yom&GER"	%	訓読み  
+kowake	{[scat n:vn]}	=subdivision=	"ko_SMALL_wake&GER"	%	小分け 
+kowazurai	{[scat n:vn]}	=love_sickness=	"koi_wazuraw&GER"	%	恋わずらい 
+kozaiku	{[scat n:vn]}	=handiwork=	"ko_SMALL_zaiku"	%	小細工 
+kubitsuri	{[scat n:vn]}	=hanging=	"kubi_tsur&GER"	%	首吊り 
+kuchidashi	{[scat n:vn]}	=meddling_in=	"kuchi_das&GER"	%	口出し 
+kuchifuuji	{[scat n:vn]}	=sealed_lips=	"kuchi_fuuji&GER"	%	口封じ 
+kuchinarashi	{[scat n:vn]}	=oral_drill=	"kuchi_naras&GER"	%	口慣し 
+kuchiyakusoku	{[scat n:vn][comp n+n:vn]}	=verbal_promise=	"kuchi+yakusoku"	%	口約束 
+kuchizoe	{[scat n:vn]}	=advice=	"kuchi_soe&GER"	%	口添え 
+kuchizuke	{[scat n:vn]}	=kiss=	"kuchi_tsuke&GER"	%	口付け 
+kugizuke	{[scat n:vn]}	=pegging=	"kugi_tsuke&GER"	%	釘付け 
+kuinige	{[scat n:vn]}	=bilking=	"kuw_nige&GER"	%	食い逃げ 
+kunyomi	{[scat n:vn]}	=taking_the_native_Japanese_reading=	"kun_yom&GER"	%	訓読み 
 kuria	{[scat n:vn]} =clear=
-kurobikari	{[scat n:vn]}	=black_lustre=	"kuro_hikar&GER"	%	黒光り  
-kuroguro	{[scat n:vn]}	=in_jet_black=	"kuro_kuro"	%	黒々  
+kurobikari	{[scat n:vn]}	=black_lustre=	"kuro_hikar&GER"	%	黒光り 
+kuroguro	{[scat n:vn]}	=in_jet_black=	"kuro_kuro"	%	黒々 
 kusen {[scat n:vn]} =having_a_difficult_campaign=
-kuwake	{[scat n:vn]}	=sorting=	"ku_wake&GER"	%	区分け  
-kuyashinaki	{[scat n:vn]}	=tears_of_regret=	"kuyashi_nak&GER"	%	悔し泣き  
-kyakuatsukai	{[scat n:vn]}	=service=	"kyaku_atsukaw&GER"	%	客扱い  
-kyakuhiki	{[scat n:vn]}	=touting=	"kyaku_hik&GER"	%	客引き  
-kyakuuke	{[scat n:vn]}	=well_received=	"kyaku_uke&GER"	%	客受け  
-kyooka	{[scat n:vn]} =enlightenment=  % 教化
+kuwake	{[scat n:vn]}	=sorting=	"ku_wake&GER"	%	区分け 
+kuyashinaki	{[scat n:vn]}	=tears_of_regret=	"kuyashi_nak&GER"	%	悔し泣き 
+kyakuatsukai	{[scat n:vn]}	=service=	"kyaku_atsukaw&GER"	%	客扱い 
+kyakuhiki	{[scat n:vn]}	=touting=	"kyaku_hik&GER"	%	客引き 
+kyakuuke	{[scat n:vn]}	=well_received=	"kyaku_uke&GER"	%	客受け 
+kyooka	{[scat n:vn]} =enlightenment= % 教化
 kyuukoo	{[scat n:vn]} =cancelling_lecture=	%【休講】		
-kyuukooka	{[scat n:vn]}	=steep_dive=	"kyuukoo_ka_CHANGE"	%	急降下  
+kyuukooka	{[scat n:vn]}	=steep_dive=	"kyuukoo_ka_CHANGE"	%	急降下 
 miryoo		{[scat n:vn]} =fascination=
 moderuzukuri	{[scat n:vn][comp n+v:c]} "moderu+tsukur-GER" =model_making=
 nihonryuugaku	{[scat n:vn][comp n:prop+n:vn]} =study_in_Japan= "nihon+ryuugaku"
@@ -1256,24 +1256,24 @@ ozendate	{[scat n:vn]}	 =arrangements= "ozen_tate&GER"	 %	お膳立て
 ozuozu	{[scat n:vn:onoma]}	 =being_timid=	 %	おずおず 
 reeraku {[scat n:vn]} =fall_low= %零落
 ritsuan	{[scat n:vn]} =proposal=
-saikai		  {[scat n:vn]} =reunite=
+saikai		 {[scat n:vn]} =reunite=
 saikenkaishi	{[scat n:vn][comp n:vn+n:vn]} =beginning_of_the_reconstruction= "saiken+kaishi"
 sentee		{[scat n:vn]} =selection=
-seppuku		  {[scat n:vn]} =harakiri=
+seppuku		 {[scat n:vn]} =harakiri=
 setsuritsu	{[scat n:vn]} =establishment=
-shinhakken	  {[scat n:vn]} =new_discovery= "shin_NEW_hakken"
+shinhakken	 {[scat n:vn]} =new_discovery= "shin_NEW_hakken"
 shinyoo	{[scat n:vn]} =trust=
 shinkoo	{[scat n:vn]} =faith=
-shinkyosagashi	{[scat n:vn]}  =house_hunting= "shinkyo_sagas&GER"
+shinkyosagashi	{[scat n:vn]} =house_hunting= "shinkyo_sagas&GER"
 shudookenkakuho {[scat n:vn][comp n+n:vn]} =securing_initiative= "shudooken+kakuho"
 shugyoo	{[scat n:vn]} =ascetic_training_mid=
 shuppan	{[scat n:vn]} =publication=
 shuuyakuka	{[scat n:vn]} =consolidation= "shuuyaku_ka_BECOMING" % 集約化
-songaibaishooseekyuu   {[scat n:vn][comp n+n:vn]} =claim_for_damages= "songaibaishoo+seekyuu"
-sooguu	{[scat n:vn]} =encpunter=   %遭遇
+songaibaishooseekyuu {[scat n:vn][comp n+n:vn]} =claim_for_damages= "songaibaishoo+seekyuu"
+sooguu	{[scat n:vn]} =encpunter= %遭遇
 suuchika	{[scat n:vn]} =conversion_to_numerical_form= "suuchi_ka_CHANGE" % 数値化
 tachiage	{[scat n:vn]} =starting_up=
-teeji	{[scat n:vn]} =present=  %提示
+teeji	{[scat n:vn]} =present= %提示
 teeshoo	 {[scat n:vn]} =advocate=
 tenkin	{[scat n:vn]} =job_transfer=
 udedameshi	{[scat n:vn]}	 =trying_ones_skill= "ude_tames&GER"	 %	腕試し 
@@ -1330,331 +1330,331 @@ yamiasobi	{[scat n:vn]} "yami_asob&GER" =dark_play=
 yaminomi	{[scat n:vn]} "yami_nom&GER" =dark_drinking=
 zenkai	{[scat n:vn]} =be_completely_destroyed=
 
-kakushitsu	{[scat n:vn]}	 =feud=	%	確執  
-gakushuu	{[scat n:vn]}	 =learning=	%	学習  
-kakushin	{[scat n:vn]}	 =conviction=	%	確信  
-kakushin	{[scat n:vn]}	 =reform=	%	革新  
-kakusee	{[scat n:vn]}	 =arousal=	%	覚醒  
-kakudai	{[scat n:vn]}	 =enlargement=	%	拡大  
-kakuchoo	{[scat n:vn]}	 =extension=	%	拡張  
-kakutee	{[scat n:vn]}	 =decision=	%	確定  
-kakutoo	{[scat n:vn]}	 =struggle=	%	格闘  
-kakutoku	{[scat n:vn]}	 =acquisition=	%	獲得  
-kakuho	{[scat n:vn]}	 =guarantee=	%	確保  
-gakumon	{[scat n:vn]}	 =academic_discipline=	%	学問  
-kakuran	{[scat n:vn]}	 =disturbance=	%	撹乱  
-kakuri	{[scat n:vn]}	 =segregation=	%	隔離  
-kaketsu	{[scat n:vn]}	 =passage=	%	可決  
-kagen	{[scat n:vn]}	 =decreasing=	%	加減  
-kakoo	{[scat n:vn]}	 =decline=	%	下降  
-kakoo	{[scat n:vn]}	 =elaboration=	%	加工  
-kasan	{[scat n:vn]}	 =addition=	%	加算  
-gashi	{[scat n:vn]}	 =starvation=	%	餓死  
-kashoo	{[scat n:vn]}	 =chant=	%	歌唱  
-kashoku	{[scat n:vn]}	 =overeating=	%	過食  
-kazee	{[scat n:vn]}	 =taxation=	%	課税  
-kaseki	{[scat n:vn]}	 =fossil=	%	化石  
-kasetsu	{[scat n:vn]}	 =provisional_construction=	%	仮設  
-kasoo	{[scat n:vn]}	 =virtuality=	%	仮想  
-kasoo	{[scat n:vn]}	 =cremation=	%	火葬  
-kasoku	{[scat n:vn]}	 =acceleration=	%	加速  
-kakkoo	{[scat n:vn]}	 =coasting=	%	滑降  
-kakko	{[scat n:vn]}	 =parenthesis=	%	括弧  
-kassai	{[scat n:vn]}	 =applause=	%	喝采  
-gassaku	{[scat n:vn]}	 =collaboration=	%	合作  
-gasshuku	{[scat n:vn]}	 =lodging_together=	%	合宿  
-gasshoo	{[scat n:vn]}	 =principal_rafter=	%	合掌  
-kassee	{[scat n:vn]}	 =revitalization=	%	活性化  
-kassoo	{[scat n:vn]}	 =sliding=	%	滑走  
-gassoo	{[scat n:vn]}	 =concert=	%	合奏  
-gatchi	{[scat n:vn]}	 =coincidence=	%	合致  
-kattoo	{[scat n:vn]}	 =conflict=	%	葛藤  
-gappee	{[scat n:vn]}	 =merging=	%	合併  
-katee	{[scat n:vn]}	 =assumption=	%	仮定  
-gaten	{[scat n:vn]}	 =making_sense=	%	合点  
-kadoo	{[scat n:vn]}	 =operation=	%	稼働  
-kanyuu	{[scat n:vn]}	 =recruitment=	%	加入  
-kanetsu	{[scat n:vn]}	 =heating=	%	加熱  
-kanetsu	{[scat n:vn]}	 =overheating=	%	過熱  
-kanoo	{[scat n:vn]}	 =purulency=	%	化膿  
+kakushitsu	{[scat n:vn]}	 =feud=	%	確執 
+gakushuu	{[scat n:vn]}	 =learning=	%	学習 
+kakushin	{[scat n:vn]}	 =conviction=	%	確信 
+kakushin	{[scat n:vn]}	 =reform=	%	革新 
+kakusee	{[scat n:vn]}	 =arousal=	%	覚醒 
+kakudai	{[scat n:vn]}	 =enlargement=	%	拡大 
+kakuchoo	{[scat n:vn]}	 =extension=	%	拡張 
+kakutee	{[scat n:vn]}	 =decision=	%	確定 
+kakutoo	{[scat n:vn]}	 =struggle=	%	格闘 
+kakutoku	{[scat n:vn]}	 =acquisition=	%	獲得 
+kakuho	{[scat n:vn]}	 =guarantee=	%	確保 
+gakumon	{[scat n:vn]}	 =academic_discipline=	%	学問 
+kakuran	{[scat n:vn]}	 =disturbance=	%	撹乱 
+kakuri	{[scat n:vn]}	 =segregation=	%	隔離 
+kaketsu	{[scat n:vn]}	 =passage=	%	可決 
+kagen	{[scat n:vn]}	 =decreasing=	%	加減 
+kakoo	{[scat n:vn]}	 =decline=	%	下降 
+kakoo	{[scat n:vn]}	 =elaboration=	%	加工 
+kasan	{[scat n:vn]}	 =addition=	%	加算 
+gashi	{[scat n:vn]}	 =starvation=	%	餓死 
+kashoo	{[scat n:vn]}	 =chant=	%	歌唱 
+kashoku	{[scat n:vn]}	 =overeating=	%	過食 
+kazee	{[scat n:vn]}	 =taxation=	%	課税 
+kaseki	{[scat n:vn]}	 =fossil=	%	化石 
+kasetsu	{[scat n:vn]}	 =provisional_construction=	%	仮設 
+kasoo	{[scat n:vn]}	 =virtuality=	%	仮想 
+kasoo	{[scat n:vn]}	 =cremation=	%	火葬 
+kasoku	{[scat n:vn]}	 =acceleration=	%	加速 
+kakkoo	{[scat n:vn]}	 =coasting=	%	滑降 
+kakko	{[scat n:vn]}	 =parenthesis=	%	括弧 
+kassai	{[scat n:vn]}	 =applause=	%	喝采 
+gassaku	{[scat n:vn]}	 =collaboration=	%	合作 
+gasshuku	{[scat n:vn]}	 =lodging_together=	%	合宿 
+gasshoo	{[scat n:vn]}	 =principal_rafter=	%	合掌 
+kassee	{[scat n:vn]}	 =revitalization=	%	活性化 
+kassoo	{[scat n:vn]}	 =sliding=	%	滑走 
+gassoo	{[scat n:vn]}	 =concert=	%	合奏 
+gatchi	{[scat n:vn]}	 =coincidence=	%	合致 
+kattoo	{[scat n:vn]}	 =conflict=	%	葛藤 
+gappee	{[scat n:vn]}	 =merging=	%	合併 
+katee	{[scat n:vn]}	 =assumption=	%	仮定 
+gaten	{[scat n:vn]}	 =making_sense=	%	合点 
+kadoo	{[scat n:vn]}	 =operation=	%	稼働 
+kanyuu	{[scat n:vn]}	 =recruitment=	%	加入 
+kanetsu	{[scat n:vn]}	 =heating=	%	加熱 
+kanetsu	{[scat n:vn]}	 =overheating=	%	過熱 
+kanoo	{[scat n:vn]}	 =purulency=	%	化膿 
 kibureru	{[scat n:vn]}	 =develop_a_rash=	%	気触れる
-kamin	{[scat n:vn]}	 =snoozing=	%	仮眠  
-kamee	{[scat n:vn]}	 =affiliation=	%	加盟  
-karasawagi	{[scat n:vn]}	 =brouhaha=	%	から騒ぎ  
-karee	{[scat n:vn]}	 =aging=	%	加齢  
-kanka	{[scat n:vn]}	 =influence=	%	感化  
-kankatsu	{[scat n:vn]}	 =control=	%	管轄  
-kanki	{[scat n:vn]}	 =ventilation=	%	換気  
-kanki	{[scat n:vn]}	 =delight=	%	歓喜  
-kankin	{[scat n:vn]}	 =converting_into_money=	%	換金  
-kankin	{[scat n:vn]}	 =confinement=	%	監禁  
-kanketsu	{[scat n:vn]}	 =conclusion=	%	完結  
-kangen	{[scat n:vn]}	 =reducing=	%	還元  
-kankoku	{[scat n:vn]}	 =recommendation=	%	勧告  
-kango	{[scat n:vn]}	 =nursing=	%	看護  
-kansan	{[scat n:vn]}	 =conversion=	%	換算  
-kanshi	{[scat n:vn]}	 =surveillance=	%	監視  
-kansha	{[scat n:vn]}	 =appreciation=	%	感謝  
-kanshuu	{[scat n:vn]}	 =supervision=	%	監修  
-kanjuku	{[scat n:vn]}	 =reaching_full_ripeness=	%	完熟  
-kanshoo	{[scat n:vn]}	 =intervention=	%	干渉  
-kanshoo	{[scat n:vn]}	 =admiration=	%	観賞  
-kanshoo	{[scat n:vn]}	 =appreciation=	%	鑑賞  
-kanjoo	{[scat n:vn]}	 =calculation=	%	勘定  
-kanshoku	{[scat n:vn]}	 =eating_between_meals=	%	間食  
-kansen	{[scat n:vn]}	 =infection=	%	感染  
-kansen	{[scat n:vn]}	 =watching=	%	観戦  
-kansoo	{[scat n:vn]}	 =finishing_running=	%	完走  
-kansoku	{[scat n:vn]}	 =record=	%	観測  
-kantan	{[scat n:vn]}	 =admiration=	%	感嘆  
-kanchi	{[scat n:vn]}	 =complete_recovery=	%	完治  
-kanchi	{[scat n:vn]}	 =perception=	%	感知  
-kantsuu	{[scat n:vn]}	 =transfix=	%	貫通  
-kantee	{[scat n:vn]}	 =expert_testimony=	%	鑑定  
-kanden	{[scat n:vn]}	 =electrification=	%	感電  
-kantoo	{[scat n:vn]}	 =pitch_the_whole_game=	%	完投  
-kantoku	{[scat n:vn]}	 =supervision=	%	監督  
-kannin	{[scat n:vn]}	 =patience=	%	堪忍  
-kannen	{[scat n:vn]}	 =idea=	%	観念  
-kambai	{[scat n:vn]}	 =liquidize=	%	完売  
-kambi	{[scat n:vn]}	 =being_fully_equipped=	%	完備  
-kambyoo	{[scat n:vn]}	 =nursing=	%	看病  
-kampuu	{[scat n:vn]}	 =shutout=	%	完封  
-kambetsu	{[scat n:vn]}	 =differentiation=	%	鑑別  
-gamboo	{[scat n:vn]}	 =wish=	%	願望  
-kambotsu	{[scat n:vn]}	 =regression=	%	陥没  
-kammee	{[scat n:vn]}	 =impression=	%	感銘   肝銘
-kan'yuu	{[scat n:vn]}	 =inducement=	%	勧誘  
-gan'yuu	{[scat n:vn]}	 =incorporating=	%	含有  
-kan'yoo	{[scat n:vn]}	 =usage=	%	慣用  
-kan'yo	{[scat n:vn]}	 =involvement=	%	関与   干与  
-kanren	{[scat n:vn]}	 =coherence=	%	関連  
-kanwa	{[scat n:vn]}	 =mitigation=	%	緩和  
-kiin	{[scat n:vn]}	 =cause=	%	基因  
-kiokure	{[scat n:vn]}	 =hesitation=	%	気おくれ  
-kikaku	{[scat n:vn]}	 =planning=	%	企画  
-kika	{[scat n:vn]}	 =naturalization=	%	帰化  
-kikan	{[scat n:vn]}	 =return=	%	帰還  
-kigan 	{[scat n:vn]}	 =prayer=	%	祈願  
-kikyoo	{[scat n:vn]}	 =returning_to_Tokyo=	%	帰京  
-kikyoo	{[scat n:vn]}	 =homecoming=	%	帰郷  
-giketsu	{[scat n:vn]}	 =decision=	%	議決  
-kiken	{[scat n:vn]}	 =abstention=	%	棄権  
-kikoku	{[scat n:vn]}	 =return_to_ones_country=	%	帰国  
-kisai	{[scat n:vn]}	 =description=	%	記載  
-kishuu	{[scat n:vn]}	 =surprise_attack=	%	奇襲  
-kijutsu	{[scat n:vn]}	 =description=	%	記述  
-kishoo	{[scat n:vn]}	 =rising=	%	起床  
-kijoo	{[scat n:vn]}	 =riding=	%	騎乗  
-kishoo	{[scat n:vn]}	 =homecoming=	%	帰省  
-kisee	{[scat n:vn]}	 =regulation=	%	規制  
-kizetsu	{[scat n:vn]}	 =faint=	%	気絶  
-kizoo	{[scat n:vn]}	 =gift=	%	寄贈  
-gisoo	{[scat n:vn]}	 =disguise=	%	擬装  
-gizoo	{[scat n:vn]}	 =falsification=	%	偽造  
-kiso	{[scat n:vn]}	 =prosecution=	%	起訴  
-kitaku	{[scat n:vn]}	 =return_home=	%	帰宅  
-kichoo	{[scat n:vn]}	 =registering=	%	記帳  
-kitsuen	{[scat n:vn]}	 =smoking=	%	喫煙  
-kitee	{[scat n:vn]}	 =regulation=	%	規定  
-kidoo	{[scat n:vn]}	 =start=	%	起動  
-kinyuu	{[scat n:vn]}	 =filling_in=	%	記入  
-kifuku	{[scat n:vn]}	 =undulation=	%	起伏  
-kimee	{[scat n:vn]}	 =signature=	%	記名  
-gyakusatsu	{[scat n:vn]}	 =slaughter=	%	虐殺  
-gyakusan	{[scat n:vn]}	 =calculating_backwards=	%	逆算  
-gyakushuu	{[scat n:vn]}	 =counterattack=	%	逆襲  
-gyakujoo	{[scat n:vn]}	 =frenzy=	%	逆上  
-kyakushoku	{[scat n:vn]}	 =dramatization=	%	脚色  
-gyakutai	{[scat n:vn]}	 =abuse=	%	虐待  
-gyakuten	{[scat n:vn]}	 =inversion=	%	逆転  
-gyakuryuu	{[scat n:vn]}	 =contraflow=	%	逆流  
-kyakka	{[scat n:vn]}	 =rejection=	%	却下  
-kyakkan	{[scat n:vn]}	 =taking_an_objective_view=	%	客観  
-gyakkoo	{[scat n:vn]}	 =retrograde motion=	%	逆行  
-kyuuin	{[scat n:vn]}	 =sucking=	%	吸引  
-kyuuen	{[scat n:vn]}	 =temporary_closure=	%	休園  
-kyuuen	{[scat n:vn]}	 =relief=	%	救援  
-kyuugaku	{[scat n:vn]}	 =registered_absence_from_school=	%	休学  
-kyuukan	{[scat n:vn]}	 =suspension_of_publication=	%	休刊  
-kyuukan	{[scat n:vn]}	 =temporary_closure=	%	休館  
-kyuugyoo	{[scat n:vn]}	 =closure=	%	休業  
-kyuukee	{[scat n:vn]}	 =prosecution=	%	求刑  
-kyuukoo	{[scat n:vn]}	 =closure_of_school=	%	休校  
-kyuukoo	{[scat n:vn]}	 =cancellation_of_lecture=	%	休講  
-kyuukoo	{[scat n:vn]}	 =express=	%	急行  
-kyuugo	{[scat n:vn]}	 =rescue=	%	救護  
-kyuukon	{[scat n:vn]}	 =courtship=	%	求婚  
-kyuusai	{[scat n:vn]}	 =aid=	%	救済  
-kyuushi	{[scat n:vn]}	 =pause=	%	休止  
-kyuushi	{[scat n:vn]}	 =sudden_death=	%	急死  
-kyuushitsu	{[scat n:vn]}	 =moisture_absorption=	%	吸湿  
-kyuushuu	{[scat n:vn]}	 =absorption=	%	吸収  
-kyuushutsu	{[scat n:vn]}	 =rescue=	%	救出  
-kyuujoo	{[scat n:vn]}	 =closure=	%	休場  
-kyuushoku	{[scat n:vn]}	 =suspension_from_work=	%	休職  
-kyuushoku	{[scat n:vn]}	 =job_seeking=	%	求職  
-kyuushoku	{[scat n:vn]}	 =feeding_service=	%	給食  
-kyuujo	{[scat n:vn]}	 =rescue=	%	救助  
-kyuushin	{[scat n:vn]}	 =closure_of_clinic=	%	休診  
-kyuushin	{[scat n:vn]}	 =rapid_progress=	%	急進  
-kyuusui	{[scat n:vn]}	 =water_absorption=	%	吸水  
-kyuusui	{[scat n:vn]}	 =water_supply=	%	給水  
-kyuusen	{[scat n:vn]}	 =cease_fire=	%	休戦  
-kyuuzoo	{[scat n:vn]}	 =rapid_increase=	%	急増  
-kyuusoku	{[scat n:vn]}	 =rest=	%	休息  
-kyuuten	{[scat n:vn]}	 =taking_a_sudden_turn=	%	急転  
-kyuutoo	{[scat n:vn]}	 =hot_water_supply=	%	給湯  
-kyuunyuu	{[scat n:vn]}	 =inhalation=	%	吸入  
-kyuufu	{[scat n:vn]}	 =benefit=	%	給付  
-kyuuhen	{[scat n:vn]}	 =sudden_change=	%	急変  
-kyuubo	{[scat n:vn]}	 =urgent_recruit=	%	急募  
-kyuumee	{[scat n:vn]}	 =investigation=	%	究明  
-kyuuyoo	{[scat n:vn]}	 =repose=	%	休養  
-kyuuyo	{[scat n:vn]}	 =salary=	%	給与  
-kyuuraku	{[scat n:vn]}	 =slump=	%	急落  
-kyuuee	{[scat n:vn]}	 =swimming_race=	%	競泳  
-kyooen	{[scat n:vn]}	 =coacting=	%	共演  
-kyoogaku	{[scat n:vn]}	 =coeducation=	%	共学  
-kyookatsu	{[scat n:vn]}	 =threat=	%	恐喝  
-kyookan	{[scat n:vn]}	 =empathy=	%	共感  
-kyoogi	{[scat n:vn]}	 =conference=	%	協議  
-kyookyuu	{[scat n:vn]}	 =supply=	%	供給  
-kyookun	{[scat n:vn]}	 =lesson=	%	教訓  
-kyookoo	{[scat n:vn]}	 =enforcement=	%	強行  
-gyooko	{[scat n:vn]}	 =solidifying=	%	凝固  
-kyoosan	{[scat n:vn]}	 =cooperation=	%	協賛  
-gyooshi	{[scat n:vn]}	 =gaze=	%	凝視  
-kyooshuu	{[scat n:vn]}	 =training=	%	教習  
-kyooshuku	{[scat n:vn]}	 =feeling_obliged=	%	恐縮  
-gyooshuku	{[scat n:vn]}	 =concentration=	%	凝縮  
-kyooju	{[scat n:vn]}	 =instruction=	%	教授  
-kyoojutsu	{[scat n:vn]}	 =testimony=	%	供述  
-kiyoo	{[scat n:vn]}	 =appointment=	%	起用  
-kyoosee	{[scat n:vn]}	 =enforcement=	%	強制  
-kyoosee	{[scat n:vn]}	 =rectification=	%	矯正  
-kyoosoo	{[scat n:vn]}	 =racing=	%	競走  
-kyoozon	{[scat n:vn]}	 =coexistence=	%	共存  
-kyooda	{[scat n:vn]}	 =swipe=	%	強打  
-kyoochoo	{[scat n:vn]}	 =coordination=	%	協調  
-kyoochoo	{[scat n:vn]}	 =emphasis=	%	強調  
-kyootee	{[scat n:vn]}	 =agreement=	%	協定  
-gyooten	{[scat n:vn]}	 =amazement=	%	仰天  
-kyoodoo	{[scat n:vn]}	 =cooperation=	%	共同  
-kyoodoo	{[scat n:vn]}	 =collaboration=	%	協同  
-kyoobai	{[scat n:vn]}	 =auction=	%	競売  
-kyoohaku	{[scat n:vn]}	 =compulsion=	%	強迫  
-kyoohaku	{[scat n:vn]}	 =intimidation=	%	脅迫  
-kyoofu	{[scat n:vn]}	 =fear=	%	恐怖  
-kyoomee	{[scat n:vn]}	 =resonance=	%	共鳴  
-kyooyuu	{[scat n:vn]}	 =sharing=	%	共有  
-kyooyu	{[scat n:vn]}	 =teaching=	%	教諭  
-kyooyoo	{[scat n:vn]}	 =common_use=	%	共用  
-kyooyoo	{[scat n:vn]}	 =force=	%	強要  
-kyooran	{[scat n:vn]}	 =madness=	%	狂乱  
-kyoka	{[scat n:vn]}	 =permission=	%	許可  
-gyokusai	{[scat n:vn]}	 =die_a_heros_death=	%	玉砕  
-gyokusai	{[scat n:vn]}	 =honorable_defeat=	%	玉摧  
-kyoshiki	{[scat n:vn]}	 =holding_ceremony=	%	挙式  
-kyojuu	{[scat n:vn]}	 =dwelling=	%	居住  
-kyoshu	{[scat n:vn]}	 =raising_hand=	%	挙手  
-kyozetsu	{[scat n:vn]}	 =rejection=	%	拒絶  
-kyoyoo	{[scat n:vn]}	 =allowance=	%	許容  
-kiritsu	{[scat n:vn]}	 =discipline=	%	規律  
-kiritsu	{[scat n:vn]}	 =standing=	%	起立  
-giron	{[scat n:vn]}	 =discussion=	%	議論  
-kin'en	{[scat n:vn]}	 =nonsmoking=	%	禁煙  
-kinko	{[scat n:vn]}	 =imprisonment=	%	禁固  
-kinshu	{[scat n:vn]}	 =abstinence=	%	禁酒  
-kinshin	{[scat n:vn]}	 =self_restraint=	%	謹慎  
-kinzoku	{[scat n:vn]}	 =continuous_service=	%	勤続  
-kindan	{[scat n:vn]}	 =withdrawal=	%	禁断  
-kimpaku	{[scat n:vn]}	 =imminence=	%	緊迫  
-gimmi	{[scat n:vn]}	 =examination=	%	吟味  
-kimmu	{[scat n:vn]}	 =duty=	%	勤務  
-kin'yoku	{[scat n:vn]}	 =sexual_abstinence=	%	禁欲  
-kinroo	{[scat n:vn]}	 =work=	%	勤労  
-kuushuu	{[scat n:vn]}	 =air_raid=	%	空襲  
-kuusoo	{[scat n:vn]}	 =fantasy=	%	空想  
-kuuten	{[scat n:vn]}	 =idle_running=	%	空転  
-kuubaku	{[scat n:vn]}	 =air_raid=	%	空爆  
-kuuyu	{[scat n:vn]}	 =air_transportation=	%	空輸  
-kukaku	{[scat n:vn]}	 =subdivision=	%	区画  
-kushi	{[scat n:vn]}	 =utilization=	%	駆使  
-kusen	{[scat n:vn]}	 =hard_fight=	%	苦戦  
-kusshin	{[scat n:vn]}	 =bending_and_stretching=	%	屈伸  
-kussetsu	{[scat n:vn]}	 =bending=	%	屈折  
-kuppuku	{[scat n:vn]}	 =surrender=	%	屈伏  
-kutoo	{[scat n:vn]}	 =hard_fight=	%	苦闘  
-kunoo	{[scat n:vn]}	 =agony=	%	苦悩  
-kubun	{[scat n:vn]}	 =division=	%	区分  
-kumen	{[scat n:vn]}	 =rig_up=	%	工面  
-kuyoo	{[scat n:vn]}	 =memorial_service=	%	供養  
-gunshuu	{[scat n:vn]}	 =gathering=	%	群集  
-gumbai	{[scat n:vn]}	 =declare_the_winner=	%	軍配  
-kunrin	{[scat n:vn]}	 =reigning=	%	君臨  
-keeai	{[scat n:vn]}	 =love_and_respect=	%	敬愛  
-keeee	{[scat n:vn]}	 =management=	%	経営  
-keeen	{[scat n:vn]}	 =avoidance=	%	敬遠  
-keekai	{[scat n:vn]}	 =remission=	%	軽快  
-keeka	{[scat n:vn]}	 =progress=	%	経過  
-keegen	{[scat n:vn]}	 =reduction=	%	軽減  
-keekoku	{[scat n:vn]}	 =admonition=	%	警告  
-keego	{[scat n:vn]}	 =guard=	%	警護  
-keesai	{[scat n:vn]}	 =printing=	%	掲載  
-keeshi	{[scat n:vn]}	 =making_light_of=	%	軽視  
-keeji	{[scat n:vn]}	 =posting_a_notice=	%	掲示  
-keeshoo	{[scat n:vn]}	 =inheritance=	%	継承  
-keesee	{[scat n:vn]}	 =formation=	%	形成  
-keesoo	{[scat n:vn]}	 =light_dress=	%	軽装  
-keesoku	{[scat n:vn]}	 =measurement=	%	計測  
-keezoku	{[scat n:vn]}	 =continuation=	%	継続  
-keetai	{[scat n:vn]}	 =carry=	%	携帯  
-keebi	{[scat n:vn]}	 =guard=	%	警備  
-keebetsu	{[scat n:vn]}	 =contempt=	%	軽蔑  
-keehoo	{[scat n:vn]}	 =warning=	%	警報  
-keeyu	{[scat n:vn]}	 =pass=	%	経由  
-keeyoo	{[scat n:vn]}	 =description=	%	形容  
-keeri	{[scat n:vn]}	 =accounting=	%	経理  
-keeryoo	{[scat n:vn]}	 =measuring=	%	計量  
-keeree	{[scat n:vn]}	 =salute=	%	敬礼  
-keeren	{[scat n:vn]}	 =cramp=	%	痙攣  
-gekika	{[scat n:vn]}	 =intensification=	%	激化  
-gekigen	{[scat n:vn]}	 =sharp_decrease=	%	激減  
-gekisen	{[scat n:vn]}	 =hard_fight=	%	激戦  
-gekizoo	{[scat n:vn]}	 =sudden_rise=	%	激増  
-gekitai	{[scat n:vn]}	 =fighting_back=	%	撃退  
-gekitsui	{[scat n:vn]}	 =shooting_down=	%	撃墜  
-gekidoo	{[scat n:vn]}	 =shaking_violently=	%	激動  
-gekido	{[scat n:vn]}	 =rage=	%	激怒  
-gekidotsu	{[scat n:vn]}	 =friction=	%	激突  
-gekihen	{[scat n:vn]}	 =turmoil=	%	劇変  
-gekiree	{[scat n:vn]}	 =encouragement=	%	激励  
-gekiron	{[scat n:vn]}	 =hot_argument=	%	激論  
-gekoo	{[scat n:vn]}	 =coming_home_from_school=	%	下校  
-gezan	{[scat n:vn]}	 =climbing_down=	%	下山  
-gesha	{[scat n:vn]}	 =getting_off=	%	下車  
-geshuku	{[scat n:vn]}	 =lodging=	%	下宿  
-ketsui	{[scat n:vn]}	 =determination=	%	決意  
-ketsugi	{[scat n:vn]}	 =resolution=	%	決議  
-kekkin	{[scat n:vn]}	 =absence=	%	欠勤  
-kekkoo	{[scat n:vn]}	 =flight_cancellation=	%	欠航  
-kekkoo	{[scat n:vn]}	 =decisive_action=	%	決行  
-ketsugoo	{[scat n:vn]}	 =bonding=	%	結合  
-kessai	{[scat n:vn]}	 =settlement_of_accounts=	%	決済  
-kessan	{[scat n:vn]}	 =settlement_of_accounts=	%	決算  
-kesshuu	{[scat n:vn]}	 =concentration=	%	結集  
-kesshoo	{[scat n:vn]}	 =crystallization=	%	結晶  
-ketsujoo	{[scat n:vn]}	 =absence=	%	欠場  
-ketsujo	{[scat n:vn]}	 =absence=	%	欠如  
-kessee	{[scat n:vn]}	 =formation=	%	結成  
-kesseki	{[scat n:vn]}	 =absence=	%	欠席  
-kessen	{[scat n:vn]}	 =decisive_battle=	%	決戦  
-kessoku	{[scat n:vn]}	 =binding=	%	結束  
-kesson	{[scat n:vn]}	 =deficit=	%	欠損  
-ketsudan	{[scat n:vn]}	 =decision=	%	決断  
-ketchaku	{[scat n:vn]}	 =conclusion=	%	決着  
-kettee	{[scat n:vn]}	 =decision=	%	決定  
+kamin	{[scat n:vn]}	 =snoozing=	%	仮眠 
+kamee	{[scat n:vn]}	 =affiliation=	%	加盟 
+karasawagi	{[scat n:vn]}	 =brouhaha=	%	から騒ぎ 
+karee	{[scat n:vn]}	 =aging=	%	加齢 
+kanka	{[scat n:vn]}	 =influence=	%	感化 
+kankatsu	{[scat n:vn]}	 =control=	%	管轄 
+kanki	{[scat n:vn]}	 =ventilation=	%	換気 
+kanki	{[scat n:vn]}	 =delight=	%	歓喜 
+kankin	{[scat n:vn]}	 =converting_into_money=	%	換金 
+kankin	{[scat n:vn]}	 =confinement=	%	監禁 
+kanketsu	{[scat n:vn]}	 =conclusion=	%	完結 
+kangen	{[scat n:vn]}	 =reducing=	%	還元 
+kankoku	{[scat n:vn]}	 =recommendation=	%	勧告 
+kango	{[scat n:vn]}	 =nursing=	%	看護 
+kansan	{[scat n:vn]}	 =conversion=	%	換算 
+kanshi	{[scat n:vn]}	 =surveillance=	%	監視 
+kansha	{[scat n:vn]}	 =appreciation=	%	感謝 
+kanshuu	{[scat n:vn]}	 =supervision=	%	監修 
+kanjuku	{[scat n:vn]}	 =reaching_full_ripeness=	%	完熟 
+kanshoo	{[scat n:vn]}	 =intervention=	%	干渉 
+kanshoo	{[scat n:vn]}	 =admiration=	%	観賞 
+kanshoo	{[scat n:vn]}	 =appreciation=	%	鑑賞 
+kanjoo	{[scat n:vn]}	 =calculation=	%	勘定 
+kanshoku	{[scat n:vn]}	 =eating_between_meals=	%	間食 
+kansen	{[scat n:vn]}	 =infection=	%	感染 
+kansen	{[scat n:vn]}	 =watching=	%	観戦 
+kansoo	{[scat n:vn]}	 =finishing_running=	%	完走 
+kansoku	{[scat n:vn]}	 =record=	%	観測 
+kantan	{[scat n:vn]}	 =admiration=	%	感嘆 
+kanchi	{[scat n:vn]}	 =complete_recovery=	%	完治 
+kanchi	{[scat n:vn]}	 =perception=	%	感知 
+kantsuu	{[scat n:vn]}	 =transfix=	%	貫通 
+kantee	{[scat n:vn]}	 =expert_testimony=	%	鑑定 
+kanden	{[scat n:vn]}	 =electrification=	%	感電 
+kantoo	{[scat n:vn]}	 =pitch_the_whole_game=	%	完投 
+kantoku	{[scat n:vn]}	 =supervision=	%	監督 
+kannin	{[scat n:vn]}	 =patience=	%	堪忍 
+kannen	{[scat n:vn]}	 =idea=	%	観念 
+kambai	{[scat n:vn]}	 =liquidize=	%	完売 
+kambi	{[scat n:vn]}	 =being_fully_equipped=	%	完備 
+kambyoo	{[scat n:vn]}	 =nursing=	%	看病 
+kampuu	{[scat n:vn]}	 =shutout=	%	完封 
+kambetsu	{[scat n:vn]}	 =differentiation=	%	鑑別 
+gamboo	{[scat n:vn]}	 =wish=	%	願望 
+kambotsu	{[scat n:vn]}	 =regression=	%	陥没 
+kammee	{[scat n:vn]}	 =impression=	%	感銘 肝銘
+kan'yuu	{[scat n:vn]}	 =inducement=	%	勧誘 
+gan'yuu	{[scat n:vn]}	 =incorporating=	%	含有 
+kan'yoo	{[scat n:vn]}	 =usage=	%	慣用 
+kan'yo	{[scat n:vn]}	 =involvement=	%	関与 干与 
+kanren	{[scat n:vn]}	 =coherence=	%	関連 
+kanwa	{[scat n:vn]}	 =mitigation=	%	緩和 
+kiin	{[scat n:vn]}	 =cause=	%	基因 
+kiokure	{[scat n:vn]}	 =hesitation=	%	気おくれ 
+kikaku	{[scat n:vn]}	 =planning=	%	企画 
+kika	{[scat n:vn]}	 =naturalization=	%	帰化 
+kikan	{[scat n:vn]}	 =return=	%	帰還 
+kigan 	{[scat n:vn]}	 =prayer=	%	祈願 
+kikyoo	{[scat n:vn]}	 =returning_to_Tokyo=	%	帰京 
+kikyoo	{[scat n:vn]}	 =homecoming=	%	帰郷 
+giketsu	{[scat n:vn]}	 =decision=	%	議決 
+kiken	{[scat n:vn]}	 =abstention=	%	棄権 
+kikoku	{[scat n:vn]}	 =return_to_ones_country=	%	帰国 
+kisai	{[scat n:vn]}	 =description=	%	記載 
+kishuu	{[scat n:vn]}	 =surprise_attack=	%	奇襲 
+kijutsu	{[scat n:vn]}	 =description=	%	記述 
+kishoo	{[scat n:vn]}	 =rising=	%	起床 
+kijoo	{[scat n:vn]}	 =riding=	%	騎乗 
+kishoo	{[scat n:vn]}	 =homecoming=	%	帰省 
+kisee	{[scat n:vn]}	 =regulation=	%	規制 
+kizetsu	{[scat n:vn]}	 =faint=	%	気絶 
+kizoo	{[scat n:vn]}	 =gift=	%	寄贈 
+gisoo	{[scat n:vn]}	 =disguise=	%	擬装 
+gizoo	{[scat n:vn]}	 =falsification=	%	偽造 
+kiso	{[scat n:vn]}	 =prosecution=	%	起訴 
+kitaku	{[scat n:vn]}	 =return_home=	%	帰宅 
+kichoo	{[scat n:vn]}	 =registering=	%	記帳 
+kitsuen	{[scat n:vn]}	 =smoking=	%	喫煙 
+kitee	{[scat n:vn]}	 =regulation=	%	規定 
+kidoo	{[scat n:vn]}	 =start=	%	起動 
+kinyuu	{[scat n:vn]}	 =filling_in=	%	記入 
+kifuku	{[scat n:vn]}	 =undulation=	%	起伏 
+kimee	{[scat n:vn]}	 =signature=	%	記名 
+gyakusatsu	{[scat n:vn]}	 =slaughter=	%	虐殺 
+gyakusan	{[scat n:vn]}	 =calculating_backwards=	%	逆算 
+gyakushuu	{[scat n:vn]}	 =counterattack=	%	逆襲 
+gyakujoo	{[scat n:vn]}	 =frenzy=	%	逆上 
+kyakushoku	{[scat n:vn]}	 =dramatization=	%	脚色 
+gyakutai	{[scat n:vn]}	 =abuse=	%	虐待 
+gyakuten	{[scat n:vn]}	 =inversion=	%	逆転 
+gyakuryuu	{[scat n:vn]}	 =contraflow=	%	逆流 
+kyakka	{[scat n:vn]}	 =rejection=	%	却下 
+kyakkan	{[scat n:vn]}	 =taking_an_objective_view=	%	客観 
+gyakkoo	{[scat n:vn]}	 =retrograde motion=	%	逆行 
+kyuuin	{[scat n:vn]}	 =sucking=	%	吸引 
+kyuuen	{[scat n:vn]}	 =temporary_closure=	%	休園 
+kyuuen	{[scat n:vn]}	 =relief=	%	救援 
+kyuugaku	{[scat n:vn]}	 =registered_absence_from_school=	%	休学 
+kyuukan	{[scat n:vn]}	 =suspension_of_publication=	%	休刊 
+kyuukan	{[scat n:vn]}	 =temporary_closure=	%	休館 
+kyuugyoo	{[scat n:vn]}	 =closure=	%	休業 
+kyuukee	{[scat n:vn]}	 =prosecution=	%	求刑 
+kyuukoo	{[scat n:vn]}	 =closure_of_school=	%	休校 
+kyuukoo	{[scat n:vn]}	 =cancellation_of_lecture=	%	休講 
+kyuukoo	{[scat n:vn]}	 =express=	%	急行 
+kyuugo	{[scat n:vn]}	 =rescue=	%	救護 
+kyuukon	{[scat n:vn]}	 =courtship=	%	求婚 
+kyuusai	{[scat n:vn]}	 =aid=	%	救済 
+kyuushi	{[scat n:vn]}	 =pause=	%	休止 
+kyuushi	{[scat n:vn]}	 =sudden_death=	%	急死 
+kyuushitsu	{[scat n:vn]}	 =moisture_absorption=	%	吸湿 
+kyuushuu	{[scat n:vn]}	 =absorption=	%	吸収 
+kyuushutsu	{[scat n:vn]}	 =rescue=	%	救出 
+kyuujoo	{[scat n:vn]}	 =closure=	%	休場 
+kyuushoku	{[scat n:vn]}	 =suspension_from_work=	%	休職 
+kyuushoku	{[scat n:vn]}	 =job_seeking=	%	求職 
+kyuushoku	{[scat n:vn]}	 =feeding_service=	%	給食 
+kyuujo	{[scat n:vn]}	 =rescue=	%	救助 
+kyuushin	{[scat n:vn]}	 =closure_of_clinic=	%	休診 
+kyuushin	{[scat n:vn]}	 =rapid_progress=	%	急進 
+kyuusui	{[scat n:vn]}	 =water_absorption=	%	吸水 
+kyuusui	{[scat n:vn]}	 =water_supply=	%	給水 
+kyuusen	{[scat n:vn]}	 =cease_fire=	%	休戦 
+kyuuzoo	{[scat n:vn]}	 =rapid_increase=	%	急増 
+kyuusoku	{[scat n:vn]}	 =rest=	%	休息 
+kyuuten	{[scat n:vn]}	 =taking_a_sudden_turn=	%	急転 
+kyuutoo	{[scat n:vn]}	 =hot_water_supply=	%	給湯 
+kyuunyuu	{[scat n:vn]}	 =inhalation=	%	吸入 
+kyuufu	{[scat n:vn]}	 =benefit=	%	給付 
+kyuuhen	{[scat n:vn]}	 =sudden_change=	%	急変 
+kyuubo	{[scat n:vn]}	 =urgent_recruit=	%	急募 
+kyuumee	{[scat n:vn]}	 =investigation=	%	究明 
+kyuuyoo	{[scat n:vn]}	 =repose=	%	休養 
+kyuuyo	{[scat n:vn]}	 =salary=	%	給与 
+kyuuraku	{[scat n:vn]}	 =slump=	%	急落 
+kyuuee	{[scat n:vn]}	 =swimming_race=	%	競泳 
+kyooen	{[scat n:vn]}	 =coacting=	%	共演 
+kyoogaku	{[scat n:vn]}	 =coeducation=	%	共学 
+kyookatsu	{[scat n:vn]}	 =threat=	%	恐喝 
+kyookan	{[scat n:vn]}	 =empathy=	%	共感 
+kyoogi	{[scat n:vn]}	 =conference=	%	協議 
+kyookyuu	{[scat n:vn]}	 =supply=	%	供給 
+kyookun	{[scat n:vn]}	 =lesson=	%	教訓 
+kyookoo	{[scat n:vn]}	 =enforcement=	%	強行 
+gyooko	{[scat n:vn]}	 =solidifying=	%	凝固 
+kyoosan	{[scat n:vn]}	 =cooperation=	%	協賛 
+gyooshi	{[scat n:vn]}	 =gaze=	%	凝視 
+kyooshuu	{[scat n:vn]}	 =training=	%	教習 
+kyooshuku	{[scat n:vn]}	 =feeling_obliged=	%	恐縮 
+gyooshuku	{[scat n:vn]}	 =concentration=	%	凝縮 
+kyooju	{[scat n:vn]}	 =instruction=	%	教授 
+kyoojutsu	{[scat n:vn]}	 =testimony=	%	供述 
+kiyoo	{[scat n:vn]}	 =appointment=	%	起用 
+kyoosee	{[scat n:vn]}	 =enforcement=	%	強制 
+kyoosee	{[scat n:vn]}	 =rectification=	%	矯正 
+kyoosoo	{[scat n:vn]}	 =racing=	%	競走 
+kyoozon	{[scat n:vn]}	 =coexistence=	%	共存 
+kyooda	{[scat n:vn]}	 =swipe=	%	強打 
+kyoochoo	{[scat n:vn]}	 =coordination=	%	協調 
+kyoochoo	{[scat n:vn]}	 =emphasis=	%	強調 
+kyootee	{[scat n:vn]}	 =agreement=	%	協定 
+gyooten	{[scat n:vn]}	 =amazement=	%	仰天 
+kyoodoo	{[scat n:vn]}	 =cooperation=	%	共同 
+kyoodoo	{[scat n:vn]}	 =collaboration=	%	協同 
+kyoobai	{[scat n:vn]}	 =auction=	%	競売 
+kyoohaku	{[scat n:vn]}	 =compulsion=	%	強迫 
+kyoohaku	{[scat n:vn]}	 =intimidation=	%	脅迫 
+kyoofu	{[scat n:vn]}	 =fear=	%	恐怖 
+kyoomee	{[scat n:vn]}	 =resonance=	%	共鳴 
+kyooyuu	{[scat n:vn]}	 =sharing=	%	共有 
+kyooyu	{[scat n:vn]}	 =teaching=	%	教諭 
+kyooyoo	{[scat n:vn]}	 =common_use=	%	共用 
+kyooyoo	{[scat n:vn]}	 =force=	%	強要 
+kyooran	{[scat n:vn]}	 =madness=	%	狂乱 
+kyoka	{[scat n:vn]}	 =permission=	%	許可 
+gyokusai	{[scat n:vn]}	 =die_a_heros_death=	%	玉砕 
+gyokusai	{[scat n:vn]}	 =honorable_defeat=	%	玉摧 
+kyoshiki	{[scat n:vn]}	 =holding_ceremony=	%	挙式 
+kyojuu	{[scat n:vn]}	 =dwelling=	%	居住 
+kyoshu	{[scat n:vn]}	 =raising_hand=	%	挙手 
+kyozetsu	{[scat n:vn]}	 =rejection=	%	拒絶 
+kyoyoo	{[scat n:vn]}	 =allowance=	%	許容 
+kiritsu	{[scat n:vn]}	 =discipline=	%	規律 
+kiritsu	{[scat n:vn]}	 =standing=	%	起立 
+giron	{[scat n:vn]}	 =discussion=	%	議論 
+kin'en	{[scat n:vn]}	 =nonsmoking=	%	禁煙 
+kinko	{[scat n:vn]}	 =imprisonment=	%	禁固 
+kinshu	{[scat n:vn]}	 =abstinence=	%	禁酒 
+kinshin	{[scat n:vn]}	 =self_restraint=	%	謹慎 
+kinzoku	{[scat n:vn]}	 =continuous_service=	%	勤続 
+kindan	{[scat n:vn]}	 =withdrawal=	%	禁断 
+kimpaku	{[scat n:vn]}	 =imminence=	%	緊迫 
+gimmi	{[scat n:vn]}	 =examination=	%	吟味 
+kimmu	{[scat n:vn]}	 =duty=	%	勤務 
+kin'yoku	{[scat n:vn]}	 =sexual_abstinence=	%	禁欲 
+kinroo	{[scat n:vn]}	 =work=	%	勤労 
+kuushuu	{[scat n:vn]}	 =air_raid=	%	空襲 
+kuusoo	{[scat n:vn]}	 =fantasy=	%	空想 
+kuuten	{[scat n:vn]}	 =idle_running=	%	空転 
+kuubaku	{[scat n:vn]}	 =air_raid=	%	空爆 
+kuuyu	{[scat n:vn]}	 =air_transportation=	%	空輸 
+kukaku	{[scat n:vn]}	 =subdivision=	%	区画 
+kushi	{[scat n:vn]}	 =utilization=	%	駆使 
+kusen	{[scat n:vn]}	 =hard_fight=	%	苦戦 
+kusshin	{[scat n:vn]}	 =bending_and_stretching=	%	屈伸 
+kussetsu	{[scat n:vn]}	 =bending=	%	屈折 
+kuppuku	{[scat n:vn]}	 =surrender=	%	屈伏 
+kutoo	{[scat n:vn]}	 =hard_fight=	%	苦闘 
+kunoo	{[scat n:vn]}	 =agony=	%	苦悩 
+kubun	{[scat n:vn]}	 =division=	%	区分 
+kumen	{[scat n:vn]}	 =rig_up=	%	工面 
+kuyoo	{[scat n:vn]}	 =memorial_service=	%	供養 
+gunshuu	{[scat n:vn]}	 =gathering=	%	群集 
+gumbai	{[scat n:vn]}	 =declare_the_winner=	%	軍配 
+kunrin	{[scat n:vn]}	 =reigning=	%	君臨 
+keeai	{[scat n:vn]}	 =love_and_respect=	%	敬愛 
+keeee	{[scat n:vn]}	 =management=	%	経営 
+keeen	{[scat n:vn]}	 =avoidance=	%	敬遠 
+keekai	{[scat n:vn]}	 =remission=	%	軽快 
+keeka	{[scat n:vn]}	 =progress=	%	経過 
+keegen	{[scat n:vn]}	 =reduction=	%	軽減 
+keekoku	{[scat n:vn]}	 =admonition=	%	警告 
+keego	{[scat n:vn]}	 =guard=	%	警護 
+keesai	{[scat n:vn]}	 =printing=	%	掲載 
+keeshi	{[scat n:vn]}	 =making_light_of=	%	軽視 
+keeji	{[scat n:vn]}	 =posting_a_notice=	%	掲示 
+keeshoo	{[scat n:vn]}	 =inheritance=	%	継承 
+keesee	{[scat n:vn]}	 =formation=	%	形成 
+keesoo	{[scat n:vn]}	 =light_dress=	%	軽装 
+keesoku	{[scat n:vn]}	 =measurement=	%	計測 
+keezoku	{[scat n:vn]}	 =continuation=	%	継続 
+keetai	{[scat n:vn]}	 =carry=	%	携帯 
+keebi	{[scat n:vn]}	 =guard=	%	警備 
+keebetsu	{[scat n:vn]}	 =contempt=	%	軽蔑 
+keehoo	{[scat n:vn]}	 =warning=	%	警報 
+keeyu	{[scat n:vn]}	 =pass=	%	経由 
+keeyoo	{[scat n:vn]}	 =description=	%	形容 
+keeri	{[scat n:vn]}	 =accounting=	%	経理 
+keeryoo	{[scat n:vn]}	 =measuring=	%	計量 
+keeree	{[scat n:vn]}	 =salute=	%	敬礼 
+keeren	{[scat n:vn]}	 =cramp=	%	痙攣 
+gekika	{[scat n:vn]}	 =intensification=	%	激化 
+gekigen	{[scat n:vn]}	 =sharp_decrease=	%	激減 
+gekisen	{[scat n:vn]}	 =hard_fight=	%	激戦 
+gekizoo	{[scat n:vn]}	 =sudden_rise=	%	激増 
+gekitai	{[scat n:vn]}	 =fighting_back=	%	撃退 
+gekitsui	{[scat n:vn]}	 =shooting_down=	%	撃墜 
+gekidoo	{[scat n:vn]}	 =shaking_violently=	%	激動 
+gekido	{[scat n:vn]}	 =rage=	%	激怒 
+gekidotsu	{[scat n:vn]}	 =friction=	%	激突 
+gekihen	{[scat n:vn]}	 =turmoil=	%	劇変 
+gekiree	{[scat n:vn]}	 =encouragement=	%	激励 
+gekiron	{[scat n:vn]}	 =hot_argument=	%	激論 
+gekoo	{[scat n:vn]}	 =coming_home_from_school=	%	下校 
+gezan	{[scat n:vn]}	 =climbing_down=	%	下山 
+gesha	{[scat n:vn]}	 =getting_off=	%	下車 
+geshuku	{[scat n:vn]}	 =lodging=	%	下宿 
+ketsui	{[scat n:vn]}	 =determination=	%	決意 
+ketsugi	{[scat n:vn]}	 =resolution=	%	決議 
+kekkin	{[scat n:vn]}	 =absence=	%	欠勤 
+kekkoo	{[scat n:vn]}	 =flight_cancellation=	%	欠航 
+kekkoo	{[scat n:vn]}	 =decisive_action=	%	決行 
+ketsugoo	{[scat n:vn]}	 =bonding=	%	結合 
+kessai	{[scat n:vn]}	 =settlement_of_accounts=	%	決済 
+kessan	{[scat n:vn]}	 =settlement_of_accounts=	%	決算 
+kesshuu	{[scat n:vn]}	 =concentration=	%	結集 
+kesshoo	{[scat n:vn]}	 =crystallization=	%	結晶 
+ketsujoo	{[scat n:vn]}	 =absence=	%	欠場 
+ketsujo	{[scat n:vn]}	 =absence=	%	欠如 
+kessee	{[scat n:vn]}	 =formation=	%	結成 
+kesseki	{[scat n:vn]}	 =absence=	%	欠席 
+kessen	{[scat n:vn]}	 =decisive_battle=	%	決戦 
+kessoku	{[scat n:vn]}	 =binding=	%	結束 
+kesson	{[scat n:vn]}	 =deficit=	%	欠損 
+ketsudan	{[scat n:vn]}	 =decision=	%	決断 
+ketchaku	{[scat n:vn]}	 =conclusion=	%	決着 
+kettee	{[scat n:vn]}	 =decision=	%	決定 
 
 %%%% Formal Noun
 hoo		{[scat n:fml]} =one=

@@ -1,19 +1,19 @@
 @UTF8
 %personal & local names; names of characters
-N	{[scat n:prop]} =N=  %for anonymization
-A	{[scat n:prop]} =A=  %for anonymization
-B	{[scat n:prop]} =B=  %for anonymization
-C	{[scat n:prop]} =C=  %for anonymization
-D	{[scat n:prop]} =D=  %for anonymization
-E	{[scat n:prop]} =E=  %for anonymization
-K_S	{[scat n:prop]} =K_S=  %for anonymization
-N_A	{[scat n:prop]} =N_A=  %for anonymization
-N_B	{[scat n:prop]} =N_B=  %for anonymization
-N_C	{[scat n:prop]} =N_C=  %for anonymization
-N_N	{[scat n:prop]} =N_N=  %for anonymization
-Nn	{[scat n:prop]} =Nn=  %for anonymization
+N	{[scat n:prop]} =N= %for anonymization
+A	{[scat n:prop]} =A= %for anonymization
+B	{[scat n:prop]} =B= %for anonymization
+C	{[scat n:prop]} =C= %for anonymization
+D	{[scat n:prop]} =D= %for anonymization
+E	{[scat n:prop]} =E= %for anonymization
+K_S	{[scat n:prop]} =K_S= %for anonymization
+N_A	{[scat n:prop]} =N_A= %for anonymization
+N_B	{[scat n:prop]} =N_B= %for anonymization
+N_C	{[scat n:prop]} =N_C= %for anonymization
+N_N	{[scat n:prop]} =N_N= %for anonymization
+Nn	{[scat n:prop]} =Nn= %for anonymization
 Nko	{[scat n:prop]} =Nko= %for anonymization
-Nchoo	{[scat n:prop]} "N-choo" =N_village=  %for anonymization
+Nchoo	{[scat n:prop]} "N-choo" =N_village= %for anonymization
 Nshi	{[scat n:prop]} "N-shi_CITY" =N= %for anonymization
 
 Aabo 	{[scat n:prop]} =Aabo=
@@ -145,7 +145,7 @@ Daburubekutaa 	{[scat n:prop]} =Double_vector=
 Dai	{[scat n:prop]} =Dai=
 Daikichi	{[scat n:prop]} =Daikichi=
 Dainarobo	{[scat n:prop]} =Dynarobo=
-Dainijisekaitaisen	   {[scat n:prop]} =World_war_II= "Dai_niji_sekai_taisen"
+Dainijisekaitaisen	 {[scat n:prop]} =World_war_II= "Dai_niji_sekai_taisen"
 dairenjaa	{[scat n:prop]} =Big_ranger= "Dairenjaa"
 Dakko	{[scat n:prop]} =Dakko=
 dakkochan	{[scat n:prop]} =Dakko_FAM= "Dakko-chan"
@@ -159,8 +159,8 @@ Diibuifaiyaazudifendaa		{[scat n:prop]} =D_V_fires_fender=
 Dikku	{[scat n:prop]} =Dick=
 doitsu	{[scat n:prop]} =Germany=
 Doitsu	{[scat n:prop]} =Germany=
- doitsugo	{[scat n]} "doitsu_go_LANGUAGE" =German=  
- doitsujin	{[scat n]} "doitsu_jin_PERSON" =German=  
+ doitsugo	{[scat n]} "doitsu_go_LANGUAGE" =German= 
+ doitsujin	{[scat n]} "doitsu_jin_PERSON" =German= 
 Dokin	{[scat n:prop]} =Dokin=
 dokin	{[scat n:prop]} =Dokin= "Dokin"
 Dokutaaekkusu	{[scat n:prop]} =DrX= "Dokutaa_ekkusu"
@@ -192,7 +192,7 @@ Erikku	{[scat n:prop]} =Eric=
 erikku	{[scat n:prop]} =Eric=
 Erika	{[scat n:prop]} =Erika=
 Eriko	{[scat n:prop]} =Eriko=
-Erumaanobooken	       {[scat n:prop]} =Elmer's_adventure= "Erumaa_no_booken"
+Erumaanobooken	 {[scat n:prop]} =Elmer's_adventure= "Erumaa_no_booken"
 Fado	{[scat n:prop]} =Fado=
 Fendaa	{[scat n:prop]} =Fender=
 Fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
@@ -212,8 +212,8 @@ Fureddo	{[scat n:prop]} =Fred=
 Fuudoki	{[scat n:prop]} =Fudoki=
 furansu	{[scat n:prop]} =France=
 Furansu	{[scat n:prop]} =France=
- furansugo	{[scat n]} "furansu_go_LANGUAGE" =French=  
- furansujin	{[scat n]} "furansu_jin_PERSON" =French=  
+ furansugo	{[scat n]} "furansu_go_LANGUAGE" =French= 
+ furansujin	{[scat n]} "furansu_jin_PERSON" =French= 
 Furansowa	{[scat n:prop]} =Francois=
 Furasshuman	{[scat n:prop]} =Flash_man= "Furasshu-man"
 Fuuchan	{[scat n:prop]} =Fuu_FAM=
@@ -229,7 +229,7 @@ Fuyuyo	{[scat n:prop]} =Fuyuyo=
 Gaako	{[scat n:prop]} =Gaako=
 gachapin	{[scat n:prop]} =Gachapin= "Gachapin"
 Gachapin	{[scat n:prop]} =Gachapin= "Gachapin"
-Gaimu			   {[scat n:prop]} =Foreign_Affairs=
+Gaimu			 {[scat n:prop]} =Foreign_Affairs=
 Gamu	{[scat n:prop]} =Gamu=
 Gamman	{[scat n:prop]} =Gun_man= "Gan-man"
 Ganko	{[scat n:prop]} =Ganko=
@@ -301,7 +301,7 @@ Hitomi	{[scat n:prop]} =Hitomi=
 Hitoshi	{[scat n:prop]} =Hitoshi=
 Hokkaidoo	{[scat n:prop]} =Hokkaidoo=
 Honda	{[scat n:prop]} =Honda=
-Honkon			   {[scat n:prop]} =Hong_Kong=
+Honkon			 {[scat n:prop]} =Hong_Kong=
 Hono	{[scat n:prop]} =Hono=
 Honochangoo	{[scat n:prop]} =Hono_FAM_train= "Hono-chan-goo"
 Honoka	{[scat n:prop]} =Honoka=
@@ -372,9 +372,9 @@ Kachigawa	{[scat n:prop]} =Kachigawa=
 Kaadokyaputaasakura	{[scat n:prop]} =Card_Captor_Sakura= "Kaado_kyaputaa_sakura"
 Kaede	{[scat n:prop]} =Kaede=
 Kabocha	{[scat n:prop]} =Pumpkin=
-Kaigunshoo		   {[scat n:prop]} =Ministry_of_Navy= "Kaigun_shoo"
-kaiyuukan	{[scat n:prop]} "kaiyuu_kan_BLDG" =Osaka_aquarium=  %大阪の海遊館
-Kaiyuukan	{[scat n:prop]} "kaiyuu_kan_BLDG" =Osaka_aquarium=  %大阪の海遊館
+Kaigunshoo		 {[scat n:prop]} =Ministry_of_Navy= "Kaigun_shoo"
+kaiyuukan	{[scat n:prop]} "kaiyuu_kan_BLDG" =Osaka_aquarium= %大阪の海遊館
+Kaiyuukan	{[scat n:prop]} "kaiyuu_kan_BLDG" =Osaka_aquarium= %大阪の海遊館
 Kakka	{[scat n:prop]} =Mum=
 Kako	{[scat n:prop]} =Kako=
 kakurenjaa	{[scat n:prop]} =Hidden_ranger= "Kakurenjaa"
@@ -388,15 +388,15 @@ Kamiyachoo	{[scat n:prop]} =Kamiyachoo=
 Kamomejiroo	{[scat n:prop]} =Kamomejiroo=
 Kana	{[scat n:prop]} =Kana=
 Kanako	{[scat n:prop]} =Kanako=
-Kandakuyakusho		   {[scat n:prop]} =Kanda_Ward_office= "Kanda_ku_yakusho"
+Kandakuyakusho		 {[scat n:prop]} =Kanda_Ward_office= "Kanda_ku_yakusho"
 Kankoku	{[scat n:prop]} =South_Korea= % 韓国
- kankokugo      {[scat n]} "kankoku_go_LANGUAGE" =Korean= % 韓国語
- kankokujin     {[scat n]} "kankoku_jin_PERSON" =South_Korean= % 韓国人
+ kankokugo {[scat n]} "kankoku_go_LANGUAGE" =Korean= % 韓国語
+ kankokujin {[scat n]} "kankoku_jin_PERSON" =South_Korean= % 韓国人
 Kannon	{[scat n:prop]} =Kannon=
 kannon	{[scat n:prop]} =Kannon=
 Kanta	{[scat n:prop]} =Kanta=
 Kaori	{[scat n:prop]} =Kaori=
-karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	%  
+karakasaobake	{[scat n:prop]} =ghost_umbrella_karakasaobake=	% 
 kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
 Kareepamman	{[scat n:prop]} =Curry_bread_man= "Kareepan-man"
 Karen 	{[scat n:prop]} =Karen=
@@ -482,7 +482,7 @@ Kubo	{[scat n:prop]} =Kubo=
 Kuraaku	{[scat n:prop]} =Clark=
 Kuuga	{[scat n:prop]} =Kuuga=
 Kumatta	{[scat n:prop]} =Kumatta=
-Kunai			   {[scat n:prop]} =Imperial_Household=
+Kunai			 {[scat n:prop]} =Imperial_Household=
 Kureyonshin	{[scat n:prop]} =Crayon_shin=
 Kuriimu	{[scat n:prop]} =Cream=
 Kuriimupanda	{[scat n:prop]} =Cream_panda=
@@ -585,7 +585,7 @@ Minnii	{[scat n:prop]} =Minnie=
 minnii	{[scat n:prop]} =Minnie= "Minnii"
 minniimausu	{[scat n:prop]} =Minniemouse= "Minniimausu"
 Mino	{[scat n:prop]} =Mino=
-Minoo	{[scat n:prop]} =Minoo=  %箕面
+Minoo	{[scat n:prop]} =Minoo= %箕面
 Minoru	{[scat n:prop]} =Minoru=
 Minshu {[scat n:prop]} =DPJ= % 民主(党)
 Minshutoo {[scat n:prop]} =DPJ=
@@ -624,7 +624,7 @@ Mori	{[scat n:prop]} =Mori=
 mosubaagaa	{[scat n:prop]} =Mosburger_foodchain= "Mosubaagaa"
 Motoki	{[scat n:prop]} =Motoki=
 Motomachi	{[scat n:prop]} =Motomachi=
-Mootsuaruto	{[scat n:prop]} =Mozart= "Mootsaruto"  % モーツァルト
+Mootsuaruto	{[scat n:prop]} =Mozart= "Mootsaruto" % モーツァルト
 Mootsaruto	{[scat n:prop]} =Mozart=
 Muchimura	{[scat n:prop]} =Muchimura=
 mukku	{[scat n:prop]} =Mukku= "Mukku"
@@ -684,7 +684,7 @@ Nooto 	{[scat n:prop]} =Nooto=
 nopperaboo	{[scat n:prop]} =ghost_flat_Nopperaboo=	% のっぺらぼう 
 Nyandaakamen 	{[scat n:prop]} =mighty_cat_mask_Niyander=
 Nyuuyooku	{[scat n:prop]} =New_York=
-choochinobake	{[scat n:prop]} =ghost_lantern_Choochinnobake=	%  
+choochinobake	{[scat n:prop]} =ghost_lantern_Choochinnobake=	% 
 Nori	{[scat n:prop]} =Nori= 
 Noriko 	{[scat n:prop]} =Noriko=
 Nozomi 	{[scat n:prop]} =Nozomi=
@@ -748,6 +748,7 @@ Papa	{[scat n:prop]} =Dad=
 Pirafu	{[scat n:prop]} =Pilaf=
 Pari	{[scat n:prop]} =Paris=
 Paru	{[scat n:prop]} =Pal_supermarket=
+Paruparu	{[scat n:prop]} =Paruparu=
 patokaaman 	{[scat n:prop]} =Patrolcar_man= "Patokaa-man"
 pawaarenjaa	{[scat n:prop]} =Power_ranger= "Pawaarenjaa"
 Pegasasu	{[scat n:prop]} =Pegasus=
@@ -829,7 +830,7 @@ Risako 	{[scat n:prop]} =Risako=
 Risuko 	{[scat n:prop]} =Risuko=
 robokon	{[scat n:prop]} =Robokon= "Robokon"
 Rokomo	{[scat n:prop]} =Locomo= 
-rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	%  
+rokurokubi	{[scat n:prop]} =ghost_longneck_rokurokubi=	% 
 Rondon	{[scat n:prop]} =London=
 Roorupanna	{[scat n:prop]} =Roll_pan=
 roorupanda	{[scat n:prop]} =Roll_pan=

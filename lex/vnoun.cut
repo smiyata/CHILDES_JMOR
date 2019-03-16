@@ -4,7 +4,7 @@
 	betabeta	{[scat n:vn:onoma]} =sticky=	
 	betobeto	{[scat n:vn:onoma]} =sticky=	
 	beari	{[scat n:vn:onoma]} =clinging=	
-	bettori	{[scat n:vn:onoma]} =clinging=	
+	bettari	{[scat n:vn:onoma]} =clinging=	
 	bootto	{[scat n:vn:onoma]} =absentmindedly= "boot_to"	%
 	bosabosa	{[scat n:vn:onoma]} =wild_locks=	
 	bosatto	{[scat n:vn:onoma]} =wild_locks= "bosat_to"	%
@@ -153,7 +153,7 @@
 	atafuta	{[scat n:vn]} =helter_skelter=	
 	atekko	{[scat n:vn]} =guessing_competition= "ate_kko_DIM"	%【っこ
 	atenige	{[scat n:vn]} =hit_and_run_away= "ate_nige"	% 当て逃げ
-	attoo	{[scat n:vn]} =overwhelming=	%【圧倒  
+	attoo	{[scat n:vn]} =overwhelming=	%【圧倒 
 	atomodori	{[scat n:vn]} =retrogression=	%【後戻り】
 	atoshimatsu	{[scat n:vn]} =dealing_with_aftermath=	%【後始末/跡始末】
 	atozusari	{[scat n:vn]} =drawing_back=	%【後ずさり】(後《退り)
@@ -223,6 +223,7 @@
 	chootatsu	{[scat n:vn]} =procurement=	%【調達】
 	chuudan	{[scat n:vn]} =break=
 	chuudoku	{[scat n:vn]} =poisoning=	%【中毒】
+	shokuchuudoku	{[scat n:vn]} =food_poisoning= "shoku_chuudoku"	%【中毒】
 	chuugaeri	{[scat n:vn]} =somersault=	%【宙返り】
 	chuui	{[scat n:vn]} =attention=	%【注意】
 	fuchuui	{[scat n:vn]} =nonattention=	"fu_NOT_chuui" %【注意】
@@ -258,8 +259,8 @@
 	denwaryoo	{[scat n:vn] [npform o]} =telephone_fee= "denwa_ryoo_FEE"	%【電話】
 	dokuritsu	{[scat n:vn]} =becoming_independent=	%【独立】
 	dokusho	{[scat n:vn]} =reading=	%【読書】
-	donka	{[scat n:vn]} =getting_dull= "don_ka_CHANGE"  % 鈍化
-	dooka	{[scat n:vn]} =assimilation= "doo_ka_CHANGE"  % 同化
+	donka	{[scat n:vn]} =getting_dull= "don_ka_CHANGE" % 鈍化
+	dooka	{[scat n:vn]} =assimilation= "doo_ka_CHANGE" % 同化
 	doroboo	{[scat n:vn]} =stealing=	%【どろぼう】(泥棒)
 	doryoku	{[scat n:vn]} =effort=	%【努力】
 	eegaka	{[scat n:vn]} =making_a_movie= "eega_ka_CHANGE" % 映画化
@@ -331,7 +332,7 @@
 	haitatsu	{[scat n:vn]} =delivery=	%【配達】
 	haitatsuya	{[scat n:vn]} =delivery_shop= "haitatsu_ya_SHOP"	%【配達】
 	hakai	{[scat n:vn]} =destruction=	%【破壊】
-	hakaima	{[scat n:vn]} =destruction_devil= "hakai_ma_DEVIL"	%【破壊】
+	hakaima	{[scat n]} =destruction_devil= "hakai_ma_DEVIL"	%【破壊】
 	hakariuri	{[scat n:vn]} =sell_by_weight=	%【量り売り】
 	hakken	{[scat n:vn]} =discovery=	%【発見】
 	hakki {[scat n:vn]} =giving_full_play=
@@ -438,7 +439,7 @@
 	idoo	{[scat n:vn]} =moving=	%【移動】+
 	ihan	{[scat n:vn]} =transgression= 	%【違反】
 	ijiwaru	{[scat n:vn]} =maliciousness=	%【意地悪】
-	ika	{[scat n:vn]} =dissimilation= "i_ka_CHANGE"  % 異化
+	ika	{[scat n:vn]} =dissimilation= "i_ka_CHANGE" % 異化
 	ikaku	{[scat n:vn]} =threatening=	%【威嚇】
 	ikuji	{[scat n:vn]} =child_raising=	%【育児】
 	imi	{[scat n:vn]} =meaning=	%【意味】-
@@ -470,7 +471,7 @@
 	jiyuuka	{[scat n:vn]} =liberalization= "jiyuu_ka_CHANGE" % 自由化
 	jooba	{[scat n:vn]} =ride_horseback=
 	joohatsu	{[scat n:vn]} =evaporating=	%
-	jooka	{[scat n:vn]} =purification= "joo_ka_CHANGE"  % 浄化
+	jooka	{[scat n:vn]} =purification= "joo_ka_CHANGE" % 浄化
 	joosha	{[scat n:vn]} =getting_on_train=	%【乗車】
 	josetsu	{[scat n:vn]} =clearing_snow=	%【除雪】
 	josetsusha	{[scat n]} =snow_plow= "josetsu_sha_VEHICLE"	%【除雪】
@@ -629,7 +630,7 @@
 	kiboosha	{[scat n]} =applicant=	%【希望】
 	kifu	{[scat n:vn]} =donation=	%【寄附/寄付】
 	kifuku	{[scat n:vn]} =undulation=	%【起伏】
-	kika	{[scat n:vn]} =naturalization=  % 帰化
+	kika	{[scat n:vn]} =naturalization= % 帰化
 	kikaika	{[scat n:vn]} =mechanization= "kikai_ka_CHANGE" % 機械化
 	kikoku	{[scat n:vn]} =return_to_his_country=	%【帰国】
 	kikubari	{[scat n:vn]} =consideration=	%【気配り】
@@ -673,7 +674,7 @@
 	 sookoogeki	{[scat n:vn]} =aggression= "soo_GENERAL_koogeki"	%【総攻撃】
 	kooji	{[scat n:vn]} =construction_work=	%【工事】
 	koojichuu	{[scat n]} =construction_work_while= "kooji_chuu_WHILE"	%【工事】
-	kooka	{[scat n:vn]} =hardening=  % 硬化
+	kooka	{[scat n:vn]} =hardening= % 硬化
 	kookai	{[scat n:vn]} =remorse=	%【後悔】
 	kookan	{[scat n:vn]} =exchange=	%【交換】
 	kookoo	{[scat n:vn]} =filial_duty=	%【孝行】
@@ -686,6 +687,7 @@
 	kooshin	{[scat n:vn]} =correspondence=	%【交信】+
 	kooshin	{[scat n:vn]} =parade=	%【行進】+
 	kooshoo	{[scat n:vn]} =negotiation=	%【交渉】
+	kooshuu	{[scat n:vn]} =lecture=	%【交渉】
 	kootai	{[scat n:vn]} =alternation=	%【交代/交替】
 	kootee	{[scat n:vn]} =affirmation=	%【肯定】
 	kootsuu	{[scat n:vn]} =traffic=	%【交通】
@@ -699,7 +701,6 @@
 	kubetsu	{[scat n:vn]} =differentiation=	%【区別】
 	kuchigenka	{[scat n:vn]} =quarrel_words=	%【口げんか】(口〈喧嘩〉)
 	kufuu	{[scat n:vn]} =device=	%【くふう/工夫】
-	kujibiki	{[scat n:vn]} =lottery=	%【くじ引き】(〈籖引き)
 	kunren	{[scat n:vn]} =exercise=	%【訓練】
 	kuroo	{[scat n:vn]} =hardship=	%【苦労】
 	kushami	{[scat n:vn]} =sneezing=	%【くしゃみ】(〈嚔)
@@ -713,7 +714,7 @@
 	hikyooryoku	{[scat n:vn]} =uncooperation= "hi_NOT_kyooryoku"	%【協力】
 	kyoosoo	{[scat n:vn]} =competition=	%【競争】
 	kyoozon	{[scat n:vn]} =exist_together=
-	kyuugattai	{[scat n:vn]} =sudden_incorporation= %  急合体
+	kyuugattai	{[scat n:vn]} =sudden_incorporation= % 急合体
 	kyuujo	{[scat n:vn]} =rescue=	%【救助】
 	kyuukee	{[scat n:vn]} =taking_a_rest=	%【休憩】
 	kyuukeechuu	{[scat n]} =while_taking_a_rest= "kyuukee_chuu_WHILE"	%【休憩】
@@ -724,12 +725,14 @@
 	kyuushutsu	{[scat n:vn]} =rescue=	%【救出】
 	kyuushuu	{[scat n:vn]} =absorption= 
 	maishin {[scat n:vn]} =striving=
+	majinai {[scat n:vn]} =good_luck_charm=
 	mane	{[scat n:vn]} =imitation=	%【真似】
 	 manekko	{[scat n:vn]} =imitation= "mane_kko_DIM"	%【真似】
 	mankai	{[scat n:vn]} =fully_open=	%【満開】
 	manryoo {[scat n:vn]} =expiration=
 	manzoku	{[scat n:vn]} =being_satisfied=	% 満足 
 	daimanzoku	{[scat n:vn]} =being_very_satisfied= "dai_BIG_manzoku"	% 満足 
+	masatsu	{[scat n:vn]} =friction=
 	mattoo	{[scat n:vn]} =completion=
 	meechuu	{[scat n:vn]} =hitting_the_mark=	%【命中】
 	meegen {[scat n:vn]} =declaration=
@@ -762,17 +765,18 @@
 	oobo	{[scat n:vn]} =application=	%【応募】
 	ooen	{[scat n:vn]} =support=	%【応援】
 	ooendan	{[scat n]} =support_group= 
-	ooentai	{[scat n]} =support_group=  "ooen_tai_TROUP"
+	ooentai	{[scat n]} =support_group= "ooen_tai_TROUP"
 	oosen	{[scat n:vn]} =accept_challenge=	%【応戦】
 	oshioki	{[scat n:vn]} =scolding=	%【お仕置き】
-	ree	{[scat n:vn]} =thanking=	%【お礼】
 	oshare	{[scat n:vn]} =dressing_up=	%【お洒落】
+	otsutome	{[scat n]} =job= "o_HON_tsutome"	% 努め 
 	raichoo	{[scat n:vn]} =attendance=	%【来聴】
 	rakuba	{[scat n:vn]} =falling_from_horse= %【落馬】
 	rakusen {[scat n:vn]} =losing_an_election=
 	ramboo	{[scat n:vn]} =rude=	%【乱暴】
-	rendoo	{[scat n:vn]} =interlocking= % 連動
+	ree	{[scat n:vn]} =thanking=	%【お礼】
 	reetoo	{[scat n:vn]} =freezing=	%【冷凍】
+	rendoo	{[scat n:vn]} =interlocking= % 連動
 	renketsu	{[scat n:vn]} =connecting=	%【連結】
 	renketsuki	{[scat n]} =connector=	%【連結】
 	renraku	{[scat n:vn]} =contact=	%【連絡】(〈聯絡)
@@ -815,7 +819,7 @@
 	sampatsu	{[scat n:vn]} =hair_cut=	%【散髪】
 	sampo	{[scat n:vn] [npform o]} =strolling=	%【散歩】
 	sanjoo	{[scat n:vn]} =visit=	%【参上】
-	sanka	{[scat n:vn]} =oxidation=  % 酸化
+	sanka	{[scat n:vn]} =oxidation= % 酸化
 	sanka	{[scat n:vn]} =participation=	%【参加】
 	sankan	{[scat n:vn]} =inspection=	%【参観】
 	sankambi	{[scat n]} =parents_observation_day= "sankan_hi_DAY"	%【参観】
@@ -925,11 +929,11 @@
 	 shootaijoo	{[scat n]} =invitation_letter= "shootai_joo_LETTER"	%【招待状】
 	shoototsu	{[scat n:vn]} =collision=	%【衝突】
 	shori	{[scat n:vn]} =treatment=	%【処理】
-	shujutsu	{[scat n:vn]}  =surgical_operation=
+	shujutsu	{[scat n:vn]} =surgical_operation=
 	shugyoo	{[scat n:vn]} =ascetic_training=	%【修行】
 	shukkoo	{[scat n:vn]} =ship_departure=	%【出港】
 	shuppatsu	{[scat n:vn]} =departure=	%【出発】
-	shussan	{[scat n:vn]}  =childbirth=
+	shussan	{[scat n:vn]} =childbirth=
 	shusseki	{[scat n:vn]} =attendance= "shusseki"
 	shussekichoo	{[scat n]} =register= "shusseki-choo"
 	shutchoo	{[scat n:vn]} =business_travel=	%【出張】
@@ -988,7 +992,7 @@
 	 taiikukan	{[scat n]} "taiiku_kan_BLDG" =gymn_hall=	%【体育館】
 	taiin	{[scat n:vn]} =leaving_hospital=	%【退院】
 	taiji	{[scat n:vn]} =extermination= %【退治】
-	taika	{[scat n:vn]} =degeneration= "tai_ka_CHANGE"  % 退化
+	taika	{[scat n:vn]} =degeneration= "tai_ka_CHANGE" % 退化
 	taikeeka	{[scat n:vn]} =systematization= "taikee_ka_CHANGE" % 体系化
 	taiki	{[scat n:vn]} =waiting= %【待機】
 	taikyaku	{[scat n:vn]} =retreat=	%【退却】
@@ -1024,7 +1028,7 @@
 	tempuku	{[scat n:vn]} =overthrow=	%【転覆】(〈顛覆)
 	tenkai	{[scat n:vn]} =development=	%【展開】
 	tenkai	{[scat n:vn]} =rotation=	%【転回】
-	tenkaijoo	{[scat n]} =rotation_platform= "tenkai_joo"  %転回場
+	tenkaijoo	{[scat n]} =rotation_platform= "tenkai_joo" %転回場
 	tenken	{[scat n:vn]} =check=	%【点検】
 	tenkenchuu	{[scat n]} =check_while= "tenken_chuu_WHILE"	%【点検】
 	tenraku	{[scat n:vn]} =downfall=	%【転落】
@@ -1033,7 +1037,7 @@
 	tentoo	{[scat n:vn]} =tumbling_down=	%【転倒】
 	tetsuya	{[scat n:vn]} =staying_up_all_night=
 	tettai	{[scat n:vn]} =retreat=
-	tokka	{[scat n:vn]} =specialization=  % 特化
+	tokka	{[scat n:vn]} =specialization= % 特化
 	tokkun	{[scat n:vn]} =special_training= 	% 特訓 
 	toochaku	{[scat n:vn]} =arrival=	%【到着】
 	toochoo	{[scat n:vn]} =wire_tapping=	%【盗聴】
@@ -1066,7 +1070,7 @@
 	waraigoto	{[scat n:vn]} =laughing_matter=	%【笑い事】
 	warizan	{[scat n:vn]} =division=
 	yabanka	{[scat n:vn]} =barbarianization= "yaban_ka_CHANGE" % 野蛮化
-	yaito	{[scat n:vn]} =moxa= 	% やいと  灸 
+	yaito	{[scat n:vn]} =moxa= 	% やいと 灸 
 	yakedo	{[scat n:vn]} =skin_burn=	%【やけど】(:火傷)
 	yakusoku	{[scat n:vn]} =promise=	%【約束】
 	yatsuatari	{[scat n:vn]} =venting_anger=
@@ -1082,7 +1086,7 @@
 	yotsumbai	{[scat n:vn]} =standing_on_four_legs=	%
 	yoyaku	{[scat n:vn]} =reservation=	%【予約】
 	yudan	{[scat n:vn]} =inattentive= %油断
-	yukkuri	{[scat n:vn]} =slowly=	%  ゆっくり
+	yukkuri	{[scat n:vn]} =slowly=	% ゆっくり
 	yuugi	{[scat n:vn] } =game=	%【遊戯】[1]
 	yuuhatsu	{[scat n:vn]} =triggering=	%【誘発】
 	yuushoo	{[scat n:vn]} =winning_prize=	%【優勝】

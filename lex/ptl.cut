@@ -12,7 +12,7 @@ desae	{[scat ptl:foc]} "de_sae" =even=
 desura	{[scat ptl:foc]} "de_sura" =even=
 dokoroka	{[scat ptl:foc]} "dokoro_ka" =not_at_all=
 hodo	{[scat ptl:foc]} =about=
-gatera	{[scat ptl:foc]}  =along_with=
+gatera	{[scat ptl:foc]} =along_with=
 goto	{[scat ptl:foc]} =whole=
 goto	{[scat ptl:foc]} =each=
 gurai	{[scat ptl:foc]} "kurai" =about=
@@ -25,7 +25,7 @@ mo	{[scat ptl:foc]} =ADD=
 nado	{[scat ptl:foc]} =etc=
 nanka	{[scat ptl:foc]} =even=
 nante	{[scat ptl:foc]} =even=
-nari	{[scat ptl:foc]} =in_one_own_style=  % watashi nari ni
+nari	{[scat ptl:foc]} =in_one_own_style= % watashi nari ni
 nikagitte	{[scat ptl:foc]} =only= "ni_kagitte"
 nishiro	{[scat ptl:foc]} =be_it= "ni_shiro"
 nishitemo	{[scat ptl:foc]} =even_when= "ni_shite_mo"
@@ -47,7 +47,7 @@ zutsu	{[scat ptl:foc]} =one_by_one=
 %%%% case particle
 ga	{[scat ptl:case]} =NOM=
 o	{[scat ptl:case]} =ACC=
-no	{[scat ptl:case]} =NOM=   %の/がconversion
+no	{[scat ptl:case]} =NOM= %の/がconversion
 
 %%%% postposition particle
 de	{[scat ptl:post]} =LOC=
@@ -59,7 +59,7 @@ to	{[scat ptl:post]} =COMT=
 yori	{[scat ptl:post]} =ABL= 
 yori	{[scat ptl:post]} =COMPR= 
 
-%%%% compound postposition particles   [here only ptls used in the child data; for more particles, see Adult_ptl.cut]
+%%%% compound postposition particles [here only ptls used in the child data; for more particles, see Adult_ptl.cut]
 ja	{[scat ptl:cppost]} =in_that_case= "de&wa"
 nikagirazu	{[scat ptl:cppost]} =not_only= "ni_kagirazu"
 nikanshite	{[scat ptl:cppost]} =concerning= "ni_kanshite"
@@ -67,7 +67,7 @@ nikakawarazu	{[scat ptl:cppost]} =regardless= "ni_kakawarazu"
 nimokakawarazu	{[scat ptl:cppost]} =regardless= "ni_mo_kakawarazu"
 nitaishite	{[scat ptl:cppost]} =regarding= "ni_taishite"
 niyotte	{[scat ptl:cppost]} =depending_on= "ni_yotte"
-toshite	{[scat ptl:cppost]} =as= "to_shite"  % hashi toshite tsukau
+toshite	{[scat ptl:cppost]} =as= "to_shite" % hashi toshite tsukau
 totomoni	{[scat ptl:cppost]} "to_tomo_ni" =along_with=
 yorimo	{[scat ptl:cppost]} "yori_mo" =rather_than= 
 
@@ -82,7 +82,7 @@ toiu	{[scat ptl:attr]} =called= "to_iu"
 toyuu	{[scat ptl:attr]} =called= "to_yuu"
 
 %%%% vocative particle
-%yo	{[scat ptl:voc]} =VOC=      %disambiguation
+%yo	{[scat ptl:voc]} =VOC= %disambiguation
 
 %%%% final particle
 be	{[scat ptl:fina]} =ASSERT=
@@ -90,10 +90,10 @@ jagena	{[scat ptl:fina]} =APPARENTLY=
 noo	{[scat ptl:fina]} =ASSERT=
 dai	{[scat ptl:fina]} =ASSERT= 
 dato	{[scat ptl:fina]} =ASSERT= 
-datte	{[scat ptl:fina]} =QUOT=   %  nai datte
+datte	{[scat ptl:fina]} =QUOT= % nai datte
 de	{[scat ptl:fina]} =ASSERT=
 do	{[scat ptl:fina]} =ASSERT=
-%ga	{[scat ptl:fina]} =FINA=   %disambiguation problem
+%ga	{[scat ptl:fina]} =FINA= %disambiguation problem
 jan	{[scat ptl:fina]} =TAG= 
 janai	{[scat ptl:fina]} =TAG= 
 yan	{[scat ptl:fina]} =TAG= 
@@ -118,8 +118,8 @@ saq	{[scat ptl:fina]} =FINA= "sa"
 saa	{[scat ptl:fina]} =FINA= "sa" 
 tomo	{[scat ptl:fina]} =ASSERT=
 tchatte	{[scat ptl:fina]} "to&itchatte" =QUOT=
-tchu	{[scat ptl:fina]} "to&iu" =QUOT=  
-tchuu	{[scat ptl:fina]} "to&iu" =QUOT=  
+tchu	{[scat ptl:fina]} "to&iu" =QUOT= 
+tchuu	{[scat ptl:fina]} "to&iu" =QUOT= 
 ttai	{[scat ptl:fina]} =ASSERT=
 tteba	{[scat ptl:fina]} =i_tell_you=
 tto	{[scat ptl:fina]} =QUOT= 
@@ -138,7 +138,7 @@ ga	{[scat ptl:conj]} =but=
 ka	{[scat ptl:conj]} =whether=
 kara	{[scat ptl:conj]} =because=
 kara	{[scat ptl:conj]} =after=
-ken	{[scat ptl:conj]} =because=   
+ken	{[scat ptl:conj]} =because= 
 kedo	{[scat ptl:conj]} =although=
 keredo	{[scat ptl:conj]} "keredomo" =although=
 kedomo	{[scat ptl:conj]} "keredomo" =although=
@@ -157,7 +157,7 @@ shi	{[scat ptl:conj]} =also=
 to	{[scat ptl:conj]} =when=
 toka	{[scat ptl:conj]} =or=
 tokoroga	{[scat ptl:conj]} =however=
-toshite	{[scat ptl:conj]} =given_that= "to_shite"  
+toshite	{[scat ptl:conj]} =given_that= "to_shite" 
 tosuruto	{[scat ptl:conj]} "to_suru_to" =if_then=
 tosuruto	{[scat conj]} "to_suru_to" =if_then=
 towaie	{[scat ptl:conj]} "to_wa_ie" =though=
@@ -199,6 +199,6 @@ ttsutten	{[scat ptl:quot]} =QUOT= "to&yutten"
 %%%%% indefinite particle
 demo	{[scat ptl:indef]} =every= "de_mo"
 kashira	{[scat ptl:indef]} =some=
-ka	{[scat ptl:indef]} =INDEF=   %for separated ka  ex.  dare  hitori mo   ex. nambiki mo
-mo	{[scat ptl:indef]} =INTENS=    % nankai ka 
+ka	{[scat ptl:indef]} =INDEF= %for separated ka ex. dare hitori mo ex. nambiki mo
+mo	{[scat ptl:indef]} =INTENS= % nankai ka 
 

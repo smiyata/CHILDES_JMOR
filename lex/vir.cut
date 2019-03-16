@@ -1,6 +1,6 @@
 @UTF8
-%               irregular verbs
-%             						   	"suru"
+%  irregular verbs
+%  						 	"suru"
 su	{[scat v:ir]} =do=
 sase	{[scat v:v]} =do= "su-CAUS"	
 sase	{[scat v:v:sub]} =do= "su-CAUS"	
@@ -8,11 +8,11 @@ sas	{[scat v:c]} =do= "su-CAUS:contr"
 sas	{[scat v:c:sub]} =do= "su-CAUS:contr"	
 sare	{[scat v:v]} =do= "su-PASS"	
 sare	{[scat v:v:sub]} =do= "su-PASS"	
-shisoo	{[scat n:an]} =do=  "su-soo_SEEMING"
-shigata	{[scat adj]} =do=  "su-gata_HARD"
-shiniku	{[scat adj]} =do=  "su-niku_DIFFICULT"
-shiyasu	{[scat adj]} =do=  "su-yasu_EASY"
-shizura	{[scat adj]} =do_easy=  "su-tsura_HARD"
+shisoo	{[scat n:an]} =do= "su-soo_SEEMING"
+shigata	{[scat adj]} =do= "su-gata_HARD"
+shiniku	{[scat adj]} =do= "su-niku_DIFFICULT"
+shiyasu	{[scat adj]} =do= "su-yasu_EASY"
+shizura	{[scat adj]} =do_easy= "su-tsura_HARD"
 see	{[scat v:ir][tense imp]} =do= "su&IMP"
 see	{[scat v:ir:sub][tense imp]} =do= "su&IMP"
 shai	{[scat v:ir:sub][tense pres]} =do= "su&IMP:shai"
@@ -25,40 +25,10 @@ kisoo	{[scat n:an]} =come= "ku-soo_SEEMING"
 ar	{[scat v:ir]} =be=	
 arahen	{[scat v:ir][tense pres]} =be= "ar-NEG:hen&PRES"
 arahin	{[scat v:ir][tense pres]} =be= "ar-NEG:hin&PRES"
-nasasoo	{[scat n:an]} =be=  "ar&NEG-soo_SEEMING"
+nasasoo	{[scat n:an]} =be= "ar&NEG-soo_SEEMING"
 tarinasasugi	{[scat v:v]} =be_too_insufficient= "tari&NEG-sugi"
 ik	{[scat v:c]} =go= 
 
-yuute	{[scat v:c][tense inf]} =say= "yuw-CONN"
-koote	{[scat v:c][tense inf]} =buy= "kaw-CONN"
-moroote	{[scat v:c][tense inf]} =get= "moraw-CONN"
-omoote	{[scat v:c][tense inf]} =think= "omow-CONN"
-tsukoote	{[scat v:c][tense inf]} =use= "tsukaw-CONN"
-shimoote	{[scat v:c:sub][tense inf]} =finish_COMPL= "shimaw-CONN"
-
-yuute	{[scat v:c][tense imp]} =say= "yuw-IMP:te"
-koote	{[scat v:c][tense imp]} =buy= "kaw-IMP:te"
-aroote	{[scat v:c][tense imp]} =wash= "araw-IMP:te"
-moroote	{[scat v:c][tense imp]} =get= "moraw-IMP:te"
-shimoote	{[scat v:c:sub][tense imp]} =finish_COMPL= "shimaw-IMP:te"
-
-yuuta	{[scat v:c][tense past]} =say= "yuw-PAST"
-koota	{[scat v:c][tense past]} =buy= "kaw-PAST"
-aroota	{[scat v:c][tense past]} =wash= "araw-PAST"
-hiroota	{[scat v:c][tense past]} =pick_up= "hirow-PAST"
-moroota	{[scat v:c][tense past]} =get= "moraw-PAST"
-omoota	{[scat v:c][tense past]} =think= "omow-PAST"
-tsukoota	{[scat v:c][tense past]} =use= "tsukaw-PAST"
-naroota	{[scat v:c][tense past]} =learn= "naraw-PAST"
-shimoota	{[scat v:c:sub][tense past]} =finish_COMPL= "shimaw-PAST"
-
-yuutara	{[scat v:c][tense past]} =say= "yuw-COND:tara"
-kootara	{[scat v:c][tense past]} =buy= "kaw-COND:tara"
-morootara	{[scat v:c][tense past]} =get= "moraw-COND:tara"
-omootara	{[scat v:c][tense past]} =think= "omow-COND:tara"
-shimootara	{[scat v:c:sub][tense past]} =finish_COMPL= "shimaw-COND:tara"
-
-omooteru	{[scat v:c][tense pres]} =think= "omow-ASP-PRES"
 
 semarikuru	{[scat v:ir][tense pres]} =impend= "semar_ku-PRES"
 semarikiteru	{[scat v:ir][tense pres]} =impend= "semar_ku-ASP-PRES"
@@ -66,7 +36,7 @@ semarikite	{[scat v:ir][tense inf]} =impend= "semar_ku-CONN"
 semarikita	{[scat v:ir][tense past]} =impend= "semar_ku-PAST"
 semarikiteta	{[scat v:ir][tense past]} =impend= "semar_ku-ASP-PAST"
 
-%              	  			 AI-VERBS     	"gozaimasu"
+%  	 			 AI-VERBS 	"gozaimasu"
 gozar	{[scat v:c]} =be_POL=	%
 gozaimasu	{[scat v:ir][tense pres]} =be_POL= "gozar-POL-PRES"
 gozaimasen	{[scat v:ir][tense pres]} =be_POL= "gozar-POL-NEG:n&PRES"
@@ -74,7 +44,7 @@ gozaimashita	{[scat v:ir][tense past]} =be_POL= "gozar-POL-PAST"
 gozaimashite	{[scat v:ir][tense inf]} =be_POL= "gozar-POL-CONN"
 gozaimashoo	{[scat v:ir][tense inf]} =be_POL= "gozar-POL-INTENT"
 gozaimashitara	{[scat v:ir][tense inf]} =be_POL= "gozar-POL-COND:tara"
-%              	  			 AI-VERBS     	"irassharu"
+%  	 			 AI-VERBS 	"irassharu"
 irasshar	{[scat v:c]} =come_POL=	
 irass	{[scat v:c]} =come_POL= "irasshar"
 irasshai	{[scat v:c][tense imp]} =come_POL= "irasshai&IMP" 
@@ -105,7 +75,7 @@ irasshaimashite	{[scat v:c:sub][tense inf]} =ASP_POL= "irasshar-POL-CONN"
 irasshaimashoo	{[scat v:c:sub][tense inf]} =ASP_POL= "irasshar-POL-HORT"
 irasshaimashitara	{[scat v:c:sub][tense inf]} =ASP_POL= "irasshar-POL-COND:tara"
 
-%              	  			 AI-VERBS     	"ossharu"
+%  	 			 AI-VERBS 	"ossharu"
 osshar	{[scat v:c]} =say_POL=	
 osshaimasu	{[scat v:c][tense pres]} =say_POL= "osshar-POL-PRES"
 osshaimasen	{[scat v:c][tense pres]} =say_POL= "osshar-POL-NEG:n&PRES"
@@ -113,7 +83,7 @@ osshaimashita	{[scat v:c][tense past]} =say_POL= "osshar-POL-PAST"
 osshaimashite	{[scat v:c][tense inf]} =say_POL= "osshar-POL-CONN"
 osshaimashoo	{[scat v:c][tense inf]} =say_POL= "osshar-POL-HORT"
 osshaimashitara	{[scat v:c][tense inf]} =say_POL= "osshar-POL-COND:tara"
-%              	  			 AI-VERBS     	"kudasaru"
+%  	 			 AI-VERBS 	"kudasaru"
 kudasar	{[scat v:c]} =give_POL=	%
 kudasai	{[scat v:c][tense imp]} =give_POL= "kudasai&IMP" 
 kudasaimasu	{[scat v:c][tense pres]} =give_POL= "kudasar-POL-PRES"
@@ -122,7 +92,7 @@ kudasaimashita	{[scat v:c][tense past]} =give_POL= "kudasar-POL-PAST"
 kudasaimashite	{[scat v:c][tense inf]} =give_POL= "kudasar-POL-CONN"
 kudasaimashoo	{[scat v:c][tense inf]} =give_POL= "kudasar-POL-HORT"
 kudasaimashitara	{[scat v:ir][tense inf]} =give_POL= "kudasar-POL-COND:tara"
-%              	  			 AI-VERBS     	"nasaru"
+%  	 			 AI-VERBS 	"nasaru"
 nasar	{[scat v:c]} =do_POL=	%
 nasai	{[scat v:c][tense imp]} =do_POL= "nasai&IMP" 
 nasaimasu	{[scat v:c][tense pres]} =do_POL= "nasar-POL-PRES"
@@ -132,19 +102,19 @@ nasaimashite	{[scat v:c][tense inf]} =do_POL= "nasar-POL-CONN"
 nasaimashoo	{[scat v:c][tense inf]} =do_POL= "nasar-POL-HORT"
 nasaimashitara	{[scat v:c][tense inf]} =do_POL= "nasar-POL-COND:tara"
 
-%                     SUB VERB FOSSILES
+%   SUB VERB FOSSILES
 gotoku	{[scat v:ir:sub][tense inf]} =same_way= ""
 gotoki	{[scat v:ir:sub][tense inf]} =same_way= "gotoki&ADN"
 gotoku	{[scat v:ir:sub][tense inf]} =same_way= "gotoku&ADV"
 
-%                     IMPERATIVE FOSSILES
+%   IMPERATIVE FOSSILES
 goran	{[scat v:ir][tense imp]} =look= "goran&IMP"
 gorannasai	{[scat v:ir][tense imp]} =look= "goran&IMP-nasai&IMP"
 oide	{[scat v:ir][tense imp]} =come_to_me= "oide&IMP"
 oidemase	{[scat v:ir][tense imp]} =come_to_me= "oide-POL-IMP"
 choodai	{[scat v:ir][tense imp]} =give= "choodai&IMP"
 
-%                     NEGATION FOSSIlES
+%   NEGATION FOSSIlES
 tamaranai	{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG-PRES"
 tamaran		{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG:n&PRES"
 arienai	{[scat v:v][tense pres]} =be= "ar-POT-NEG-PRES"
@@ -152,7 +122,7 @@ arienakatta	{[scat v:ir][tense past]} =be= "ar-POT-NEG-PAST"
 arieru	{[scat v:v][tense pres]} =be= "ar-POT-PRES"
 ariuru	{[scat v:v][tense pres]} =be= "ar-POT-PRES"
 
-hokanaranai {[scat v:c][tense pres]} =be_nothing_other_than= "hoka_narana-PRES"  
+hokanaranai {[scat v:c][tense pres]} =be_nothing_other_than= "hoka_narana-PRES" 
 
 %			GER IN PASSIVE (not included as rule)
 umare	{[scat v:c][tense inf]} =be_born= "um-PASS&GER"

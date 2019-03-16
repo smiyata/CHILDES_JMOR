@@ -1,9 +1,9 @@
 @UTF8
 %%%% formal nouns
-no	{[scat n:fml]} =RLV=   %  akai no ga atta   (former snr)
+no	{[scat n:fml]} =RLV= % akai no ga atta (former snr)
 n	{[scat n:fml]} =RLV= "no"
-no	{[scat n:fml]} =QUD=   %  akai no da / akai no ka. / akai no. (former final ptl)
-n	{[scat n:fml]} =QUD= "no"  
+no	{[scat n:fml]} =QUD= % akai no da / akai no ka. / akai no. (former final ptl)
+n	{[scat n:fml]} =QUD= "no" 
 
 aida	{[scat n:fml]} =meanwhile=
 amari	{[scat n:fml]} =more_than=
@@ -26,7 +26,7 @@ koto	{[scat n:fml]} =IMP=
 kurai	{[scat n:fml]} =grade=
 gurai	{[scat n:fml]} =grade= "kurai"
 kuse	{[scat n:fml]} =inspite_of=
-mama	{[scat n:fml]} =state=	% まま  侭 
+mama	{[scat n:fml]} =state=	% まま 侭 
 mono	{[scat n:fml]} =fact=
 mon	{[scat n:fml]} =fact= "mono"
 n	{[scat n:fml]} =RLV= "no"
@@ -42,7 +42,7 @@ shidai	{[scat n:fml]} =order=
 tabi	{[scat n:fml]} =each_time=
 tambi	{[scat n:fml]} =each_time= "tabi"
 tame	{[scat n:fml]} =reason=
-%	toki	{[scat n:fml]} =time=  %ONLNY as noun
+%	toki	{[scat n:fml]} =time= %ONLNY as noun
 toko	{[scat n:fml]} =when= "tokoro"
 tokoro	{[scat n:fml]} =when=
 dokoro	{[scat n:fml]} =when= 

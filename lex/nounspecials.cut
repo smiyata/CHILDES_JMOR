@@ -92,9 +92,9 @@ Miichan_no_otsukai	{[scat n]} =miichans_first_errand_booktitle=
 minikui_ahiru_no_ko	{[scat n]} =ugly_duckling_booktitle=
 mitsubachi_Maaya	{[scat n]} =maya_the_bee_booktitle=
 moshamosha	{[scat n]} =mussy_booktitle=
-mukashi_mukashi	{[scat  n]} =once_upon_a_time_booktitle=
-mummun_atsui_hi	{[scat  n]} =hot_day_booktitle=
-mushiba_no_Kenchan	{[scat  n]} =bad_teeth_Kenchan_booktitle=
+mukashi_mukashi	{[scat n]} =once_upon_a_time_booktitle=
+mummun_atsui_hi	{[scat n]} =hot_day_booktitle=
+mushiba_no_Kenchan	{[scat n]} =bad_teeth_Kenchan_booktitle=
 nadiranda	{[scat n]} =n_booktitle=
 nemureru_mori_no_bijo	{[scat n]} =sleeping_beauty_booktitle=
 nenai_ko_dare_da	{[scat n]} =who_is_it_that_cant_sleep_booktitle=
@@ -350,9 +350,9 @@ sanyoo	{[scat n]} =sanyoo_shinkansen_train=
 sandaabaado	{[scat n]} =thunderbird_train=
 sukairainaa	{[scat n]} =skyliner_train=
 sakuragoo	{[scat n]} "sakura-goo_NR" =sakura_train=
-sonikku	{[scat n]}  =sonic_train=
-suupaatokachi	{[scat n]}  =super_tokachi_train=
-Suupaatokachi	{[scat n]}  =super_tokachi_train=
+sonikku	{[scat n]} =sonic_train=
+suupaatokachi	{[scat n]} =super_tokachi_train=
+Suupaatokachi	{[scat n]} =super_tokachi_train=
 takaragoo	{[scat n]} "takara-goo_NR" =takara_train=
 tokigoo	{[scat n]} "toki-goo" =toki_train=
 Tomamu_sahoro_ekusupuresu	{[scat n][comp n:prop+n:prop+n]} "Tomamu+Sahoro+ekisupuresu" =Tomamu_Sahoro_express_train=
@@ -406,9 +406,9 @@ hassenkee	{[scat n:num][comp num+num]} "hachi+sen-kee_TYPE" =eighthundred_type_t
 nanahyakkee	{[scat n:num][comp num+num]} "nana+hyaku-kee_TYPE" =sevenhundred_type_train_train=
 sambyakkee	{[scat n:num][comp num+num]} "san+hyaku-kee_TYPE" =threehundred_type_train=
 sambyakuekkusu	{[scat n:num][comp num+num+n:let]} "san+hyaku+ekkusu" =threehundred_x_train=
-tiihyaku	{[scat n][comp n:let+num]} "tii+hyaku"  =t_hundred_train=
+tiihyaku	{[scat n][comp n:let+num]} "tii+hyaku" =t_hundred_train=
 
-sebuntsuusebun	{[scat n][comp num+num+num]} "sebun+tsuu+sebun"  =Boeing_727_airplane=
+sebuntsuusebun	{[scat n][comp num+num+num]} "sebun+tsuu+sebun" =Boeing_727_airplane=
 
 arakawasen	{[scat n]} "arakawa-sen" =arakawa_train=
 Arakawasen	{[scat n]} "arakawa-sen" =arakawa_train=
@@ -416,21 +416,21 @@ chuubusen	{[scat n]} "chuubu-sen" =chubu_train=
 Chuubusen	{[scat n]} "chuubu-sen" =chubu_train=
 chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
 Chuuseebusen	{[scat n]} "chuuseebu-sen" =chuuseebu_train=
-chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
-Chuuoosen	{[scat n]} "chuuoo-sen"  =chuo_train=
-chuuoohonsen	{[scat n]} "chuuoo-honsen"  =chuo_main_train=
-inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
-Inogashirasen 	{[scat n]} "inogashira-sen"  =inogashira_train=
-saikyoosen	{[scat n]} "saikyoo-sen"  =saitama_tokyo_train=
-Saikyoosen	{[scat n]} "saikyoo-sen"  =saitama_tokyo_train=
-seebusen	{[scat n]} "seebu-sen"  =seibu_train=
-Seebusen	{[scat n]} "seebu-sen"  =seibu_train=
-soobusen	{[scat n]} "soobu-sen"  =soobu_train=
-Soobusen	{[scat n]} "soobu-sen"  =soobu_train=
-tooyokosen	{[scat n]} "tooyoko-sen"  =tooyoko_train=
-Tooyokosen	{[scat n]} "tooyoko-sen"  =tooyoko_train=
-tookaidoosen	{[scat n]} "tookaidoo-sen"  =tookaido_train=
-Tookaidoosen	{[scat n]} "tookaidoo-sen"  =tookaido_train=
+chuuoosen	{[scat n]} "chuuoo-sen" =chuo_train=
+Chuuoosen	{[scat n]} "chuuoo-sen" =chuo_train=
+chuuoohonsen	{[scat n]} "chuuoo-honsen" =chuo_main_train=
+inogashirasen 	{[scat n]} "inogashira-sen" =inogashira_train=
+Inogashirasen 	{[scat n]} "inogashira-sen" =inogashira_train=
+saikyoosen	{[scat n]} "saikyoo-sen" =saitama_tokyo_train=
+Saikyoosen	{[scat n]} "saikyoo-sen" =saitama_tokyo_train=
+seebusen	{[scat n]} "seebu-sen" =seibu_train=
+Seebusen	{[scat n]} "seebu-sen" =seibu_train=
+soobusen	{[scat n]} "soobu-sen" =soobu_train=
+Soobusen	{[scat n]} "soobu-sen" =soobu_train=
+tooyokosen	{[scat n]} "tooyoko-sen" =tooyoko_train=
+Tooyokosen	{[scat n]} "tooyoko-sen" =tooyoko_train=
+tookaidoosen	{[scat n]} "tookaidoo-sen" =tookaido_train=
+Tookaidoosen	{[scat n]} "tookaidoo-sen" =tookaido_train=
 Tookaidoohonsen	{[scat n]} "tookaidoo-honsen" =tookaido_main_train=
 tookaidoohonsen	{[scat n]} "tookaidoo-honsen" =tookaido_main_train=
 tookaidoohonsendensha	{[scat n][comp n:prop+n]} "tookaidoo&honsen+densha" =tookaido_main_train=

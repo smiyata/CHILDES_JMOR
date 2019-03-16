@@ -1,6 +1,6 @@
 @UTF8
 a	{[scat co:i]} =ah= "aq" %FILLER
-aq	{[scat co:i]} =ah=  %FILLER
+aq	{[scat co:i]} =ah= %FILLER
 aa	{[scat co:i]} =ah= %FILLER
 aaa	{[scat co:i]} =ah= "aa" %FILLER
 aaq	{[scat co:i]} =ah= "aa" %FILLER
@@ -20,7 +20,7 @@ akemashiteomedetoo	{[scat co:g]} =Happy_New_Year= "akemashite_omedetoo"
 akemashiteomedetoogozaimasu	{[scat co:g]} =Happy_New_Year= "akemashite_omedetoo_gozaimasu"
 akkambee	{[scat co:g]} =STICK_OUT_TONGUE=
 anoo	{[scat co:i]} =errr= 
-anone	{[scat co:i]} =errr=  "anoo_ne"
+anone	{[scat co:i]} =errr= "anoo_ne"
 anosa	{[scat co:i]} =errr= "anoo_sa" 
 anosaa	{[scat co:i]} =errr= "anoo_sa"
 ara	{[scat co:i]} =oh_dear=
@@ -107,10 +107,10 @@ eeto	{[scat co:i]} =errr=
 eto	{[scat co:i]} =errr= "eeto"
 etto	{[scat co:i]} =errr= "eeto"
 eetto	{[scat co:i]} =errr= "eeto"
-eetone	{[scat co:i]} =errr=  "eeto_ne"
-ettone	{[scat co:i]} =errr=  "eeto_ne"
-ntone	{[scat co:i]} =errr=  "eeto_ne"
-untone	{[scat co:i]} =errr=  "eeto_ne"
+eetone	{[scat co:i]} =errr= "eeto_ne"
+ettone	{[scat co:i]} =errr= "eeto_ne"
+ntone	{[scat co:i]} =errr= "eeto_ne"
+untone	{[scat co:i]} =errr= "eeto_ne"
 eetosa	{[scat co:i]} =errr= "eeto_sa" 
 ntosa	{[scat co:i]} =errr= "eeto_sa" 
 eetosaa	{[scat co:i]} =errr= "eeto_sa"
@@ -264,7 +264,7 @@ maji	{[scat co:g]} =really=
 madadayo	{[scat co:g]} =hide_an_seek_wait= "mada_da_yo"
 maadadayo	{[scat co:g]} =hide_an_seek_wait= "mada_da_yo"
 maido	{[scat co:g]} =always_thank_you= 
-maidoari	{[scat co:g]} =always_thank_you=  "maido_ari"
+maidoari	{[scat co:g]} =always_thank_you= "maido_ari"
 maidomaido	{[scat co:g]} =always_thank_you= "maido_maido"
 matane	{[scat co:g]} =see_you= "mata_ne"
 mataokoshikudasaimase	{[scat co:g]} =please_come_again= "mata_okoshi_kudasaimase"
@@ -303,7 +303,7 @@ ntto	{[scat co:i]} =errr= "eeto"
 nq	{[scat co:i]} =yes= "un"
 odaijini	{[scat co:g]} =take_care_of_yourself= "odaiji_ni"
 odaiji_ni	{[scat co:g]} =take_care_of_yourself= "odaiji_ni"
-oq	{[scat co:i]} =oh=  %FILLER
+oq	{[scat co:i]} =oh= %FILLER
 ohayo	{[scat co:g]} =good_morning= "ohayoo"
 ohayoo	{[scat co:g]} =good_morning=
 ohayoogozaimasu	{[scat co:g]} =good_morning= "ohayoo_gozaimasu"
@@ -322,8 +322,8 @@ okaerinasaimase	{[scat co:g]} =welcome_home=
 okkoisho	{[scat co:i]} =heave_ho= "yokkoisho"
 dondokosho	{[scat co:i]} =heave_ho= 
 okkei	{[scat co:g]} =ok= "okkee"
-oo	{[scat co:i]} =oh=    %FILLER
-oou@i	{[scat co:i]} =oh=    %FILLER
+oo	{[scat co:i]} =oh= %FILLER
+oou@i	{[scat co:i]} =oh= %FILLER
 okkee	{[scat co:g]} =ok=
 ookee	{[scat co:g]} =ok= "okkee"
 ookini	{[scat co:g]} =thanks= 
@@ -390,13 +390,13 @@ sankyuu	{[scat co:g]} =thank_you=
 sankyuu_beri_matchi	{[scat co:g]} =thank_you=
 sate	{[scat co:i]} =well=
 sateto	{[scat co:i]} =well=
-seeno	{[scat co:g]} =ready_set=  "see_no"
-seenosee	{[scat co:g]} =ready_set=  "see_no_see"
+seeno	{[scat co:g]} =ready_set= "see_no"
+seenosee	{[scat co:g]} =ready_set= "see_no_see"
 see_no	{[scat co:g]} =ready_set=
-sooka	{[scat co:i]} =is_that_so=  "soo_ka"
-sokka	{[scat co:i]} =is_that_so=  "soo_ka"
-soodesuka	{[scat co:i]} =is_that_so=  "soo_desu_ka"
-asooka	{[scat co:i]} =is_that_so=  "a_soo_ka"
+sooka	{[scat co:i]} =is_that_so= "soo_ka"
+sokka	{[scat co:i]} =is_that_so= "soo_ka"
+soodesuka	{[scat co:i]} =is_that_so= "soo_desu_ka"
+asooka	{[scat co:i]} =is_that_so= "a_soo_ka"
 asoodesuka	{[scat co:i]} =is_that_so= "a_soo_desu_ka"
 soo	{[scat co:i]} =right=
 sooree	{[scat co:i]} =look_out= "sore"
@@ -419,8 +419,8 @@ tadaima	{[scat co:g]} =i_am_home=
 tsuntsunken	{[scat co:g]} =NUDGE=
 tarara	{[scat co:i]} =INTOLERABLE=
 tto	{[scat co:i]} =errr=
-u	{[scat co:i]} =errr= "uq"   %FILLER
-uq	{[scat co:i]} =errr=         %FILLER
+u	{[scat co:i]} =errr= "uq" %FILLER
+uq	{[scat co:i]} =errr=  %FILLER
 uan	{[scat co:i]} =wow= "uwaa"
 uee	{[scat co:i]} =boo_hoo= "ueen"
 uen	{[scat co:i]} =boo_hoo= "ueen"
@@ -462,8 +462,8 @@ yai	{[scat co:i]} =hey=
 yaa	{[scat co:i]} =well= "iya"
 yaan	{[scat co:i]} =well= "iya"
 yahhoo	{[scat co:g]} =hi=
-yare	{[scat co:g]} =RELIEF=
-yareyare	{[scat co:g]} =RELIEF=
+yare	{[scat co:i]} =SIGH=
+yareyare	{[scat co:i]} =SIGH=
 yatta	{[scat co:g]} =great=
 yoq	{[scat co:g]} =hi=
 yoidon	{[scat co:g]} =ready_set_go= "yooidon"

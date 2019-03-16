@@ -11,7 +11,7 @@ choose
 CURSURF = are
 CURCAT = [scat n:deic:dem]
 when
-NEXTCAT = [scat OR ptl:top ptl:case ptl:foc ptl:post ptl:attr  ]
+NEXTCAT = [scat OR ptl:top ptl:case ptl:foc ptl:post ptl:attr ]
 
 RULENAME: hoo ga %****************
 choose
@@ -58,7 +58,7 @@ CURSURF = doko
 CURCAT = [scat n:deic:wh]
 when
 %PREVCAT = [scat OR n n:mot n:deic:dem]
-NEXTCAT = [scat OR v:c v:v v:ir  ptl:case  ptl:post ptl:attr ptl:indef]
+NEXTCAT = [scat OR v:c v:v v:ir ptl:case ptl:post ptl:attr ptl:indef]
 
 RULENAME: doko1 %****************
 choose
@@ -191,7 +191,7 @@ choose
 CURSURF = ne%|nee
 CURCAT = [scat ptl:fina]
 when
-PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop n n:mot n:prop n:an adj num ptl:foc ptl:top ptl:case  ptl:post ptl:attr ptl:fina ptl:conj n:deic:dem onoma]
+PREVCAT = [scat OR v:c v:v v:ir v:v:sub v:c:sub v:ir:sub v:cop n n:mot n:prop n:an adj num ptl:foc ptl:top ptl:case ptl:post ptl:attr ptl:fina ptl:conj n:deic:dem onoma]
 
 RULENAME: ni-num %****************
 choose
@@ -246,7 +246,7 @@ choose
 CURSURF = shita
 CURCAT = [scat n]
 when
-NEXTCAT = [scat OR ptl:case  ptl:post ptl:attr v:cop]
+NEXTCAT = [scat OR ptl:case ptl:post ptl:attr v:cop]
 
 RULENAME: soo2 %************
 choose
@@ -282,7 +282,7 @@ choose
 CURSURF = wa
 CURCAT = [scat ptl:top]
 when
-PREVCAT = [scat OR n n:mot n:deic:dem n:deic:dem n:deic:dem n:prop  ptl:post ptl:attr onoma]
+PREVCAT = [scat OR n n:mot n:deic:dem n:deic:dem n:deic:dem n:prop ptl:post ptl:attr onoma]
 
 RULENAME: wa-ptl-fina %****************
 choose

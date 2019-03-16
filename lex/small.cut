@@ -1,8 +1,8 @@
 @UTF8
 „	{[scat tag]} "disloc"
 ‡	{[scat tag]} "voc"
-“ {[scat bq]} "BQ"
-” {[scat eq]} "EQ"
+ “ {[scat bq]} "BQ"
+ ” {[scat eq]} "EQ"
 ‘ {[scat bq]} "BQ2"
 ’ {[scat eq]} "EQ2"
 xxx	{[scat und]}

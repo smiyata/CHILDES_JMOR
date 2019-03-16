@@ -1,13 +1,13 @@
 @UTF8
-%%%%%% QUANTIFIER test %%%%%%  
-%                N ga zembu owatta.  
-%                Hito ga ippai aruite  / Ippai = hito (not aruku)  
+%%%%%% QUANTIFIER test %%%%%% 
+%  N ga zembu owatta. 
+%  Hito ga ippai aruite / Ippai = hito (not aruku) 
 %		 NEG amari hotondo zenzen
-%	??Q+N =NP ?? sukoshi kokorogamae    ??hotondo onna  
+%	??Q+N =NP ?? sukoshi kokorogamae ??hotondo onna 
 %%%%%% QUANTIFIERS %%%%%%%items without tab are new unapproved quantifiers
-	amari	{[scat quant]} =not_quite=	% あまり  余り 
-	amashi	{[scat quant]} =not_quite= "amari"	% あまり  余り 
-	amma	{[scat quant]} =not_quite= "amari"	% あまり  余り 
+	amari	{[scat quant]} =not_quite=	% あまり 余り 
+	amashi	{[scat quant]} =not_quite= "amari"	% あまり 余り 
+	amma	{[scat quant]} =not_quite= "amari"	% あまり 余り 
 	ammari	{[scat quant]} =not_quite= "amari"	% あんまり
 aramashi	{[scat quant]} =almost= 	% あらまし
 daibu	{[scat quant]} =mostly=	% だいぶ/大分 
@@ -17,27 +17,27 @@ daitai	{[scat quant]} =generally=	% 大体
 	hambun	{[scat quant]} =half= %半分
 	hambu	{[scat quant]} =half= %半部
 hitorihitori	{[scat quant]} =one_by_one=
-	hotondo {[scat quant]} =mostly=	% ほとんど  殆ど 
+	hotondo {[scat quant]} =mostly=	% ほとんど 殆ど 
 	ippai	{[scat quant]} =plenty=	% 一杯 
-iroiro	{[scat quant]} =all_sorts_of= % 色々  yasai ga iroiro atte; iroiro namae tsuiteru    COMPARE    iroiro na/ni_da n:an|iroiro=various
-juubun	{[scat quant]} =enough=	%  quant  juubun kangaerareru ; ano kyoku wa juubun saratta;  / juubun ni juubun da    n:an|juubun=sufficient   
+iroiro	{[scat quant]} =all_sorts_of= % 色々 yasai ga iroiro atte; iroiro namae tsuiteru COMPARE iroiro na/ni_da n:an|iroiro=various
+juubun	{[scat quant]} =enough=	% quant juubun kangaerareru ; ano kyoku wa juubun saratta; / juubun ni juubun da n:an|juubun=sufficient 
 	kanari	{[scat quant]} =considerably=	% 可成り 
 	kazuooku	{[scat quant]} "kazu_ooku" =many=	%数多く
-kekkoo	{[scat quant]} =quite_much=  %  gohan kekkoo tabeteru = % COMPARE kekkoo	{[scat adv]} =quite=  kekkoo ookute
-	mina	{[scat quant]} =all=	%皆  みな
-	minasan	{[scat n:deic:prs]} =all_HON= "mina-san"	%皆  みな
+kekkoo	{[scat quant]} =quite_much= % gohan kekkoo tabeteru = % COMPARE kekkoo	{[scat adv]} =quite= kekkoo ookute
+	mina	{[scat quant]} =all=	%皆 みな
+	minasan	{[scat n:deic:prs]} =all_HON= "mina-san"	%皆 みな
 	minna	{[scat quant]} "mina" =all=	%みんな
 ookata	{[scat quant]} =mostly=	% 大方 おおかた
 	ooku	{[scat quant]} =many=	%多く
 	oozee	{[scat quant]} =large_number= 	% おおぜい/大勢 
 sanzan	{[scat quant]} =severely=	% 散々
-	sorezore	{[scat quant]} =each= 	% それぞれ  夫れ 夫れ 
+	sorezore	{[scat quant]} =each= 	% それぞれ 夫れ 夫れ 
 	subete	{[scat quant]} =all=	% 全て 
 	sukoshi	{[scat quant]} =a_bit=	% 少し 
 taigai	{[scat quant]} =generally=	% 大概 
 taishite	{[scat quant]} =greatly=	% たいして/大して 	% 
-	takkusan	{[scat quant]} =many= "takusan"	% たくさん  沢山 	
-	takusan	{[scat quant]} =many=	% たくさん  沢山 	
+	takkusan	{[scat quant]} =many= "takusan"	% たくさん 沢山 	
+	takusan	{[scat quant]} =many=	% たくさん 沢山 	
 tanto	{[scat quant]} =much=	%たんと
 tappuri	{[scat quant]} =in_plenty=	%
 	tashoo	{[scat quant]} =more_or_less=	
@@ -50,13 +50,13 @@ yooke	{[scat quant]} =much=	%ようけ
 maitsuki	{[scat quant]} "mai_EVERY_tsuki" =month= 	% 毎月 
 maiasa	{[scat quant]} "mai_EVERY_asa" =morning= 	% 毎朝
 maiban	{[scat quant]} "mai_EVERY_ban" =evening= 	% 毎晩 
-	mainichi	{[scat quant]} "mai_EVERY_nichi" =every_day= 	% 毎日  changed to quant
+	mainichi	{[scat quant]} "mai_EVERY_nichi" =every_day= 	% 毎日 changed to quant
 	maikai	{[scat quant]} "mai_EVERY_kai" =every_time= 	% 毎回
 	maishuu	{[scat quant]} "mai_EVERY_shuu" =every_week= 	% 毎週
 	maitoshi	{[scat quant]} =every_year= "mai_EVERY_toshi"
-ryoohoo	{[scat quant]} "ryoo_BOTH_hoo" =direction= 	% 両方  changed to quant
-ryoome	{[scat quant]} "ryoo_BOTH_me" =eye= 	% 両方  
-ryoote	{[scat quant]} "ryoo_BOTH_te" =hand= 	% 両手  
-ryooashi	{[scat quant]} "ryoo_BOTH_ashi" =foot= 	% 両足  
+ryoohoo	{[scat quant]} "ryoo_BOTH_hoo" =direction= 	% 両方 changed to quant
+ryoome	{[scat quant]} "ryoo_BOTH_me" =eye= 	% 両方 
+ryoote	{[scat quant]} "ryoo_BOTH_te" =hand= 	% 両手 
+ryooashi	{[scat quant]} "ryoo_BOTH_ashi" =foot= 	% 両足 
 ryookata	{[scat quant]} "ryoo_BOTH_kata" =shoulder= 	% 両肩
 ryoomen	{[scat quant]} "ryoo_BOTH_men" =side= 	% 両面

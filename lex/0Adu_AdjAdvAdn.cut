@@ -1,5 +1,5 @@
 @UTF8
-%%%%  Adjective
+%%%% Adjective
 %%%% Adverb
 %%%% Adnominal
 %%%% Communicator
@@ -8,7 +8,7 @@
 %%%% Sentence Modalizer
 
 
-%%%%  Adjective
+%%%% Adjective
 atsu	{[scat adj]} =thick=	% 厚い 
 haya	{[scat adj]} =early=
 hodochika	{[scat adj]} =nearby=
@@ -44,7 +44,7 @@ ooki	{[scat adj][tense inf]} =many= "oo-ki_ADN"
 sakanakusa	{[scat adj]} =smelling_of_fish= "sakana_kusa_SMELLING" % 魚くさい
 sakekusa	{[scat adj]} =smelling_of_alcohol= "sake_kusa_SMELLING" % 酒くさい
 seeyookusa	{[scat adj]} =quite_European= "seeyoo_kusa_SMELLING" % 西洋くさい
-semashi	{[scat adj][tense pres]} =narrow= "sema-shi_PRES" % シク活用“狭し”
+semashi	{[scat adj][tense pres]} =narrow= "sema-shi_PRES" % シク活用 “ 狭し ” 
 sokkena	{[scat adj]} =standoffish=
 sukusa	{[scat adj]} =smelling_of_vinegar= "su_kusa_SMELLING" % 酢くさい
 utsukushiki	{[scat adj][tense inf]} =beautiful= "utsukushi-ki_ADN"
@@ -52,7 +52,7 @@ yamunashi	{[scat adj][tense pres]} =no_choice_but_to= "yamuna-shi_PRES"
 yoki	{[scat adj][tense inf]} =good= "yo-ki_ADN"
 yasashi	{[scat adj]} =gentle= % 優しい
 uruwashi	{[scat adj]} =elegant= % 麗しい
-yoshi	{[scat adj][tense pres]} =good= "yo-shi_PRES" % シク活用“よし”
+yoshi	{[scat adj][tense pres]} =good= "yo-shi_PRES" % シク活用 “ よし ” 
 obotsukana	{[scat adj]} =uncertain= % おぼつかない
 nikunikushi	{[scat adj]} =hateful= % 憎々しい
 niganigashi	{[scat adj]} =painful= % 苦々しい
@@ -120,9 +120,9 @@ katsute	{[scat adv]} =once=
 kesshite	{[scat adv]} =at_all=	
 kiwamete	{[scat adv]} =extremely=
 kotoni	{[scat adv]} =especially=
-kuchiguchini   {[scat adv]} =severally=
+kuchiguchini {[scat adv]} =severally=
 kyuukyo	{[scat adv]} =in_haste=
-machigainaku   {[scat adv]} =definitely=
+machigainaku {[scat adv]} =definitely=
 marude	{[scat adv]} =just=
 masaka	{[scat adv]} =unlikely=
 mashite	{[scat adv]} =not_to_speak_of=
@@ -132,12 +132,12 @@ mohaya	{[scat adv]} =by_now=
 mojidoori	{[scat adv]} =literally=
 moshiya	{[scat adv]} =maybe=
 muron	{[scat adv]} =of_course=
-nakanaka       {[scat adv]} =not_nearly= %なかなか〜ない
+nakanaka {[scat adv]} =not_nearly= %なかなか〜ない
 namajikka	{[scat adv]} =by_halves=
 nanishiro	{[scat adv]} =at_any_rate=
 naniyori	{[scat adv]} =more_than_anything_else=
 nanra	{[scat adv]} =any_kind_of=
-nanto	{[scat adv]}    =very=  % eg: なんと大きな桃じゃ!; cf.: なんて
+nanto	{[scat adv]} =very= % eg: なんと大きな桃じゃ!; cf.: なんて
 nao	{[scat adv]} =still=
 nombiri	{[scat adv]} =leisurely=
 ooini	{[scat adv]} =exceedingly=
@@ -171,7 +171,7 @@ tokaku	{[scat adv]} =anyhow=
 tokini	{[scat adv]} =from_time_to_time=
 tokiori	{[scat adv]} =sometimes=
 tokitama	{[scat adv]} =sometimes=
-tomokaku       {[scat adv]} =setting aside=
+tomokaku {[scat adv]} =setting aside=
 tomosuruto	{[scat adv]} =sometimes=
 tootee	{[scat adv]} =absolutely=
 toozen	{[scat adv]} =of_course=
@@ -197,15 +197,52 @@ washi	{[scat n:deic:prs]} =i_MASC=
 waga	{[scat n:deic:prs]} =our=
 
 %%%% Quantifier
-	zen'in	{[scat quant]} =all_members= 	% 全員 
+zen'in	{[scat quant]} =all_members= 	% 全員 
+
+%%%% CONJ
+ga	{[scat conj]} =but=
+ippoo	{[scat conj]} =on_the_other_hand=
+ja	{[scat conj]} =then=
+jaa	{[scat conj]} =then=
+katoitte	{[scat conj]} =having_said_that=
+katsu	{[scat conj]} =and=
+keredo	{[scat conj]} =but=
+keredomo	{[scat conj]} =but=
+kuwaete	{[scat conj]} =besides=
+mata	{[scat conj]} =and=
+matawa	{[scat conj]} =or=
+moshikuwa	{[scat conj]} =or=
+mottomo	{[scat conj]} =however=
+narabini	{[scat conj]} =and=
+oyobi	{[scat conj]} =and=
+sarani	{[scat conj]} =furthermore=
+saraniwa	{[scat conj]} =furthermore=
+shikashinagara	{[scat conj]} =but=
+shitagatte	{[scat conj]} =therefore=
+shitemiruto	{[scat conj]} =if_so=
+sookatoitte	{[scat conj]} =having_said_that=
+sooshite	{[scat conj]} =and_then=
+soredemo	{[scat conj]} =nevertheless=
+soredokoroka	{[scat conj]} =on_the_contrary=
+soremo	{[scat conj]} =and_in_addition_to_that=
+sorenishitemo	{[scat conj]} =nevertheless=
+toiunowa	{[scat conj]} =because=
+towaie	{[scat conj]} =nevertheless=
+towaittemo	{[scat conj]} =nevertheless=
+yotte	{[scat conj]} =therefore=
 
 
 %%%% Sentence Modalizer
 dearoo	{[scat smod]} =INFR=
 rashi	{[scat smod]} =SENS= "rashi&PRES"
 midai	{[scat smod]} =INFR= "mitai"
-bekarazu	{[scat smod]} =ought_to= "bekara-NEG"
-beku	{[scat smod]} =ought_to= "beki&ADV"
-
+beku	{[scat smod]} =OBLG= "beshi&ADV"
+beshi	{[scat smod]} =OBLG= 
+bekarazu	{[scat smod]} =OBLG= "beshi&NEG"
 yoo	{[scat smod]} =SENS=
 tsumori	{[scat smod]} =INTEN= % intentional
+
+%%%% Interjection
+nanda	{[scat co:i]} =oh= "nan_da"
+
+

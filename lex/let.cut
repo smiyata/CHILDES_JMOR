@@ -3,7 +3,7 @@ eebiishii	{[scat n:let]} =abc=
 aiueo	{[scat n:let]} =hiragana=
 doremifasorashido	{[scat n:let]} =musical_note= "do_re_mi_fa_so_ra_shi_do"
 eebiishiijun	{[scat n]} =abc_order= "eebiishii-jun"
-aiueojun	{[scat n]} =aiueo_order=  "aiueo-jun"
+aiueojun	{[scat n]} =aiueo_order= "aiueo-jun"
 kakikukeko	{[scat n:let]} =hiragana=
 doremi	{[scat n:let]} =musical_note= "do_re_mi"
 do	{[scat n:let]} =musical_note=
@@ -42,7 +42,7 @@ tii	{[scat n:let]} =t=
 yuu	{[scat n:let]} =u=
 bui	{[scat n:let]} =v=
 vii	{[scat n:let]} =v= "bui"
-buii	{[scat n:let]} =v=  "bui"
+buii	{[scat n:let]} =v= "bui"
 daburuyuu	{[scat n:let]} =w=
 ekkusu	{[scat n:let]} =x=
 wai	{[scat n:let]} =y=

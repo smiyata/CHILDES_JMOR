@@ -98,7 +98,7 @@ ALLOCAT = LEXCAT
 
 
 %%****************
-%% VERB-ALLO        
+%% VERB-ALLO 
 %%****************
 
 RULENAME: v-allo
@@ -182,7 +182,7 @@ ALLOSTEM = $Xi-PASS&CONN:i
 
 
 
-%%%				  existence verb aru
+%%%				 existence verb aru
 LEX-ENTRY:
 LEXSURF = ar
 LEXCAT = [scat OR v:ir v:ir:sub]
@@ -211,7 +211,7 @@ ALLOCAT = LEXCAT, ADD [tense pres], ADD [gen GER]
 ALLOSTEM = ar&NEG-GER
 
 
-%%%				  iku
+%%%				 iku
 LEX-ENTRY:
 LEXSURF = ik
 LEXCAT = [scat OR v:c v:c:sub]
@@ -234,7 +234,7 @@ ALLO:
 ALLOSURF = yuki
 ALLOCAT = LEXCAT, ADD [allo vCi]
 
-%%%				  sahen
+%%%				 sahen
 LEX-ENTRY:
 LEXSURF = su
 LEXCAT = [scat OR v:ir v:ir:sub]
@@ -271,7 +271,7 @@ ALLOSURF = sase
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-GER]
 ALLOSTEM = su-CAUS&CONN:i
 
-%%%				  sahen for Short Kanji Compound "ai-suru"
+%%%				 sahen for Short Kanji Compound "ai-suru"
 LEX-ENTRY:
 LEXSURF = $Xsu
 LEXCAT = [scat v:ir]
@@ -313,7 +313,7 @@ ALLOSURF = $Xsase
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen CAUS-CONN:i]
 ALLOSTEM = $Xsu-CAUS&CONN:i
 
-%%%				  kahen 
+%%%				 kahen 
 LEX-ENTRY:
 LEXSURF = ku
 LEXCAT = [scat OR v:ir v:ir:sub]
@@ -397,7 +397,7 @@ ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = oo_BIG_$Xw-GER
 ALLO:
 ALLOSURF = $Xwa
-ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -420,7 +420,7 @@ ALLOSURF = $Xchi
 ALLOCAT = LEXCAT, ADD [allo vAIt]
 ALLO:
 ALLOSURF = $Xta
-ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = $Xtare
 ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen PASS-GER]
@@ -469,7 +469,7 @@ ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = oo_BIG_$X$N-GER
 ALLO:
 ALLOSURF = $X$Na
-ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -503,7 +503,7 @@ ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = oo_BIG_$Xk-GER
 ALLO:
 ALLOSURF = $Xka
-ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo vC]
@@ -520,7 +520,7 @@ ALLOSURF = $Xgi
 ALLOCAT = LEXCAT, ADD [allo vCi]
 ALLO:
 ALLOSURF = $Xga
-ALLOCAT = LEXCAT, ADD [allo vCa]  
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = $Xgi
 ALLOCAT = LEXCAT
@@ -547,7 +547,7 @@ LEXSURF = $Xs
 LEXCAT = [scat OR v:c v:c:sub]
 ALLO:
 ALLOSURF = $Xsa
-ALLOCAT = LEXCAT, ADD [allo vCa]   
+ALLOCAT = LEXCAT, ADD [allo vCa] 
 ALLO:
 ALLOSURF = $Xshi
 ALLOCAT = LEXCAT, ADD [allo vAIs]
@@ -569,7 +569,7 @@ ALLOCAT = LEXCAT, ADD [tense inf], ADD [gen GER]
 ALLOSTEM = oo_BIG_$Xs-GER
 ALLO:
 ALLOSURF = LEXSURF
-ALLOCAT = LEXCAT, ADD [allo vC]  
+ALLOCAT = LEXCAT, ADD [allo vC] 
 
 
 
@@ -672,7 +672,7 @@ ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [allo co5]
 
 %%****************
-%%  ADVERB    *
+%% ADVERB *
 %%****************
 
 RULENAME: adv-generation
@@ -686,7 +686,7 @@ ALLOSURF = $X
 ALLOCAT = LEXCAT
 
 %%****************
-%% ONOMATOP  
+%% ONOMATOP 
 %%****************
 
 RULENAME: onoma-generation
@@ -705,7 +705,7 @@ ALLOCAT = LEXCAT
 %##############################################
 
 %%****************
-%% Suffix     
+%% Suffix 
 %%****************
 
 RULENAME: sfx-Q
@@ -777,9 +777,9 @@ ALLOCAT = LEXCAT
 %X = .* %anything
 %LEX-ENTRY:
 %LEXSURF = $X
-%LEXCAT = [scat numsfx]   %  vorher num num:cl n:deic:wh
+%LEXCAT = [scat numsfx] % vorher num num:cl n:deic:wh
 %ALLO:
-%ALLOSURF = +$X  %egal ob plus minus
+%ALLOSURF = +$X %egal ob plus minus
 %ALLOCAT = LEXCAT
 %ALLO:
 %ALLOSURF = LEXSURF
@@ -820,16 +820,16 @@ ALLOCAT = LEXCAT
 RULENAME: default1
 %%****************
 LEX-ENTRY:
-LEXCAT = [scat OR adv adv:onoma conj num adn pfx \  
-        numsfx numclsfx vnsfx nansfx ansfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
-        ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
+LEXCAT = [scat OR adv adv:onoma conj num adn pfx \ 
+ numsfx numclsfx vnsfx nansfx ansfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
+ ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
 	n n:fml n:let n:prop n:an n:an:mot n:an:onoma n:num v:mot neg \
 	n:deic:dem n:deic:wh \
 	adn:deic:dem adn:deic:wh \
 	adv:deic:dem adv:deic:wh \
 	n:deic:prs n:deic:indef adv:deic:indef \
 	vsfx vsfx2 vimp \
-	tag bq eq bq2 eq2 meta]  
+	tag bq eq bq2 eq2 meta] 
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT

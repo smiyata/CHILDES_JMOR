@@ -90,20 +90,54 @@ kitta	{[scat vtense] [tense pres] [allo OR vV vCi vPIw vAIt vTKi vTSi vAIs]} "PO
 % present		########
 raa	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:raa"
 ai	{[scat vtense] [tense pres] [allo OR vC vBTts vRw]} "PRES:rai"
-rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai"  % overproductive
+rai	{[scat vtense] [tense pres] [allo OR vV vBKu vBSu vBKo]} "PRES:rai" % overproductive
 % conditional	########
 yaa	{[scat vtense] [tense pres] [allo OR vC]} "COND:contr"
 ryaa	{[scat vtense] [tense pres] [allo OR vV]} "COND:contr"
-koryaa	{[scat v:ir] [tense inf]}   "ku-COND:contr"
-koryaa	{[scat v:ir:sub] [tense inf]}  "ku-COND:contr"
+koryaa	{[scat v:ir] [tense inf]} "ku-COND:contr"
+koryaa	{[scat v:ir:sub] [tense inf]} "ku-COND:contr"
 
-% prohibition	######## iku rules in ar.cut   (here only exceptions for  yatcha ikemasen -> moved to closed.cut)
-%iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=PRH"  %for some reason double output
-%ikan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
-%akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH"  %for some reason double output
+% prohibition	######## iku rules in ar.cut (here only exceptions for yatcha ikemasen -> moved to closed.cut)
+%iken	{[scat v:c] [tense inf]} "ik-POT-NEG:n&PRES=PRH" %for some reason double output
+%ikan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH" %for some reason double output
+%akan	{[scat v:c] [tense inf]} "ik-NEG:n&PRES=PRH" %for some reason double output
 %ikankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
 %akankatta	{[scat v:c] [tense inf]} "ik-NEG:n-PAST=PRH"
 
+
+yuute	{[scat v:c][tense inf]} =say= "yuw-CONN"
+koote	{[scat v:c][tense inf]} =buy= "kaw-CONN"
+moroote	{[scat v:c][tense inf]} =get= "moraw-CONN"
+omoote	{[scat v:c][tense inf]} =think= "omow-CONN"
+tsukoote	{[scat v:c][tense inf]} =use= "tsukaw-CONN"
+shimoote	{[scat v:c:sub][tense inf]} =finish_COMPL= "shimaw-CONN"
+
+yuute	{[scat v:c][tense imp]} =say= "yuw-IMP:te"
+yuuchatte	{[scat v:c][tense inf]} =say= "yuw-COMPL-CONN"
+koote	{[scat v:c][tense imp]} =buy= "kaw-IMP:te"
+aroote	{[scat v:c][tense imp]} =wash= "araw-IMP:te"
+moroote	{[scat v:c][tense imp]} =get= "moraw-IMP:te"
+shimoote	{[scat v:c:sub][tense imp]} =finish_COMPL= "shimaw-IMP:te"
+
+yuuta	{[scat v:c][tense past]} =say= "yuw-PAST"
+yuuchatta	{[scat v:c][tense past]} =say= "yuw-COMPL-PAST"
+koota	{[scat v:c][tense past]} =buy= "kaw-PAST"
+aroota	{[scat v:c][tense past]} =wash= "araw-PAST"
+hiroota	{[scat v:c][tense past]} =pick_up= "hirow-PAST"
+moroota	{[scat v:c][tense past]} =get= "moraw-PAST"
+omoota	{[scat v:c][tense past]} =think= "omow-PAST"
+tsukoota	{[scat v:c][tense past]} =use= "tsukaw-PAST"
+naroota	{[scat v:c][tense past]} =learn= "naraw-PAST"
+shimoota	{[scat v:c:sub][tense past]} =finish_COMPL= "shimaw-PAST"
+
+yuutara	{[scat v:c][tense past]} =say= "yuw-COND:tara"
+kootara	{[scat v:c][tense past]} =buy= "kaw-COND:tara"
+morootara	{[scat v:c][tense past]} =get= "moraw-COND:tara"
+omootara	{[scat v:c][tense past]} =think= "omow-COND:tara"
+shimootara	{[scat v:c:sub][tense past]} =finish_COMPL= "shimaw-COND:tara"
+
+
+omooteru	{[scat v:c][tense pres]} =think= "omow-ASP-PRES"
 % middle inflections	########
 
 
@@ -116,6 +150,7 @@ shimota	{[scat v:c:sub] [tense past]} =finish_COMPL= "shimaw-PAST"
 shimoota	{[scat v:c:sub] [tense past]} =finish_COMPL= "shimaw-PAST"
 mota	{[scat v:c:sub] [tense past]} =finish_COMPL= "shimaw-PAST"
 moota	{[scat v:c:sub] [tense past]} =finish_COMPL= "shimaw-PAST"
+moroota	{[scat v:c:sub] [tense past]} =get= "moraw-PAST"
 
 ntoku	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-te_ok-PRES"
 ntoki	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-te_ok-IMP"
@@ -124,12 +159,12 @@ ntotte	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi vTSe]} "NEG:n-t
 %%%%%%
 %% adjective inflection
 %%%%%%
-	sukunoo	{[scat adj][tense inf]} =be_few= "sukuna-ADV:uu" % すくない  少ない 
-	otonashuu	{[scat adj][tense inf]} =obedient= "otonashi-ADV:uu" % おとなしい  大人しい 
-	yoroshuu	{[scat adj][tense inf]} =very_well= "yoroshi-ADV:uu" % よろしい  宜しい   
-	monosugoo	{[scat adj][tense inf]} =terrible= "monosugo-ADV:uu" % ものすごい   
-	nagoo	{[scat adj][tense inf]} =long= "naga-ADV:uu" % 長い   
-	ooki	{[scat adj][tense inf]} =big= "ooki&ADV:i" % 大きい   
+	sukunoo	{[scat adj][tense inf]} =be_few= "sukuna-ADV:uu" % すくない 少ない 
+	otonashuu	{[scat adj][tense inf]} =obedient= "otonashi-ADV:uu" % おとなしい 大人しい 
+	yoroshuu	{[scat adj][tense inf]} =very_well= "yoroshi-ADV:uu" % よろしい 宜しい 
+	monosugoo	{[scat adj][tense inf]} =terrible= "monosugo-ADV:uu" % ものすごい 
+	nagoo	{[scat adj][tense inf]} =long= "naga-ADV:uu" % 長い 
+	ooki	{[scat adj][tense inf]} =big= "ooki&ADV:i" % 大きい 
 kimochiwaruu	{[scat adj][tense inf][comp n+adj]} =feeling_bad= "kimochi+waru-ADV:uu"
 
 %%%kahen%%%
@@ -139,7 +174,7 @@ koreba	{[scat v:ir:sub][tense inf]} "ku-COND:ba" =come=
 %%%%%%
 %% sentence modalizer
 %%%%%%
-tcharoo	{[scat smod]} =dont_you_think=
+tcharoo	{[scat smod]} =INFR=
 tcha	{[scat smod]} =isnt_it=
 gena	{[scat smod]} =apparently=
 
@@ -168,7 +203,7 @@ mo	{[scat ptl:fina]} =ASSERT=
 %%%%%%%%% NOUNS
 	mentsu	{[scat n]} =female= 
 	men	{[scat n]} =female= 
-	on	{[scat n]} =male= 	% 雄  牡 
-	ontaa	{[scat n]} =male= 	% 雄  牡 
-	ontsu	{[scat n]} =male= 	% 雄  牡 
+	on	{[scat n]} =male= 	% 雄 牡 
+	ontaa	{[scat n]} =male= 	% 雄 牡 
+	ontsu	{[scat n]} =male= 	% 雄 牡 
 
