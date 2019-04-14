@@ -91,7 +91,7 @@ ALLOCAT = DEL [scat n:an], ADD [scat n]
 
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR n:an n:an:mot n:an:onoma]
+LEXCAT = [scat OR n:an n:an:mot n:an:onoma n:an:sub]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
@@ -582,7 +582,7 @@ RULENAME: adj-allo
 X = .* #anything
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR adj adj:mot], ![tense pres], ![ir +]
+LEXCAT = [scat OR adj adj:mot adj:sub], ![tense pres], ![ir +]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT, ADD [test 1]
@@ -590,7 +590,7 @@ ALLOCAT = LEXCAT, ADD [test 1]
 %			for irregular ii/yoi
 LEX-ENTRY:
 LEXSURF = i
-LEXCAT = [scat OR adj adj:mot], [ir +]
+LEXCAT = [scat OR adj adj:mot adj:sub], [ir +]
 ALLO:
 ALLOSURF = ii
 ALLOCAT = LEXCAT, ADD [tense pres]
@@ -598,7 +598,7 @@ ALLOSTEM = i-PRES
 
 LEX-ENTRY:
 LEXSURF = $X
-LEXCAT = [scat OR adj adj:mot], [tense pres]
+LEXCAT = [scat OR adj adj:mot adj:sub], [tense pres]
 ALLO:
 ALLOSURF = LEXSURF
 ALLOCAT = LEXCAT
@@ -823,7 +823,7 @@ LEX-ENTRY:
 LEXCAT = [scat OR adv adv:onoma conj num adn pfx \ 
  numsfx numclsfx vnsfx nansfx ansfx ptl:case ptl:post ptl:cppost ptl:attr ptl:foc ptl:indef ptl:fina ptl:conj \
  ptl:top ptl:coo ptl:snr ptl:quot co:i co:g \
-	n n:fml n:let n:prop n:an n:an:mot n:an:onoma n:num v:mot neg \
+	n n:fml n:let n:prop n:an n:an:mot n:an:onoma n:an:sub n:num v:mot neg \
 	n:deic:dem n:deic:wh \
 	adn:deic:dem adn:deic:wh \
 	adv:deic:dem adv:deic:wh \

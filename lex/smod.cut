@@ -28,11 +28,11 @@ jaroo	{[scat smod]} =INFR=
 desu	{[scat smod]} =POL=
 desu	{[scat v:ir:sub][tense inf]} =POL=
 
-mai	{[scat smod]} =NEG&INFR=
-maji	{[scat smod]} =NEG&INFR=
+mai	{[scat smod]} =NEG_INFR=
+maji	{[scat smod]} =NEG_INFR=
 mitai	{[scat smod]} =INFR=
 midai	{[scat smod]} =INFR=
-mitaku	{[scat smod]} =INFR= "mitai&ADV"
+mitaku	{[scat smod]} =INFR= "mitai_ADV"
 ppoi	{[scat smod]} =looks_like= "ppo-PRES" %after tense (attached to nouns)
 ppoku	{[scat smod]} =looks_like= "ppo-ADV"
 ppokunai	{[scat smod]} =looks_like= "ppo-NEG-PRES"

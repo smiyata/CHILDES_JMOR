@@ -89,8 +89,9 @@ oikutsu	{[scat adv:deic:wh]} =how_many= "o_HON#ikutsu"
 itsu	{[scat adv:deic:wh]} =when=	
 nashite	{[scat adv:deic:wh]} =why= %dialect
 nani	{[scat n:deic:wh]} =what=
- nan	{[scat n:deic:wh] [allo numBFa]} =how_many= "nani" %for num:cl
- nam	{[scat n:deic:wh] [allo numBFb]} =how_many= "nani"
+ nan	{[scat n:deic:wh]} =what= "nani"
+ nan	{[scat n:deic:wh][allo numBFa]} =how_many= "nani" %for num:cl
+ nam	{[scat n:deic:wh][allo numBFb]} =how_many= "nani"
 nanigoto	{[scat n:deic:wh]} =what_matter=
 naninani	{[scat n][comp n:deic:wh+n:deic:wh]} =what= "nani+nani"
 naniya	{[scat n:deic:wh]} =what_shop= "nani_ya_SHOP"

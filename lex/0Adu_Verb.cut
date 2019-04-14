@@ -41,6 +41,7 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	mas {[scat v:c]} =increase=
 	ondas	{[scat v:c]} =expel=
 %%%%%%%%%%%%%%%%%%%%%%%%%% "t"
+	omodedat    {[scat v:c]}            =be_palpable=
 	tat	{[scat v:c]} =go_by=	%【経つ】 
 	tat	{[scat v:c]} =depart=	%【発つ】 
 	tat	{[scat v:c]} =cut_off= %	断つ		
@@ -55,6 +56,8 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	ake	{[scat v:v]} =be_over= %明ける
 	fuse	{[scat v:v]} =lie_down=	%【臥せる】
 	hate	{[scat v:v]} =terminate= %	果てる
+	he          {[scat v:v]}            =go_by=                     % 経る
+	he          {[scat v:v]}            =undergo=                   % 経る
 	kake	{[scat v:v]} =gallop=	%【駆ける】
 	kure	{[scat v:v]} =get_dark=	%【暮れる】
 	megake	{[scat v:v]} =aim=	%【目がける/目掛ける】

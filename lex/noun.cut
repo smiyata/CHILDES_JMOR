@@ -664,6 +664,7 @@
 	hana	{[scat n]} =flower=	% 花 
 	hanadarake	{[scat n]} =full_of_flowers= "hana_darake_FULL_OF"	% 花 
 	hana	{[scat n]} =nose=	% 鼻 
+	hanaichimomme	{[scat n]} =hanaichimomme_game=	% 
 	hanare	{[scat n]} =separate_house=	% 鼻 
 	hanashi	{[scat n]} =story=	% 話 
 	hanao	{[scat n]} =geta_thong=	% 鼻緒 
@@ -1218,6 +1219,7 @@
 	kansee	{[scat n]} =shout_of_joy= 	% 歓声 
 	daikansee	{[scat n]} =big_shout_of_joy= "dai_BIG_kansee"	% 歓声 
 	kansetsu	{[scat n]} =joint= 	% 関節 
+	kanten	{[scat n]} =agar= 	% 寒天 
 	kanyu	{[scat n]} =cod_liver_oil= 	% 肝油 
 	kao	{[scat n]} =face= 	% 顔 
 	kaojuu	{[scat n]} =all_over_the_face= "kao_juu_THROUGHOUT"	% 顔 
@@ -3121,6 +3123,7 @@ masaki	{[scat n]} "ma_STRAIGHT_saki" =first= %真先
 	yuugikai	{[scat n]} "yuugi_kai_MEETING" =play_meeting= 
 	yuugishitsu	{[scat n]} "yuugi_shitsu_ROOM" =play_room= 	% 遊戯室 
 	yuugohan	{[scat n]} =evening_meal= 	% 夕御飯 
+	yuugu	{[scat n]} =plaything= 	% 
 	yuuhan	{[scat n]} =evening_meal= 	% 夕飯 
 	yuukan	{[scat n]} =evening_edition= 	% 夕刊
 	yuukari	{[scat n]} =eucalyptus= 	% ユーカリ 

@@ -248,6 +248,8 @@ Goronta	{[scat n:prop]} =Gonta=
 Goodon	{[scat n:prop]} =Gordon=
 Gotoo	{[scat n:prop]} =Gotoo=
 Gujjo	{[scat n:prop]} =Goodjob= 
+Gumma {[scat n:prop]} =Gumma=
+Gummaken {[scat n:prop]} =Gumma_prefecture= 
 Guree	{[scat n:prop]} =Gray=
 Guroria	{[scat n:prop]} =Gloria= "Guroria"
 Hai	{[scat n:prop]} =Hai=
@@ -648,7 +650,7 @@ Nanzenjiha	{[scat n:prop]} "Nanzen_ji_ha" =Nanzenji_sect=
 Naoto	{[scat n:prop]} =Naoto=
 Naotora	{[scat n:prop]} =Naotora=
 Nara 	{[scat n:prop]} =Nara=
-Naraken 	{[scat n:prop]} =Nara_prefecture= "Nara-ken"
+Naraken 	{[scat n:prop]} =Nara_prefecture= 
 Naru 	{[scat n:prop]} =Naru=
 Natchan	{[scat n:prop]} =Natchan=
 Natorishi	{[scat n:prop]} "Natori-shi_CITY" =Natori=

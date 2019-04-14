@@ -39,7 +39,13 @@ kizewashi	{[scat adj]} =restless=
 kusurikusa	{[scat adj]} =smelling_of_medicine= "kusuri_kusa_SMELLING" % 魚くさい
 mattaki	{[scat adj][tense inf]} =complete= "matta-ki_ADN"
 mendokusa	{[scat adj]} =bothersome= "mendo_kusa_SMELLING"
+modokashi	{[scat adj]} =impatient= % もどかしい
+monou		{[scat adj]} =listless= % 物憂い
+niganigashi	{[scat adj]} =painful= % 苦々しい
+nikunikushi	{[scat adj]} =hateful= % 憎々しい
 ningenkusa	{[scat adj]} =quite_human= "ningen_kusa_SMELLING" % 人間くさい
+obotsukana	{[scat adj]} =uncertain= % おぼつかない
+okashi		{[scat adj][tense pres]} =strange= "oka-shi_PRES"
 ooki	{[scat adj][tense inf]} =many= "oo-ki_ADN"
 sakanakusa	{[scat adj]} =smelling_of_fish= "sakana_kusa_SMELLING" % 魚くさい
 sakekusa	{[scat adj]} =smelling_of_alcohol= "sake_kusa_SMELLING" % 酒くさい
@@ -47,6 +53,7 @@ seeyookusa	{[scat adj]} =quite_European= "seeyoo_kusa_SMELLING" % 西洋くさ�
 semashi	{[scat adj][tense pres]} =narrow= "sema-shi_PRES" % シク活用 “ 狭し ” 
 sokkena	{[scat adj]} =standoffish=
 sukusa	{[scat adj]} =smelling_of_vinegar= "su_kusa_SMELLING" % 酢くさい
+tegata  	{[scat adj]} =sound=         % 手堅い
 utsukushiki	{[scat adj][tense inf]} =beautiful= "utsukushi-ki_ADN"
 yamunashi	{[scat adj][tense pres]} =no_choice_but_to= "yamuna-shi_PRES"
 yoki	{[scat adj][tense inf]} =good= "yo-ki_ADN"
@@ -60,6 +67,14 @@ monou	{[scat adj]} =listless= % 物憂い
 modokashi	{[scat adj]} =impatient= % もどかしい
 kotomona	{[scat adj]} =easy= % こともない
 
+%%%%% subsidiary adjective "ii"
+yo	{[scat adj:sub]} =good=
+i	{[scat adj:sub]} =good=
+yoroshi	{[scat adj:sub]} =good=
+
+%%%%% subsidiary adjectival noun "dame"
+dame	{[scat n:an:sub]} =no_good= % 〜て(は)だめ/駄目 
+kekkoo	{[scat n:an:sub]} =fine= % 〜てけっこう/結構
 
 %%%% Adverb
 kankan	{[scat adv:onoma]} =furious=	%怒る
@@ -72,13 +87,10 @@ kakushakuto	{[scat adv:onoma]} =vigorously=
 potsunto	{[scat adv:onoma]} =solitarily=
 sansanto	{[scat adv:onoma]} =brightly=
 sappari	{[scat onoma]} =at_all=
-
+% wh
 donoyooni	{[scat adv:deic:wh]} =how= "dono_yoo_ni"
-
-mommon	{[scat adv]} =with_anguish= %%悶々
-tabun	{[scat adv]} =diversely=
-taigai	{[scat adv]} =generally=
-tootee	{[scat adv]} =ultimately=
+donoyoona	{[scat adn:deic:wh]} =what_kind=
+%
 
 aete	{[scat adv]} =daringly=
 amari	{[scat adv]} =very_much=
@@ -92,10 +104,12 @@ betsuni	{[scat adv]} =particularly=
 chikaraippai	{[scat adv]} =with_all_one's_strength=
 danjite	{[scat adv]} =at_all=
 dekirudake	{[scat adv]} =all_possible_efforts=
+dekirukagiri	      {[scat adv]} =as_much_as_possible=
 dooyoo	{[scat adv]} =same=
 en'en	{[scat adv]} =endlessly=
 fukabuka	{[scat adv]} =deeply=
 futo	{[scat adv]} =unintentionally=
+gaishite	{[scat adv]} =mostly=
 gaishite	{[scat adv]} =mostly=
 goku	{[scat adv]} =very=
 gokugoku	{[scat adv]} =quite=
@@ -119,6 +133,7 @@ jitsuwa	{[scat adv]} =in_fact= "jitsu_wa"
 katsute	{[scat adv]} =once=
 kesshite	{[scat adv]} =at_all=	
 kiwamete	{[scat adv]} =extremely=
+koto		      {[scat adv]} =especially=
 kotoni	{[scat adv]} =especially=
 kuchiguchini {[scat adv]} =severally=
 kyuukyo	{[scat adv]} =in_haste=
@@ -130,10 +145,14 @@ mashiteya	{[scat adv]} =not_to_speak_of=
 mirukarani	{[scat adv]} =so_as_to_be_visible=
 mohaya	{[scat adv]} =by_now=
 mojidoori	{[scat adv]} =literally=
+mommon	{[scat adv]} =with_anguish= %%悶々
+moo	{[scat adv]} =more=
+moosugu	{[scat adv]} =soon=
 moshiya	{[scat adv]} =maybe=
 muron	{[scat adv]} =of_course=
 nakanaka {[scat adv]} =not_nearly= %なかなか〜ない
 namajikka	{[scat adv]} =by_halves=
+nandemo	{[scat adv]} =they_say=
 nanishiro	{[scat adv]} =at_any_rate=
 naniyori	{[scat adv]} =more_than_anything_else=
 nanra	{[scat adv]} =any_kind_of=
@@ -143,21 +162,27 @@ nombiri	{[scat adv]} =leisurely=
 ooini	{[scat adv]} =exceedingly=
 oriitte	{[scat adv]} =in_a_beseeching_manner=
 osokarehayakare	{[scat adv]} =sooner_or_later=
+osokutomo	{[scat adv]} =at_the_latest=
 rakuraku	{[scat adv]} =easily=
 reenogotoku	{[scat adv]} =as_usual=
+rirongenkaigirigiri   {[scat adv]} =the_very_limits_of_a_theory=
+rokuni	{[scat adv]} =not_properly=
 samo	{[scat adv]} =just=
 sanzan	{[scat adv]} =severely=
 sashiatari	{[scat adv]} =for_the_time_being=
 sazo	{[scat adv]} =indeed=
 seezee	{[scat adv]} =to_the_utmost=
 shibashiba	{[scat adv]} =frequently=
+shutoshite  {[scat adv]} =mainly= "shu_to_shite"
 soratakaku	{[scat adv]} =high_in_the_sky= "sora_takaku"
 soredemo	{[scat adv]} =nevertheless=
 sugusama	{[scat adv]} =immediately=
 sukunakutomo	{[scat adv]} =at_least=
 tabitabi	{[scat adv]} =often=
+tabun	{[scat adv]} =diversely=
 tadachini	{[scat adv]} =immediately=
 tadatada	{[scat adv]} =quite=
+taigai	{[scat adv]} =generally=
 taitee	{[scat adv]} =generally=
 takadaka	{[scat adv]} =at_most=
 takaga	{[scat adv]} =at_most=
@@ -176,11 +201,9 @@ tomosuruto	{[scat adv]} =sometimes=
 tootee	{[scat adv]} =absolutely=
 toozen	{[scat adv]} =of_course=
 tsuujoo	{[scat adv]} =usually=
+umaretsuki	{[scat adv]} =by_nature=
 zokuzoku	{[scat adv]} =successively=
-
-%%%% Adnominal
-kooshita	{[scat adn]} "koo_shita" =like_this=
-aashita	{[scat adn:deic:dem]} "aa_shita" =like_that=
+zotto	    {[scat adv]} =shudder= 
 
 %%%% Communicator
 iya	{[scat co:i]} "iyaa" =no=
@@ -195,6 +218,9 @@ mizukara	{[scat n:deic:prs]} =self=
 reeno	{[scat n:deic:dem]} =in_question=
 washi	{[scat n:deic:prs]} =i_MASC=
 waga	{[scat n:deic:prs]} =our=
+kooshita	{[scat adn]} "koo_shita" =like_this=
+aashita	{[scat adn:deic:dem]} "aa_shita" =like_that=
+ikanaru	{[scat adn:deic:wh]} =what_kind=
 
 %%%% Quantifier
 zen'in	{[scat quant]} =all_members= 	% 全員 

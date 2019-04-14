@@ -161,7 +161,7 @@ toshite	{[scat ptl:conj]} =given_that= "to_shite"
 tosuruto	{[scat ptl:conj]} "to_suru_to" =if_then=
 tosuruto	{[scat conj]} "to_suru_to" =if_then=
 towaie	{[scat ptl:conj]} "to_wa_ie" =though=
-yori	{[scat ptl:conj]} =COMPARE=
+yori	{[scat ptl:conj]} =COMPR=
 yorimo	{[scat ptl:conj]} "yori_mo" =rather_than=
 
 %%%%%%%%%%%% coordinating particle

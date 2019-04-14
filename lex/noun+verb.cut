@@ -418,6 +418,8 @@ hayaoki	{[scat n:vn][comp adj+v:v]} =getting_up_early= "haya+oki"
 hayamawashi	{[scat n:vn][comp adj+v:c]} =fast_winding= "haya+mawas"	
 hayane	{[scat n:vn][comp adj+v:v]} =sleeping_early= "haya+ne"	
 hayaaruki	{[scat n:vn][comp adj+v:c]} =walking_fast= "haya+aruk"	
+
+usugiri	{[scat n][comp adj+v:c]} =cut_thin= "usu+kir"	
 	
 %%%% ONOMA + V
 bishonure	{[scat n:vn][comp onoma+v:v]} =be_soaked= "bisho+nure"

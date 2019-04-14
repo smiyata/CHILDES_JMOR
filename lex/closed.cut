@@ -323,7 +323,7 @@ dore	{[scat vtense] [tense imp] [allo OR vTNn vTIg]} "ASP:or-IMP"
 % negative		######## vsfx
 na	{[scat vsfx] [sfxcat adj] [allo OR vV vCa vBKo vTSi vNNr]} "NEG" 
 zu	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&GER" 
-zuni	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu&ADV" 
+zuni	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zu-ADV" 
 zaru	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:zaru" 
 nu	{[scat vtense] [tense pres] [allo OR vV vCa vBKo vTSi vTSe vNNr]} "NEG:nu&PRES" 
 naide	{[scat vtense] [tense inf] [allo OR vV vCa vBKo vNNr vTSi]} "NEG&CONN:de"

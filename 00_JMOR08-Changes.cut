@@ -345,6 +345,9 @@ ptl:post|to=COMT
 OLD adj|oishi-PRES smod|desu=POL
 NEW adj|oishi-PRES v:cop:sub|desu=POL
 SAME: NEG and DESID forms tabenai desu/ tabetai desu 
+compare: 
+kore desu ne .  v:cop|da&POL=be
+kore wa desu ne ...  smod|desu=POL
 
 15) new CONN:i
 OLD n|koohi ptl:case|o=ACC v:c|nom-GER n|keeki=cake ptl:case|o=ACC v:v|tabe-GER

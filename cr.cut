@@ -725,7 +725,7 @@ then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {pfx-adj} 
 if
-NEXTCAT = [scat OR adj adj:mot]
+NEXTCAT = [scat OR adj adj:mot adj:sub]
 then
 RESULTCAT = NEXTCAT
 RULEPACKAGE = {a-tense, adj-v, adj-n, adj-an}
@@ -959,12 +959,12 @@ RULENAME: an-start
 CTYPE: START
 $X = .*
 if
-NEXTCAT = [scat OR n:an n:an:mot n:an:onoma], [nc +]
+NEXTCAT = [scat OR n:an n:an:mot n:an:onoma n:an:sub], [nc +]
 then
 RESULTCAT = NEXTCAT, ADD [rule an]
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound}
 if
-NEXTCAT = [scat OR n:an n:an:mot n:an:onoma]
+NEXTCAT = [scat OR n:an n:an:mot n:an:onoma n:an:sub]
 then
 RESULTCAT = NEXTCAT, ADD [rule an]
 RULEPACKAGE = {}
@@ -1162,7 +1162,7 @@ RULEPACKAGE = {}
 RULENAME: adj-endrule
 CTYPE: END
 if
-STARTCAT = [scat OR adj adj:mot], [tense OR pres past inf imp]
+STARTCAT = [scat OR adj adj:mot adj:sub], [tense OR pres past inf imp]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
@@ -1189,7 +1189,7 @@ RULEPACKAGE = {}
 RULENAME: an-endrule
 CTYPE: END
 if
-STARTCAT = [scat OR n:an n:an:mot n:an:onoma]
+STARTCAT = [scat OR n:an n:an:mot n:an:onoma n:an:sub]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {}
