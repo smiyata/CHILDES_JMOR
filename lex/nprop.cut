@@ -204,7 +204,6 @@ Fujisan	{[scat n:prop]} =Mt_Fuji=
 Fukuoka		{[scat n:prop]} =Fukuoka=
 Fukushima	{[scat n:prop]} =Fukushima=
 Fukushimadaiichigempatsujiko {[scat n:prop][comp n:prop+n+n]} =Fukushima_Daiichi_nuclear_disaster= "Fukushimadaiichi+genpatsu+jiko"
-Fukushimadaiichigempatsujiko {[scat n:prop][comp n:prop+n+n]} =Fukushima_Daiichi_nuclear_disaster= "Fukushimadaiichi+genpatsu+jiko"
 Fukushimaken {[scat n:prop]} =Fukushima_prefecture=
 Fukushimashi	{[scat n:prop]} =Fukushima_city= "Fukushima_shi"
 Fukuya	{[scat n:prop]} =Fukuya_clothes_shop=
@@ -266,8 +265,7 @@ Handai	{[scat n:prop]} =Osaka_University=
 Handaibyooin	{[scat n:prop]} =Osaka_University_Hospital= "Handai_byooin"
 Hanamaru 	{[scat n:prop]} =Hanamaru=
 Hanasakajiisan	{[scat n:prop]} =Old_man_who_made_the_tree_blossom= "Hanasaka_jiisan"
-Handaibyooin	{[scat n:prop]} =Osaka_University_Hospital= "Handai_byooin"
-Hankyuu	{[scat n:prop]} =Hankyuu_dept_store=
+sHankyuu	{[scat n:prop]} =Hankyuu_dept_store=
 Hanshin	{[scat n:prop]} =Osaka_Kobe=
 Harii	{[scat n:prop]} =Harry=
 Harima	{[scat n:prop]} =Harima=
@@ -451,9 +449,8 @@ kinuta	{[scat n:prop]} =Kinuta= "Kinuta"
 Kiriko	{[scat n:prop]} =Kiriko=
 Kitaakita	{[scat n:prop]} =Kitaakita=
 Kitaakitashi	{[scat n:prop]} =Kitaakita_city= "Kitaakita_shi_CITY"
-Kiti	{[scat n:prop]} =Kitty=
-Kiti	{[scat n:prop]} =Kitty=
 Kisenosato	{[scat n:prop]} =Kisenosato=
+Kiti	{[scat n:prop]} =Kitty=
 Kitii	{[scat n:prop]} =Kitty= "Kiti"
 Kittii	{[scat n:prop]} =Kitty= "Kiti"
 kittii	{[scat n:prop]} =Kitty= "Kiti"
@@ -626,8 +623,6 @@ Mori	{[scat n:prop]} =Mori=
 mosubaagaa	{[scat n:prop]} =Mosburger_foodchain= "Mosubaagaa"
 Motoki	{[scat n:prop]} =Motoki=
 Motomachi	{[scat n:prop]} =Motomachi=
-Mootsuaruto	{[scat n:prop]} =Mozart= "Mootsaruto" % モーツァルト
-Mootsaruto	{[scat n:prop]} =Mozart=
 Muchimura	{[scat n:prop]} =Muchimura=
 mukku	{[scat n:prop]} =Mukku= "Mukku"
 Murakawa	{[scat n:prop]} =Murakawa=
@@ -922,7 +917,6 @@ Shisukoshisutemuzu	{[scat n:prop]} =Cisco_Systems=
 Shizuka	{[scat n:prop]} =Shizuka=
 shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
 Shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
-Shokupamman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
 Shokupanman	{[scat n:prop]} =Whitebread_man= "Shokupan-man"
 Shoo	{[scat n:prop]} =Shoo=
 Shooma	{[scat n:prop]} =Shooma=
@@ -1064,7 +1058,6 @@ tottoro	{[scat n:prop]} =Totoro=
 totoro	{[scat n:prop]} =Totoro=
 Tsuma	{[scat n:prop]} =Tsuma=
 Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
-Tsumetaroo	{[scat n:prop]} =Tsume_taroo=
 Tsuchita	{[scat n:prop]} =Tsuchita=
 Tsuchiyama	{[scat n:prop]} =Tsuchiyama=
 Tsuintawaazu	{[scat n:prop]} =Twin_towers= "Tsuin_tawaazu"
@@ -1107,7 +1100,8 @@ Yamashiro	{[scat n:prop]} =Yamashiro=
 Yamazaki	{[scat n:prop]} =Yamazaki=
 Yan	{[scat n:prop]} =Yan=
 Yokohama	{[scat n:prop]} =Yokohama=
-Yokohamashi	{[scat n:prop]} =Yokohama_city= "Yokohama_shi"
+Yokohamakoo	{[scat n:prop]} =Yokohama_harbor= "Yokohama-koo"
+Yokohamashi	{[scat n:prop]} =Yokohama_city= "Yokohama_shi_CITY"
 Yooroppa	{[scat n:prop]} =Europe=
 Yoshida	{[scat n:prop]} =Yoshida=
 Yoshiki	{[scat n:prop]} =Yoshiki=
@@ -1115,9 +1109,6 @@ Yoshiko	{[scat n:prop]} =Yoshiko=
 Yasuko	{[scat n:prop]} =Yasuko=
 Yattaman	{[scat n:prop]} =Success_man= "Yatta-man"
 Yokogawa	{[scat n:prop]} =Yokogawa= 
-Yokohama	{[scat n:prop]} =Yokohama=
-Yokohamakoo	{[scat n:prop]} =Yokohama_harbor= "Yokohama-koo"
-Yokohamashi	{[scat n:prop]} =Yokohama_city= "Yokohama_shi_CITY"
 Yooko	{[scat n:prop]} =Yooko=
 yookaiwotchi	{[scat n:prop]} =Yookai_watch=
 Yookaiwotchi	{[scat n:prop]} =Yookai_watch=

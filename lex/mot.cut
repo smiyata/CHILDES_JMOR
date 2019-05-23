@@ -12,7 +12,6 @@ abuku	{[scat n:mot]} =saliva=
 abunaiabunai	{[scat n:mot]} =dangerous=
 achichi	{[scat n:mot]} "atchichi" =hot=
 aiai	{[scat n:mot]} =monkey=
-aiai	{[scat n:mot]} =monkey=
 aiaiai	{[scat n:mot]} =monkey=
 akaiakai	{[scat n:mot]} =red=
 akaruiakarui	{[scat n:mot]} =bright=
@@ -32,7 +31,6 @@ atchiiatchii	{[scat n:mot]} =hot=
 atchitchi	{[scat n:mot]} "atchichi" =hot=
 atsuiatsui	{[scat n:mot]} =hot=
 attakaiattakai	{[scat n:mot]} =warm=
-attakaattaka	{[scat n:mot]} =warm=
 atta	{[scat adj:mot]} =warm=
 awaawa	{[scat n:mot]} =foam=
 awatemboo	{[scat n:mot]} =hurry_too_much=
@@ -156,7 +154,6 @@ kurukurubee	{[scat n:vn:mot]} =gargling=	%
 kusaikusai	{[scat n:mot]} =stinky=
 kusaikusai	{[scat n:mot]}	=poo=
 mamma	{[scat n:mot]} =food=
-umamma	{[scat n:mot]} =food= "mamma"
 mamman	{[scat n:mot]} =buddha=
 mammaru {[scat n:mot]} =perfect_circle=
 marumaru	{[scat n:mot]} =circle=

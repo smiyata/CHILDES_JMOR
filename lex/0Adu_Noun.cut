@@ -730,13 +730,10 @@ kin'yoo	{[scat n]} =friday=
 Akitakemminkaikan	{[scat n:prop]} "Akita_kemmin_kaikan" =Akita_prefectural_meeting_hall=
 Akitakensoogookoosha	{[scat n:prop]} "Akita_ken_soogoo_koosha" =Akita_general_public_corporation=
 Beru__cdot__suteeburu	{[scat n:prop]} =Beru__cdot__suteeburu=
-Fukuoka		{[scat n:prop]} =Fukuoka=
-Heesee		{[scat n:prop]} =Heesee_era=
 higashinihon    {[scat n:prop][comp n+n:prop]}     =Eastern_Japan= "higashi+nihon"
 higashinihondaishinsai  {[scat n:prop][comp n+n:prop+pfx+n]}     =2011_Tohoku_Earthquake= "higashi+nihon+dai+shinsai"
 Kyuusekkijidai	{[scat n:prop]} "Kyuu_sekki_jidai" =old_stone_age=
 Kyuushuuchihoo	{[scat n:prop][comp n:prop+n]} =the_Kyushu_region= "Kyuushuu+chihoo"
-Shisuko {[scat n:prop]} =Cisco= 
 Shisukogawa {[scat n:prop]} =Cisco= "Shisuko_gawa_SIDE" 
 
 %%%% Adjectival Noun
