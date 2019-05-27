@@ -202,7 +202,7 @@ hoosoku	{[scat n]} =law=
 hyoo            {[scat n][comp n]}  =vote=                      % (議決の)票
 ichibushijuu	 {[scat n]} =the_whole_story=
 ichigo	{[scat n:num][comp num+n]} =one_word= "ichi+go"
-ichiritsuzemmenjosen    {[scat n][comp n+n+n]}  =uniform_and_overall_decontamination= "ichiritsu+zenmen+josen"
+ichiritsuzemmenjosen    {[scat n][comp n+n+n]}  =uniform_and_overall_decontamination= "ichiritsu+zemmen+josen"
 iimeeru	{[scat n]} =email= % eメール
 iinkai	{[scat n]} =committee=
 ikkiuchi        {[scat n]}          =single_combat= 
@@ -286,11 +286,11 @@ kaobure         {[scat n]}          =lineup=                % 顔ぶれ
 karaoke {[scat n]} =karaoke= % カラオケ
 kare	 {[scat n]} =boy_friend=
 kareshi	 {[scat n]} =boy_friend=
-karite	{[scat n][comp v:c+n]} =borrower= "kari&GER+te"
+karite	{[scat n][comp v:c+n]} =borrower= "kari+te"
 karuchaa {[scat n]} =culture=
 karushiumu {[scat n]} =calcium= % カルシウム
 karyuu	{[scat n]} =downstream=
-kashite	{[scat n][comp v:c+n]} =lender= "kas&GER+te"
+kashite	{[scat n][comp v:c+n]} =lender= "kas+te"
 kata	{[scat n]} =collateral_SLANG=
 kata	{[scat n]} =collateral_SLANG=
 kawakiri        {[scat n]}          =opener=                % 皮切り
@@ -542,7 +542,6 @@ shidoosha	{[scat n]} =leader= "shidoo_sha_PERSON" % 指導者
 shigi           {[scat n]}          =member_of_city_counsil=    % 市議
 shijoo	{[scat n]} =market=
 shijoosaidai	{[scat n][comp n+n]} "shijoo+saidai" =most_x_in_history=
-shijoosaidai	{[scat n][comp n+n]} "shijoo+saidai" =most_x_in_history=
 shikaisha	{[scat n]} =chairperson= "shikai_sha_PERSON" % 司会者
 shikakukee	{[scat n]} =square= "shikaku_kee_FORM"
 shikisha	{[scat n]} =conductor= "shiki_sha_PERSON" % 指揮者
@@ -708,8 +707,8 @@ zaisan	{[scat n]} =property=
 zaisee          {[scat n]}          =public_finance=
 zazen	{[scat n]} =Zen_meditation=
 zendaimimon	{[scat n]} "zendai_mimon" =unprecedented=
-zenmen          {[scat n]}          =front=                     % 前面
-zenmen          {[scat n]}          =overall=                   % 全面;Quantifier?
+zemmen          {[scat n]}          =front=                     % 前面
+zemmen          {[scat n]}          =overall=                   % 全面;Quantifier?
 zensha	{[scat n]} =the_former=
 zentoo	{[scat n]} =the_whole_island=
 zentoomin	{[scat n]} =all_of_the_inhabitant_of_the_island=
@@ -976,7 +975,6 @@ asaoki	{[scat n:vn]}	=early_rising= "asa_oki&GER"	%	朝起きする
 ashinarashi	{[scat n:vn]}	=warm_up= "asa_naras&GER"	%	足慣しする
 assen	{[scat n:vn]}	=act_as_intermediary=	%	斡旋する
 asshi	{[scat n:vn]}	=be_squeezed_to_death=	%	圧死する
-asshoo {[scat n:vn]} =overwhelming_victory=
 asshuku	{[scat n:vn]}	=compress=	%	圧縮する
 atenige	{[scat n:vn]}	=hit_and_run= "ate_nige&GER"	%	当て逃げする
 atomodori	{[scat n:vn]}	=step_back= "ato_modor"	%	後戻りする
@@ -988,17 +986,12 @@ attoo	{[scat n:vn]}	=overwhelm=	%	圧倒する
 baishuu	{[scat n:vn]} =acquisition=	%買収
 bika	{[scat n:vn]} =beautification= "bi_ka_CHANGE" % 美化
 booee	{[scat n:vn]} =defence=
-boranteea	{[scat n:vn]} =volunteer=
 bumpu	{[scat n:vn]} =distribution=	%分布
 bundan	{[scat n:vn]} =division=	%分断
 bunka	{[scat n:vn]} =differentiation= "bun_ka_CHANGE" % 分化
 bunseki				{[scat n:vn]} =analysis=
-bunshooboshuu	{[scat n:vn][comp n+n:vn]} =call_for_papers= "bunshoo+boshuu"
-buntan		{[scat n:vn]} =assignation= 
 chakunin	{[scat n:vn]} =assume_post=
-chakushu	{[scat n:vn]} =start=
 chiikisaisee {[scat n:vn][comp n+n:vn]} =revival_of_provincial_areas= "chiiki+saisee"
-chikuseki	{[scat n:vn]} =accumulation=
 chinretsu	{[scat n:vn]} =display=
 chinseeka	{[scat n:vn]} =calming_down= "chinsee_ka_CHANGE" % 鎮静化
 chokumen			{[scat n:vn]} =face=

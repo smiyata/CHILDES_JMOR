@@ -8,6 +8,10 @@ sas	{[scat v:c]} =do= "su-CAUS:contr"
 sas	{[scat v:c:sub]} =do= "su-CAUS:contr"	
 sare	{[scat v:v]} =do= "su-PASS"	
 sare	{[scat v:v:sub]} =do= "su-PASS"	
+shi	{[scat v:ir][tense inf]} =do= "su&GER"
+shi	{[scat v:ir:sub][tense inf]} =do= "su&GER"
+shi	{[scat v:ir][tense inf]} =do= "su&CONN:i"
+shi	{[scat v:ir:sub][tense inf]} =do= "su&CONN:i"
 shisoo	{[scat n:an]} =do= "su-soo_SEEMING"
 shigata	{[scat adj]} =do= "su-gata_HARD"
 shiniku	{[scat adj]} =do= "su-niku_DIFFICULT"
@@ -28,6 +32,10 @@ arahin	{[scat v:ir][tense pres]} =be= "ar-NEG:hin&PRES"
 nasasoo	{[scat n:an]} =be= "ar&NEG-soo_SEEMING"
 tarinasasugi	{[scat v:v]} =be_too_insufficient= "tari&NEG-sugi"
 ik	{[scat v:c]} =go= 
+yattekuru	{[scat v:ir][tense pres]} =come= "yatteku-PRES"
+yattekite	{[scat v:ir][tense inf]} =come= "yatteku-CONN"
+yattekita	{[scat v:ir][tense pres]} =come= "yatteku-PAST"
+yattekimashita	{[scat v:ir][tense pres]} =come= "yatteku-POL-PAST"
 
 
 semarikuru	{[scat v:ir][tense pres]} =impend= "semar_ku-PRES"
@@ -103,9 +111,10 @@ nasaimashoo	{[scat v:c][tense inf]} =do_POL= "nasar-POL-HORT"
 nasaimashitara	{[scat v:c][tense inf]} =do_POL= "nasar-POL-COND:tara"
 
 %   SUB VERB FOSSILES
-gotoku	{[scat v:ir:sub][tense inf]} =same_way= ""
-gotoki	{[scat v:ir:sub][tense inf]} =same_way= "gotoki&ADN"
-gotoku	{[scat v:ir:sub][tense inf]} =same_way= "gotoku&ADV"
+gotoku	{[scat v:ir:sub][tense inf]} =be_as_if= 
+gotoki	{[scat v:ir:sub][tense inf]} =be_as_if= "gotoki&ADN"
+gotoku	{[scat v:ir:sub][tense inf]} =be_as_if= "gotoku&ADV"
+
 
 %   IMPERATIVE FOSSILES
 goran	{[scat v:ir][tense imp]} =look= "goran&IMP"
@@ -117,10 +126,10 @@ choodai	{[scat v:ir][tense imp]} =give= "choodai&IMP"
 %   NEGATION FOSSIlES
 tamaranai	{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG-PRES"
 tamaran		{[scat v:c][tense pres]} =be_unbearable= "tamar-NEG:n&PRES"
-arienai	{[scat v:v][tense pres]} =be= "ar-POT-NEG-PRES"
+arienai	{[scat v:ir][tense pres]} =be= "ar-POT-NEG-PRES"
 arienakatta	{[scat v:ir][tense past]} =be= "ar-POT-NEG-PAST"
-arieru	{[scat v:v][tense pres]} =be= "ar-POT-PRES"
-ariuru	{[scat v:v][tense pres]} =be= "ar-POT-PRES"
+arieru	{[scat v:ir][tense pres]} =be= "ar-POT-PRES"
+ariuru	{[scat v:ir][tense pres]} =be= "ar-POT-PRES"
 
 hokanaranai {[scat v:c][tense pres]} =be_nothing_other_than= "hoka_narana-PRES" 
 
