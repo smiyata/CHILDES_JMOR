@@ -726,15 +726,16 @@ kin'yoo	{[scat n]} =friday=
 
 
 %%%% Proper Noun
-Akitakemminkaikan	{[scat n:prop]} "Akita_kemmin_kaikan" =Akita_prefectural_meeting_hall=
-Akitakensoogookoosha	{[scat n:prop]} "Akita_ken_soogoo_koosha" =Akita_general_public_corporation=
+Anri__cdot__goo	{[scat n:prop]} =Henri_Gault=
 Beru__cdot__suteeburu	{[scat n:prop]} =Beru__cdot__suteeburu=
-higashinihon    {[scat n:prop][comp n+n:prop]}     =Eastern_Japan= "higashi+nihon"
-higashinihondaishinsai  {[scat n:prop][comp n+n:prop+pfx+n]}     =2011_Tohoku_Earthquake= "higashi+nihon+dai+shinsai"
-Kyuusekkijidai	{[scat n:prop]} "Kyuu_sekki_jidai" =old_stone_age=
-Kyuushuuchihoo	{[scat n:prop][comp n:prop+n]} =the_Kyushu_region= "Kyuushuu+chihoo"
-Shisukogawa {[scat n:prop]} =Cisco= "Shisuko_gawa_SIDE" 
+Goo__cdot__e__cdot__miyoo	{[scat n:prop]} =Gault_et_Millau=
+Kurisuchan__cdot__miyoo	      {[scat n:prop]} =Christian_Millau=
+Jakku__cdot__weruchi   {[scat n:prop]} =Jack_Welch=
+Taigaa__cdot__uzzu {[scat n:prop]} =Tiger_Woods= %記号名を __ (アンダースコア2つ)で囲む
 
+Ken'ichi	{[scat n:prop]} =Ken'ichi=
+San'yoodenkibooeki	{[scat n:prop]} =San'yoo_electric_and_trading_corporation= "San'yoo_denki_booeki" 
+Zennihonmin'iren		{[scat n:prop]} =Japan_Federation_of_Democratic_Medical_Institutions= "Zennihon_min'iren"
 %%%% Adjectival Noun
 akeppiroge	{[scat n:an]} =frank=
 an'i	{[scat n:an]} =easy=
