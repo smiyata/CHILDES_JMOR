@@ -440,6 +440,7 @@ o	{[scat n]} =tail= 	% 尾
 omoi {[scat n]} =thought= %【思い】
 oobojooken	{[scat n][comp n:vn+n]} "oobo+jooken" =conditions_for_applying=
 oobosha	{[scat n]} =applicant= "oobo_sha_PERSON"
+oosutorariahatsu     {[scat n]} =first_in_Australia= "Oosutoraria_hatsu_FIRST"
 oote            {[scat n]}          =major=
 ootedenkimeekaa {[scat n][comp n+n+n]} =major_electorics_company= "oote+denki+meekaa" % 大手電機メーカー
 ootekensetsugaisha  {[scat n][comp n+n+n]}  =major_construction_company=    "oote+kensetsu+gaisha"
@@ -497,11 +498,14 @@ sankasha	{[scat n]} =participant= "sanka_sha_PERSON" % 参加者
 sankoo		{[scat n]} =third_proof= %三校
 sanretsusha	{[scat n]} =attendant= "sanretsu_sha_PERSON" % 参列者
 sansuisha	{[scat n]} =sprinkler_truck= "sansui_sha_VEHICLE" % 散水車
+sasupensu__cdot__horaakatsugeki	{[scat n]} =suspense_and_horror_drama=
 seebutsu	{[scat n]} =creature=
+seechoochuu			{[scat n]} =during_growth= "seechoo_chuu_WHILE"
 seechooki	{[scat n]} "seechoo-ki_PERIOD" =growth_period=
 seeen	 	 {[scat n]} =cheering=
 seefu	{[scat n]} =government=
 seefugawa	{[scat n]} =goverment_side= "seefu_gawa_SIDE"
+seego  {[scat n]} =after_birth= "see_go_AFTER"
 seegyoban	{[scat n]} =control_panel=
 seehin	{[scat n]} =product=
 seeji	{[scat n]} =politics=
@@ -511,6 +515,7 @@ seemee	{[scat n]} =life= % 生命
 seerusuman	{[scat n]} =salesperson=
 seeryoku	{[scat n]} =power=
 seesansha	{[scat n]} =manufacturer= "seesan_sha_PERSON" % 生産者
+seesankaishi  {[scat n][comp n:vn+n:vn]}  =start_of_production= "seesan+kaishi"
 seeshin	{[scat n]} =mind= % 精神
 seesoosha	{[scat n]} =garbage_truck= "seesoo_sha_VEHICLE"
 seken	{[scat n]} =society=
@@ -552,6 +557,7 @@ shindansho {[scat n]} =medical_certificate= "shindan_sho_LETTER" % 診断書
 shingaisha	{[scat n]} =new_company=
 shinja	{[scat n]} =believer= % 信者
 shinkan	{[scat n]} =god_view= %神観
+shinraikankee {[scat n][comp n:vn+n]} =relationship_of_mutual_trust= "shinrai+kankee"
 shinro	{[scat n]} =course=
 shinsai	{[scat n]} =earthquake_destruction=
 shintenchi	{[scat n]} "shin_NEW#tenchi" =new_world=
@@ -622,6 +628,7 @@ sumakichoo	{[scat n]} == %monkichoo のこと?
 sumi	{[scat n]} =charcoal=	% 炭
 sumi	{[scat n]} =corner=	% 隅
 sutaffu	{[scat n]} =staff=
+sutandotsukai {[scat n][comp n+n]} =Stand_user= "sutando+tsukai"
 sutoresu	{[scat n]} =stress=
 sutoroberiiaji	{[scat n]} =strawberry_flavor= "sutoroberii_aji_FLAVOR" % ストロベリー味
 taihensa	{[scat n]} =terrible= "taihen-sa_NLZR"
@@ -659,6 +666,7 @@ tooiinkai	{[scat n]} =this_committee= "too_THIS_iinkai"
 tooji	{[scat n]} =those_times=
 toojisha	{[scat n]} =person_concerned= "tooji_sha_PERSON" % 当事者
 toojitsu	{[scat n]} =that_day=
+toojooji      {[scat n]} =at_the_time_of_an_appearance= "toojoo_ji_TIME"
 tookan	{[scat n]} =this_hall= 
 tookyookai	{[scat n]} =this_church= "too_THIS_kyookai"
 toomen	{[scat n]} =for_the_time_being=
@@ -732,6 +740,8 @@ Goo__cdot__e__cdot__miyoo	{[scat n:prop]} =Gault_et_Millau=
 Kurisuchan__cdot__miyoo	      {[scat n:prop]} =Christian_Millau=
 Jakku__cdot__weruchi   {[scat n:prop]} =Jack_Welch=
 Taigaa__cdot__uzzu {[scat n:prop]} =Tiger_Woods= %記号名を __ (アンダースコア2つ)で囲む
+Man__cdot__ree	{[scat n:prop]} =Man_Ray=
+Josefu__cdot__joosutaa	{[scat n:prop]} =Joseph_Joestar=
 
 Ken'ichi	{[scat n:prop]} =Ken'ichi=
 San'yoodenkibooeki	{[scat n:prop]} =San'yoo_electric_and_trading_corporation= "San'yoo_denki_booeki" 

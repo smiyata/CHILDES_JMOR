@@ -204,6 +204,7 @@ Eriko	{[scat n:prop]} =Eriko=
 Erumaanobooken	 {[scat n:prop]} =Elmers_adventure= "Erumaa_no_booken"
 Fado	{[scat n:prop]} =Fado=
 Fendaa	{[scat n:prop]} =Fender=
+Fujikeeko	{[scat n:prop]} =Fuji_Keeko=
 Fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
 fujiya	{[scat n:prop]} =Candy_shop_Fujiya=
 Firippu	{[scat n:prop]} =Philip=
@@ -285,15 +286,19 @@ Haruko	{[scat n:prop]} =Haruko=
 Haroo	{[scat n:prop]} =Haroo=
 Haru	{[scat n:prop]} =Haru=
 Haruna 	{[scat n:prop]} =Haruna=
+Hatanowataru	{[scat n:prop]} =Hatano_Wataru= "Hatano_wataru"
 Hatori 	{[scat n:prop]} =Hatori=
 Hattori 	{[scat n:prop]} =Hattori=
 Hayashi 	{[scat n:prop]} =Hayashi=
+Hawai	{[scat n:prop]} =Hawaii=
+Hawaidaigaku	{[scat n:prop][comp n:prop+n]} =University_of_Hawaii= "Hawai+daigaku"
 Hazuki 	{[scat n:prop]} =Hazuki=
 Heesee		{[scat n:prop]} =Heesee_era=
 Hekutooru	{[scat n:prop]} =Hector=
 Hemuren	{[scat n:prop]} =Hamlin=
 henrii	{[scat n:prop]} =Henry= "Henrii"
 Hidetoshi	{[scat n:prop]} =Hidetoshi=
+Higashikatajoosuke	{[scat n:prop]} =Higashikata_Joosuke= "Higashikata_joosuke"
 Higashinihon    {[scat n:prop][comp n+n:prop]}     =Eastern_Japan= "higashi+nihon"
 Higashinihondaishinsai	{[scat n:prop]} =Great_East_Japan_earthquake= "Higashinihon_daishinsai"
 Hii	{[scat n:prop]} =Hii=
@@ -341,6 +346,9 @@ Ion	{[scat n:prop]} =Eon=
 Iraku		{[scat n:prop]} =Iraq=
 Ishii	{[scat n:prop]} =Ishii=
 Ishimoto	{[scat n:prop]} =Ishimoto=
+Isozaki		{[scat n:prop]} =Isozaki=
+Isozakiarata	{[scat n:prop]} =Isozaki_arata=
+Isozakifusai	{[scat n:prop]} =Mr._and_Mrs._Isozaki= "Isozaki_fusai"
 Isshi	{[scat n:prop]} =Isshi=
 Issumbooshi	{[scat n:prop]} =Little_monk_Issumbooshi=
 itaria	{[scat n:prop]} =Italy=
@@ -378,8 +386,11 @@ Jimu	{[scat n:prop]} =Jim=
 Jiroo	{[scat n:prop]} =Jiroo=
 Jonson	{[scat n:prop]} =Johnson=
 Joan	{[scat n:prop]} =Joan=
+Jojo		{[scat n:prop]} =Jojo=
+Jojonokimyoonabookenoorusutaabatoru	{[scat n:prop]} =all-star_battle_of_Jojo's_bizarre_adventure= "Jojo_no_kimyoo_na_booken_oorusutaa_batoru"
 Jon	{[scat n:prop]} =John=
 Jooji	{[scat n:prop]} =George=
+Joosuke		{[scat n:prop]} =Joosuke=
 Jun	{[scat n:prop]} =Jun=
 Junta	{[scat n:prop]} =Junta=
 Juri 	{[scat n:prop]} =Juri=
@@ -507,6 +518,7 @@ Kuriimupanda	{[scat n:prop]} =Cream_panda=
 kuriimupanda	{[scat n:prop]} =Cream_panda=
 Kuriki	{[scat n:prop]} =Kuriki=
 Kutchi	{[scat n:prop]} =Kutchi=
+Kuujoojootaroo		{[scat n:prop]} =Kuujoo_Jootaroo= "Kuujoo_jootaroo"
 Kyarawee	{[scat n:prop]} =Callaway=
 Kyoohee	{[scat n:prop]} =Kyoohee=
 Kyooko	{[scat n:prop]} =Kyoko=
@@ -624,6 +636,8 @@ Miyagi	{[scat n:prop]} =Miyagi=
 Miyakejima	{[scat n:prop]} =Miyakejima=
 Miyamoto	{[scat n:prop]} =Miyamoto=
 Miyata	{[scat n:prop]} =Miyata=
+Miyawaki	{[scat n:prop]} =Miyawaki=
+Miyawakiaiko	{[scat n:prop]} =Miyawaki_Aiko=
 Miyoko	{[scat n:prop]} =Miyoko=
 Mizu	{[scat n:prop]} =Mizu=
 Mizuho	{[scat n:prop]} =Mizuho=
@@ -642,6 +656,7 @@ Moo	{[scat n:prop]} =Moo=
 Mootsaruto	{[scat n:prop]} =Mozart=
 Mootsuaruto	{[scat n:prop]} =Mozart= "Mootsaruto"
 Mori	{[scat n:prop]} =Mori=
+Moriouchoo	{[scat n:prop]} =town_of_Morioo=
 mosubaagaa	{[scat n:prop]} =Mosburger_foodchain= "Mosubaagaa"
 Motoki	{[scat n:prop]} =Motoki=
 Motomachi	{[scat n:prop]} =Motomachi=
@@ -681,6 +696,7 @@ Nippon	{[scat n:prop]} =Japan_FML=
  nihongo	{[scat n:prop]} "nihon_go_LANGUAGE" =Japanese=
  nihonjin	{[scat n:prop]} "nihon_jin_PERSON" =Japanese=
  nihonrekishi	{[scat n][comp n:prop+n]} "Nihon+rekishi" =Japanese_history=
+Nihonkokuemukenesushimorioochoo	{[scat n:prop]} =town_of_Morioo_S-city_M-prefecture_Japan= "Nihonkoku_emuken_esushi_morioochoo"
 Nikoniko	{[scat n:prop]} =Nikoniko=
 ninninjaa	{[scat n:prop]} =Ninninjaa=
 Ninomiya	{[scat n:prop]} =Ninomiya=
@@ -1073,6 +1089,7 @@ Tomu 	{[scat n:prop]} =Tom=
 Toobee	{[scat n:prop]} =Toobee=
 Toohoku	{[scat n:prop]} =Toohoku=
 Tookyoo	{[scat n:prop]} =Tokyo=
+Tookyoogeejutsudaigaku	{[scat n:prop][comp n:prop+n+n]} =Tokyo_University_of_the_Arts= "Tookyoo+geejutsu+daigaku"
 Toomasu	{[scat n:prop]} =Thomas= 
 toomasu	{[scat n:prop]} =Thomas= "Toomasu"
 Tootoo	{[scat n:prop]} =Hamamoto= 

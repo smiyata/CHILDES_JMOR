@@ -38,6 +38,7 @@
 
 
 % Classifier Suffixes	########
+cm	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "cm_CM"
 % 								 敗 
 hai	{[scat numclsfx] [allo OR numBFa numCFa numCBa numCBb numBBk]} "hai_DEFEAT"
 pai	{[scat numclsfx] [allo numBBp]} "hai_DEFEAT"

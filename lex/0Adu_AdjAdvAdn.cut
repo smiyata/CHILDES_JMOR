@@ -6,6 +6,7 @@
 %%%% Deixis
 %%%% Quantifier
 %%%% Sentence Modalizer
+%%%% Onoma
 
 
 %%%% Adjective
@@ -22,52 +23,65 @@ urasabishi	{[scat adj]} =deserted=
 yo	{[scat adj]} =good= 
 
 aojiro	{[scat adj]} =pale= % 青白い
-aojiroki	{[scat adj][tense inf]} =pale= "aojiro-ki_ADN"
 arigata	{[scat adj]} =be_appreciated=
 arigatoo	{[scat adj][tense inf]} =be_appreciated= "arigata&ADV"
 asekusa	{[scat adj]} =smelling_of_sweat= "ase_kusa_SMELLING" % 汗くさい
-ashiki	{[scat adj][tense inf]} =bad= "a-shiki_ADN"
 bimbooninkusa	{[scat adj]} =like_the_poor= "bimboonin_kusa_SMELLING" % 貧乏人くさい
 dorokusa	{[scat adj]} =unrefined= "doro_kusa_SMELLING" % 泥くさい
 dosuguro	{[scat adj]} =darkish= % どす黒い
 furukusa	{[scat adj]} =oldfashioned= "furu_kusa_SMELLING" % 古くさい
 fusawashi	{[scat adj]} =suitable=
-hazukashi	{[scat adj][tense pres]} =ashamed= "hazuka-shi_PRES"
+hadazamu	{[scat adj]} =chilly=
 hoshi	{[scat adj]} =desire=
 ichijirushi	{[scat adj]} =remarkable=
 inakakusa	{[scat adj]} =rustic= "inaka_kusa_SMELLING" % 田舎くさい
 kechikusa	{[scat adj]} =stingy= "kechi_kusa_SMELLING" % けちくさい
 kizewashi	{[scat adj]} =restless=
+kokorogurushi	{[scat adj]} =painful=
 kusurikusa	{[scat adj]} =smelling_of_medicine= "kusuri_kusa_SMELLING" % 魚くさい
-mattaki	{[scat adj][tense inf]} =complete= "matta-ki_ADN"
+kuwashi	{[scat adj]} =be_familiar_with= % 彼は歴史に詳しい
+machigaina	{[scat adj]} =reliable= % adv|machigainaku のエントリーを削除してほしい
 mendokusa	{[scat adj]} =bothersome= "mendo_kusa_SMELLING"
 modokashi	{[scat adj]} =impatient= % もどかしい
 monou		{[scat adj]} =listless= % 物憂い
+nadaka	{[scat adj]} =famous=
 niganigashi	{[scat adj]} =painful= % 苦々しい
 nikunikushi	{[scat adj]} =hateful= % 憎々しい
 ningenkusa	{[scat adj]} =quite_human= "ningen_kusa_SMELLING" % 人間くさい
 obotsukana	{[scat adj]} =uncertain= % おぼつかない
-okashi		{[scat adj][tense pres]} =strange= "oka-shi_PRES"
-ooki	{[scat adj][tense inf]} =many= "oo-ki_ADN"
 sakanakusa	{[scat adj]} =smelling_of_fish= "sakana_kusa_SMELLING" % 魚くさい
 sakekusa	{[scat adj]} =smelling_of_alcohol= "sake_kusa_SMELLING" % 酒くさい
 seeyookusa	{[scat adj]} =quite_European= "seeyoo_kusa_SMELLING" % 西洋くさい
-semashi	{[scat adj][tense pres]} =narrow= "sema-shi_PRES" % シク活用 “ 狭し ” 
+shiyoogana	{[scat adj]} =worthless=
 sokkena	{[scat adj]} =standoffish=
 sukusa	{[scat adj]} =smelling_of_vinegar= "su_kusa_SMELLING" % 酢くさい
 tegata  	{[scat adj]} =sound=         % 手堅い
-utsukushiki	{[scat adj][tense inf]} =beautiful= "utsukushi-ki_ADN"
-yamunashi	{[scat adj][tense pres]} =no_choice_but_to= "yamuna-shi_PRES"
-yoki	{[scat adj][tense inf]} =good= "yo-ki_ADN"
+umee	{[scat adj][tense pres]} "uma&PRES" =tasty= % うまい -> うめえ
 yasashi	{[scat adj]} =gentle= % 優しい
 uruwashi	{[scat adj]} =elegant= % 麗しい
-yoshi	{[scat adj][tense pres]} =good= "yo-shi_PRES" % シク活用 “ よし ” 
 obotsukana	{[scat adj]} =uncertain= % おぼつかない
 nikunikushi	{[scat adj]} =hateful= % 憎々しい
 niganigashi	{[scat adj]} =painful= % 苦々しい
 monou	{[scat adj]} =listless= % 物憂い
 modokashi	{[scat adj]} =impatient= % もどかしい
 kotomona	{[scat adj]} =easy= % こともない
+
+aojiroki	{[scat adj][tense inf]} =pale= "aojiro-ADN:ki" % ADN -- adnominal
+ashiki	{[scat adj][tense inf]} =bad= "a-ADN:shiki"
+hazukashi	{[scat adj][tense pres]} =ashamed= "hazuka-PRES:shi"
+mattaki	{[scat adj][tense inf]} =complete= "matta-ADN:ki"
+okashi	{[scat adj][tense pres]} =strange= "oka-PRES:shi"
+ooki	{[scat adj][tense inf]} =many= "oo-ADN:ki"
+semashi	{[scat adj][tense pres]} =narrow= "sema-PRES:shi" % 狭し
+utsukushiki	{[scat adj][tense inf]} =beautiful= "utsukushi-ADN:ki"
+yamunashi	{[scat adj][tense pres]} =no_choice_but_to= "yamuna-PRES:shi"
+yoki	{[scat adj][tense inf]} =good= "yo-ADN:ki"
+yoshi	{[scat adj][tense pres]} =good= "yo-PRES:shi"
+imawanaki	{[scat adj][tense pres]} =late= "imawana-ADN:ki" % 今は無き(物故した)
+umakarazu	{[scat adj][tense inf]} =tasty= "uma-NEG:karazu&ADV"
+sukunakarazu	{[scat adj][tense inf]} =be_few= "sukuna-NEG:karazu&ADV"
+asakaranu	{[scat adj][tense inf]} =shallow= "asa-NEG:karanu&PRES"
+yokare	{[scat adj][tense inf]} =good= "yo-IMP:kare"
 
 %%%%% subsidiary adjective "ii"
 yo	{[scat adj:sub]} =good=
@@ -79,19 +93,26 @@ dame	{[scat n:an:sub]} =no_good= % 〜て(は)だめ/駄目
 kekkoo	{[scat n:an:sub]} =fine= % 〜てけっこう/結構
 
 %%%% Adverb
+ato	{[scat adv]} =another/more=
 kankan	{[scat adv:onoma]} =furious=	%怒る
 chiratto	{[scat adv:onoma]} =at_a_glance=
 fuwatto	{[scat adv:onoma]} =softly=
 gusarito	{[scat adv:onoma]} =deeply=
+hatashite	{[scat adv]} =sure_enough=
 hirarito	{[scat adv:onoma]} =hirarito=
+hitotabi	{[scat adv]} =once=
+ikken	{[scat adv]} =at_first_sight=
 kachitto	{[scat adv:onoma]} =firmly=
 kakushakuto	{[scat adv:onoma]} =vigorously=
 potsunto	{[scat adv:onoma]} =solitarily=
 sansanto	{[scat adv:onoma]} =brightly=
 sappari	{[scat onoma]} =at_all=
+tabun	{[scat adv]} =in_great_amount= %多分(に)
+tsuide	{[scat adv]} =next= %次いで
 % wh
 donoyooni	{[scat adv:deic:wh]} =how= "dono_yoo_ni"
 donoyoona	{[scat adn:deic:wh]} =what_kind=
+sooitta	{[scat adn:deic:dem]} =like_that= "soo_itta"
 %
 
 aete	{[scat adv]} =daringly=
@@ -224,8 +245,18 @@ kooshita	{[scat adn]} "koo_shita" =like_this=
 aashita	{[scat adn:deic:dem]} "aa_shita" =like_that=
 ikanaru	{[scat adn:deic:wh]} =what_kind=
 
+%%%% adnominal (pnl)
+itaru	{[scat adn]} =all=
+saru	{[scat adn]} =this_last=
+akuru	{[scat adn]} =the_next=
+kitaru	{[scat adn]} =forthcoming=
+
 %%%% Quantifier
 zen'in	{[scat quant]} =all_members= 	% 全員 
+nanihitotsu	{[scat quant]} =nothing=
+soohoo	{[scat quant]} =both_side=
+tomo	{[scat quant]} =both=
+toono	{[scat adn:deic:dem]} =that= %当の
 
 %%%% CONJ
 ga	{[scat conj]} =but=
@@ -273,4 +304,35 @@ tsumori	{[scat smod]} =INTEN= % intentional
 %%%% Interjection
 nanda	{[scat co:i]} =oh= "nan_da"
 
+%%%% onoma
+battari	{[scat onoma]} =unexpectedly=
+bishobisho	{[scat onoma]} =soak_wet=
+bisshori	{[scat onoma]} =soak_wet=
+botabota	{[scat onoma]} =dripping= % adv:onoma を削除?
+burabura	{[scat onoma]} =dangling= % n:vn:onoma を削除?
+burari	{[scat onoma]} =aimlessly=
+doppuri	{[scat onoma]} =totally=
+giragira	{[scat onoma]} =shining= % n:vn:onoma を削除?
+gorogoro	{[scat onoma]} =rolling= % n:vn:onoma を削除?
+gungun	{[scat onoma]} =increasingly= % adv:onoma を削除?
+guruguru	{[scat onoma]} =spinning= % 他のエントリーを削除?
+herahera	{[scat onoma]} =thoughtlessly= % 他のエントリーを削除?
+hissori	{[scat onoma]} =quietly=
+honnori	{[scat onoma]} =slightly=
+hossori	{[scat onoma]} =slender= % n:vn:onoma を削除?
+iraira	{[scat onoma]} =in_a_flet=
+kachikachi	{[scat onoma]} =solidly= % adv:onoma を削除?
+kippari	{[scat onoma]} =diffinitely=
+kunekune	{[scat onoma]} =tortuous=
+meramera	{[scat onoma]} =in_flames=
+omeome	{[scat onoma]} =tamely=
+sekaseka	{[scat onoma]} =restlessly=
+shimijimi	{[scat onoma]} =heartily=
+tsuruntsurun	{[scat onoma]} =slippery=
+unzari	{[scat onoma]} =be_sick_of=
+uzuuzu	{[scat onoma]} =eagarly=
+utsurautsura	{[scat onoma]} % 他のエントリーを削除してもらう
+zukezuke	{[scat onoma]} =bluntly=
+zurari	{[scat onoma]} =in_a_row=
+kitto	{[scat adv:onoma]} =sharply= "kit_to"
 

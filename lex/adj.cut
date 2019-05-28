@@ -16,7 +16,7 @@
 	amazuppa	{[scat adj]} =sweet_sour=	% 甘酸っぱい 
 	ao	{[scat adj]} =blue=	% 青い 
 	ara	{[scat adj]} =rough=	% 荒い 
-	arigata	{[scat adj]} =appreciate=	% ありがたい 有り難い 
+	arigata	{[scat adj]} =appreciated=	% ありがたい 有り難い 
 	asa	{[scat adj]} =shallow=	% 浅い 
 	atarashi	{[scat adj]} =new=	% 新しい 
 	atataka	{[scat adj]} =warm=	% 暖かい 
@@ -210,7 +210,6 @@
 	choooishi	{[scat adj]} =extremely_tasty= "choo_EXTREMELY"	% おいしい 美味しい 
 	okashi	{[scat adj]} =strange=	% おかしい 奇怪しい 
 	okkana	{[scat adj]} =scary=	%
-	okki	{[scat adj:mot]} =big=	% 大きい 
 	omedeta	{[scat adj]} =auspicious=	% おめでたい お:目出度い/お:芽出度い 
 	omo	{[scat adj]} =heavy=	% 重い 
 	omoigakena	{[scat adj]} =by_chance=	% 思いがけない/思い掛けない 
@@ -222,6 +221,7 @@
 	osana	{[scat adj]} =infantile=	% 幼い 
 	oshi	{[scat adj]} =regrettable=	% 惜しい 
 	oso	{[scat adj]} =late=	% 遅い 
+	oso	{[scat adj]} =slow=	% 遅い 
 	osoroshi	{[scat adj]} =terrifying=	% 恐ろしい 
 	otonagena	{[scat adj]} =immature=	% おとなげない/大人気ない 
 	otonashi	{[scat adj]} =obedient=	% おとなしい 大人しい 
@@ -269,6 +269,7 @@
 	tadashi	{[scat adj]} =correct=	% 正しい 
 	taigi	{[scat adj]} =annoying=	% たいぎい 大儀い 
 	taka	{[scat adj]} =high=	% 高い 
+	taka	{[scat adj]} =expensive= 
 	takumashi	{[scat adj]} =robust=	% たくましい 逞しい 
 	tanomoshi	{[scat adj]} =reliable=	% 頼もしい 
 	tanoshi	{[scat adj]} =delightful=	% 楽しい 
