@@ -1212,7 +1212,7 @@
 	tookankaku	{[scat n]} =regular_interval= "too_kankaku"	% 等間隔 
 	kankanderi	{[scat n]} =hot_sunbeams= 
 	kankisen	{[scat n]} =ventilating_fan= 	% 換気扇 
-	 kankookyaku	{[scat n][comp n+n]} =tourist= "kankoo+kyaku" 
+	 kankookyaku	{[scat n][comp n:vn+n]} =tourist= "kankoo+kyaku" 
 	kankoosen	{[scat n]} =sightseeing_ship= "kankoo_sen_SHIP" %観光船
 	kanoosee	{[scat n]} =possibility= %可能性
 	kanransha	{[scat n]} =Ferris_wheel= "kanran_sha_VEHICLE" 	% 観覧車
@@ -1780,7 +1780,7 @@ masaki	{[scat n]} "ma_STRAIGHT_saki" =first= %真先
 	mihon	{[scat n]} =sample= 	% 見本 
 	mijingiri	{[scat n]} =finely_chopped=	%みじん切り みじんぎり 微塵切り
 	mikan	{[scat n]} =orange= 	% みかん 蜜柑 
-	mikata	{[scat n]} =friend=	% 味方 
+	mikata	{[scat n]} =ally=	% 味方 
 	miken	{[scat n]} =forehead=	% 眉間
 	miki	{[scat n]} =tree_trunk=	% 幹 
 	mikoshi	{[scat n]} =portable_shrine= 	% みこし 御 輿/ 神 輿 
