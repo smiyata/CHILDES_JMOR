@@ -892,7 +892,6 @@
 	ieji	{[scat n]} =way_back_home= 	% 家路
 	iejuu	{[scat n]} "ie_juu_ALLTHROUGH" =all_over_house= 	% 家 
 	iga	{[scat n]} =burr= 	% 毬 イガ 
-	igai	{[scat n]} =except= 	% 以外 
 	ika	{[scat n]} =below=	% 以下 
 	ika	{[scat n]} =squid=	% いか 烏賊 
 	ikada	{[scat n]} =raft= %Floss

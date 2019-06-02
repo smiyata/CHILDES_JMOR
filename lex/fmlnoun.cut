@@ -14,7 +14,10 @@ hazu	{[scat n:fml]} =supposed_to=
 hoka	{[scat n:fml]} =other_than=
 hodo	{[scat n:fml]} =extent=
 hoo	{[scat n:fml]} =side=
+igai	{[scat n:fml]} =except= 
 ijoo	{[scat n:fml]} =more_than=
+ika	{[scat n:fml]} =less_than= % 以下
+inai	{[scat n:fml]} =within= % 以内
 ippoo	{[scat n:fml]} =on_the_one_hand=
 kagiri	{[scat n:fml]} =as_long_as=
 kawari	{[scat n:fml]} =instead_of=

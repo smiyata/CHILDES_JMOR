@@ -38,10 +38,12 @@ dai	{[scat pfx] [pcat num:cl]} "dai_ORD"	% 第
 %fu_NOT_ 不 
 %gen_CURRENT_ 現
 %fuku_SUB_ 副 
-%hi_NOT_ 非 
+%hi_NEG_ 非 
 %hon_ORIG_ 本 
+%jun_SEMI 準
 %ko_SMALL_ 小 
 %kon_THIS_ 今 
+% kyuu_OLD_ 旧
 %mi_NOT_YET_ 未 
 %ma_STRAIGHT_ 真 
 %maru_COMPLETELY_ 丸 
@@ -81,22 +83,26 @@ yoo	{[scat nsfx]} "yoo_FOR"
 %ra	{[scat nsfx]} "ra_PL" 		%listed in the lexicon
 
 %%attached sufixes (listed the lexicon) n|doobutsu_en_GARDEN=zoo ########
+% _betsu_RESPECTIVELY
 % _bu_PART 部
+% _bu_DIVISION 部
 % _bun_PORTION 分
 % _butsu_THING 物
 % _chi_PLACE 地
+% _choo_HEAD 長
 % _chuu_WHILE 中
-% _juu_ALLTHROUGH 中
 % _dai_FEE 代
 % _choo_HEAD 長
 % _choo_BINDER 帳
 % _choo_AGENCY 庁
 % _dai_PLATFORM 台
+% _do_DEGREE
 % _doo_HALL 堂
 % _en_GARDEN 園
 % _en_INFLAMM 炎
 % _fu_LADY 婦
 % _fuu_STYLE 風
+% _gata_SHAPE
 % _gawa_SIDE 側
 % _go_AFTER 後
 % _go_LANGUAGE 語
@@ -104,12 +110,14 @@ yoo	{[scat nsfx]} "yoo_FOR"
 % _gun_ARMY 軍
 % _ha_SCHOOL 派
 % _hi_DAY 日
-% _hin_WARE 品
+% _hin_GOODS
+% _in_MEMBER 員
 % _in_PERSON 員
 % _ji_CHILD 児
+% _jin_PERSON 人
 % _jo_PLACE 所
 % _joo_UP 上
-% _sho_PLACE 所
+% _juu_ALLTHROUGH 中
 % _joo_LETTER 状
 % _joo_CONCERNING 上
 % _joo_SPACE 場
@@ -119,41 +127,55 @@ yoo	{[scat nsfx]} "yoo_FOR"
 % _ka_PERSON 家
 % _ka_COURSE 科
 % _kata_SHAPE 型
+% _kata_WAY_OF
 % _kan_BLDG 館
 % _kan_OFFICIAL 官
+% _kan_BETWEEN  間
 % _kee_FORM 形
 % _kee_TYPE 型
 % _ken_TICKET 券
 % _ki_MACHINE 機
 % _ki_INSTR 器
 % _ki_PERIOD 期
+% _kin_MONEY
+% _koku_COUNTRY
 % _kyoku_BUREAU 局
-% ma_DEVIL 魔
+% _kyoo_RELIGION
+% _ma_DEVIL 魔
 % _men_SIDE 面
 % _nai_WITHIN 内
-% _ryoku_STRENGTH 力
+% _ryoku_POWER 力
 % _ryoo_FEE 料
 % _saku_WORK 作
 % _san_PRODUCT 産
 % _see_STUDENT 生
-% _see_MADEOF 製
+% _see_MADE 製
+% _see_NATURE 性
 % _sen_SHIP 船
 % _sen_LINE" 線
+% _sen_MATCH
 % _sha_PERSON 者
 % _sha_VEHICLE 車
-% _shi_PROFESSIONAL 士 
+% _shi_PROFESSIONAL 師 士
 % _shi_MR 氏
+% _shi_HISTORY  史
 % _shiki_CEREMONY 式
 % _shitsu_ROOM 室
 % _sho_BOOK 書
+% _sho_LETTER
 % _sho_OFFICE 署 
+% _sho_PLACE 所
 % _shoku_POST 職
 % _shoku_FOOD 食
+% _shoku_COLOR
 % _shoo_DISEASE 症
 % _shu_WORKER 手
 % _shu_ALC 酒
+% _suu_NUMBER
 % _tee_BOAT 艇 
 % _ten_SHOP 店
+% _too_PARTY
+% _ya_SHOP 
 % _yoo_FOR 用
 % _zai_MATERIAL 材
 % _zee_TAX 税
