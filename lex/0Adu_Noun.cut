@@ -130,7 +130,7 @@ chinretsuichi	{[scat n][comp n:vn+n]} =display_position= "chinretsu+ichi"
 chiri	{[scat n]} =topography=
 chisee	{[scat n]} =intelligence= % 知性
 chishiki	{[scat n]} =knowledge=
-chitekikookishin {[scat n][comp n:an+n]} =intellectual_curiosity= "chi_teki_LIKE+kookishin"
+chitekikookishin {[scat n][comp n:an+n]} =intellectual_curiosity= "chi_teki_ANZR+kookishin"
 choku	{[scat n]} =command=
 choochoo	{[scat n]} =town_mayer=
 choohen		 {[scat n]} =long_piece=
@@ -566,6 +566,7 @@ juuyookadai	{[scat n][comp n:an+n]} =important_issue= "juuyoo+kadai" % 重要課
 juuyoomondai	{[scat n][comp n:an+n]} =important_issue= "juuyoo+mondai" % 重要問題
 juuyoomukeebunkazai	{[scat n][comp n:an+n:an+n]} =important_intangible_cultural_property= "juuyoo+mukee+bunka_zai_PROPERTY" % 重要無形文化財
 juuyoosankoonin	{[scat n][comp n:an+n]} =material_witness= "juuyoo+sankoonin" % 重要参考人
+juuyoosa	{[scat n]} =importance= "juuyoo-sa_NLZR"
 juuyoosee	{[scat n]} =importance= "juuyoo_see_NATURE" % 重要性
 juuyooshisetsu	{[scat n][comp n:an+n]} =important_institution= "juuyoo+shisetsu" % 重要施設
 juuyooshorui	{[scat n][comp n:an+n]} =important_document= "juuyoo+shorui" % 重要書類
@@ -1025,7 +1026,7 @@ rakurakumochiieseekatsu	{[scat n][comp n:an+n:an+n+n]} "raku+raku+mochiie+seekat
 rakushoo	{[scat n]} =easily_win=
 randori	{[scat n]} =randori=
 reenen	{[scat n]} =average_year=
-reetekigenshoo	{[scat n][comp n:an+n]} "ree_teki_LIKE+genshoo" =psychic_phenomenon=
+reetekigenshoo	{[scat n][comp n:an+n]} "ree_teki_ANZR+genshoo" =psychic_phenomenon=
 reetoosha	{[scat n]} =refrigerate= "reetoo_sha_VEHICLE" % 冷凍車
 rekishi	{[scat n]} =history=
 rekishisee	{[scat n]} =historicity= "rekishi_see_NATURE" % 歴史性
@@ -1570,27 +1571,27 @@ Josefu__cdot__joosutaa	{[scat n:prop]} =Joseph_Joestar=
 Ken'ichi	{[scat n:prop]} =Ken'ichi=
 San'yoodenkibooeki	{[scat n:prop]} =San'yoo_electric_and_trading_corporation= "San'yoo_denki_booeki" 
 Zennihonmin'iren		{[scat n:prop]} =Japan_Federation_of_Democratic_Medical_Institutions= "Zennihon_min'iren"
+
 %%%% Adjectival Noun
-akeppiroge	{[scat n:an]} =frank=
-an'i	{[scat n:an]} =easy=
-anteeteki	{[scat n:an]} =stable= "antee_teki_LIKE" % 安定的
+aan'i	{[scat n:an]} =easy=
+anteeteki	{[scat n:an]}  =stable=  "antee-teki_ANZR" % 安定的
 arata	{[scat n:an]} =new=
 arawa           {[scat n:an]}       =exposed=       % 露わだ
-attooteki	{[scat n:an]} =overwhelming= "attoo_teki_LIKE" % 圧倒的
-bapponteki	{[scat n:an]} =drastic= "bappon_teki_LIKE" % 抜本的
-bubunteki	{[scat n:an]} =partial= "bubun_teki_LIKE" % 部分的
-bungakuteki	{[scat n:an]} =literary= "bungaku_teki_LIKE" % 文学的
-bunkateki	{[scat n:an]} =cultural= "bunka_teki_LIKE" % 文化的
-chimeeteki	{[scat n:an]} =fatal= "chimee_teki_LIKE" % 致命的
-chiriteki	{[scat n:an]} =geographical= "chiri_teki_LIKE" % 地理的
-chiteki	{[scat n:an]} =intellectual= "chi_teki_LIKE"
-choojinteki	{[scat n:an]} =superhuman= "choojin_teki_LIKE"
-chookiteki	{[scat n:an]} =long_term= "chooki_teki_LIKE"
-daihyooteki	{[scat n:an]} =typical= "daihyoo_teki_LIKE"
+attooteki	{[scat n:an]} =overwhelming= "attoo_teki_ANZR" % 圧倒的
+bapponteki	{[scat n:an]}  =drastic=  "bappon-teki_ANZR" % 抜本的
+bubunteki	{[scat n:an]}  =partial=  "bubun-teki_ANZR" % 部分的
+bungakuteki	{[scat n:an]} =literary= "bungaku_teki_ANZR" % 文学的
+bunkateki	{[scat n:an]}  =cultural=  "bunka-teki_ANZR" % 文化的
+chimeeteki	{[scat n:an]} =fatal= "chimee_teki_ANZR" % 致命的
+chiriteki	{[scat n:an]}  =geographical=  "chiri-teki_ANZR" % 地理的
+chiteki	{[scat n:an]} =intellectual= "chi-teki_ANZR"
+choojinteki	{[scat n:an]} =superhuman= "choojin_teki_ANZR"
+chookiteki	{[scat n:an]} =long_term= "chooki-teki_ANZR"
+daihyooteki	{[scat n:an]} =typical= "daihyoo_teki_ANZR"
 daikibo	{[scat n:an]} =large_scale= % 大規模
 daishoosamazama	{[scat n:an]} =various= "daishoo_samazama"
-dankaiteki	{[scat n:an]} =phased= "dankai_teki_LIKE" % 段階的
-dentooteki	{[scat n:an]} =traditional= "dentoo_teki_LIKE"
+dankaiteki	{[scat n:an]}  =phased=  "dankai-teki_ANZR" % 段階的
+dentooteki	{[scat n:an]} =traditional= "dentoo-teki_ANZR"
 eekyuu	{[scat n:an]} =everlasting=
 fuantee	{[scat n:an]} =unstable= "fu_NEG_antee"
 fukigen	{[scat n:an]} =in_bad_mood= "fu_NEG_kigen"
@@ -1603,94 +1604,102 @@ fushiawase	{[scat n:an]} =misfortune= "fu_NEG_shiawase"
 futsugoo	{[scat n:an]} =inconvenient= "fu_tsugoo"
 futsuu	{[scat n:an]} =normal=
 fuyoo	{[scat n:an]} =not_needed= "fu_NEG_yoo"
+gainenteki	{[scat n:an]} =conceptual= "gainen-teki_ANZR" % 概念的
 gasatsu	{[scat n:an]} =crude=
-geejutsuteki	{[scat n:an]} =artistic= "geejutsu_teki_LIKE" % 芸術的
-genjitsuteki	{[scat n:an]} =realistic= "genjitsu_teki_LIKE"
-genshiteki	{[scat n:an]} =primitive= "genshi_teki_LIKE"
-gooriteki	{[scat n:an]} =rational= "goori_teki_LIKE" % 合理的
-hanshateki	{[scat n:an]} =reflexive= "hansha_teki_LIKE" % 反射的
+geejutsuteki	{[scat n:an]} =artistic= "geejutsu_teki_ANZR" % 芸術的
+genjitsuteki	{[scat n:an]} =realistic= "genjitsu_teki_ANZR"
+genshiteki	{[scat n:an]} =primitive= "genshi-teki_ANZR"
+gooriteki	{[scat n:an]} =rational=  "goori-teki_ANZR" % 合理的
+hanshateki	{[scat n:an]} =reflexive= "hansha_teki_ANZR" % 反射的
 haruka	{[scat n:an]} =remote=
-heekinteki	{[scat n:an]} =average= "heekin_teki_LIKE" % 平均的
-heesateki	{[scat n:an]} =insular= "heesa_teki_LIKE" % 閉鎖的
+heekinteki	{[scat n:an]}  =average=  "heekin-teki_ANZR" % 平均的
+heesateki	{[scat n:an]} =insular= "heesa_teki_ANZR" % 閉鎖的
 herushii {[scat n:an]} =healthy= %ヘルシー
 hijoo	{[scat n:an]} =extreme= % 非常な(暑さ)
 himpan	{[scat n:an]} =frequently=
 hisoka	{[scat n:an]} =stealthy=
-hiteeteki	{[scat n:an]} =negative= "hitee_teki_LIKE" % 否定的
-hiyakuteki	{[scat n:an]} =rapid= "hiyaku_teki_LIKE" % 飛躍的
-honnooteki	{[scat n:an]} =instinctive= "honnoo_teki_LIKE" % 本能的
-honshitsuteki	{[scat n:an]} =essential= "honshitsu_teki_LIKE"
+hiteeteki	{[scat n:an]}  =negative=  "hitee-teki_ANZR" % 否定的
+hiyakuteki	{[scat n:an]} =rapid= "hiyaku_teki_ANZR" % 飛躍的
+honnooteki	{[scat n:an]}  =instinctive=  "honnoo-teki_ANZR" % 本能的
+honshitsuteki	{[scat n:an]} =essential= "honshitsu-teki_ANZR"
 hontoo	{[scat n:an]} =real=
-hooteki	{[scat n:an]} =legal= "hoo_teki_LIKE" % 法的
-hyoojunteki	{[scat n:an]} =standard= "hyoojun_teki_LIKE"
-ichijiteki	{[scat n:an]} =temporary= "ichiji_teki_LIKE" % 一時的
-ippanteki	{[scat n:an]} =general= "ippan_teki_LIKE"
-ippooteki	{[scat n:an]} =one_sided= "ippoo_teki_LIKE" % 一方的
-iyokuteki	{[scat n:an]} =enthusiastic= "iyoku_teki_LIKE"
-jidooteki	{[scat n:an]} =automatic= "jidoo_teki_LIKE" % 自動的
-jihatsuteki	{[scat n:an]} =spontaneous= "jihatsu_teki_LIKE"
-jikanteki	{[scat n:an]} =timewise= "jikan_teki_LIKE" % 時間的
-jisshitsuteki	{[scat n:an]} =substantial= "jisshitsu_teki_LIKE"
+hoofu	{[scat n:an]} =rich= 
+hooteki	{[scat n:an]}  =legal=  "hoo-teki_ANZR" % 法的
+hyoojunteki	{[scat n:an]} =standard= "hyoojun-teki_ANZR"
+ichijiteki	{[scat n:an]}  =temporary=  "ichiji-teki_ANZR" % 一時的
+ippanteki	{[scat n:an]} =general= "ippan-teki_ANZR"
+ippooteki	{[scat n:an]}  =one_sided=  "ippoo-teki_ANZR" % 一方的
+iyokuteki	{[scat n:an]} =enthusiastic= "iyoku-teki_ANZR"
+jidooteki	{[scat n:an]}  =automatic=  "jidoo-teki_ANZR" % 自動的
+jihatsuteki	{[scat n:an]} =spontaneous= "jihatsu-teki_ANZR"
+jikanteki	{[scat n:an]}  =timewise=  "jikan-teki_ANZR" % 時間的
+jisshitsuteki	{[scat n:an]} =substantial= "jisshitsu-teki_ANZR"
+jiyuukimama	{[scat n:an]} =unfettered=
 junchoo	{[scat n:an]} =smooth=
-juutenteki	{[scat n:an]} =prioritized= "juuten_teki_LIKE"
+junsui	{[scat n:ad]} =pure=
+juutenteki	{[scat n:an]} =prioritized= "juuten-teki_ANZR"
 juuyoo	{[scat n:an]} =important=
- juuyoosa	{[scat n]} =importance= "juuyoo-sa_NLZR"
-kagakuteki	{[scat n:an]} =scientific= "kagaku_teki_LIKE" % 科学的
-kaimetsuteki	{[scat n:an]} =catastrophic= "kaimetsu_teki_LIKE" % 壊滅的
-kakushinteki	{[scat n:an]} =innovative= "kakushin_teki_LIKE" % 革新的
-kandooteki	{[scat n:an]} =touching= "kandoo_teki_LIKE" % 感動的
+kagakuteki	{[scat n:an]}  =scientific=  "kagaku-teki_ANZR" % 科学的
+kaimetsuteki	{[scat n:an]} =catastrophic= "kaimetsu_teki_ANZR" % 壊滅的
+kakushinteki	{[scat n:an]}  =innovative=  "kakushin-teki_ANZR" % 革新的
+kandooteki	{[scat n:an]} =touching= "kandoo_teki_ANZR" % 感動的
 kanjin	 {[scat n:an]} =crucial=
+kanoo	{[scat n:an]} =possible=
 kappatsu	{[scat n:an]} =active=
-keekakuteki	{[scat n:an]} =planned= "keekaku_teki_LIKE" % 計画的
-keezaiteki	{[scat n:an]} =economic= "keezai_teki_LIKE"
-keezokuteki	{[scat n:an]} =continuous= "keezoku_teki_LIKE" % 継続的
-kekkateki	{[scat n:an]} =concerning_the_result= "kekka_teki_LIKE" % 結果的
+keekakuteki	{[scat n:an]}  =planned=  "keekaku-teki_ANZR" % 計画的
+keezaiteki	{[scat n:an]} =economic= "keezai_teki_ANZR"
+keezokuteki	{[scat n:an]} =continuous= "keezoku_teki_ANZR" % 継続的
+kekkateki	{[scat n:an]}  =concerning_the_result=  "kekka-teki_ANZR" % 結果的
 kenage	{[scat n:an]} =heroic=
 kenkoo	{[scat n:an]} =helthy=
 kenkoosoo	{[scat n:an]} =helthy= "kenkoo-soo_SEEMING"
 kenkyo	{[scat n:an]} =modest=
-kenzaiteki	{[scat n:an]} =overt= "kenzai_teki_LIKE" % 顕在的
+kenzaiteki	{[scat n:an]}  =overt=  "kenzai-teki_ANZR" % 顕在的
 kenzen          {[scat n:an]}       =wholesome=
-ketteeteki	{[scat n:an]} =decisive= "kettee_teki_LIKE"
+keppiroge	{[scat n:an]} =frank=
+ketteeteki	{[scat n:an]} =decisive= "kettee_teki_ANZR"
 kichi	{[scat n:an]} =known= % 【既知】,n でなく
 kigaru	{[scat n:an]} =lighthearted=
-kihonteki	{[scat n:an]} =basic= "kihon_teki_LIKE"
+kihonteki	{[scat n:an]} =basic= "kihon_teki_ANZR"
 kikai	 {[scat n:an]} =strange=
-kikaiteki	{[scat n:an]} =mechanical= "kikai_teki_LIKE" % 機械的
-kindaiteki	{[scat n:an]} =modern= "kindai_teki_LIKE" % 近代的
+kikaiteki	{[scat n:an]}  =mechanical=  "kikai-teki_ANZR" % 機械的
+kindaiteki	{[scat n:an]} =modern= "kindai_teki_ANZR" % 近代的
 kiraku	{[scat n:an]} =carefree=
-kisoteki	{[scat n:an]} =basic= "kiso_teki_LIKE" % 基礎的
+kisoteki	{[scat n:an]} =basic= "kiso_teki_ANZR" % 基礎的
 kogara	{[scat n:an]} =small= % 小柄
-kojinteki	{[scat n:an]} =personal= "kojin_teki_LIKE"
+kojinteki	{[scat n:an]} =personal= "kojin_teki_ANZR"
 kokumee	{[scat n:an]} =detailed=
-kokusaiteki	{[scat n:an]} =international= "kokusai_teki_LIKE"
+kokusaiteki	{[scat n:an]} =international= "kokusai-teki_ANZR"
 komaka	{[scat n:an]} =detailed=
 komame          {[scat n:an]}       =diligent=
-komponteki	{[scat n:an]} =essential= "kompon_teki_LIKE"
+komponteki	{[scat n:an]} =essential= "kompon-teki_ANZR"
 koofuku	{[scat n:an]} =happy=
-kooiteki	{[scat n:an]} =favourable= "kooi_teki_LIKE"
-kookateki	{[scat n:an]} =effective= "kooka_teki_LIKE"
+kooiteki	{[scat n:an]} =favourable= "kooi_teki_ANZR"
+kookateki	{[scat n:an]} =effective= "kooka-teki_ANZR"
 kookatsu	{[scat n:an]} =sly= % 狡猾げ
-kooritsuteki	{[scat n:an]} =efficient= "kooritsu_teki_LIKE"
-kooteeteki	{[scat n:an]} =affirmative= "kootee_teki_LIKE" % 肯定的
+kooritsuteki	{[scat n:an]} =efficient= "kooritsu_teki_ANZR"
+kooteeteki	{[scat n:an]} =affirmative= "kootee_teki_ANZR" % 肯定的
 korishoo	{[scat n:an]} =perfectionist= % 凝り性
 kuria	{[scat n:an]} =clear=
 kyooretsu	{[scat n:an]} =intense=
-maemiki	{[scat n:an]} =positive=
+maemuki	{[scat n:an]} =positive= % 
 maji	{[scat n:an]} =serious=
-makkuro	{[scat n:an]} =pitch_black=
-massugu	{[scat n:an]} =straight=
-meehaku	{[scat n:an]} =clear=
+makka {[scat n:an]} =deep_red= "ma_TRUE_red" %真っ赤
+makkuro	{[scat n:an]} =pitch_black= "ma_TRUE_kuro" %真っ黒
+mammaru {[scat n:an]} =perfect_circle= "ma_TRUE_circle" %真ん丸
+mapputatsu	{[scat n:an]} =right_in_half= "ma_TRUE_futatsu" %真っ二つ
+massao {[scat n:an]} =deep_blue= "ma_TRUE_blue" %真っ青
+massao {[scat n:an]} =pale= "ma_TRUE_blue" %真っ青
+massugu	{[scat n:an]} =straight= "ma_TRUE_sugu" %真っ直ぐ
 meekaku         {[scat n:an]}       =definite=
 metta	{[scat n:an]} =rash= % 滅多
 mikaiketsu	{[scat n:an]} =unresolved= "mi_NEG_kaiketsu"
-miryokuteki	{[scat n:an]} =attractive= "miryoku_teki_LIKE"
+miryokuteki	{[scat n:an]} =attractive= "miryoku-teki_ANZR"
 monogusa	{[scat n:an]} =lazy=
-naibuteki	{[scat n:an]} =internal= "naibu_teki_LIKE"
-naibuteki	{[scat n:an]} =internal= "naibu_teki_LIKE"
-nihonteki	{[scat n:an]} =Japan= "nihon_teki_LIKE"
-nikutaiteki	{[scat n:an]} =physical= "nikutai_teki_LIKE" % 肉体的
-ningenteki	{[scat n:an]} =human_like= "ningen_teki_LIKE" % 人間的
+naibuteki	{[scat n:an]} =internal= "naibu-teki_ANZR"
+nihonteki	{[scat n:an]} =Japan= "nihon_teki_ANZR"
+nikutaiteki	{[scat n:an]} =physical= "nikutai_teki_ANZR" % 肉体的
+ningenteki	{[scat n:an]}  =human_like=  "ningen-teki_ANZR" % 人間的
 niwaka	{[scat n:an]} =sudden=
 noo_puroburemu	{[scat n:an]} =no_problem=
 nookoo          {[scat n:an]}       =dense=
@@ -1701,57 +1710,65 @@ odayaka	{[scat n:an]} =mild=
 onnaji	{[scat n:an]} =same= "onaji"
 oogara	{[scat n:an]} =big= % 大柄
 oohaba	{[scat n:an]} =big= % 大幅 
-reegaiteki	{[scat n:an]} =exceptional= "reegai_teki_LIKE" % 例外的
-rekishiteki	{[scat n:an]} =historical= "rekishi_teki_LIKE"
-richiteki	{[scat n:an]} =intellectual= "richi_teki_LIKE" % 理智的
-rironteki	{[scat n:an]} =theoretical= "riron_teki_LIKE" % 理論的
-risooteki	{[scat n:an]} =ideal= "risoo_teki_LIKE" % 理想的
-ronriteki	{[scat n:an]} =logical= "ronri_teki_LIKE" % 論理的
+reegaiteki	{[scat n:an]} =exceptional= "reegai_teki_ANZR" % 例外的
+rekishiteki	{[scat n:an]} =historical= "rekishi_teki_ANZR"
+richiteki	{[scat n:an]} =intellectual= "richi_teki_ANZR" % 理智的
+rironteki	{[scat n:an]}  =theoretical=  "riron-teki_ANZR" % 理論的
+risooteki	{[scat n:an]} =ideal= "risoo_teki_ANZR" % 理想的
+ronriteki	{[scat n:an]}  =logical=  "ronri-teki_ANZR" % 論理的
 saidai	{[scat n:an]} =greatest=
-saishuuteki	{[scat n:an]} =final= "saishuu_teki_LIKE"
+saishuuteki	{[scat n:an]} =final= "saishuu-teki_ANZR"
 saiwai	{[scat n:an]} =fortunate=
 sasayaka	{[scat n:an]} =slight=
-seejiteki	{[scat n:an]} =political= "seeji_teki_LIKE" % 政治的
-seeryokuteki	{[scat n:an]} =energetic= "seeryoku_teki_LIKE"
-seesanteki	{[scat n:an]} =productive= "seesan_teki_LIKE"
+seejiteki	{[scat n:an]} =political= "seeji_teki_ANZR" % 政治的
+seeryokuteki	{[scat n:an]} =energetic= "seeryoku_teki_ANZR"
+seesanteki	{[scat n:an]} =productive= "seesan-teki_ANZR"
 seeshiki	{[scat n:an]} =official=
-seeshinteki	{[scat n:an]} =mental= "seeshin_teki_LIKE"
-sekaiteki	{[scat n:an]} =global= "sekai_teki_LIKE"
-sekkyokuteki	{[scat n:an]} =active= "sekkyoku_teki_LIKE"
+seeshinteki	{[scat n:an]} =mental= "seeshin-teki_ANZR"
+seeteki	{[scat n:an]} =sexial= "see-teki_ANZR" % 性的
+sekaiteki	{[scat n:an]} =global= "sekai-teki_ANZR"
+sekkyokuteki	{[scat n:an]} =active= "sekkyoku_teki_ANZR"
 sensai	{[scat n:an]} =delicate=
 seraresoo {[scat n:an]} =do= "se-PASS-soo_SEEMING"
-shajitsuteki	{[scat n:an]} =naturalistic= "shajitsu_teki_LIKE" % 写実的
-shikakuteki	{[scat n:an]} =visual= "shikaku_teki_LIKE" % 視覚的
+shajitsuteki	{[scat n:an]} =naturalistic= "shajitsu_teki_ANZR" % 写実的
+shikakuteki	{[scat n:an]}  =visual=  "shikaku-teki_ANZR" % 視覚的
 shimpai	{[scat n:an]} =anxious=
 shimpaisoo	{[scat n:an]} =anxious= "shimpai-soo_SEEMING"
-shimpiteki	{[scat n:an]} =mysterious= "shimpi_teki_LIKE"
+shimpiteki	{[scat n:an]} =mysterious= "shimpi_teki_ANZR"
 shinkoku	{[scat n:an]} =serious=
-shinriteki	{[scat n:an]} =mental= "shinri_teki_LIKE" % 心理的
+shinriteki	{[scat n:an]} =mental= "shinri_teki_ANZR" % 心理的
 shitsuyoo	{[scat n:an]} =persistent=
-shookyokuteki	{[scat n:an]} =inactive= "shookyoku_teki_LIKE"
-shooraiteki	{[scat n:an]} =future= "shoorai_teki_LIKE" % 将来的
-shuushooteki	{[scat n:an]} =abstract= "shuushoo_teki_LIKE" % 抽象的
-soogooteki	{[scat n:an]} =comprehensive= "soogoo_teki_LIKE"
+shoochooteki	{[scat n:an]} =symbolic= "shoochoo-teki_ANZR" % 象徴的
+shookyokuteki	{[scat n:an]} =inactive= "shookyoku_teki_ANZR"
+shooraiteki	{[scat n:an]}  =future=  "shoorai-teki_ANZR" % 将来的
+shooraiteki	{[scat n:an]} =future= "shoorai_teki_ANZR" % 将来的
+shuukenteki	{[scat n:an]} =centralization_of_power= "shuuken-teki_ANZR" % 集権的
+shuushooteki	{[scat n:an]} =abstract= "shuushoo_teki_ANZR" % 抽象的
+soogooteki	{[scat n:an]} =comprehensive= "soogoo_teki_ANZR"
 sookyuu	{[scat n:an]} =urgent=
-sooshokuteki	{[scat n:an]} =decorative= "sooshoku_teki_LIKE" % 装飾的
-sootaiteki	{[scat n:an]} =relative= "sootai_teki_LIKE" % 相対的
-soozooteki	{[scat n:an]} =creative= "soozoo_teki_LIKE" % 創造的
+sooshokuteki	{[scat n:an]} =decorative= "sooshoku_teki_ANZR" % 装飾的
+sootaiteki	{[scat n:an]}  =relative=  "sootai-teki_ANZR" % 相対的
+soozooteki	{[scat n:an]} =creative= "soozoo_teki_ANZR" % 創造的
 suihee	{[scat n:an]} =horizontal=
-taikyokuteki	{[scat n:an]} =overwhelming= "taikyoku_teki_LIKE" % 大局的
-taishooteki	{[scat n:an]} =contrastive= "taishoo_teki_LIKE" % 対照的
+taikyokuteki	{[scat n:an]} =overwhelming= "taikyoku_teki_ANZR" % 大局的
+taishooteki	{[scat n:an]} =contrastive= "taishoo_teki_ANZR" % 対照的
 teechaku_kanoo	{[scat n:an]} =anchoring_capable=
 teehakukanoo	{[scat n:an][comp n:vn+n:an]} =anchoring_capable= "teehaku_kanoo"
-teekiteki	{[scat n:an]} =regular= "teeki_teki_LIKE"
+teekiteki	{[scat n:an]} =regular= "teeki-teki_ANZR"
+tekikaku	{[scat n:ad]} =precise=
 tekitoo         {[scat n:an]}       =trifling=
-tetsugakuteki	{[scat n:an]} =philosophical= "tetsugaku_teki_LIKE" % 哲学的
-tetteeteki	{[scat n:an]} =thoroughly= "tettee_teki_LIKE"
+tetsugakuteki	{[scat n:an]} =philosophical= "tetsugaku_teki_ANZR" % 哲学的
+tetteeteki	{[scat n:an]} =thoroughly= "tettee_teki_ANZR"
 tokui	{[scat n:an]} =proud= % 得意
 tokushu	{[scat n:an]} =special=
 wazuka	{[scat n:an]} =slight=
+yaban	{[scat n:an]} =barbarous= % 野蛮
 yakki {[scat n:an]} =wrought_up= % 躍起
-yashinteki	{[scat n:an]} =ambitious= "yashin_teki_LIKE" % 野心的
+yashinteki	{[scat n:an]}  =ambitious=  "yashin-teki_ANZR" % 野心的
 yasuraka	{[scat n:an]} =peaceful=		
-yuniiku	{[scat n:an]} =unique=
+yokobai	{[scat n:an]} =flat= %横ばい
+yoochi	{[scat n:an]} =crude=
+yooi	{[scat n:an]} =easy= % 容易
 yuniiku	{[scat n:an]} =unique=
 yutaka	 {[scat n:an]} =rich=
 yuufuku	{[scat n:an]} =rich=
@@ -1759,12 +1776,12 @@ yuukoo	{[scat n:an]} =valid=
 yuuryoku	{[scat n:an]} =weighty=
 yuuyoo	{[scat n:an]} =useful=
 zeetaku	{[scat n:an]} =luxurious=
-zemmenteki	{[scat n:an]} =fullscale= "zemmen_teki_LIKE"
-zenkokuteki	{[scat n:an]} =nationwide= "zenkoku_teki_LIKE"
+zemmenteki	{[scat n:an]} =fullscale= "zemmen-teki_ANZR"
+zenkokuteki	{[scat n:an]} =nationwide= "zenkoku-teki_ANZR"
 zenryoku        {[scat n:an]}       =in_ones_all_might=
-zensekaiteki	{[scat n:an]} =global= "zensekai_teki_LIKE"
-zentaiteki	{[scat n:an]} =overall= "zentai_teki_LIKE" % 全体的
-zetsubooteki	{[scat n:an]} =desperate= "zetsuboo_teki_LIKE"
+zensekaiteki	{[scat n:an]} =global= "zensekai_teki_ANZR"
+zentaiteki	{[scat n:an]}  =overall=  "zentai-teki_ANZR" % 全体的
+zetsubooteki	{[scat n:an]} =desperate= "zetsuboo-teki_ANZR"
 
 %%%% Verbal Noun
 adauchi	{[scat n:vn]}	=vengeance=	%	あだ討ちする
