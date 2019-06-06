@@ -37,6 +37,7 @@ dai	{[scat pfx] [pcat num:cl]} "dai_ORD"	% 第
 %bu_NOT_ 不 
 %fu_NOT_ 不 
 %gen_CURRENT_ 現
+%gen_INCUBENT_ 
 %fuku_SUB_ 副 
 %hi_NEG_ 非 
 %hon_ORIG_ 本 
@@ -59,7 +60,10 @@ dai	{[scat pfx] [pcat num:cl]} "dai_ORD"	% 第
 %shoo_FEW_ 少
 %soo_GENERAL_ 総 
 %tee_LOW_ 低
-%too_THIS_ 当
+%too_THIS_  当
+%yaku_ABOUT_ 約
+%zen_PREVIOUS_ 前
+
 %ryoo_BOTH_ 両 quant
 %mai_EVERY_ 毎 quant
 
@@ -102,6 +106,7 @@ yoo	{[scat nsfx]} "yoo_FOR"
 % _en_INFLAMM 炎
 % _fu_LADY 婦
 % _fuu_STYLE 風
+% _gata_PL
 % _gata_SHAPE
 % _gawa_SIDE 側
 % _go_AFTER 後
@@ -172,6 +177,7 @@ yoo	{[scat nsfx]} "yoo_FOR"
 % _shu_WORKER 手
 % _shu_ALC 酒
 % _suu_NUMBER
+% _tachi_PL
 % _tee_BOAT 艇 
 % _ten_SHOP 店
 % _too_PARTY

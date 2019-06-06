@@ -1603,6 +1603,7 @@
 	kusahara	{[scat n]} =grassy_plain= 	% 草原 
 	kusappara	{[scat n]} =grassy_plain= "kusahara"	% 草原 
 	kusari	{[scat n]} =chain=	% 鎖 
+	kuse	{[scat n]} =habit=	% 癖
 	kushi	{[scat n]} =comb=	% くし 櫛 
 	kuso	{[scat n]} =shit_CLQ= 	% くそ 糞 
 	kusunoki	{[scat n]} =camphor_tree= 	% クスノキ 楠木 楠 

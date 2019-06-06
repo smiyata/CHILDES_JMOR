@@ -25,7 +25,6 @@ juubun	{[scat quant]} =enough=	% quant juubun kangaerareru ; ano kyoku wa juubun
 	kazuooku	{[scat quant]} "kazu_ooku" =many=	%数多く
 kekkoo	{[scat quant]} =quite_much= % gohan kekkoo tabeteru = % COMPARE kekkoo	{[scat adv]} =quite= kekkoo ookute
 	mina	{[scat quant]} =all=	%皆 みな
-	minasan	{[scat n:deic:prs]} =all_HON= "mina-san"	%皆 みな
 	minna	{[scat quant]} "mina" =all=	%みんな
 ookata	{[scat quant]} =mostly=	% 大方 おおかた
 	ooku	{[scat quant]} =many=	%多く
@@ -54,9 +53,9 @@ maiban	{[scat quant]} "mai_EVERY_ban" =evening= 	% 毎晩
 	maikai	{[scat quant]} "mai_EVERY_kai" =every_time= 	% 毎回
 	maishuu	{[scat quant]} "mai_EVERY_shuu" =every_week= 	% 毎週
 	maitoshi	{[scat quant]} =every_year= "mai_EVERY_toshi"
-ryoohoo	{[scat quant]} "ryoo_BOTH_hoo" =direction= 	% 両方 changed to quant
-ryoome	{[scat quant]} "ryoo_BOTH_me" =eye= 	% 両方 
-ryoote	{[scat quant]} "ryoo_BOTH_te" =hand= 	% 両手 
-ryooashi	{[scat quant]} "ryoo_BOTH_ashi" =foot= 	% 両足 
-ryookata	{[scat quant]} "ryoo_BOTH_kata" =shoulder= 	% 両肩
-ryoomen	{[scat quant]} "ryoo_BOTH_men" =side= 	% 両面
+ryoohoo	{[scat quant]} "ryoo_BOTH_hoo" =both= 	% 両方 changed to quant
+ryoome	{[scat quant]} "ryoo_BOTH_me" =both_eyes= 	% 両方 
+ryoote	{[scat quant]} "ryoo_BOTH_te" =both_hands= 	% 両手 
+ryooashi	{[scat quant]} "ryoo_BOTH_ashi" =both_feet= 	% 両足 
+ryookata	{[scat quant]} "ryoo_BOTH_kata" =both_shoulders= 	% 両肩
+ryoomen	{[scat quant]} "ryoo_BOTH_men" =both_sides= 	% 両面

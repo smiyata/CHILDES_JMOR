@@ -220,5 +220,10 @@ nanaoku	{[scat num][comp num+num][allo numCFa]} =seven_hundredmillion= "nana+oku
 hachioku	{[scat num][comp num+num][allo numCFa]} =eight_hundredmillion= "hachi+oku"
 kyuuoku	{[scat num][comp num+num][allo numCFa]} =nine_hundredmillion= "kyuu+oku"
 juuoku	{[scat num][comp num+num][allo numCFa]} =ten_hundredmillion= "juu+oku"
-
+sanjuuoku	{[scat num][comp num+num][allo numCFa]} =three_billion= "sanjuu+oku"
+senkyuuhyakurokujuu	{[scat num][comp num+num+num][allo numCFa]} =thousand_nine_hundred_sixty= "sen+kyuuhyaku+rokujuu"
+nijuuoku	{[scat num][comp num+num][allo numCFa]} =two_billion= "nijuu+oku"
+nisenjuu	{[scat num][comp num+num][allo numCFa]} =two_thousand_ten= "nisen+juu"
+yonjuuoku	{[scat num][comp num+num][allo numCFa]} =four_billion= "yonjuu+oku"
+nisengojuu	{[scat num][comp num+num][allo numCFa]} =two_thousand_fifty= "nisen+gojuu"
 

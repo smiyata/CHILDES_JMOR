@@ -1,0 +1,21 @@
+@UTF8
+
+
+
+%%%% num
+
+
+kakoku	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "kakoku_COUNTRY"
+sha	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "sha_COMPANY"
+wa	{[scat numclsfx] [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "wa_STORY" % n話
+chaku	{[scat numclsfx]  [allo OR numBFa numBFb numCFa numCFn numCBa numCBn1 numCBb numCBn2]} "chaku_PIECE" % n着
+
+%%%% vtense
+toku	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-PRES"
+toite	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-CONN"
+toita	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-PAST"
+tokoo	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-DELB/HORT/INFR"
+tokanai	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-NEG-PRES"
+tokanakatta	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-NEG-PAST"
+tokanakute	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-NEG-CONN"
+tokan	{[scat vtense] [tense pres] [allo OR vV vC vTTw vTTr vAIs vAIt vTIk vTKi vTSi vTTik vBKo]} "keep-NEG"

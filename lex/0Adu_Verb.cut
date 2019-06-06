@@ -24,11 +24,13 @@ togisumas	{[scat v:c]} =be_sharpened= "tog_sumas&CAUS" %	研ぎ澄ます
 	ayamar	{[scat v:c]} =mistake=	% 【誤る】
 	bur	{[scat v:c]} =pretend_to_be= %〜ぶる
 	demawar	{[scat v:c]} "demawar" =appear_abundantly= %	出回る
+gochisooninar	{[scat v:c]} =be_treated_to_a_meal=
 	hakar	{[scat v:c]} =plan=
 	ikar	{[scat v:c]} =get_angry=
 	kur	{[scat v:c]} =wind= %	繰る		
 	mair	{[scat v:c]} =worship=	%【参る】
 	memor	{[scat v:c]} =put_graded_scale=	%【目盛る】
+mitemawar	{[scat v:c][comp v:v+v:c]} =look_around= "mi-CONN+mawar"
 	mor	{[scat v:c]} =be_leaky=	%【漏る】
 	mor	{[scat v:c]} =fill_up=	%【盛る】
 	nar	{[scat v:c]} =grow=	%【生る】
@@ -58,11 +60,14 @@ naos	{[scat v:c]} =fix=	%【直す】
 ut	{[scat v:c]} =hit/shoot=	%【打つ】【撃つ】
 %%%%%%%%%%%%%%%%%%%%%%%%%% "m"
 nozom {[scat v:c]} =confront=
+%%%%%%%%%%%%%%%%%%%%%%%%%% "b"
+musub	{[scat v:c]} =conclude=
 %%%%%%%%%%%%%%%%%%%%%%%%%% "w"
 	furumaw	{[scat v:c]} =distribute=
 	yuw	{[scat v:c]} =bind=	%【結う】
 mukaw	{[scat v:c]} =go=
 ukagaw  {[scat v:c]}    =watch_for_a_chance=
+ukagaw	{[scat v:c]} =hear_POL=
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% "e"
@@ -80,12 +85,14 @@ kake {[scat v:v]} =hang= % 帽子をハンガーに_掛ける_
 	megake	{[scat v:v]} =aim=	%【目がける/目掛ける】
 megumare {[scat v:v]} =be_blessed= % 恵まれる
 mirare {[scat v:v]} =seem= % VB2の“見られる”
+mukae	{[scat v:v]} =reach_a_certain_time=
 ne	{[scat v:v]} =sleep=
 	onde	{[scat v:v]} =get_out=
 shime {[scat v:v]} =rank= % 占める
 shirizoke {[scat v:v]} =repulse=
 tegake	{[scat v:v]} =manage=
 	tome	{[scat v:v]} =lodge_sb=	%【泊める】
+	tsukawarehajime	{[scat v:v][comp v:v+v:v]} =be_used_start= "tsukaw-PASS+hajime"
 	tsutome	{[scat v:v]} =strive=	%【努める】
 	tsutome	{[scat v:v]} =be_employed=	%【努める】
 yabure {[scat v:v]} =lose= % 敗れる
@@ -1641,7 +1648,7 @@ imisu	{[scat v:ir]} "imi_su" =denote= %意味する
 kaisu	{[scat v:ir]} "kai_su" =meet=  % 会する
 kaisu	{[scat v:ir]} "kai_su" =mind=  % 介する
 kaisu	{[scat v:ir]} "kai_su" =understand=  % 解する
-kansu	{[scat v:ir]} "kan_su" =impose % 科さな(い)
+kansu	{[scat v:ir]} "kan_su" =impose= % 科さな(い)
 %kansu	{[scat v:ir]} =concern= "kan_su" %関する => adn|kansuru ptl:foc|kanshite
 kasu	{[scat v:ir]} "ka_su" =impose= % 科する
 kessu	{[scat v:ir]} "kes_su" =decide= %	決する

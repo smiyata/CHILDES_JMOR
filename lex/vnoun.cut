@@ -152,7 +152,6 @@
 	asshoo {[scat n:vn]} =overwhelming_victory=
 	atafuta	{[scat n:vn]} =helter_skelter=	
 	atekko	{[scat n:vn]} =guessing_competition= "ate_kko_DIM"	%【っこ
-	atenige	{[scat n:vn]} =hit_and_run_away= "ate_nige"	% 当て逃げ
 	attoo	{[scat n:vn]} =overwhelming=	%【圧倒 
 	atomodori	{[scat n:vn]} =retrogression=	%【後戻り】
 	atoshimatsu	{[scat n:vn]} =dealing_with_aftermath=	%【後始末/跡始末】
@@ -176,7 +175,7 @@
 	benkyoochuu	{[scat n]} =study_while= "benkyoo_chuu_WHILE"	%【勉強】
 	benkyo	{[scat n:vn] [npform o]} =study= "benkyoo"	%【勉強】
 	benshoo	{[scat n:vn]} =pay_for_damage=	%【弁償】+
-	bika	{[scat n:vn]} =beautification= "bi_ka_BECOMING" % 美化
+	bika	{[scat n:vn]} =beautification= "bi_ka_CHANGE" % 美化
 	bikkuri	{[scat n:vn]} =surprised=	%
 	bimboo	{[scat n:vn]} =being_poor=	%【貧乏】
 	boketto	{[scat n:vn]} =absentmindedly=	%
@@ -194,7 +193,6 @@
 	bumbetsu	{[scat n:vn]} =classification=	%【分別】
 	bunjoo	{[scat n:vn]} =house_and_lot=	%【分譲】
 	bunkai	{[scat n:vn]} =decomposition=	%【分解】
-	bunka	{[scat n:vn]} =differentiation= "bun_ka_CHANGE" % 分化
 	bunkatsu	{[scat n:vn]} =partition=	%【分割】
 	buntan		{[scat n:vn]} =assignation= 
 	bushoo	{[scat n:vn]} =indolence=	%【無精/不精】
@@ -208,7 +206,6 @@
 	chimmoku	{[scat n:vn]} =silence=	%【鎮火】
 	chikuseki	{[scat n:vn]} =accumulation=
 	chinka	{[scat n:vn]} =extinguish=	%【鎮火】
-	chinseeka	{[scat n:vn]} =calming_down= "chinsee_ka_CHANGE" % 鎮静化
 	chiryoo	{[scat n:vn]} =healing=	%【治療】
 	chokin	{[scat n:vn]} =money_deposit=	%【貯金】
 	chokkai	{[scat n:vn]} =poking_nose_into=

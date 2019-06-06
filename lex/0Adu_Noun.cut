@@ -1487,7 +1487,7 @@ uresuji	{[scat n][comp v:v+n]} =well_selling_line= "ure+suji"
 weetaa	{[scat n]} =waiter=
 ya	{[scat n]} =arrow= 	% 矢 箭 
 yachinkankaku	{[scat n][comp n+n]} "yachin+kankaku" =house_rent_sense=
-yadoya	   {[scat n]} =inn= "yado_ya_SHOP" 宿屋
+yadoya	   {[scat n]} =inn= "yado_ya_SHOP" %宿屋
 yakki	{[scat n]} =wrought_up= % 躍起
 yakuin          {[scat n]}          =executive=
 yakuinkoosee	{[scat n][comp n+n]} =list_of_directors= "yakuin+koosee"
@@ -2805,6 +2805,7 @@ toohyoo	{[scat n:vn]} =voting=
 toosan	       {[scat n:vn]} =bankruptcy=
 toosee	 {[scat n:vn]} =control=
 toosen {[scat n:vn]} =be_elected= 
+tooshi	{[scat n:vn]} =investment=	%投資
 tooshi {[scat n:vn]} =seeing_through= % 透視
 tooshuu	       {[scat n:vn]} =following=
 tsunamihisai {[scat n:vn][comp n+n:vn]} =damage_by_tsunami= "tsunami+hisai"
@@ -2871,6 +2872,7 @@ zatsudan	{[scat n:vn]} =chat=
 zenkai	{[scat n:vn]} =be_completely_destroyed=
 zenshin	       {[acat n:vn]} =advance=
 zenshin	{[scat n:vn]} =advance=
+zooka	{[scat n:vn]} =increase=	%増加
 zuihitsuka	{[scat n:vn]} =making_an_essay= "zuihitsu_ka_CHANGE" % 随筆化
 %%%% Formal Noun
 hoo		{[scat n:fml]} =one=

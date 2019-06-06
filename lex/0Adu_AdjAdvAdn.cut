@@ -252,13 +252,83 @@ akuru	{[scat adn]} =the_next=
 kitaru	{[scat adn]} =forthcoming=
 
 %%%% Quantifier
-zen'in	{[scat quant]} =all_members= 	% 全員 
+
+ 
+bai	{[scat quant]} =double= % 倍
+darehitori	{[scat quant]} =no_one= % 誰一人
+han	{[scat quant]} =half= % 半
 nanihitotsu	{[scat quant]} =nothing=
+shooryoo	{[scat quatn]} =small_quantity= "shoo_SMALL_ryoo" % 小量/少量
 soohoo	{[scat quant]} =both_side=
+tairyoo	{[scat quant]} =large_quantity= "tai_BIG_ryoo" % 大量
+tasuu	{[scat quant]} =many= % 多数
 tomo	{[scat quant]} =both=
 toono	{[scat adn:deic:dem]} =that= %当の
+zembee	{[scat quant]} =all_America= "zen_ALL_bee" % 全米
+zembun	{[scat quant]} =full_text= "zen_ALL_bun" % 全文
+zembun'ya	{[scat quant]} =all_fields= "zen_ALL_bun'ya" % 全分野
+zembusho	{[scat quant]} =all_posts= "zen_ALL_busho" % 全部署
+zemmen	{[scat quant]} =all_aspects= "zen_ALL_men" % 全面
+zempan	{[scat quant]} =whole= % 全般
+zempen	{[scat quant]} =all_parts= "zen_ALL_pen" % 全篇
+zen'eki	{[scat quant]} =all_stations= "zen_ALL_eki" % 全駅 % n のエントリーを消してもらう
+zen'eshu	{[scat quant]} =all_congregations= "zen_ALL_eshu" % 全会衆
+zen'iki	{[scat quant]} =whole_area= "zen_ALL_iki" % 全域
+zen'in	{[scat quant]} =all_members= 	% 全員 
+zen'in	{[scat quant]} =whole_members= "zen_ALL_in" % 全員 % 0Adu_AdjAdvAdn 中のエントリーを削除してほしい
+zenchi	{[scat quant]} =all_lands= "zen_ALL_chi" % 全地
+zenchiku	{[scat quant]} =all_areas= "zen_ALL_chiku" % 全地区
+zenchikyuu	{[scat quant]} =whole_earth= "zen_ALL_chikyuu" % 全地球
+zenchoo	{[scat quant]} =entire_length= "zen_ALL_choo" % 全長
+zendo	{[scat quant]} =whole_land= "zen_ALL_do" % 全土
+zengakkyuu	{[scat quant]} =all_classes= "zen_ALL_gakkyuu" % 全学級
+zengaku	{[scat quant]} =whole_expense= "zen_ALL_gaku" % 全額
+zengakusee	{[scat quant]} =all_students= "zen_ALL_gakusee" % 全学生
+zenitariajindansee	{[scat quant][comp n+n]} =all_Italian_men= "zen_ALL_itaria_jin_PERSON+dansee" % 全イタリア人男性
+zenjinrui	{[scat quant]} =whole_mankind= "zen_ALL_mankind" % 全人類
+zenjinryoku	{[scat quant]} =all_manpowers= "zen_ALL_jinryoku" % 全人力
+zenjoseeshain	{[scat quant]} =all_female_employees= "zen_ALL_josee+shain" % 全女性社員
+zenjuutaku	{[scat quant]} =all_houses= "zen_ALL_juutaku" % 全住宅
+zenkamoku	{[scat quant]} =all_subjects= "zen_ALL_kamoku" % 全科目
+zenkanadajinkyojuusha	{[scat quant][comp n+n]} =all_Canadian_inhabitants= "zen_ALL_kanada_jin_PERSON+kyojuu_sha_PERSON" % 全カナダ人居住者
+zenkigyoo	{[scat quant]} =all_companies= "zen_ALL_kigyoo" % 全企業
+zenkoku	{[scat quant]} =whole_country= "zen_ALL_koku" % 全国 % n のエントリーを削除してほしい
+zenkokumin	{[scat quant]} =all_people= "zen_ALL_kokumin" % 全国民
+zenkoo	{[scat quant]} =whole_school= "zen_ALL_koo" % 全校
+zenkootee	{[scat quant]} =whole_members= "zen_ALL_kootee" % 全行程
+zenkukan {[scat quant]} =all_intervals= "zen_ALL_kukan" % 全区間
+zenkyojuusha {[scat quant]} =all_inhabitants= "zen_ALL_kyojuu_sha_PERSON" % 全居住者
+zenkyooka {[scat quant]} =all_subjects= "zen_ALL_kyooka" % 全教科
+zenmondai {[scat quant]} =all_problems= "zen_ALL_mondai" % 全問題
+zennendokan {[scat quant]} =between_all_years= "zen_ALL_nendokan" % 全年度間
+zennihon {[scat quant]} =whole_Japan= "zen_ALL_nihon" % 全日本
+zennihonjin {[scat quant]} =all_Japanese= "zen_ALL_nihon_jin_PERSON" % 全日本人
+zenressha {[scat quant]} =all_trains= "zen_ALL_ressha" % 全列車
+zenritee {[scat quant]} =all_distance= "zen_ALL_ritee" % 全里程
+zenryoku {[scat quant]} =all_one's_power= "zen_ALL_ryoku" % 全力
+zenryoo {[scat quant]} =the_whole_quantity= "zen_ALL_ryoo" % 全量
+zensangyoo {[scat quant]} =all_industries= "zen_ALL_sangyoo" % 全産業
+zenseeryoku {[scat quant]} =all_energies= "zen_ALL_seeryoku" % 全精力
+zensekai {[scat quant]} =whole_world= "zen_ALL_sekai" % 全世界
+zensen {[scat quant]} =all_lines= "zen_ALL_sen" % 全線
+zensenryoku {[scat quant]} =all_military_power= "zen_ALL_senryoku" % 全戦力
+zensetai {[scat quant]} =all_households= "zen_ALL_setai" % 全世帯
+zensha {[scat quant]} =whole_company= "zen_ALL_sha" % 全社
+zenshain {[scat quant]} =all_employees_= "zen_ALL_shain" % 全社員
+zenshin {[scat quant]} =whole_body= "zen_ALL_shin" % 全身
+zenshinkee {[scat quant]} =every_nerve= "zen_ALL_shinkee" % 全神経
+zenshinnyuushain {[scat quant][comp n+n]} =all_newly_hired_employees= "zen_ALL_shinnyuu+shain" % 全新入社員
+zenshoohin {[scat quant]} =all_goods= "zen_ALL_shoohin" % 全商品
+zentoo {[scat quant]} =whole_insland= "zen_ALL_too" % 全島
+zentoomin {[scat quant]} =all_inhabitants_of_island= "zen_ALL_toomin" % 全島民
+zenyooroppajin {[scat quant]} =all_European= "zen_ALL_yooroppa_jin_PERSON" % 全ヨーロッパ人
+zenzaisan {[scat quant]} =one's_entire_property= "zen_ALL_zaisan" % 全財産
+
 
 %%%% CONJ
+chinamini	{[scat conj]} =by_the_way=
+datosuruto	{[scat conj]} =assuming_that=
+desuga	{[scat conj]} =but=
 ga	{[scat conj]} =but=
 ippoo	{[scat conj]} =on_the_other_hand=
 ja	{[scat conj]} =then=
@@ -292,6 +362,8 @@ yotte	{[scat conj]} =therefore=
 
 
 %%%% Sentence Modalizer
+chigainai	{[scat smod]} =must= "chigaina-PRES"
+chigainakatta	{[scat smod]} =must= "chigaina-PAST"
 dearoo	{[scat smod]} =INFR=
 rashi	{[scat smod]} =SENS= "rashi&PRES"
 midai	{[scat smod]} =INFR= "mitai"
@@ -303,6 +375,10 @@ tsumori	{[scat smod]} =INTEN= % intentional
 
 %%%% Interjection
 nanda	{[scat co:i]} =oh= "nan_da"
+yare	{[scat co:i]} =sigh=
+ano	{[scat co:i]} =well=
+chotto	{[scat co:i]} =just_a_minute=
+
 
 %%%% onoma
 battari	{[scat onoma]} =unexpectedly=
@@ -323,6 +399,7 @@ hossori	{[scat onoma]} =slender= % n:vn:onoma を削除?
 iraira	{[scat onoma]} =in_a_flet=
 kachikachi	{[scat onoma]} =solidly= % adv:onoma を削除?
 kippari	{[scat onoma]} =diffinitely=
+kitto	{[scat adv:onoma]} =sharply= "kit_to"
 kunekune	{[scat onoma]} =tortuous=
 meramera	{[scat onoma]} =in_flames=
 omeome	{[scat onoma]} =tamely=
@@ -334,5 +411,5 @@ uzuuzu	{[scat onoma]} =eagarly=
 utsurautsura	{[scat onoma]} % 他のエントリーを削除してもらう
 zukezuke	{[scat onoma]} =bluntly=
 zurari	{[scat onoma]} =in_a_row=
-kitto	{[scat adv:onoma]} =sharply= "kit_to"
+zuruzuru	{[scat onoma]} =loose=
 

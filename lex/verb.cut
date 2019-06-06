@@ -677,7 +677,7 @@ miayamar	{[scat v:c][comp v:v+v:c]} "mi+ayamar" =misread= %	見誤る
 yomiayamar	{[scat v:c][comp v:c+v:c]} =read_wrong= "yom+ayamar"
 shiayamar	{[scat v:c][comp v:ir+v:c]} =do_wrong= "su+ayamar"
 shiayamar	{[scat v:c:sub][comp v:ir+v:c]} =do_wrong= "su+ayamar"
-omoiamar	{[scat v:c]} "omow_amar" =err= %	思い誤る		
+omoiayamar	{[scat v:c]} "omow_amar" =err= %	思い誤る		
 	ayatsur	{[scat v:c]} =manipulate=	%操る
 	azukar	{[scat v:c]} =deposit=	%預かる
 	bibir	{[scat v:c]} =be_nervous=
