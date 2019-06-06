@@ -248,8 +248,9 @@ niisan	{[scat npropsfx]} "nii_ELDER_BROTHER-san_HON"
 
 %anoun -> noun suffix n|kakujitsu-sa ######## doesn't work
 % allo annsfx (nansfx is n>an, nasfx is n>a)
-soo	{[scat annsfx][sfxcat n]} "soo_SEEMINGx"
-sa	{[scat annsfx][sfxcat n]} "sa_NLZR" 
+soo	{[scat annsfx][sfxcat n]} "soo_SEEMING"
+sa	{[scat annsfx]} "sa_NLZR" 
+%sa	{[scat annsfx][sfxcat n]} "sa_NLZR" 
 
 % adjective suffixes	########
 
