@@ -924,6 +924,14 @@ then
 RESULTCAT = DEL [scat], ADD [scat n:an]
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
 
+%%	for -sa  adj noun ->  noun
+if
+STARTCAT = [scat OR n n:an ]
+NEXTCAT = [scat annsfx]
+then
+RESULTCAT = DEL [scat], ADD [scat n]
+RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, vn-suffix, }
+
 %%%%%%%%%%%%%%%%%%%
 %% VERBAL NOUN STARTS 
 %%%%%%%%%%%%%%%%%%%
@@ -974,7 +982,7 @@ RULENAME: an-suffix
 CTYPE: -
 if
 STARTCAT = [scat n:an]
-NEXTCAT = [scat OR ansfx nansfx]
+NEXTCAT = [scat OR ansfx nansfx annsfx]
 then
 RESULTCAT = STARTCAT
 RULEPACKAGE = {pfx-noun, sfx-noun, n-comp, an-suffix, n-bound, n-rendaku}
